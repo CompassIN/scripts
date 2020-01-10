@@ -1,0 +1,17 @@
+--Request 
+GET http://10.10.30.7:81/cgi-bin/findflight?firstName=Tiger&lastName=Scott&address1=4261+Stevenson+Blvd.&address2=Fremont%2C+CA+94538&pass1=Scott+Tiger&creditCard=&expDate=&oldCCOption=&numPassengers=1&seatType=Coach&seatPref=None&outboundFlight=130%7C548%7C01-16-2019&advanceDiscount=&buyFlights.x=76&buyFlights.y=15&.cgifields=saveCC
+Host: 10.10.30.7:81
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+Referer: http://10.10.30.7:81/cgi-bin/findflight?outboundFlight=button0&hidden_outboundFlight_button0=130%7C548%7C01-16-2019&hidden_outboundFlight_button1=131%7C499%7C01-16-2019&hidden_outboundFlight_button2=132%7C523%7C01-16-2019&hidden_outboundFlight_button3=133%7C449%7C01-16-2019&numPassengers=1&advanceDiscount=&seatType=Coach&seatPref=None&reserveFlights.x=91&reserveFlights.y=16
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-type: text/html
+Content-length: 0000004076
+----
+

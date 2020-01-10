@@ -1,0 +1,37 @@
+10/4 11:51:31|ChomeSnapShotUtil|run|Exception in getting snapshot for url = http://10.10.30.7:81/cgi-bin/welcome|Following is the stack trace:
+java.lang.IllegalArgumentException: image == null!
+	at javax.imageio.ImageTypeSpecifier.createFromRenderedImage(Unknown Source)
+	at javax.imageio.ImageIO.getWriter(Unknown Source)
+	at javax.imageio.ImageIO.write(Unknown Source)
+	at com.netstorm.chromium.util.ChromeSnapShotUtil.run(ChromeSnapShotUtil.java:127)
+	at java.lang.Thread.run(Unknown Source)
+10/4 11:51:32|ChomeSnapShotUtil|run|Exception in getting snapshot for url = http://10.10.30.7:81/cgi-bin/welcome|Following is the stack trace:
+java.lang.IllegalArgumentException: image == null!
+	at javax.imageio.ImageTypeSpecifier.createFromRenderedImage(Unknown Source)
+	at javax.imageio.ImageIO.getWriter(Unknown Source)
+	at javax.imageio.ImageIO.write(Unknown Source)
+	at com.netstorm.chromium.util.ChromeSnapShotUtil.run(ChromeSnapShotUtil.java:127)
+	at java.lang.Thread.run(Unknown Source)
+10/4 11:51:32|ScriptDefaultExceptionHandler|uncaughtException|Caught an unhandled exception - Non-EDT Exception in Thread-33|Following is the stack trace:
+java.lang.Exception: java.lang.IllegalArgumentException: image == null!
+	at pacAction.ScriptDefaultExceptionHandler$1.run(ScriptDefaultExceptionHandler.java:28)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: java.lang.IllegalArgumentException: image == null!
+	at javax.imageio.ImageTypeSpecifier.createFromRenderedImage(Unknown Source)
+	at javax.imageio.ImageIO.getWriter(Unknown Source)
+	at javax.imageio.ImageIO.write(Unknown Source)
+	at com.netstorm.browser.Utils$ScreenShot.run(Utils.java:2618)
+	at java.lang.Thread.run(Unknown Source)

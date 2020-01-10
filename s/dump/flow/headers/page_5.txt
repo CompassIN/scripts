@@ -1,0 +1,40 @@
+--Request 
+POST https://clients1.google.com/tbproxy/af/query?client=Chromium
+Host: clients1.google.com
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Content-Type: text/proto
+----
+ POSTDATA 
+6.1.1715.1442/en (GGLL)ÝÛ<Ô?ìzV#-Tb)­$#-{?Ä¥$#-;9…$#-Ú…™a$#-©ŽJ½$
+--Response 
+HTTP/1.1 200
+date: Wed, 12 Jun 2019 08:30:20 GMT
+content-length: 32
+server: AutoFill Server
+x-content-type-options: nosniff
+x-xss-protection: 0
+content-encoding: gzip
+x-frame-options: SAMEORIGIN
+content-type: text/proto
+alt-svc: quic=\":443\"; ma=2592000; v=\"46,44,43,39\"
+cache-control: private
+status: 200
+----
+--Request 
+GET http://66.220.31.131:9020/tours/vep/images/velocigen.gif
+Host: 66.220.31.131:9020
+Referer: http://66.220.31.131:9020/cgi-bin/reservation
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-Length: 2018
+Content-Type: image/gif
+----
+

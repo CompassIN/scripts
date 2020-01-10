@@ -1,0 +1,17 @@
+--Request 
+GET http://10.10.30.2:81/cgi-bin/reservation
+Host: 10.10.30.2:81
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+Referer: http://10.10.30.2:81/cgi-bin/login?userSession=75893.0884568651DQADHfApHDHfcDtccpfAttcf&username=amlansamlan&password=fyhehhcxcb&login.x=59&login.y=16&login=Login&JSFormSubmit=off
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-type: text/html
+Content-length: 0000004653
+----
+

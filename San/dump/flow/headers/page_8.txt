@@ -1,0 +1,17 @@
+--Request 
+GET http://66.220.31.131:9020/cgi-bin/reservation
+Host: 66.220.31.131:9020
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+Referer: http://66.220.31.131:9020/cgi-bin/findflight?hidden_outboundFlight_button0=000%7C0%7C06-13-2019&outboundFlight=button1&hidden_outboundFlight_button1=001%7C0%7C06-13-2019&hidden_outboundFlight_button2=002%7C0%7C06-13-2019&hidden_outboundFlight_button3=003%7C0%7C06-13-2019&numPassengers=1&advanceDiscount=&seatType=Coach&seatPref=Aisle&reserveFlights.x=36&reserveFlights.y=13
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-type: text/html
+Content-length: 0000004653
+----
+

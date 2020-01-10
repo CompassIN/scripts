@@ -1,0 +1,122 @@
+--Request 
+GET http://66.220.31.131:9020/cgi-bin/reservation
+Host: 66.220.31.131:9020
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+Referer: http://66.220.31.131:9020/cgi-bin/login?userSession=75893.0884568651DQADHfApHDHfcDtccpfAttcf&username=gdadddad&password=ddds&login.x=35&login.y=16&login=Login&JSFormSubmit=off
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-type: text/html
+Content-length: 0000004653
+----
+--Request 
+GET http://66.220.31.131:9020/tours/Merc10-dev/images/banner_animated.gif
+Host: 66.220.31.131:9020
+Referer: http://66.220.31.131:9020/cgi-bin/reservation
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-Length: 16522
+Content-Type: image/gif
+----
+--Request 
+GET http://66.220.31.131:9020/tours/Merc10-dev/images/sun_swede.gif
+Host: 66.220.31.131:9020
+Referer: http://66.220.31.131:9020/cgi-bin/reservation
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-Length: 4125
+Content-Type: image/gif
+----
+--Request 
+GET http://66.220.31.131:9020/tours/Merc10-dev/images/flights.gif
+Host: 66.220.31.131:9020
+Referer: http://66.220.31.131:9020/cgi-bin/reservation
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-Length: 1519
+Content-Type: image/gif
+----
+--Request 
+GET http://66.220.31.131:9020/tours/Merc10-dev/images/home.gif
+Host: 66.220.31.131:9020
+Referer: http://66.220.31.131:9020/cgi-bin/reservation
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-Length: 1268
+Content-Type: image/gif
+----
+--Request 
+GET http://66.220.31.131:9020/tours/Merc10-dev/images/signoff.gif
+Host: 66.220.31.131:9020
+Referer: http://66.220.31.131:9020/cgi-bin/reservation
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-Length: 1260
+Content-Type: image/gif
+----
+--Request 
+GET http://66.220.31.131:9020/tours/Merc10-dev/images/splash_Findflight.gif
+Host: 66.220.31.131:9020
+Referer: http://66.220.31.131:9020/cgi-bin/reservation
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-Length: 2215
+Content-Type: image/gif
+----
+--Request 
+GET http://66.220.31.131:9020/tours/images/continue.gif
+Host: 66.220.31.131:9020
+Referer: http://66.220.31.131:9020/cgi-bin/reservation
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-Length: 1432
+Content-Type: image/gif
+----
+
