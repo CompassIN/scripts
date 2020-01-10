@@ -108,7 +108,6 @@ Delivery()
 		"  ]\r\n"
 		"}\r\n",
 		LAST);
-
 		
       if(atoi(lr_eval_string("{T12}"))>0)
 				{
