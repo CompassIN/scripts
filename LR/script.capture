@@ -1,0 +1,27 @@
+main()
+{
+  int next_page, think_time;
+//Define Any NS Variables here. Do not remove or modify this line
+
+//End of NS Variable decalarations. Do not remove or modifify this line
+
+  next_page = init_script();
+
+  while(next_page != -1) {
+    switch(next_page) {
+      case deliveries:
+        think_time = pre_page_deliveries();
+        web_url (deliveries,
+          METHOD=GET,
+          URL=https://api-digital-preprod.lowes.com/digital/preprod/v1/edcdelsrv/orders/822191888/deliveries,
+          NUM_EMBED=0);
+        next_page = check_page_deliveries();
+        break;
+
+      default:
+        next_page = -1;
+    }
+    do_think(think_time);
+  }
+  exit_script();
+}

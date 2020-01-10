@@ -1,0 +1,7 @@
+6/21 11:31:45|ChomeSnapShotUtil|run|Exception in getting snapshot for url = http://10.10.30.15:9021/tours/index.html|Following is the stack trace:
+java.lang.IllegalArgumentException: image == null!
+	at javax.imageio.ImageTypeSpecifier.createFromRenderedImage(Unknown Source)
+	at javax.imageio.ImageIO.getWriter(Unknown Source)
+	at javax.imageio.ImageIO.write(Unknown Source)
+	at com.netstorm.chromium.util.ChromeSnapShotUtil.run(ChromeSnapShotUtil.java:127)
+	at java.lang.Thread.run(Unknown Source)

@@ -14,7 +14,11 @@
 
 void flow()
 {
+<<<<<<< HEAD
     ns_start_transaction("index"); 	
+=======
+    ns_start_transaction("index");
+>>>>>>> 6aa46ec77b49cf2362215c80133781ddd7f92eff
     ns_web_url ("index_html",
         "URL=http://127.0.0.1/tours/index.html",
         "HEADER=Accept-Language:en-us",
@@ -27,6 +31,7 @@ void flow()
             "URL=http://127.0.0.1/tours/Merc10-dev/images/login.gif", "HEADER=Accept-Language:en-us", "COOKIE=akaau", END_INLINE,
             "URL=http://127.0.0.1/tours/images/banner_merctur.jpg", "HEADER=Accept-Language:en-us", "COOKIE=akaau", END_INLINE
     );
+<<<<<<< HEAD
     ns_end_transaction("index", NS_AUTO_STATUS);
 
     //  printf("\n*********parameter is [%d]\n\n**********",ns_eval_string("{number}"));
@@ -36,6 +41,14 @@ void flow()
     ns_start_transaction("login");
     ns_web_url ("login",
         "URL=http://10.10.30.74/cgi-bin/login?userSession=75893.0884568651DQADHfApHDHfcDtccpfAttcf&username=netstorm&password=netstorm&login.x=63&login.y=22&login=Login&JSFormSubmit=off",
+=======
+    ns_end_transaction("index", NS_AUTO_STATUS);    
+/*
+    ns_page_think_time(10.422);
+
+    ns_web_url ("login",
+        "URL=http://127.0.0.1/cgi-bin/login?userSession=75893.0884568651DQADHfApHDHfcDtccpfAttcf&username=netstorm&password=netstorm&login.x=63&login.y=22&login=Login&JSFormSubmit=off",
+>>>>>>> 6aa46ec77b49cf2362215c80133781ddd7f92eff
         "HEADER=Upgrade-Insecure-Requests:1",
         "HEADER=Accept-Language:en-us",
         "COOKIE=akaau",
@@ -50,11 +63,19 @@ void flow()
             "URL=http://127.0.0.1/tours/images/banner_merctur.jpg", "HEADER=Accept-Language:en-us", "COOKIE=akaau", END_INLINE,
             "URL=http://127.0.0.1/tours/vep/images/velocigen.gif", "HEADER=Accept-Language:en-us", "COOKIE=akaau", END_INLINE
     );
+<<<<<<< HEAD
 ns_page_think_time(2.401);
     ns_end_transaction("login", NS_AUTO_STATUS);
 
     ns_web_url ("reservation",
         "URL=http://10.10.30.123/cgi-bin/reservation",
+=======
+
+    ns_page_think_time(1.739);
+    ns_start_transaction("reservation");
+    ns_web_url ("reservation",
+        "URL=http://127.0.0.1/cgi-bin/reservation",
+>>>>>>> 6aa46ec77b49cf2362215c80133781ddd7f92eff
         "HEADER=Upgrade-Insecure-Requests:1",
         "HEADER=Accept-Language:en-us",
         "COOKIE=akaau",
@@ -70,7 +91,12 @@ ns_page_think_time(2.401);
             "URL=http://127.0.0.1/tours/images/continue.gif", "HEADER=Accept-Language:en-us", "COOKIE=akaau", END_INLINE,
             "URL=http://127.0.0.1/tours/vep/images/velocigen.gif", "HEADER=Accept-Language:en-us", "COOKIE=akaau", END_INLINE
     );
+<<<<<<< HEAD
 
+=======
+    ns_end_transaction("reservation", NS_AUTO_STATUS);
+    ns_page_think_time(1.279);
+>>>>>>> 6aa46ec77b49cf2362215c80133781ddd7f92eff
 
     ns_web_url ("findflight",
         "URL=http://127.0.0.1/cgi-bin/findflight?depart=Acapulco&departDate=10-04-2016&arrive=Acapulco&returnDate=10-05-2016&numPassengers=1&seatPref=None&seatType=Coach&findFlights.x=58&findFlights.y=22&findFlights=Submit",
@@ -91,7 +117,12 @@ ns_page_think_time(2.401);
             "URL=http://127.0.0.1/tours/vep/images/velocigen.gif", "HEADER=Accept-Language:en-us", "COOKIE=akaau", END_INLINE
     );
 
+<<<<<<< HEAD
 ns_page_think_time(2.401);
+=======
+    ns_page_think_time(0.944);
+
+>>>>>>> 6aa46ec77b49cf2362215c80133781ddd7f92eff
     ns_web_url ("findflight_2",
         "URL=http://127.0.0.1/cgi-bin/findflight?outboundFlight=button0&hidden_outboundFlight_button0=000%7C0%7C10-04-2016&hidden_outboundFlight_button1=001%7C0%7C10-04-2016&hidden_outboundFlight_button2=002%7C0%7C10-04-2016&hidden_outboundFlight_button3=003%7C0%7C10-04-2016&numPassengers=1&advanceDiscount=&seatType=Coach&seatPref=None&reserveFlights.x=57&reserveFlights.y=7",
         "HEADER=Upgrade-Insecure-Requests:1",
@@ -111,6 +142,10 @@ ns_page_think_time(2.401);
             "URL=http://127.0.0.1/tours/vep/images/velocigen.gif", "HEADER=Accept-Language:en-us", "COOKIE=akaau", END_INLINE
     );
 
+<<<<<<< HEAD
+=======
+    ns_page_think_time(3.159);
+>>>>>>> 6aa46ec77b49cf2362215c80133781ddd7f92eff
 
     ns_web_url ("findflight_3",
         "URL=http://127.0.0.1/cgi-bin/findflight?firstName=Tiger&lastName=Scott&address1=4261+Stevenson+Blvd.&address2=Fremont%2C+CA+94538&pass1=Scott+Tiger&creditCard=&expDate=&oldCCOption=&numPassengers=1&seatType=Coach&seatPref=None&outboundFlight=000%7C0%7C10-04-2016&advanceDiscount=&buyFlights.x=52&buyFlights.y=2&.cgifields=saveCC",
@@ -130,6 +165,10 @@ ns_page_think_time(2.401);
             "URL=http://127.0.0.1/tours/vep/images/velocigen.gif", "HEADER=Accept-Language:en-us", "COOKIE=akaau", END_INLINE
     );
 
+<<<<<<< HEAD
+=======
+    ns_page_think_time(4.048);
+>>>>>>> 6aa46ec77b49cf2362215c80133781ddd7f92eff
 
     ns_web_url ("welcome",
         "URL=http://127.0.0.1/cgi-bin/welcome",
@@ -146,4 +185,12 @@ ns_page_think_time(2.401);
             "URL=http://127.0.0.1/tours/vep/images/velocigen.gif", "HEADER=Accept-Language:en-us", "COOKIE=akaau", END_INLINE
     );
 
+<<<<<<< HEAD
 }
+=======
+    ns_page_think_time(2.401);
+*/
+}
+
+
+>>>>>>> 6aa46ec77b49cf2362215c80133781ddd7f92eff

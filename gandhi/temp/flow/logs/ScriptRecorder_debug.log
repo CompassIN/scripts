@@ -1,0 +1,459 @@
+10/4 11:51:21|ChromeMainFrame|createBrowserWindowWithListener|constructor called.
+10/4 11:51:28|ChromeBrowserConfigurationSettings|EnableDisableBrowserOtions|method called.
+10/4 11:51:28|ChromeBrowserConfigurationSettings|EnableDisableBrowserOtions|Enabling JavaScript feature.
+10/4 11:51:28|ChromeBrowserConfigurationSettings|EnableDisableBrowserOtions|Enabling ImageDownload feature.
+10/4 11:51:28|ChromeBrowserConfigurationSettings|EnableDisableBrowserOtions|Enabling Plugins feature.
+10/4 11:51:28|ChromeBrowserConfigurationSettings|clearLocalStorage|Method called.
+10/4 11:51:28|ChromeBrowserConfigurationSettings|setSecurityCertificationErrors|Method called.
+10/4 11:51:28|ChromeMainFrame|addStatusAndTitleBrowser|Method called.
+10/4 11:51:28|ChromeMainFrame|addPageNavigationListeners|method called.
+10/4 11:51:28|ChromeBrowserNavigationListener|ChromeBrowserNavigationListener|Constructor Called.
+10/4 11:51:28|ChromeWebClickHttpListener||constructor called.
+10/4 11:51:28|ChromeMainFrame|createinitUI|constructor called.
+10/4 11:51:28|TabContent|createComponents|method called.
+10/4 11:51:28|TabContent|createBrowserContainer|method called.
+10/4 11:51:28|TabContent|createToolBar|method called.
+10/4 11:51:28|ProgressBar|initializeGUI|Method Called
+10/4 11:51:28|ToolBar|createToolBarComponents|method called.
+10/4 11:51:28|ToolBar|createAddressBar|method called.
+10/4 11:51:28|ToolBar|createActionsPane|method called.
+10/4 11:51:31|ChromeBrowserNavigationListener|onStartLoadingFrame|Method Called for URL=http://10.10.30.7:81/cgi-bin/welcome
+10/4 11:51:31|ChromeBrowserNavigationListener|onStartLoadingFrame|Begin Loading URL == http://10.10.30.7:81/cgi-bin/welcome  ===== Begin = 1538634091525
+10/4 11:51:31|Utils|getURLTracker|urlString = http://10.10.30.7:81/cgi-bin/welcome, requestOrResponce = snapShot
+10/4 11:51:31|ProgressBar|setVisible|Method Called. bool = true
+10/4 11:51:32|ChromeBrowserNavigationListener|onFinishLoadingFrame|Method Called for URL=http://10.10.30.7:81/cgi-bin/welcome
+10/4 11:51:32|Utils|getURLTracker|urlString = http://10.10.30.7:81/cgi-bin/welcome, requestOrResponce = snapShot
+10/4 11:51:32|ChromeClickListener|addAllHTMLElementsListeners|Method Called.
+10/4 11:51:32|Utils|addStepName|returning step Name=welcome in map={welcome=1}
+10/4 11:51:32|Utils|addClick|Method called for browser = Mercury Tours
+10/4 11:51:32|ProgressBar|setVisible|Method Called. bool = false
+10/4 11:51:32|ScriptHTMLStart|Recording|Thread state =2
+10/4 11:51:32|ChromeBrowserNavigationListener|addHTMLElementsListeners|Method Called.
+10/4 11:51:32|ChromeNetstormKeyDownListener|addAllHTMLElementsListeners|Method Called.
+10/4 11:51:32|ScriptHTMLStart|run|Setting thread state.State of Thread - 2
+10/4 11:51:32|ChromeNetstormFocusListener|addHTMLElementsListeners|Method Called.
+10/4 11:51:35|ChromeNetstormFocusListener|handleEvent|Method Called.
+10/4 11:51:35|ChromeNetstormFocusListener|dumpEvent|Method Called.
+10/4 11:51:36|ChromeClickListener|dumpEvent|Method Called. Event Type: com.teamdev.jxbrowser.chromium.dom.events.DOMEventType@5a5c588
+ Tag Name = INPUT
+10/4 11:51:36|Utils|updateHrefOfLastClick|setting value=http://10.10.30.7:81/cgi-bin/welcome for element=
+ns_browser("welcome",
+        "url=null",
+        "browserurl=http://10.10.30.7:81/cgi-bin/welcome",
+        "action=Home",
+        "title=Mercury Tours",
+        "Snapshots=webpage_1538634092777.png");
+10/4 11:51:40|ChromeBrowserNavigationListener|handleEvent|Method Called.
+10/4 11:51:40|ChromeNetstormFocusListener|handleEvent|Method Called.
+10/4 11:51:40|ChromeBrowserNavigationListener|dumpEvent|Method Called.
+10/4 11:51:40|ChromeBrowserNavigationListener|dumpEvent|Event Type: com.teamdev.jxbrowser.chromium.dom.events.DOMEventType@aed713b0
+ Tag Name = INPUT
+10/4 11:51:40|Utils|addStepName|returning step Name=welcome_2 in map={welcome=2}
+10/4 11:51:40|Utils|getOrdinalValue|method called.
+10/4 11:51:40|Utils|addClick|Method called for browser = Mercury Tours
+10/4 11:51:40|ChromeNetstormFocusListener|dumpEvent|Method Called.
+10/4 11:51:41|ChromeClickListener|dumpEvent|Method Called. Event Type: com.teamdev.jxbrowser.chromium.dom.events.DOMEventType@5a5c588
+ Tag Name = INPUT
+10/4 11:51:41|Utils|updateHrefOfLastClick|setting value=http://10.10.30.7:81/cgi-bin/welcome for element=
+ns_edit_field("welcome_2",
+        "url=null",
+        "action=change",
+        attributes=["name=username","type=text"],
+        "csspath=html > body > table > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(1) > form > center > table > tbody > tr:nth-child(2) > td > input[type=\"text\"]",
+        "xpath=HTML/BODY[1]/TABLE[1]/TBODY[1]/TR[2]/TD[1]/TABLE[1]/TBODY[1]/TR[1]/TD[1]/FORM[1]/CENTER[1]/TABLE[1]/TBODY[1]/TR[2]/TD[1]/INPUT[1]",
+        "tagName=INPUT",
+        "value=java",
+        "Snapshots=webpage_1538634100888.png");
+10/4 11:51:43|ChromeBrowserNavigationListener|handleEvent|Method Called.
+10/4 11:51:43|ChromeNetstormFocusListener|handleEvent|Method Called.
+10/4 11:51:43|ChromeBrowserNavigationListener|onStartLoadingFrame|Method Called for URL=http://10.10.30.7:81/cgi-bin/login?userSession=75893.0884568651DQADHfApHDHfcDtccpfAttcf&username=java&password=java&login.x=46&login.y=14&login=Login&JSFormSubmit=off
+10/4 11:51:43|ChromeBrowserNavigationListener|onStartLoadingFrame|Begin Loading URL == http://10.10.30.7:81/cgi-bin/login?userSession=75893.0884568651DQADHfApHDHfcDtccpfAttcf&username=java&password=java&login.x=46&login.y=14&login=Login&JSFormSubmit=off  ===== Begin = 1538634103592
+10/4 11:51:43|Utils|getURLTracker|urlString = http://10.10.30.7:81/cgi-bin/login?userSession=75893.0884568651DQADHfApHDHfcDtccpfAttcf&username=java&password=java&login.x=46&login.y=14&login=Login&JSFormSubmit=off, requestOrResponce = snapShot
+10/4 11:51:43|ProgressBar|setVisible|Method Called. bool = true
+10/4 11:51:43|ChromeBrowserNavigationListener|dumpEvent|Method Called.
+10/4 11:51:43|ChromeBrowserNavigationListener|dumpEvent|Event Type: com.teamdev.jxbrowser.chromium.dom.events.DOMEventType@aed713b0
+ Tag Name = INPUT
+10/4 11:51:44|Utils|addStepName|returning step Name=login in map={login=1, welcome=2}
+10/4 11:51:44|Utils|getOrdinalValue|method called.
+10/4 11:51:44|Utils|addClick|Method called for browser = Welcome to Mercury Tours
+10/4 11:51:44|ChromeNetstormFocusListener|dumpEvent|Method Called.
+10/4 11:51:44|ChromeBrowserNavigationListener|onFinishLoadingFrame|Method Called for URL=http://10.10.30.7:81/cgi-bin/login?userSession=75893.0884568651DQADHfApHDHfcDtccpfAttcf&username=java&password=java&login.x=46&login.y=14&login=Login&JSFormSubmit=off
+10/4 11:51:44|Utils|getURLTracker|urlString = http://10.10.30.7:81/cgi-bin/login?userSession=75893.0884568651DQADHfApHDHfcDtccpfAttcf&username=java&password=java&login.x=46&login.y=14&login=Login&JSFormSubmit=off, requestOrResponce = snapShot
+10/4 11:51:44|ProgressBar|setVisible|Method Called. bool = false
+10/4 11:51:44|ChromeClickListener|dumpEvent|Method Called. Event Type: com.teamdev.jxbrowser.chromium.dom.events.DOMEventType@5a5c588
+ Tag Name = INPUT
+10/4 11:51:44|Utils|updateHrefOfLastClick|setting value=http://10.10.30.7:81/cgi-bin/login?userSession=75893.0884568651DQADHfApHDHfcDtccpfAttcf&username=java&password=java&login.x=46&login.y=14&login=Login&JSFormSubmit=off for element=
+ns_edit_field("login",
+        "url=null",
+        "action=change",
+        attributes=["name=password","type=password"],
+        "csspath=html > body > table > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(1) > form > center > table > tbody > tr:nth-child(4) > td > input[type=\"password\"]",
+        "xpath=HTML/BODY[1]/TABLE[1]/TBODY[1]/TR[2]/TD[1]/TABLE[1]/TBODY[1]/TR[1]/TD[1]/FORM[1]/CENTER[1]/TABLE[1]/TBODY[1]/TR[4]/TD[1]/INPUT[1]",
+        "tagName=INPUT",
+        "value=java",
+        "Snapshots=webpage_1538634104163.png");
+10/4 11:51:44|ChromeClickListener|addImgLinkElement|Method Called.
+10/4 11:51:44|Utils|getOrdinalValue|method called.
+10/4 11:51:44|Utils|addStepName|returning step Name=login_2 in map={login=2, welcome=2}
+10/4 11:51:44|Utils|addClick|Method called for browser = Welcome to Mercury Tours
+10/4 11:51:44|ChromeClickListener|addAllHTMLElementsListeners|Method Called.
+10/4 11:51:44|ChromeBrowserNavigationListener|addHTMLElementsListeners|Method Called.
+10/4 11:51:44|ChromeNetstormKeyDownListener|addAllHTMLElementsListeners|Method Called.
+10/4 11:51:44|ChromeNetstormFocusListener|addHTMLElementsListeners|Method Called.
+10/4 11:51:48|ChromeNetstormFocusListener|handleEvent|Method Called.
+10/4 11:51:48|ChromeNetstormFocusListener|dumpEvent|Method Called.
+10/4 11:51:48|ChromeBrowserNavigationListener|onStartLoadingFrame|Method Called for URL=http://10.10.30.7:81/cgi-bin/home
+10/4 11:51:48|ChromeBrowserNavigationListener|onStartLoadingFrame|Begin Loading URL == http://10.10.30.7:81/cgi-bin/home  ===== Begin = 1538634108700
+10/4 11:51:48|Utils|getURLTracker|urlString = http://10.10.30.7:81/cgi-bin/home, requestOrResponce = snapShot
+10/4 11:51:48|ProgressBar|setVisible|Method Called. bool = true
+10/4 11:51:48|ChromeBrowserNavigationListener|onFinishLoadingFrame|Method Called for URL=http://10.10.30.7:81/cgi-bin/home
+10/4 11:51:48|Utils|getURLTracker|urlString = http://10.10.30.7:81/cgi-bin/home, requestOrResponce = snapShot
+10/4 11:51:48|ProgressBar|setVisible|Method Called. bool = false
+10/4 11:51:49|Utils|updateHrefOfLastClick|setting value=http://10.10.30.7:81/cgi-bin/home for element=
+ns_link("login_2",
+        "url=null",
+        "action=click",
+        attributes=["border=0","src=/tours/Merc10-dev/images/login.gif","name=login","alt=Login","width=95","type=image","value=Login","height=25"],
+        "csspath=html > body > table > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(1) > form > center > table > tbody > tr:nth-child(5) > td > input[type=\"image\"]",
+        "xpath=HTML/BODY[1]/TABLE[1]/TBODY[1]/TR[2]/TD[1]/TABLE[1]/TBODY[1]/TR[1]/TD[1]/FORM[1]/CENTER[1]/TABLE[1]/TBODY[1]/TR[5]/TD[1]/INPUT[1]",
+        "tagName=INPUT",
+        "Snapshots=webpage_1538634104698.png");
+10/4 11:51:49|ChromeNetstormFocusListener|dumpEvent|Event Type: com.teamdev.jxbrowser.chromium.dom.events.DOMEventType@5d154d8
+ Tag Name = INPUT
+10/4 11:51:50|ChromeClickListener|dumpEvent|Method Called. Event Type: com.teamdev.jxbrowser.chromium.dom.events.DOMEventType@5a5c588
+ Tag Name = IMG
+10/4 11:51:50|ChromeClickListener|addImgLinkElement|Method Called.
+10/4 11:51:50|Utils|getOrdinalValue|method called.
+10/4 11:51:50|Utils|addStepName|returning step Name=home in map={login=2, welcome=2, home=1}
+10/4 11:51:50|Utils|addClick|Method called for browser = Welcome to Mercury Tours
+10/4 11:51:50|ChromeClickListener|addAllHTMLElementsListeners|Method Called.
+10/4 11:51:50|ChromeBrowserNavigationListener|addHTMLElementsListeners|Method Called.
+10/4 11:51:50|ChromeNetstormKeyDownListener|addAllHTMLElementsListeners|Method Called.
+10/4 11:51:50|ChromeNetstormFocusListener|addHTMLElementsListeners|Method Called.
+10/4 11:51:51|ChromeNetstormFocusListener|handleEvent|Method Called.
+10/4 11:51:51|ChromeNetstormFocusListener|dumpEvent|Method Called.
+10/4 11:51:51|ChromeBrowserNavigationListener|onStartLoadingFrame|Method Called for URL=http://10.10.30.7:81/cgi-bin/reservation
+10/4 11:51:51|ChromeBrowserNavigationListener|onStartLoadingFrame|Begin Loading URL == http://10.10.30.7:81/cgi-bin/reservation  ===== Begin = 1538634111803
+10/4 11:51:51|Utils|getURLTracker|urlString = http://10.10.30.7:81/cgi-bin/reservation, requestOrResponce = snapShot
+10/4 11:51:51|ProgressBar|setVisible|Method Called. bool = true
+10/4 11:51:52|ChromeBrowserNavigationListener|onFinishLoadingFrame|Method Called for URL=http://10.10.30.7:81/cgi-bin/reservation
+10/4 11:51:52|Utils|getURLTracker|urlString = http://10.10.30.7:81/cgi-bin/reservation, requestOrResponce = snapShot
+10/4 11:51:52|ProgressBar|setVisible|Method Called. bool = false
+10/4 11:51:52|ChromeClickListener|dumpEvent|Method Called. Event Type: com.teamdev.jxbrowser.chromium.dom.events.DOMEventType@5a5c588
+ Tag Name = IMG
+10/4 11:51:52|Utils|updateHrefOfLastClick|setting value=http://10.10.30.7:81/cgi-bin/reservation for element=
+ns_link("home",
+        "url=null",
+        "type=IMAGE_LINK",
+        "action=click",
+        attributes=["border=0","src=/tours/Merc10-dev/images/home.gif","width=95","alt=Home Button","height=25"],
+        "csspath=html > body > table > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(1) > center > table > tbody > tr:nth-child(2) > td > a > img",
+        "xpath=HTML/BODY[1]/TABLE[1]/TBODY[1]/TR[2]/TD[1]/TABLE[1]/TBODY[1]/TR[1]/TD[1]/CENTER[1]/TABLE[1]/TBODY[1]/TR[2]/TD[1]/A[1]/IMG[1]",
+        "tagName=IMG",
+        "Snapshots=webpage_1538634110118.png");
+10/4 11:51:52|ChromeClickListener|addImgLinkElement|Method Called.
+10/4 11:51:52|Utils|getOrdinalValue|method called.
+10/4 11:51:52|Utils|addStepName|returning step Name=reservation in map={reservation=1, login=2, welcome=2, home=1}
+10/4 11:51:52|Utils|addClick|Method called for browser = Find Flights
+10/4 11:51:52|ChromeClickListener|addAllHTMLElementsListeners|Method Called.
+10/4 11:51:52|ChromeBrowserNavigationListener|addHTMLElementsListeners|Method Called.
+10/4 11:51:52|ChromeNetstormKeyDownListener|addAllHTMLElementsListeners|Method Called.
+10/4 11:51:52|ChromeNetstormFocusListener|addHTMLElementsListeners|Method Called.
+10/4 11:51:56|ChromeNetstormFocusListener|handleEvent|Method Called.
+10/4 11:51:56|ChromeNetstormFocusListener|dumpEvent|Method Called.
+10/4 11:51:56|ChromeBrowserNavigationListener|onStartLoadingFrame|Method Called for URL=http://10.10.30.7:81/cgi-bin/findflight?depart=Acapulco&departDate=10-05-2018&arrive=Acapulco&returnDate=10-06-2018&numPassengers=1&seatPref=None&seatType=Coach&findFlights.x=33&findFlights.y=13&findFlights=Submit
+10/4 11:51:56|ChromeBrowserNavigationListener|onStartLoadingFrame|Begin Loading URL == http://10.10.30.7:81/cgi-bin/findflight?depart=Acapulco&departDate=10-05-2018&arrive=Acapulco&returnDate=10-06-2018&numPassengers=1&seatPref=None&seatType=Coach&findFlights.x=33&findFlights.y=13&findFlights=Submit  ===== Begin = 1538634116901
+10/4 11:51:56|Utils|getURLTracker|urlString = http://10.10.30.7:81/cgi-bin/findflight?depart=Acapulco&departDate=10-05-2018&arrive=Acapulco&returnDate=10-06-2018&numPassengers=1&seatPref=None&seatType=Coach&findFlights.x=33&findFlights.y=13&findFlights=Submit, requestOrResponce = snapShot
+10/4 11:51:56|ProgressBar|setVisible|Method Called. bool = true
+10/4 11:51:57|ChromeBrowserNavigationListener|onFinishLoadingFrame|Method Called for URL=http://10.10.30.7:81/cgi-bin/findflight?depart=Acapulco&departDate=10-05-2018&arrive=Acapulco&returnDate=10-06-2018&numPassengers=1&seatPref=None&seatType=Coach&findFlights.x=33&findFlights.y=13&findFlights=Submit
+10/4 11:51:57|Utils|getURLTracker|urlString = http://10.10.30.7:81/cgi-bin/findflight?depart=Acapulco&departDate=10-05-2018&arrive=Acapulco&returnDate=10-06-2018&numPassengers=1&seatPref=None&seatType=Coach&findFlights.x=33&findFlights.y=13&findFlights=Submit, requestOrResponce = snapShot
+10/4 11:51:57|ProgressBar|setVisible|Method Called. bool = false
+10/4 11:51:57|ChromeClickListener|dumpEvent|Method Called. Event Type: com.teamdev.jxbrowser.chromium.dom.events.DOMEventType@5a5c588
+ Tag Name = INPUT
+10/4 11:51:57|Utils|updateHrefOfLastClick|setting value=http://10.10.30.7:81/cgi-bin/findflight?depart=Acapulco&departDate=10-05-2018&arrive=Acapulco&returnDate=10-06-2018&numPassengers=1&seatPref=None&seatType=Coach&findFlights.x=33&findFlights.y=13&findFlights=Submit for element=
+ns_link("reservation",
+        "url=null",
+        "type=IMAGE_LINK",
+        "action=click",
+        attributes=["border=0","src=/tours/Merc10-dev/images/flights.gif","width=95","alt=Search Flights Button","height=25"],
+        "csspath=html > body > table > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(1) > center > table > tbody > tr:nth-child(1) > td > a > img",
+        "xpath=HTML/BODY[1]/TABLE[1]/TBODY[1]/TR[2]/TD[1]/TABLE[1]/TBODY[1]/TR[1]/TD[1]/CENTER[1]/TABLE[1]/TBODY[1]/TR[1]/TD[1]/A[1]/IMG[1]",
+        "tagName=IMG",
+        "Snapshots=webpage_1538634112469.png");
+10/4 11:51:57|ChromeClickListener|addImgLinkElement|Method Called.
+10/4 11:51:57|Utils|getOrdinalValue|method called.
+10/4 11:51:57|Utils|addStepName|returning step Name=findflight in map={reservation=1, login=2, welcome=2, home=1, findflight=1}
+10/4 11:51:57|Utils|addClick|Method called for browser = Search Results
+10/4 11:51:57|ChromeClickListener|addAllHTMLElementsListeners|Method Called.
+10/4 11:51:57|ChromeBrowserNavigationListener|addHTMLElementsListeners|Method Called.
+10/4 11:51:57|ChromeNetstormKeyDownListener|addAllHTMLElementsListeners|Method Called.
+10/4 11:51:57|ChromeNetstormFocusListener|addHTMLElementsListeners|Method Called.
+10/4 11:51:59|ChromeNetstormFocusListener|handleEvent|Method Called.
+10/4 11:51:59|ChromeNetstormFocusListener|dumpEvent|Method Called.
+10/4 11:51:59|ChromeBrowserNavigationListener|onStartLoadingFrame|Method Called for URL=http://10.10.30.7:81/cgi-bin/findflight?outboundFlight=button0&hidden_outboundFlight_button0=000%7C0%7C10-05-2018&hidden_outboundFlight_button1=001%7C0%7C10-05-2018&hidden_outboundFlight_button2=002%7C0%7C10-05-2018&hidden_outboundFlight_button3=003%7C0%7C10-05-2018&numPassengers=1&advanceDiscount=&seatType=Coach&seatPref=None&reserveFlights.x=74&reserveFlights.y=15
+10/4 11:51:59|ChromeBrowserNavigationListener|onStartLoadingFrame|Begin Loading URL == http://10.10.30.7:81/cgi-bin/findflight?outboundFlight=button0&hidden_outboundFlight_button0=000%7C0%7C10-05-2018&hidden_outboundFlight_button1=001%7C0%7C10-05-2018&hidden_outboundFlight_button2=002%7C0%7C10-05-2018&hidden_outboundFlight_button3=003%7C0%7C10-05-2018&numPassengers=1&advanceDiscount=&seatType=Coach&seatPref=None&reserveFlights.x=74&reserveFlights.y=15  ===== Begin = 1538634119691
+10/4 11:51:59|Utils|getURLTracker|urlString = http://10.10.30.7:81/cgi-bin/findflight?outboundFlight=button0&hidden_outboundFlight_button0=000%7C0%7C10-05-2018&hidden_outboundFlight_button1=001%7C0%7C10-05-2018&hidden_outboundFlight_button2=002%7C0%7C10-05-2018&hidden_outboundFlight_button3=003%7C0%7C10-05-2018&numPassengers=1&advanceDiscount=&seatType=Coach&seatPref=None&reserveFlights.x=74&reserveFlights.y=15, requestOrResponce = snapShot
+10/4 11:51:59|ProgressBar|setVisible|Method Called. bool = true
+10/4 11:51:59|ChromeBrowserNavigationListener|onFinishLoadingFrame|Method Called for URL=http://10.10.30.7:81/cgi-bin/findflight?outboundFlight=button0&hidden_outboundFlight_button0=000%7C0%7C10-05-2018&hidden_outboundFlight_button1=001%7C0%7C10-05-2018&hidden_outboundFlight_button2=002%7C0%7C10-05-2018&hidden_outboundFlight_button3=003%7C0%7C10-05-2018&numPassengers=1&advanceDiscount=&seatType=Coach&seatPref=None&reserveFlights.x=74&reserveFlights.y=15
+10/4 11:51:59|Utils|getURLTracker|urlString = http://10.10.30.7:81/cgi-bin/findflight?outboundFlight=button0&hidden_outboundFlight_button0=000%7C0%7C10-05-2018&hidden_outboundFlight_button1=001%7C0%7C10-05-2018&hidden_outboundFlight_button2=002%7C0%7C10-05-2018&hidden_outboundFlight_button3=003%7C0%7C10-05-2018&numPassengers=1&advanceDiscount=&seatType=Coach&seatPref=None&reserveFlights.x=74&reserveFlights.y=15, requestOrResponce = snapShot
+10/4 11:51:59|ProgressBar|setVisible|Method Called. bool = false
+10/4 11:52:0|Utils|updateHrefOfLastClick|setting value=http://10.10.30.7:81/cgi-bin/findflight?outboundFlight=button0&hidden_outboundFlight_button0=000%7C0%7C10-05-2018&hidden_outboundFlight_button1=001%7C0%7C10-05-2018&hidden_outboundFlight_button2=002%7C0%7C10-05-2018&hidden_outboundFlight_button3=003%7C0%7C10-05-2018&numPassengers=1&advanceDiscount=&seatType=Coach&seatPref=None&reserveFlights.x=74&reserveFlights.y=15 for element=
+ns_link("findflight",
+        "url=null",
+        "action=click",
+        attributes=["border=0","src=/tours/images/continue.gif","name=findFlights","type=IMAGE","value=Submit"],
+        "csspath=html > body > table > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(2) > table > tbody > tr > td > table > tbody > tr > td > form > table > tbody > tr:nth-child(7) > td > input[type=\"IMAGE\"]",
+        "xpath=HTML/BODY[1]/TABLE[1]/TBODY[1]/TR[2]/TD[1]/TABLE[1]/TBODY[1]/TR[1]/TD[2]/TABLE[1]/TBODY[1]/TR[1]/TD[1]/TABLE[1]/TBODY[1]/TR[1]/TD[1]/FORM[1]/TABLE[1]/TBODY[1]/TR[7]/TD[1]/INPUT[1]",
+        "tagName=INPUT",
+        "Snapshots=webpage_1538634117756.png");
+10/4 11:52:0|ChromeNetstormFocusListener|dumpEvent|Event Type: com.teamdev.jxbrowser.chromium.dom.events.DOMEventType@5d154d8
+ Tag Name = INPUT
+10/4 11:52:1|ChromeClickListener|dumpEvent|Method Called. Event Type: com.teamdev.jxbrowser.chromium.dom.events.DOMEventType@5a5c588
+ Tag Name = INPUT
+10/4 11:52:1|ChromeClickListener|addImgLinkElement|Method Called.
+10/4 11:52:1|Utils|getOrdinalValue|method called.
+10/4 11:52:1|Utils|addStepName|returning step Name=findflight_2 in map={reservation=1, login=2, welcome=2, home=1, findflight=2}
+10/4 11:52:1|Utils|addClick|Method called for browser = Method of Payment
+10/4 11:52:1|ChromeClickListener|addAllHTMLElementsListeners|Method Called.
+10/4 11:52:1|ChromeBrowserNavigationListener|addHTMLElementsListeners|Method Called.
+10/4 11:52:1|ChromeNetstormKeyDownListener|addAllHTMLElementsListeners|Method Called.
+10/4 11:52:1|ChromeNetstormFocusListener|addHTMLElementsListeners|Method Called.
+10/4 11:52:5|ChromeNetstormFocusListener|handleEvent|Method Called.
+10/4 11:52:5|ChromeNetstormFocusListener|dumpEvent|Method Called.
+10/4 11:52:5|ChromeBrowserNavigationListener|onStartLoadingFrame|Method Called for URL=http://10.10.30.7:81/cgi-bin/findflight?firstName=Tiger&lastName=Scott&address1=4261+Stevenson+Blvd.&address2=Fremont%2C+CA+94538&pass1=Scott+Tiger&creditCard=&expDate=&oldCCOption=&numPassengers=1&seatType=Coach&seatPref=None&outboundFlight=000%7C0%7C10-05-2018&advanceDiscount=&buyFlights.x=79&buyFlights.y=10&.cgifields=saveCC
+10/4 11:52:5|ChromeBrowserNavigationListener|onStartLoadingFrame|Begin Loading URL == http://10.10.30.7:81/cgi-bin/findflight?firstName=Tiger&lastName=Scott&address1=4261+Stevenson+Blvd.&address2=Fremont%2C+CA+94538&pass1=Scott+Tiger&creditCard=&expDate=&oldCCOption=&numPassengers=1&seatType=Coach&seatPref=None&outboundFlight=000%7C0%7C10-05-2018&advanceDiscount=&buyFlights.x=79&buyFlights.y=10&.cgifields=saveCC  ===== Begin = 1538634125178
+10/4 11:52:5|Utils|getURLTracker|urlString = http://10.10.30.7:81/cgi-bin/findflight?firstName=Tiger&lastName=Scott&address1=4261+Stevenson+Blvd.&address2=Fremont%2C+CA+94538&pass1=Scott+Tiger&creditCard=&expDate=&oldCCOption=&numPassengers=1&seatType=Coach&seatPref=None&outboundFlight=000%7C0%7C10-05-2018&advanceDiscount=&buyFlights.x=79&buyFlights.y=10&.cgifields=saveCC, requestOrResponce = snapShot
+10/4 11:52:5|ProgressBar|setVisible|Method Called. bool = true
+10/4 11:52:5|ChromeBrowserNavigationListener|onFinishLoadingFrame|Method Called for URL=http://10.10.30.7:81/cgi-bin/findflight?firstName=Tiger&lastName=Scott&address1=4261+Stevenson+Blvd.&address2=Fremont%2C+CA+94538&pass1=Scott+Tiger&creditCard=&expDate=&oldCCOption=&numPassengers=1&seatType=Coach&seatPref=None&outboundFlight=000%7C0%7C10-05-2018&advanceDiscount=&buyFlights.x=79&buyFlights.y=10&.cgifields=saveCC
+10/4 11:52:5|Utils|getURLTracker|urlString = http://10.10.30.7:81/cgi-bin/findflight?firstName=Tiger&lastName=Scott&address1=4261+Stevenson+Blvd.&address2=Fremont%2C+CA+94538&pass1=Scott+Tiger&creditCard=&expDate=&oldCCOption=&numPassengers=1&seatType=Coach&seatPref=None&outboundFlight=000%7C0%7C10-05-2018&advanceDiscount=&buyFlights.x=79&buyFlights.y=10&.cgifields=saveCC, requestOrResponce = snapShot
+10/4 11:52:5|ProgressBar|setVisible|Method Called. bool = false
+10/4 11:52:6|Utils|updateHrefOfLastClick|setting value=http://10.10.30.7:81/cgi-bin/findflight?firstName=Tiger&lastName=Scott&address1=4261+Stevenson+Blvd.&address2=Fremont%2C+CA+94538&pass1=Scott+Tiger&creditCard=&expDate=&oldCCOption=&numPassengers=1&seatType=Coach&seatPref=None&outboundFlight=000%7C0%7C10-05-2018&advanceDiscount=&buyFlights.x=79&buyFlights.y=10&.cgifields=saveCC for element=
+ns_link("findflight_2",
+        "url=null",
+        "action=click",
+        attributes=["border=0","src=/tours/images/continue.gif","name=reserveFlights","type=image"],
+        "csspath=html > body > table > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(2) > table > tbody > tr > td > table > tbody > tr > td > form > center > center > table > tbody > tr > td:nth-child(1) > input[type=\"image\"]",
+        "xpath=HTML/BODY[1]/TABLE[1]/TBODY[1]/TR[2]/TD[1]/TABLE[1]/TBODY[1]/TR[1]/TD[2]/TABLE[1]/TBODY[1]/TR[1]/TD[1]/TABLE[1]/TBODY[1]/TR[1]/TD[1]/FORM[1]/CENTER[1]/CENTER[1]/TABLE[1]/TBODY[1]/TR[1]/TD[1]/INPUT[1]",
+        "tagName=INPUT",
+        "Snapshots=webpage_1538634121351.png");
+10/4 11:52:6|ChromeNetstormFocusListener|dumpEvent|Event Type: com.teamdev.jxbrowser.chromium.dom.events.DOMEventType@5d154d8
+ Tag Name = INPUT
+10/4 11:52:6|ChromeClickListener|dumpEvent|Method Called. Event Type: com.teamdev.jxbrowser.chromium.dom.events.DOMEventType@5a5c588
+ Tag Name = INPUT
+10/4 11:52:6|ChromeClickListener|addImgLinkElement|Method Called.
+10/4 11:52:6|Utils|getOrdinalValue|method called.
+10/4 11:52:6|Utils|addStepName|returning step Name=findflight_3 in map={reservation=1, login=2, welcome=2, home=1, findflight=3}
+10/4 11:52:6|Utils|addClick|Method called for browser = Flight Confirmation
+10/4 11:52:6|ChromeClickListener|addAllHTMLElementsListeners|Method Called.
+10/4 11:52:6|ChromeBrowserNavigationListener|addHTMLElementsListeners|Method Called.
+10/4 11:52:6|ChromeNetstormKeyDownListener|addAllHTMLElementsListeners|Method Called.
+10/4 11:52:6|ChromeNetstormFocusListener|addHTMLElementsListeners|Method Called.
+10/4 11:52:6|ChromeNetstormFocusListener|handleEvent|Method Called.
+10/4 11:52:6|ChromeNetstormFocusListener|dumpEvent|Method Called.
+10/4 11:52:7|ChromeBrowserNavigationListener|onStartLoadingFrame|Method Called for URL=http://10.10.30.7:81/cgi-bin/welcome
+10/4 11:52:7|ChromeBrowserNavigationListener|onStartLoadingFrame|Begin Loading URL == http://10.10.30.7:81/cgi-bin/welcome  ===== Begin = 1538634127074
+10/4 11:52:7|Utils|getURLTracker|urlString = http://10.10.30.7:81/cgi-bin/welcome, requestOrResponce = snapShot
+10/4 11:52:7|ProgressBar|setVisible|Method Called. bool = true
+10/4 11:52:7|ChromeBrowserNavigationListener|onFinishLoadingFrame|Method Called for URL=http://10.10.30.7:81/cgi-bin/welcome
+10/4 11:52:7|Utils|getURLTracker|urlString = http://10.10.30.7:81/cgi-bin/welcome, requestOrResponce = snapShot
+10/4 11:52:7|ProgressBar|setVisible|Method Called. bool = false
+10/4 11:52:8|Utils|updateHrefOfLastClick|setting value=http://10.10.30.7:81/cgi-bin/welcome for element=
+ns_link("findflight_3",
+        "url=null",
+        "action=click",
+        attributes=["border=0","src=/tours/images/purchaseflight.gif","name=buyFlights","type=image"],
+        "csspath=html > body > table > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(2) > table > tbody > tr > td > table > tbody > tr > td:nth-child(1) > blockquote > form > input[type=\"image\"]:nth-child(7)",
+        "xpath=HTML/BODY[1]/TABLE[1]/TBODY[1]/TR[2]/TD[1]/TABLE[1]/TBODY[1]/TR[1]/TD[2]/TABLE[1]/TBODY[1]/TR[1]/TD[1]/TABLE[1]/TBODY[1]/TR[1]/TD[1]/BLOCKQUOTE[1]/FORM[1]/INPUT[6]",
+        "tagName=INPUT",
+        "Snapshots=webpage_1538634126746.png");
+10/4 11:52:8|ChromeNetstormFocusListener|dumpEvent|Event Type: com.teamdev.jxbrowser.chromium.dom.events.DOMEventType@5d154d8
+ Tag Name = INPUT
+10/4 11:52:8|ChromeClickListener|dumpEvent|Method Called. Event Type: com.teamdev.jxbrowser.chromium.dom.events.DOMEventType@5a5c588
+ Tag Name = IMG
+10/4 11:52:8|ChromeClickListener|addImgLinkElement|Method Called.
+10/4 11:52:8|Utils|getOrdinalValue|method called.
+10/4 11:52:8|Utils|addStepName|returning step Name=welcome_3 in map={reservation=1, login=2, welcome=3, home=1, findflight=3}
+10/4 11:52:8|Utils|addClick|Method called for browser = Mercury Tours
+10/4 11:52:8|ChromeClickListener|addAllHTMLElementsListeners|Method Called.
+10/4 11:52:8|ChromeBrowserNavigationListener|addHTMLElementsListeners|Method Called.
+10/4 11:52:8|ChromeNetstormKeyDownListener|addAllHTMLElementsListeners|Method Called.
+10/4 11:52:8|ChromeNetstormFocusListener|addHTMLElementsListeners|Method Called.
+10/4 11:52:17|ScriptHTMLStart|stopRecording|Method Called.
+10/4 11:52:17|ScriptHTMLStart|stopRecording|Going to stop recording
+10/4 11:52:17|NSChromeBrowser|stopRecord|Method called.
+10/4 11:52:17|Utils|updateHrefOfLastClick|setting value=http://10.10.30.7:81/cgi-bin/welcome for element=
+ns_link("welcome_3",
+        "url=null",
+        "type=IMAGE_LINK",
+        "action=click",
+        attributes=["border=0","src=/tours/Merc10-dev/images/signoff.gif","width=95","alt=SignOff Button","height=25"],
+        "csspath=html > body > table > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(1) > center > table > tbody > tr:nth-child(3) > td > a > img",
+        "xpath=HTML/BODY[1]/TABLE[1]/TBODY[1]/TR[2]/TD[1]/TABLE[1]/TBODY[1]/TR[1]/TD[1]/CENTER[1]/TABLE[1]/TBODY[1]/TR[3]/TD[1]/A[1]/IMG[1]",
+        "tagName=IMG",
+        "Snapshots=webpage_1538634128384.png");
+10/4 11:52:18|ChromeMainFrame|addBrowserDisposeListener|browser disposed called.
+10/4 11:52:18|ClickAndScript|generateEventsCapture|Method called.
+10/4 11:52:18|ClickAndScript|addTransactionToFlow |Method called.
+10/4 11:52:18|ClickAndScript|addThikTimeToPage |Method called.
+10/4 11:52:18|ClickAndScript|addTransactionToFlow |Method called.
+10/4 11:52:18|ClickAndScript|addThikTimeToPage |Method called.
+10/4 11:52:18|ClickAndScript|addTransactionToFlow |Method called.
+10/4 11:52:18|ClickAndScript|addThikTimeToPage |Method called.
+10/4 11:52:18|ClickAndScript|addTransactionToFlow |Method called.
+10/4 11:52:18|ClickAndScript|addThikTimeToPage |Method called.
+10/4 11:52:18|ClickAndScript|addTransactionToFlow |Method called.
+10/4 11:52:18|ClickAndScript|addThikTimeToPage |Method called.
+10/4 11:52:18|ClickAndScript|addTransactionToFlow |Method called.
+10/4 11:52:18|ClickAndScript|addThikTimeToPage |Method called.
+10/4 11:52:18|ClickAndScript|addTransactionToFlow |Method called.
+10/4 11:52:18|ClickAndScript|addThikTimeToPage |Method called.
+10/4 11:52:18|ClickAndScript|addTransactionToFlow |Method called.
+10/4 11:52:18|ClickAndScript|addThikTimeToPage |Method called.
+10/4 11:52:18|ClickAndScript|addTransactionToFlow |Method called.
+10/4 11:52:18|ClickAndScript|addThikTimeToPage |Method called.
+10/4 11:52:18|ClickAndScript|addTransactionToFlow |Method called.
+10/4 11:52:18|ClickAndScript|addThikTimeToPage |Method called.
+10/4 11:52:18|Utils|generateEventDetail|method called.
+10/4 11:52:18|Utils|getTimeStampForPage|Method called.
+10/4 11:52:18|Utils|getTimeStampForPage|Method called.
+10/4 11:52:18|Utils|getTimeStampForPage|Method called.
+10/4 11:52:18|Utils|getTimeStampForPage|Method called.
+10/4 11:52:18|Utils|getTimeStampForPage|Method called.
+10/4 11:52:18|Utils|getTimeStampForPage|Method called.
+10/4 11:52:18|Utils|getTimeStampForPage|Method called.
+10/4 11:52:18|Utils|getTimeStampForPage|Method called.
+10/4 11:52:18|Utils|generateUrlInfoListDetail|method called
+10/4 11:52:18|Utils|getTimeStampForPage|Method called.
+10/4 11:52:18|Utils|generateUrlInfoListDetail|URL = http://10.10.30.7:81/cgi-bin/welcome
+10/4 11:52:18|Utils|generateUrlInfoListDetail|Setting url info object =http://10.10.30.7:81/cgi-bin/welcome
+10/4 11:52:18|Utils|filterPath|path = http://10.10.30.7:81/cgi-bin/welcome
+10/4 11:52:18|Utils|getFileName|path = http://10.10.30.7:81/cgi-bin/welcome
+10/4 11:52:18|Utils|getFileName|filename for dump = welcome
+10/4 11:52:18|Utils|filterPath|path = http://10.10.30.7:81/cgi-bin/welcome
+10/4 11:52:18|Utils|createUrlInfoListForClickEvents|method called
+10/4 11:52:18|Utils|createUrlInfoListForClickEvents|URL = http://10.10.30.7:81/cgi-bin/welcome
+10/4 11:52:18|Utils|filterPath|path = http://10.10.30.7:81/cgi-bin/welcome
+10/4 11:52:18|Utils|getFileName|path = http://10.10.30.7:81/cgi-bin/welcome
+10/4 11:52:18|Utils|getFileName|filename for dump = welcome
+10/4 11:52:18|Utils|createUrlInfoListForClickEvents|URL = http://10.10.30.7:81/cgi-bin/welcome
+10/4 11:52:18|Utils|filterPath|path = http://10.10.30.7:81/cgi-bin/welcome
+10/4 11:52:18|Utils|getFileName|path = http://10.10.30.7:81/cgi-bin/welcome
+10/4 11:52:18|Utils|getFileName|filename for dump = welcome
+10/4 11:52:18|Utils|createUrlInfoListForClickEvents|URL = http://10.10.30.7:81/cgi-bin/welcome
+10/4 11:52:18|Utils|filterPath|path = http://10.10.30.7:81/cgi-bin/welcome
+10/4 11:52:18|Utils|getFileName|path = http://10.10.30.7:81/cgi-bin/welcome
+10/4 11:52:18|Utils|getFileName|filename for dump = welcome
+10/4 11:52:18|Utils|createUrlInfoListForClickEvents|URL = http://10.10.30.7:81/cgi-bin/welcome
+10/4 11:52:18|Utils|filterPath|path = http://10.10.30.7:81/cgi-bin/welcome
+10/4 11:52:18|Utils|getFileName|path = http://10.10.30.7:81/cgi-bin/welcome
+10/4 11:52:18|Utils|getFileName|filename for dump = welcome
+10/4 11:52:18|Utils|getTimeStampForPage|Method called.
+10/4 11:52:18|Utils|generateUrlInfoListDetail|URL = http://10.10.30.7:81/cgi-bin/login?userSession=75893.0884568651DQADHfApHDHfcDtccpfAttcf&username=java&password=java&login.x=46&login.y=14&login=Login&JSFormSubmit=off
+10/4 11:52:19|Utils|generateUrlInfoListDetail|Setting url info object =http://10.10.30.7:81/cgi-bin/login?userSession=75893.0884568651DQADHfApHDHfcDtccpfAttcf&username=java&password=java&login.x=46&login.y=14&login=Login&JSFormSubmit=off
+10/4 11:52:19|Utils|filterPath|path = http://10.10.30.7:81/cgi-bin/login?userSession=75893.0884568651DQADHfApHDHfcDtccpfAttcf&username=java&password=java&login.x=46&login.y=14&login=Login&JSFormSubmit=off
+10/4 11:52:19|Utils|getFileName|path = http://10.10.30.7:81/cgi-bin/login?userSession=75893.0884568651DQADHfApHDHfcDtccpfAttcf&username=java&password=java&login.x=46&login.y=14&login=Login&JSFormSubmit=off
+10/4 11:52:19|Utils|getFileName|filename for dump = login_userSession=75893.0884568651DQADHfApHDHfcDtccpfAttcf_username=java_password=java_login.x=46_login.y=14_login=Login_JSFormSubmit=off
+10/4 11:52:19|Utils|filterPath|path = http://10.10.30.7:81/cgi-bin/login?userSession=75893.0884568651DQADHfApHDHfcDtccpfAttcf&username=java&password=java&login.x=46&login.y=14&login=Login&JSFormSubmit=off
+10/4 11:52:19|Utils|createUrlInfoListForClickEvents|method called
+10/4 11:52:19|Utils|createUrlInfoListForClickEvents|URL = http://10.10.30.7:81/cgi-bin/login?userSession=75893.0884568651DQADHfApHDHfcDtccpfAttcf&username=java&password=java&login.x=46&login.y=14&login=Login&JSFormSubmit=off
+10/4 11:52:19|Utils|filterPath|path = http://10.10.30.7:81/cgi-bin/login?userSession=75893.0884568651DQADHfApHDHfcDtccpfAttcf&username=java&password=java&login.x=46&login.y=14&login=Login&JSFormSubmit=off
+10/4 11:52:19|Utils|getFileName|path = http://10.10.30.7:81/cgi-bin/login?userSession=75893.0884568651DQADHfApHDHfcDtccpfAttcf&username=java&password=java&login.x=46&login.y=14&login=Login&JSFormSubmit=off
+10/4 11:52:19|Utils|getFileName|filename for dump = login_userSession=75893.0884568651DQADHfApHDHfcDtccpfAttcf_username=java_password=java_login.x=46_login.y=14_login=Login_JSFormSubmit=off
+10/4 11:52:19|Utils|getTimeStampForPage|Method called.
+10/4 11:52:19|Utils|generateUrlInfoListDetail|URL = http://10.10.30.7:81/cgi-bin/home
+10/4 11:52:19|Utils|generateUrlInfoListDetail|Setting url info object =http://10.10.30.7:81/cgi-bin/home
+10/4 11:52:19|Utils|filterPath|path = http://10.10.30.7:81/cgi-bin/home
+10/4 11:52:19|Utils|getFileName|path = http://10.10.30.7:81/cgi-bin/home
+10/4 11:52:19|Utils|getFileName|filename for dump = home
+10/4 11:52:19|Utils|filterPath|path = http://10.10.30.7:81/cgi-bin/home
+10/4 11:52:19|Utils|createUrlInfoListForClickEvents|method called
+10/4 11:52:19|Utils|createUrlInfoListForClickEvents|URL = http://10.10.30.7:81/cgi-bin/home
+10/4 11:52:19|Utils|filterPath|path = http://10.10.30.7:81/cgi-bin/home
+10/4 11:52:19|Utils|getFileName|path = http://10.10.30.7:81/cgi-bin/home
+10/4 11:52:19|Utils|getFileName|filename for dump = home
+10/4 11:52:19|Utils|getTimeStampForPage|Method called.
+10/4 11:52:19|Utils|generateUrlInfoListDetail|URL = http://10.10.30.7:81/cgi-bin/reservation
+10/4 11:52:19|Utils|generateUrlInfoListDetail|Setting url info object =http://10.10.30.7:81/cgi-bin/reservation
+10/4 11:52:19|Utils|filterPath|path = http://10.10.30.7:81/cgi-bin/reservation
+10/4 11:52:19|Utils|getFileName|path = http://10.10.30.7:81/cgi-bin/reservation
+10/4 11:52:19|Utils|getFileName|filename for dump = reservation
+10/4 11:52:19|Utils|filterPath|path = http://10.10.30.7:81/cgi-bin/reservation
+10/4 11:52:19|Utils|createUrlInfoListForClickEvents|method called
+10/4 11:52:19|Utils|createUrlInfoListForClickEvents|URL = http://10.10.30.7:81/cgi-bin/reservation
+10/4 11:52:19|Utils|filterPath|path = http://10.10.30.7:81/cgi-bin/reservation
+10/4 11:52:19|Utils|getFileName|path = http://10.10.30.7:81/cgi-bin/reservation
+10/4 11:52:19|Utils|getFileName|filename for dump = reservation
+10/4 11:52:19|Utils|getTimeStampForPage|Method called.
+10/4 11:52:19|Utils|generateUrlInfoListDetail|URL = http://10.10.30.7:81/cgi-bin/findflight?depart=Acapulco&departDate=10-05-2018&arrive=Acapulco&returnDate=10-06-2018&numPassengers=1&seatPref=None&seatType=Coach&findFlights.x=33&findFlights.y=13&findFlights=Submit
+10/4 11:52:19|Utils|generateUrlInfoListDetail|Setting url info object =http://10.10.30.7:81/cgi-bin/findflight?depart=Acapulco&departDate=10-05-2018&arrive=Acapulco&returnDate=10-06-2018&numPassengers=1&seatPref=None&seatType=Coach&findFlights.x=33&findFlights.y=13&findFlights=Submit
+10/4 11:52:19|Utils|filterPath|path = http://10.10.30.7:81/cgi-bin/findflight?depart=Acapulco&departDate=10-05-2018&arrive=Acapulco&returnDate=10-06-2018&numPassengers=1&seatPref=None&seatType=Coach&findFlights.x=33&findFlights.y=13&findFlights=Submit
+10/4 11:52:19|Utils|filterPath|path limit is excedding the limit
+10/4 11:52:19|Utils|isValidLenForPath|path = C:\Users\Jyoti Rawat\Desktop\recorder\scripts\default/default/HPDA_RBU\dump\flow\http://10.10.30.7:81/cgi-bin/findflight?depart=Acapulco&departDate=10-05-2018&arrive=Acapulco&returnDate=10-06-2018&numPassengers=1&seatPref=None&seatType=Coach&findFlights.x=33&findFlights.y=13&findFlights=Submit
+10/4 11:52:19|Utils|getFileName|path = http://10.10.30.7:81/cgi-bin/findflight?depart=Acapulco&departDate=10-05-2018&arrive=Acapulco&returnDate=10-06-2018&numPassengers=1&seatPref=None&seatType=Coach&findFlights.x=33&findFlights.y=13&findFlights=Submit
+10/4 11:52:19|Utils|getFileName|path limit is excedding the limit
+10/4 11:52:19|Utils|isValidLenForPath|path = C:\Users\Jyoti Rawat\Desktop\recorder\scripts\default/default/HPDA_RBU\dump\flow\http://10.10.30.7:81/cgi-bin/findflight?depart=Acapulco&departDate=10-05-2018&arrive=Acapulco&returnDate=10-06-2018&numPassengers=1&seatPref=None&seatType=Coach&findFlights.x=33&findFlights.y=13&findFlights=Submit
+10/4 11:52:19|Utils|getFileName|filename for dump = findflight_depart=Acapulco_departDate=10-05-2018_arrive=Acapulco_returnDate=10-06-2018_numPassengers=1_seatPref=None_seatType=Coach_findFlights.
+10/4 11:52:19|Utils|filterPath|path = http://10.10.30.7:81/cgi-bin/findflight?depart=Acapulco&departDate=10-05-2018&arrive=Acapulco&returnDate=10-06-2018&numPassengers=1&seatPref=None&seatType=Coach&findFlights.x=33&findFlights.y=13&findFlights=Submit
+10/4 11:52:19|Utils|filterPath|path limit is excedding the limit
+10/4 11:52:19|Utils|isValidLenForPath|path = C:\Users\Jyoti Rawat\Desktop\recorder\scripts\default/default/HPDA_RBU\dump\flow\http://10.10.30.7:81/cgi-bin/findflight?depart=Acapulco&departDate=10-05-2018&arrive=Acapulco&returnDate=10-06-2018&numPassengers=1&seatPref=None&seatType=Coach&findFlights.x=33&findFlights.y=13&findFlights=Submit
+10/4 11:52:19|Utils|createUrlInfoListForClickEvents|method called
+10/4 11:52:19|Utils|createUrlInfoListForClickEvents|URL = http://10.10.30.7:81/cgi-bin/findflight?depart=Acapulco&departDate=10-05-2018&arrive=Acapulco&returnDate=10-06-2018&numPassengers=1&seatPref=None&seatType=Coach&findFlights.x=33&findFlights.y=13&findFlights=Submit
+10/4 11:52:19|Utils|filterPath|path = http://10.10.30.7:81/cgi-bin/findflight?depart=Acapulco&departDate=10-05-2018&arrive=Acapulco&returnDate=10-06-2018&numPassengers=1&seatPref=None&seatType=Coach&findFlights.x=33&findFlights.y=13&findFlights=Submit
+10/4 11:52:19|Utils|filterPath|path limit is excedding the limit
+10/4 11:52:19|Utils|isValidLenForPath|path = C:\Users\Jyoti Rawat\Desktop\recorder\scripts\default/default/HPDA_RBU\dump\flow\http://10.10.30.7:81/cgi-bin/findflight?depart=Acapulco&departDate=10-05-2018&arrive=Acapulco&returnDate=10-06-2018&numPassengers=1&seatPref=None&seatType=Coach&findFlights.x=33&findFlights.y=13&findFlights=Submit
+10/4 11:52:19|Utils|getFileName|path = http://10.10.30.7:81/cgi-bin/findflight?depart=Acapulco&departDate=10-05-2018&arrive=Acapulco&returnDate=10-06-2018&numPassengers=1&seatPref=None&seatType=Coach&findFlights.x=33&findFlights.y=13&findFlights=Submit
+10/4 11:52:19|Utils|getFileName|path limit is excedding the limit
+10/4 11:52:19|Utils|isValidLenForPath|path = C:\Users\Jyoti Rawat\Desktop\recorder\scripts\default/default/HPDA_RBU\dump\flow\http://10.10.30.7:81/cgi-bin/findflight?depart=Acapulco&departDate=10-05-2018&arrive=Acapulco&returnDate=10-06-2018&numPassengers=1&seatPref=None&seatType=Coach&findFlights.x=33&findFlights.y=13&findFlights=Submit
+10/4 11:52:19|Utils|getFileName|filename for dump = findflight_depart=Acapulco_departDate=10-05-2018_arrive=Acapulco_returnDate=10-06-2018_numPassengers=1_seatPref=None_seatType=Coach_findFlights.
+10/4 11:52:19|Utils|createUrlInfoListForClickEvents|URL = http://10.10.30.7:81/cgi-bin/findflight?outboundFlight=button0&hidden_outboundFlight_button0=000%7C0%7C10-05-2018&hidden_outboundFlight_button1=001%7C0%7C10-05-2018&hidden_outboundFlight_button2=002%7C0%7C10-05-2018&hidden_outboundFlight_button3=003%7C0%7C10-05-2018&numPassengers=1&advanceDiscount=&seatType=Coach&seatPref=None&reserveFlights.x=74&reserveFlights.y=15
+10/4 11:52:19|Utils|filterPath|path = http://10.10.30.7:81/cgi-bin/findflight?outboundFlight=button0&hidden_outboundFlight_button0=000%7C0%7C10-05-2018&hidden_outboundFlight_button1=001%7C0%7C10-05-2018&hidden_outboundFlight_button2=002%7C0%7C10-05-2018&hidden_outboundFlight_button3=003%7C0%7C10-05-2018&numPassengers=1&advanceDiscount=&seatType=Coach&seatPref=None&reserveFlights.x=74&reserveFlights.y=15
+10/4 11:52:19|Utils|filterPath|path limit is excedding the limit
+10/4 11:52:19|Utils|isValidLenForPath|path = C:\Users\Jyoti Rawat\Desktop\recorder\scripts\default/default/HPDA_RBU\dump\flow\http://10.10.30.7:81/cgi-bin/findflight?outboundFlight=button0&hidden_outboundFlight_button0=000%7C0%7C10-05-2018&hidden_outboundFlight_button1=001%7C0%7C10-05-2018&hidden_outboundFlight_button2=002%7C0%7C10-05-2018&hidden_outboundFlight_button3=003%7C0%7C10-05-2018&numPassengers=1&advanceDiscount=&seatType=Coach&seatPref=None&reserveFlights.x=74&reserveFlights.y=15
+10/4 11:52:19|Utils|getFileName|path = http://10.10.30.7:81/cgi-bin/findflight?outboundFlight=button0&hidden_outboundFlight_button0=000%7C0%7C10-05-2018&hidden_outboundFlight_button1=001%7C0%7C10-05-2018&hidden_outboundFlight_button2=002%7C0%7C10-05-2018&hidden_outboundFlight_button3=003%7C0%7C10-05-2018&numPassengers=1&advanceDiscount=&seatType=Coach&seatPref=None&reserveFlights.x=74&reserveFlights.y=15
+10/4 11:52:19|Utils|getFileName|path limit is excedding the limit
+10/4 11:52:19|Utils|isValidLenForPath|path = C:\Users\Jyoti Rawat\Desktop\recorder\scripts\default/default/HPDA_RBU\dump\flow\http://10.10.30.7:81/cgi-bin/findflight?outboundFlight=button0&hidden_outboundFlight_button0=000%7C0%7C10-05-2018&hidden_outboundFlight_button1=001%7C0%7C10-05-2018&hidden_outboundFlight_button2=002%7C0%7C10-05-2018&hidden_outboundFlight_button3=003%7C0%7C10-05-2018&numPassengers=1&advanceDiscount=&seatType=Coach&seatPref=None&reserveFlights.x=74&reserveFlights.y=15
+10/4 11:52:19|Utils|getFileName|filename for dump = findflight_outboundFlight=button0_hidden_outboundFlight_button0=000_7C0_7C10-05-2018_hidden_outboundFlight_button1=001_7C0_7C10-05-2018_hidden_o
+10/4 11:52:19|Utils|createUrlInfoListForClickEvents|URL = http://10.10.30.7:81/cgi-bin/findflight?firstName=Tiger&lastName=Scott&address1=4261+Stevenson+Blvd.&address2=Fremont%2C+CA+94538&pass1=Scott+Tiger&creditCard=&expDate=&oldCCOption=&numPassengers=1&seatType=Coach&seatPref=None&outboundFlight=000%7C0%7C10-05-2018&advanceDiscount=&buyFlights.x=79&buyFlights.y=10&.cgifields=saveCC
+10/4 11:52:19|Utils|filterPath|path = http://10.10.30.7:81/cgi-bin/findflight?firstName=Tiger&lastName=Scott&address1=4261+Stevenson+Blvd.&address2=Fremont%2C+CA+94538&pass1=Scott+Tiger&creditCard=&expDate=&oldCCOption=&numPassengers=1&seatType=Coach&seatPref=None&outboundFlight=000%7C0%7C10-05-2018&advanceDiscount=&buyFlights.x=79&buyFlights.y=10&.cgifields=saveCC
+10/4 11:52:19|Utils|filterPath|path limit is excedding the limit
+10/4 11:52:19|Utils|isValidLenForPath|path = C:\Users\Jyoti Rawat\Desktop\recorder\scripts\default/default/HPDA_RBU\dump\flow\http://10.10.30.7:81/cgi-bin/findflight?firstName=Tiger&lastName=Scott&address1=4261+Stevenson+Blvd.&address2=Fremont%2C+CA+94538&pass1=Scott+Tiger&creditCard=&expDate=&oldCCOption=&numPassengers=1&seatType=Coach&seatPref=None&outboundFlight=000%7C0%7C10-05-2018&advanceDiscount=&buyFlights.x=79&buyFlights.y=10&.cgifields=saveCC
+10/4 11:52:19|Utils|getFileName|path = http://10.10.30.7:81/cgi-bin/findflight?firstName=Tiger&lastName=Scott&address1=4261+Stevenson+Blvd.&address2=Fremont%2C+CA+94538&pass1=Scott+Tiger&creditCard=&expDate=&oldCCOption=&numPassengers=1&seatType=Coach&seatPref=None&outboundFlight=000%7C0%7C10-05-2018&advanceDiscount=&buyFlights.x=79&buyFlights.y=10&.cgifields=saveCC
+10/4 11:52:19|Utils|getFileName|path limit is excedding the limit
+10/4 11:52:19|Utils|isValidLenForPath|path = C:\Users\Jyoti Rawat\Desktop\recorder\scripts\default/default/HPDA_RBU\dump\flow\http://10.10.30.7:81/cgi-bin/findflight?firstName=Tiger&lastName=Scott&address1=4261+Stevenson+Blvd.&address2=Fremont%2C+CA+94538&pass1=Scott+Tiger&creditCard=&expDate=&oldCCOption=&numPassengers=1&seatType=Coach&seatPref=None&outboundFlight=000%7C0%7C10-05-2018&advanceDiscount=&buyFlights.x=79&buyFlights.y=10&.cgifields=saveCC
+10/4 11:52:19|Utils|getFileName|filename for dump = findflight_firstName=Tiger_lastName=Scott_address1=4261_Stevenson_Blvd._address2=Fremont_2C_CA_94538_pass1=Scott_Tiger_creditCard=_expDate=_oldC
+10/4 11:52:19|Utils|getTimeStampForPage|Method called.
+10/4 11:52:19|Utils|generateUrlInfoListDetail|URL = http://10.10.30.7:81/cgi-bin/findflight?outboundFlight=button0&hidden_outboundFlight_button0=000%7C0%7C10-05-2018&hidden_outboundFlight_button1=001%7C0%7C10-05-2018&hidden_outboundFlight_button2=002%7C0%7C10-05-2018&hidden_outboundFlight_button3=003%7C0%7C10-05-2018&numPassengers=1&advanceDiscount=&seatType=Coach&seatPref=None&reserveFlights.x=74&reserveFlights.y=15
+10/4 11:52:19|Utils|generateUrlInfoListDetail|Setting url info object =http://10.10.30.7:81/cgi-bin/findflight?outboundFlight=button0&hidden_outboundFlight_button0=000%7C0%7C10-05-2018&hidden_outboundFlight_button1=001%7C0%7C10-05-2018&hidden_outboundFlight_button2=002%7C0%7C10-05-2018&hidden_outboundFlight_button3=003%7C0%7C10-05-2018&numPassengers=1&advanceDiscount=&seatType=Coach&seatPref=None&reserveFlights.x=74&reserveFlights.y=15
+10/4 11:52:19|Utils|filterPath|path = http://10.10.30.7:81/cgi-bin/findflight?outboundFlight=button0&hidden_outboundFlight_button0=000%7C0%7C10-05-2018&hidden_outboundFlight_button1=001%7C0%7C10-05-2018&hidden_outboundFlight_button2=002%7C0%7C10-05-2018&hidden_outboundFlight_button3=003%7C0%7C10-05-2018&numPassengers=1&advanceDiscount=&seatType=Coach&seatPref=None&reserveFlights.x=74&reserveFlights.y=15
+10/4 11:52:19|Utils|filterPath|path limit is excedding the limit
+10/4 11:52:19|Utils|isValidLenForPath|path = C:\Users\Jyoti Rawat\Desktop\recorder\scripts\default/default/HPDA_RBU\dump\flow\http://10.10.30.7:81/cgi-bin/findflight?outboundFlight=button0&hidden_outboundFlight_button0=000%7C0%7C10-05-2018&hidden_outboundFlight_button1=001%7C0%7C10-05-2018&hidden_outboundFlight_button2=002%7C0%7C10-05-2018&hidden_outboundFlight_button3=003%7C0%7C10-05-2018&numPassengers=1&advanceDiscount=&seatType=Coach&seatPref=None&reserveFlights.x=74&reserveFlights.y=15
+10/4 11:52:19|Utils|getFileName|path = http://10.10.30.7:81/cgi-bin/findflight?outboundFlight=button0&hidden_outboundFlight_button0=000%7C0%7C10-05-2018&hidden_outboundFlight_button1=001%7C0%7C10-05-2018&hidden_outboundFlight_button2=002%7C0%7C10-05-2018&hidden_outboundFlight_button3=003%7C0%7C10-05-2018&numPassengers=1&advanceDiscount=&seatType=Coach&seatPref=None&reserveFlights.x=74&reserveFlights.y=15
+10/4 11:52:19|Utils|getFileName|path limit is excedding the limit
+10/4 11:52:19|Utils|isValidLenForPath|path = C:\Users\Jyoti Rawat\Desktop\recorder\scripts\default/default/HPDA_RBU\dump\flow\http://10.10.30.7:81/cgi-bin/findflight?outboundFlight=button0&hidden_outboundFlight_button0=000%7C0%7C10-05-2018&hidden_outboundFlight_button1=001%7C0%7C10-05-2018&hidden_outboundFlight_button2=002%7C0%7C10-05-2018&hidden_outboundFlight_button3=003%7C0%7C10-05-2018&numPassengers=1&advanceDiscount=&seatType=Coach&seatPref=None&reserveFlights.x=74&reserveFlights.y=15
+10/4 11:52:19|Utils|getFileName|filename for dump = findflight_outboundFlight=button0_hidden_outboundFlight_button0=000_7C0_7C10-05-2018_hidden_outboundFlight_button1=001_7C0_7C10-05-2018_hidden_o
+10/4 11:52:19|Utils|filterPath|path = http://10.10.30.7:81/cgi-bin/findflight?outboundFlight=button0&hidden_outboundFlight_button0=000%7C0%7C10-05-2018&hidden_outboundFlight_button1=001%7C0%7C10-05-2018&hidden_outboundFlight_button2=002%7C0%7C10-05-2018&hidden_outboundFlight_button3=003%7C0%7C10-05-2018&numPassengers=1&advanceDiscount=&seatType=Coach&seatPref=None&reserveFlights.x=74&reserveFlights.y=15
+10/4 11:52:19|Utils|filterPath|path limit is excedding the limit
+10/4 11:52:19|Utils|isValidLenForPath|path = C:\Users\Jyoti Rawat\Desktop\recorder\scripts\default/default/HPDA_RBU\dump\flow\http://10.10.30.7:81/cgi-bin/findflight?outboundFlight=button0&hidden_outboundFlight_button0=000%7C0%7C10-05-2018&hidden_outboundFlight_button1=001%7C0%7C10-05-2018&hidden_outboundFlight_button2=002%7C0%7C10-05-2018&hidden_outboundFlight_button3=003%7C0%7C10-05-2018&numPassengers=1&advanceDiscount=&seatType=Coach&seatPref=None&reserveFlights.x=74&reserveFlights.y=15
+10/4 11:52:19|Utils|getTimeStampForPage|Method called.
+10/4 11:52:19|Utils|generateUrlInfoListDetail|URL = http://10.10.30.7:81/cgi-bin/findflight?firstName=Tiger&lastName=Scott&address1=4261+Stevenson+Blvd.&address2=Fremont%2C+CA+94538&pass1=Scott+Tiger&creditCard=&expDate=&oldCCOption=&numPassengers=1&seatType=Coach&seatPref=None&outboundFlight=000%7C0%7C10-05-2018&advanceDiscount=&buyFlights.x=79&buyFlights.y=10&.cgifields=saveCC
+10/4 11:52:19|Utils|generateUrlInfoListDetail|Setting url info object =http://10.10.30.7:81/cgi-bin/findflight?firstName=Tiger&lastName=Scott&address1=4261+Stevenson+Blvd.&address2=Fremont%2C+CA+94538&pass1=Scott+Tiger&creditCard=&expDate=&oldCCOption=&numPassengers=1&seatType=Coach&seatPref=None&outboundFlight=000%7C0%7C10-05-2018&advanceDiscount=&buyFlights.x=79&buyFlights.y=10&.cgifields=saveCC
+10/4 11:52:19|Utils|filterPath|path = http://10.10.30.7:81/cgi-bin/findflight?firstName=Tiger&lastName=Scott&address1=4261+Stevenson+Blvd.&address2=Fremont%2C+CA+94538&pass1=Scott+Tiger&creditCard=&expDate=&oldCCOption=&numPassengers=1&seatType=Coach&seatPref=None&outboundFlight=000%7C0%7C10-05-2018&advanceDiscount=&buyFlights.x=79&buyFlights.y=10&.cgifields=saveCC
+10/4 11:52:19|Utils|filterPath|path limit is excedding the limit
+10/4 11:52:19|Utils|isValidLenForPath|path = C:\Users\Jyoti Rawat\Desktop\recorder\scripts\default/default/HPDA_RBU\dump\flow\http://10.10.30.7:81/cgi-bin/findflight?firstName=Tiger&lastName=Scott&address1=4261+Stevenson+Blvd.&address2=Fremont%2C+CA+94538&pass1=Scott+Tiger&creditCard=&expDate=&oldCCOption=&numPassengers=1&seatType=Coach&seatPref=None&outboundFlight=000%7C0%7C10-05-2018&advanceDiscount=&buyFlights.x=79&buyFlights.y=10&.cgifields=saveCC
+10/4 11:52:19|Utils|getFileName|path = http://10.10.30.7:81/cgi-bin/findflight?firstName=Tiger&lastName=Scott&address1=4261+Stevenson+Blvd.&address2=Fremont%2C+CA+94538&pass1=Scott+Tiger&creditCard=&expDate=&oldCCOption=&numPassengers=1&seatType=Coach&seatPref=None&outboundFlight=000%7C0%7C10-05-2018&advanceDiscount=&buyFlights.x=79&buyFlights.y=10&.cgifields=saveCC
+10/4 11:52:19|Utils|getFileName|path limit is excedding the limit
+10/4 11:52:19|Utils|isValidLenForPath|path = C:\Users\Jyoti Rawat\Desktop\recorder\scripts\default/default/HPDA_RBU\dump\flow\http://10.10.30.7:81/cgi-bin/findflight?firstName=Tiger&lastName=Scott&address1=4261+Stevenson+Blvd.&address2=Fremont%2C+CA+94538&pass1=Scott+Tiger&creditCard=&expDate=&oldCCOption=&numPassengers=1&seatType=Coach&seatPref=None&outboundFlight=000%7C0%7C10-05-2018&advanceDiscount=&buyFlights.x=79&buyFlights.y=10&.cgifields=saveCC
+10/4 11:52:19|Utils|getFileName|filename for dump = findflight_firstName=Tiger_lastName=Scott_address1=4261_Stevenson_Blvd._address2=Fremont_2C_CA_94538_pass1=Scott_Tiger_creditCard=_expDate=_oldC
+10/4 11:52:19|Utils|filterPath|path = http://10.10.30.7:81/cgi-bin/findflight?firstName=Tiger&lastName=Scott&address1=4261+Stevenson+Blvd.&address2=Fremont%2C+CA+94538&pass1=Scott+Tiger&creditCard=&expDate=&oldCCOption=&numPassengers=1&seatType=Coach&seatPref=None&outboundFlight=000%7C0%7C10-05-2018&advanceDiscount=&buyFlights.x=79&buyFlights.y=10&.cgifields=saveCC
+10/4 11:52:19|Utils|filterPath|path limit is excedding the limit
+10/4 11:52:19|Utils|isValidLenForPath|path = C:\Users\Jyoti Rawat\Desktop\recorder\scripts\default/default/HPDA_RBU\dump\flow\http://10.10.30.7:81/cgi-bin/findflight?firstName=Tiger&lastName=Scott&address1=4261+Stevenson+Blvd.&address2=Fremont%2C+CA+94538&pass1=Scott+Tiger&creditCard=&expDate=&oldCCOption=&numPassengers=1&seatType=Coach&seatPref=None&outboundFlight=000%7C0%7C10-05-2018&advanceDiscount=&buyFlights.x=79&buyFlights.y=10&.cgifields=saveCC
+10/4 11:52:19|Utils|getTimeStampForPage|Method called.
+10/4 11:52:19|Utils|generateUrlInfoListDetail|URL = http://10.10.30.7:81/cgi-bin/welcome
+10/4 11:52:19|Utils|generateUrlInfoListDetail|Setting url info object =http://10.10.30.7:81/cgi-bin/welcome
+10/4 11:52:19|Utils|filterPath|path = http://10.10.30.7:81/cgi-bin/welcome
+10/4 11:52:19|Utils|getFileName|path = http://10.10.30.7:81/cgi-bin/welcome
+10/4 11:52:19|Utils|getFileName|filename for dump = welcome
+10/4 11:52:19|Utils|filterPath|path = http://10.10.30.7:81/cgi-bin/welcome
+10/4 11:52:19|ChromeMainFrame|addBrowserDisposeListener|browser disposed Exiting.
+10/4 11:52:20|ScriptHTMLStart|stopRecording|Going to upload script to server.
+10/4 11:52:24|ScriptRecordUtils|saveScriptToServer|method called.

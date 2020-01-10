@@ -1,0 +1,17 @@
+--Request 
+GET http://10.10.30.7:81/cgi-bin/findflight?depart=Acapulco&departDate=02-12-2019&arrive=Acapulco&returnDate=02-13-2019&numPassengers=1&seatPref=None&seatType=Coach&findFlights.x=68&findFlights.y=16&findFlights=Submit
+Host: 10.10.30.7:81
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+Referer: http://10.10.30.7:81/cgi-bin/reservation
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-type: text/html
+Content-length: 0000004269
+----
+

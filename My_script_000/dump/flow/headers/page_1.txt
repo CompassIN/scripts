@@ -1,0 +1,36 @@
+--Request 
+GET http://10.10.30.2/tours/index.html
+Host: 10.10.30.2
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+----
+--Response 
+HTTP/1.1 302 Found
+Cache-Control: private
+Server: Apache-Coyote/1.1
+Expires: Thu, 01 Jan 1970 05:30:00 IST
+Content-Length: 0
+Date: Wed, 12 Jun 2019 08:15:25 GMT
+Location: https://10.10.30.2/tours/index.html
+----
+--Request 
+GET https://10.10.30.2/tours/index.html
+Host: 10.10.30.2
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+----
+--Response 
+HTTP/1.1 404 Not Found
+Expires: Thu, 01 Jan 1970 05:30:00 IST
+Cache-Control: private
+Content-Length: 0
+Server: Apache-Coyote/1.1
+Date: Wed, 12 Jun 2019 08:15:25 GMT
+----
+

@@ -1,0 +1,8 @@
+#version=1.0
+#pageName|urlType|inlineUrlId|Url|dumpFileName|ContentType|redirectionDepth|redirectUrl|UrlHost|urlFilePath|rootPath|statusCode|time(Sec.)|bytesRecieved|bodySize|method|SnapShotBeforAction|SnapShotAfterAction|snapShotClickAction|clickAPIName|future1|future2|future3|future4|future5|future6|comments
+
+index_html_2|Main|0|http://66.220.31.131:9020/tours/index.html|66.220.31.131_9020/tours/index.html|text/html|0|NA|66.220.31.131:9020|/tours/|./../|200|0.004|0|2975|GET|webpage_1560328117225.png|webpage_1560328127615.png|NA|NA|0.544|5.01|NA|NA|NA|NA|NA
+index_html_2|Inline|1|http://66.220.31.131:9020/tours/Merc10-dev/images/banner_animated.gif|66.220.31.131_9020/tours/Merc10-dev/images/banner_animated.gif|image/gif|0|NA|66.220.31.131:9020|/tours/Merc10-dev/images/|./../../../|200|0.005|0|16522|GET|NA|NA|NA|NA|5.086|9.695|NA|NA|NA|NA|NA
+index_html_2|Inline|2|http://66.220.31.131:9020/tours/Merc10-dev/images/sun_swede.gif|66.220.31.131_9020/tours/Merc10-dev/images/sun_swede.gif|image/gif|0|NA|66.220.31.131:9020|/tours/Merc10-dev/images/|./../../../|200|0.005|0|4125|GET|NA|NA|NA|NA|5.102|9.629|NA|NA|NA|NA|NA
+index_html_2|Inline|3|http://66.220.31.131:9020/tours/Merc10-dev/images/login.gif|66.220.31.131_9020/tours/Merc10-dev/images/login.gif|image/gif|0|NA|66.220.31.131:9020|/tours/Merc10-dev/images/|./../../../|200|0.005|0|1323|GET|NA|NA|NA|NA|5.11|9.799|NA|NA|NA|NA|NA
+index_html_2|Inline|4|http://66.220.31.131:9020/tours/images/banner_merctur.jpg|66.220.31.131_9020/tours/images/banner_merctur.jpg|image/jpeg|0|NA|66.220.31.131:9020|/tours/images/|./../../|200|0.005|0|22548|GET|NA|NA|NA|NA|5.114|10.601|NA|NA|NA|NA|NA

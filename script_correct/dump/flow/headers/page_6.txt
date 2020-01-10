@@ -1,0 +1,137 @@
+--Request 
+GET http://10.10.30.15:9021/cgi-bin/findflight?firstName=Tiger&lastName=Scott&address1=4261+Stevenson+Blvd.&address2=Fremont%2C+CA+94538&pass1=Scott+Tiger&creditCard=&expDate=&oldCCOption=&numPassengers=1&seatType=Coach&seatPref=None&outboundFlight=000%7C0%7C06-22-2018&advanceDiscount=&buyFlights.x=91&buyFlights.y=21&.cgifields=saveCC
+Host: 10.10.30.15:9021
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+Referer: http://10.10.30.15:9021/cgi-bin/findflight?outboundFlight=button0&hidden_outboundFlight_button0=000%7C0%7C06-22-2018&hidden_outboundFlight_button1=001%7C0%7C06-22-2018&hidden_outboundFlight_button2=002%7C0%7C06-22-2018&hidden_outboundFlight_button3=003%7C0%7C06-22-2018&numPassengers=1&advanceDiscount=&seatType=Coach&seatPref=None&reserveFlights.x=86&reserveFlights.y=15
+User-Agent: Mozilla/4.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.24) Gecko/20111103 Firefox/3.6.24
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-type: text/html
+Content-length: 0000004069
+----
+--Request 
+GET http://10.10.30.15:9021/tours/Merc10-dev/images/banner_animated.gif
+Host: 10.10.30.15:9021
+Referer: http://10.10.30.15:9021/cgi-bin/findflight?firstName=Tiger&lastName=Scott&address1=4261+Stevenson+Blvd.&address2=Fremont%2C+CA+94538&pass1=Scott+Tiger&creditCard=&expDate=&oldCCOption=&numPassengers=1&seatType=Coach&seatPref=None&outboundFlight=000%7C0%7C06-22-2018&advanceDiscount=&buyFlights.x=91&buyFlights.y=21&.cgifields=saveCC
+User-Agent: Mozilla/4.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.24) Gecko/20111103 Firefox/3.6.24
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-Length: 16522
+Content-Type: image/gif
+----
+--Request 
+GET http://10.10.30.15:9021/tours/Merc10-dev/images/sun_swede.gif
+Host: 10.10.30.15:9021
+Referer: http://10.10.30.15:9021/cgi-bin/findflight?firstName=Tiger&lastName=Scott&address1=4261+Stevenson+Blvd.&address2=Fremont%2C+CA+94538&pass1=Scott+Tiger&creditCard=&expDate=&oldCCOption=&numPassengers=1&seatType=Coach&seatPref=None&outboundFlight=000%7C0%7C06-22-2018&advanceDiscount=&buyFlights.x=91&buyFlights.y=21&.cgifields=saveCC
+User-Agent: Mozilla/4.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.24) Gecko/20111103 Firefox/3.6.24
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-Length: 4125
+Content-Type: image/gif
+----
+--Request 
+GET http://10.10.30.15:9021/tours/Merc10-dev/images/flights.gif
+Host: 10.10.30.15:9021
+Referer: http://10.10.30.15:9021/cgi-bin/findflight?firstName=Tiger&lastName=Scott&address1=4261+Stevenson+Blvd.&address2=Fremont%2C+CA+94538&pass1=Scott+Tiger&creditCard=&expDate=&oldCCOption=&numPassengers=1&seatType=Coach&seatPref=None&outboundFlight=000%7C0%7C06-22-2018&advanceDiscount=&buyFlights.x=91&buyFlights.y=21&.cgifields=saveCC
+User-Agent: Mozilla/4.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.24) Gecko/20111103 Firefox/3.6.24
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-Length: 1519
+Content-Type: image/gif
+----
+--Request 
+GET http://10.10.30.15:9021/tours/Merc10-dev/images/home.gif
+Host: 10.10.30.15:9021
+Referer: http://10.10.30.15:9021/cgi-bin/findflight?firstName=Tiger&lastName=Scott&address1=4261+Stevenson+Blvd.&address2=Fremont%2C+CA+94538&pass1=Scott+Tiger&creditCard=&expDate=&oldCCOption=&numPassengers=1&seatType=Coach&seatPref=None&outboundFlight=000%7C0%7C06-22-2018&advanceDiscount=&buyFlights.x=91&buyFlights.y=21&.cgifields=saveCC
+User-Agent: Mozilla/4.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.24) Gecko/20111103 Firefox/3.6.24
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-Length: 1268
+Content-Type: image/gif
+----
+--Request 
+GET http://10.10.30.15:9021/tours/Merc10-dev/images/signoff.gif
+Host: 10.10.30.15:9021
+Referer: http://10.10.30.15:9021/cgi-bin/findflight?firstName=Tiger&lastName=Scott&address1=4261+Stevenson+Blvd.&address2=Fremont%2C+CA+94538&pass1=Scott+Tiger&creditCard=&expDate=&oldCCOption=&numPassengers=1&seatType=Coach&seatPref=None&outboundFlight=000%7C0%7C06-22-2018&advanceDiscount=&buyFlights.x=91&buyFlights.y=21&.cgifields=saveCC
+User-Agent: Mozilla/4.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.24) Gecko/20111103 Firefox/3.6.24
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-Length: 1260
+Content-Type: image/gif
+----
+--Request 
+GET http://10.10.30.15:9021/tours/images/splash_flightconfirm.gif
+Host: 10.10.30.15:9021
+Referer: http://10.10.30.15:9021/cgi-bin/findflight?firstName=Tiger&lastName=Scott&address1=4261+Stevenson+Blvd.&address2=Fremont%2C+CA+94538&pass1=Scott+Tiger&creditCard=&expDate=&oldCCOption=&numPassengers=1&seatType=Coach&seatPref=None&outboundFlight=000%7C0%7C06-22-2018&advanceDiscount=&buyFlights.x=91&buyFlights.y=21&.cgifields=saveCC
+User-Agent: Mozilla/4.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.24) Gecko/20111103 Firefox/3.6.24
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-Length: 3013
+Content-Type: image/gif
+----
+--Request 
+GET http://10.10.30.15:9021/tours/vep/images/velocigen.gif
+Host: 10.10.30.15:9021
+Referer: http://10.10.30.15:9021/cgi-bin/findflight?firstName=Tiger&lastName=Scott&address1=4261+Stevenson+Blvd.&address2=Fremont%2C+CA+94538&pass1=Scott+Tiger&creditCard=&expDate=&oldCCOption=&numPassengers=1&seatType=Coach&seatPref=None&outboundFlight=000%7C0%7C06-22-2018&advanceDiscount=&buyFlights.x=91&buyFlights.y=21&.cgifields=saveCC
+User-Agent: Mozilla/4.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.24) Gecko/20111103 Firefox/3.6.24
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-Length: 2018
+Content-Type: image/gif
+----
+--Request 
+GET http://10.10.30.15:9021/tours/images/bookanother.gif
+Host: 10.10.30.15:9021
+Referer: http://10.10.30.15:9021/cgi-bin/findflight?firstName=Tiger&lastName=Scott&address1=4261+Stevenson+Blvd.&address2=Fremont%2C+CA+94538&pass1=Scott+Tiger&creditCard=&expDate=&oldCCOption=&numPassengers=1&seatType=Coach&seatPref=None&outboundFlight=000%7C0%7C06-22-2018&advanceDiscount=&buyFlights.x=91&buyFlights.y=21&.cgifields=saveCC
+User-Agent: Mozilla/4.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.24) Gecko/20111103 Firefox/3.6.24
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-Length: 1992
+Content-Type: image/gif
+----
+

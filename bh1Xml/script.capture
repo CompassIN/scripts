@@ -1,4 +1,8 @@
+<<<<<<< HEAD
  main()
+=======
+main()
+>>>>>>> 6aa46ec77b49cf2362215c80133781ddd7f92eff
 {
   int next_page, think_time;
 //Define Any NS Variables here. Do not remove or modify this line

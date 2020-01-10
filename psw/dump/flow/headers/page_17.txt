@@ -1,0 +1,27 @@
+--Request 
+POST https://www.googleapis.com/rpc
+Host: www.googleapis.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Content-Type: application/json
+----
+ POSTDATA {"method":"spelling.check","apiVersion":"v2","params":{"text":"Tiger ","language":"en","originCountry":"USA","key":"dummytoken"}}
+--Response 
+HTTP/1.1 200
+date: Fri, 21 Dec 2018 07:35:56 GMT
+content-length: 135
+server: GSE
+expires: Mon, 01 Jan 1990 00:00:00 GMT
+vary: X-Origin
+content-encoding: gzip
+x-frame-options: SAMEORIGIN
+pragma: no-cache
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=UTF-8
+alt-svc: quic=\":443\"; ma=2592000; v=\"44,43,39,35\"
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+status: 200
+----
+
