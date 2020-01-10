@@ -1,0 +1,43 @@
+--Request 
+POST https://fls-eu.amazon.in/1/batch/1/OE/
+Host: fls-eu.amazon.in
+Cookie: session-id=259-1202557-5929705; i18n-prefs=INR; ubid-acbin=258-0672242-6953331; x-wl-uid=1ecJvyxzwiGLpb/ivu3x3ngupYO7bY1+BPjlMC56V5J9AKfsIjsCkfc+Jr7a3C9XLJxX0u1syPM0=; visitCount=1; session-token=\"qbOQOkS0VEpBUocLOZRgf/vBjfAa/L1gvzuk4dHaABRLwBcXdkoWG+tgKYovU/GtpgviGH2ntZ17AVp7e48ZFY6MNw3iH/RJtLL2eZrJEHt3s9Cy0QE8n08HbD+hmqwfffrZuHf+ncTYp9ne7NmDLRaqAwIAVoD+O39gZOoyeiIbwRC9aZp+vc79loUdfIgRN7k1iETJ2x2I7SZjKc9arkykk2SqRFhbbijoObQQg4mvjy58UMqGvQ==\"; lc-acbin=en_IN; session-id-time=2082787201l
+Origin: https://www.amazon.in
+Accept: */*
+Cache-Control: max-age=0
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Content-Type: text/plain;charset=UTF-8
+----
+ POSTDATA {"rid":"XS1R1NSST0MSNB81W2M8","sid":"259-1202557-5929705","mid":"A21TJRUUN4KGV","sn":"www.amazon.in","reqs":[{"jserr-rw":{"m":"ISS AJAX call failed for iss-warmup with responseText: undefined, pageType: Detail, status: timeout, error: timeout","csm":"v5 ueLogError callee","logLevel":"WARN","attribution":"iss-warmup","pageURL":"https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1","s":["function (){if(g.ue_err.erl){var b=g.ue_err.erl.length,l,a;for(l=0;l<b;l++)a=g.ue_err.erl[l],B(a.ex,a.info);ue_err.erl=[]}}","function (g,f){function y(b){if(b)return b.replace(/^\\s+|\\s+$/g,\"\")}function w(b,l){if(!b)return{};var a=\"INFO\"===l.logLevel;b.m&&b.m.message&&(b=b.m);var e=l.m||l.message||\"\",e=b.m&&b.m.message?e+b.m.message:b.m&&b.m.target&&b.m.target.tagName?e+(\"Error handler invoked by \"+b.m.target.tagName+\" tag\"):b.m?e+b.m:b.message?e+b.message:e+\"Unknown error\",e={m:e,name:b.name,type:b.type,csm:N+\" \"+(b.fromOnError?\"onerror\":\"ueLogError\")},k,f,h=0,q;e.logLevel=l.logLevel||A;l.adb&&(e.adb=l.adb);if(k=l.attribution)e.a"],"t":5710}},{"csmcount":{"counter":"foresterPayloadSize","t":0,"value":1226}}]}
+--Response 
+HTTP/1.1 204
+access-control-allow-origin: *
+date: Mon, 08 Jul 2019 13:24:59 GMT
+x-amzn-requestid: 8b9e1deb-d253-43d5-84e1-32662c5eee7d
+access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+status: 204
+----
+--Request 
+GET https://aax-eu.amazon-adsystem.com/e/xsp/imp?b=Qm9ZjQIeOzOFuOzbqkmP7E0AAAFr0cI07AMAAAH_AW6uXtg
+Host: aax-eu.amazon-adsystem.com
+Cookie: ad-id=A12g3-vssU7xrcsPDnR90f0; ad-privacy=0
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://images-eu.ssl-images-amazon.com/images/G/31/ape/sf/whitelisted/desktop/sf-1.50.d23453f._V461669522_.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200 OK
+Cache-Control: private, no-cache, no-store, must-revalidate
+Server: Server
+Connection: keep-alive
+Vary: User-Agent
+Content-Length: 43
+Date: Mon, 08 Jul 2019 13:24:59 GMT
+Content-Type: image/gif
+----
+

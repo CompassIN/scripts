@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message Float {
+  float float_field1 = 1;
+  float float_field2 = 2;
+  float float_field3 = 3;
+}

@@ -1,0 +1,143 @@
+4/10 10:58:40|ChromeMainFrame|createBrowserWindowWithListener|constructor called.
+4/10 10:58:49|ChromeBrowserConfigurationSettings|EnableDisableBrowserOtions|method called.
+4/10 10:58:49|ChromeBrowserConfigurationSettings|EnableDisableBrowserOtions|Enabling JavaScript feature.
+4/10 10:58:49|ChromeBrowserConfigurationSettings|EnableDisableBrowserOtions|Enabling ImageDownload feature.
+4/10 10:58:49|ChromeBrowserConfigurationSettings|EnableDisableBrowserOtions|Enabling Plugins feature.
+4/10 10:58:50|ChromeBrowserConfigurationSettings|clearLocalStorage|Method called.
+4/10 10:58:50|ChromeBrowserConfigurationSettings|setSecurityCertificationErrors|Method called.
+4/10 10:58:50|ChromeMainFrame|addStatusAndTitleBrowser|Method called.
+4/10 10:58:50|ChromeMainFrame|addPageNavigationListeners|method called.
+4/10 10:58:50|ChromeBrowserNavigationListener|ChromeBrowserNavigationListener|Constructor Called.
+4/10 10:58:50|ChromeRecordingHttpListener||constructor called.
+4/10 10:58:50|ChromeMainFrame|createinitUI|constructor called.
+4/10 10:58:50|TabContent|createComponents|method called.
+4/10 10:58:50|TabContent|createBrowserContainer|method called.
+4/10 10:58:50|TabContent|createToolBar|method called.
+4/10 10:58:50|ProgressBar|initializeGUI|Method Called
+4/10 10:58:50|ToolBar|createToolBarComponents|method called.
+4/10 10:58:50|ToolBar|createAddressBar|method called.
+4/10 10:58:50|ToolBar|createActionsPane|method called.
+4/10 10:58:50|ChromeBrowserNavigationListener|onStartLoadingFrame|Method Called for URL=http://127.0.0.1/
+4/10 10:58:50|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+4/10 10:58:50|ChromeBrowserNavigationListener|onStartLoadingFrame|Begin Loading URL == http://127.0.0.1/  ===== Begin = 1554874130859
+4/10 10:58:50|Utils|getURLTracker|urlString = http://127.0.0.1/, requestOrResponce = snapShot
+4/10 10:58:50|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+4/10 10:58:50|Utils|getURLTracker|urlString = http://127.0.0.1/, requestOrResponce = request
+4/10 10:58:50|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1554874130863
+4/10 10:58:50|Utils|convertToSecond method called|time = 10848.0
+4/10 10:58:50|ProgressBar|setVisible|Method Called. bool = true
+4/10 10:58:50|Utils|isSplit|Method called.
+4/10 10:58:50|Utils|isSplit|Splitting for Ajax Header = false
+4/10 10:58:50|Utils|isSplit|Splitting for method GET = false
+4/10 10:58:50|Utils|isSplit|result = false
+4/10 10:58:50|Utils|isSplitForTimeDiff|Method called.
+4/10 10:58:50|Utils|isSplit|result = false
+4/10 10:58:50|Utils|isSplitForURLType|Method called.
+4/10 10:58:50|Utils|isSplitForURLType|value = false
+4/10 10:58:50|Utils|isSplitForURLType|value = false
+4/10 10:58:50|Utils|isSplit|isSplitForURLType = false
+4/10 10:58:50|Utils|getURLTracker|urlString = http://127.0.0.1/, requestOrResponce = response
+4/10 10:58:50|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1554874130924
+4/10 10:58:50|Utils|convertToSecond method called|time = 10909.0
+4/10 10:58:50|Utils|isSplit|Method called.
+4/10 10:58:50|Utils|isSplit|Splitting for Ajax Header = false
+4/10 10:58:50|Utils|isSplit|Splitting for method GET = false
+4/10 10:58:50|Utils|isSplit|result = false
+4/10 10:58:50|Utils|isSplitForTimeDiff|Method called.
+4/10 10:58:50|Utils|isSplit|result = false
+4/10 10:58:50|Utils|isSplitForURLType|Method called.
+4/10 10:58:50|Utils|isSplitForURLType|value = false
+4/10 10:58:50|Utils|isSplitForURLType|value = false
+4/10 10:58:50|Utils|isSplitForURLType|value = false
+4/10 10:58:50|Utils|isSplit|isSplitForURLType = false
+4/10 10:58:50|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://127.0.0.1/
+4/10 10:58:50|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1554874130924
+4/10 10:58:50|Utils|convertToSecond method called|time = 10909.0
+4/10 10:58:50|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1554874130924
+4/10 10:58:50|Utils|convertToSecond method called|time = 10909.0
+4/10 10:58:50|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=/home/netstorm/Desktop/recorder/scripts/default/default/TestJava/dump/flow/127.0.0.1/
+4/10 10:58:50|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+4/10 10:58:50|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+4/10 10:58:50|Utils|getURLTracker|urlString = http://127.0.0.1/icons/ubuntu-logo.png, requestOrResponce = request
+4/10 10:58:50|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1554874130956
+4/10 10:58:50|Utils|convertToSecond method called|time = 10941.0
+4/10 10:58:50|Utils|isSplit|Method called.
+4/10 10:58:50|Utils|isSplit|Splitting for Ajax Header = false
+4/10 10:58:50|Utils|isSplit|Splitting for method GET = false
+4/10 10:58:50|Utils|isSplit|result = false
+4/10 10:58:50|Utils|isSplitForTimeDiff|Method called.
+4/10 10:58:50|Utils|isSplit|Splitting for time 0.03200000000000003 = false
+4/10 10:58:50|Utils|isSplit|result = false
+4/10 10:58:50|Utils|isSplitForURLType|Method called.
+4/10 10:58:50|Utils|isSplitForURLType|value = false
+4/10 10:58:50|Utils|isSplitForURLType|value = false
+4/10 10:58:50|Utils|isSplit|isSplitForURLType = false
+4/10 10:58:51|Utils|getURLTracker|urlString = http://127.0.0.1/icons/ubuntu-logo.png, requestOrResponce = response
+4/10 10:58:51|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1554874131091
+4/10 10:58:51|Utils|convertToSecond method called|time = 11076.0
+4/10 10:58:51|Utils|isSplit|Method called.
+4/10 10:58:51|Utils|isSplit|Splitting for Ajax Header = false
+4/10 10:58:51|Utils|isSplit|Splitting for method GET = false
+4/10 10:58:51|Utils|isSplit|result = false
+4/10 10:58:51|Utils|isSplitForTimeDiff|Method called.
+4/10 10:58:51|Utils|isSplit|Splitting for time 0.03200000000000003 = false
+4/10 10:58:51|Utils|isSplit|result = false
+4/10 10:58:51|Utils|isSplitForURLType|Method called.
+4/10 10:58:51|Utils|isSplitForURLType|value = false
+4/10 10:58:51|Utils|isSplitForURLType|value = false
+4/10 10:58:51|Utils|isSplitForURLType|value = false
+4/10 10:58:51|Utils|isSplit|isSplitForURLType = false
+4/10 10:58:51|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://127.0.0.1/icons/ubuntu-logo.png
+4/10 10:58:51|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1554874131091
+4/10 10:58:51|Utils|convertToSecond method called|time = 11076.0
+4/10 10:58:51|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1554874131091
+4/10 10:58:51|Utils|convertToSecond method called|time = 11076.0
+4/10 10:58:51|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=/home/netstorm/Desktop/recorder/scripts/default/default/TestJava/dump/flow/127.0.0.1/icons/
+4/10 10:58:51|ChromeBrowserNavigationListener|onFinishLoadingFrame|Method Called for URL=http://127.0.0.1/
+4/10 10:58:51|Utils|getURLTracker|urlString = http://127.0.0.1/, requestOrResponce = snapShot
+4/10 10:58:51|ProgressBar|setVisible|Method Called. bool = false
+4/10 10:58:51|WebCFormattor||constructor called.
+4/10 10:58:51|ScriptHTMLStart|Recording|Thread state =2
+4/10 10:58:51|ScriptHTMLStart|run|Setting thread state.State of Thread - 2
+4/10 10:58:51|ChromeCClickListener|addAllHTMLElementsListeners|Method Called.
+4/10 10:58:58|ChromeMainFrame|addBrowserDisposeListener|browser disposed called.
+4/10 10:58:58|WebCFormattor|generateScripts|method called.
+4/10 10:58:58|Utils|addLastPageLeftUrlsToInlineUrlsOfLastPage|Method called.
+4/10 10:58:58|Utils|modifyMapForSplit|Method called.
+4/10 10:58:58|Utils|modifyMapForSplit|Before Modify URL Map Size :1
+4/10 10:58:58|Utils|modifyMapForThinkTime|Method called.
+4/10 10:58:58|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 0
+4/10 10:58:58|Utils|modifyMapForThinkTime|Modifying url list for last page=index, startThink=11.076, endThink=0.0
+4/10 10:58:58|Utils|modifyMapForSplit|After Modify URL Map Size :1
+4/10 10:58:58|Utils|generateEventDetail|method called.
+4/10 10:58:58|Utils|getTimeStampForPage|Method called.
+4/10 10:58:58|Utils|generateUrlInfoListDetail|method called
+4/10 10:58:58|Utils|getTimeStampForPage|Method called.
+4/10 10:58:58|Utils|generateUrlInfoListDetail|URL = http://127.0.0.1/
+4/10 10:58:58|Utils|convertToSecond method called|time = 0.06099999999999994
+4/10 10:58:58|Utils|generateUrlInfoListDetail|ScriptparsingData =http://127.0.0.1/
+4/10 10:58:58|Utils|generateUrlInfoListDetail|UrlTracker.scriptParsingData.getParsedPath()=127.0.0.1/, Utils.getDumpPath() = /home/netstorm/Desktop/recorder/scripts/default/default/TestJava/dump/flow
+4/10 10:58:58|Utils|generateUrlInfoListDetail|URL = http://127.0.0.1/icons/ubuntu-logo.png
+4/10 10:58:58|Utils|convertToSecond method called|time = 0.1349999999999998
+4/10 10:58:58|Utils|generateUrlInfoListDetail|ScriptparsingData =http://127.0.0.1/icons/ubuntu-logo.png
+4/10 10:58:58|WebCFormattor|generateEventsForFlow|method called.
+4/10 10:58:58|WebCGenerator|generate|method called.
+4/10 10:58:58|WebCGenerator|generate|Putting header comments in Buffer.
+4/10 10:58:58|WebCGenerator|generate|Processing URLs with list size=1
+4/10 10:58:58|Utils|getTimeStampForPage|Method called.
+4/10 10:58:58|WebCGenerator|getValidURL|Since this URL is not in filtered list, returning the URL=http://127.0.0.1/
+4/10 10:58:58|Utils|getTimeStampForPage|Method called.
+4/10 10:58:58|WebCGenerator|getUrlReqAndResDetails|method called.
+4/10 10:58:58|WebCGenerator|appendRealBrowserData|method called. The isRealBrowser value = false
+4/10 10:58:58|WebCGenerator|generate|Adding Inline template to the page.
+4/10 10:58:58|WebCGenerator|appendHeadersAndEndline|method called.
+4/10 10:58:58|WebCGenerator|getUrlReqAndResDetails|method called.
+4/10 10:58:58|Utils|convertToSecond method called|time = 11.076
+4/10 10:58:58|ChromeMainFrame|addBrowserDisposeListener|browser disposed Exiting.
+4/10 10:59:39|ScriptLeftPane|highlightOpenedTab |Method called.
+4/10 10:59:40|ScriptLeftPane|highlightOpenedTab |Method called.
+4/10 10:59:44|ScriptHTMLStart|stopRecording|Method Called.
+4/10 10:59:44|ScriptHTMLStart|stopRecording|Going to stop recording
+4/10 10:59:44|NSChromeBrowser|stopRecord|Method called.
+4/10 10:59:44|ScriptHTMLStart|stopRecording|Going to upload script to server.
+4/10 10:59:46|ScriptRecordUtils|saveScriptToServer|method called.

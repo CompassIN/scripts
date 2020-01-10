@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SFixed64 {
+  sfixed64 sfixed64_field1 = 1;
+  sfixed64 sfixed64_field2 = 2;
+  sfixed64 sfixed64_field3 = 3;
+}

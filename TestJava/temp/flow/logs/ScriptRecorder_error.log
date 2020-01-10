@@ -1,0 +1,24 @@
+4/10 10:58:50|ChomeSnapShotUtil|run|Exception in getting snapshot for url = http://127.0.0.1/|Following is the stack trace:
+java.lang.IllegalArgumentException: image == null!
+	at javax.imageio.ImageTypeSpecifier.createFromRenderedImage(ImageTypeSpecifier.java:925)
+	at javax.imageio.ImageIO.getWriter(ImageIO.java:1592)
+	at javax.imageio.ImageIO.write(ImageIO.java:1520)
+	at com.netstorm.chromium.util.ChromeSnapShotUtil.run(ChromeSnapShotUtil.java:127)
+	at java.lang.Thread.run(Thread.java:745)
+4/10 10:58:51|ChomeSnapShotUtil|run|Exception in getting snapshot for url = http://127.0.0.1/|Following is the stack trace:
+java.lang.IllegalArgumentException: image == null!
+	at javax.imageio.ImageTypeSpecifier.createFromRenderedImage(ImageTypeSpecifier.java:925)
+	at javax.imageio.ImageIO.getWriter(ImageIO.java:1592)
+	at javax.imageio.ImageIO.write(ImageIO.java:1520)
+	at com.netstorm.chromium.util.ChromeSnapShotUtil.run(ChromeSnapShotUtil.java:127)
+	at java.lang.Thread.run(Thread.java:745)
+4/10 10:59:44|NSChromeBrowser|stopRecord|Exception in method|Following is the stack trace:
+java.lang.IllegalStateException: Failed to send message. Channel is already closed. GetURLMessage{type=GetURL, uid=211, url=null
+	at com.teamdev.jxbrowser.chromium.internal.ipc.MemoryChannelWriter.write(SourceFile:54)
+	at com.teamdev.jxbrowser.chromium.internal.ipc.SocketChannel.post(SourceFile:204)
+	at com.teamdev.jxbrowser.chromium.Browser.b(SourceFile:627)
+	at com.teamdev.jxbrowser.chromium.Browser.getURL(SourceFile:2084)
+	at com.netstorm.chromium.browser.NSChromeBrowser.stopRecord(NSChromeBrowser.java:240)
+	at pacAction.ScriptHTMLStart.stopRecording(ScriptHTMLStart.java:298)
+	at pacUi.ScriptMain$4.run(ScriptMain.java:302)
+	at java.lang.Thread.run(Thread.java:745)

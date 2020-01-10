@@ -1,0 +1,107 @@
+//uint64  &&  fixed64
+0
+123
+32343354
+556768787
+2234343444
+987777777777
+45666777676876
+9790586554444446
+9767554545454542222
+18446744073709551615
+
+//uint32  && fixed32
+0
+43
+2355
+1234556
+995786454
+32832
+884449
+4999990
+1923932932
+4294967295
+
+//int64  &&  sint64  && sfixed64
+-9223372036854775808
+-3763738
+-2629275334373999
+-167
+0
+167
+2679
+7389809
+4566373777788866
+9223372036854775807
+
+//int32  && sint32  && sfixed32
+-2147483648
+-673839
+0
+7283782
+547372
+818281929
+11223
+67
+987
+2147483647
+
+//float
+-2147483648
+-673839.256
+0
+7283782
+547372.9
+818281929
+11223.00
+67.873668
+987.78468
+2147483647
+
+//double
+-9223372036854775808
+-76327288378.67382732938
+-66779977.378
+-6778
+0
+234
+3234445848.90848000
+632773
+7884677383.890033
+9223372036854775807
+
+//bytes
+0
+77
+89
+180
+124
+11
+203
+254
+255
+4
+
+//bool
+TRUE
+FALSE
+TRUE
+FALSE
+TRUE
+FALSE
+TRUE
+FALSE
+TRUE
+FALSE
+
+//string
+Nisha Agarwal
+If the default value is not specified for an optional element, a type-specific default value is used instead: for strings, the default value is the empty string.
+Nisha Agarwal
+If the default value is not specified for an optional element, a type-specific default value is used instead: for strings, the default value is the empty string.
+Nisha Agarwal
+If the default value is not specified for an optional element, a type-specific default value is used instead: for strings, the default value is the empty string.
+Nisha Agarwal
+If the default value is not specified for an optional element, a type-specific default value is used instead: for strings, the default value is the empty string.
+Nisha Agarwal
+If the default value is not specified for an optional element, a type-specific default value is used instead: for strings, the default value is the empty string.

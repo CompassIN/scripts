@@ -1,0 +1,26 @@
+--Request 
+HEAD https://images-eu.ssl-images-amazon.com/images/I/61M6tq+U1yL._AC_SY200_.jpg
+Host: images-eu.ssl-images-amazon.com
+Origin: https://www.amazon.in
+Accept: */*
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:16:43 GMT
+content-length: 9493
+server: Server
+expires: Tue, 07 Jun 2039 11:26:10 GMT
+x-amz-ir-id: ccffd5be-2c62-49fe-bd08-a49b1bbbbd70
+access-control-allow-origin: *
+last-modified: Tue, 19 Feb 2019 20:00:44 GMT
+content-type: image/jpeg
+timing-allow-origin: https://www.amazon.com
+x-cache: Hit from akamai
+cache-control: public, max-age=628466967
+status: 200
+----
+

@@ -1,0 +1,297 @@
+--Request 
+GET https://www.amazon.in/gp/aq-feedback/lazyLoad/handler/af-link-handler.html?pl=%7B%22adPlacementMetaData%22%3A%7B%22pageUrl%22%3A%22aHR0cHM6Ly93d3cuYW1hem9uLmluL3Nob3BwaW5nUG9ydGFsL2Rlc2t0b3A%3D%22%2C%22adElementId%22%3A%22ape_Gateway_right-2_desktop_placement%22%2C%22pageType%22%3A%22Gateway%22%2C%22slotName%22%3A%22right-2%22%7D%2C%22adCreativeMetaData%22%3A%7B%22adNetwork%22%3A%22cs%22%7D%7D
+Host: www.amazon.in
+Cookie: session-id=259-1202557-5929705; i18n-prefs=INR; csm-hit=tb:s-FQHMBRA36T6KVA44S1T8|1562591802960&t:1562591802961; ubid-acbin=258-0672242-6953331; x-wl-uid=1ecJvyxzwiGLpb/ivu3x3ngupYO7bY1+BPjlMC56V5J9AKfsIjsCkfc+Jr7a3C9XLJxX0u1syPM0=; session-token=qbOQOkS0VEpBUocLOZRgf/vBjfAa/L1gvzuk4dHaABRLwBcXdkoWG+tgKYovU/GtpgviGH2ntZ17AVp7e48ZFY6MNw3iH/RJtLL2eZrJEHt3s9Cy0QE8n08HbD+hmqwfffrZuHf+ncTYp9ne7NmDLRaqAwIAVoD+O39gZOoyeiIbwRC9aZp+vc79loUdfIgRN7k1iETJ2x2I7SZjKc9arkykk2SqRFhbbijoObQQg4mvjy58UMqGvQ==; session-id-time=2082758401l
+Accept: */*
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:16:46 GMT
+x-amz-cf-pop: DEL51
+server: Server
+vary: Accept-Encoding,User-Agent,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment
+content-encoding: gzip
+x-frame-options: SAMEORIGIN
+x-amz-rid: F012ECT4MWR3GN67H7FZ
+strict-transport-security: max-age=47474747; includeSubDomains; preload
+via: 1.1 b804a121dcbb7cb51fd709903749806e.cloudfront.net (CloudFront)
+set-cookie: session-id=259-1202557-5929705; path=/; domain=.amazon.in; expires=Tue, 01-Jan-2036 00:00:01 GMT
+content-type: application/json
+x-amz-id-1: F012ECT4MWR3GN67H7FZ
+x-cache: Miss from cloudfront
+cache-control: no-transform
+x-amz-cf-id: jv-_3zYqrL35ZlZ8lUWTK2dXJPClx7GlIyppzW9Mi466FddXS1CFTw==
+status: 200
+----
+--Request 
+GET https://images-na.ssl-images-amazon.com/images/I/41uYLpI%2BdSL.__AC_SY200_.jpg
+Host: images-na.ssl-images-amazon.com
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:16:47 GMT
+content-length: 4230
+server: Server
+expires: Sun, 03 Jul 2039 02:12:46 GMT
+x-amz-ir-id: b178f4c0-bfb4-4fe4-9666-3413c3436607
+access-control-allow-origin: *
+last-modified: Wed, 06 Sep 2017 09:24:51 GMT
+content-type: image/jpeg
+timing-allow-origin: https://www.amazon.com
+x-cache: Hit from akamai
+cache-control: public, max-age=630680159
+status: 200
+----
+--Request 
+GET https://images-na.ssl-images-amazon.com/images/I/41%2BAUVTLtrL.__AC_SY200_.jpg
+Host: images-na.ssl-images-amazon.com
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:16:47 GMT
+content-length: 4097
+server: Server
+expires: Sun, 03 Jul 2039 02:04:18 GMT
+x-amz-ir-id: adc99e93-81c4-4f02-82f2-054ef6b036e4
+access-control-allow-origin: *
+last-modified: Sat, 31 Mar 2018 10:36:46 GMT
+content-type: image/jpeg
+timing-allow-origin: https://www.amazon.com
+x-cache: Hit from akamai
+cache-control: public, max-age=630679651
+status: 200
+----
+--Request 
+GET https://images-na.ssl-images-amazon.com/images/I/41PowBcatCL.__AC_SY200_.jpg
+Host: images-na.ssl-images-amazon.com
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:16:47 GMT
+content-length: 10658
+server: Server
+expires: Mon, 27 Jun 2039 22:42:50 GMT
+x-amz-ir-id: fdfa1af5-9e57-4880-9812-2baf11ba01d6
+access-control-allow-origin: *
+last-modified: Tue, 24 Jul 2018 08:10:46 GMT
+content-type: image/jpeg
+timing-allow-origin: https://www.amazon.com
+x-cache: Hit from akamai
+cache-control: public, max-age=630235563
+status: 200
+----
+--Request 
+GET https://images-na.ssl-images-amazon.com/images/I/41tKTjT3EXL.__AC_SY200_.jpg
+Host: images-na.ssl-images-amazon.com
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:16:47 GMT
+content-length: 13594
+server: Server
+expires: Wed, 29 Jun 2039 00:32:47 GMT
+x-amz-ir-id: c6bb5f56-4f24-452d-b772-8d6153f79ed9
+access-control-allow-origin: *
+last-modified: Tue, 10 Oct 2017 08:33:35 GMT
+content-type: image/jpeg
+timing-allow-origin: https://www.amazon.com
+x-cache: Hit from akamai
+cache-control: public, max-age=630328560
+status: 200
+----
+--Request 
+GET https://images-na.ssl-images-amazon.com/images/I/41t88ncVQXL.__AC_SY200_.jpg
+Host: images-na.ssl-images-amazon.com
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:16:47 GMT
+content-length: 6914
+server: Server
+expires: Sun, 26 Jun 2039 18:34:52 GMT
+x-amz-ir-id: 5e0218a9-ee29-45e6-bab9-197a2a0a2d09
+access-control-allow-origin: *
+last-modified: Thu, 04 Apr 2019 19:20:33 GMT
+content-type: image/jpeg
+timing-allow-origin: https://www.amazon.com
+x-cache: Hit from akamai
+cache-control: public, max-age=630134285
+status: 200
+----
+--Request 
+GET https://images-na.ssl-images-amazon.com/images/I/51pAETvoGPL.__AC_SY200_.jpg
+Host: images-na.ssl-images-amazon.com
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:16:47 GMT
+content-length: 8378
+server: Server
+expires: Sun, 17 Apr 2039 02:52:02 GMT
+x-amz-ir-id: 41e1917a-3621-4048-8726-1ffdff03c4e4
+access-control-allow-origin: *
+last-modified: Sat, 16 Sep 2017 06:22:03 GMT
+content-type: image/jpeg
+timing-allow-origin: https://www.amazon.com
+x-cache: Hit from akamai
+cache-control: public, max-age=624029715
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/productAds/ad_feedback_icon_1Xsprite._CB319582757_.png
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:16:48 GMT
+content-length: 451
+server: Server
+expires: Tue, 15 Mar 2039 03:09:13 GMT
+x-amz-ir-id: f3a8f7c7-8ea5-4244-af8f-d5a95cd323b5
+access-control-allow-origin: *
+last-modified: Wed, 15 Oct 2014 06:31:02 GMT
+content-type: image/png
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from akamai
+cache-control: public, max-age=621179545
+status: 200
+----
+--Request 
+GET https://images-na.ssl-images-amazon.com/images/I/51mzeLvyUAL.__AC_SY200_.jpg
+Host: images-na.ssl-images-amazon.com
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:16:48 GMT
+content-length: 11508
+server: Server
+expires: Sat, 25 Jun 2039 18:33:33 GMT
+x-amz-ir-id: 4ec29f5a-d075-461c-be26-68c95be6d6e0
+access-control-allow-origin: *
+last-modified: Sun, 13 Apr 2014 04:53:13 GMT
+content-type: image/jpeg
+timing-allow-origin: https://www.amazon.com
+x-cache: Hit from akamai
+cache-control: public, max-age=630047805
+status: 200
+----
+--Request 
+GET https://images-na.ssl-images-amazon.com/images/I/41Z59jz2U5L.__AC_SY200_.jpg
+Host: images-na.ssl-images-amazon.com
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:16:48 GMT
+content-length: 5104
+server: Server
+expires: Sat, 02 Jul 2039 21:39:19 GMT
+x-amz-ir-id: 12eacc33-ee19-4a62-98f1-2d7d15ef89a9
+access-control-allow-origin: *
+last-modified: Thu, 20 Dec 2018 09:00:06 GMT
+content-type: image/jpeg
+timing-allow-origin: https://www.amazon.com
+x-cache: Hit from akamai
+cache-control: public, max-age=630663751
+status: 200
+----
+--Request 
+GET https://images-na.ssl-images-amazon.com/images/I/41YgGUQVwEL.__AC_SY200_.jpg
+Host: images-na.ssl-images-amazon.com
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:16:48 GMT
+content-length: 10935
+server: Server
+expires: Tue, 28 Jun 2039 18:38:26 GMT
+x-amz-ir-id: 8edad04b-3fb3-4221-93e9-511b589ad211
+access-control-allow-origin: *
+last-modified: Thu, 16 Nov 2017 16:33:56 GMT
+content-type: image/jpeg
+timing-allow-origin: https://www.amazon.com
+x-cache: Hit from akamai
+cache-control: public, max-age=630307298
+status: 200
+----
+--Request 
+GET https://images-na.ssl-images-amazon.com/images/G/01/AUIClients/INRetargetingAsset-fe13df5df0c9265752c892a20feddfc5baaec718.secure.min._V2_.js?AUIClients/INRetargetingAsset
+Host: images-na.ssl-images-amazon.com
+Origin: https://www.amazon.in
+Accept: */*
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:16:48 GMT
+content-length: 3895
+server: Server
+expires: Sun, 03 Apr 2039 13:36:07 GMT
+x-amz-ir-id: 5640953c-3e5f-40e8-aebf-8c2da0c1d85b
+vary: Accept-Encoding
+content-encoding: gzip
+access-control-allow-origin: *
+last-modified: Wed, 26 Aug 2015 07:37:29 GMT
+content-type: application/x-javascript
+timing-allow-origin: https://www.amazon.com
+x-cache: Hit from akamai
+cache-control: public, max-age=622858759
+status: 200
+----
+

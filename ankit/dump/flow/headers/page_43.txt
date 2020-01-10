@@ -1,0 +1,229 @@
+--Request 
+GET https://www.amazon.in/bbp/data/stream?cursor=eyJzIjo4OTg4NTczOTksIm8iOjY5LCJpayI6NCwiaXMiOnsiNDE0MTAyMzU4IjowfSwiZXJjIjowfQ%3D%3D.v1&count=15&program=bb&category=%2Fmens&contextAsins=&ingress=&ingressAsins=&searchKeywords=&filters=%7B%22sizes%22%3A%5B%5D%7D&currencyCode=&bbWl=&_=1563387856765
+Host: www.amazon.in
+Cookie: session-id=260-6898445-8949221; i18n-prefs=INR; ubid-acbin=262-8671103-6623656; x-wl-uid=1OfaMC7JpnskpcFBQZ0Uq5V8k/Li+eH9j/u3WVuWMZt5YlTHc5uQTLxZFK0jTKGcRFjeKmsxSpo8=; visitCount=1; session-token=\"FOD9ahBmF5GIKmPl1E0GHlNJV5EedVXMFVEZhlbBTx0kTXXMg1IYR5c5brnaRCYcCUYDFNILc5DnAHxrFPaxoptoxnDRXfbxQaDXulcLsGquoPty2zDMdmxnHPRVTtAnQDJ5n7OZtZxq8SQ36hwOyZ/OIwYQLZ84s7v4Fd3QqFQ7zkpZa9aeDQF9Ysr3lsS5MnV7pdgpl47Vgy7x4V7fxgY/Hg2HKg2CyscZ924Wm5C+krHuGrc01w==\"; lc-acbin=en_IN; csm-hit=tb:s-CEBK9MEJXP1JY36NH606|1563387850999&t:1563387851193&adb:adblk_no; session-id-time=2082758401l
+Accept: application/json-amazonui-streaming
+X-Requested-With: XMLHttpRequest
+Referer: https://www.amazon.in/Low-Price-With-Free-Shipping/bbp?category=/mens&pf_rd_p=b139ea56-b471-44e1-96c4-9419c155d0ed&pf_rd_r=QTX88JN8XW6309TZ412A
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 17 Jul 2019 18:24:16 GMT
+x-amz-cf-pop: ORD52-C1
+server: Server
+x-ua-compatible: IE=edge,chrome=1
+vary: Accept-Encoding,User-Agent,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment
+content-encoding: gzip
+x-frame-options: SAMEORIGIN
+x-amz-rid: SG1807GQYTKSWSR08N9G
+strict-transport-security: max-age=47474747; includeSubDomains; preload
+via: 1.1 1bc8b41b2ed9cf32d0eba23fa9af49b3.cloudfront.net (CloudFront)
+set-cookie: i18n-prefs=INR; Domain=.amazon.in; Expires=Tue, 01-Jan-2036 08:00:01 GMT; Path=/
+x-content-type-options: nosniff
+x-xss-protection: 1;
+content-type: application/json-amazonui-streaming;charset=UTF-8
+x-cache: Miss from cloudfront
+cache-control: no-transform
+x-amz-cf-id: eGC0AlUT8OZ9t_HRNGJtdhmH6gu9oZZcfmudiR2wQc0aKwfKyyjdUw==
+content-language: en-IN
+status: 200
+----
+--Request 
+GET https://token.rubiconproject.com/token?pid=2179&pt=n
+Host: token.rubiconproject.com
+Cookie: khaos=JY7KRBX8-D-IAGE
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 302 Found
+content-length: 0
+Cache-Control: no-cache,no-store,must-revalidate
+Expires: 0
+Pragma: no-cache
+P3P: P=\"NOI CURa ADMa DEVa TAIa OUR BUS IND UNI COM NAV INT\"
+X-RPHost: 6f59d61eccfdc1c4f852f83537e011c5
+Location: https://s.amazon-adsystem.com/ecm3?id=I9sG44nCxj5Luw-Dw5tzOQ&ex=rubiconproject.com&status=ok
+----
+--Request 
+GET https://ads.stickyadstv.com/user-matching?id=2545
+Host: ads.stickyadstv.com
+Cookie: UID=a73a8460713e33823f5ca334d931bd; uid-bp-30833=1; sessionId=c96afbb041e24bcb6803db3acab9bc
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 302 Found
+Cache-Control: no-cache
+Server: nginx
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Connection: keep-alive
+x-sticky-vk: 1563387857129052-173
+Set-Cookie: sessionId=c96afbb041e24bcb6803db3acab9bc; Path=/
+Pragma: no-cache
+Content-Length: 0
+Date: Wed, 17 Jul 2019 18:24:17 GMT
+Location: https://s.amazon-adsystem.com/ecm3?id=a73a8460713e33823f5ca334d931bd&ex=freewheel.tv
+----
+--Request 
+GET https://www.imdb.com/ads/idsync?cid=79bc437ba&ex=imdb.com
+Host: www.imdb.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 302
+date: Wed, 17 Jul 2019 18:24:17 GMT
+x-amz-cf-pop: ORD50-C1
+content-length: 0
+server: Server
+vary: Accept-Encoding,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment,User-Agent
+x-amz-rid: 29M4K715NBB5JJR384JR
+strict-transport-security: max-age=47474747; includeSubDomains; preload
+via: 1.1 30356362aa70382d1405950684cb521e.cloudfront.net (CloudFront)
+location: https://aax-eu.amazon-adsystem.com/s/ecm3?rcode=1&ex=imdb.com
+x-cache: Miss from cloudfront
+x-amz-cf-id: 4oYIKQ4h8m6GnmgzxfHXAunK5gYYkh--GaXeRgg4c8hoO1c_-DP3Bw==
+status: 302
+----
+--Request 
+GET https://www.facebook.com/fr/r.php?p=558293300959460&e=vb6JKmqdRAKA9qQqWmgyPw&r=https%3A%2F%2Faax-eu.amazon-adsystem.com%2Fs%2Fecm3%3Fex%3Dfbca%26id%3Dvb6JKmqdRAKA9qQqWmgyPw&s=1563387856&h=UmFIR0M1YlhTUkZPTUkyWFJ975EG58DJzgKeiht9qIXKeeVB
+Host: www.facebook.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 302
+date: Wed, 17 Jul 2019 11:24:17 PDT
+content-length: 0
+expires: Wed, 17 Jul 2019 11:24:17 PDT
+pragma: public
+strict-transport-security: max-age=15552000; preload
+content-security-policy: default-src * data: blob:;script-src *.facebook.com *.fbcdn.net *.facebook.net *.google-analytics.com *.virtualearth.net *.google.com 127.0.0.1:* *.spotilocal.com:* 'unsafe-inline' 'unsafe-eval' blob: data: 'self';style-src data: blob: 'unsafe-inline' *;connect-src *.facebook.com facebook.com *.fbcdn.net *.facebook.net *.spotilocal.com:* wss://*.facebook.com:* https://fb.scanandcleanlocal.com:* attachment.fbsbx.com ws://localhost:* blob: *.cdninstagram.com 'self' chrome-extension://boadgeojelhgndaghljhdicfkmllpafd chrome-extension://dliochdbjfkdbacpmhlcpmleaejidimm;
+x-content-type-options: nosniff
+x-xss-protection: 0
+content-type: text/html; charset=\"utf-8\"
+location: https://aax-eu.amazon-adsystem.com/s/ecm3?ex=fbca&id=vb6JKmqdRAKA9qQqWmgyPw
+cache-control: public, max-age=0
+x-fb-debug: ynqNRS6tXQlHRMhsqptoz9w1OKUA+SabbuQsMmn6+H/GFdIamV9/nk9TXja11TRWqwd80fVxm7kxby5W2nq6nQ==
+status: 302
+----
+--Request 
+GET https://usermatch.krxd.net/um/v2?partner=amzn
+Host: usermatch.krxd.net
+Cookie: _kuid_=Mz1lP9u-
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 302 Found
+X-Cache: MISS
+X-Served-By: usermatch-a001.krxd.net
+X-Age: 0
+Connection: keep-alive
+Content-Length: 0
+X-Cache-Hits: 0
+Date: Wed, 17 Jul 2019 18:24:17 GMT
+Location: //s.amazon-adsystem.com/ecm3?ex=krux.com&id=Mz1lP9u-
+----
+--Request 
+GET https://ads.yahoo.com/cms/v1?esig=1~6772d6d12bf5fd5c41ee5ef107d84db09124942a&nwid=10000936839&sigv=1
+Host: ads.yahoo.com
+Cookie: B=461453heiupu8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 302 Found
+Strict-Transport-Security: max-age=31536000
+Server: ATS
+X-Content-Type-Options: nosniff
+Connection: keep-alive
+Content-Length: 0
+P3P: policyref=\"https://policies.yahoo.com/w3c/p3p.xml\", CP=\"CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV\"
+X-XSS-Protection: 1; mode=block
+Age: 0
+Date: Wed, 17 Jul 2019 18:24:18 GMT
+Expect-CT: max-age=31536000, report-uri=\"http://csp.yahoo.com/beacon/csp?src=yahoocom-expect-ct-report-only\"
+Location: https://aax-eu.amazon-adsystem.com/s/ecm3?ex=rightmedia.com&xid=kKGSA5DNTKgLHSF2vALeot0t
+----
+--Request 
+GET https://pixel.advertising.com/ups/56613/sync?redir=true&_origin=1
+Host: pixel.advertising.com
+Cookie: APID=UP0e3a9be7-a8c0-11e9-8d3d-0aba2c9d9bfe
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 302
+date: Wed, 17 Jul 2019 18:24:17 GMT
+content-length: 0
+set-cookie: APID=UP0e3a9be7-a8c0-11e9-8d3d-0aba2c9d9bfe;Version=1;Domain=.advertising.com;Path=/;Max-Age=31622400;Expires=Fri, 17-Jul-2020 18:24:17 GMT
+location: https://ups.analytics.yahoo.com/ups/56613/sync?redir=true&_origin=1&apid=UP0e3a9be7-a8c0-11e9-8d3d-0aba2c9d9bfe
+p3p: CP=NOI DSP COR LAW CURa DEVa TAIa PSAa PSDa OUR BUS UNI COM NAV
+status: 302
+----
+--Request 
+GET https://image5.pubmatic.com/AdServer/usersync/usersync.html?predirect=https%3A%2F%2Faax-eu.amazon-adsystem.com%2Fs%2Fecm3%3Fid%3DPM_UID%26ex%3Dpubmatic.com&userIdMacro=PM_UID
+Host: image5.pubmatic.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 302 Moved Temporarily
+Server: Apache/2.2.24 (Unix) mod_ssl/2.2.24 OpenSSL/1.0.1e-fips mod_fastcgi/2.4.6
+Connection: keep-alive
+Pragma: no-cache
+P3P: CP=\"NOI DSP COR LAW CUR ADMo DEVo TAIo PSAo PSDo IVAo IVDo HISo OTPo OUR SAMo BUS UNI COM NAV INT DEM CNT STA PRE LOC\"
+Date: Wed, 17 Jul 2019 18:24:17 GMT
+Cache-Control: max-age=0, no-cache, no-store
+ETag: \"1401593-cde-4e5b8598d0580\"
+X-Cnection: close
+Set-Cookie: KADUSERCOOKIE=1B6FD067-8884-465A-AA8C-284907FB287E; expires=Fri, 16 Jul 2021 18:24:17 GMT; path=/; domain=.pubmatic.com;
+Vary: Accept-Encoding
+Expires: Wed, 17 Jul 2019 18:24:17 GMT
+Content-Length: 154
+Content-Type: text/html
+Location: https://aax-eu.amazon-adsystem.com/s/ecm3?id=1B6FD067-8884-465A-AA8C-284907FB287E&ex=pubmatic.com
+----
+--Request 
+GET https://dpm.demdex.net/ibs:dpid=139200&dpuuid=EEcGm8XjSoKzrfuqf-XkNA&redir=https%3A%2F%2Faax-eu.amazon-adsystem.com%2Fs%2Fecm3%3Fex%3Dadobe.com%26id%3D%24%7BDD_UUID%7D
+Host: dpm.demdex.net
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 302 Found
+Cache-Control: no-cache,no-store,must-revalidate,max-age=0,proxy-revalidate,no-transform,private
+X-TID: kxMUu2jcRAs=
+Connection: keep-alive
+Set-Cookie: demdex=30011250938841173712140356056757696890;Path=/;Domain=.demdex.net;Expires=Mon, 13-Jan-2020 18:24:17 GMT;Max-Age=15552000
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Pragma: no-cache
+Content-Length: 0
+P3P: policyref=\"/w3c/p3p.xml\", CP=\"NOI NID CURa ADMa DEVa PSAa PSDa OUR SAMa BUS PUR COM NAV INT\"
+Location: https://dpm.demdex.net/demconf.jpg?et:ibs%7cdata:dpid=139200&dpuuid=EEcGm8XjSoKzrfuqf-XkNA&redir=https%3A%2F%2Faax-eu.amazon-adsystem.com%2Fs%2Fecm3%3Fex%3Dadobe.com%26id%3D%24%7BDD_UUID%7D
+----
+

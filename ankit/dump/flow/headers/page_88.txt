@@ -1,0 +1,100 @@
+--Request 
+GET https://fls-eu.amazon.in/1/batch/1/OP/A21TJRUUN4KGV:260-6898445-8949221:RSS9BTGBT3PYWEC79TA5$uedata=s:%2Fgp%2Fuedata%3Fld%26v%3D0.204437.0%26id%3DRSS9BTGBT3PYWEC79TA5%26ctb%3D1%26sc0%3Diss-warmup%3Afailure%26bb0%3D7295%26cf0%3D9222%26be0%3D9223%26pc0%3D9223%26ld0%3D9223%26t0%3D1563387918600%26csmtags%3Daui%3Asw%3Abrowser%3Aregister%3Asupported%26pty%3DSearch%26spty%3DList%26pti%3Dundefined%26tid%3DQTX88JN8XW6309TZ412A%26aftb%3D1:9222
+Host: fls-eu.amazon.in
+Cookie: session-id=260-6898445-8949221; i18n-prefs=INR; ubid-acbin=262-8671103-6623656; x-wl-uid=1OfaMC7JpnskpcFBQZ0Uq5V8k/Li+eH9j/u3WVuWMZt5YlTHc5uQTLxZFK0jTKGcRFjeKmsxSpo8=; session-token=\"FOD9ahBmF5GIKmPl1E0GHlNJV5EedVXMFVEZhlbBTx0kTXXMg1IYR5c5brnaRCYcCUYDFNILc5DnAHxrFPaxoptoxnDRXfbxQaDXulcLsGquoPty2zDMdmxnHPRVTtAnQDJ5n7OZtZxq8SQ36hwOyZ/OIwYQLZ84s7v4Fd3QqFQ7zkpZa9aeDQF9Ysr3lsS5MnV7pdgpl47Vgy7x4V7fxgY/Hg2HKg2CyscZ924Wm5C+krHuGrc01w==\"; lc-acbin=en_IN; visitCount=2; session-id-time=2082758401l
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://www.amazon.in/s?i=apparel&bbn=16194128031&rh=n%3A1571271031%2Cn%3A%211597453031%2Cn%3A%211597455031%2Cn%3A16194128031%2Cn%3A1953602031&s=date-desc-rank&ref=mega_sv_s23_1_1_1_2
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 17 Jul 2019 18:25:18 GMT
+content-length: 43
+content-type: image/gif
+x-amzn-requestid: 841efc54-777e-4b2c-a805-0efc836ed611
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/01/AUIClients/ClientSideMetricsAUIJavascript@jserrorsForester.10f2559e93ec589d92509318a7e2acbac74c343a._V2_.js
+Host: images-eu.ssl-images-amazon.com
+Origin: https://www.amazon.in
+Accept: */*
+Referer: https://www.amazon.in/s?i=apparel&bbn=16194128031&rh=n%3A1571271031%2Cn%3A%211597453031%2Cn%3A%211597455031%2Cn%3A16194128031%2Cn%3A1953602031&s=date-desc-rank&ref=mega_sv_s23_1_1_1_2
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+----
+--Response 
+HTTP/1.1 200
+date: Thu, 13 Dec 2018 12:54:35 GMT
+x-amz-cf-pop: ORD50-C1
+server: Server
+expires: Sun, 05 Dec 2038 07:57:53 GMT
+x-amz-ir-id: 03477b53-85a3-4166-b937-2d59232000c2
+content-encoding: gzip
+via: 1.1 fc9898e8f62308e3f28fb29079b65ebb.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Wed, 14 Nov 2018 15:06:07 GMT
+content-type: application/x-javascript; charset=utf-8
+timing-allow-origin: https://www.amazon.com
+x-cache: Hit from cloudfront
+cache-control: max-age=630720000,public
+age: 18684523
+x-amz-cf-id: O5a7jL37MwBapXQhVlQce7XawhRzrj8KWUyp1dC7tcMiJ9YHaLjozg==
+status: 200
+----
+--Request 
+GET https://aax-eu.amazon-adsystem.com/s/iu3?d=amazon.in&slot=navFooter&a2=0101afceec47c6c6a16996aadaf40663cff63e043af14328b0b1712cd8256e0aeee5&old_oo=0&ts=1563387908713&s=ATQBMHR-blKWYRDLDQcJotOnjMulOPe00tqPjKuvKGOl&cb=1563387908713
+Host: aax-eu.amazon-adsystem.com
+Cookie: ad-id=Aw2U5SPThEoFqF5QAjLktoM; ad-privacy=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+Referer: https://www.amazon.in/s?i=apparel&bbn=16194128031&rh=n%3A1571271031%2Cn%3A%211597453031%2Cn%3A%211597455031%2Cn%3A16194128031%2Cn%3A1953602031&s=date-desc-rank&ref=mega_sv_s23_1_1_1_2
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+----
+--Response 
+HTTP/1.1 200 OK
+Cache-Control: max-age=0, no-cache, no-store, private, must-revalidate, s-maxage=0
+Server: Server
+Connection: keep-alive
+Set-Cookie: ad-privacy=0; Domain=.amazon-adsystem.com; Expires=Wed, 01-Apr-2020 18:25:18 GMT; Path=/; HttpOnly
+Vary: User-Agent
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Pragma: no-cache
+Content-Length: 64
+p3p: policyref=\"https://www.amazon.com/w3c/p3p.xml\", CP=\"PSAo PSDo OUR SAM OTR DSP COR\"
+Date: Wed, 17 Jul 2019 18:25:18 GMT
+Content-Type: text/html;charset=ISO-8859-1
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/javascripts/lib/popover/images/snake._CB138350263_.gif
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/s/ref=mega_sv_s23_1_1_1_2?rh=i%3Aapparel%2Cn%3A1571271031%2Cn%3A%211597453031%2Cn%3A%211597455031%2Cn%3A16194128031%2Cn%3A1953602031&bbn=16194128031&sort=date-desc-rank&ie=UTF8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 10 Jun 2019 07:37:09 GMT
+x-amz-cf-pop: ORD50-C1
+content-length: 1698
+server: Server
+expires: Wed, 18 May 2033 03:33:20 GMT
+x-amz-ir-id: 6a1ba212-5839-4210-a55e-6d53ff4423f8
+via: 1.1 6ca6a5c7e4ef3511c3ea6d058e2252f9.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Tue, 28 Feb 2012 22:57:30 GMT
+content-type: image/gif
+x-cache: Hit from cloudfront
+cache-control: max-age=630720000,public
+age: 3241828
+x-amz-cf-id: 2EbPsrvH5oT_yqHz1nMgIiMyA5nhl3_SleZMaKo4yjZQlJvENniQEw==
+status: 200
+----
+

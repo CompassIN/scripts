@@ -1,0 +1,5 @@
+<SFixed32>
+  <sfixed32_field1>{sfixed32_data}</sfixed32_field1>
+  <sfixed32_field2>{sfixed32_data}</sfixed32_field2>
+  <sfixed32_field3>{sfixed32_data}</sfixed32_field3>
+</SFixed32>

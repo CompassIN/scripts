@@ -1,0 +1,23 @@
+--Request 
+POST https://fls-eu.amazon.in/1/batch/1/OE/
+Host: fls-eu.amazon.in
+Cookie: session-id=260-6898445-8949221; i18n-prefs=INR; ubid-acbin=262-8671103-6623656; x-wl-uid=1OfaMC7JpnskpcFBQZ0Uq5V8k/Li+eH9j/u3WVuWMZt5YlTHc5uQTLxZFK0jTKGcRFjeKmsxSpo8=; visitCount=1; session-token=\"FOD9ahBmF5GIKmPl1E0GHlNJV5EedVXMFVEZhlbBTx0kTXXMg1IYR5c5brnaRCYcCUYDFNILc5DnAHxrFPaxoptoxnDRXfbxQaDXulcLsGquoPty2zDMdmxnHPRVTtAnQDJ5n7OZtZxq8SQ36hwOyZ/OIwYQLZ84s7v4Fd3QqFQ7zkpZa9aeDQF9Ysr3lsS5MnV7pdgpl47Vgy7x4V7fxgY/Hg2HKg2CyscZ924Wm5C+krHuGrc01w==\"; session-id-time=2082787201l
+Origin: https://www.amazon.in
+Accept: */*
+Cache-Control: max-age=0
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Content-Type: text/plain;charset=UTF-8
+----
+ POSTDATA {"rid":"QTX88JN8XW6309TZ412A","sid":"260-6898445-8949221","mid":"A21TJRUUN4KGV","sn":"www.amazon.in","reqs":[{"jserr-rw":{"m":"Hit Info","csm":"v5 onerror","logLevel":"INFO","adb":"adblk_no"}},{"csmcount":{"counter":"foresterPayloadSize","t":0,"value":258}}]}
+--Response 
+HTTP/1.1 204
+access-control-allow-origin: *
+date: Wed, 17 Jul 2019 18:23:58 GMT
+x-amzn-requestid: 23afee7d-a44a-4f93-a866-71aeef16ba96
+access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+status: 204
+----
+

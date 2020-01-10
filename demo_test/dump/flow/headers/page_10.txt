@@ -1,0 +1,30 @@
+--Request 
+GET https://www.amazon.in/gp/aq-feedback/lazyLoad/handler/af-link-handler.html?pl=%7B%22adPlacementMetaData%22%3A%7B%22pageUrl%22%3A%22aHR0cHM6Ly93d3cuYW1hem9uLmluL3Nob3BwaW5nUG9ydGFsL2Rlc2t0b3A%3D%22%2C%22adElementId%22%3A%22ape_Gateway_right-7_desktop_placement%22%2C%22pageType%22%3A%22Gateway%22%2C%22slotName%22%3A%22right-7%22%7D%2C%22adCreativeMetaData%22%3A%7B%22adNetwork%22%3A%22cs%22%7D%7D
+Host: www.amazon.in
+Cookie: session-id=259-1202557-5929705; i18n-prefs=INR; csm-hit=tb:s-FQHMBRA36T6KVA44S1T8|1562591802960&t:1562591802961; ubid-acbin=258-0672242-6953331; x-wl-uid=1ecJvyxzwiGLpb/ivu3x3ngupYO7bY1+BPjlMC56V5J9AKfsIjsCkfc+Jr7a3C9XLJxX0u1syPM0=; session-token=qbOQOkS0VEpBUocLOZRgf/vBjfAa/L1gvzuk4dHaABRLwBcXdkoWG+tgKYovU/GtpgviGH2ntZ17AVp7e48ZFY6MNw3iH/RJtLL2eZrJEHt3s9Cy0QE8n08HbD+hmqwfffrZuHf+ncTYp9ne7NmDLRaqAwIAVoD+O39gZOoyeiIbwRC9aZp+vc79loUdfIgRN7k1iETJ2x2I7SZjKc9arkykk2SqRFhbbijoObQQg4mvjy58UMqGvQ==; session-id-time=2082758401l; visitCount=1
+Accept: */*
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:16:54 GMT
+x-amz-cf-pop: DEL51
+server: Server
+vary: Accept-Encoding,User-Agent,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment
+content-encoding: gzip
+x-frame-options: SAMEORIGIN
+x-amz-rid: MQCMGD7Y3KD7Z99FG6GA
+strict-transport-security: max-age=47474747; includeSubDomains; preload
+via: 1.1 b804a121dcbb7cb51fd709903749806e.cloudfront.net (CloudFront)
+set-cookie: session-id=259-1202557-5929705; path=/; domain=.amazon.in; expires=Tue, 01-Jan-2036 00:00:01 GMT
+content-type: application/json
+x-amz-id-1: MQCMGD7Y3KD7Z99FG6GA
+x-cache: Miss from cloudfront
+cache-control: no-transform
+x-amz-cf-id: BcTLQBc-GO669lV6NRfhXudkDd3J2gn4G-lmxhe1aBd5xnEdA-mslA==
+status: 200
+----
+

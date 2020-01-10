@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SInt32 {
+  repeated sint32 sint32_field1 = 1 [packed=true];
+}

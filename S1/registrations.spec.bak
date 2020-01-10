@@ -1,0 +1,36 @@
+//RTC test cases
+
+//nsl_decl_var(DecIndex);
+//nsl_index_file_var(index_param, File=indexFile, indexVar=DecIndex, EncodeMode=All);
+
+//Mode=SEQUENTIAL
+  //Refresh=SESSION
+   nsl_static_var(S1v1:1, S1v2:2, S1v3:3, File=S1v1_data_file, Refresh=SESSION, Mode=SEQUENTIAL, FirstDataLine=1, EncodeMode=All);
+ //Refresh=USE
+   //nsl_static_var(S1v1:1, S1v2:2, S1v3:3, File=S1v1_data_file, Refresh=USE, Mode=SEQUENTIAL, FirstDataLine=1, EncodeMode=All);
+
+//Mode=UNIQUE
+  //Refresh=SESSION
+    //nsl_static_var(S1v1:1, S1v2:2, S1v3:3, File=S1v1_data_file, Refresh=SESSION, Mode=UNIQUE, FirstDataLine=1, EncodeMode=All, CopyFileToTR=No);
+ //Refresh=USE
+   //nsl_static_var(S1v1:1, S1v2:2, S1v3:3, File=S1v1_data_file, Refresh=USE, Mode=UNIQUE, FirstDataLine=1, EncodeMode=All);
+
+//Mode=USEONCE
+  //Refresh=SESSION
+    //nsl_static_var(S1v1:1, S1v2:2, S1v3:3, File=S1v1_data_file, Refresh=SESSION, Mode=USE_ONCE, FirstDataLine=1, EncodeMode=All);
+  //Refresh=USE
+    //nsl_static_var(S1v1:1, S1v2:2, S1v3:3, File=S1v1_data_file, Refresh=USE, Mode=USE_ONCE, FirstDataLine=1, EncodeMode=All);
+
+
+//Mode=RANDOME
+  //Refresh=SESSION
+   //nsl_static_var(S1v1:1, S1v2:2, S1v3:3, File=S1v1_data_file, Refresh=SESSION, Mode=RANDOM, FirstDataLine=1, EncodeMode=All);
+  //Refresh=USE
+    //nsl_static_var(S1v1:1, S1v2:2, S1v3:3, File=S1v1_data_file, Refresh=USE, Mode=RANDOM, FirstDataLine=1, EncodeMode=All);
+
+//nsl_index_file_var(S1v1, FILE=S1v1_data_file, IndexVar=2, FirstDataLine=1, ColumnDelimiter=,, HeaderLine=0, VAR_VALUE=F2=file);
+
+
+//More than one group
+   //nsl_static_var(S1v4:1, S1v5:2, File=S1v1_data_file1, Refresh=SESSION, Mode=SEQUENTIAL, FirstDataLine=1, EncodeMode=All);
+

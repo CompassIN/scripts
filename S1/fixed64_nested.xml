@@ -1,0 +1,6 @@
+<Fixed64>
+  <fixed64_field1>{fixed64_data}</fixed64_field1>
+  <b>
+    <fixed64_field2>{fixed64_data}</fixed64_field2>
+  </b>
+</Fixed64>

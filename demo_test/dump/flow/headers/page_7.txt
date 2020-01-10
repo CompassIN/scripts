@@ -1,0 +1,37 @@
+--Request 
+POST https://www.amazon.in/ah/ajax/record-impressions?c4i=ePm_fHprndBNCwFRGMXxT3Tqvs6dZ4m8lFlJrB_3uRfRjBgJXx6l1LCyO53d_3fvCEs67drm8AN6zG268LXr3dOLfq-ieeWXg_6oqz9t2gkG8xmOz451vb0lAdeCc_05_qksvHA0QYGJNFzU_FyW4V0IRtgJc-xKeC4oirKwlAxcKAJKlwW2JDLJF0ay-mi9IdDyfo9NOjYYfgGa4FTOK4bWRHDJRrAVi5iNj94TKUsv5AcJy24r&rId=FQHMBRA36T6KVA44S1T8&mkId=A21TJRUUN4KGV&exp=1562591920841&h=2d04ad026a847032acf454d14f5fdaa8d6c0744d606abebd90a5d081ea88730f
+Host: www.amazon.in
+Cookie: session-id=259-1202557-5929705; i18n-prefs=INR; csm-hit=tb:s-FQHMBRA36T6KVA44S1T8|1562591802960&t:1562591802961; ubid-acbin=258-0672242-6953331; x-wl-uid=1ecJvyxzwiGLpb/ivu3x3ngupYO7bY1+BPjlMC56V5J9AKfsIjsCkfc+Jr7a3C9XLJxX0u1syPM0=; session-token=qbOQOkS0VEpBUocLOZRgf/vBjfAa/L1gvzuk4dHaABRLwBcXdkoWG+tgKYovU/GtpgviGH2ntZ17AVp7e48ZFY6MNw3iH/RJtLL2eZrJEHt3s9Cy0QE8n08HbD+hmqwfffrZuHf+ncTYp9ne7NmDLRaqAwIAVoD+O39gZOoyeiIbwRC9aZp+vc79loUdfIgRN7k1iETJ2x2I7SZjKc9arkykk2SqRFhbbijoObQQg4mvjy58UMqGvQ==; session-id-time=2082758401l
+Origin: https://www.amazon.in
+Accept: */*
+X-Requested-With: XMLHttpRequest
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+ POSTDATA 
+--Response 
+HTTP/1.1 202
+date: Mon, 08 Jul 2019 13:16:49 GMT
+x-amz-cf-pop: DEL51
+server: Server
+expires: Thu, 01 Jan 1970 00:00:00 GMT
+x-ua-compatible: IE=edge
+vary: Accept-Encoding,User-Agent,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment
+content-encoding: gzip
+x-frame-options: SAMEORIGIN
+x-amz-rid: SRS1G65T5YX24TGPWZ99
+pragma: no-cache
+strict-transport-security: max-age=47474747; includeSubDomains; preload
+via: 1.1 b804a121dcbb7cb51fd709903749806e.cloudfront.net (CloudFront)
+set-cookie: i18n-prefs=INR; Domain=.amazon.in; Expires=Tue, 01-Jan-2036 08:00:01 GMT; Path=/
+x-content-type-options: nosniff
+x-xss-protection: 1;
+content-type: text/html;charset=UTF-8
+x-cache: Miss from cloudfront
+cache-control: no-cache, no-transform
+x-amz-cf-id: 1EhUFGtNxdzortYpBo6bu99J_7vnBm0zdNmjkQps_8OZblltN51ymw==
+status: 202
+----
+

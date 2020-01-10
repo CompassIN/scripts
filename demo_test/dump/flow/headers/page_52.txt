@@ -1,0 +1,23 @@
+--Request 
+POST https://fls-eu.amazon.in/1/batch/1/OE/
+Host: fls-eu.amazon.in
+Cookie: session-id=259-1202557-5929705; i18n-prefs=INR; ubid-acbin=258-0672242-6953331; x-wl-uid=1ecJvyxzwiGLpb/ivu3x3ngupYO7bY1+BPjlMC56V5J9AKfsIjsCkfc+Jr7a3C9XLJxX0u1syPM0=; visitCount=1; session-token=\"qbOQOkS0VEpBUocLOZRgf/vBjfAa/L1gvzuk4dHaABRLwBcXdkoWG+tgKYovU/GtpgviGH2ntZ17AVp7e48ZFY6MNw3iH/RJtLL2eZrJEHt3s9Cy0QE8n08HbD+hmqwfffrZuHf+ncTYp9ne7NmDLRaqAwIAVoD+O39gZOoyeiIbwRC9aZp+vc79loUdfIgRN7k1iETJ2x2I7SZjKc9arkykk2SqRFhbbijoObQQg4mvjy58UMqGvQ==\"; lc-acbin=en_IN; session-id-time=2082758401l
+Origin: https://www.amazon.in
+Accept: */*
+Cache-Control: max-age=0
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Content-Type: text/plain;charset=UTF-8
+----
+ POSTDATA {"rid":"FQHMBRA36T6KVA44S1T8","sid":"259-1202557-5929705","mid":"A21TJRUUN4KGV","sn":"www.amazon.in","reqs":[{"cel":{"k":"mcm","w":1519,"h":5472,"t":473295,"x":980,"y":1795,"p":"//*[@id='BCG0iXa69LAYWYGZVREBjw']/DIV[2]/A/DIV/IMG","n":"IMG","dt":10.29}},{"cel":{"k":"efo","t":473298,"s":"default"}},{"cel":{"k":"res_mcm","t":473295,"m":127}},{"csmcount":{"counter":"QF-N:SN:QN:TN","value":1,"t":473443}},{"csmcount":{"counter":"cel.PDM.TotalExecutions","value":933,"t":473445}},{"csmcount":{"counter":"cel.VPI.TotalExecutions","value":16,"t":473445}},{"csmcount":{"counter":"cel.VPI.TotalExecutionTime","value":0,"t":473445}},{"csmcount":{"counter":"cel.VPI.AverageExecutionTime","value":0,"t":473445}},{"csmcount":{"counter":"cel.widgets.batchesProcessed","value":954,"t":473445}},{"cel":{"k":"mmm1","e":[{"x":556,"y":1738,"t":472413},{"x":641,"y":1816,"t":472512},{"x":668,"y":1823,"t":472536},{"x":977,"y":1796,"t":472656},{"x":977,"y":1796,"t":473445}],"min":15,"max":145,"avg":63}},{"cel":{"k":"hrt","t":473445}},{"cel":{"k":"eod","t0":1562591800631,"t":473445}},{"csmcount":{"counter":"armored-cxguardrails.unresponsive-clicks.violations","value":0,"t":473445}},{"csmcount":{"counter":"armored-cxguardrails.unresponsive-clicks.violationRate","value":0,"t":473445}},{"csm":{"k":"chk","f":22,"l":{"csmcount":355,"navigation":1,"cel":237,"csm":23},"s":"full"}},{"csmcount":{"counter":"foresterPayloadSize","t":0,"value":1429}}]}
+--Response 
+HTTP/1.1 204
+access-control-allow-origin: *
+date: Mon, 08 Jul 2019 13:24:34 GMT
+x-amzn-requestid: 7ffa9bda-cd2e-4e18-9fa5-3f078b956b4e
+access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+status: 204
+----
+

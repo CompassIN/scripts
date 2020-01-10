@@ -1,0 +1,87 @@
+--Request 
+POST https://fls-eu.amazon.in/1/batch/1/OE/
+Host: fls-eu.amazon.in
+Cookie: session-id=259-1202557-5929705; i18n-prefs=INR; ubid-acbin=258-0672242-6953331; x-wl-uid=1ecJvyxzwiGLpb/ivu3x3ngupYO7bY1+BPjlMC56V5J9AKfsIjsCkfc+Jr7a3C9XLJxX0u1syPM0=; session-token=\"qbOQOkS0VEpBUocLOZRgf/vBjfAa/L1gvzuk4dHaABRLwBcXdkoWG+tgKYovU/GtpgviGH2ntZ17AVp7e48ZFY6MNw3iH/RJtLL2eZrJEHt3s9Cy0QE8n08HbD+hmqwfffrZuHf+ncTYp9ne7NmDLRaqAwIAVoD+O39gZOoyeiIbwRC9aZp+vc79loUdfIgRN7k1iETJ2x2I7SZjKc9arkykk2SqRFhbbijoObQQg4mvjy58UMqGvQ==\"; lc-acbin=en_IN; session-id-time=2082758401l; visitCount=2
+Origin: https://www.amazon.in
+Accept: */*
+Cache-Control: max-age=0
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Content-Type: text/plain;charset=UTF-8
+----
+ POSTDATA {"rid":"XS1R1NSST0MSNB81W2M8","sid":"259-1202557-5929705","mid":"A21TJRUUN4KGV","sn":"www.amazon.in","reqs":[{"csmcount":{"counter":"dpOffers:buybox:desktop:AddToCartClicked","value":1,"t":6833}},{"csmcount":{"counter":"QF-N:SNC:QN:TN","value":1,"t":6843}},{"csmcount":{"counter":"cel.PDM.TotalExecutions","value":6,"t":6843}},{"csmcount":{"counter":"cel.VPI.TotalExecutions","value":1,"t":6843}},{"csmcount":{"counter":"cel.VPI.TotalExecutionTime","value":0,"t":6843}},{"csmcount":{"counter":"cel.VPI.AverageExecutionTime","value":0,"t":6843}},{"csmcount":{"counter":"cel.widgets.batchesProcessed","value":16,"t":6843}},{"cel":{"k":"mmm1","e":[{"x":1039,"y":377,"t":5960},{"x":1038,"y":377,"t":6019},{"x":1038,"y":377,"t":6843}],"min":9,"max":50,"avg":29}},{"cel":{"k":"hrt","t":6843}},{"cel":{"k":"eod","t0":1562592293306,"t":6843}},{"csmcount":{"counter":"armored-cxguardrails.unresponsive-clicks.violations","value":0,"t":6844}},{"csmcount":{"counter":"armored-cxguardrails.unresponsive-clicks.violationRate","value":0,"t":6844}},{"csm":{"k":"chk","f":2,"l":{"csmcount":252,"cel":158,"navigation":1,"csm":3,"jserr-rw":1},"s":"full"}},{"csmcount":{"counter":"foresterPayloadSize","t":0,"value":1204}}]}
+--Response 
+HTTP/1.1 204
+access-control-allow-origin: *
+date: Mon, 08 Jul 2019 13:25:00 GMT
+x-amzn-requestid: b0bdec9c-2c8a-4705-ac27-fbac0bfba243
+access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+status: 204
+----
+--Request 
+GET https://www.google.com/pagead/1p-user-list/984527532/?value=0&label=r_58CJXm0gIQw9iz3gM&guid=ON&script=0&data=ecomm_pagetype%3DProductDetail%3Becomm_prodid%3DB07H6DJZ1P%3Becomm_price%3D%3Becomm_pcat%3DElectronics%3Becomm_pname%3D(Renewed)%20Philips%20BT40BK%2F94%20Portable%20Wireless%20Bluetooth%20Speaker%20(Black)%3Bsearchterm%3D%3BCURRENT_TIME%3D2019-07-08T13%3A24%3A59.512Z%3BSignedIn%3DN&cdct=2&is_vtc=1&random=3634564517
+Host: www.google.com
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 302
+date: Mon, 08 Jul 2019 13:25:01 GMT
+content-length: 42
+server: cafe
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+p3p: policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"
+pragma: no-cache
+content-security-policy: script-src 'none'; object-src 'none'
+x-content-type-options: nosniff
+x-xss-protection: 0
+content-type: image/gif
+location: https://www.google.co.in/pagead/1p-user-list/984527532/?value=0&label=r_58CJXm0gIQw9iz3gM&guid=ON&script=0&data=ecomm_pagetype%3DProductDetail%3Becomm_prodid%3DB07H6DJZ1P%3Becomm_price%3D%3Becomm_pcat%3DElectronics%3Becomm_pname%3D(Renewed)%20Philips%20BT40BK%2F94%20Portable%20Wireless%20Bluetooth%20Speaker%20(Black)%3Bsearchterm%3D%3BCURRENT_TIME%3D2019-07-08T13%3A24%3A59.512Z%3BSignedIn%3DN&cdct=2&is_vtc=1&random=3634564517&ipr=y
+timing-allow-origin: *
+alt-svc: quic=\":443\"; ma=2592000; v=\"46,43,39\"
+cache-control: no-cache, no-store, must-revalidate
+status: 302
+----
+--Request 
+GET https://afd668173c15dceacd316d037106fb5b5.profile.lhr61-c1.cloudfront.net/test.png
+Host: afd668173c15dceacd316d037106fb5b5.profile.lhr61-c1.cloudfront.net
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/I/31SN3jkqdEL.css?AUIClients/DetailPageSnSAssets#215632-C.109378-T1
+Host: images-eu.ssl-images-amazon.com
+Origin: https://www.amazon.in
+Accept: text/css,*/*;q=0.1
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:16:57 GMT
+content-length: 1725
+server: Server
+expires: Wed, 15 Jun 2039 03:58:42 GMT
+x-amz-ir-id: e9fd1ab7-8668-4a00-a7a1-51f5cb981323
+vary: Accept-Encoding
+content-encoding: gzip
+access-control-allow-origin: *
+last-modified: Mon, 17 Jun 2019 19:14:33 GMT
+content-type: text/css; charset=utf-8
+timing-allow-origin: https://www.amazon.com
+x-cache: Hit from akamai
+cache-control: public, max-age=629131305
+status: 200
+----
+

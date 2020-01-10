@@ -1,0 +1,49 @@
+--Request 
+POST https://unagi-eu.amazon.com/1/events/com.amazon.csm.nexusclient.prod
+Host: unagi-eu.amazon.com
+Origin: https://www.amazon.in
+Accept: */*
+Cache-Control: max-age=0
+Referer: https://www.amazon.in/Ateesa-Womens-Rayon-Pleated-7058_Navy_Xx-Large/dp/B07NFDRP67/ref=sr_1_1?qid=1563387908&s=apparel&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Content-Type: text/plain;charset=UTF-8
+----
+ POSTDATA {"cs":{"dct":{"#0":"requestId","#1":"Q3A6HVWZDTVCTAEBMX6F","#2":"server","#3":"www.amazon.in","#4":"obfuscatedMarketplaceId","#5":"A21TJRUUN4KGV","#6":"producerId","#7":"csm","#8":"schemaId","#9":"csm.CSMBaselineEvent.4","#10":"timestamp","#11":"messageId","#12":"sessionId","#13":"260-6898445-8949221"}},"events":[{"data":{"#0":"#1","#2":"#3","#4":"#5","#6":"#7","#8":"#9","#10":"2019-07-17T18:25:34.623Z","#11":"Q3A6HVWZDTVCTAEBMX6F-1563387934623-1900977433","#12":"#13"}}]}
+--Response 
+HTTP/1.1 200 OK
+Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+Server: Server
+Access-Control-Allow-Origin: https://www.amazon.in
+Connection: keep-alive
+Content-Encoding: gzip
+x-amzn-RequestId: 6f476f27-5685-4a87-ac45-8fa7312c0737
+Vary: Origin,Accept-Encoding,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment,User-Agent
+x-amz-rid: T85XKT5XS0AEHQ5V40E0
+Content-Length: 22
+Date: Wed, 17 Jul 2019 18:25:36 GMT
+Content-Type: application/json
+----
+--Request 
+GET https://aax-eu.amazon-adsystem.com/x/px/QqYiOXpHW6c0ED-AqBf8CkIAAAFsAS6fiwMAAAH_AYAhwHE/nii/%7B%22ni%22:true%7D
+Host: aax-eu.amazon-adsystem.com
+Cookie: ad-id=Aw2U5SPThEoFqF5QAjLktoM; ad-privacy=0
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://images-eu.ssl-images-amazon.com/images/G/31/ape/sf/whitelisted/desktop/sf-1.50.d23453f._V461669522_.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+----
+--Response 
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+Server: Server
+Connection: keep-alive
+Vary: User-Agent
+Pragma: no-cache
+Content-Length: 43
+Date: Wed, 17 Jul 2019 18:25:36 GMT
+Content-Type: image/gif
+----
+

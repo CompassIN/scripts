@@ -1,0 +1,1233 @@
+--Request 
+POST https://fls-eu.amazon.in/1/batch/1/OE/
+Host: fls-eu.amazon.in
+Cookie: session-id=259-1202557-5929705; i18n-prefs=INR; ubid-acbin=258-0672242-6953331; x-wl-uid=1ecJvyxzwiGLpb/ivu3x3ngupYO7bY1+BPjlMC56V5J9AKfsIjsCkfc+Jr7a3C9XLJxX0u1syPM0=; visitCount=1; session-token=\"qbOQOkS0VEpBUocLOZRgf/vBjfAa/L1gvzuk4dHaABRLwBcXdkoWG+tgKYovU/GtpgviGH2ntZ17AVp7e48ZFY6MNw3iH/RJtLL2eZrJEHt3s9Cy0QE8n08HbD+hmqwfffrZuHf+ncTYp9ne7NmDLRaqAwIAVoD+O39gZOoyeiIbwRC9aZp+vc79loUdfIgRN7k1iETJ2x2I7SZjKc9arkykk2SqRFhbbijoObQQg4mvjy58UMqGvQ==\"; session-id-time=2082758401l
+Origin: https://www.amazon.in
+Accept: */*
+Cache-Control: max-age=0
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Content-Type: text/plain;charset=UTF-8
+----
+ POSTDATA {"rid":"FQHMBRA36T6KVA44S1T8","sid":"259-1202557-5929705","mid":"A21TJRUUN4KGV","sn":"www.amazon.in","reqs":[{"cel":{"k":"hrt","t":11895}},{"csmcount":{"counter":"adplacements:adfetch:punt:Gateway:desktop-ad-center-1:desktop","value":1,"t":13588}},{"csmcount":{"counter":"adplacements:adfetch:punt:e44985f6-46f4-4231-90aa-f5c16f7c50aa","value":1,"t":13588}},{"csmcount":{"counter":"adplacements:adload:unservedimpressionfired:Gateway:desktop-ad-center-1:desktop","value":1,"t":13588}},{"csmcount":{"counter":"adplacements:adload:unservedimpressionfired:e44985f6-46f4-4231-90aa-f5c16f7c50aa","value":1,"t":13588}},{"csmcount":{"counter":"adplacements:adfeedback:request:Gateway:desktop-ad-center-1:desktop","value":1,"t":13591}},{"csmcount":{"counter":"adplacements:adfeedback:request:e44985f6-46f4-4231-90aa-f5c16f7c50aa","value":1,"t":13591}},{"csmcount":{"counter":"adplacements:adfetch:punt:Gateway:right-7:desktop","value":1,"t":13778}},{"csmcount":{"counter":"adplacements:adfetch:punt:d28cb697-85f2-43bd-9473-37dfd1e3666a","value":1,"t":13778}},{"csmcount":{"counter":"adplacements:adload:unservedimpressionfired:Gateway:right-7:desktop","value":1,"t":13779}},{"csmcount":{"counter":"adplacements:adload:unservedimpressionfired:d28cb697-85f2-43bd-9473-37dfd1e3666a","value":1,"t":13779}},{"csmcount":{"counter":"adplacements:adfeedback:request:Gateway:right-7:desktop","value":1,"t":13780}},{"csmcount":{"counter":"adplacements:adfeedback:request:d28cb697-85f2-43bd-9473-37dfd1e3666a","value":1,"t":13780}},{"csmcount":{"counter":"gwAjaxCall","value":3,"t":13810}},{"csmcount":{"counter":"adplacements:cache:sflibrary:uncached:Gateway:right-2:desktop","value":1,"t":13975}},{"csmcount":{"counter":"adplacements:cache:sfhtml:uncached:Gateway:right-2:desktop","value":1,"t":13975}},{"csmcount":{"counter":"adplacements:cache:sflibrary:uncached:Gateway:desktop-ad-center-1:desktop","value":1,"t":14022}},{"csmcount":{"counter":"adplacements:cache:sflibrary:uncached:e44985f6-46f4-4231-90aa-f5c16f7c50aa","value":1,"t":14022}},{"csmcount":{"counter":"adplacements:cache:sfhtml:uncached:Gateway:desktop-ad-center-1:desktop","value":1,"t":14022}},{"csmcount":{"counter":"adplacements:cache:sfhtml:uncached:e44985f6-46f4-4231-90aa-f5c16f7c50aa","value":1,"t":14022}},{"csmcount":{"counter":"adplacements:cache:sflibrary:uncached:Gateway:right-7:desktop","value":1,"t":14177}},{"csmcount":{"counter":"adplacements:cache:sflibrary:uncached:d28cb697-85f2-43bd-9473-37dfd1e3666a","value":1,"t":14177}},{"csmcount":{"counter":"adplacements:cache:sfhtml:uncached:Gateway:right-7:desktop","value":1,"t":14177}},{"csmcount":{"counter":"adplacements:cache:sfhtml:uncached:d28cb697-85f2-43bd-9473-37dfd1e3666a","value":1,"t":14177}},{"csmcount":{"counter":"postbackImageSize","value":1085,"t":14182}},{"csm":{"k":"rtiming","value":"fgx_Swu_agx_zfx_ilink*fgw_S1a4_agw_zt7_ilink*fnu_S1b4_anu_zn9_iimg*fnu_dnu_Dnu_cnu_Cnu_qra_s180_S1bt_tqrz_eqit_Eqit_anu_znz_iimg*fnu_S1c1_anu_zo6_iimg*fnu_S1ee_anu_zqk_iimg*fnu_S1eo_anu_zqu_iimg*fnu_S1eu_anu_zr0_iimg*fnu_S1f1_anu_zr6_iimg*fnu_S1f7_anu_zrd_iimg*fgw_S1fg_agw_zyj_ilink*frb_drb_Drb_crb_Crb_q18k_s1fn_S1kd_t5ke_e5da_E5da_arb_zt1_iimg*frc_drc_Drc_crc_Crc_q18k_s1go_S1l0_tbps_ebi4_Ebi4_arc_ztn_iimg*frc_drc_Drc_crc_Crc_q199_s1h7_S1lj_t47v_e40r_E40r_arc_zu6_iimg*frd_S1lp_ard_zuc_iimg*frd_S1lv_ard_zui_iimg*frd_S1ow_ard_zxi_iimg*frc_drc_Drc_crc_Crc_q18k_s1g5_S1p8_txbr_ex26_Ex26_arc_zxw_iimg*frd_S1w0_ard_z14n_iimg*frd_S1wi_ard_z155_iimg*frd_S1wo_ard_z15a_iimg*frd_S1wt_ard_z15f_iimg*fre_S1wy_are_z15k_iimg*fre_S1x3_are_z15o_iimg*fre_S1x8_are_z15t_iimg*fre_S1xd_are_z15y_iimg*fre_S1xh_are_z163_iimg*fre_S1xl_are_z166_iimg*fre_S1xq_are_z16c_iimg*fw3_dw3_Dw3_cw3_Cw3_q1b6_s1rd_S1xz_teo9_eegb_Eegb_aw3_z11v_iimg*fw4_dw4_Dw4_cw4_Cw4_q1b6_s1rt_S1yc_t5kw_e5ds_E5ds_aw4_z128_iimg*fw4_dw4_Dw4_cw4_Cw4_q1b6_s1s8_S1yk_t7wq_e7pc_E7pc_aw4_z12g_iimg*fw4_dw4_Dw4_cw4_Cw4_q1b6_s1so_S1yu_tbss_ebl3_Ebl3_aw4_z12p_iimg*fw4_S1yy_aw4_z12t_iimg*fw4_S1zn_aw4_z13j_iimg*fw4_S1zr_aw4_z13m_iimg*fw4_S1zv_aw4_z13q_iimg*fw4_S1zz_aw4_z13u_iimg*fw4_S203_aw4_z13y_iimg*fw4_S209_aw4_z144_iimg*fwy_dwy_Dwy_cwy_Cwy_q1ej_s1za_S20h_t71k_e6u9_E6u9_awy_z13i_iimg*fiw_diw_Diw_ciw_Ciw_q25f_s25z_S2ft_t90a_e8sx_E8sx_aiw_z1ww_iimg*fiw_diw_Diw_ciw_Ciw_q25f_s2g9_S2hp_t7z_e17_E17_aiw_z1ys_iimg*fli_dli_Dli_cli_Cli_q25g_s2gn_S2i3_t37c_e308_E308_ali_z1wk_iimg*f25l_S2nh_a25l_zhv_iscript*f27t_S2o6_a27t_zgc_iscript*f26h_S2ou_a26h_zid_iscript*fli_dli_Dli_cli_Cli_q25g_s2h0_S2q8_t1zsi_e1zg4_E1zg4_ali_z24q_iimg*f26h_S2r0_a26h_zkj_iscript*f2lm_d2lm_D2lm_c2lm_C2lm_q2m3_s2pe_S2rb_t8vh_e8ng_Eqan_a2lm_z5o_iscript*fli_dli_Dli_cli_Cli_q25g_s2rh_S2s0_t371_e2zx_E2zx_ali_z26i_iimg*fli_dli_Dli_cli_Cli_q25g_s2s1_S2us_t2l2_e2e6_E2e6_ali_z29a_iimg*fli_dli_Dli_cli_Cli_q25g_s2sg_S2uy_t3ut_e3np_E3np_ali_z29f_iimg*flj_dlj_Dlj_clj_Clj_q25g_s2sr_S2vi_t340_e2wx_E2wx_alj_z29z_iimg*flj_dlj_Dlj_clj_Clj_q25h_s2t4_S2vt_t2y8_e2r4_E2r4_alj_z2aa_iimg*flj_dlj_Dlj_clj_Clj_q25h_s2ti_S2vz_t394_e31z_E31z_alj_z2ag_iimg*flj_dlj_Dlj_clj_Clj_q25h_s2tv_S2w7_t367_e2z3_E2z3_alj_z2ao_iimg*flj_dlj_Dlj_clj_Clj_q25h_s2u6_S2x3_t2fcd_e2eyp_E2eyp_alj_z2bk_iimg*flk_dlk_Dlk_clk_Clk_q25h_s2wd_S2yl_t8ez_e87k_E87k_alk_z2d1_iimg*flk_dlk_Dlk_clk_Clk_q25h_s2x4_S2yx_tb6n_eayz_Eayz_alk_z2dc_iimg*f2pb_S316_a2pb_zbv_iscript*fiw_S32q_aiw_z2ju_iimg*f2pb_S33n_a2pb_zec_iscript*f2zh_d2zh_D2zh_c2zh_C2zh_q31a_s38s_S3gf_ti3_ek_a2zh_zgy_ixmlhttprequest*f2is_S3md_a2is_z13l_icss*f2is_S3n6_a2is_z14d_icss*f355_S3np_a355_zik_iscript*flk_dlk_Dlk_clk_Clk_q25h_s2xj_S4b7_t20fy_e203b_E203b_alk_z3pn_iimg*flk_dlk_Dlk_clk_Clk_q25h_s4bf_S4cp_t9xf_e9ps_E9ps_alk_z3r4_iimg*flk_dlk_Dlk_clk_Clk_q25j_s4bu_S4d2_t6h8_e69u_E69u_alk_z3rh_iimg*fmi_dmi_Dmi_cmi_Cmi_q2g8_s4d6_S4f0_tc1g_ebtv_Ebtv_ami_z3si_iimg*fmj_S4f6_amj_z3sn_iimg*fmj_S4fb_amj_z3sr_iimg*fmj_S4fg_amj_z3sw_iimg*fmj_S4gv_amj_z3ub_iimg*fmj_S4hf_amj_z3uv_iimg*fmj_S4hk_amj_z3v0_iimg*fmk_S4hp_amk_z3v5_iimg*fmk_dmk_Dmk_cmk_Cmk_q2g8_s4gd_S4i1_t63m_e5w9_E5w9_amk_z3vh_iimg*f427_S4id_a427_zg5_icss*f42y_d42y_D42y_c42y_C42y_q486_s4ie_S4j3_tvl_e14_Em_a42y_zg5_ixmlhttprequest*fmk_dmk_Dmk_cmk_Cmk_q2g8_s4j3_S4km_tav4_eang_Eang_amk_z3y2_iimg*fmk_dmk_Dmk_cmk_Cmk_q2g8_s4jj_S4kt_t6ms_e6fe_E6fe_amk_z3y8_iimg*f3pd_S4m8_a3pd_zwu_ixmlhttprequest*f32w_d32w_D32w_c32w_C32w_q34a_s4m8_S4nb_t5oj_e5gw_Ef9r_a32w_z1kf_iiframe*f33r_d33r_D33r_c33r_C33r_q34h_s4mo_S4ni_e5gw_Ef9r_a33r_z1jr_iiframe*f415_d415_D415_c415_C415_q41c_s4nc_S4nn_e5gw_Ef9r_a415_zmi_iiframe*fml_dml_Dml_cml_Cml_q2g8_s4jy_S4q8_t2387_e22va_E22va_aml_z43n_iimg*fml_S4r0_aml_z44f_iimg*fml_S4sp_aml_z464_iimg*fml_S4sv_aml_z469_iimg*fml_S4ui_aml_z47x_iimg*f43x_d43x_D43x_c43x_C43x_q4c9_s4s2_S4ut_t1uf7_e1u32_E1u32_a43x_zqw_iimg*fml_S4vc_aml_z48q_iimg*fml_S4vh_aml_z48v_iimg*fml_S4x7_aml_z4al_iimg*f28a_d28a_D28a_c28a_C28a_q2he_s4vi_S4y6_t3nh_e3gd_E3gd_a28a_z2pw_icss*fmf_S4yf_amf_z4bz_iimg*fmg_S4yi_amg_z4c2_iimg*fmh_S50i_amh_z4e0_iimg*fmh_S52n_amh_z4g6_iimg*fmh_S52t_amh_z4gc_iimg*fmh_S530_amh_z4gi_iimg*f35x_S535_a35x_z1x8_iimg*f35x_S53h_a35x_z1xk_iimg*f35x_S53u_a35x_z1xx_iimg*f35x_S557_a35x_z1z9_iimg*f35x_S557_a35x_z1z9_iimg*f35x_S557_a35x_z1z9_iimg*f35x_S55t_a35x_z1zv_iimg*f35x_S58l_a35x_z22n_iimg*f35x_S58l_a35x_z22n_iimg*f35x_S58l_a35x_z22n_iimg*f35x_S59v_a35x_z23y_iimg*f35x_S59v_a35x_z23y_iimg*f35x_S59v_a35x_z23y_iimg*f35x_S5ab_a35x_z24d_iimg*f35y_S5ag_a35y_z24i_iimg*f35y_S5ak_a35y_z24m_iimg*f35y_S5c6_a35y_z268_iimg*f35y_S5cc_a35y_z26e_iimg*f35y_S5ch_a35y_z26i_iimg*f35y_S5cl_a35y_z26m_iimg*f35y_S5dd_a35y_z27e_iimg*f35y_S5di_a35y_z27k_iimg*f35y_S5eo_a35y_z28p_iimg*f35y_S5ev_a35y_z28w_iimg*f35y_S5f0_a35y_z291_iimg*f35y_S5gb_a35y_z2ac_iimg*f35y_S5gh_a35y_z2ai_iimg*f35y_S5gm_a35y_z2an_iimg*f35y_S5gr_a35y_z2as_iimg*f35y_S5is_a35y_z2ct_iimg*f35z_S5ix_a35z_z2cy_iimg*f35z_S5j3_a35z_z2d3_iimg*f35z_S5j7_a35z_z2d8_iimg*f35z_S5je_a35z_z2df_iimg*f35z_S5jj_a35z_z2dk_iimg*f35z_S5n1_a35z_z2h1_iimg*f35z_S5n8_a35z_z2h9_iimg*f35z_S5ne_a35z_z2hf_iimg*f35z_S5nj_a35z_z2hk_iimg*f35z_S5no_a35z_z2hp_iimg*f35z_S5nu_a35z_z2hu_iimg*f35z_S5nz_a35z_z2i0_iimg*f35z_S5o5_a35z_z2i5_iimg*f35z_S5ob_a35z_z2ic_iimg*f35z_S5pj_a35z_z2jj_iimg*f35z_S5ps_a35z_z2js_iimg*f360_S5py_a360_z2jy_iimg*f4oo_d4oo_D4oo_c4oo_C4oo_q4sk_s5pz_S5ra_t1eq_evh_E2fy_a4oo_z12m_ixmlhttprequest*f3v1_d3v1_D3v1_c3v1_C3v1_q3ya_s5ox_S5s6_t1z2h_e1yq4_E1yq4_a3v1_z1x4_iimg*f3v2_d3v2_D3v2_c3v2_C3v2_q3zu_s5s8_S5ub_tn6y_emy4_Emy4_a3v2_z1z9_iimg*f4km_S5uc_a4km_z19p_ibeacon*f3v1_d3v1_D3v1_c3v1_C3v1_q3zu_s5qj_S5ul_t2l1a_e2kn7_E2kn7_a3v1_z1zj_iimg*f3v2_d3v2_D3v2_c3v2_C3v2_q3zv_s5tj_S5w3_t31t2_e31dd_E31dd_a3v2_z211_iimg*f3v2_d3v2_D3v2_c3v2_C3v2_q3zv_s5wf_S5ya_tjii_ej9v_Ej9v_a3v2_z237_iimg*f3v2_d3v2_D3v2_c3v2_C3v2_q3zv_s5wq_S5yj_tahc_ea9p_Ea9p_a3v2_z23h_iimg*f3v2_S5yw_a3v2_z23u_iimg*f3v2_d3v2_D3v2_c3v2_C3v2_q3zv_s5ur_S5ze_t2fe5_e2f0h_E2f0h_a3v2_z24c_iimg*f3v2_d3v2_D3v2_c3v2_C3v2_q3zw_s5x3_S5zw_t14eu_e144i_E144i_a3v2_z24t_iimg*f3v2_d3v2_D3v2_c3v2_C3v2_q3zw_s5xo_S605_t21er_e2126_E2126_a3v2_z252_iimg*f3v2_d3v2_D3v2_c3v2_C3v2_q3zv_s5w4_S60r_t2f64_e2esh_E2esh_a3v2_z25p_iimg*f3v2_d3v2_D3v2_c3v2_C3v2_q3zw_s5ze_S612_t1izc_e1io7_E1io7_a3v2_z25z_iimg*f41g_S62t_a41g_z21d_iimg*f41g_S64q_a41g_z239_iimg*f41h_S64v_a41h_z23e_iimg*f41h_S651_a41h_z23k_iimg*f41h_S655_a41h_z23o_iimg*f3v2_d3v2_D3v2_c3v2_C3v2_q3zw_s605_S65i_t2d40_e2cqe_E2cqe_a3v2_z2af_iimg*f41h_S65n_a41h_z245_iimg*f41h_S65r_a41h_z24a_iimg*f41h_S65y_a41h_z24g_iimg*f41h_S663_a41h_z24l_iimg*f41h_S66u_a41h_z25c_iimg*f41h_S66y_a41h_z25g_iimg*f41h_S67f_a41h_z25x_iimg*f43x_d43x_D43x_c43x_C43x_q4c9_s66g_S688_tzj0_ez95_Ez95_a43x_z24b_iimg*f43x_d43x_D43x_c43x_C43x_q4d3_s674_S68j_tw3g_evtt_Evtt_a43x_z24l_iimg*f41h_S69e_a41h_z27x_iimg*f43x_d43x_D43x_c43x_C43x_q4d3_s67h_S6a2_tqz9_eqq4_Eqq4_a43x_z264_iimg*f43w_d43w_D43w_c43w_C43w_q4d5_s68w_S6bi_tqu6_eql1_Eql1_a43w_z27m_iimg*f43w_d43w_D43w_c43w_C43w_q4d5_s69f_S6bs_tvmq_evd2_Evd2_a43w_z27v_iimg*fmi_S6c0_ami_z5pi_iimg*f360_S6d3_a360_z373_iimg*f360_S6da_a360_z379_iimg*f360_S6de_a360_z37e_iimg*f360_S6dz_a360_z37z_iimg*f360_S6e5_a360_z385_iimg*f5uq_d5uq_D5uq_c5uq_C5uq_q5zn_s6cm_S6eh_tjd_ecj_Ecj_a5uq_zjr_icss*f360_S6ic_a360_z3cc_iimg*f360_S6ih_a360_z3cg_iimg*f360_S6it_a360_z3ct_iimg*f3sa_S6jl_a3sa_z2rb_iscript*f7ng_S8sp_a7ng_z158_ibeacon*r8v8_Ratr_fau6_daug_Dauj_cauj_Caxe_qaxf_sb00_Sb0o_tbp_e16_E16_a8v8_z25g_iimg~pm"}},{"csmcount":{"counter":"aui:aui-supported-rupee","value":1,"t":14410}},{"csmcount":{"counter":"NavJS:TimeUpTo:ATF:desktop","value":648,"t":14412}},{"csmcount":{"counter":"NavJS:TimeUpTo:CF:desktop","value":649,"t":14414}},{"csmcount":{"counter":"NavJS:TimeUpTo:PageLoaded:desktop","value":651,"t":14417}},{"csmcount":{"counter":"NavJS:TotalCallCount:PageLoaded:desktop","value":1127,"t":14417}},{"csmcount":{"counter":"Nav:CSM:Latency:network:D:desktop","value":453,"t":14418}},{"csmcount":{"counter":"Nav:CSM:Latency:navFirstPaint:D:desktop","value":2402,"t":14418}},{"csmcount":{"counter":"Nav:CSM:Latency:NavStart:C:desktop","value":2334,"t":14418}},{"csmcount":{"counter":"Nav:CSM:Latency:PreNav:D:desktop","value":1,"t":14418}},{"csmcount":{"counter":"Nav:CSM:Latency:PreNav:C:desktop","value":2335,"t":14418}},{"csmcount":{"counter":"Nav:CSM:Latency:UpNav:D:desktop","value":0,"t":14418}},{"csmcount":{"counter":"Nav:CSM:Latency:UpNav:C:desktop","value":2336,"t":14418}},{"csmcount":{"counter":"Nav:CSM:Latency:HamburgerMenuIcon:D:desktop","value":0,"t":14418}},{"csmcount":{"counter":"Nav:CSM:Latency:HamburgerMenuIcon:C:desktop","value":2336,"t":14418}},{"csmcount":{"counter":"Nav:CSM:Latency:Logo:D:desktop","value":0,"t":14418}},{"csmcount":{"counter":"Nav:CSM:Latency:Logo:C:desktop","value":2336,"t":14418}},{"csmcount":{"counter":"Nav:CSM:Latency:SWM:D:desktop","value":2,"t":14418}},{"csmcount":{"counter":"Nav:CSM:Latency:SWM:C:desktop","value":2338,"t":14418}},{"csmcount":{"counter":"Nav:CSM:Latency:Search:D:desktop","value":2,"t":14418}},{"csmcount":{"counter":"Nav:CSM:Latency:Search:C:desktop","value":2340,"t":14418}},{"csmcount":{"counter":"Nav:CSM:Latency:Tools:D:desktop","value":0,"t":14418}},{"csmcount":{"counter":"Nav:CSM:Latency:Tools:C:desktop","value":2341,"t":14418}},{"csmcount":{"counter":"Nav:CSM:Latency:CrossShop:D:desktop","value":0,"t":14418}},{"csmcount":{"counter":"Nav:CSM:Latency:CrossShop:C:desktop","value":2342,"t":14418}},{"csmcount":{"counter":"Nav:CSM:Latency:NavBar:D:desktop","value":6,"t":14418}},{"csmcount":{"counter":"Nav:CSM:Latency:NavBar:C:desktop","value":2342,"t":14418}},{"csmcount":{"counter":"Nav:CSM:Latency:PostNav:D:desktop","value":3,"t":14418}},{"csmcount":{"counter":"Nav:CSM:Latency:PostNav:C:desktop","value":2345,"t":14418}},{"csmcount":{"counter":"gw-inst-img","value":1,"t":14428}},{"csmcount":{"counter":"gw-img-size-invoke","value":1,"t":14429}},{"csmcount":{"counter":"gw-img-size-invoke","value":2,"t":14434}},{"csmcount":{"counter":"gw-img-size-invoke","value":3,"t":14435}},{"csmcount":{"counter":"gw-img-size-invoke","value":4,"t":14435}},{"csmcount":{"counter":"gw-img-size-invoke","value":5,"t":14435}},{"csmcount":{"counter":"gw-img-size-invoke","value":6,"t":14436}},{"csmcount":{"counter":"gw-img-size-invoke","value":7,"t":14436}},{"csmcount":{"counter":"gw-img-size-invoke","value":8,"t":14437}},{"csmcount":{"counter":"gw-img-size-invoke","value":9,"t":14437}},{"csmcount":{"counter":"gw-img-size-invoke","value":10,"t":14437}},{"csmcount":{"counter":"gw-img-size-invoke","value":11,"t":14437}},{"csmcount":{"counter":"gw-img-size-invoke","value":12,"t":14438}},{"csmcount":{"counter":"gw-img-size-invoke","value":13,"t":14438}},{"csmcount":{"counter":"postbackImageSize","value":220,"t":14445}},{"cel":{"n":"Navigation-desktop-navbar","w":1000,"h":99,"d":0,"x":0,"y":0,"t":14446,"k":"ewi","cl":"nav-sprite-v1 celwidget nav-bluebeacon nav-packard-glow nav-a11y-t1"}},{"cel":{"n":"desktop-hero-order","w":1000,"h":230,"d":0,"x":0,"y":99,"t":14446,"k":"ewi","cl":"celwidget csm-placement-id-9a99ba44-ab67-469c-9125-d212039dc5af"}},{"cel":{"n":"gw-desktop-hero-left-cel","w":80,"h":250,"d":0,"x":0,"y":99,"t":14446,"k":"ewi","cl":"a-carousel-col a-carousel-left celwidget"}},{"cel":{"n":"gw-ftGr-desktop-tall-hero-J","w":1000,"h":600,"d":1,"x":-3000,"y":99,"t":14446,"k":"ewi","cl":"gw-ftGr-desktop-hero celwidget csm-placement-id-690caa99-cb80-40ec-a99b-528f1aa47bce"}},{"cel":{"n":"gw-ftGr-desktop-tall-hero-D","w":1000,"h":600,"d":1,"x":-2000,"y":99,"t":14446,"k":"ewi","cl":"gw-ftGr-desktop-hero gw-critical-content celwidget csm-placement-id-0a2ac391-f9e7-4990-af11-7c556f69cffa"}},{"cel":{"n":"gw-ftGr-desktop-tall-hero-E","w":1000,"h":600,"d":1,"x":-1000,"y":99,"t":14446,"k":"ewi","cl":"gw-ftGr-desktop-hero celwidget csm-placement-id-2740ffba-1199-4e3c-a3d3-cf25c5599039"}},{"cel":{"n":"gw-ftGr-desktop-tall-hero-F","w":1000,"h":600,"d":0,"x":0,"y":99,"t":14446,"k":"ewi","cl":"gw-ftGr-desktop-hero celwidget csm-placement-id-8787725e-f00b-485e-aa3c-465b6a82e3e8"}},{"cel":{"n":"gw-ftGr-desktop-tall-hero-G","w":1000,"h":600,"d":1,"x":1000,"y":99,"t":14446,"k":"ewi","cl":"gw-ftGr-desktop-hero celwidget csm-placement-id-4566fd08-97df-4f26-8417-558ac8eba7fe"}},{"cel":{"n":"gw-ftGr-desktop-tall-hero-H","w":1000,"h":600,"d":1,"x":2000,"y":99,"t":14446,"k":"ewi","cl":"gw-ftGr-desktop-hero celwidget csm-placement-id-abeec25c-4c92-4bda-9be0-a3bf78b6c819"}},{"cel":{"n":"gw-ftGr-desktop-tall-hero-I","w":1000,"h":600,"d":1,"x":3000,"y":99,"t":14446,"k":"ewi","cl":"gw-ftGr-desktop-hero celwidget csm-placement-id-7e890f68-a271-46ea-9733-a51f195c23f8"}},{"cel":{"n":"gw-desktop-hero-right-cel","w":80,"h":250,"d":0,"x":920,"y":99,"t":14446,"k":"ewi","cl":"a-carousel-col a-carousel-right celwidget"}},{"cel":{"n":"desktop-grid-1","w":326.6625061035156,"h":420,"d":0,"x":10,"y":349,"t":14446,"k":"ewi","cl":"gw-col celwidget csm-placement-id-b139ea56-b471-44e1-96c4-9419c155d0ed"}},{"cel":{"n":"desktop-grid-2","w":326.6625061035156,"h":420,"d":0,"x":336.6625061035156,"y":349,"t":14446,"k":"ewi","cl":"gw-col celwidget csm-placement-id-d2cb9531-61b6-4207-9e33-83950b447840"}},{"cel":{"n":"desktop-grid-3","w":326.6625061035156,"h":420,"d":0,"x":663.3250122070312,"y":349,"t":14446,"k":"ewi","cl":"gw-col celwidget csm-placement-id-bf74788c-1fba-4719-9134-cbf336a08f81"}},{"cel":{"n":"desktop-grid-1-D1","w":306.6625061035156,"h":150,"d":0,"x":673.3250122070312,"y":1059,"t":14446,"k":"ewi","cl":"gw-row celwidget csm-placement-id-a8f8e33a-7ec9-42dd-a63f-c020e1549020"}},{"cel":{"n":"desktop-grid-1-D2","w":306.6625061035156,"h":250,"d":0,"x":673.3250122070312,"y":789,"t":14446,"k":"ewi","cl":"gw-row celwidget csm-placement-id-afd0e030-8acd-49fd-820b-dfbd2373a1c0"}},{"cel":{"n":"adplacements:Gateway:right-2:desktop","w":306.6625061035156,"h":270,"d":0,"x":673.3250122070312,"y":789,"t":14446,"k":"ewi","cl":"copilot-secure-display celwidget  text/x-dacx-safeframe"}},{"cel":{"n":"desktop-grid-4","w":326.6625061035156,"h":420,"d":0,"x":10,"y":789,"t":14446,"k":"ewi","cl":"gw-col celwidget csm-placement-id-1d6da260-3f1d-4f01-bdf9-c95cc10ad360"}},{"cel":{"n":"desktop-grid-5","w":326.6625061035156,"h":420,"d":0,"x":336.6625061035156,"y":789,"t":14446,"k":"ewi","cl":"gw-col celwidget csm-placement-id-bf249d0a-7138-4df7-9210-9c07e5fe31ba"}},{"cel":{"n":"desktop-grid-6","w":326.6625061035156,"h":420,"d":0,"x":10,"y":1229,"t":14446,"k":"ewi","cl":"gw-col celwidget csm-placement-id-9839e95c-220f-4c10-ab9a-cacfab5a9581"}},{"cel":{"n":"desktop-grid-7","w":326.6625061035156,"h":420,"d":0,"x":336.6625061035156,"y":1229,"t":14446,"k":"ewi","cl":"gw-col gw-fixed-col celwidget csm-placement-id-13797f02-859f-41bb-9724-c0e11eedf9ff"}},{"cel":{"n":"","w":326.6625061035156,"h":420,"d":0,"x":663.3250122070312,"y":1229,"t":14446,"k":"ewi","cl":"gw-col celwidget"}},{"cel":{"n":"desktop-1","w":980,"h":363.6000061035156,"d":0,"x":10,"y":1669,"t":14446,"k":"ewi","cl":"gw-col desktop-row gwi-row gw-widget-instrument gw-auto-height celwidget csm-placement-id-2b9bb3c1-71bb-48bb-8476-31c6e37895b1"}},{"cel":{"n":"card-desktop-1","w":0,"h":0,"d":1,"x":0,"y":0,"t":14446,"k":"ewi","cl":"aok-hidden celwidget csm-asin-B07BS4TJ43-B073B6TQQY-B00K0B5S60-B00BG7KGXC-B078GLXMDY-B06XT4Q7JW csm-placement-id-2b9bb3c1-71bb-48bb-8476-31c6e37895b1"}},{"cel":{"n":"desktop-2","w":0,"h":0,"d":1,"x":0,"y":0,"t":14446,"k":"ewi","cl":"gw-col desktop-row gwi-row gw-widget-instrument gw-auto-height celwidget csm-placement-id-b51d7353-cf10-4813-bd0f-5319db59a740 pd_rd_w-I1Cu8 pd_rd_r-4fc98b6e-a637-481c-af9e-83c06f52ff2f pd_rd_wg-UPGLy"}},{"cel":{"n":"desktop-btf-grid-1","w":0,"h":0,"d":1,"x":0,"y":0,"t":14446,"k":"ewi","cl":"gw-col celwidget csm-placement-id-a53bc818-a709-41ac-a9c0-494b2b9a2c1c"}},{"cel":{"n":"desktop-btf-grid-2","w":0,"h":0,"d":1,"x":0,"y":0,"t":14446,"k":"ewi","cl":"gw-col celwidget csm-placement-id-57fb19e2-8cc3-4efe-a731-87c085954826"}},{"cel":{"n":"desktop-btf-grid-3","w":0,"h":0,"d":1,"x":0,"y":0,"t":14446,"k":"ewi","cl":"gw-col celwidget csm-placement-id-5257cbb4-a92e-49af-bb2e-3535232a9738"}},{"cel":{"n":"desktop-btf-grid-4","w":326.6625061035156,"h":420,"d":0,"x":10,"y":3249.800048828125,"t":14446,"k":"ewi","cl":"gw-col celwidget csm-placement-id-fb86d046-a71f-444e-8abc-fcb20fe69bcc"}},{"cel":{"n":"desktop-3","w":980,"h":284.3999938964844,"d":0,"x":10,"y":2052.60009765625,"t":14446,"k":"ewi","cl":"gw-col desktop-row gwi-row gw-widget-instrument gw-auto-height celwidget csm-placement-id-b06366d8-4e26-4388-a90b-937ef9a48564 pd_rd_w-GpetY pd_rd_r-4fc98b6e-a637-481c-af9e-83c06f52ff2f pd_rd_wg-UPGLy"}},{"cel":{"n":"desktop-editorial","w":980,"h":298.3999938964844,"d":0,"x":10,"y":2357,"t":14446,"k":"ewi","cl":"gw-col desktop-row gwi-row gw-widget-instrument gw-auto-height celwidget csm-placement-id-aa250c66-f528-4bf8-9d71-6f18999fc565"}},{"cel":{"n":"desktop-4","w":980,"h":284.3999938964844,"d":0,"x":10,"y":2675.400146484375,"t":14446,"k":"ewi","cl":"gw-col desktop-row gwi-row gw-widget-instrument gw-auto-height celwidget csm-placement-id-b2899dea-962b-5cfc-b804-0b0c5e701118 pd_rd_wg-UPGLy pd_rd_r-4fc98b6e-a637-481c-af9e-83c06f52ff2f pd_rd_w-Yjeuk"}},{"cel":{"n":"desktop-ad-center-1","w":980,"h":250,"d":0,"x":10,"y":2979.800048828125,"t":14446,"k":"ewi","cl":"gw-col ad-center gw-auto-height celwidget csm-placement-id-c5557264-09ca-4452-9028-b39f40574336"}},{"cel":{"n":"adplacements:Gateway:desktop-ad-center-1:desktop","w":970,"h":267,"d":0,"x":20,"y":2979.800048828125,"t":14446,"k":"ewi","cl":"copilot-secure-display celwidget  text/x-dacx-safeframe"}},{"cel":{"n":"desktop-btf-grid-5","w":326.6625061035156,"h":420,"d":0,"x":336.6625061035156,"y":3249.800048828125,"t":14446,"k":"ewi","cl":"gw-col celwidget csm-placement-id-c91c1e8e-e35a-4a07-a7e7-c323ac18a109"}},{"cel":{"n":"desktop-btf-grid-6","w":326.6625061035156,"h":420,"d":0,"x":663.3250122070312,"y":3249.800048828125,"t":14446,"k":"ewi","cl":"gw-col celwidget csm-placement-id-a89c1b38-f346-4358-89db-af0aa945fe71"}},{"cel":{"n":"desktop-btf-grid-7","w":326.6625061035156,"h":420,"d":0,"x":10,"y":4298.60009765625,"t":14446,"k":"ewi","cl":"gw-col celwidget csm-placement-id-a6f71a32-439a-4911-a54a-eefc42a5e0a1"}},{"cel":{"n":"desktop-btf-grid-8","w":326.6625061035156,"h":420,"d":0,"x":336.6625061035156,"y":4298.60009765625,"t":14446,"k":"ewi","cl":"gw-col celwidget csm-placement-id-f0ca3812-ee0a-4641-a270-60b44e4ea350"}},{"cel":{"n":"desktop-5","w":980,"h":284.3999938964844,"d":0,"x":10,"y":3689.800048828125,"t":14446,"k":"ewi","cl":"gw-col desktop-row gwi-row gw-widget-instrument gw-auto-height celwidget csm-placement-id-79652f7f-9290-586a-ba52-7784ea4e9a2c pd_rd_wg-UPGLy pd_rd_r-4fc98b6e-a637-481c-af9e-83c06f52ff2f pd_rd_w-ilntK"}},{"cel":{"n":"desktop-6","w":980,"h":284.3999938964844,"d":0,"x":10,"y":3994.199951171875,"t":14446,"k":"ewi","cl":"gw-col desktop-row gwi-row gw-widget-instrument gw-auto-height celwidget csm-placement-id-d6fbd196-7b79-4c08-8e2a-7fad92a3424e pd_rd_w-eMQ0V pd_rd_r-4fc98b6e-a637-481c-af9e-83c06f52ff2f pd_rd_wg-UPGLy"}},{"cel":{"n":"desktop-btf-grid-9","w":326.6625061035156,"h":420,"d":0,"x":663.3250122070312,"y":4298.60009765625,"t":14446,"k":"ewi","cl":"gw-col celwidget csm-placement-id-7bd99bd2-6cf6-424d-a6ef-c0f6c3410287"}},{"cel":{"n":"desktop-btf-grid-10","w":0,"h":0,"d":1,"x":0,"y":0,"t":14446,"k":"ewi","cl":"gw-col celwidget csm-placement-id-9e4eac06-543e-4c7f-b559-2cfe8a9d3aaf"}},{"cel":{"n":"desktop-btf-grid-11","w":0,"h":0,"d":1,"x":0,"y":0,"t":14446,"k":"ewi","cl":"gw-col celwidget csm-placement-id-74814664-67ea-48e4-bb16-848c211b3cd4"}},{"cel":{"n":"desktop-btf-grid-12","w":0,"h":0,"d":1,"x":0,"y":0,"t":14446,"k":"ewi","cl":"gw-col celwidget csm-placement-id-48fb80eb-45f4-495f-8dc1-04a0bf28e72f"}},{"cel":{"n":"desktop-7","w":660,"h":284.3999938964844,"d":0,"x":20,"y":4738.60009765625,"t":14446,"k":"ewi","cl":"desktop-row gwi-row gw-widget-instrument gw-auto-height celwidget csm-placement-id-2d40a078-39fe-5e38-9093-6dd20fb12f68 pd_rd_wg-UPGLy pd_rd_r-4fc98b6e-a637-481c-af9e-83c06f52ff2f pd_rd_w-rf4rF"}},{"cel":{"n":"desktop-ad-btf","w":320,"h":270,"d":0,"x":660,"y":4745.80029296875,"t":14446,"k":"ewi","cl":"celwidget csm-placement-id-b52509f9-be97-48d6-aacd-5b25b88c4229"}},{"cel":{"n":"adplacements:Gateway:right-7:desktop","w":300,"h":270,"d":0,"x":680,"y":4745.80029296875,"t":14446,"k":"ewi","cl":"copilot-secure-display celwidget  text/x-dacx-safeframe"}},{"cel":{"n":"nav_sitewide_msg","w":400,"h":39,"d":0,"x":600,"y":9,"t":14446,"k":"ewi","cl":""}},{"csmcount":{"counter":"gw-img-size-success","value":1,"t":14759}},{"csmcount":{"counter":"gw-cf-img-size","value":92596,"t":14759}},{"cel":{"n":"nav_sitewide_msg","w":0,"h":0,"d":1,"x":0,"y":0,"t":14446,"k":"ewi","cl":""}},{"csmcount":{"counter":"gw-img-size-success","value":2,"t":14958}},{"csmcount":{"counter":"gw-img-size-success","value":3,"t":14958}},{"csmcount":{"counter":"gw-img-size-success","value":4,"t":14978}},{"csmcount":{"counter":"gw-img-size-success","value":5,"t":15076}},{"csmcount":{"counter":"gw-img-size-success","value":6,"t":15154}},{"csmcount":{"counter":"gw-img-size-success","value":7,"t":15178}},{"csmcount":{"counter":"gw-shoveler-img-size-1","value":0,"t":15178}},{"csmcount":{"counter":"gw-img-size-success","value":8,"t":15184}},{"csmcount":{"counter":"gw-img-size-success","value":9,"t":15185}},{"csmcount":{"counter":"gw-img-size-success","value":10,"t":15185}},{"csmcount":{"counter":"gw-img-size-success","value":11,"t":15185}},{"csmcount":{"counter":"gw-img-size-success","value":12,"t":15185}},{"csmcount":{"counter":"gw-img-size-success","value":13,"t":15185}},{"csmcount":{"counter":"gw-shoveler-img-size-2","value":0,"t":15185}},{"csmcount":{"counter":"adplacements:adfeedback:success:Gateway:desktop-ad-center-1:desktop","value":1,"t":15282}},{"csmcount":{"counter":"adplacements:adfeedback:success:e44985f6-46f4-4231-90aa-f5c16f7c50aa","value":1,"t":15282}},{"csmcount":{"counter":"adplacements:adfeedback:success:Gateway:right-7:desktop","value":1,"t":15283}},{"csmcount":{"counter":"adplacements:adfeedback:success:d28cb697-85f2-43bd-9473-37dfd1e3666a","value":1,"t":15283}},{"cel":{"k":"hrt","t":15445}},{"csm":{"k":"chk","f":2,"l":{"csmcount":283,"navigation":1,"cel":68,"csm":3},"s":"full"}},{"csmcount":{"counter":"foresterPayloadSize","t":0,"value":25040}}]}
+--Response 
+HTTP/1.1 204
+access-control-allow-origin: *
+date: Mon, 08 Jul 2019 13:16:56 GMT
+x-amzn-requestid: a415b8cd-66f1-4a3d-a026-5a911feb2662
+access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+status: 204
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/authportal/flex/reduced-nav/ap-flex-reduced-nav-2.0._CB309255176_.js
+Host: images-eu.ssl-images-amazon.com
+Origin: https://www.amazon.in
+Accept: */*
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:16:56 GMT
+content-length: 24778
+server: Server
+expires: Tue, 12 Apr 2039 17:30:13 GMT
+x-amz-ir-id: 55447007-020f-4eb2-b637-773bcbad187e
+vary: Accept-Encoding
+content-encoding: gzip
+access-control-allow-origin: *
+last-modified: Tue, 03 Mar 2015 01:15:11 GMT
+content-type: application/x-javascript
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from akamai
+cache-control: public, max-age=623650397
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/authportal/common/css/ap_global._CB350157780_.css
+Host: images-eu.ssl-images-amazon.com
+Origin: https://www.amazon.in
+Accept: text/css,*/*;q=0.1
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:16:56 GMT
+content-length: 6728
+server: Server
+expires: Fri, 18 Mar 2039 18:41:14 GMT
+x-amz-ir-id: cb145ab8-af4b-46d6-b4e4-b88edf9b23a2
+vary: Accept-Encoding
+content-encoding: gzip
+access-control-allow-origin: *
+last-modified: Thu, 26 Jun 2014 23:37:30 GMT
+content-type: text/css
+x-cache: Hit from akamai
+cache-control: public, max-age=621494658
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/x-locale/cs/ya/images/shipment_large_lt._CB380683640_.gif
+Host: images-eu.ssl-images-amazon.com
+Origin: https://www.amazon.in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:16:56 GMT
+content-length: 4434
+server: Server
+expires: Tue, 12 Apr 2039 17:29:55 GMT
+x-amz-ir-id: 82e3e19d-04e4-44d2-9bbc-5a9617fc348f
+access-control-allow-origin: *
+last-modified: Tue, 04 May 2010 01:17:06 GMT
+content-type: image/gif
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from akamai
+cache-control: public, max-age=623650379
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/x-locale/cs/ya/images/new-link._CB380689125_.gif
+Host: images-eu.ssl-images-amazon.com
+Origin: https://www.amazon.in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:16:56 GMT
+content-length: 166
+server: Server
+expires: Tue, 12 Apr 2039 16:30:14 GMT
+x-amz-ir-id: b81444c9-e613-41db-9a33-adefb76afbf7
+access-control-allow-origin: *
+last-modified: Thu, 03 Jun 2010 01:09:57 GMT
+content-type: image/gif
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from akamai
+cache-control: public, max-age=623646798
+status: 200
+----
+--Request 
+GET https://images-na.ssl-images-amazon.com/images/I/41fMrDoAFbL._RC%7C71GkUD1temL.js,61u3dpzHy+L.js,41W9ohA0e+L.js,11vrNkbdcvL.js,21SHd9g2LAL.js,311T8Q1zWKL.js,51+klsvwgqL.js,31IEOtBPX+L.js_.js?AUIClients/AmazonNavigationDesktopMetaAsset#desktop
+Host: images-na.ssl-images-amazon.com
+Origin: https://www.amazon.in
+Accept: */*
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:16:56 GMT
+content-length: 104033
+server: Server
+expires: Fri, 17 Jun 2039 05:49:50 GMT
+x-amz-ir-id: b31e3ff2-f0b0-4555-aa98-3e4ba6683635
+vary: Accept-Encoding
+content-encoding: gzip
+access-control-allow-origin: *
+last-modified: Thu, 13 Jun 2019 00:39:56 GMT
+content-type: application/x-javascript; charset=utf-8
+timing-allow-origin: https://www.amazon.com
+x-cache: Hit from akamai
+cache-control: public, max-age=629310774
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/x-locale/cs/orders/images/amazon-gcs-100._CB349914299_.gif
+Host: images-eu.ssl-images-amazon.com
+Origin: https://www.amazon.in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+access-control-allow-origin: *
+date: Mon, 08 Jul 2019 13:16:56 GMT
+content-length: 3709
+last-modified: Tue, 24 Jun 2014 05:51:16 GMT
+server: Server
+expires: Sun, 03 Apr 2039 12:24:04 GMT
+x-amz-ir-id: f57fef75-9a9c-48f8-9356-00f168cdc3fd
+content-type: image/gif
+x-cache: Hit from akamai
+cache-control: public, max-age=622854428
+status: 200
+----
+--Request 
+GET https://aax-eu.amazon-adsystem.com/s/iu3?d=amazon.in&slot=navFooter&a2=010167e39654ed462ded327d5bc14af764ce778e0ead47b9221cdb8bb4f01946cace&old_oo=0&ts=1562591800856&s=ARGkJ-texgWfQ7O9WLUsM_pPjgTLGp8iQqIB5sd_vocx&cb=1562591800856&dcc=t
+Host: aax-eu.amazon-adsystem.com
+Cookie: ad-id=A12g3-vssU7xrcsPDnR90f0|t
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200 OK
+Server: Server
+Connection: keep-alive
+Pragma: no-cache
+p3p: policyref=\"https://www.amazon.com/w3c/p3p.xml\", CP=\"PSAo PSDo OUR SAM OTR DSP COR\"
+Date: Mon, 08 Jul 2019 13:16:57 GMT
+Cache-Control: max-age=0, no-cache, no-store, private, must-revalidate, s-maxage=0
+Content-Encoding: gzip
+Set-Cookie: ad-privacy=0; Domain=.amazon-adsystem.com; Expires=Wed, 01-Apr-2020 13:16:57 GMT; Path=/; HttpOnly
+Vary: Accept-Encoding,User-Agent
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Content-Length: 468
+Content-Type: text/html;charset=ISO-8859-1
+----
+--Request 
+GET https://aax-eu.amazon-adsystem.com/s/v3/pr?exlist=pp_mp_sx_af_kr_g_bsw_ox_index_aold_an_rb_fw_imdb_fbca_twca_y_pm_rlsa_adb&fv=1.0&ex-pl-fbca=pvSD9JPSSV-kw9p2-_rVKw&ex-pl-twca=TxUMpLjCQra7Z9ymu-dsNQ&a=cm&ep=56S1zdFH6tTUgJLFX4EgHSq66H5LmgZB5P2akl2q-7NgVTgbXmUvUalnyFJLbo_L-1EfqTvMF0J2JWHA25fqYeID8eeki-w-sY5hbipzCxP9TLRvhIqYuXWtaD4adE1Zt-f7C9CAvaTPENuM7-BqPpTqPrTxPhPihH2vvlOcD6KgCyvuBwX3FwbuxLOra1OqT_xGBiAA8sjuYxtaa97ksQ
+Host: aax-eu.amazon-adsystem.com
+Cookie: ad-id=A12g3-vssU7xrcsPDnR90f0; ad-privacy=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+Referer: https://aax-eu.amazon-adsystem.com/s/iu3?d=amazon.in&slot=navFooter&a2=010167e39654ed462ded327d5bc14af764ce778e0ead47b9221cdb8bb4f01946cace&old_oo=0&ts=1562591800856&s=ARGkJ-texgWfQ7O9WLUsM_pPjgTLGp8iQqIB5sd_vocx&cb=1562591800856&dcc=t
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200 OK
+Cache-Control: max-age=0, no-cache, no-store, private, must-revalidate, s-maxage=0
+Server: Server
+Connection: keep-alive
+Content-Encoding: gzip
+Vary: Accept-Encoding,User-Agent
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Pragma: no-cache
+Content-Length: 1275
+Date: Mon, 08 Jul 2019 13:16:57 GMT
+Content-Type: text/html;charset=ISO-8859-1
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/I/21E2aIDj6DL._RC%7C31eEXkvrJzL.js,01g2etah0NL.js,01Re6AqkVUL.js,31selSsN+1L.js,413u98XONQL.js,01Ng0K110HL.js,21JtT0mJXEL.js,31vMFUg376L.js,11dhZ6zkMNL.js,71LEtO5Vv5L.js,0185ITV0M6L.js,41Dds42UuNL.js,31UjTApGOPL.js,01wYyhYnnFL.js,01LHJt5PiyL.js,31Ac-cQ+ZWL.js,01VgEfU-GFL.js,01JzE3-DfLL.js,11MQqFPEK+L.js,01jqyAujTwL.js,31+0pACITzL.js,01OtvpwikQL.js,21J9Onr4hrL.js,11nOzlnr6+L.js,31BBQa2c9BL.js,31Gy8EGyyiL.js,11p0nLfNCcL.js,11iHZuQapKL.js,01t2esUHF0L.js,218rehcHYxL.js,11qRTlQry4L.js,51foFGmxtyL.js,01qPwv8D5hL.js,01rg6Ce9FhL.js,016QFWAAdML.js,31NuG3-7xRL.js,019W6kk1gjL.js,01hkseOXj6L.js_.js?AUIClients/MediaDetailPageMetaAsset#language-en.in.167162-T1.151985-T1.183511-T1.103061-T1.186073-T2.200616-T1.173971-T1.131900-C.156391-T1.109378-T1.154031-T3.198898-C
+Host: images-eu.ssl-images-amazon.com
+Origin: https://www.amazon.in
+Accept: */*
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:16:57 GMT
+content-length: 108096
+server: Server
+expires: Thu, 16 Jun 2039 03:05:17 GMT
+x-amz-ir-id: 30c7609f-f259-4775-aef6-adf108e7d791
+vary: Accept-Encoding
+content-encoding: gzip
+access-control-allow-origin: *
+last-modified: Tue, 02 Apr 2019 11:23:19 GMT
+content-type: application/x-javascript; charset=utf-8
+timing-allow-origin: https://www.amazon.com
+x-cache: Hit from akamai
+cache-control: public, max-age=629214500
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/I/31SN3jkqdEL.css?AUIClients/DetailPageSnSAssets#215632-C.109378-T1
+Host: images-eu.ssl-images-amazon.com
+Origin: https://www.amazon.in
+Accept: text/css,*/*;q=0.1
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:16:57 GMT
+content-length: 1725
+server: Server
+expires: Wed, 15 Jun 2039 03:58:42 GMT
+x-amz-ir-id: e9fd1ab7-8668-4a00-a7a1-51f5cb981323
+vary: Accept-Encoding
+content-encoding: gzip
+access-control-allow-origin: *
+last-modified: Mon, 17 Jun 2019 19:14:33 GMT
+content-type: text/css; charset=utf-8
+timing-allow-origin: https://www.amazon.com
+x-cache: Hit from akamai
+cache-control: public, max-age=629131305
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/x-locale/cs/help/images/spotlight/kindle-family-02b._CB160654563_.jpg
+Host: images-eu.ssl-images-amazon.com
+Origin: https://www.amazon.in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:16:57 GMT
+content-length: 1727
+server: Server
+expires: Tue, 12 Apr 2039 16:30:15 GMT
+x-amz-ir-id: ee70fb30-0aa7-441b-94a4-7eab7c779662
+access-control-allow-origin: *
+last-modified: Thu, 08 Dec 2011 21:48:52 GMT
+content-type: image/jpeg
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from akamai
+cache-control: public, max-age=623646798
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/gno/images/general/navAmazonLogoFooter._CB391206769_.gif
+Host: images-eu.ssl-images-amazon.com
+Origin: https://www.amazon.in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+access-control-allow-origin: *
+date: Mon, 08 Jul 2019 13:16:57 GMT
+content-length: 2161
+last-modified: Thu, 09 Aug 2012 00:19:40 GMT
+server: Server
+expires: Fri, 18 Mar 2039 05:16:29 GMT
+x-amz-ir-id: cc4129a5-64cb-41c9-b9cd-86f843c2a34e
+content-type: image/gif
+x-cache: Hit from akamai
+cache-control: public, max-age=621446372
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/x-locale/common/errors-alerts/error-styles-ssl._CB138362389_.css
+Host: images-eu.ssl-images-amazon.com
+Origin: https://www.amazon.in
+Accept: text/css,*/*;q=0.1
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:16:57 GMT
+content-length: 624
+server: Server
+expires: Sat, 19 Mar 2039 07:34:53 GMT
+vary: Accept-Encoding
+content-encoding: gzip
+access-control-allow-origin: *
+last-modified: Wed, 29 Feb 2012 00:04:08 GMT
+content-type: text/css
+x-cache: Hit from akamai
+cache-control: public, max-age=621541076
+status: 200
+----
+--Request 
+GET https://bh.contextweb.com/bh/rtset?pid=557477&ev=&rurl=https%3A%2F%2Faax-eu.amazon-adsystem.com%2Fs%2Fecm3%3Fid%3D%25%25VGUID%25%25%26ex%3Dpulsepoint.com%26
+Host: bh.contextweb.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 302 Found
+X-Cache: MISS
+Server: Jetty(9.4.7.v20170914)
+Connection: keep-alive
+Cw-Server: bh-deployment-8596749dc4-4lcxw
+P3p: policyref=\"/bh/w3c/p3p.xml\", CP=\"NOI DSP COR NID CURa DEVa PSAa OUR BUS COM NAV INT\"
+Date: Mon, 08 Jul 2019 13:16:58 GMT
+Via: 1.1 varnish
+Accept-Ranges: bytes
+Cache-Control: private, max-age=0, no-cache, no-store
+X-Served-By: cache-del21729-DEL
+Set-Cookie: V=qiL2sYlIvmOJ;Path=/;Domain=.contextweb.com;Expires=Thu, 02-Jul-2020 13:16:58 GMT;Max-Age=31104000
+Vary: Accept-Encoding
+Expires: -1
+Content-Length: 0
+X-Cache-Hits: 0
+Content-Language: en-IN
+Content-Type: text/plain; charset=utf-8
+Location: https://aax-eu.amazon-adsystem.com/s/ecm3?id=qiL2sYlIvmOJ&ex=pulsepoint.com&&ev=&pid=557477
+----
+--Request 
+GET https://odr.mookie1.com/t/v2?tagid=V2_393725&AMAZON_REGION_SPECIFIC_ENDPOINT=aax-eu.amazon-adsystem.com/s&src.visitorID=8cEmYv2_SXGrMW1zp8qztA
+Host: odr.mookie1.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 302
+date: Mon, 08 Jul 2019 13:16:58 GMT
+content-length: 0
+server: Apache
+expires: Thu, 01 Jan 1970 00:00:00 GMT
+p3p: CP=\"NON DSP COR NID CURa PSAa PSDa OUR STP UNI COM NAV STA LOC OTC\",policyref=\"/w3c/p3p.xml\"
+pragma: no-cache
+via: 1.1 google
+set-cookie: mdata=1|10527375235316175181|1562591818264; Domain=.mookie1.com; Expires=Thu, 06-Aug-2020 13:16:58 GMT; Path=/
+location: https://aax-eu.amazon-adsystem.com/s/ecm3?ex=mplatform.com&id=10527375235316175181
+alt-svc: clear
+cache-control: no-cache, no-store, must-revalidate
+x-application-context: application
+status: 302
+----
+--Request 
+GET https://sync.search.spotxchange.com/partner?adv_id=7922&redir=https://aax-eu.amazon-adsystem.com%2Fs/ecm3?ex%3Dspotx.com%26id%3D%24SPOTX_USER_ID
+Host: sync.search.spotxchange.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 302
+Cache-Control: no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0
+Server: nginx
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: false
+Access-Control-Allow-Methods: GET, POST, OPTIONS
+Connection: keep-alive
+Set-Cookie: audience=ac23bb1f-a182-11e9-a5c0-11edc3221a07; expires=Mon, 22-Jul-2019 13:17:01 GMT; path=/; domain=.spotxchange.com
+Content-Length: 0
+X-fe: 51
+Date: Mon, 08 Jul 2019 13:17:01 GMT
+Location: /partner?adv_id=7922&redir=https://aax-eu.amazon-adsystem.com%2Fs/ecm3?ex%3Dspotx.com%26id%3D%24SPOTX_USER_ID&__user_check__=1&sync_id=ac23bb48-a182-11e9-a5c0-11edc3221a07
+----
+--Request 
+GET https://c1.adform.net/serving/cookie/match?party=1153&redirect_url=https%3A%2F%2Faax-eu.amazon-adsystem.com%2Fs%2Fecm3%3Fex%3Dadform.net%26id%3D%24%7BUUID%7D
+Host: c1.adform.net
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 302
+access-control-allow-origin: *
+date: Mon, 08 Jul 2019 13:17:02 GMT
+content-length: 0
+server: nginx
+set-cookie: uid=539327821112189213; expires=Fri, 06 Sep 2019 13:17:02 GMT; domain=adform.net; path=/
+expires: -1
+location: https://c1.adform.net/serving/cookie/match?CC=1&party=1153&redirect_url=https%3A%2F%2Faax-eu.amazon-adsystem.com%2Fs%2Fecm3%3Fex%3Dadform.net%26id%3D%24%7BUUID%7D
+cache-control: no-cache, no-store, must-revalidate, no-transform
+pragma: no-cache
+status: 302
+----
+--Request 
+GET https://usermatch.krxd.net/um/v2?partner=amzn
+Host: usermatch.krxd.net
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 302 Found
+X-Cache: MISS
+X-Served-By: usermatch-a001.krxd.net
+X-Age: 0
+Connection: keep-alive
+Content-Length: 0
+X-Cache-Hits: 0
+Date: Mon, 08 Jul 2019 13:16:59 GMT
+Location: https://beacon.krxd.net/usermatch.gif?kuid_status=new&partner=amzn
+----
+--Request 
+GET https://cm.g.doubleclick.net/pixel?google_nid=a9eu&google_cm&ex=doubleclick.net&
+Host: cm.g.doubleclick.net
+Cookie: test_cookie=CheckForPermission
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 302
+date: Mon, 08 Jul 2019 13:16:58 GMT
+content-length: 318
+server: HTTP server (unknown)
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+p3p: policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"
+pragma: no-cache
+set-cookie: IDE=AHWqTUkWFgjCx5oQ9qu0LM7--aAvsF1uaYMOl8VoML_Wm5mzbNJVJRxfIoD6EHjP; expires=Wed, 07-Jul-2021 13:16:58 GMT; path=/; domain=.doubleclick.net; HttpOnly
+x-xss-protection: 0
+content-type: text/html; charset=UTF-8
+location: https://aax-eu.amazon-adsystem.com/s/ecm3?ex=doubleclick.net&google_gid=CAESEGIA0-HnR5ORhoqKLyfB5uY&google_cver=1
+alt-svc: quic=\"googleads.g.doubleclick.net:443\"; ma=2592000; v=\"46,43,39\",quic=\":443\"; ma=2592000; v=\"46,43,39\"
+cache-control: no-cache, must-revalidate
+status: 302
+----
+--Request 
+GET https://x.bidswitch.net/sync_a9/https%3A%2F%2Faax-eu.amazon-adsystem.com%2Fs%2Fecm3%3Fex%3Dbidswitch.com%26id%3D%24%7BUUID%7D
+Host: x.bidswitch.net
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 302 Moved Temporarily
+Cache-Control: no-cache, no-store, must-revalidate
+Server: nginx
+Connection: keep-alive
+Set-Cookie: c=1562591818; path=/; expires=Tue, 07-Jul-2020 13:16:58 GMT; domain=.bidswitch.net
+Content-Length: 0
+P3P: CP=\"NOI DSP COR NID CURa ADMa DEVa PSAa PSDa OUR BUS COM INT OTC PUR STA\"
+Date: Mon, 08 Jul 2019 13:16:58 GMT
+Location: https://x.bidswitch.net/ul_cb/sync_a9/https%3A%2F%2Faax-eu.amazon-adsystem.com%2Fs%2Fecm3%3Fex%3Dbidswitch.com%26id%3D%24%7BUUID%7D
+----
+--Request 
+GET https://us-u.openx.net/w/1.0/cm?id=e818ca1e-0c23-caa8-0dd3-096b0ada08b7&r=https%3A%2F%2Faax-eu.amazon-adsystem.com%2Fs%2Fecm3%3Fex%3Dopenx.com%26id%3D
+Host: us-u.openx.net
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 302
+date: Mon, 08 Jul 2019 13:16:58 GMT
+content-length: 0
+server: OXGW/16.146.0
+set-cookie: i=e50e4818-e569-414e-8a3c-a6b9e036b7df|1562591818; Version=1; Expires=Tue, 07-Jul-2020 13:16:58 GMT; Max-Age=31536000; Domain=.openx.net; Path=/
+location: https://us-u.openx.net/w/1.0/cm?cc=1&id=e818ca1e-0c23-caa8-0dd3-096b0ada08b7&r=https%3A%2F%2Faax-eu.amazon-adsystem.com%2Fs%2Fecm3%3Fex%3Dopenx.com%26id%3D
+p3p: CP=\"CUR ADM OUR NOR STA NID\"
+status: 302
+----
+--Request 
+GET https://ssum-sec.casalemedia.com/usermatchredir?s=184155&cb=https%3A%2F%2Faax-eu.amazon-adsystem.com%2Fs%2Fecm3%3Fex%3Dindex%26id%3D__UID__
+Host: ssum-sec.casalemedia.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 302 Moved Temporarily
+Cache-Control: max-age=0, no-cache, no-store
+Server: Apache
+Connection: keep-alive
+Set-Cookie: CMPS=906;domain=casalemedia.com;path=/;expires=Sun, 06 Oct 2019 13:16:59 GMT
+Expires: Mon, 08 Jul 2019 13:16:59 GMT
+Pragma: no-cache
+Content-Length: 335
+P3P: policyref=\"/w3c/p3p.xml\", CP=\"NOI DSP COR DEVa TAIa OUR BUS UNI\"
+Date: Mon, 08 Jul 2019 13:16:59 GMT
+Content-Type: text/html; charset=iso-8859-1
+Location: https://ssum-sec.casalemedia.com/usermatchredir?s=184155&cb=https%3A%2F%2Faax-eu.amazon-adsystem.com%2Fs%2Fecm3%3Fex%3Dindex%26id%3D__UID__&C=1
+----
+--Request 
+GET https://pixel.advertising.com/ups/56613/sync?redir=true&_origin=1
+Host: pixel.advertising.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 302
+date: Mon, 08 Jul 2019 13:16:58 GMT
+content-length: 0
+set-cookie: APID=UPaa6755fb-a182-11e9-b171-024ed88a5a80;Version=1;Domain=.advertising.com;Path=/;Max-Age=31622400;Expires=Wed, 08-Jul-2020 13:16:58 GMT
+location: https://pixel.advertising.com/ups/56613/sync?redir=true&_origin=1&verify=true
+p3p: CP=NOI DSP COR LAW CURa DEVa TAIa PSAa PSDa OUR BUS UNI COM NAV
+status: 302
+----
+--Request 
+GET https://googleads.g.doubleclick.net/pagead/viewthroughconversion/956747825/?userId=6NsKPqBZTUKyvEDQsOJMSA&guid=ON&script=0
+Host: googleads.g.doubleclick.net
+Cookie: test_cookie=CheckForPermission
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 302
+date: Mon, 08 Jul 2019 13:16:58 GMT
+content-length: 42
+server: cafe
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+p3p: policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"
+pragma: no-cache
+set-cookie: IDE=AHWqTUlQpk-aVi0xrCBtYfCJ2FG2hxPh-yzXGrC5lBOOTJUNPlb_8wDNjsw6-oNw; expires=Wed, 07-Jul-2021 13:16:58 GMT; path=/; domain=.doubleclick.net; HttpOnly
+x-content-type-options: nosniff
+x-xss-protection: 0
+content-type: image/gif
+location: https://www.google.com/pagead/1p-user-list/956747825/?userId=6NsKPqBZTUKyvEDQsOJMSA&guid=ON&script=0&cdct=2&is_vtc=1&random=1660364073
+timing-allow-origin: *
+alt-svc: quic=\"googleads.g.doubleclick.net:443\"; ma=2592000; v=\"46,43,39\",quic=\":443\"; ma=2592000; v=\"46,43,39\"
+cache-control: no-cache, must-revalidate
+status: 302
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/common/sprites/sprite-communities._V138349855_.png
+Host: images-eu.ssl-images-amazon.com
+Origin: https://www.amazon.in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:16:58 GMT
+content-length: 30390
+server: Server
+expires: Tue, 12 Apr 2039 13:03:41 GMT
+x-amz-ir-id: 65fe2150-6a94-4038-8f4c-c41635c2415d
+access-control-allow-origin: *
+last-modified: Thu, 20 Oct 2011 22:23:13 GMT
+content-type: image/png
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from akamai
+cache-control: public, max-age=623634403
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/authportal/flex/reduced-nav/ap-flex-reduced-nav-2.1._CB343893441_.css
+Host: images-eu.ssl-images-amazon.com
+Origin: https://www.amazon.in
+Accept: text/css,*/*;q=0.1
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:16:58 GMT
+content-length: 8092
+server: Server
+expires: Tue, 12 Apr 2039 17:30:23 GMT
+x-amz-ir-id: ac800b79-d9d8-4efb-89ad-f8561edc28d4
+vary: Accept-Encoding
+content-encoding: gzip
+access-control-allow-origin: *
+last-modified: Tue, 25 Feb 2014 20:00:55 GMT
+content-type: text/css
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from akamai
+cache-control: public, max-age=623650405
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/01/browser-scripts/dpSpritesCSS/en_IN-secure-combined-1941710172._CB357966679_.css
+Host: images-eu.ssl-images-amazon.com
+Origin: https://www.amazon.in
+Accept: text/css,*/*;q=0.1
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:16:58 GMT
+content-length: 2195
+server: Server
+expires: Wed, 06 Apr 2039 04:05:19 GMT
+x-amz-ir-id: 7adb2f21-8cd5-4939-a039-11d16de0dda7
+vary: Accept-Encoding
+content-encoding: gzip
+access-control-allow-origin: *
+last-modified: Mon, 02 Sep 2013 11:27:54 GMT
+content-type: text/css
+timing-allow-origin: https://www.amazon.com
+x-cache: Hit from akamai
+cache-control: public, max-age=623083701
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/common/sprites/sprite-site-wide-2._V361508071_.png
+Host: images-eu.ssl-images-amazon.com
+Origin: https://www.amazon.in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+access-control-allow-origin: *
+date: Mon, 08 Jul 2019 13:16:58 GMT
+content-length: 19062
+last-modified: Fri, 14 Feb 2014 20:16:11 GMT
+server: Server
+expires: Tue, 05 Apr 2039 04:46:52 GMT
+x-amz-ir-id: dd95dd04-1bc4-4a9f-8e5f-b8dd571ac12b
+content-type: image/png
+x-cache: Hit from akamai
+cache-control: public, max-age=622999794
+status: 200
+----
+--Request 
+GET https://www.google.com/pagead/1p-user-list/956747825/?userId=6NsKPqBZTUKyvEDQsOJMSA&guid=ON&script=0&cdct=2&is_vtc=1&random=1660364073
+Host: www.google.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 302
+date: Mon, 08 Jul 2019 13:16:58 GMT
+content-length: 42
+server: cafe
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+p3p: policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"
+pragma: no-cache
+content-security-policy: script-src 'none'; object-src 'none'
+x-content-type-options: nosniff
+x-xss-protection: 0
+content-type: image/gif
+location: https://www.google.co.in/pagead/1p-user-list/956747825/?userId=6NsKPqBZTUKyvEDQsOJMSA&guid=ON&script=0&cdct=2&is_vtc=1&random=1660364073&ipr=y
+timing-allow-origin: *
+alt-svc: quic=\":443\"; ma=2592000; v=\"46,43,39\"
+cache-control: no-cache, no-store, must-revalidate
+status: 302
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/x-locale/cs/projects/text-trace/texttrace_typ._CB353753460_.js
+Host: images-eu.ssl-images-amazon.com
+Origin: https://www.amazon.in
+Accept: */*
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:16:58 GMT
+content-length: 3471
+server: Server
+expires: Sun, 03 Apr 2039 18:04:51 GMT
+x-amz-ir-id: d693068f-9c36-46e7-9eeb-d3ec7dafab41
+vary: Accept-Encoding
+content-encoding: gzip
+access-control-allow-origin: *
+last-modified: Wed, 23 Oct 2013 08:42:48 GMT
+content-type: application/x-javascript
+x-cache: Hit from akamai
+cache-control: public, max-age=622874873
+status: 200
+----
+--Request 
+GET https://aax-eu.amazon-adsystem.com/s/ecm3?ex=mplatform.com&id=10527375235316175181
+Host: aax-eu.amazon-adsystem.com
+Cookie: ad-id=A12g3-vssU7xrcsPDnR90f0; ad-privacy=0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200 OK
+Cache-Control: max-age=0, no-cache, no-store, private, must-revalidate, s-maxage=0
+Server: Server
+Connection: keep-alive
+Vary: User-Agent
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Pragma: no-cache
+Content-Length: 43
+Date: Mon, 08 Jul 2019 13:16:58 GMT
+Content-Type: image/gif
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/I/51foFGmxtyL.js?AUIClients/DetailPageSnSAssets#109378-T1
+Host: images-eu.ssl-images-amazon.com
+Origin: https://www.amazon.in
+Accept: */*
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:16:58 GMT
+content-length: 13323
+server: Server
+expires: Thu, 16 Jun 2039 03:04:43 GMT
+x-amz-ir-id: 17c43005-5198-4cb6-814f-2c9996f879cf
+vary: Accept-Encoding
+content-encoding: gzip
+access-control-allow-origin: *
+last-modified: Thu, 06 Jun 2019 22:08:41 GMT
+content-type: application/x-javascript; charset=utf-8
+timing-allow-origin: https://www.amazon.com
+x-cache: Hit from akamai
+cache-control: public, max-age=629214465
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/01/browser-scripts/fruitCSS/en_IN-secure-combined-2105474903._CB346536702_.css
+Host: images-eu.ssl-images-amazon.com
+Origin: https://www.amazon.in
+Accept: text/css,*/*;q=0.1
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:16:58 GMT
+content-length: 2426
+server: Server
+expires: Sat, 19 Mar 2039 07:31:05 GMT
+x-amz-ir-id: 9574c1d1-46b9-41ac-8ac6-d6d72ccca605
+vary: Accept-Encoding
+content-encoding: gzip
+access-control-allow-origin: *
+last-modified: Mon, 28 Jul 2014 06:37:08 GMT
+content-type: text/css
+timing-allow-origin: https://www.amazon.com
+x-cache: Hit from akamai
+cache-control: public, max-age=621540847
+status: 200
+----
+--Request 
+GET https://www.google.co.in/pagead/1p-user-list/956747825/?userId=6NsKPqBZTUKyvEDQsOJMSA&guid=ON&script=0&cdct=2&is_vtc=1&random=1660364073&ipr=y
+Host: www.google.co.in
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:16:58 GMT
+content-length: 42
+server: cafe
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+p3p: policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"
+pragma: no-cache
+content-security-policy: script-src 'none'; object-src 'none'
+x-content-type-options: nosniff
+x-xss-protection: 0
+content-type: image/gif
+timing-allow-origin: *
+alt-svc: quic=\":443\"; ma=2592000; v=\"46,43,39\"
+cache-control: no-cache, no-store, must-revalidate
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/x-locale/checkout/signin-banner._CB138348958_.gif
+Host: images-eu.ssl-images-amazon.com
+Origin: https://www.amazon.in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:16:58 GMT
+content-length: 3707
+server: Server
+expires: Thu, 17 Mar 2039 17:47:05 GMT
+x-amz-ir-id: 2d0d9913-5c46-495e-afce-ca1cb4c53228
+access-control-allow-origin: *
+last-modified: Fri, 03 Feb 2012 10:37:03 GMT
+content-type: image/gif
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from akamai
+cache-control: public, max-age=621405007
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/I/210LbiKyCML._RC%7C31j6BOPjmzL.css,01ekIXTj5kL.css,01KvCqKMBgL.css,21ckusqmu6L.css,01TCV-xmeZL.css,01ZGRKhIG-L.css,310NMB80xGL.css,41hIrT0+wbL.css,01FlII1u-ZL.css,219oCRGl-sL.css,212hS9k0-iL.css,31MkQHV3gaL.css,314gb2LkLML.css,31dTK1hHb6L.css,014Z+MbaRaL.css,01RRH0yFa4L.css,01bkkYjxP7L.css,31Wg0ai095L.css,01f31VNCowL.css,01NW8VTUeVL.css,019M+d36JfL.css,011uHgmxBfL.css,31Fo-RK+JML.css,01CslPlvtoL.css,11Z7S+lK47L.css,21Wf53xZ5jL.css,01OhA16ND1L.css,01tBHVauY+L.css,41Uz4bMH9yL.css,01TZ9fpDSSL.css,01IY99sMV0L.css,01qwEWNuxuL.css,21qxDmhZV3L.css,11XXguyjjZL.css,31WlxajeYrL.css,01clde05tlL.css,01nX97hgmYL.css,61hZ-YG-XRL.css,01Jrt6rHBlL.css_.css?AUIClients/HardlinesDetailPageMetaAssetVariable_ACCESSORIES_AND_FAMILY_STRIPE#in.not-trident.122952-T1.203659-T1.103061-T1.184424-T1.150150-T1.144201-T1.126331-C
+Host: images-eu.ssl-images-amazon.com
+Origin: https://www.amazon.in
+Accept: text/css,*/*;q=0.1
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:16:58 GMT
+content-length: 45385
+server: Server
+expires: Tue, 21 Jun 2039 12:21:35 GMT
+x-amz-ir-id: 380d6fb6-0f94-4931-8756-9d37439378fa
+vary: Accept-Encoding
+content-encoding: gzip
+access-control-allow-origin: *
+last-modified: Thu, 13 Jun 2019 19:25:31 GMT
+content-type: text/css; charset=utf-8
+timing-allow-origin: https://www.amazon.com
+x-cache: Hit from akamai
+cache-control: public, max-age=629679877
+status: 200
+----
+--Request 
+GET https://aax-eu.amazon-adsystem.com/s/ecm3?ex=doubleclick.net&google_gid=CAESEGIA0-HnR5ORhoqKLyfB5uY&google_cver=1
+Host: aax-eu.amazon-adsystem.com
+Cookie: ad-id=A12g3-vssU7xrcsPDnR90f0; ad-privacy=0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200 OK
+Cache-Control: max-age=0, no-cache, no-store, private, must-revalidate, s-maxage=0
+Server: Server
+Connection: keep-alive
+Vary: User-Agent
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Pragma: no-cache
+Content-Length: 43
+Date: Mon, 08 Jul 2019 13:16:58 GMT
+Content-Type: image/gif
+----
+--Request 
+GET https://ib.adnxs.com/getuid?https://aax-eu.amazon-adsystem.com/s/ecm3?id=$UID&ex=appnexus.com&
+Host: ib.adnxs.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 302 Found
+X-Proxy-Origin: 61.12.67.22; 61.12.67.22; 265.bm-nginx-loadbalancer.mgmt.sin1; *.adnxs.com; 103.243.220.249:80
+Server: nginx/1.13.4
+Access-Control-Allow-Origin: *
+Connection: keep-alive
+Pragma: no-cache
+P3P: policyref=\"http://cdn.adnxs.com/w3c/policy/p3p.xml\", CP=\"NOI DSP COR ADM PSAo PSDo OURo SAMo UNRo OTRo BUS COM NAV DEM STA PRE\"
+Date: Mon, 08 Jul 2019 13:17:01 GMT
+Cache-Control: no-store, no-cache, private
+Access-Control-Allow-Credentials: true
+Set-Cookie: uuid2=6929558406829159585; SameSite=None; Path=/; Max-Age=7776000; Expires=Sun, 06-Oct-2019 13:17:01 GMT; Domain=.adnxs.com; HttpOnly
+AN-X-Request-Uuid: a0d11876-25dc-491e-8e19-4bbbdd3462b2
+Expires: Sat, 15 Nov 2008 16:00:00 GMT
+Content-Length: 0
+X-XSS-Protection: 0
+Content-Type: text/html; charset=utf-8
+Location: https://ib.adnxs.com/bounce?%2Fgetuid%3Fhttps%3A%2F%2Faax-eu.amazon-adsystem.com%2Fs%2Fecm3%3Fid%3D%24UID%26ex%3Dappnexus.com%26
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/I/61ET%2BPmLUUL._RC%7C119njhJT7LL.css,51QoAH-sF5L.css,01g2EoxOu-L.css,01N8OOpUZPL.css,11xRy3bSkOL.css,01QUs5FVXoL.css,31JMnREMjZL.css,012ofCl9AfL.css,41vOQb1k0LL.css,01FtAuFRr3L.css,01rgQ3jqo7L.css,21Qg7xEbEIL.css,312UeeukJML.css,11X8K4AolpL.css,21cgGInnQ9L.css,21QKJp6qQ9L.css,31cE7qTuwaL.css_.css?AUIClients/HardlinesDetailPageMetaAssetFixed#in.131900-C.129737-C.94145-T1
+Host: images-eu.ssl-images-amazon.com
+Origin: https://www.amazon.in
+Accept: text/css,*/*;q=0.1
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:16:58 GMT
+content-length: 43985
+server: Server
+expires: Tue, 21 Jun 2039 12:00:51 GMT
+x-amz-ir-id: c60ee912-b63c-46f8-b0db-31f124e6759c
+vary: Accept-Encoding
+content-encoding: gzip
+access-control-allow-origin: *
+last-modified: Thu, 11 Apr 2019 00:41:01 GMT
+content-type: text/css; charset=utf-8
+timing-allow-origin: https://www.amazon.com
+x-cache: Hit from akamai
+cache-control: public, max-age=629678633
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/authportal/common/images/amazon_logo_no-org_mid._CB377570192_.png
+Host: images-eu.ssl-images-amazon.com
+Origin: https://www.amazon.in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:16:58 GMT
+content-length: 1491
+server: Server
+expires: Tue, 12 Apr 2039 16:30:16 GMT
+x-amz-ir-id: 6756c466-5df8-494a-93c8-ae173f189410
+access-control-allow-origin: *
+last-modified: Thu, 25 Aug 2011 23:05:36 GMT
+content-type: image/png
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from akamai
+cache-control: public, max-age=623646798
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/I/210LbiKyCML._RC%7C31j6BOPjmzL.css,01ekIXTj5kL.css,01KvCqKMBgL.css,21ckusqmu6L.css,01TCV-xmeZL.css,01ZGRKhIG-L.css,310NMB80xGL.css,41hIrT0+wbL.css,01FlII1u-ZL.css,219oCRGl-sL.css,212hS9k0-iL.css,31MkQHV3gaL.css,314gb2LkLML.css,31dTK1hHb6L.css,014Z+MbaRaL.css,01RRH0yFa4L.css,01bkkYjxP7L.css,31Wg0ai095L.css,01f31VNCowL.css,01NW8VTUeVL.css,019M+d36JfL.css,011uHgmxBfL.css,31Fo-RK+JML.css,01CslPlvtoL.css,11Z7S+lK47L.css,21Wf53xZ5jL.css,01OhA16ND1L.css,01tBHVauY+L.css,41Uz4bMH9yL.css,01TZ9fpDSSL.css,01IY99sMV0L.css,01qwEWNuxuL.css,21qxDmhZV3L.css,11XXguyjjZL.css,31WlxajeYrL.css,01clde05tlL.css_.css?AUIClients/HardlinesDetailPageMetaAssetVariable#in.not-trident.122952-T1.203659-T1.103061-T1.184424-T1.150150-T1.144201-T1.126331-C
+Host: images-eu.ssl-images-amazon.com
+Origin: https://www.amazon.in
+Accept: text/css,*/*;q=0.1
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:16:58 GMT
+content-length: 31904
+server: Server
+expires: Thu, 16 Jun 2039 10:53:27 GMT
+x-amz-ir-id: 976b66db-9db5-4a16-8482-4fff6ccd8e8d
+vary: Accept-Encoding
+content-encoding: gzip
+access-control-allow-origin: *
+last-modified: Thu, 13 Jun 2019 19:25:31 GMT
+content-type: text/css; charset=utf-8
+timing-allow-origin: https://www.amazon.com
+x-cache: Hit from akamai
+cache-control: public, max-age=629242589
+status: 200
+----
+--Request 
+GET https://us-u.openx.net/w/1.0/cm?cc=1&id=e818ca1e-0c23-caa8-0dd3-096b0ada08b7&r=https%3A%2F%2Faax-eu.amazon-adsystem.com%2Fs%2Fecm3%3Fex%3Dopenx.com%26id%3D
+Host: us-u.openx.net
+Cookie: i=e50e4818-e569-414e-8a3c-a6b9e036b7df|1562591818
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 302
+date: Mon, 08 Jul 2019 13:16:58 GMT
+content-length: 0
+server: OXGW/16.146.0
+set-cookie: i=e50e4818-e569-414e-8a3c-a6b9e036b7df|1562591818; Version=1; Expires=Tue, 07-Jul-2020 13:16:58 GMT; Max-Age=31536000; Domain=.openx.net; Path=/
+vary: Accept
+content-type: image/gif
+location: https://aax-eu.amazon-adsystem.com/s/ecm3?ex=openx.com&id=6e740b3c-5044-c543-10e4-ecc6ec224fc2
+p3p: CP=\"CUR ADM OUR NOR STA NID\"
+status: 302
+----
+--Request 
+GET https://aax-eu.amazon-adsystem.com/s/ecm3?id=qiL2sYlIvmOJ&ex=pulsepoint.com&&ev=&pid=557477
+Host: aax-eu.amazon-adsystem.com
+Cookie: ad-id=A12g3-vssU7xrcsPDnR90f0; ad-privacy=0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200 OK
+Cache-Control: max-age=0, no-cache, no-store, private, must-revalidate, s-maxage=0
+Server: Server
+Connection: keep-alive
+Vary: User-Agent
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Pragma: no-cache
+Content-Length: 43
+Date: Mon, 08 Jul 2019 13:16:59 GMT
+Content-Type: image/gif
+----
+--Request 
+GET https://x.bidswitch.net/ul_cb/sync_a9/https%3A%2F%2Faax-eu.amazon-adsystem.com%2Fs%2Fecm3%3Fex%3Dbidswitch.com%26id%3D%24%7BUUID%7D
+Host: x.bidswitch.net
+Cookie: tuuid=96537d3c-7d61-4286-a932-c939886f1ec2; c=1562591818; tuuid_lu=1562591818
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 302 Moved Temporarily
+Cache-Control: no-cache, no-store, must-revalidate
+Server: nginx
+Connection: keep-alive
+Set-Cookie: tuuid_lu=1562591819; path=/; expires=Tue, 07-Jul-2020 13:16:59 GMT; domain=.bidswitch.net
+Content-Length: 0
+P3P: CP=\"NOI DSP COR NID CURa ADMa DEVa PSAa PSDa OUR BUS COM INT OTC PUR STA\"
+Date: Mon, 08 Jul 2019 13:16:59 GMT
+Location: https://aax-eu.amazon-adsystem.com/s/ecm3?ex=bidswitch.com&id=8bd679a7a24b554bebad17529bd46b56
+----
+--Request 
+GET https://token.rubiconproject.com/token?pid=2179&pt=n
+Host: token.rubiconproject.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 302 Found
+content-length: 0
+set-cookie: khaos=JXUETVTF-1L-7OLN; Max-Age=31536000; Expires=Tue, 7 Jul 2020 13:17:09 GMT; Path=/; Domain=.rubiconproject.com
+Cache-Control: no-cache,no-store,must-revalidate
+Expires: 0
+Pragma: no-cache
+P3P: P=\"NOI CURa ADMa DEVa TAIa OUR BUS IND UNI COM NAV INT\"
+X-RPHost: ef365c3d0e4464f443a98d33364782c8
+Location: https://s.amazon-adsystem.com/ecm3?id=I75Kf5ZphTJ5k3wBXs4amMWWwYjZzChgQG1x_JmYjWc&ex=rubiconproject.com&status=ok
+----
+--Request 
+GET https://pixel.advertising.com/ups/56613/sync?redir=true&_origin=1&verify=true
+Host: pixel.advertising.com
+Cookie: APID=UPaa6755fb-a182-11e9-b171-024ed88a5a80
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 302
+date: Mon, 08 Jul 2019 13:16:59 GMT
+content-length: 0
+set-cookie: APID=UPaa6755fb-a182-11e9-b171-024ed88a5a80;Version=1;Domain=.advertising.com;Path=/;Max-Age=31622400;Expires=Wed, 08-Jul-2020 13:16:59 GMT
+location: https://ups.analytics.yahoo.com/ups/56613/sync?redir=true&_origin=1&apid=UPaa6755fb-a182-11e9-b171-024ed88a5a80
+p3p: CP=NOI DSP COR LAW CURa DEVa TAIa PSAa PSDa OUR BUS UNI COM NAV
+status: 302
+----
+--Request 
+GET https://aax-eu.amazon-adsystem.com/s/ecm3?ex=openx.com&id=6e740b3c-5044-c543-10e4-ecc6ec224fc2
+Host: aax-eu.amazon-adsystem.com
+Cookie: ad-id=A12g3-vssU7xrcsPDnR90f0; ad-privacy=0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200 OK
+Cache-Control: max-age=0, no-cache, no-store, private, must-revalidate, s-maxage=0
+Server: Server
+Connection: keep-alive
+Vary: User-Agent
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Pragma: no-cache
+Content-Length: 43
+Date: Mon, 08 Jul 2019 13:16:59 GMT
+Content-Type: image/gif
+----
+--Request 
+GET https://ads.stickyadstv.com/user-matching?id=2545
+Host: ads.stickyadstv.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 302 Moved Temporarily
+Server: nginx
+Access-Control-Allow-Origin: *
+Connection: keep-alive
+Pragma: no-cache
+Date: Mon, 08 Jul 2019 13:17:00 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Access-Control-Allow-Credentials: true
+x-sticky-vk: 1562591819942036-45
+Set-Cookie: sessionId=56c01f1284977d9d518df1db92fcf2b; Path=/
+Expires: Mon, 08 Jul 2019 13:17:00 GMT
+Content-Length: 0
+Location: https://s.amazon-adsystem.com/ecm3?id=a73a8460713e33823f5ca334d931bd&ex=freewheel.tv
+----
+--Request 
+GET https://beacon.krxd.net/usermatch.gif?kuid_status=new&partner=amzn
+Host: beacon.krxd.net
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 204 No Content
+Cache-Control: private, no-cache, no-store
+X-Served-By: beacon-n010-pdx.krxd.net
+Connection: keep-alive
+Set-Cookie: _kuid_=MyrckDma; Expires=Sat, 04-Jan-20 13:17:00 GMT; Max-Age=15552000; Domain=.krxd.net; Path=/
+P3P: policyref=\"https://cdn.krxd.net/kruxcontent/p3p.xml\", CP=\"NON DSP COR NID OUR DEL SAM OTR UNR COM NAV INT DEM CNT STA PRE LOC OTC\"
+Date: Mon, 08 Jul 2019 13:17:00 GMT
+X-Request-Time: D=46 t=1562591820
+----
+--Request 
+GET https://ups.analytics.yahoo.com/ups/56613/sync?redir=true&_origin=1&apid=UPaa6755fb-a182-11e9-b171-024ed88a5a80
+Host: ups.analytics.yahoo.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 302
+date: Mon, 08 Jul 2019 13:17:00 GMT
+content-length: 0
+set-cookie: B=4mnm88dei6gic;Version=1;Domain=.yahoo.com;Path=/;Max-Age=31622400;Expires=Wed, 08-Jul-2020 13:17:00 GMT
+location: https://ups.analytics.yahoo.com/ups/56613/sync?redir=true&_origin=1&apid=UPaa6755fb-a182-11e9-b171-024ed88a5a80&verify=true
+p3p: CP=NOI DSP COR LAW CURa DEVa TAIa PSAa PSDa OUR BUS UNI COM NAV
+status: 302
+----
+--Request 
+GET https://ssum-sec.casalemedia.com/usermatchredir?s=184155&cb=https%3A%2F%2Faax-eu.amazon-adsystem.com%2Fs%2Fecm3%3Fex%3Dindex%26id%3D__UID__&C=1
+Host: ssum-sec.casalemedia.com
+Cookie: CMID=XSNCS2doM4oAAEHsPt0AAABv; CMPS=906
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 302 Moved Temporarily
+Cache-Control: max-age=0, no-cache, no-store
+Server: Apache
+Connection: keep-alive
+Set-Cookie: CMST=XSNCTF0jQkwA;domain=casalemedia.com;path=/;expires=Tue, 09 Jul 2019 13:17:00 GMT
+Expires: Mon, 08 Jul 2019 13:17:00 GMT
+Pragma: no-cache
+Content-Length: 274
+P3P: policyref=\"/w3c/p3p.xml\", CP=\"NOI DSP COR DEVa TAIa OUR BUS UNI\"
+Date: Mon, 08 Jul 2019 13:17:00 GMT
+Content-Type: text/html; charset=iso-8859-1
+Location: https://aax-eu.amazon-adsystem.com/s/ecm3?ex=index&id=FHF1ezdcefJwUgLYR7huNTdXcwQ4ZgAC
+----
+

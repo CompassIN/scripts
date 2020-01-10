@@ -1,0 +1,5 @@
+<Bool>
+  <bool_field1>{bool_data}</bool_field1>
+  <bool_field2>{bool_data}</bool_field2>
+  <bool_field3>{bool_data}</bool_field3>
+</Bool>

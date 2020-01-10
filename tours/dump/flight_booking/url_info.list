@@ -1,0 +1,7 @@
+#version=1.0
+#pageName|urlType|inlineUrlId|Url|dumpFileName|ContentType|redirectionDepth|redirectUrl|UrlHost|urlFilePath|rootPath|statusCode|time(Sec.)|bytesRecieved|bodySize|method|SnapShotBeforAction|SnapShotAfterAction|snapShotClickAction|clickAPIName|future1|future2|future3|future4|future5|future6|comments
+
+index|Main|0|http://192.158.1.36:81/tours/index.html|192.158.1.36_81/tours/index.html|NA|0|NA|192.158.1.36:81|/tours/|./../|0|0|0|-1|GET|webpage_1560319227120.png|NA|NA|NA|17.301|0.0|NA|NA|NA|NA|NA
+index|Inline|1|http://chromewebdata/|chromewebdata/index|NA|0|NA|chromewebdata|/|./|0|0|0|-1|null|NA|webpage_1560319250328.png|NA|NA|0.0|0.0|NA|NA|NA|NA|NA
+index_2|Main|0|http://192.158.1.36:81/tours/index.html|192.158.1.36_81/tours/index.html_2|NA|0|NA|192.158.1.36:81|/tours/|./../|0|0|0|-1|GET|webpage_1560319277741.png|NA|NA|NA|67.844|0.0|NA|NA|NA|NA|NA
+index_2|Inline|1|http://chromewebdata/|chromewebdata/index|NA|0|NA|chromewebdata|/|./|0|0|0|-1|null|NA|webpage_1560319298922.png|NA|NA|0.0|0.0|NA|NA|NA|NA|NA

@@ -1,0 +1,102 @@
+/*-----------------------------------------------------------------------------
+    Name: SearchByTerm
+    Recorded By: anjali
+    Date of recording: 06/27/2016 06:42:06
+    Flow details:
+    Build details: 4.1.4 (build# 43)
+    Modification History:
+-----------------------------------------------------------------------------*/
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "ns_string.h"
+void SearchByTerm()
+{  
+	char searchterm[32 + 1]="", new[32 + 1]="";
+    int i;
+    ns_advance_param("SearchTermFP");
+    snprintf(searchterm,32,"%s",ns_eval_string("{SearchTermFP}"));
+    //strcpy(searchterm, ns_eval_string("{SearchTermFP}"));
+    memset(new, 0, 32);
+    for(i=0; i<3 ; i++){
+           new[i] = searchterm[i];
+           ns_save_string(new,"SearchTermDP");
+	   }
+    ns_start_transaction("MOB_PredictionsPage");
+    ns_start_transaction("API_Search_terms_GET");
+    ns_web_url ("API_Search_terms",
+        //"URL=http://m.jcpenney.com/v2.1/search/terms/shi",
+        //"URL=http://m.jcpenney.com/v2.1/search/terms/{SearchTermDP}",
+        "URL=http://m.jcpenney.com/v4/search/terms/{SearchTermDP}",
+        "HEADER=Accept-Language:en-US,en;q=0.8",
+        "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;cmTPSet;marketing;TLTSID;CavSID;CavLTS;CavPI;CavSF;_ga;_gat;fsr.s;_IFR_jcpenney.com_fsr.a;DPJSESSIONID;DPUserTracking;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPSessionTimeOutInterval;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau",
+        "PreSnapshot=webpage_1467032799929.png",
+        "Snapshot=webpage_1467032811181.png",
+        INLINE_URLS,
+            "URL=http://m.jcpenney.com/b/assets/css/gallery.css?v=20160621140636", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;cmTPSet;marketing;TLTSID;CavSID;CavLTS;CavPI;CavSF;_ga;_gat;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau;fsr.s;_IFR_jcpenney.com_fsr.a;recentSearchData", END_INLINE,
+            "URL=http://m.jcpenney.com/b/2.jcp.min.20160621140613.js", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;cmTPSet;marketing;TLTSID;CavSID;CavLTS;CavPI;CavSF;_ga;_gat;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau;fsr.s;_IFR_jcpenney.com_fsr.a;recentSearchData", END_INLINE,
+            "URL=http://m.jcpenney.com/b/3.jcp.min.20160621140613.js", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;cmTPSet;marketing;TLTSID;CavSID;CavLTS;CavPI;CavSF;_ga;_gat;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau;fsr.s;_IFR_jcpenney.com_fsr.a;recentSearchData", END_INLINE,
+            "URL=http://m.jcpenney.com/b/4.jcp.min.20160621140613.js", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;cmTPSet;marketing;TLTSID;CavSID;CavLTS;CavPI;CavSF;_ga;_gat;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau;fsr.s;_IFR_jcpenney.com_fsr.a;recentSearchData", END_INLINE,
+            "URL=http://m.jcpenney.com/b/GalleryPage/gallery.html?v=20160621140636", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;cmTPSet;marketing;TLTSID;CavSID;CavLTS;CavPI;CavSF;_ga;_gat;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau;fsr.s;_IFR_jcpenney.com_fsr.a;recentSearchData", END_INLINE,
+            "URL=http://m.jcpenney.com/b/components/JCPSortAndFilter/JCPSortAndFilter.html?v=20160621140636", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;cmTPSet;marketing;TLTSID;CavSID;CavLTS;CavPI;CavSF;_ga;_gat;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau;fsr.s;_IFR_jcpenney.com_fsr.a;recentSearchData", END_INLINE,
+            "URL=http://m.jcpenney.com/b/5.jcp.min.20160621140613.js", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;cmTPSet;marketing;TLTSID;CavSID;CavLTS;CavPI;CavSF;_ga;_gat;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau;recentSearchData;fsr.s;_IFR_jcpenney.com_fsr.a", END_INLINE,
+            "URL=http://m.jcpenney.com/b/assets/img/top_icon.png", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;cmTPSet;marketing;TLTSID;CavSID;CavLTS;CavPI;CavSF;_ga;_gat;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau;recentSearchData;fsr.s;_IFR_jcpenney.com_fsr.a;clientTestPool1", END_INLINE,
+            "URL=http://m.jcpenney.com/b/assets/img/arrow_down.svg", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;cmTPSet;marketing;TLTSID;CavSID;CavLTS;CavPI;CavSF;_ga;_gat;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau;recentSearchData;fsr.s;_IFR_jcpenney.com_fsr.a;clientTestPool1", END_INLINE,
+            "URL=http://www.google.com/adsense/search/ads.js", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE
+    );
+    ns_end_transaction("API_Search_terms_GET", NS_AUTO_STATUS);
+    ns_end_transaction("MOB_PredictionsPage", NS_AUTO_STATUS);
+    ns_page_think_time(0);
+    if(!(strcmp(ns_eval_string("{SelectTermSP}"),""))){
+       ns_exit_session();
+      }
+    
+    ns_start_transaction("MOB_EnterCompleteTerm");
+    ns_start_transaction("API_Search_search_GET");
+    ns_web_url ("API_Search_search",
+        //"URL=http://m.jcpenney.com/v4/search?expand=content&page=1&pageSize=24&q={SelectTermSP}",
+        "URL=http://m.jcpenney.com/v4/search?page=1&q={SearchTermFP}",
+        "HEADER=Accept-Language:en-US,en;q=0.8",
+        "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;cmTPSet;marketing;TLTSID;CavSID;CavLTS;CavPI;CavSF;_ga;_gat;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau;recentSearchData;fsr.s;_IFR_jcpenney.com_fsr.a;clientTestPool1;mmapi.store.p.0;mmapi.store.s.0",
+        "PreSnapshot=webpage_1467032811844.png",
+        "Snapshot=webpage_1467032811900.png"
+    );
+    ns_end_transaction("API_Search_search_GET", NS_AUTO_STATUS);
+    
+     ns_start_transaction("API_Search_search_content_GET");
+    ns_web_url ("API_Search_search_content",
+        //"URL=http://m.jcpenney.com/v4/search?expand=content&page=1&pageSize=24&q={SelectTermSP}",
+        "URL=http://m.jcpenney.com/v4/search/terms/{SearchTermFP}/content?page=1",
+        "HEADER=Accept-Language:en-US,en;q=0.8",
+        "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;cmTPSet;marketing;TLTSID;CavSID;CavLTS;CavPI;CavSF;_ga;_gat;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau;recentSearchData;fsr.s;_IFR_jcpenney.com_fsr.a;clientTestPool1;mmapi.store.p.0;mmapi.store.s.0",
+        "PreSnapshot=webpage_1467032811844.png",
+        "Snapshot=webpage_1467032811900.png"
+    );
+    ns_end_transaction("API_Search_search_content_GET", NS_AUTO_STATUS);
+    
+    int SearchVar = ns_get_int_val("SearchCountDP");
+    if(SearchVar < 1){
+    	goto SearchLable;
+    }
+     ns_start_transaction("API_Search_search_GET");
+    ns_web_url ("API_Search_search2",
+        //"URL=http://m.jcpenney.com/v4/search?expand=content&page=1&pageSize=24&q={SelectTermSP}",
+        "URL=http://m.jcpenney.com/v4/search?q={SearchTermFP}&page=2&pageSize=24",
+        "HEADER=Accept-Language:en-US,en;q=0.8",
+        "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;cmTPSet;marketing;TLTSID;CavSID;CavLTS;CavPI;CavSF;_ga;_gat;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau;recentSearchData;fsr.s;_IFR_jcpenney.com_fsr.a;clientTestPool1;mmapi.store.p.0;mmapi.store.s.0",
+        "PreSnapshot=webpage_1467032811844.png",
+        "Snapshot=webpage_1467032811900.png"
+    );
+    ns_end_transaction("API_Search_search_GET", NS_AUTO_STATUS);
+    SearchLable:
+    ns_end_transaction("MOB_EnterCompleteTerm", NS_AUTO_STATUS);
+    ns_page_think_time(0);
+    
+   // If available product is 1 no need to go for Refinement/Sort , control will be set to ProductPage..
+    if(!((strcmp((ns_eval_string("{ProductCountSP}")),"1")))){         //Condition to Check Product Count if it is 1 then it will directly jump to PDPPage
+    //goto ProductLabel;
+    ns_exit_session();
+    }
+   
+}
+

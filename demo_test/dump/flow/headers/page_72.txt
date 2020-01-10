@@ -1,0 +1,173 @@
+--Request 
+GET https://www.amazon.in/gp/product/ajax/dpx-metrics-handler.html/ref=iconfarm_ad_gv?pageAsin=B07H6DJZ1P&pageType=Detail&subPageType=IconFarm&merchantId=A3VM9N4M94Q18E
+Host: www.amazon.in
+Cookie: session-id=259-1202557-5929705; i18n-prefs=INR; ubid-acbin=258-0672242-6953331; x-wl-uid=1ecJvyxzwiGLpb/ivu3x3ngupYO7bY1+BPjlMC56V5J9AKfsIjsCkfc+Jr7a3C9XLJxX0u1syPM0=; visitCount=1; session-token=\"qbOQOkS0VEpBUocLOZRgf/vBjfAa/L1gvzuk4dHaABRLwBcXdkoWG+tgKYovU/GtpgviGH2ntZ17AVp7e48ZFY6MNw3iH/RJtLL2eZrJEHt3s9Cy0QE8n08HbD+hmqwfffrZuHf+ncTYp9ne7NmDLRaqAwIAVoD+O39gZOoyeiIbwRC9aZp+vc79loUdfIgRN7k1iETJ2x2I7SZjKc9arkykk2SqRFhbbijoObQQg4mvjy58UMqGvQ==\"; lc-acbin=en_IN; csm-hit=tb:s-XS1R1NSST0MSNB81W2M8|1562592294012&t:1562592295847&adb:adblk_no; session-id-time=2082758401l
+Accept: text/html,*/*
+X-Requested-With: XMLHttpRequest
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:24:58 GMT
+x-amz-cf-pop: DEL51
+server: Server
+vary: Accept-Encoding,User-Agent,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment
+content-encoding: gzip
+x-frame-options: SAMEORIGIN
+x-amz-rid: F2C5HHR6XT8G4JSFZ4QS
+strict-transport-security: max-age=47474747; includeSubDomains; preload
+via: 1.1 2cbe2d6bb9079c1d153e7e15e9eac3c8.cloudfront.net (CloudFront)
+set-cookie: i18n-prefs=INR; Domain=.amazon.in; Expires=Tue, 01-Jan-2036 08:00:01 GMT; Path=/
+x-content-type-options: nosniff
+x-xss-protection: 1;
+content-type: text/html;charset=UTF-8
+x-cache: Miss from cloudfront
+cache-control: no-transform
+x-amz-cf-id: sV3nn2M_zC_3PeaqwAng0ophVZBTHFQknP9_yr4QX55GHtqXQg9sSQ==
+status: 200
+----
+--Request 
+GET https://www.amazon.in/gp/uedata?ld&v=0.204437.0&id=XS1R1NSST0MSNB81W2M8&sw=1536&sh=864&vw=1198&vh=567&m=1&sc=XS1R1NSST0MSNB81W2M8&ue=2&bb=708&ns=710&ne=760&x1=760&af=1700&cf=2391&be=2508&fp=735&fcp=735&pc=4696&tc=-336&na_=-336&ul_=-1562592293306&_ul=-1562592293306&rd_=-1562592293306&_rd=-1562592293306&fe_=-336&lk_=-336&_lk=-336&co_=-336&_co=-336&sc_=-1562592293306&rq_=-321&rs_=-24&_rs=1713&dl_=-5&di_=2622&de_=2622&_de=2623&_dc=4696&ld_=4696&_ld=-1562592293306&ntd=-1&ty=0&rc=0&hob=1&hoe=2&ld=4700&t=1562592298006&ctb=1&rt=cf:64-1-7-45-3-8-1_af:29-1-5-15-3-7-0_ld:111-13-8-69-5-20-1&csmtags=aui|aui:aui_build_date:3.19.4-2019-06-27|navbar|ABPStatusNotEnabled:Detail:ams-detail-right-v2:desktop|ABPStatusNotEnabled:Detail:hero-quick-promo:Desktop|desktop-html-atf-marker|ABPStatusNotEnabled:Detail:dp-ads-center-promo:Desktop|ABPStatusNotEnabled:Detail:customer-reviews-top:Glance|HardlinesDetailPageMetaAssetFixedNotCached|HardlinesDetailPageMetaAssetVariable_ACCESSORIES_AND_FAMILY_STRIPENotCached|auiNotCached|fls-eu|adblk_no|csm-feature-touch-enabled:false|noadrender:Detail:ams-detail-right-v2:desktop|adrender:Detail:hero-quick-promo:Desktop|adrender:Detail:hero-quick-promo:Desktop:creativeid:1892602066|adrender:Detail:hero-quick-promo:Desktop:programid:1024|navigate|noadrender:Detail:dp-ads-center-promo:Desktop|noadrender:3fa6ae61-e017-444f-9a6f-e9b39addf953|iss-on-time|adrender:Detail:customer-reviews-top:Glance|adrender:c9a09184-bad8-4206-80a7-f9db64ba2bb1|adrender:Detail:customer-reviews-top:Glance:creativeid:-1924146692|adrender:c9a09184-bad8-4206-80a7-f9db64ba2bb1:creativeid:-1924146692|adrender:Detail:customer-reviews-top:Glance:programid:1024|adrender:c9a09184-bad8-4206-80a7-f9db64ba2bb1:programid:1024|DPCIFBuyable|DPCIFLongPoleimageblock|aui:ajax&viz=visible:2&pty=Detail&spty=Glance&pti=B07H6DJZ1P&tid=FQHMBRA36T6KVA44S1T8&aftb=1&ui=2
+Host: www.amazon.in
+Cookie: session-id=259-1202557-5929705; i18n-prefs=INR; ubid-acbin=258-0672242-6953331; x-wl-uid=1ecJvyxzwiGLpb/ivu3x3ngupYO7bY1+BPjlMC56V5J9AKfsIjsCkfc+Jr7a3C9XLJxX0u1syPM0=; visitCount=1; session-token=\"qbOQOkS0VEpBUocLOZRgf/vBjfAa/L1gvzuk4dHaABRLwBcXdkoWG+tgKYovU/GtpgviGH2ntZ17AVp7e48ZFY6MNw3iH/RJtLL2eZrJEHt3s9Cy0QE8n08HbD+hmqwfffrZuHf+ncTYp9ne7NmDLRaqAwIAVoD+O39gZOoyeiIbwRC9aZp+vc79loUdfIgRN7k1iETJ2x2I7SZjKc9arkykk2SqRFhbbijoObQQg4mvjy58UMqGvQ==\"; lc-acbin=en_IN; csm-hit=tb:s-XS1R1NSST0MSNB81W2M8|1562592294012&t:1562592295847&adb:adblk_no; session-id-time=2082758401l
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:24:58 GMT
+x-amz-cf-pop: DEL51
+server: Server
+vary: Accept-Encoding,User-Agent,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment
+content-encoding: gzip
+x-frame-options: SAMEORIGIN
+x-amz-rid: 5B3TKWTGV4D39SHZ85PT
+strict-transport-security: max-age=47474747; includeSubDomains; preload
+via: 1.1 2cbe2d6bb9079c1d153e7e15e9eac3c8.cloudfront.net (CloudFront)
+set-cookie: session-id=259-1202557-5929705; path=/; domain=.amazon.in; expires=Tue, 01-Jan-2036 00:00:01 GMT
+content-type: image/gif
+x-amz-id-1: 5B3TKWTGV4D39SHZ85PT
+x-cache: Miss from cloudfront
+cache-control: no-transform
+x-amz-cf-id: 1E2UjQjxxU-9nKKJC3bOKrfSeXvSPdrA_jkUAxZI0HKShACtYGa0Xg==
+status: 200
+----
+--Request 
+GET https://fls-eu.amazon.in/1/batch/1/OP/A21TJRUUN4KGV:259-1202557-5929705:XS1R1NSST0MSNB81W2M8$uedata=s:%2Fgp%2Fuedata%3Fld%26v%3D0.204437.0%26id%3DXS1R1NSST0MSNB81W2M8%26sw%3D1536%26sh%3D864%26vw%3D1198%26vh%3D567%26m%3D1%26sc%3DXS1R1NSST0MSNB81W2M8%26ue%3D2%26bb%3D708%26ns%3D710%26ne%3D760%26x1%3D760%26af%3D1700%26cf%3D2391%26be%3D2508%26fp%3D735%26fcp%3D735%26pc%3D4696%26tc%3D-336%26na_%3D-336%26ul_%3D-1562592293306%26_ul%3D-1562592293306%26rd_%3D-1562592293306%26_rd%3D-1562592293306%26fe_%3D-336%26lk_%3D-336%26_lk%3D-336%26co_%3D-336%26_co%3D-336%26sc_%3D-1562592293306%26rq_%3D-321%26rs_%3D-24%26_rs%3D1713%26dl_%3D-5%26di_%3D2622%26de_%3D2622%26_de%3D2623%26_dc%3D4696%26ld_%3D4696%26_ld%3D-1562592293306%26ntd%3D-1%26ty%3D0%26rc%3D0%26hob%3D1%26hoe%3D2%26ld%3D4700%26t%3D1562592298006%26ctb%3D1%26rt%3Dcf%3A64-1-7-45-3-8-1_af%3A29-1-5-15-3-7-0_ld%3A111-13-8-69-5-20-1%26csmtags%3Daui%7Caui%3Aaui_build_date%3A3.19.4-2019-06-27%7Cnavbar%7CABPStatusNotEnabled%3ADetail%3Aams-detail-right-v2%3Adesktop%7CABPStatusNotEnabled%3ADetail%3Ahero-quick-promo%3ADesktop%7Cdesktop-html-atf-marker%7CABPStatusNotEnabled%3ADetail%3Adp-ads-center-promo%3ADesktop%7CABPStatusNotEnabled%3ADetail%3Acustomer-reviews-top%3AGlance%7CHardlinesDetailPageMetaAssetFixedNotCached%7CHardlinesDetailPageMetaAssetVariable_ACCESSORIES_AND_FAMILY_STRIPENotCached%7CauiNotCached%7Cfls-eu%7Cadblk_no%7Ccsm-feature-touch-enabled%3Afalse%7Cnoadrender%3ADetail%3Aams-detail-right-v2%3Adesktop%7Cadrender%3ADetail%3Ahero-quick-promo%3ADesktop%7Cadrender%3ADetail%3Ahero-quick-promo%3ADesktop%3Acreativeid%3A1892602066%7Cadrender%3ADetail%3Ahero-quick-promo%3ADesktop%3Aprogramid%3A1024%7Cnavigate%7Cnoadrender%3ADetail%3Adp-ads-center-promo%3ADesktop%7Cnoadrender%3A3fa6ae61-e017-444f-9a6f-e9b39addf953%7Ciss-on-time%7Cadrender%3ADetail%3Acustomer-reviews-top%3AGlance%7Cadrender%3Ac9a09184-bad8-4206-80a7-f9db64ba2bb1%7Cadrender%3ADetail%3Acustomer-reviews-top%3AGlance%3Acreativeid%3A-1924146692%7Cadrender%3Ac9a09184-bad8-4206-80a7-f9db64ba2bb1%3Acreativeid%3A-1924146692%7Cadrender%3ADetail%3Acustomer-reviews-top%3AGlance%3Aprogramid%3A1024%7Cadrender%3Ac9a09184-bad8-4206-80a7-f9db64ba2bb1%3Aprogramid%3A1024%7CDPCIFBuyable%7CDPCIFLongPoleimageblock%7Caui%3Aajax%26viz%3Dvisible%3A2%26pty%3DDetail%26spty%3DGlance%26pti%3DB07H6DJZ1P%26tid%3DFQHMBRA36T6KVA44S1T8%26aftb%3D1%26ui%3D2:4705
+Host: fls-eu.amazon.in
+Cookie: session-id=259-1202557-5929705; i18n-prefs=INR; ubid-acbin=258-0672242-6953331; x-wl-uid=1ecJvyxzwiGLpb/ivu3x3ngupYO7bY1+BPjlMC56V5J9AKfsIjsCkfc+Jr7a3C9XLJxX0u1syPM0=; visitCount=1; session-token=\"qbOQOkS0VEpBUocLOZRgf/vBjfAa/L1gvzuk4dHaABRLwBcXdkoWG+tgKYovU/GtpgviGH2ntZ17AVp7e48ZFY6MNw3iH/RJtLL2eZrJEHt3s9Cy0QE8n08HbD+hmqwfffrZuHf+ncTYp9ne7NmDLRaqAwIAVoD+O39gZOoyeiIbwRC9aZp+vc79loUdfIgRN7k1iETJ2x2I7SZjKc9arkykk2SqRFhbbijoObQQg4mvjy58UMqGvQ==\"; lc-acbin=en_IN; session-id-time=2082758401l
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:24:58 GMT
+content-length: 43
+content-type: image/gif
+x-amzn-requestid: 970c5ff0-0d68-41ac-858c-83a2468160f0
+status: 200
+----
+--Request 
+GET https://fls-eu.amazon.in/1/batch/1/OP/A21TJRUUN4KGV:259-1202557-5929705:XS1R1NSST0MSNB81W2M8$uedata=s:%2Fgp%2Fuedata%3Fld%26v%3D0.204437.0%26id%3DXS1R1NSST0MSNB81W2M8%26sc0%3DclickToCI%26bb0%3D705%26cf0%3D4049%26pc0%3D4049%26ld0%3D4049%26t0%3D1562592297355%26sc1%3Dportal-bb%26pc1%3D1%26ld1%3D1%26t1%3D1562592294015%26sc2%3Diss-init-pc%26bb2%3D758%26cf2%3D3673%26be2%3D3673%26pc2%3D3673%26ld2%3D3673%26t2%3D1562592296979%26sc3%3DudpV3atfwait%26bb3%3D760%26be3%3D761%26pc3%3D761%26ld3%3D761%26t3%3D1562592294067%26sc4%3DmbcUI%26bb4%3D765%26be4%3D765%26pc4%3D765%26ld4%3D765%26t4%3D1562592294071%26sc5%3Dadplacements%3ADetail%3Ahero-quick-promo%3ADesktop%26bb5%3D864%26af5%3D1700%26cf5%3D2450%26be5%3D2856%26pc5%3D3982%26ld5%3D3845%26t5%3D1562592297151%26sc6%3Dadplacements%3ADetail%3Acustomer-reviews-top%3AGlance%26bb6%3D2284%26af6%3D2373%26cf6%3D2677%26be6%3D3343%26pc6%3D4426%26ld6%3D4385%26t6%3D1562592297691%26sc7%3Dadplacements%3Ac9a09184-bad8-4206-80a7-f9db64ba2bb1%26bb7%3D2284%26af7%3D2373%26cf7%3D2677%26be7%3D3343%26pc7%3D4426%26ld7%3D4385%26t7%3D1562592297691%26sc8%3DcsmCELLSframework%26bb8%3D2541%26pc8%3D2541%26ld8%3D2541%26t8%3D1562592295847%26sc9%3DcsmCELLSpdm%26bb9%3D2542%26pc9%3D2615%26ld9%3D2615%26t9%3D1562592295921%26sc10%3DcsmCELLSvpm%26bb10%3D2615%26pc10%3D2616%26ld10%3D2616%26t10%3D1562592295922%26sc11%3DcsmCELLSfem%26bb11%3D2616%26pc11%3D2616%26ld11%3D2616%26t11%3D1562592295922%26sc12%3Due_sushi_v1%26bb12%3D2618%26pc12%3D2620%26ld12%3D2620%26t12%3D1562592295926%26sc13%3DdpATCTTI%26bb13%3D3350%26cf13%3D763%26pc13%3D4049%26ld13%3D4049%26t13%3D1562592297355%26ctb%3D1:4705
+Host: fls-eu.amazon.in
+Cookie: session-id=259-1202557-5929705; i18n-prefs=INR; ubid-acbin=258-0672242-6953331; x-wl-uid=1ecJvyxzwiGLpb/ivu3x3ngupYO7bY1+BPjlMC56V5J9AKfsIjsCkfc+Jr7a3C9XLJxX0u1syPM0=; visitCount=1; session-token=\"qbOQOkS0VEpBUocLOZRgf/vBjfAa/L1gvzuk4dHaABRLwBcXdkoWG+tgKYovU/GtpgviGH2ntZ17AVp7e48ZFY6MNw3iH/RJtLL2eZrJEHt3s9Cy0QE8n08HbD+hmqwfffrZuHf+ncTYp9ne7NmDLRaqAwIAVoD+O39gZOoyeiIbwRC9aZp+vc79loUdfIgRN7k1iETJ2x2I7SZjKc9arkykk2SqRFhbbijoObQQg4mvjy58UMqGvQ==\"; lc-acbin=en_IN; session-id-time=2082758401l
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:24:58 GMT
+content-length: 43
+content-type: image/gif
+x-amzn-requestid: 286805df-ce74-4634-9917-7934d8c040bc
+status: 200
+----
+--Request 
+GET https://images-na.ssl-images-amazon.com/images/I/61SgvbqBGhL._SL1000_.jpg
+Host: images-na.ssl-images-amazon.com
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Sun, 02 Jun 2019 13:57:46 GMT
+x-amz-cf-pop: DEL51
+content-length: 98976
+server: Server
+expires: Sat, 21 May 2039 10:43:12 GMT
+x-amz-ir-id: d5056bf4-8da5-4a4a-bb52-c2f158e9ee09
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Thu, 11 Oct 2018 12:44:57 GMT
+content-type: image/jpeg
+timing-allow-origin: https://www.amazon.com
+x-cache: Hit from cloudfront
+cache-control: max-age=630720000,public
+age: 3108432
+x-amz-cf-id: V0JgaHqaNvnoGm0fBpuLMGaHAfA2yHtd5NsLPHF2E4tbliUkx3eXEA==
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/I/41u0ybQF08L._AC_SR420,330_.jpg
+Host: images-eu.ssl-images-amazon.com
+Referer: https://images-eu.ssl-images-amazon.com/images/G/31/ape/sf/whitelisted/desktop/sf-1.50.d23453f._V461669522_.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Sat, 29 Jun 2019 12:26:47 GMT
+x-amz-cf-pop: DEL51
+content-length: 14846
+server: Server
+expires: Fri, 24 Jun 2039 12:26:47 GMT
+x-amz-ir-id: 659871c6-a128-483c-a780-f1c73ac13cb1
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Sat, 29 Jun 2019 11:01:53 GMT
+content-type: image/jpeg
+timing-allow-origin: https://www.amazon.com
+x-cache: Hit from cloudfront
+cache-control: max-age=630720000,public
+age: 781091
+x-amz-cf-id: FUZAQQTuNciq_2zrMMw287ohS9v5563pgsNWdIKykAUg-1lhYB3oQw==
+status: 200
+----
+--Request 
+GET https://aax-eu.amazon-adsystem.com/e/xsp/imp?b=Qor0XgUA-XnQ-JOAnbTsiscAAAFr0cIzQQMAAAH_Ac9w0VU
+Host: aax-eu.amazon-adsystem.com
+Cookie: ad-id=A12g3-vssU7xrcsPDnR90f0; ad-privacy=0
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://images-eu.ssl-images-amazon.com/images/G/31/ape/sf/whitelisted/desktop/sf-1.50.d23453f._V461669522_.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200 OK
+Cache-Control: private, no-cache, no-store, must-revalidate
+Server: Server
+Connection: keep-alive
+Vary: User-Agent
+Content-Length: 43
+Date: Mon, 08 Jul 2019 13:24:58 GMT
+Content-Type: image/gif
+----
+

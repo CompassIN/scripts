@@ -1,0 +1,140 @@
+6/12 11:30:9|ChromeMainFrame|createBrowserWindowWithListener|constructor called.
+6/12 11:30:9|ChromeBrowserConfigurationSettings|EnableDisableBrowserOtions|Setting User Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+6/12 11:30:26|ChromeBrowserConfigurationSettings|EnableDisableBrowserOtions|method called.
+6/12 11:30:26|ChromeBrowserConfigurationSettings|EnableDisableBrowserOtions|Enabling JavaScript feature.
+6/12 11:30:26|ChromeBrowserConfigurationSettings|EnableDisableBrowserOtions|Enabling ImageDownload feature.
+6/12 11:30:26|ChromeBrowserConfigurationSettings|EnableDisableBrowserOtions|Enabling Plugins feature.
+6/12 11:30:26|ChromeBrowserConfigurationSettings|clearLocalStorage|Method called.
+6/12 11:30:26|ChromeBrowserConfigurationSettings|setSecurityCertificationErrors|Method called.
+6/12 11:30:26|ChromeMainFrame|addStatusAndTitleBrowser|Method called.
+6/12 11:30:26|ChromeMainFrame|addPageNavigationListeners|method called.
+6/12 11:30:26|ChromeBrowserNavigationListener|ChromeBrowserNavigationListener|Constructor Called.
+6/12 11:30:26|ChromeRecordingHttpListener||constructor called.
+6/12 11:30:26|ChromeMainFrame|createinitUI|constructor called.
+6/12 11:30:26|TabContent|createComponents|method called.
+6/12 11:30:26|TabContent|createBrowserContainer|method called.
+6/12 11:30:26|TabContent|createToolBar|method called.
+6/12 11:30:26|ProgressBar|initializeGUI|Method Called
+6/12 11:30:26|ToolBar|createToolBarComponents|method called.
+6/12 11:30:26|ToolBar|createAddressBar|method called.
+6/12 11:30:26|ToolBar|createActionsPane|method called.
+6/12 11:30:27|ChromeBrowserNavigationListener|onStartLoadingFrame|Method Called for URL=http://192.158.1.36:81/tours/index.html
+6/12 11:30:27|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+6/12 11:30:27|ChromeBrowserNavigationListener|onStartLoadingFrame|Begin Loading URL == http://192.158.1.36:81/tours/index.html  ===== Begin = 1560319227116
+6/12 11:30:27|Utils|getURLTracker|urlString = http://192.158.1.36:81/tours/index.html, requestOrResponce = snapShot
+6/12 11:30:27|ProgressBar|setVisible|Method Called. bool = true
+6/12 11:30:27|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+6/12 11:30:27|Utils|getURLTracker|urlString = http://192.158.1.36:81/tours/index.html, requestOrResponce = request
+6/12 11:30:27|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1560319227199
+6/12 11:30:27|Utils|convertToSecond method called|time = 17301.0
+6/12 11:30:27|Utils|isSplit|Method called.
+6/12 11:30:27|Utils|isSplit|Splitting for Ajax Header = false
+6/12 11:30:27|Utils|isSplit|Splitting for method GET = false
+6/12 11:30:27|Utils|isSplit|result = false
+6/12 11:30:27|Utils|isSplitForTimeDiff|Method called.
+6/12 11:30:27|Utils|isSplit|result = false
+6/12 11:30:27|Utils|isSplitForURLType|Method called.
+6/12 11:30:27|Utils|isSplitForURLType|value = false
+6/12 11:30:27|Utils|isSplitForURLType|value = false
+6/12 11:30:27|Utils|isSplit|isSplitForURLType = false
+6/12 11:30:48|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/tours\dump\flight_booking\192.158.1.36_81/tours/
+6/12 11:30:48|ChromeBrowserNavigationListener|onFailLoadingFrame|Method Called. Error in loading frame
+6/12 11:30:50|ChromeBrowserNavigationListener|onFinishLoadingFrame|Method Called for URL=chrome-error://chromewebdata/
+6/12 11:30:50|Utils|getURLTracker|urlString = http://chromewebdata/, requestOrResponce = snapShot
+6/12 11:30:50|WebCFormattor||constructor called.
+6/12 11:30:50|ProgressBar|setVisible|Method Called. bool = false
+6/12 11:30:50|ScriptHTMLStart|Recording|Thread state =2
+6/12 11:30:50|ScriptHTMLStart|run|Setting thread state.State of Thread - 2
+6/12 11:30:50|ChromeCClickListener|addAllHTMLElementsListeners|Method Called.
+6/12 11:31:17|ChromeCClickListener|handleEvent|Method Called.
+6/12 11:31:17|ChromeCClickListener|dumpEvent|Method Called. Event Type: com.teamdev.jxbrowser.chromium.dom.events.DOMEventType@5a5c588
+ Tag Name = BUTTON
+6/12 11:31:17|ChromeBrowserNavigationListener|onStartLoadingFrame|Method Called for URL=http://192.158.1.36:81/tours/index.html
+6/12 11:31:17|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+6/12 11:31:17|ChromeBrowserNavigationListener|onStartLoadingFrame|Begin Loading URL == http://192.158.1.36:81/tours/index.html  ===== Begin = 1560319277740
+6/12 11:31:17|Utils|getURLTracker|urlString = http://192.158.1.36:81/tours/index.html, requestOrResponce = snapShot
+6/12 11:31:17|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+6/12 11:31:17|Utils|getURLTracker|urlString = http://192.158.1.36:81/tours/index.html, requestOrResponce = request
+6/12 11:31:17|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1560319277742
+6/12 11:31:17|Utils|convertToSecond method called|time = 67844.0
+6/12 11:31:17|ChromeCClickListener|addBtnElement|Method Called.
+6/12 11:31:17|Utils|isSplit|Method called.
+6/12 11:31:17|Utils|isSplit|Splitting for Ajax Header = false
+6/12 11:31:17|Utils|isSplit|Splitting for method GET = false
+6/12 11:31:17|Utils|isSplit|result = false
+6/12 11:31:17|Utils|isSplitForTimeDiff|Method called.
+6/12 11:31:17|Utils|isSplit|result = false
+6/12 11:31:17|Utils|isSplitForURLType|Method called.
+6/12 11:31:17|Utils|isSplitForURLType|value = false
+6/12 11:31:17|Utils|isSplitForURLType|value = false
+6/12 11:31:17|Utils|isSplit|isSplitForURLType = false
+6/12 11:31:17|ProgressBar|setVisible|Method Called. bool = true
+6/12 11:31:17|Utils|setRecordingComments|method called.
+6/12 11:31:38|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/tours\dump\flight_booking\192.158.1.36_81/tours/
+6/12 11:31:38|ChromeBrowserNavigationListener|onFailLoadingFrame|Method Called. Error in loading frame
+6/12 11:31:38|ChromeBrowserNavigationListener|onFinishLoadingFrame|Method Called for URL=chrome-error://chromewebdata/
+6/12 11:31:38|Utils|getURLTracker|urlString = http://chromewebdata/, requestOrResponce = snapShot
+6/12 11:31:38|ProgressBar|setVisible|Method Called. bool = false
+6/12 11:31:38|ChromeCClickListener|addAllHTMLElementsListeners|Method Called.
+6/12 11:31:44|ChromeMainFrame|addBrowserDisposeListener|browser disposed called.
+6/12 11:31:44|WebCFormattor|generateScripts|method called.
+6/12 11:31:44|Utils|addLastPageLeftUrlsToInlineUrlsOfLastPage|Method called.
+6/12 11:31:44|Utils|modifyMapForSplit|Method called.
+6/12 11:31:44|Utils|modifyMapForSplit|Before Modify URL Map Size :2
+6/12 11:31:44|Utils|modifyMapForThinkTime|Method called.
+6/12 11:31:44|Utils|modifyMapForThinkTime|thinkStart time is zero. Hence reinitializing it with URL start time=0.0
+6/12 11:31:44|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 0
+6/12 11:31:44|Utils|modifyMapForThinkTime|Modifying url list for last page=index_2, startThink=0.0, endThink=0.0
+6/12 11:31:44|Utils|modifyMapForSplit|After Modify URL Map Size :2
+6/12 11:31:44|Utils|generateEventDetail|method called.
+6/12 11:31:44|Utils|getTimeStampForPage|Method called.
+6/12 11:31:44|Utils|getTimeStampForPage|Method called.
+6/12 11:31:44|Utils|generateUrlInfoListDetail|method called
+6/12 11:31:44|Utils|getTimeStampForPage|Method called.
+6/12 11:31:44|Utils|generateUrlInfoListDetail|URL = http://192.158.1.36:81/tours/index.html
+6/12 11:31:44|Utils|generateUrlInfoListDetail|ScriptparsingData =http://192.158.1.36:81/tours/index.html
+6/12 11:31:44|Utils|generateUrlInfoListDetail|UrlTracker.scriptParsingData.getParsedPath()=192.158.1.36_81/tours/, Utils.getDumpPath() = C:\Users\HP\Desktop\recorder\scripts\default/default/tours\dump\flight_booking
+6/12 11:31:45|Utils|generateUrlInfoListDetail|URL = http://chromewebdata/
+6/12 11:31:45|Utils|generateUrlInfoListDetail|Setting url info object =http://chromewebdata/
+6/12 11:31:45|Utils|filterPath|path = http://chromewebdata/
+6/12 11:31:45|Utils|getFileName|path = http://chromewebdata/
+6/12 11:31:45|Utils|getFileName|filename for dump = index
+6/12 11:31:45|Utils|filterPath|path = http://chromewebdata/
+6/12 11:31:45|Utils|getTimeStampForPage|Method called.
+6/12 11:31:45|Utils|generateUrlInfoListDetail|URL = http://192.158.1.36:81/tours/index.html
+6/12 11:31:45|Utils|generateUrlInfoListDetail|ScriptparsingData =http://192.158.1.36:81/tours/index.html
+6/12 11:31:45|Utils|generateUrlInfoListDetail|UrlTracker.scriptParsingData.getParsedPath()=192.158.1.36_81/tours/, Utils.getDumpPath() = C:\Users\HP\Desktop\recorder\scripts\default/default/tours\dump\flight_booking
+6/12 11:31:45|Utils|generateUrlInfoListDetail|URL = http://chromewebdata/
+6/12 11:31:45|Utils|generateUrlInfoListDetail|Setting url info object =http://chromewebdata/
+6/12 11:31:45|Utils|filterPath|path = http://chromewebdata/
+6/12 11:31:45|Utils|getFileName|path = http://chromewebdata/
+6/12 11:31:45|Utils|getFileName|filename for dump = index
+6/12 11:31:45|Utils|filterPath|path = http://chromewebdata/
+6/12 11:31:45|WebCFormattor|generateEventsForFlow|method called.
+6/12 11:31:45|WebCGenerator|generate|method called.
+6/12 11:31:45|WebCGenerator|generate|Putting header comments in Buffer.
+6/12 11:31:45|WebCGenerator|generate|Processing URLs with list size=2
+6/12 11:31:45|Utils|getTimeStampForPage|Method called.
+6/12 11:31:45|WebCGenerator|getValidURL|Since this URL is not in filtered list, returning the URL=http://192.158.1.36:81/tours/index.html
+6/12 11:31:45|Utils|getTimeStampForPage|Method called.
+6/12 11:31:45|WebCGenerator|getUrlReqAndResDetails|method called.
+6/12 11:31:45|WebCGenerator|appendRealBrowserData|method called. The isRealBrowser value = false
+6/12 11:31:45|WebCGenerator|generate|Adding Inline template to the page.
+6/12 11:31:45|WebCGenerator|appendHeadersAndEndline|method called.
+6/12 11:31:45|WebCGenerator|getUrlReqAndResDetails|method called.
+6/12 11:31:45|Utils|convertToSecond method called|time = 67.844
+6/12 11:31:45|Utils|getTimeStampForPage|Method called.
+6/12 11:31:45|WebCGenerator|getValidURL|Since this URL is not in filtered list, returning the URL=http://192.158.1.36:81/tours/index.html
+6/12 11:31:45|Utils|getTimeStampForPage|Method called.
+6/12 11:31:45|WebCGenerator|getUrlReqAndResDetails|method called.
+6/12 11:31:45|WebCGenerator|appendRealBrowserData|method called. The isRealBrowser value = false
+6/12 11:31:45|WebCGenerator|generate|Adding Inline template to the page.
+6/12 11:31:45|WebCGenerator|appendHeadersAndEndline|method called.
+6/12 11:31:45|WebCGenerator|getUrlReqAndResDetails|method called.
+6/12 11:31:45|Utils|convertToSecond method called|time = 0.0
+6/12 11:31:45|ChromeMainFrame|addBrowserDisposeListener|browser disposed Exiting.
+6/12 11:44:15|ScriptHTMLStart|stopRecording|Method Called.
+6/12 11:44:15|ScriptHTMLStart|stopRecording|Going to stop recording
+6/12 11:44:15|NSChromeBrowser|stopRecord|Method called.
+6/12 11:44:15|ScriptHTMLStart|stopRecording|Going to upload script to server.
+6/12 11:44:17|ScriptRecordUtils|saveScriptToServer|method called.

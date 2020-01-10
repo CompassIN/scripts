@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message Fixed32 {
+  repeated fixed32 fixed32_field1 = 1 [packed=true];
+}

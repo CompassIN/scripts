@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message Double {
+  repeated double double_field1 = 1 [packed=true];
+}

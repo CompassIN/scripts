@@ -1,0 +1,58 @@
+--Request 
+POST https://unagi-eu.amazon.com/1/events/com.amazon.eel.SponsoredProductsEventTracking.prod
+Host: unagi-eu.amazon.com
+Origin: https://www.amazon.in
+Accept: application/json
+X-Requested-With: XMLHttpRequest
+Referer: https://www.amazon.in/Giant-Innovative-Stylish-Sunglasses-Aviator/dp/B07MPSZ7NK/ref=bbp_bb_d33a38_st_CCqh_w_0?psc=1&smid=ANTJPL45A9VCN
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Content-Type: application/json
+----
+ POSTDATA {"events":[{"data":{"qualifier":"1563387876","id":"4458542140467160","widgetName":"sp_detail","adId":"20020073183707","adIndex":"0","eventType":"2"}},{"data":{"qualifier":"1563387876","id":"4458542140467160","widgetName":"sp_detail","adId":"20015983404407","adIndex":"1","eventType":"2"}},{"data":{"qualifier":"1563387876","id":"4458542140467160","widgetName":"sp_detail","adId":"20023311152506","adIndex":"2","eventType":"2"}},{"data":{"qualifier":"1563387876","id":"4458542140467160","widgetName":"sp_detail","adId":"20020077097807","adIndex":"3","eventType":"2"}},{"data":{"qualifier":"1563387876","id":"4458542140467160","widgetName":"sp_detail","adId":"20022518385005","adIndex":"4","eventType":"2"}},{"data":{"qualifier":"1563387876","id":"4458542140467160","widgetName":"sp_detail","adId":"20015230536904","adIndex":"5","eventType":"2"}},{"data":{"qualifier":"1563387876","id":"4458542140467160","widgetName":"sp_detail","adId":"20022518384305","adIndex":"6","eventType":"2"}},{"data":{"qualifier":"1563387876","id":"4458542140467160","widgetName":"sp_detail","adId":"20012881383806","adIndex":"7","eventType":"2"}},{"data":{"qualifier":"1563387876","id":"4458542140467160","widgetName":"sp_detail","adId":"20019470361207","adIndex":"8","eventType":"2"}},{"data":{"qualifier":"1563387876","id":"4458542140467160","widgetName":"sp_detail","adId":"20015981247707","adIndex":"9","eventType":"2"}},{"data":{"qualifier":"1563387876","id":"260351114673563","widgetName":"sp_detail2","adId":"20020073183707","adIndex":"0","eventType":"2"}},{"data":{"qualifier":"1563387876","id":"260351114673563","widgetName":"sp_detail2","adId":"20015983404407","adIndex":"1","eventType":"2"}},{"data":{"qualifier":"1563387876","id":"260351114673563","widgetName":"sp_detail2","adId":"20023311152506","adIndex":"2","eventType":"2"}},{"data":{"qualifier":"1563387876","id":"260351114673563","widgetName":"sp_detail2","adId":"20015230536904","adIndex":"3","eventType":"2"}},{"data":{"qualifier":"1563387876","id":"260351114673563","widgetName":"sp_detail2","adId":"20020077097807","adIndex":"4","eventType":"2"}},{"data":{"qualifier":"1563387876","id":"260351114673563","widgetName":"sp_detail2","adId":"20022518385005","adIndex":"5","eventType":"2"}}]}
+--Response 
+HTTP/1.1 200 OK
+Server: Server
+Access-Control-Allow-Origin: https://www.amazon.in
+Access-Control-Allow-Methods: POST
+Connection: keep-alive
+x-amz-rid: Q3DNMJSB06YR8RFSSFM0
+Access-Control-Allow-Headers: content-type,x-requested-with
+Date: Wed, 17 Jul 2019 18:24:45 GMT
+Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+Content-Encoding: gzip
+x-amzn-RequestId: 781d68c7-ebb0-4b27-b7c3-681d38338405
+Vary: Origin,Accept-Encoding,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment,User-Agent
+Access-Control-Max-Age: 172800
+Content-Length: 20
+----
+--Request 
+GET https://m.media-amazon.com/images/G/01/AUIClients/AmazonUIIcon@legacyImages-sprite_1x-6c462f5dc3bc3e40d0788502814fa7043355712a._V2_.png
+Host: m.media-amazon.com
+Referer: https://images-na.ssl-images-amazon.com/images/I/41cRRCHAhBL._RC%7C51FYeABtyfL.css,01Q48KXvqCL.css,01K+Ps1DeEL.css,41tjoad5w2L.css,01tgK36lpGL.css,11InxsaTq4L.css,21eflE7vp9L.css,11IXeMfyywL.css,21ugv+CDRhL.css,01J8hfjebnL.css,01YhS3Cs-hL.css,21YU4aKBNKL.css,11rfwfQ8DkL.css,01T0I3IjgPL.css,21SS07CAVRL.css,11X17kCPZNL.css,01dU8+SPlFL.css,11ocrgKoE-L.css,11BzYu2x6pL.css,11Ttta26NOL.css,01YVY7jPXEL.css,31qfJ3LXk-L.css,113JXQXq+aL.css,01cbS3UK11L.css,21sF-vjkv-L.css,01XpF1+3ICL.css_.css?AUIClients/AmazonUI
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 13 Mar 2019 22:53:10 GMT
+x-amz-cf-pop: ORD50-C1
+content-length: 33533
+server: Server
+expires: Tue, 08 Mar 2039 18:23:34 GMT
+x-amz-ir-id: 022d7b50-bcdc-4bdb-a37f-82de0e7bed0f
+via: 1.1 4e6a6de7c4e0f9bc6de24674fb94d575.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Thu, 03 May 2018 16:58:04 GMT
+content-type: image/png
+timing-allow-origin: https://www.amazon.com
+x-cache: Hit from cloudfront
+cache-control: max-age=630720000,public
+age: 10886437
+x-amz-cf-id: 7Qmx2_MoOzZb5efTCG9BKB96H5OXwW2Plw6j0nUmGl7i4SqZFVmfHA==
+status: 200
+----
+

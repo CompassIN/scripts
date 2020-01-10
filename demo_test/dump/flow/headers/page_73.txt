@@ -1,0 +1,81 @@
+--Request 
+POST https://unagi-eu.amazon.com/1/events/com.amazon.eel.SponsoredProductsEventTracking.prod
+Host: unagi-eu.amazon.com
+Origin: https://www.amazon.in
+Accept: application/json
+X-Requested-With: XMLHttpRequest
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Content-Type: application/json
+----
+ POSTDATA {"events":[{"data":{"qualifier":"1562592294","id":"5854165333742813","widgetName":"sp_detail","adId":"20022327974602","adIndex":"0","eventType":"2"}},{"data":{"qualifier":"1562592294","id":"5854165333742813","widgetName":"sp_detail","adId":"20025966543605","adIndex":"1","eventType":"2"}},{"data":{"qualifier":"1562592294","id":"5854165333742813","widgetName":"sp_detail","adId":"20024702202106","adIndex":"2","eventType":"2"}},{"data":{"qualifier":"1562592294","id":"5854165333742813","widgetName":"sp_detail","adId":"20019428302001","adIndex":"3","eventType":"2"}},{"data":{"qualifier":"1562592294","id":"5854165333742813","widgetName":"sp_detail","adId":"20021153825507","adIndex":"4","eventType":"2"}},{"data":{"qualifier":"1562592294","id":"5854165333742813","widgetName":"sp_detail","adId":"20023571074202","adIndex":"5","eventType":"2"}},{"data":{"qualifier":"1562592294","id":"5854165333742813","widgetName":"sp_detail","adId":"20022515657603","adIndex":"6","eventType":"2"}},{"data":{"qualifier":"1562592294","id":"5854165333742813","widgetName":"sp_detail","adId":"20026218986404","adIndex":"7","eventType":"2"}},{"data":{"qualifier":"1562592294","id":"5854165333742813","widgetName":"sp_detail","adId":"20018528201102","adIndex":"8","eventType":"2"}},{"data":{"qualifier":"1562592294","id":"5854165333742813","widgetName":"sp_detail","adId":"20019350499608","adIndex":"9","eventType":"2"}},{"data":{"qualifier":"1562592293","id":"8757144102294898","widgetName":"sp_detail2","adId":"20022327974602","adIndex":"0","eventType":"2"}},{"data":{"qualifier":"1562592293","id":"8757144102294898","widgetName":"sp_detail2","adId":"20025966543605","adIndex":"1","eventType":"2"}},{"data":{"qualifier":"1562592293","id":"8757144102294898","widgetName":"sp_detail2","adId":"20019428302001","adIndex":"2","eventType":"2"}},{"data":{"qualifier":"1562592293","id":"8757144102294898","widgetName":"sp_detail2","adId":"20022129136708","adIndex":"3","eventType":"2"}},{"data":{"qualifier":"1562592293","id":"8757144102294898","widgetName":"sp_detail2","adId":"20018528201102","adIndex":"4","eventType":"2"}},{"data":{"qualifier":"1562592293","id":"8757144102294898","widgetName":"sp_detail2","adId":"20018611590402","adIndex":"5","eventType":"2"}}]}
+--Response 
+HTTP/1.1 200 OK
+Server: Server
+Access-Control-Allow-Origin: https://www.amazon.in
+Access-Control-Allow-Methods: POST
+Connection: keep-alive
+x-amz-rid: FFKDN8ERP39G9GN1E9ZQ
+Access-Control-Allow-Headers: content-type,x-requested-with
+Date: Mon, 08 Jul 2019 13:24:58 GMT
+Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+Content-Encoding: gzip
+x-amzn-RequestId: b2e3fb6c-a187-499d-9c7d-7b69514b3402
+Vary: Origin,Accept-Encoding,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment,User-Agent
+Access-Control-Max-Age: 172800
+Content-Length: 20
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/01/AUIClients/ClientSideMetricsAUIJavascript@jserrorsForester.10f2559e93ec589d92509318a7e2acbac74c343a._V2_.js
+Host: images-eu.ssl-images-amazon.com
+Origin: https://www.amazon.in
+Accept: */*
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:16:55 GMT
+content-length: 4307
+server: Server
+expires: Sun, 03 Apr 2039 13:36:26 GMT
+x-amz-ir-id: 8d7c3685-5716-414e-809b-12cf7cd2b3cb
+vary: Accept-Encoding
+content-encoding: gzip
+access-control-allow-origin: *
+last-modified: Wed, 14 Nov 2018 15:06:07 GMT
+content-type: application/x-javascript; charset=utf-8
+timing-allow-origin: https://www.amazon.com
+x-cache: Hit from akamai
+cache-control: public, max-age=622858771
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/productAds/ad_feedback_icon_1Xsprite._CB319582757_.png
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:16:48 GMT
+content-length: 451
+server: Server
+expires: Tue, 15 Mar 2039 03:09:13 GMT
+x-amz-ir-id: f3a8f7c7-8ea5-4244-af8f-d5a95cd323b5
+access-control-allow-origin: *
+last-modified: Wed, 15 Oct 2014 06:31:02 GMT
+content-type: image/png
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from akamai
+cache-control: public, max-age=621179545
+status: 200
+----
+

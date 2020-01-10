@@ -1,0 +1,109 @@
+--Request 
+POST https://fls-eu.amazon.in/1/action-impressions/1/OP/brightbuy/asin/bb_d33a38:B07C3Y74SC,B0721XYQ98,B075XGLWTD?marketplaceId=A21TJRUUN4KGV&session=260-6898445-8949221&requestId=CEBK9MEJXP1JY36NH606&csm=1
+Host: fls-eu.amazon.in
+Cookie: session-id=260-6898445-8949221; i18n-prefs=INR; ubid-acbin=262-8671103-6623656; x-wl-uid=1OfaMC7JpnskpcFBQZ0Uq5V8k/Li+eH9j/u3WVuWMZt5YlTHc5uQTLxZFK0jTKGcRFjeKmsxSpo8=; visitCount=1; session-token=\"FOD9ahBmF5GIKmPl1E0GHlNJV5EedVXMFVEZhlbBTx0kTXXMg1IYR5c5brnaRCYcCUYDFNILc5DnAHxrFPaxoptoxnDRXfbxQaDXulcLsGquoPty2zDMdmxnHPRVTtAnQDJ5n7OZtZxq8SQ36hwOyZ/OIwYQLZ84s7v4Fd3QqFQ7zkpZa9aeDQF9Ysr3lsS5MnV7pdgpl47Vgy7x4V7fxgY/Hg2HKg2CyscZ924Wm5C+krHuGrc01w==\"; lc-acbin=en_IN; session-id-time=2082758401l
+Origin: https://www.amazon.in
+Accept: */*
+Cache-Control: max-age=0
+Referer: https://www.amazon.in/Low-Price-With-Free-Shipping/bbp?category=/mens&pf_rd_p=b139ea56-b471-44e1-96c4-9419c155d0ed&pf_rd_r=QTX88JN8XW6309TZ412A
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Content-Type: text/plain;charset=UTF-8
+----
+ POSTDATA 
+--Response 
+HTTP/1.1 200
+access-control-allow-origin: *
+date: Wed, 17 Jul 2019 18:24:27 GMT
+content-length: 43
+x-amzn-requestid: 5739110a-51e4-451c-a73c-dfd7591b48c5
+content-type: image/gif
+access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+status: 200
+----
+--Request 
+GET https://images-na.ssl-images-amazon.com/images/I/51MOlPUsICL._SR258,310_.jpg
+Host: images-na.ssl-images-amazon.com
+Referer: https://www.amazon.in/Low-Price-With-Free-Shipping/bbp?category=/mens&pf_rd_p=b139ea56-b471-44e1-96c4-9419c155d0ed&pf_rd_r=QTX88JN8XW6309TZ412A
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Sat, 22 Jun 2019 13:09:26 GMT
+x-amz-cf-pop: ORD50-C1
+content-length: 4569
+server: Server
+expires: Tue, 31 May 2039 07:47:57 GMT
+x-amz-ir-id: e75f296c-e9ce-4353-bb43-d5d09f0b0b21
+via: 1.1 6ca6a5c7e4ef3511c3ea6d058e2252f9.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Wed, 10 Aug 2016 18:50:28 GMT
+content-type: image/jpeg
+timing-allow-origin: https://www.amazon.com
+x-cache: Hit from cloudfront
+cache-control: max-age=630720000,public
+age: 2454419
+x-amz-cf-id: zOkv1xVA0pWJasrE3OuxKzKd5mNi7ytbLSg2DhU1de7FlhgqIe30zw==
+status: 200
+----
+--Request 
+GET https://images-na.ssl-images-amazon.com/images/I/710jFGLW3nL._SR258,310_.jpg
+Host: images-na.ssl-images-amazon.com
+Referer: https://www.amazon.in/Low-Price-With-Free-Shipping/bbp?category=/mens&pf_rd_p=b139ea56-b471-44e1-96c4-9419c155d0ed&pf_rd_r=QTX88JN8XW6309TZ412A
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 17 Jul 2019 04:10:44 GMT
+x-amz-cf-pop: ORD50-C1
+content-length: 9090
+server: Server
+expires: Mon, 11 Jul 2039 19:47:11 GMT
+x-amz-ir-id: 27e13b5d-750f-45cc-8aad-7cf05ef7419a
+via: 1.1 6ca6a5c7e4ef3511c3ea6d058e2252f9.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Wed, 10 Oct 2018 17:56:11 GMT
+content-type: image/jpeg
+timing-allow-origin: https://www.amazon.com
+x-cache: Hit from cloudfront
+cache-control: max-age=630720000,public
+age: 81437
+x-amz-cf-id: UUIXRaZdQq-StIJe59j6c-1ng23Plh5Iwi6VjSyT3kG_4UCklhwFww==
+status: 200
+----
+--Request 
+GET https://images-na.ssl-images-amazon.com/images/I/51NmxVCwUfL._SR258,310_.jpg
+Host: images-na.ssl-images-amazon.com
+Referer: https://www.amazon.in/Low-Price-With-Free-Shipping/bbp?category=/mens&pf_rd_p=b139ea56-b471-44e1-96c4-9419c155d0ed&pf_rd_r=QTX88JN8XW6309TZ412A
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Tue, 16 Jul 2019 18:41:07 GMT
+x-amz-cf-pop: ORD50-C1
+content-length: 6871
+server: Server
+expires: Mon, 11 Jul 2039 18:41:07 GMT
+x-amz-ir-id: 08f0f6fd-1a15-4179-aa21-3bcb7ce5c25f
+via: 1.1 6ca6a5c7e4ef3511c3ea6d058e2252f9.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Tue, 28 Aug 2018 08:28:25 GMT
+content-type: image/jpeg
+timing-allow-origin: https://www.amazon.com
+x-cache: Hit from cloudfront
+cache-control: max-age=630720000,public
+age: 85401
+x-amz-cf-id: eczcxNy_41N6KdOi7w-FfxvRzgfLd3Dn-tgnMaN1zPfsvi0-EHxybw==
+status: 200
+----
+

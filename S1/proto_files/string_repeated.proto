@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message String {
+  repeated string string_field1 = 1;
+}

@@ -1,0 +1,76 @@
+--Request 
+GET http://10.10.30.2:81/tours/index.html
+Host: 10.10.30.2:81
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-Length: 2975
+Content-Type: text/html
+----
+--Request 
+GET http://10.10.30.2:81/tours/Merc10-dev/images/banner_animated.gif
+Host: 10.10.30.2:81
+Referer: http://10.10.30.2:81/tours/index.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-Length: 16522
+Content-Type: image/gif
+----
+--Request 
+GET http://10.10.30.2:81/tours/Merc10-dev/images/sun_swede.gif
+Host: 10.10.30.2:81
+Referer: http://10.10.30.2:81/tours/index.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-Length: 4125
+Content-Type: image/gif
+----
+--Request 
+GET http://10.10.30.2:81/tours/Merc10-dev/images/login.gif
+Host: 10.10.30.2:81
+Referer: http://10.10.30.2:81/tours/index.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-Length: 1323
+Content-Type: image/gif
+----
+--Request 
+GET http://10.10.30.2:81/tours/images/banner_merctur.jpg
+Host: 10.10.30.2:81
+Referer: http://10.10.30.2:81/tours/index.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-Length: 22548
+Content-Type: image/jpeg
+----
+

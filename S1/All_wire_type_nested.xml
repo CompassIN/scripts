@@ -1,0 +1,37 @@
+<DataType>
+  <doubletype>{double_data}</doubletype>
+  <floattype>{float_data}</floattype>
+  <int32type>{int32_data}</int32type>
+  <int64type>{int64_data}</int64type>
+  <uint32type>{uint32_data}</uint32type>
+  <uint64type>{uint64_data}</uint64type>
+  <sint32type>{sint32_data}</sint32type>
+  <sint64type>{sint64_data}</sint64type>
+  <fixed32type>{fixed32_data}</fixed32type>
+  <fixed64type>{fixed64_data}</fixed64type>
+  <sfixed32type>{sfixed32_data}</sfixed32type>
+  <sfixed64type>{sfixed64_data}</sfixed64type>
+  <booltype>{bool_data}</booltype>
+  <stringtype>{string_data}</stringtype>
+  <bytestype>{bytes_data}</bytestype>
+ <b>
+   <doubletype1>{double_data}</doubletype1>
+   <floattype1>{float_data}</floattype1>
+   <int32type1>{int32_data}</int32type1>
+   <int64type1>{int64_data}</int64type1>
+   <uint32type1>{uint32_data}</uint32type1>
+   <uint64type1>{uint64_data}</uint64type1>
+   <sint32type1>{sint32_data}</sint32type1>
+   <sint64type1>{sint64_data}</sint64type1>
+   <fixed32type1>{fixed32_data}</fixed32type1>
+   <fixed64type1>{fixed64_data}</fixed64type1>
+   <sfixed32type1>{sfixed32_data}</sfixed32type1>
+   <sfixed64type1>{sfixed64_data}</sfixed64type1>
+   <booltype1>{bool_data}</booltype1>
+   <stringtype1>{string_data}</stringtype1>
+   <bytestype1>{bytes_data}</bytestype1>
+ </b>
+</DataType>
+
+
+

@@ -1,0 +1,6 @@
+<Double>
+  <double_field1>{double_data}</double_field1>
+  <b>
+    <double_field2>{double_data}</double_field2>
+  </b>
+</Double>

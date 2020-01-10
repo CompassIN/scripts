@@ -1,0 +1,65 @@
+/*-----------------------------------------------------------------------------
+    Name: SearchCoupon_New
+    Recorded By: Kalyani
+    Date of recording: 05/26/2016 07:05:55
+    Flow details:
+    Build details: 4.1.4 (build# 40)
+    Modification History:
+-----------------------------------------------------------------------------*/
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "ns_string.h"
+void SearchCoupon()
+{
+	ns_start_transaction("MOB_Coupon_SearchCoupon");
+    ns_start_transaction("API_SearchContent_GET");
+    ns_web_url ("SearchCoupon1",
+        //"URL=http://m-dt-test2.jcpenney.com/v3/search?content-size=medium&expand=content&page=1&q=coupon",
+        "URL=http://m-dt-test2.jcpenney.com/v2/search?content-size=medium&expand=content&page=1&q=coupon",
+        "HEADER=Accept-Language:en-US,en;q=0.8",
+        "COOKIE=DPJSESSIONID;DPUserTracking;SyndicateSiteRedirectHost;cmTPSet;TLTSID;CavSID;rr_rcs;DPOrder;ItemCount;ItemTotal;DPSessionTimeOutInterval;fsr.r;dpAkamaiOverride;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;CavSF;CavLTS;CavPI;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;referredSources;DP_USER_FAVCOUNT;fsr.s;_IFR_jcpenney.com_fsr.a",
+        "PreSnapshot=webpage_1464269684565.png",
+        "Snapshot=webpage_1464269686021.png",
+        INLINE_URLS,
+            "URL=http://m-dt-test2.jcpenney.com/b/assets/css/couponPage.css?v=20160523170615", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=DPJSESSIONID;DPUserTracking;SyndicateSiteRedirectHost;cmTPSet;TLTSID;CavSID;rr_rcs;DPOrder;ItemCount;ItemTotal;DPSessionTimeOutInterval;fsr.r;dpAkamaiOverride;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;CavSF;CavLTS;CavPI;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;referredSources;DP_USER_FAVCOUNT;fsr.s;_IFR_jcpenney.com_fsr.a;recentSearchData", END_INLINE,
+            "URL=http://m-dt-test2.jcpenney.com/b/6.jcp.min.20160523170552.js", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=DPJSESSIONID;DPUserTracking;SyndicateSiteRedirectHost;cmTPSet;TLTSID;CavSID;rr_rcs;DPOrder;ItemCount;ItemTotal;DPSessionTimeOutInterval;fsr.r;dpAkamaiOverride;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;CavSF;CavLTS;CavPI;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;referredSources;DP_USER_FAVCOUNT;fsr.s;_IFR_jcpenney.com_fsr.a;recentSearchData", END_INLINE,
+            "URL=http://m-dt-test2.jcpenney.com/b/7.jcp.min.20160523170552.js", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=DPJSESSIONID;DPUserTracking;SyndicateSiteRedirectHost;cmTPSet;TLTSID;CavSID;rr_rcs;DPOrder;ItemCount;ItemTotal;DPSessionTimeOutInterval;fsr.r;dpAkamaiOverride;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;CavSF;CavLTS;CavPI;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;referredSources;DP_USER_FAVCOUNT;fsr.s;_IFR_jcpenney.com_fsr.a;recentSearchData", END_INLINE,
+            "URL=http://m-dt-test2.jcpenney.com/b/CouponPage/coupon.html?v=20160523170615", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=DPJSESSIONID;DPUserTracking;SyndicateSiteRedirectHost;cmTPSet;TLTSID;CavSID;rr_rcs;DPOrder;ItemCount;ItemTotal;DPSessionTimeOutInterval;fsr.r;dpAkamaiOverride;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;CavSF;CavLTS;CavPI;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;referredSources;DP_USER_FAVCOUNT;fsr.s;_IFR_jcpenney.com_fsr.a;recentSearchData", END_INLINE
+    );
+ 	ns_end_transaction("API_SearchContent_GET", NS_AUTO_STATUS);
+    
+    ns_start_transaction("API_Tablet_GET");    
+    ns_web_url ("SearchCoupon2",
+        //"URL=http://m-dt-test2.jcpenney.com/v4/content/pg40027800029/tablet",
+        "URL=http://m-dt-test2.jcpenney.com/v2/content/pg40027800029/tablet",
+        "HEADER=Accept-Language:en-US,en;q=0.8",
+        "COOKIE=DPJSESSIONID;DPUserTracking;SyndicateSiteRedirectHost;cmTPSet;TLTSID;CavSID;rr_rcs;DPOrder;ItemCount;ItemTotal;DPSessionTimeOutInterval;fsr.r;dpAkamaiOverride;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;CavSF;CavLTS;CavPI;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;referredSources;DP_USER_FAVCOUNT;fsr.s;recentSearchData;_IFR_jcpenney.com_fsr.a",
+        "PreSnapshot=webpage_1464269686021.png",
+        "Snapshot=webpage_1464269686049.png"
+    );
+	ns_end_transaction("API_Tablet_GET", NS_AUTO_STATUS);
+        
+    ns_start_transaction("API_ContentCoupon_GET");    
+    ns_web_url ("SearchCoupon3",
+        //"URL=http://m-dt-test2.jcpenney.com/v4/content/coupons",
+        "URL=http://m-dt-test2.jcpenney.com/v2/content/coupons",
+        "HEADER=Accept-Language:en-US,en;q=0.8",
+        "COOKIE=DPJSESSIONID;DPUserTracking;SyndicateSiteRedirectHost;cmTPSet;TLTSID;CavSID;rr_rcs;DPOrder;ItemCount;ItemTotal;DPSessionTimeOutInterval;fsr.r;dpAkamaiOverride;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;CavSF;CavLTS;CavPI;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;referredSources;DP_USER_FAVCOUNT;fsr.s;recentSearchData;_IFR_jcpenney.com_fsr.a",
+        "PreSnapshot=webpage_1464269686049.png",
+        "Snapshot=webpage_1464269691046.png",
+        INLINE_URLS,
+            "URL=http://testdata.coremetrics.com/cm?tid=1&ci=60070811&vn2=e4.0&st=1464269554455&vn1=4.16.9&ec=utf-8&pi=Promotion%20Landing%20Page%3Ajcp%20coupon(pg40027800029)&cg=Mobile%7Cpg40027800029&se=coupon&rnd=1464276098614&pv_a11=1&pv_a12=bestmatch&pv_a17=Redirect&pv_a23=Google%20Chrome&pv_a38=responsive&ul=http%3A%2F%2Fm-dt-test2.jcpenney.com%2Ftablet%2Fjsp%2Fbrowse%2Fmarketing%2Fpromotion.jsp%3FpageId%3Dpg40027800029%26redirectTerm%3Dcoupon", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=CoreID6;TestSess3;60070811_login;60070811_reset", END_INLINE,
+            "URL=http://widget.criteo.com/event?a=11251&v=3.6.1&p0=e%3Dexd%26site_type%3Dm&p1=e%3Dvh&p2=e%3Ddis&adce=1", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=uid", END_INLINE,
+            "URL=http://platform.twitter.com/oct.js", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://a.wishabi.com/track.gif?aid=attrib&goal_id=2&goal_value=1&merchant_id=2207", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=https://googleads.g.doubleclick.net/pagead/viewthroughconversion/974303325/?random=1464269690004&cv=8&fst=1464269690004&num=1&fmt=3&guid=ON&u_h=768&u_w=1366&u_ah=728&u_aw=1366&u_cd=24&u_his=6&u_tz=330&u_java=true&u_nplug=11&u_nmime=99&data=ecomm_prodid%3D%3Becomm_pagetype%3Dhomepage%3Becomm_totalvalue%3D0.00&frm=0&url=http%3A//m-dt-test2.jcpenney.com/m/jcp-test-test-coupon/N-mpi6e5&tiba=JCPenney%20Coupons%20%26%20Promo%20Codes%20-%20JCPenney&async=1", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=id;IDE", "REDIRECT=YES", "LOCATION=https://www.google.com/ads/user-lists/974303325/?fmt=3&num=1&cv=8&frm=0&url=http%3A//m-dt-test2.jcpenney.com/m/jcp-test-test-coupon/N-mpi6e5&data=ecomm_prodid%3D%3Becomm_pagetype%3Dhomepage%3Becomm_totalvalue%3D0.00&random=1828618436", END_INLINE,
+            "URL=http://dms.netmng.com/si/CM/Tracking/ClickTracking.aspx?siclientid=1637&jscript=1", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=u", END_INLINE,
+            "URL=https://www.google.com/ads/user-lists/974303325/?fmt=3&num=1&cv=8&frm=0&url=http%3A//m-dt-test2.jcpenney.com/m/jcp-test-test-coupon/N-mpi6e5&data=ecomm_prodid%3D%3Becomm_pagetype%3Dhomepage%3Becomm_totalvalue%3D0.00&random=1828618436", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=https://uscollector.tealeaf.ibmcloud.com/collector/collectorPost", "METHOD=OPTIONS", "HEADER=Access-Control-Request-Headers:content-encoding, x-tealeaf, x-tealeaf-messagetypes, content-type, x-tealeaf-saas-appkey, x-tealeaf-saas-tltsid, x-requested-with, x-tealeaftype, x-tealeaf-page-url", "HEADER=Accept-Language:en-US,en;q=0.8", "HEADER=Origin:http://m-dt-test2.jcpenney.com", "HEADER=Access-Control-Request-Method:POST", END_INLINE
+    );
+	ns_end_transaction("API_ContentCoupon_GET", NS_AUTO_STATUS);    
+    ns_end_transaction("MOB_Coupon_SearchCoupon", NS_AUTO_STATUS);
+    ns_page_think_time(0);
+
+}

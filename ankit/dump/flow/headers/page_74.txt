@@ -1,0 +1,97 @@
+--Request 
+POST https://www.amazon.in/gp/cerberus/gv
+Host: www.amazon.in
+Cookie: session-id=260-6898445-8949221; i18n-prefs=INR; ubid-acbin=262-8671103-6623656; x-wl-uid=1OfaMC7JpnskpcFBQZ0Uq5V8k/Li+eH9j/u3WVuWMZt5YlTHc5uQTLxZFK0jTKGcRFjeKmsxSpo8=; session-token=\"FOD9ahBmF5GIKmPl1E0GHlNJV5EedVXMFVEZhlbBTx0kTXXMg1IYR5c5brnaRCYcCUYDFNILc5DnAHxrFPaxoptoxnDRXfbxQaDXulcLsGquoPty2zDMdmxnHPRVTtAnQDJ5n7OZtZxq8SQ36hwOyZ/OIwYQLZ84s7v4Fd3QqFQ7zkpZa9aeDQF9Ysr3lsS5MnV7pdgpl47Vgy7x4V7fxgY/Hg2HKg2CyscZ924Wm5C+krHuGrc01w==\"; lc-acbin=en_IN; csm-hit=tb:s-0ZFJYD08MQTRDRQYVHA4|1563387878215&t:1563387880574&adb:adblk_no; visitCount=2; session-id-time=2082758401l
+Origin: https://www.amazon.in
+Accept: */*
+Cache-Control: no-cache
+X-Requested-With: XMLHttpRequest
+Referer: https://www.amazon.in/Giant-Innovative-Stylish-Sunglasses-Aviator/dp/B07MPSZ7NK/ref=bbp_bb_d33a38_st_CCqh_w_0?psc=1&smid=ANTJPL45A9VCN
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Content-Type: application/x-www-form-urlencoded
+----
+ POSTDATA payload=%7B%22producerId%22%3A%22detail-page%22%2C%22asin%22%3A%22B07MPSZ7NK%22%2C%22asin_price%22%3A%22189.00%22%2C%22asin_shipping_price%22%3A%220.0%22%2C%22asin_currency_code%22%3A%22INR%22%2C%22device_type%22%3A%22WEB%22%2C%22display_code%22%3A%22Asin+is+not+eligible+because+it+is+price+competitive%22%2C%22substitute_count%22%3A%22-1%22%7D
+--Response 
+HTTP/1.1 200
+date: Wed, 17 Jul 2019 18:24:48 GMT
+x-amz-cf-pop: ORD52-C1
+server: Server
+vary: Accept-Encoding,User-Agent,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment
+content-encoding: gzip
+x-frame-options: SAMEORIGIN
+x-amz-rid: 6NMS4EA9ZK1D2ANSAE3D
+strict-transport-security: max-age=47474747; includeSubDomains; preload
+via: 1.1 1bc8b41b2ed9cf32d0eba23fa9af49b3.cloudfront.net (CloudFront)
+set-cookie: session-id=260-6898445-8949221; path=/; domain=.amazon.in; expires=Tue, 01-Jan-2036 00:00:01 GMT
+content-type: text/html; charset=UTF-8
+x-amz-id-1: 6NMS4EA9ZK1D2ANSAE3D
+x-cache: Miss from cloudfront
+cache-control: no-transform
+x-amz-cf-id: hcNaNEE5oEO6cSYhNkhEQ69jZIpVM_eP5siog9lkKqXxOOVBdfD3Ew==
+status: 200
+----
+--Request 
+GET https://ads.yahoo.com/cms/v1?esig=1~6772d6d12bf5fd5c41ee5ef107d84db09124942a&nwid=10000936839&sigv=1
+Host: ads.yahoo.com
+Cookie: B=461453heiupu8; APID=UP0e3a9be7-a8c0-11e9-8d3d-0aba2c9d9bfe; APIDTS=1563387858
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 302 Found
+Strict-Transport-Security: max-age=31536000
+Server: ATS
+X-Content-Type-Options: nosniff
+Connection: keep-alive
+Content-Length: 0
+P3P: policyref=\"https://policies.yahoo.com/w3c/p3p.xml\", CP=\"CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV\"
+X-XSS-Protection: 1; mode=block
+Age: 0
+Date: Wed, 17 Jul 2019 18:24:49 GMT
+Expect-CT: max-age=31536000, report-uri=\"http://csp.yahoo.com/beacon/csp?src=yahoocom-expect-ct-report-only\"
+Location: https://aax-eu.amazon-adsystem.com/s/ecm3?ex=rightmedia.com&xid=kKGSA5DNTKgLHSF2vALeot0t
+----
+--Request 
+GET https://dpm.demdex.net/ibs:dpid=139200&dpuuid=EEcGm8XjSoKzrfuqf-XkNA&redir=https%3A%2F%2Faax-eu.amazon-adsystem.com%2Fs%2Fecm3%3Fex%3Dadobe.com%26id%3D%24%7BDD_UUID%7D
+Host: dpm.demdex.net
+Cookie: demdex=30011250938841173712140356056757696890; dpm=30011250938841173712140356056757696890
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 302 Found
+Cache-Control: no-cache,no-store,must-revalidate,max-age=0,proxy-revalidate,no-transform,private
+X-TID: R0ViFzrVTkQ=
+Connection: keep-alive
+Set-Cookie: dpm=30011250938841173712140356056757696890;Path=/;Domain=.dpm.demdex.net;Expires=Mon, 13-Jan-2020 18:24:48 GMT;Max-Age=15552000
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Pragma: no-cache
+Content-Length: 0
+P3P: policyref=\"/w3c/p3p.xml\", CP=\"NOI NID CURa ADMa DEVa PSAa PSDa OUR SAMa BUS PUR COM NAV INT\"
+Location: https://aax-eu.amazon-adsystem.com/s/ecm3?ex=adobe.com&id=30011250938841173712140356056757696890
+----
+--Request 
+GET https://pixel.advertising.com/ups/56613/sync?redir=true&_origin=1
+Host: pixel.advertising.com
+Cookie: APID=UP0e3a9be7-a8c0-11e9-8d3d-0aba2c9d9bfe
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 302
+date: Wed, 17 Jul 2019 18:24:48 GMT
+content-length: 0
+set-cookie: APID=UP0e3a9be7-a8c0-11e9-8d3d-0aba2c9d9bfe;Version=1;Domain=.advertising.com;Path=/;Max-Age=31622400;Expires=Fri, 17-Jul-2020 18:24:48 GMT
+location: https://ups.analytics.yahoo.com/ups/56613/sync?redir=true&_origin=1&apid=UP0e3a9be7-a8c0-11e9-8d3d-0aba2c9d9bfe
+p3p: CP=NOI DSP COR LAW CURa DEVa TAIa PSAa PSDa OUR BUS UNI COM NAV
+status: 302
+----
+

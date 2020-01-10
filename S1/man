@@ -1,0 +1,22 @@
+/api/loyalty/v2/loyalty/product/kohlscash/1551931?rewardsPilot=true
+HTTP/1.1 200 OK^M
+Server: nginx/1.13.3^M
+Content-Type: application/json;charset=iso-8859-1^M
+x-correlation-id: PER-MRP-A3CG5-HQM2-1ICO2-2M1-N1I10^M
+X-Application-Context: msp-loyalty-service :8080^M
+correlation-id: PER-MRP-A3CG5-HQM2-1ICO2-2M1-N1I10^M
+Access-Control-Allow-Origin: *^M
+Access-Control-Allow-Headers: X-Requested-With^M
+Content-Encoding: gzip^M
+Content-Length: 265^M
+X-Origin-TTL: ^M
+Date: Wed, 11 Apr 2018 10:25:59 GMT^M
+Connection: keep-alive^M
+Vary: Accept-Encoding^M
+akamai-zipcode: 77001^M
+X-Origin-TTL: ^M
+X_REAL_TIME: -1^M
+^M
+
+------------------------------------------------------------
+

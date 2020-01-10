@@ -1,0 +1,47 @@
+--Request 
+POST https://fls-eu.amazon.in/1/batch/1/OE/
+Host: fls-eu.amazon.in
+Cookie: session-id=260-6898445-8949221; i18n-prefs=INR; ubid-acbin=262-8671103-6623656; x-wl-uid=1OfaMC7JpnskpcFBQZ0Uq5V8k/Li+eH9j/u3WVuWMZt5YlTHc5uQTLxZFK0jTKGcRFjeKmsxSpo8=; visitCount=1; session-token=\"FOD9ahBmF5GIKmPl1E0GHlNJV5EedVXMFVEZhlbBTx0kTXXMg1IYR5c5brnaRCYcCUYDFNILc5DnAHxrFPaxoptoxnDRXfbxQaDXulcLsGquoPty2zDMdmxnHPRVTtAnQDJ5n7OZtZxq8SQ36hwOyZ/OIwYQLZ84s7v4Fd3QqFQ7zkpZa9aeDQF9Ysr3lsS5MnV7pdgpl47Vgy7x4V7fxgY/Hg2HKg2CyscZ924Wm5C+krHuGrc01w==\"; lc-acbin=en_IN; session-id-time=2082787201l
+Origin: https://www.amazon.in
+Accept: */*
+Cache-Control: max-age=0
+Referer: https://www.amazon.in/Low-Price-With-Free-Shipping/bbp?category=/mens&pf_rd_p=b139ea56-b471-44e1-96c4-9419c155d0ed&pf_rd_r=QTX88JN8XW6309TZ412A
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Content-Type: text/plain;charset=UTF-8
+----
+ POSTDATA {"rid":"CEBK9MEJXP1JY36NH606","sid":"260-6898445-8949221","mid":"A21TJRUUN4KGV","sn":"www.amazon.in","reqs":[{"jserr-rw":{"m":"[CSM] Insecure content detected img : http://ecx.images-amazon.com/images/I/61fnWYBtoVL._SR258,310_.jpg","csm":"v5 ueLogError stack","logLevel":"WARN","attribution":"//*[@id='bb-s-item-3']/A/DIV[2]/DIV[2]/IMG","pageURL":"https://www.amazon.in/Low-Price-With-Free-Shipping/bbp?category=/mens&pf_rd_p=b139ea56-b471-44e1-96c4-9419c155d0ed&pf_rd_r=QTX88JN8XW6309TZ412A","s":["N/A"],"t":5524}},{"csmcount":{"counter":"foresterPayloadSize","t":0,"value":581}}]}
+--Response 
+HTTP/1.1 204
+access-control-allow-origin: *
+date: Wed, 17 Jul 2019 18:24:16 GMT
+x-amzn-requestid: 0938e9d1-bab4-40fc-80dc-a634b0a6ae80
+access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+status: 204
+----
+--Request 
+GET https://aax-eu.amazon-adsystem.com/s/v3/pr?exlist=rb_fw_imdb_fbca_kr_y_aold_pm_adb&fv=1.0&ex-pl-fbca=vb6JKmqdRAKA9qQqWmgyPw&a=cm&ep=G-bt0QVfmqkVP-j_o6PXsttFXA88KLlQvvX6Fa5f-Nvk68NpeF2mRcixDvq4mnP7
+Host: aax-eu.amazon-adsystem.com
+Cookie: ad-id=Aw2U5SPThEoFqF5QAjLktoM; ad-privacy=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+Referer: https://aax-eu.amazon-adsystem.com/s/iu3?d=amazon.in&slot=navFooter&a2=0101afceec47c6c6a16996aadaf40663cff63e043af14328b0b1712cd8256e0aeee5&old_oo=0&ts=1563387848089&s=Aay45gQtNHOkwteJ9HZRYIOVFhtozvO3GZnPOdgzYboz&cb=1563387848089
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+----
+--Response 
+HTTP/1.1 200 OK
+Cache-Control: max-age=0, no-cache, no-store, private, must-revalidate, s-maxage=0
+Server: Server
+Connection: keep-alive
+Content-Encoding: gzip
+Vary: Accept-Encoding,User-Agent
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Pragma: no-cache
+Content-Length: 687
+Date: Wed, 17 Jul 2019 18:24:16 GMT
+Content-Type: text/html;charset=ISO-8859-1
+----
+

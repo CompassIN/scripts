@@ -1,0 +1,346 @@
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">(function(f) {var _np=(window.P._namespace("AskAuiAssets"));if(_np.guardFatal){_np.guardFatal(f)(_np);}else{f(_np);}}(function(P) {
+  if (typeof P !== 'undefined') {
+    P.when('askDetailPageWidget').execute(function(detailPageWidget) {
+      detailPageWidget.setup();
+    });
+  }
+}));</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+
+
+<div id="ask-btf-container" cel_widget_id="ask-btf-desktop" class="celwidget">
+  <div class="askInlineWidget">
+    <hr class="a-divider-normal">
+    
+
+
+<h2 class="a-color-base askWidgetHeader">
+	Customer questions & answers
+</h2>
+    
+
+
+
+
+
+
+    <div class="askWidgetQuestions askLiveSearchHide">
+      <div class="a-row a-spacing-small a-spacing-top-base">
+        
+        
+        
+        
+        <span class="a-declarative" data-action="ask-btf-desktop-input-click" data-ask-btf-desktop-input-click="{&quot;searchButton&quot;:false}">
+          <span class="a-declarative" data-action="ask-btf-desktop-input-focusin" data-ask-btf-desktop-input-focusin="{&quot;searchButton&quot;:false}">
+            <span class="a-declarative" data-action="ask-btf-desktop-input-change" data-ask-btf-desktop-input-change="{&quot;searchButton&quot;:false}">
+              <span class="a-declarative" data-action="ask-btf-desktop-input-keyup" data-ask-btf-desktop-input-keyup="{&quot;searchButton&quot;:false}">
+                
+                
+                
+                <span class="a-declarative" data-action="ask-detail-page-search-prefetch-click" data-ask-detail-page-search-prefetch-click="{&quot;asin&quot;:&quot;B07PY95354&quot;,&quot;language&quot;:&quot;en_IN&quot;}">
+                  <span class="ask-btf-search-box">
+                    
+                      
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  if (typeof P !== 'undefined') {
+    P.when('askDesktopBtfSearch').execute(function(desktopBtfSearch) {
+      desktopBtfSearch.setup();
+    });
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="a-section askBtfSearchViewContent">
+  <form method="post" action="/ask/questions/asin/B07PY95354/create" class="askBtfSearchForm">
+    <input type="hidden" name="askQuestionSource" value="DP_ASK_ABOVE_REVIEWS">
+    <input type="hidden" name="askErrorUrl" value="/gp/product/B07PY95354?noLL=1#Ask">
+    <input type="hidden" name="askAsin" value="B07PY95354" class="askAsin">
+    <input type="hidden" name="askQuestionSourcePage" value="DETAIL_PAGE">
+    <input type="hidden" name="liveSearchSessionId" class="askLiveSearchSessionId">
+    <input type="hidden" name="liveSearchPageLoadId" class="askLiveSearchPageLoadId">
+    <input type="hidden" name="searchSource" value="LIVE_SEARCH_SOURCE">
+    <input type="hidden" name="typeaheadSearchSource" value="TYPEAHEAD_BTF_SOURCE">
+    <input type="hidden" name="originalSearchSource" value="LIVE_SEARCH_SOURCE">
+    <input type="hidden" name="followupSearchSource" value="BTF_FOLLOWUP_QUESTION_SEARCH_SOURCE">
+    <input type='hidden' name='__token_' value='bkdO6mS17YWrWuj2BmHg4uu6bjHHAj3D' />
+    <span class="a-declarative" data-action="ask-prevent-enter-key" data-ask-prevent-enter-key="{}">
+      
+      
+      <div data-autocomplete-search-results-brief="Search results for ##query##" class="a-section a-spacing-base askBtfSearchFormLabel askAutocomplete">
+	      
+	        
+	        
+	          
+                
+                
+	              <div class="a-search a-span12"><i class="a-icon a-icon-search"></i><input type="search" maxlength="150" autocomplete="off" placeholder="Have a question? Search for answers" name="askQuestionText" class="a-input-text a-span12 askBtfSearchTextInput askBtfSearchPostTextInput askAutocompleteTextInput"></div>
+                
+              
+	        
+        
+      </div>
+    </span>
+    
+    <div class="a-section a-text-center askBtfSearchSearchIndicator aok-hidden">
+      <span class="a-spinner a-spinner-medium"></span>
+    </div>
+
+    <div class="a-section askBtfSearchResultsViewableContent aok-hidden">
+      
+        <div class="a-section askBtfSearchQuestionErrorContainer">
+          <p class="a-spacing-base a-spacing-top-base a-color-error askError askBadQuestionError">
+            Please make sure that you've entered a valid question.  You can edit your question or post anyway.
+          </p>
+        </div>
+        
+        <div class="a-section a-text-left askPostQuestionPromptContainer">
+          <span class="a-size-base a-color-tertiary a-text-bold">
+                Don't see what you're looking for?
+          </span>
+          <span class="a-declarative" data-action="ask-btfsearch-desktop-post-question" data-ask-btfsearch-desktop-post-question="{}">
+            <span class="a-button a-button-base askDetailPageSearchSubmitQuestionButton"><span class="a-button-inner"><button class="a-button-text" type="button" value="Ask the Community">
+                  Ask the Community
+            </button></span></span>
+          </span>
+        </div>
+      
+
+      <div class="a-section askBtfSearchFailureMessage">
+        There was a problem completing your request. Please try your search again later.
+      </div>
+
+      <div class="a-section a-spacing-base askBtfSearchTabHeaders">
+        <span class="a-declarative" data-action="ask-btfsearch-desktop-go-to-tab" data-ask-btfsearch-desktop-go-to-tab="{&quot;index&quot;:0}">
+          <span class="a-declarative" data-action="ask-log-click-csm" data-ask-log-click-csm="{&quot;metricName&quot;:&quot;ask-btf-search-desktop-allresults-tab-click&quot;}">
+            <span class="askBtfSearchResultsHeader askBtfSearchResultsHeaderActive">
+              All
+            </span>
+          </span>
+        </span>
+            
+        <span class="a-declarative" data-action="ask-btfsearch-desktop-go-to-tab" data-ask-btfsearch-desktop-go-to-tab="{&quot;index&quot;:1}">
+          <span class="a-declarative" data-action="ask-log-click-csm" data-ask-log-click-csm="{&quot;metricName&quot;:&quot;ask-btf-search-desktop-productinfo-tab-click&quot;}">
+            <span class="askBtfSearchResultsHeader">
+              Product Information
+            </span>
+          </span>
+        </span>
+        <span class="a-declarative" data-action="ask-btfsearch-desktop-go-to-tab" data-ask-btfsearch-desktop-go-to-tab="{&quot;index&quot;:2}">
+          <span class="a-declarative" data-action="ask-log-click-csm" data-ask-log-click-csm="{&quot;metricName&quot;:&quot;ask-btf-search-desktop-qnas-tab-click&quot;}">
+            <span class="askBtfSearchResultsHeader">
+              Customer Q&A's
+            </span>
+          </span>
+        </span>
+        <span class="a-declarative" data-action="ask-btfsearch-desktop-go-to-tab" data-ask-btfsearch-desktop-go-to-tab="{&quot;index&quot;:3}">
+          <span class="a-declarative" data-action="ask-log-click-csm" data-ask-log-click-csm="{&quot;metricName&quot;:&quot;ask-btf-search-desktop-reviews-tab-click&quot;}">
+            <span class="askBtfSearchResultsHeader">
+              Customer Reviews
+            </span>
+          </span>
+        </span>
+        <hr class="a-divider-normal">
+      </div>
+
+      <div class="a-section a-spacing-none askBtfSearchResultsContainer"></div>
+      
+    </div>               
+  </form>
+</div>
+                      
+                      
+                    
+                  </span>
+                </span>
+              </span>
+            </span>
+          </span>
+        </span>
+
+        <p class="a-spacing-top-base a-color-error askBtfErrorOnLoadingMozartTopQuestions aok-hidden">
+          There was a problem completing your request. Please try again later.
+        </p>
+
+        
+      </div>
+      <div class="a-section a-spacing-none askBtfTopQuestionsContainer">
+        <span class="askTopQandA">
+          
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+        </span>
+        <div class="a-section askMoreQandAResults">
+        </div>
+        
+        <div class="a-row a-spacing-base a-spacing-top-micro askSeeMoreQuestionsGrid">
+          
+        </div>
+      </div>
+    </div>
+    <span class="askInlineAnswers"> </span>
+    
+      
+
+
+
+
+
+
+
+	
+
+ 
+<div class="askQuestionExamples">
+	<div class="askTypicalExamples"> Typical questions asked about products:  </div>
+	<div class="askExampleQuestion"> &nbsp;-&nbsp; Is the item durable? </div>
+	<div class="askExampleQuestion"> &nbsp;-&nbsp; Is this item easy to use? </div>
+	<div class="askExampleQuestion"> &nbsp;-&nbsp; What are the dimensions of this item? </div>
+</div>
+
+    
+  </div>
+</div>
+
+

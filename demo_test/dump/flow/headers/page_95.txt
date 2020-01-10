@@ -1,0 +1,23 @@
+--Request 
+POST https://fls-eu.amazon.in/1/batch/1/OE/
+Host: fls-eu.amazon.in
+Cookie: session-id=259-1202557-5929705; i18n-prefs=INR; ubid-acbin=258-0672242-6953331; x-wl-uid=1ecJvyxzwiGLpb/ivu3x3ngupYO7bY1+BPjlMC56V5J9AKfsIjsCkfc+Jr7a3C9XLJxX0u1syPM0=; session-token=\"qbOQOkS0VEpBUocLOZRgf/vBjfAa/L1gvzuk4dHaABRLwBcXdkoWG+tgKYovU/GtpgviGH2ntZ17AVp7e48ZFY6MNw3iH/RJtLL2eZrJEHt3s9Cy0QE8n08HbD+hmqwfffrZuHf+ncTYp9ne7NmDLRaqAwIAVoD+O39gZOoyeiIbwRC9aZp+vc79loUdfIgRN7k1iETJ2x2I7SZjKc9arkykk2SqRFhbbijoObQQg4mvjy58UMqGvQ==\"; lc-acbin=en_IN; session-id-time=2082758401l; visitCount=2
+Origin: https://www.amazon.in
+Accept: */*
+Cache-Control: max-age=0
+Referer: https://www.amazon.in/b?ie=UTF8&node=16182118031&s=review-rank&pf_rd_p=5257cbb4-a92e-49af-bb2e-3535232a9738&pf_rd_r=FQHMBRA36T6KVA44S1T8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Content-Type: text/plain;charset=UTF-8
+----
+ POSTDATA {"rid":"EH62JJ2C4MP7MD1QJXHQ","sid":"259-1202557-5929705","mid":"A21TJRUUN4KGV","sn":"www.amazon.in","reqs":[{"cel":{"k":"mmm1","e":[{"x":227,"y":357,"t":41934},{"x":566,"y":2,"t":42009},{"x":446,"y":7,"t":42668},{"x":229,"y":196,"t":42925},{"x":224,"y":188,"t":43011}],"min":9,"max":130,"avg":49}},{"cel":{"k":"mmm1","e":[{"x":222,"y":188,"t":45022},{"x":84,"y":92,"t":45074}],"min":9,"max":130,"avg":45}},{"cel":{"k":"ebl","t":46224,"s":"default"}},{"cel":{"k":"hrt","t":46224}},{"csm":{"k":"chk","f":8,"l":{"csmcount":72,"cel":143,"csm":9,"navigation":1,"jserr-rw":2},"s":"full"}}]}
+--Response 
+HTTP/1.1 204
+access-control-allow-origin: *
+date: Mon, 08 Jul 2019 13:25:16 GMT
+x-amzn-requestid: ef370ade-8374-47e5-b911-aa047d483d00
+access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+status: 204
+----
+

@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message DataType {
+  uint64 uint64type = 6;
+}

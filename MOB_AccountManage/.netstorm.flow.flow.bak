@@ -1,0 +1,762 @@
+/*-----------------------------------------------------------------------------
+    Name: flow
+    Recorded By: netstorm
+    Date of recording: 04/28/2017 01:40:28
+    Flow details:
+    Build details: 4.1.6 (build# 56)
+    Modification History:
+-----------------------------------------------------------------------------*/
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "ns_string.h"
+
+void flow()
+{
+
+    // Click on Account
+    // Click On SignIn
+    int Exituser = ns_get_random_number_int(0,100);
+    ns_start_transaction("MOB_CAM_ClickOnSignIn");	   
+    ns_web_url ("API_SignIn",
+        "URL=https://m.jcpenney.com/signin",
+        "HEADER=Upgrade-Insecure-Requests:1",
+        "HEADER=Accept-Language:en-in",
+        "COOKIE=yoda-experience;BNSPrevPercentage;BNSOrigin;mbox;jcp.ab.test;clientTestPool1;testpool;cmTPSet;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID",
+        "PreSnapshot=webpage_1493360853295.png",
+        "Snapshot=webpage_1493360853398.png",
+        INLINE_URLS,
+            "URL=https://m.jcpenney.com/b/assets/img/logo.svg?v=20170411105036", "HEADER=Accept-Language:en-in", "COOKIE=yoda-experience;BNSPrevPercentage;BNSOrigin;mbox;jcp.ab.test;clientTestPool1;testpool;cmTPSet;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID", END_INLINE,
+            "URL=https://m.jcpenney.com/b/assets/css/pure-base.css?v=20170411105036", "HEADER=Accept-Language:en-in", "COOKIE=yoda-experience;BNSPrevPercentage;BNSOrigin;mbox;jcp.ab.test;clientTestPool1;testpool;cmTPSet;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID", END_INLINE,
+            "URL=https://m.jcpenney.com/b/assets/css/home.css?v=20170411105036", "HEADER=Accept-Language:en-in", "COOKIE=yoda-experience;BNSPrevPercentage;BNSOrigin;mbox;jcp.ab.test;clientTestPool1;testpool;cmTPSet;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID", END_INLINE,
+            "URL=https://m.jcpenney.com/b/assets/vendor/jquery.js?v=2.1.1", "HEADER=Accept-Language:en-in", "COOKIE=yoda-experience;BNSPrevPercentage;BNSOrigin;mbox;jcp.ab.test;clientTestPool1;testpool;cmTPSet;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID", END_INLINE,
+            "URL=https://m.jcpenney.com/b/core.0565c9daa670b7ab4f77.js", "HEADER=Accept-Language:en-in", "COOKIE=yoda-experience;BNSPrevPercentage;BNSOrigin;mbox;jcp.ab.test;clientTestPool1;testpool;cmTPSet;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID", END_INLINE,
+            "URL=https://m.jcpenney.com/b/deps.dd2ae7afe78e50119c68.js", "HEADER=Accept-Language:en-in", "COOKIE=yoda-experience;BNSPrevPercentage;BNSOrigin;mbox;jcp.ab.test;clientTestPool1;testpool;cmTPSet;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID", END_INLINE,
+            "URL=https://m.jcpenney.com/b/assets/js/jcpredirectrules.js?v=20170411105036", "HEADER=Accept-Language:en-in", "COOKIE=yoda-experience;BNSPrevPercentage;BNSOrigin;mbox;jcp.ab.test;clientTestPool1;testpool;cmTPSet;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID", END_INLINE,
+            "URL=https://m.jcpenney.com/b/app.5f83dc802b0c15665be9.js", "HEADER=Accept-Language:en-in", "COOKIE=yoda-experience;BNSPrevPercentage;BNSOrigin;mbox;jcp.ab.test;clientTestPool1;testpool;cmTPSet;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID", END_INLINE,
+            "URL=https://m.jcpenney.com/b/pages.3f844f801f9729f12e70.js", "HEADER=Accept-Language:en-in", "COOKIE=yoda-experience;BNSPrevPercentage;BNSOrigin;mbox;jcp.ab.test;clientTestPool1;testpool;cmTPSet;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID", END_INLINE,
+            "URL=https://m.jcpenney.com/b/assets/vendor/mbox-responsive.js", "HEADER=Accept-Language:en-in", "COOKIE=yoda-experience;BNSPrevPercentage;BNSOrigin;mbox;jcp.ab.test;clientTestPool1;testpool;cmTPSet;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID", END_INLINE,
+            "URL=https://m.jcpenney.com/b/assets/fonts/jcp-icons_1ec365fb9f26fa6928906e2955234fa6.woff", "HEADER=Accept-Language:en-in", "HEADER=Origin:https://m.jcpenney.com", "COOKIE=yoda-experience;BNSPrevPercentage;BNSOrigin;mbox;jcp.ab.test;clientTestPool1;testpool;cmTPSet;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID", END_INLINE,
+            "URL=https://cdn.tt.omtrdc.net/cdn/target.js", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=https://jcpenney.tt.omtrdc.net/m2/jcpenney/mbox/ajax?mboxHost=m.jcpenney.com&mboxPage=1493360843277-812513&screenHeight=768&screenWidth=1366&browserWidth=1366&browserHeight=607&browserTimeOffset=-300&colorDepth=24&mboxSession=1493360771880-653748&mboxPC=1493360771880-653748.20_43&login_status=null&mboxCount=1&mboxTime=1493342843282&mbox=target-global-mbox&mboxId=0&mboxURL=https%3A%2F%2Fm.jcpenney.com%2Fsignin&mboxReferrer=http%3A%2F%2Fm.jcpenney.com%2F&mboxVersion=60", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=https://m.jcpenney.com/signin", "HEADER=Upgrade-Insecure-Requests:1", "HEADER=Accept-Language:en-in", "COOKIE=yoda-experience;BNSPrevPercentage;BNSOrigin;jcp.ab.test;clientTestPool1;testpool;cmTPSet;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;mbox", END_INLINE
+    );
+    
+   ns_start_transaction("API_CAM_settings_GET");    	
+   ns_web_url ("API_SignIn_settings",
+        "URL=https://m.jcpenney.com/v2.1/settings",
+        "HEADER=Accept-Language:en-in",
+        "COOKIE=yoda-experience;BNSPrevPercentage;BNSOrigin;jcp.ab.test;clientTestPool1;testpool;cmTPSet;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;mbox",
+        "PreSnapshot=webpage_1493360854508.png",
+        "Snapshot=webpage_1493360855284.png",
+        INLINE_URLS,
+            "URL=https://m.jcpenney.com/b/assets/css/base.css?v=20170411105036", "HEADER=Accept-Language:en-in", "COOKIE=yoda-experience;BNSPrevPercentage;BNSOrigin;jcp.ab.test;clientTestPool1;testpool;cmTPSet;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;mbox", END_INLINE,
+            "URL=https://m.jcpenney.com/b/assets/css/jcp.css?v=20170411105036", "HEADER=Accept-Language:en-in", "COOKIE=yoda-experience;BNSPrevPercentage;BNSOrigin;jcp.ab.test;clientTestPool1;testpool;cmTPSet;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;mbox", END_INLINE,
+            "URL=https://m.jcpenney.com/b/components/JCPSignInForm/JCPSignInForm.html?v=20170411105036", "HEADER=Accept-Language:en-in", "COOKIE=yoda-experience;BNSPrevPercentage;BNSOrigin;jcp.ab.test;clientTestPool1;testpool;cmTPSet;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;mbox", END_INLINE,
+            "URL=https://wurfl.io/wurfl.js", "HEADER=Accept-Language:en-in", "COOKIE=_wios;_wiou", END_INLINE,
+            "URL=https://m.jcpenney.com/b/assets/vendor/eluminate.min.js", "HEADER=Accept-Language:en-in", "COOKIE=yoda-experience;BNSPrevPercentage;BNSOrigin;jcp.ab.test;clientTestPool1;testpool;cmTPSet;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;mbox", END_INLINE,
+            "URL=https://m.jcpenney.com/b/assets/img/jcp-app-dl-logo-red.png", "HEADER=Accept-Language:en-in", "COOKIE=yoda-experience;BNSPrevPercentage;BNSOrigin;testpool;cmTPSet;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;mbox;jcp.ab.test;clientTestPool1", END_INLINE
+    );
+    ns_end_transaction("API_CAM_settings_GET", NS_AUTO_STATUS);
+    ns_end_transaction("MOB_CAM_ClickOnSignIn", NS_AUTO_STATUS);    
+	ns_page_think_time(0.102);
+	 if(Exituser <= 63){
+    	 ns_start_transaction("MOB_CAM_AbandonmentAtLoginAndRegistration");
+    	 ns_end_transaction("MOB_CAM_AbandonmentAtLoginAndRegistration", NS_AUTO_STATUS);
+    	ns_exit_session();
+    }
+
+	// Enter Username/Password and SignIn
+    ns_start_transaction("MOB_CAM_Login");    
+    ns_start_transaction("API_CAM_session_POST");    
+    ns_web_url ("API_SignIn_session",
+        "URL=https://m.jcpenney.com/v4/session",
+        "METHOD=POST",
+        "HEADER=Accept-Language:en-in",
+        "HEADER=Origin:https://m.jcpenney.com",
+        "HEADER=Content-Type:application/json;charset=UTF-8",
+        "COOKIE=yoda-experience;BNSPrevPercentage;BNSOrigin;testpool;cmTPSet;mbox;jcp.ab.test;clientTestPool1;LPCKEY-58507821;LPVID;LPSID-58507821;TLTSID;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;CavNVC;CavSF;_uetsid;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;c17;v53;s_ptc;s_cc;s_sq",
+        "REDIRECT=YES",
+        "LOCATION=https://m.jcpenney.com/v4/accounts/L110056920658",
+        "PreSnapshot=webpage_1493360905025.png",
+        "Snapshot=webpage_1493360908798.png",
+        //"{"email":"srcom000000012636@example.com","password":"Load12636","captchaToken":""}",
+        BODY_BEGIN,
+            "{"email":"{EmailIdFP}","password":"{PasswordFP}","captchaToken":""}",
+        BODY_END,
+        INLINE_URLS,
+            "URL=https://www88.jcpenney.com/cm?ci=90024642&st=1493360855374&vn1=4.16.9&ec=utf-8&pi=Login&ul=https%3A%2F%2Fm.jcpenney.com&tid=8&ti=1493360905024&nm=user-sign-in&hr=javascript%3Avoid(0)%3B", "HEADER=Accept-Language:en-in", "COOKIE=yoda-experience;BNSPrevPercentage;BNSOrigin;testpool;CoreID6;TestSess3;90024642_login;mbox;clientTestPool1;90024642_reset;LPCKEY-58507821;LPVID;LPSID-58507821;TLTSID;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;_uetsid;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg", END_INLINE
+    );
+    ns_end_transaction("API_CAM_session_POST", NS_AUTO_STATUS);	
+    
+    
+    char *UserID = ns_get_cookie_val_ex("DYN_USER_ID", NULL, NULL);
+    ns_save_string(UserID, "DynUserIdDP");
+	
+    ns_start_transaction("API_CAM_stores_GET");    
+    ns_web_url ("API_stores",
+        //"URL=https://m.jcpenney.com/v4/accounts/L110056920658/stores?v=1493360909344",
+        "URL=https://m.jcpenney.com/v4/accounts/{DynUserIdDP}/stores?v=1493360909344",
+        "HEADER=Accept-Language:en-in",
+        "COOKIE=yoda-experience;BNSPrevPercentage;BNSOrigin;cmTPSet;mbox;jcp.ab.test;clientTestPool1;LPCKEY-58507821;LPVID;LPSID-58507821;TLTSID;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;CavNVC;CavSF;_uetsid;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;c17;v53;s_ptc;s_cc;s_sq;DPUserTracking;DPSecureCookie;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_PPIDS;omni_profileType;omni_profileAttr;omni_profileOptin;APITOKEN;DPOrder;ItemCount;ItemTotal;InternationalItemTotal;DPLastAccessedTime;DPIdentifier;DPSessionTimeOutInterval;testpool;DPCluster;DPInstance;DPJSESSIONID;DPSTKN;JCPSignInCookie;USER_ACCT_ID;SVCVER;JCP_MEEVO_SALON;JCP_MEEVO_SEPHORA;JCP_MEEVO_CDEC",
+        "PreSnapshot=webpage_1493360909357.png",
+        "Snapshot=webpage_1493360909818.png",
+        INLINE_URLS,
+            "URL=https://www88.jcpenney.com/cm?ci=90024642&st=1493360855374&vn1=4.16.9&ec=utf-8&protocol=https%3A&vn2=e4.0&rf=https%3A%2F%2Fm.jcpenney.com%2Fsignin&ul=https%3A%2F%2Fm.jcpenney.com%2Fsignin&tid=2&cd=20101573135&rnd=1493369021372", "HEADER=Accept-Language:en-in", "COOKIE=yoda-experience;BNSPrevPercentage;BNSOrigin;CoreID6;TestSess3;90024642_login;mbox;clientTestPool1;LPCKEY-58507821;LPVID;LPSID-58507821;TLTSID;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;_uetsid;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;90024642_reset;DPUserTracking;DPSecureCookie;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_PPIDS;omni_profileType;omni_profileAttr;omni_profileOptin;APITOKEN;DPOrder;ItemCount;ItemTotal;InternationalItemTotal;DPLastAccessedTime;DPIdentifier;DPSessionTimeOutInterval;testpool;DPCluster;DPInstance;DPJSESSIONID;DPSTKN;USER_ACCT_ID;JCP_MEEVO_SALON;JCP_MEEVO_SEPHORA;JCP_MEEVO_CDEC;SVCVER", END_INLINE
+    );
+    ns_end_transaction("API_CAM_stores_GET", NS_AUTO_STATUS);    
+	ns_end_transaction("MOB_CAM_Login", NS_AUTO_STATUS);
+	ns_page_think_time(0.102);
+	//After SignIn landing to Home Page containing My Account
+//    
+//   ns_start_transaction("API_Login_Home_GET");	
+//   ns_web_url ("API_SignIn_Home",
+//        "URL=http://m.jcpenney.com/",
+//        "HEADER=Upgrade-Insecure-Requests:1",
+//        "HEADER=Accept-Language:en-in",
+//        "COOKIE=yoda-experience;BNSPrevPercentage;BNSOrigin;cmTPSet;mbox;jcp.ab.test;clientTestPool1;LPCKEY-58507821;LPVID;LPSID-58507821;TLTSID;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;CavSF;_uetsid;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;c17;v53;s_ptc;s_cc;s_sq;DPUserTracking;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_PPIDS;omni_profileType;omni_profileAttr;omni_profileOptin;DPOrder;ItemCount;ItemTotal;InternationalItemTotal;DPLastAccessedTime;DPIdentifier;DPSessionTimeOutInterval;testpool;DPCluster;DPInstance;DPJSESSIONID;DPSTKN;JCPSignInCookie;USER_ACCT_ID;JCP_MEEVO_SALON;JCP_MEEVO_SEPHORA;JCP_MEEVO_CDEC;SVCVER;CavNVC",
+//        "PreSnapshot=webpage_1493360909903.png",
+//        "Snapshot=webpage_1493360910194.png"
+//    );
+//    ns_end_transaction("API_Login_Home_GET", NS_AUTO_STATUS);	
+//	
+// 
+//    ns_start_transaction("API_Login_settings_GET");    
+//    ns_web_url ("API_SignIn_Settings",
+//        "URL=http://m.jcpenney.com/v2.1/settings",
+//        "HEADER=Accept-Language:en-in",
+//        "COOKIE=yoda-experience;cmTPSet;jcp.ab.test;clientTestPool1;LPCKEY-58507821;LPVID;LPSID-58507821;TLTSID;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;CavSF;_uetsid;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;c17;v53;s_ptc;s_cc;s_sq;DPUserTracking;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_PPIDS;omni_profileType;omni_profileAttr;omni_profileOptin;DPOrder;ItemCount;ItemTotal;InternationalItemTotal;DPLastAccessedTime;DPIdentifier;DPSessionTimeOutInterval;testpool;DPCluster;DPInstance;DPJSESSIONID;DPSTKN;JCPSignInCookie;USER_ACCT_ID;JCP_MEEVO_SALON;JCP_MEEVO_SEPHORA;JCP_MEEVO_CDEC;SVCVER;CavNVC;BNSPrevPercentage;BNSOrigin;mbox",
+//        "PreSnapshot=webpage_1493360912385.png",
+//        "Snapshot=webpage_1493360912896.png",
+//        INLINE_URLS,
+//            "URL=http://wurfl.io/wurfl.js", "HEADER=Accept-Language:en-in", "COOKIE=_wios;_wiou", END_INLINE,
+//            "URL=http://m.jcpenney.com/b/assets/vendor/eluminate.min.js", "HEADER=Accept-Language:en-in", "COOKIE=yoda-experience;cmTPSet;jcp.ab.test;clientTestPool1;LPCKEY-58507821;LPVID;LPSID-58507821;TLTSID;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;CavSF;_uetsid;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;c17;v53;s_ptc;s_cc;s_sq;DPUserTracking;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_PPIDS;omni_profileType;omni_profileAttr;omni_profileOptin;DPOrder;ItemCount;ItemTotal;InternationalItemTotal;DPLastAccessedTime;DPIdentifier;DPSessionTimeOutInterval;testpool;DPCluster;DPInstance;DPJSESSIONID;DPSTKN;JCPSignInCookie;USER_ACCT_ID;JCP_MEEVO_SALON;JCP_MEEVO_SEPHORA;JCP_MEEVO_CDEC;SVCVER;CavNVC;BNSPrevPercentage;BNSOrigin;mbox", END_INLINE
+//    );
+//    ns_end_transaction("API_Login_settings_GET", NS_AUTO_STATUS);	
+//	
+//    
+//    ns_start_transaction("API_Login_categories_GET");    
+//    ns_web_url ("API_SignIn_categories",
+//        "URL=http://m.jcpenney.com/v4/categories/root?rwdcb=20170411105036",
+//        "HEADER=Accept-Language:en-in",
+//        "COOKIE=yoda-experience;cmTPSet;LPCKEY-58507821;LPVID;LPSID-58507821;TLTSID;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;CavSF;_uetsid;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;c17;v53;s_ptc;s_cc;s_sq;DPUserTracking;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_PPIDS;omni_profileType;omni_profileAttr;omni_profileOptin;DPOrder;ItemCount;ItemTotal;InternationalItemTotal;DPLastAccessedTime;DPIdentifier;DPSessionTimeOutInterval;testpool;DPCluster;DPInstance;DPJSESSIONID;DPSTKN;JCPSignInCookie;USER_ACCT_ID;SVCVER;CavNVC;BNSPrevPercentage;BNSOrigin;mbox;jcp.ab.test;clientTestPool1",
+//        "PreSnapshot=webpage_1493360912896.png",
+//        "Snapshot=webpage_1493360912907.png"
+//    );
+//    ns_end_transaction("API_Login_categories_GET", NS_AUTO_STATUS);	
+//
+//
+//    ns_start_transaction("API_Login_content_GET");    
+//    ns_web_url ("API_SignIn_content",
+//        "URL=http://m.jcpenney.com/v2.1/content/pg00001/mobile?rwdcb=20170411105036",
+//        "HEADER=Accept-Language:en-in",
+//        "COOKIE=yoda-experience;cmTPSet;LPCKEY-58507821;LPVID;LPSID-58507821;TLTSID;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;CavSF;_uetsid;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;c17;v53;s_ptc;s_cc;s_sq;DPUserTracking;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_PPIDS;omni_profileType;omni_profileAttr;omni_profileOptin;DPOrder;ItemCount;ItemTotal;InternationalItemTotal;DPLastAccessedTime;DPIdentifier;DPSessionTimeOutInterval;testpool;DPCluster;DPInstance;DPJSESSIONID;DPSTKN;JCPSignInCookie;USER_ACCT_ID;SVCVER;CavNVC;BNSPrevPercentage;BNSOrigin;mbox;jcp.ab.test;clientTestPool1",
+//        "PreSnapshot=webpage_1493360912907.png",
+//        "Snapshot=webpage_1493360912991.png"
+//    );
+//    ns_end_transaction("API_Login_content_GET", NS_AUTO_STATUS);	
+//	
+//    ns_start_transaction("API_Login_ContentHome_GET");    
+//    ns_web_url ("API_SignIn_ContentHome",
+//        "URL=http://m.jcpenney.com/v4/content/home?rwdcb=20170411105036",
+//        "HEADER=Accept-Language:en-in",
+//        "COOKIE=yoda-experience;cmTPSet;LPCKEY-58507821;LPVID;LPSID-58507821;TLTSID;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;CavSF;_uetsid;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;c17;v53;s_ptc;s_cc;s_sq;DPUserTracking;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_PPIDS;omni_profileType;omni_profileAttr;omni_profileOptin;DPOrder;ItemCount;ItemTotal;InternationalItemTotal;DPLastAccessedTime;DPIdentifier;DPSessionTimeOutInterval;testpool;DPCluster;DPInstance;DPJSESSIONID;DPSTKN;JCPSignInCookie;USER_ACCT_ID;SVCVER;CavNVC;BNSPrevPercentage;BNSOrigin;mbox;jcp.ab.test;clientTestPool1",
+//        "PreSnapshot=webpage_1493360912991.png",
+//        "Snapshot=webpage_1493360915322.png",
+//        INLINE_URLS,
+//            "URL=http://libs.coremetrics.com/configs/90024642.js", "HEADER=Accept-Language:en-in", END_INLINE,
+//            "URL=http://www88.jcpenney.com/cookie-id.js?fn=eluminate8080", "HEADER=Accept-Language:en-in", "COOKIE=yoda-experience;CoreID6;TestSess3;90024642_login;LPCKEY-58507821;LPVID;LPSID-58507821;TLTSID;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;_uetsid;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;DPUserTracking;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_PPIDS;omni_profileType;omni_profileAttr;omni_profileOptin;DPOrder;ItemCount;ItemTotal;InternationalItemTotal;DPLastAccessedTime;DPIdentifier;DPSessionTimeOutInterval;testpool;DPCluster;DPInstance;DPJSESSIONID;DPSTKN;USER_ACCT_ID;SVCVER;BNSPrevPercentage;BNSOrigin;mbox;90024642_reset;clientTestPool1", END_INLINE,
+//            "URL=http://www88.jcpenney.com/cm?ci=90024642&st=1493360913557&vn1=4.16.9&ec=utf-8&vn2=e4.0&pi=Welcome&ul=http%3A%2F%2Fm.jcpenney.com%2F&tid=1&cg=Mobile%7CWelcome&rnd=1493367591815&pv_a4=20101573135&pv_a23=Google%20Chrome&pv_a38=responsive", "HEADER=Accept-Language:en-in", "COOKIE=yoda-experience;CoreID6;TestSess3;90024642_login;LPCKEY-58507821;LPVID;LPSID-58507821;TLTSID;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;_uetsid;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;DPUserTracking;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_PPIDS;omni_profileType;omni_profileAttr;omni_profileOptin;DPOrder;ItemCount;ItemTotal;InternationalItemTotal;DPLastAccessedTime;DPIdentifier;DPSessionTimeOutInterval;testpool;DPCluster;DPInstance;DPJSESSIONID;DPSTKN;USER_ACCT_ID;SVCVER;BNSPrevPercentage;BNSOrigin;mbox;90024642_reset;clientTestPool1", END_INLINE,
+//            "URL=http://nexus.ensighten.com/jcpenney/prod/serverComponent.php?r=8885704266.924301&ClientID=730&PageID=http%3A%2F%2Fm.jcpenney.com%2F", "HEADER=Accept-Language:en-in", END_INLINE,
+//            "URL=http://nexus.ensighten.com/jcpenney/prod/code/88a70c01f7a0933a76e260c827fb3606.js?conditionId0=324309", "HEADER=Accept-Language:en-in", END_INLINE,
+//            "URL=http://nexus.ensighten.com/jcpenney/prod/code/022c5310fe895e0a983435ad46ac3549.js?conditionId0=335310", "HEADER=Accept-Language:en-in", END_INLINE,
+//            "URL=http://nexus.ensighten.com/jcpenney/prod/code/d77a940d8d19849e8988cf12bddaf014.js?conditionId0=454795", "HEADER=Accept-Language:en-in", END_INLINE,
+//            "URL=http://nexus.ensighten.com/jcpenney/prod/code/917c49a2004d2d8ef510e0d6f92ed48d.js?conditionId0=346183", "HEADER=Accept-Language:en-in", END_INLINE,
+//            "URL=http://nexus.ensighten.com/jcpenney/prod/code/0f5a676ae1e8054f19c40224b4a93570.js?conditionId0=422808", "HEADER=Accept-Language:en-in", END_INLINE,
+//            "URL=http://nexus.ensighten.com/jcpenney/prod/code/c7e43538738c288010f23449481c08c0.js?conditionId0=375492&conditionId1=335514", "HEADER=Accept-Language:en-in", END_INLINE,
+//            "URL=http://nexus.ensighten.com/jcpenney/prod/code/877e96df370af7a4f98cd5408329dccf.js?conditionId0=340698", "HEADER=Accept-Language:en-in", END_INLINE,
+//            "URL=http://nexus.ensighten.com/jcpenney/prod/code/877e96df370af7a4f98cd5408329dccf.js?conditionId0=374189", "HEADER=Accept-Language:en-in", END_INLINE,
+//            "URL=http://netvision.cavisson.com/nv/JCPenney/cav_nv.js", "HEADER=Accept-Language:en-in", END_INLINE,
+//            "URL=https://lptag.liveperson.net/tag/tag.js?site=58507821", "HEADER=Accept-Language:en-in", END_INLINE,
+//            "URL=https://lptag.liveperson.net/lptag/api/account/58507821/configuration/applications/taglets/.jsonp?df=0&b=1", "HEADER=Accept-Language:en-in", END_INLINE,
+//            "URL=https://lpcdn.lpsnmedia.net/le_unified_window/8.10.0.7-release_2719/le_secure_storage/storage.secure.min.html?loc=http%3A%2F%2Fm.jcpenney.com&site=58507821&asmr=15&env=prod", "HEADER=Upgrade-Insecure-Requests:1", "HEADER=Accept-Language:en-in", END_INLINE
+//    );
+//    ns_end_transaction("API_Login_ContentHome_GET", NS_AUTO_STATUS);    
+//	ns_page_think_time(0.102);
+
+ 
+ 	ns_web_url ("API_SFL_department",
+        //"URL=http://m.jcpenney.com/v4/categories/{DepartmentFP}?content-size=medium&expand=content",
+        "URL=https://m.jcpenney.com/v4/categories/{DepartmentFP}?page=1&pageType=X2H2",
+        "HEADER=Accept-Language:en-US",
+        "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;BNSPrevPercentage;akaau;BNSOrigin;mmcore.tst;clientTestPool1;_ga;CavSF;CavLTS;CavPI;fsr.s;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0",
+        "PreSnapshot=webpage_1469690874678.png",
+        "Snapshot=webpage_1469690881281.png",
+        INLINE_URLS,
+            "URL=http://www88.jcpenney.com/cm?ci=90024642&st=1469690809484&vn1=4.16.9&ec=utf-8&vn2=e4.0&pi=Department%3Ajuniors(dept20023450025)&ul=http%3A%2F%2Fm.jcpenney.com%2Fjuniors%2Fdept.jump%3Fid%3Ddept20023450025&tid=1&cg=Mobile%7Cdept20023450025&rnd=1469697591806&pv_a4=20206227647&pv_a11=1&pv_a23=Google%20Chrome&pv_a38=responsive", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;CoreID6;TestSess3;90024642_login;marketing;TLTSID;_gat;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;90024642_reset;fsr.s", END_INLINE,
+            "URL=http://m.jcpenney.com/tablet//images/dept20000018_m2600019_55500018.gif", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;CavSF;CavLTS;CavPI;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;fsr.s;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/tablet//images/dept20023450025_m2600019_55100017.jpg", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;CavSF;CavLTS;CavPI;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;fsr.s;akaau", END_INLINE,
+            "URL=http://s7d9.scene7.com/is/image/JCPenney/DP0317201617032395M?$department_main$", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=http://m.jcpenney.com/tablet/images/womens%20swim4%20tablet%20category%20icon.jpg?$department_main$", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;CavSF;CavLTS;CavPI;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;fsr.s;akaau", END_INLINE,
+            "URL=http://s7d9.scene7.com/is/image/JCPenney/DP0515201517014687M?$department_main$", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=http://s7d9.scene7.com/is/image/JCPenney/DP0120201603523710M?$department_main$", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=http://s7d9.scene7.com/is/image/JCPenney/DP0701201417070580M?$department_main$", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=http://s7d9.scene7.com/is/image/JCPenney/DP0210201617060460M?$department_main$", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=http://s7d9.scene7.com/is/image/JCPenney/DP0205201617060440M?$department_main$", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=http://m.jcpenney.com/tablet/images/Graphic_Tees.jpg?$department_main$", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;CavSF;CavLTS;CavPI;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;akaau;fsr.s", END_INLINE,
+            "URL=http://s7d9.scene7.com/is/image/JCPenney/DP0315201617062775M?$department_main$", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=http://m.jcpenney.com/tablet/images/womens%20shorts4%20tablet%20category%20icon.jpg?$department_main$", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;CavSF;CavLTS;CavPI;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;akaau;fsr.s", END_INLINE,
+            "URL=http://m.jcpenney.com/tablet/images/12_13_womens-jrs-jeans-tablet-category-icon.jpg?$department_main$", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;CavSF;CavLTS;CavPI;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;akaau;fsr.s", END_INLINE,
+            "URL=http://m.jcpenney.com/tablet/images/12_13_womens-jrs-pants-tablet-category-icon.jpg?$department_main$", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;CavSF;CavLTS;CavPI;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;akaau;fsr.s", END_INLINE,
+            "URL=http://a.wishabi.com/track.gif?aid=attrib&goal_id=2&goal_value=1&merchant_id=2207", "HEADER=Accept-Language:en-in", "COOKIE=gid", END_INLINE,
+            "URL=https://googleads.g.doubleclick.net/pagead/viewthroughconversion/974303325/?random=1469690878481&cv=8&fst=1469690878481&num=1&fmt=3&guid=ON&u_h=768&u_w=1366&u_ah=728&u_aw=1366&u_cd=24&u_his=6&u_tz=330&u_java=false&u_nplug=2&u_nmime=2&data=ecomm_prodid%3D%3Becomm_pagetype%3Ddepartment%3Becomm_totalvalue%3D0.00&frm=0&url=http%3A//m.jcpenney.com/juniors/dept.jump%3Fid%3Ddept20023450025&tiba=Juniors%20Clothing%20%26%20Teen%20Clothing&async=1", "HEADER=Accept-Language:en-in", "COOKIE=id;IDE", "REDIRECT=YES", "LOCATION=https://www.google.com/ads/user-lists/974303325/?fmt=3&num=1&cv=8&frm=0&url=http%3A//m.jcpenney.com/juniors/dept.jump%3Fid%3Ddept20023450025&data=ecomm_prodid%3D%3Becomm_pagetype%3Ddepartment%3Becomm_totalvalue%3D0.00&random=3360310531", END_INLINE,
+            "URL=http://dms.netmng.com/si/CM/Tracking/ClickTracking.aspx?siclientid=1637&jscript=1", "HEADER=Accept-Language:en-in", "COOKIE=u", END_INLINE,
+            "URL=https://www.google-analytics.com/collect?v=1&_v=j44&a=754767527&t=pageview&_s=2&dl=http%3A%2F%2Fm.jcpenney.com%2F&ul=en-us&de=UTF-8&dt=Juniors%20Clothing%20%26%20Teen%20Clothing&sd=24-bit&sr=1366x768&vp=1366x607&je=0&_u=CCCAgEAB~&jid=&cid=814394015.1469690568&uid=20206227647&tid=UA-43509801-1&z=210205357", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=https://www.google.com/ads/user-lists/974303325/?fmt=3&num=1&cv=8&frm=0&url=http%3A//m.jcpenney.com/juniors/dept.jump%3Fid%3Ddept20023450025&data=ecomm_prodid%3D%3Becomm_pagetype%3Ddepartment%3Becomm_totalvalue%3D0.00&random=3360310531", "HEADER=Accept-Language:en-in", "REDIRECT=YES", "LOCATION=https://www.google.co.in/ads/user-lists/974303325/?fmt=3&num=1&cv=8&frm=0&url=http%3A//m.jcpenney.com/juniors/dept.jump%3Fid%3Ddept20023450025&data=ecomm_prodid%3D%3Becomm_pagetype%3Ddepartment%3Becomm_totalvalue%3D0.00&random=3360310531&ipr=y", END_INLINE,
+            "URL=https://www.google.co.in/ads/user-lists/974303325/?fmt=3&num=1&cv=8&frm=0&url=http%3A//m.jcpenney.com/juniors/dept.jump%3Fid%3Ddept20023450025&data=ecomm_prodid%3D%3Becomm_pagetype%3Ddepartment%3Becomm_totalvalue%3D0.00&random=3360310531&ipr=y", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=http://netvision.cavisson.com/test_rum?s=000348563199466935700&op=timing&pi=4&d=1|0|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|6788|6382|20|-1|-1|-1||http%3A%2F%2Fm.jcpenney.com%2Fjuniors%2Fdept.jump%3Fid%3Ddept20023450025|m.jcpenney.com|DPUserTracking%3Dnull%3B%20testpool%3DJCP%3B%20DPSessionTimeOutInterval%3D1200000%3B%20cmTPSet%3DY%3B%20marketing%3Ddirect%3B%20TLTSID%3DABr1eMPWB3yllrk4QNdDMFTpvgB7HGA1%3B%20_gat%3D1%3B%20CavSID%3D000348563199466935700%3B%20cmvid%3D20206227647%3B%20DP_USER_STATE%3D1%3B%20DYN_USER_ID%3DL114319406212%3B%20USER_ACCT_ID%3DL114319406212%3B%20JCPSignInCookie%3D%3B%20DPInstance%3DDTAPIEXPR1L2J3_06%3B%20DPLastAccessedTime%3D1469690732731%3B%20DPCluster%3DL2%3B%20DPIdentifier%3DDigitalPlatform%3B%20DPRRSESSIONID%3D763bc3c240b2b936d9d57e16e7fa6b11%3B%20DP_USER_AUTH_STATUS%3D1%3B%20DP_USER_FAVCOUNT%3D2%3B%20DP_SFL_ID%3Dl1gl13023515609%3B%20DP_SFL_PPIDS%3Dpp5007560306%3A22812100034%25PIPE%25pp5007170134%3B%20BNSPrevPercentage%3D0%3B%20BNSOrigin%3DB%3B%20mmcore.tst%3D0.519%3B%20clientTestPool1%3Drwd%3B%20_ga%3DGA1.2.814394015.1469690568%3B%20CavSF%3D0%2C%2C1%3A2%3A100%2C1469690817549%2C%2C%2C%3B%20CavLTS%3D81156443%3B%20CavPI%3D4%3B%20mm-loginstatus%3Dtrue%3B|0|101|-1|24|24|WINDOWS|MOZILLA%2F5.0%20(WINDOWS%20NT%206.1%3B%20WOW64)%20APPLEWEBKIT%2F537.36%20(KHTML%2C%20LIKE%20GECKO)%20CHROME%2F49.0.2623.87%20SAFARI%2F537.36|en-US|%5Bobject%20PluginArray%5D|Mozilla|0|PC|49.0|7|-1|1|0|-1|-1&lts=81156443&d2=-1|-1|-1|2|100", "HEADER=Accept-Language:en-in", END_INLINE
+    );
+
+   
+
+    ns_web_url ("API_SFL_department_content",
+        //"URL=http://m.jcpenney.com/v4/categories/dept20023450025?content-size=medium&expand=content",
+        "URL=https://m.jcpenney.com/v4/categories/{DepartmentFP}/content",
+        "HEADER=Accept-Language:en-US",
+        "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;BNSPrevPercentage;akaau;BNSOrigin;mmcore.tst;clientTestPool1;_ga;CavSF;CavLTS;CavPI;fsr.s;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0",
+        "PreSnapshot=webpage_1469690874678.png",
+        "Snapshot=webpage_1469690881281.png",
+        INLINE_URLS,
+            "URL=http://www88.jcpenney.com/cm?ci=90024642&st=1469690809484&vn1=4.16.9&ec=utf-8&vn2=e4.0&pi=Department%3Ajuniors(dept20023450025)&ul=http%3A%2F%2Fm.jcpenney.com%2Fjuniors%2Fdept.jump%3Fid%3Ddept20023450025&tid=1&cg=Mobile%7Cdept20023450025&rnd=1469697591806&pv_a4=20206227647&pv_a11=1&pv_a23=Google%20Chrome&pv_a38=responsive", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;CoreID6;TestSess3;90024642_login;marketing;TLTSID;_gat;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;90024642_reset;fsr.s", END_INLINE,
+            "URL=http://m.jcpenney.com/tablet//images/dept20000018_m2600019_55500018.gif", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;CavSF;CavLTS;CavPI;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;fsr.s;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/tablet//images/dept20023450025_m2600019_55100017.jpg", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;CavSF;CavLTS;CavPI;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;fsr.s;akaau", END_INLINE,
+            "URL=http://s7d9.scene7.com/is/image/JCPenney/DP0317201617032395M?$department_main$", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=http://m.jcpenney.com/tablet/images/womens%20swim4%20tablet%20category%20icon.jpg?$department_main$", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;CavSF;CavLTS;CavPI;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;fsr.s;akaau", END_INLINE,
+            "URL=http://s7d9.scene7.com/is/image/JCPenney/DP0515201517014687M?$department_main$", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=http://s7d9.scene7.com/is/image/JCPenney/DP0120201603523710M?$department_main$", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=http://s7d9.scene7.com/is/image/JCPenney/DP0701201417070580M?$department_main$", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=http://s7d9.scene7.com/is/image/JCPenney/DP0210201617060460M?$department_main$", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=http://s7d9.scene7.com/is/image/JCPenney/DP0205201617060440M?$department_main$", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=http://m.jcpenney.com/tablet/images/Graphic_Tees.jpg?$department_main$", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;CavSF;CavLTS;CavPI;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;akaau;fsr.s", END_INLINE,
+            "URL=http://s7d9.scene7.com/is/image/JCPenney/DP0315201617062775M?$department_main$", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=http://m.jcpenney.com/tablet/images/womens%20shorts4%20tablet%20category%20icon.jpg?$department_main$", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;CavSF;CavLTS;CavPI;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;akaau;fsr.s", END_INLINE,
+            "URL=http://m.jcpenney.com/tablet/images/12_13_womens-jrs-jeans-tablet-category-icon.jpg?$department_main$", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;CavSF;CavLTS;CavPI;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;akaau;fsr.s", END_INLINE,
+            "URL=http://m.jcpenney.com/tablet/images/12_13_womens-jrs-pants-tablet-category-icon.jpg?$department_main$", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;CavSF;CavLTS;CavPI;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;akaau;fsr.s", END_INLINE,
+            "URL=http://a.wishabi.com/track.gif?aid=attrib&goal_id=2&goal_value=1&merchant_id=2207", "HEADER=Accept-Language:en-in", "COOKIE=gid", END_INLINE,
+            "URL=https://googleads.g.doubleclick.net/pagead/viewthroughconversion/974303325/?random=1469690878481&cv=8&fst=1469690878481&num=1&fmt=3&guid=ON&u_h=768&u_w=1366&u_ah=728&u_aw=1366&u_cd=24&u_his=6&u_tz=330&u_java=false&u_nplug=2&u_nmime=2&data=ecomm_prodid%3D%3Becomm_pagetype%3Ddepartment%3Becomm_totalvalue%3D0.00&frm=0&url=http%3A//m.jcpenney.com/juniors/dept.jump%3Fid%3Ddept20023450025&tiba=Juniors%20Clothing%20%26%20Teen%20Clothing&async=1", "HEADER=Accept-Language:en-in", "COOKIE=id;IDE", "REDIRECT=YES", "LOCATION=https://www.google.com/ads/user-lists/974303325/?fmt=3&num=1&cv=8&frm=0&url=http%3A//m.jcpenney.com/juniors/dept.jump%3Fid%3Ddept20023450025&data=ecomm_prodid%3D%3Becomm_pagetype%3Ddepartment%3Becomm_totalvalue%3D0.00&random=3360310531", END_INLINE,
+            "URL=http://dms.netmng.com/si/CM/Tracking/ClickTracking.aspx?siclientid=1637&jscript=1", "HEADER=Accept-Language:en-in", "COOKIE=u", END_INLINE,
+            "URL=https://www.google-analytics.com/collect?v=1&_v=j44&a=754767527&t=pageview&_s=2&dl=http%3A%2F%2Fm.jcpenney.com%2F&ul=en-us&de=UTF-8&dt=Juniors%20Clothing%20%26%20Teen%20Clothing&sd=24-bit&sr=1366x768&vp=1366x607&je=0&_u=CCCAgEAB~&jid=&cid=814394015.1469690568&uid=20206227647&tid=UA-43509801-1&z=210205357", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=https://www.google.com/ads/user-lists/974303325/?fmt=3&num=1&cv=8&frm=0&url=http%3A//m.jcpenney.com/juniors/dept.jump%3Fid%3Ddept20023450025&data=ecomm_prodid%3D%3Becomm_pagetype%3Ddepartment%3Becomm_totalvalue%3D0.00&random=3360310531", "HEADER=Accept-Language:en-in", "REDIRECT=YES", "LOCATION=https://www.google.co.in/ads/user-lists/974303325/?fmt=3&num=1&cv=8&frm=0&url=http%3A//m.jcpenney.com/juniors/dept.jump%3Fid%3Ddept20023450025&data=ecomm_prodid%3D%3Becomm_pagetype%3Ddepartment%3Becomm_totalvalue%3D0.00&random=3360310531&ipr=y", END_INLINE,
+            "URL=https://www.google.co.in/ads/user-lists/974303325/?fmt=3&num=1&cv=8&frm=0&url=http%3A//m.jcpenney.com/juniors/dept.jump%3Fid%3Ddept20023450025&data=ecomm_prodid%3D%3Becomm_pagetype%3Ddepartment%3Becomm_totalvalue%3D0.00&random=3360310531&ipr=y", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=http://netvision.cavisson.com/test_rum?s=000348563199466935700&op=timing&pi=4&d=1|0|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|6788|6382|20|-1|-1|-1||http%3A%2F%2Fm.jcpenney.com%2Fjuniors%2Fdept.jump%3Fid%3Ddept20023450025|m.jcpenney.com|DPUserTracking%3Dnull%3B%20testpool%3DJCP%3B%20DPSessionTimeOutInterval%3D1200000%3B%20cmTPSet%3DY%3B%20marketing%3Ddirect%3B%20TLTSID%3DABr1eMPWB3yllrk4QNdDMFTpvgB7HGA1%3B%20_gat%3D1%3B%20CavSID%3D000348563199466935700%3B%20cmvid%3D20206227647%3B%20DP_USER_STATE%3D1%3B%20DYN_USER_ID%3DL114319406212%3B%20USER_ACCT_ID%3DL114319406212%3B%20JCPSignInCookie%3D%3B%20DPInstance%3DDTAPIEXPR1L2J3_06%3B%20DPLastAccessedTime%3D1469690732731%3B%20DPCluster%3DL2%3B%20DPIdentifier%3DDigitalPlatform%3B%20DPRRSESSIONID%3D763bc3c240b2b936d9d57e16e7fa6b11%3B%20DP_USER_AUTH_STATUS%3D1%3B%20DP_USER_FAVCOUNT%3D2%3B%20DP_SFL_ID%3Dl1gl13023515609%3B%20DP_SFL_PPIDS%3Dpp5007560306%3A22812100034%25PIPE%25pp5007170134%3B%20BNSPrevPercentage%3D0%3B%20BNSOrigin%3DB%3B%20mmcore.tst%3D0.519%3B%20clientTestPool1%3Drwd%3B%20_ga%3DGA1.2.814394015.1469690568%3B%20CavSF%3D0%2C%2C1%3A2%3A100%2C1469690817549%2C%2C%2C%3B%20CavLTS%3D81156443%3B%20CavPI%3D4%3B%20mm-loginstatus%3Dtrue%3B|0|101|-1|24|24|WINDOWS|MOZILLA%2F5.0%20(WINDOWS%20NT%206.1%3B%20WOW64)%20APPLEWEBKIT%2F537.36%20(KHTML%2C%20LIKE%20GECKO)%20CHROME%2F49.0.2623.87%20SAFARI%2F537.36|en-US|%5Bobject%20PluginArray%5D|Mozilla|0|PC|49.0|7|-1|1|0|-1|-1&lts=81156443&d2=-1|-1|-1|2|100", "HEADER=Accept-Language:en-in", END_INLINE
+    );
+
+ 	 ns_web_url ("API_SFL_categories",
+        //"URL=http://m.jcpenney.com/v4/categories/cat100240012?content-size=medium&expand=content",
+        //"URL=http://m.jcpenney.com/v4/categories/{CategorySP}?content-size=medium&expand=content",
+         "URL=https://m.jcpenney.com/v4/categories/{CategorySP}?page=1",
+        "HEADER=Accept-Language:en-US",
+        "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;akaau;CavSF;CavLTS;CavPI;fsr.s;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0",
+        "PreSnapshot=webpage_1469690904059.png",
+        "Snapshot=webpage_1469690907432.png",
+        INLINE_URLS,
+            "URL=https://www.facebook.com/tr/?id=100186507033116&ev=PageView&dl=http%3A%2F%2Fm.jcpenney.com%2Fjuniors-guys%2Fview-all-juniors%2Fdresses%2Fcat.jump%3Fid%3Dcat100240012&rl=http%3A%2F%2Fm.jcpenney.com%2Fjuniors%2Fdept.jump%3Fid%3Ddept20023450025&if=false&ts=1469690903853&v=2.5.0&pv=visible", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=http://m.jcpenney.com/b/assets/css/gallery.css?v=20160720113215", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;CavSF;CavLTS;CavPI;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;fsr.s;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/b/2.jcp.min.20160720113215.js", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;CavSF;CavLTS;CavPI;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;fsr.s;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/b/3.jcp.min.20160720113215.js", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;CavSF;CavLTS;CavPI;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;fsr.s;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/b/4.jcp.min.20160720113215.js", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;CavSF;CavLTS;CavPI;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;fsr.s;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/b/GalleryPage/gallery.html?v=20160720113215", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;CavSF;CavLTS;CavPI;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;fsr.s;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/b/components/JCPSortAndFilter/JCPSortAndFilter.html?v=20160720113215", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;CavSF;CavLTS;CavPI;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;fsr.s;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/b/5.jcp.min.20160720113215.js", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;CavSF;CavLTS;CavPI;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;fsr.s;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/b/assets/img/arrow_down.svg", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;CavSF;CavLTS;CavPI;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;fsr.s;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;akaau", END_INLINE
+    );
+
+     ns_web_url ("API_SFL_categories_content",
+        //"URL=http://m.jcpenney.com/v4/categories/cat100240012?content-size=medium&expand=content",
+        //"URL=http://m.jcpenney.com/v4/categories/{CategorySP}?content-size=medium&expand=content",
+         "URL=https://m.jcpenney.com/v4/categories/{CategorySP}/content",
+        "HEADER=Accept-Language:en-US",
+        "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;akaau;CavSF;CavLTS;CavPI;fsr.s;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0",
+        "PreSnapshot=webpage_1469690904059.png",
+        "Snapshot=webpage_1469690907432.png",
+        INLINE_URLS,
+            "URL=https://www.facebook.com/tr/?id=100186507033116&ev=PageView&dl=http%3A%2F%2Fm.jcpenney.com%2Fjuniors-guys%2Fview-all-juniors%2Fdresses%2Fcat.jump%3Fid%3Dcat100240012&rl=http%3A%2F%2Fm.jcpenney.com%2Fjuniors%2Fdept.jump%3Fid%3Ddept20023450025&if=false&ts=1469690903853&v=2.5.0&pv=visible", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=http://m.jcpenney.com/b/assets/css/gallery.css?v=20160720113215", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;CavSF;CavLTS;CavPI;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;fsr.s;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/b/2.jcp.min.20160720113215.js", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;CavSF;CavLTS;CavPI;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;fsr.s;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/b/3.jcp.min.20160720113215.js", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;CavSF;CavLTS;CavPI;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;fsr.s;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/b/4.jcp.min.20160720113215.js", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;CavSF;CavLTS;CavPI;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;fsr.s;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/b/GalleryPage/gallery.html?v=20160720113215", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;CavSF;CavLTS;CavPI;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;fsr.s;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/b/components/JCPSortAndFilter/JCPSortAndFilter.html?v=20160720113215", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;CavSF;CavLTS;CavPI;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;fsr.s;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/b/5.jcp.min.20160720113215.js", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;CavSF;CavLTS;CavPI;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;fsr.s;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/b/assets/img/arrow_down.svg", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;CavSF;CavLTS;CavPI;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;fsr.s;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;akaau", END_INLINE
+    );
+    
+
+    ns_web_url ("API_SFL_categories2",
+        //"URL=http://m.jcpenney.com/v4/categories/cat100240012?content-size=medium&expand=content",
+        //"URL=http://m.jcpenney.com/v4/categories/{CategorySP}?content-size=medium&expand=content",
+         "URL=https://m.jcpenney.com/v4/categories/{CategorySP}?page=2&sortBy=featured",
+        "HEADER=Accept-Language:en-US",
+        "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;akaau;CavSF;CavLTS;CavPI;fsr.s;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0",
+        "PreSnapshot=webpage_1469690904059.png",
+        "Snapshot=webpage_1469690907432.png",
+        INLINE_URLS,
+            "URL=https://www.facebook.com/tr/?id=100186507033116&ev=PageView&dl=http%3A%2F%2Fm.jcpenney.com%2Fjuniors-guys%2Fview-all-juniors%2Fdresses%2Fcat.jump%3Fid%3Dcat100240012&rl=http%3A%2F%2Fm.jcpenney.com%2Fjuniors%2Fdept.jump%3Fid%3Ddept20023450025&if=false&ts=1469690903853&v=2.5.0&pv=visible", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=http://m.jcpenney.com/b/assets/css/gallery.css?v=20160720113215", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;CavSF;CavLTS;CavPI;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;fsr.s;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/b/2.jcp.min.20160720113215.js", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;CavSF;CavLTS;CavPI;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;fsr.s;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/b/3.jcp.min.20160720113215.js", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;CavSF;CavLTS;CavPI;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;fsr.s;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/b/4.jcp.min.20160720113215.js", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;CavSF;CavLTS;CavPI;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;fsr.s;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/b/GalleryPage/gallery.html?v=20160720113215", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;CavSF;CavLTS;CavPI;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;fsr.s;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/b/components/JCPSortAndFilter/JCPSortAndFilter.html?v=20160720113215", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;CavSF;CavLTS;CavPI;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;fsr.s;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/b/5.jcp.min.20160720113215.js", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;CavSF;CavLTS;CavPI;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;fsr.s;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/b/assets/img/arrow_down.svg", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;CavSF;CavLTS;CavPI;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;fsr.s;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;akaau", END_INLINE
+    );
+
+    
+	 ns_web_url ("API_SFL_PGP_savedItems",
+        "URL=https://m.jcpenney.com/v2.1/savedItems",
+        "METHOD=POST",
+        "HEADER=Accept-Language:en-US",
+        "HEADER=Origin:http://m.jcpenney.com",
+        "HEADER=Content-Type:application/json;charset=UTF-8",
+        "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;CavSF;CavLTS;CavPI;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;akaau;fsr.s",
+        "REDIRECT=YES",
+        "LOCATION=http://m.jcpenney.com:80/v2.1/savedItems/",
+        "PreSnapshot=webpage_1469690962795.png",
+        "Snapshot=webpage_1469690994336.png",
+        //"{"items":[{"ppId":"pp5007300005","quantity":1}]}",
+        BODY_BEGIN,
+            "{"items":[{"ppId":"{SelectedPPIDSP}","quantity":1}]}",
+        BODY_END,
+        INLINE_URLS,
+            "URL=http://www88.jcpenney.com/cm?tid=14&ci=90024642&vn2=e4.0&st=1469690809484&vn1=4.16.9&ec=utf-8&cid=Logged%20In%20Customer%20Gallery&cat=2&ccid=Add%20To%20Saved%20Items&rnd=1469693888671&c_a1=pp5007300005&c_a3=Logged%20In%20Customer%20Gallery&ul=http%3A%2F%2Fm.jcpenney.com%2Fjuniors%2Fdresses%2Fcat.jump%3Fid%3Dcat100240012", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;CoreID6;TestSess3;90024642_login;marketing;TLTSID;_gat;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;90024642_reset;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;fsr.s", END_INLINE,
+            "URL=http://m.jcpenney.com/b/assets/css/product.css?v=20160720113215", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;CavSF;CavLTS;CavPI;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_PPIDS;DP_SFL_ID;akaau;fsr.s;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0", END_INLINE,
+            "URL=http://m.jcpenney.com/b/ProductDetailsPage/productdetails.html?v=20160720113215", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;CavSF;CavLTS;CavPI;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_PPIDS;DP_SFL_ID;akaau;fsr.s;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0", END_INLINE,
+            "URL=https://www.facebook.com/tr/?id=100186507033116&ev=PageView&dl=http%3A%2F%2Fm.jcpenney.com%2Fcity-triangles-sleeveless-lace-a-line-dress%2Fprod.jump%3FppId%3Dpp5007510252%26catId%3Dcat100240012%26Ntt%3D&rl=http%3A%2F%2Fm.jcpenney.com%2Fjuniors%2Fdresses%2Fcat.jump%3Fid%3Dcat100240012&if=false&ts=1469690992611&v=2.5.0&pv=visible", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=http://m.jcpenney.com/b/assets/css/bv.css", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;CavSF;CavLTS;CavPI;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_PPIDS;DP_SFL_ID;akaau;fsr.s;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0", END_INLINE
+    );
+
+ 	
+ 	 ns_web_url ("API_SFL_inventory",
+        //"URL=http://m.jcpenney.com/v3/products/pp5007510252/inventory",
+        //"URL=http://m.jcpenney.com/v3/products/{SelectedPPIDSP}/inventory",
+        "URL=https://m.jcpenney.com/v4/products/{SelectedPPIDSP}/inventory",
+        "HEADER=Accept-Language:en-US",
+        "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;CavSF;CavLTS;CavPI;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;fsr.s;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;akaau",
+        "PreSnapshot=webpage_1469690998721.png",
+        "Snapshot=webpage_1469691004721.png",
+        INLINE_URLS,
+            "URL=http://www88.jcpenney.com/cm?tid=1&ci=90024642&vn2=e4.0&st=1469690809484&vn1=4.16.9&ec=utf-8&pi=Product%3ACity%20Triangles%C2%AE%20Sleeveless%20Lace%20A-Line%20Dress-%20Juniors(pp5007510252)&cg=dept20023450025%7Ccat100240012&sr=1&rnd=1469695901427&pv_a4=20206227647&pv_a23=Google%20Chrome&pv_a38=responsive&ul=http%3A%2F%2Fm.jcpenney.com%2Fcity-triangles-sleeveless-lace-a-line-dress%2Fprod.jump%3FppId%3Dpp5007510252%26catId%3Dcat100240012%26Ntt%3D", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;CoreID6;TestSess3;90024642_login;marketing;TLTSID;_gat;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;90024642_reset;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;fsr.s;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS", END_INLINE,
+            "URL=http://www88.jcpenney.com/cm?tid=5&ci=90024642&vn2=e4.0&st=1469690809484&vn1=4.16.9&ec=utf-8&pi=Product%3ACity%20Triangles%C2%AE%20Sleeveless%20Lace%20A-Line%20Dress-%20Juniors(pp5007510252)&pr=2217759&pm=Product%3ACity%20Triangles%C2%AE%20Sleeveless%20Lace%20A-Line%20Dress-%20Juniors&cg=dept20023450025%7Ccat100240012&pc=N&rnd=1469698345587&pr_a4=20206227647&pr_a24=City%20Triangle&pr_a25=pp5007510252&pr_a32=US&pr_a33=USD&ul=http%3A%2F%2Fm.jcpenney.com%2Fcity-triangles-sleeveless-lace-a-line-dress%2Fprod.jump%3FppId%3Dpp5007510252%26catId%3Dcat100240012%26Ntt%3D", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;CoreID6;TestSess3;90024642_login;marketing;TLTSID;_gat;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;90024642_reset;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;fsr.s;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS", END_INLINE,
+            "URL=http://s7d9.scene7.com/is/image/JCPenney/DP0523201617051773M?$product_pdp$", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=http://s7d9.scene7.com/is/image/JCPenney/DP0523201617051777M?$product_pdp$", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=http://s7d9.scene7.com/is/image/JCPenney/DP0523201617051773M", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=http://widget.criteo.com/event?a=11251&v=4.0.0&p0=e%3Dexd%26site_type%3Dm&p1=e%3Dvp%26p%3D%2522pp5007510252%2522&p2=e%3Ddis%26a%3D%255B11251%252C11251%255D&adce=1", "HEADER=Accept-Language:en-in", "COOKIE=uid", END_INLINE,
+            "URL=http://a.wishabi.com/track.gif?aid=attrib&goal_id=2&goal_value=1&merchant_id=2207", "HEADER=Accept-Language:en-in", "COOKIE=gid", END_INLINE,
+            "URL=https://googleads.g.doubleclick.net/pagead/viewthroughconversion/974303325/?random=1469691000421&cv=8&fst=1469691000421&num=1&fmt=3&guid=ON&u_h=768&u_w=1366&u_ah=728&u_aw=1366&u_cd=24&u_his=8&u_tz=330&u_java=false&u_nplug=2&u_nmime=2&data=ecomm_prodid%3Dpp5007510252%3Becomm_pagetype%3Dproduct%3Becomm_totalvalue%3DNaN&frm=0&url=http%3A//m.jcpenney.com/city-triangles-sleeveless-lace-a-line-dress/prod.jump%3FppId%3Dpp5007510252%26catId%3Dcat100240012%26Ntt%3D&tiba=JCPenney&async=1", "HEADER=Accept-Language:en-in", "COOKIE=id;IDE", "REDIRECT=YES", "LOCATION=https://www.google.com/ads/user-lists/974303325/?fmt=3&num=1&cv=8&frm=0&url=http%3A//m.jcpenney.com/city-triangles-sleeveless-lace-a-line-dress/prod.jump%3FppId%3Dpp5007510252%26catId%3Dcat100240012%26Ntt%3D&data=ecomm_prodid%3Dpp5007510252%3Becomm_pagetype%3Dproduct%3Becomm_totalvalue%3DNaN&random=237910286", END_INLINE,
+            "URL=http://m.jcpenney.com/b/assets/js/perfect-scrollbar.min.js", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;CavSF;CavLTS;CavPI;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;akaau;fsr.s", END_INLINE,
+            "URL=http://www88.jcpenney.com/cm?tid=8&ci=90024642&st=1469690809484&vn1=4.16.9&ec=utf-8&pi=Product%3ACity%20Triangles%C2%AE%20Sleeveless%20Lace%20A-Line%20Dress-%20Juniors(pp5007510252)&ti=1469691000701&hr=%23swatchPeacockpp5007510252&ul=http%3A%2F%2Fm.jcpenney.com", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;CoreID6;TestSess3;90024642_login;marketing;TLTSID;_gat;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;90024642_reset;fsr.s", END_INLINE,
+            "URL=http://s7d9.scene7.com/is/image/JCPenney/DP0523201617051785S.jpg?$swatch_large$", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=https://www.google-analytics.com/plugins/ua/ec.js", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=https://apps.nexus.bazaarvoice.com/JCPenney/1573-en_us/bv.js", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=http://jcpenney.ugc.bazaarvoice.com/1573-en_us/pp5007510252/reviews.djs?format=embeddedhtml", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=http://jcpenney.ugc.bazaarvoice.com/static/1573-en_us/bazaarvoice.css", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=http://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=https://www.google.com/ads/user-lists/974303325/?fmt=3&num=1&cv=8&frm=0&url=http%3A//m.jcpenney.com/city-triangles-sleeveless-lace-a-line-dress/prod.jump%3FppId%3Dpp5007510252%26catId%3Dcat100240012%26Ntt%3D&data=ecomm_prodid%3Dpp5007510252%3Becomm_pagetype%3Dproduct%3Becomm_totalvalue%3DNaN&random=237910286", "HEADER=Accept-Language:en-in", "REDIRECT=YES", "LOCATION=https://www.google.co.in/ads/user-lists/974303325/?fmt=3&num=1&cv=8&frm=0&url=http%3A//m.jcpenney.com/city-triangles-sleeveless-lace-a-line-dress/prod.jump%3FppId%3Dpp5007510252%26catId%3Dcat100240012%26Ntt%3D&data=ecomm_prodid%3Dpp5007510252%3Becomm_pagetype%3Dproduct%3Becomm_totalvalue%3DNaN&random=237910286&ipr=y", END_INLINE,
+            "URL=http://jcpenney.ugc.bazaarvoice.com/module/1573-en_us/cmn/1573redes/display.pkg.js", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=http://jcpenney.ugc.bazaarvoice.com/module/1573-en_us/rr/1573redes/display.pkg.js", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=https://www.google-analytics.com/collect?v=1&_v=j44&a=754767527&t=pageview&_s=4&dl=http%3A%2F%2Fm.jcpenney.com%2F&ul=en-us&de=UTF-8&dt=JCPenney&sd=24-bit&sr=1366x768&vp=1366x607&je=0&_u=SCCAgEIJ~&jid=&cid=814394015.1469690568&uid=20206227647&tid=UA-43509801-1&pa=detail&pr1nm=City%20Triangles%C2%AE%20Sleeveless%20Lace%20A-Line%20Dress-%20Juniors&pr1ca=Division%20undefined%2FEntity%20undefined%2FSubdivision%20undefined&z=387872267", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=https://www.facebook.com/tr/?id=1563570357241998&ev=ViewContent&cd[content_type]=product&cd[content_ids]=%5B%22783752%22%5D&cd[product_catalog_id]=1012187682206761&cd[product_category]=1541884890&cd[criteo_audience_3_0]=B3&cd[external_id]=433648ba-5b5a-4261-a17a-67277e5746b2&cd[application_id]=423936147658676", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=https://www.google.co.in/ads/user-lists/974303325/?fmt=3&num=1&cv=8&frm=0&url=http%3A//m.jcpenney.com/city-triangles-sleeveless-lace-a-line-dress/prod.jump%3FppId%3Dpp5007510252%26catId%3Dcat100240012%26Ntt%3D&data=ecomm_prodid%3Dpp5007510252%3Becomm_pagetype%3Dproduct%3Becomm_totalvalue%3DNaN&random=237910286&ipr=y", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=http://dis.us.criteo.com/dis/dis.aspx?p=11251&cb=15212966541&ref=&sc_r=1366x768&sc_d=24&site_type=m", "HEADER=Upgrade-Insecure-Requests:1", "HEADER=Accept-Language:en-in", "COOKIE=uid", END_INLINE,
+            "URL=http://jcpenney.ugc.bazaarvoice.com/1573-en_us/crossdomain.htm?format=embedded#origin=http%3A%2F%2Fm.jcpenney.com", "HEADER=Upgrade-Insecure-Requests:1", "HEADER=Accept-Language:en-in", END_INLINE
+    );
+
+   
+
+    ns_web_url ("API_SFL_products",
+        //"URL=http://m.jcpenney.com/v3/products/pp5007510252?content-size=medium&expand=content",
+        //"URL=http://m.jcpenney.com/v3/products/{SelectedPPIDSP}?content-size=medium&expand=content",
+        "URL=https://m.jcpenney.com/v4/products/{SelectedPPIDSP}",
+        "HEADER=Accept-Language:en-US",
+        "HEADER=Accept-application/json;text/plain;*/*",
+        "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;CavSF;CavLTS;CavPI;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_PPIDS;DP_SFL_ID;akaau;fsr.s;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0",
+        "PreSnapshot=webpage_1469690996097.png",
+        "Snapshot=webpage_1469690997445.png",
+        INLINE_URLS,
+            "URL=http://m.jcpenney.com/b/assets/img/unavailable-color.png", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;CavSF;CavLTS;CavPI;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_PPIDS;DP_SFL_ID;akaau;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;fsr.s", END_INLINE,
+            "URL=http://m.jcpenney.com/b/assets/img/arrow_up.svg", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;CavSF;CavLTS;CavPI;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_PPIDS;DP_SFL_ID;akaau;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;fsr.s", END_INLINE
+    );
+
+  
+
+    ns_web_url ("API_SFL_productslots",
+        //"URL=http://m.jcpenney.com/v4/products/ppr5007139157/pricing/lots",
+        "URL=https://m.jcpenney.com/v4/products/{SelectedPPIDSP}/pricing/lots",
+        "HEADER=Accept-Language:en-US",
+        "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;CavSF;CavLTS;CavPI;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;fsr.s;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;akaau",
+        "PreSnapshot=webpage_1469690998721.png",
+        "Snapshot=webpage_1469691004721.png",
+        INLINE_URLS,
+            "URL=http://www88.jcpenney.com/cm?tid=1&ci=90024642&vn2=e4.0&st=1469690809484&vn1=4.16.9&ec=utf-8&pi=Product%3ACity%20Triangles%C2%AE%20Sleeveless%20Lace%20A-Line%20Dress-%20Juniors(pp5007510252)&cg=dept20023450025%7Ccat100240012&sr=1&rnd=1469695901427&pv_a4=20206227647&pv_a23=Google%20Chrome&pv_a38=responsive&ul=http%3A%2F%2Fm.jcpenney.com%2Fcity-triangles-sleeveless-lace-a-line-dress%2Fprod.jump%3FppId%3Dpp5007510252%26catId%3Dcat100240012%26Ntt%3D", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;CoreID6;TestSess3;90024642_login;marketing;TLTSID;_gat;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;90024642_reset;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;fsr.s;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS", END_INLINE,
+            "URL=http://www88.jcpenney.com/cm?tid=5&ci=90024642&vn2=e4.0&st=1469690809484&vn1=4.16.9&ec=utf-8&pi=Product%3ACity%20Triangles%C2%AE%20Sleeveless%20Lace%20A-Line%20Dress-%20Juniors(pp5007510252)&pr=2217759&pm=Product%3ACity%20Triangles%C2%AE%20Sleeveless%20Lace%20A-Line%20Dress-%20Juniors&cg=dept20023450025%7Ccat100240012&pc=N&rnd=1469698345587&pr_a4=20206227647&pr_a24=City%20Triangle&pr_a25=pp5007510252&pr_a32=US&pr_a33=USD&ul=http%3A%2F%2Fm.jcpenney.com%2Fcity-triangles-sleeveless-lace-a-line-dress%2Fprod.jump%3FppId%3Dpp5007510252%26catId%3Dcat100240012%26Ntt%3D", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;CoreID6;TestSess3;90024642_login;marketing;TLTSID;_gat;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;90024642_reset;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;fsr.s;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS", END_INLINE,
+            "URL=http://s7d9.scene7.com/is/image/JCPenney/DP0523201617051773M?$product_pdp$", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=http://s7d9.scene7.com/is/image/JCPenney/DP0523201617051777M?$product_pdp$", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=http://s7d9.scene7.com/is/image/JCPenney/DP0523201617051773M", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=http://widget.criteo.com/event?a=11251&v=4.0.0&p0=e%3Dexd%26site_type%3Dm&p1=e%3Dvp%26p%3D%2522pp5007510252%2522&p2=e%3Ddis%26a%3D%255B11251%252C11251%255D&adce=1", "HEADER=Accept-Language:en-in", "COOKIE=uid", END_INLINE,
+            "URL=http://a.wishabi.com/track.gif?aid=attrib&goal_id=2&goal_value=1&merchant_id=2207", "HEADER=Accept-Language:en-in", "COOKIE=gid", END_INLINE,
+            "URL=https://googleads.g.doubleclick.net/pagead/viewthroughconversion/974303325/?random=1469691000421&cv=8&fst=1469691000421&num=1&fmt=3&guid=ON&u_h=768&u_w=1366&u_ah=728&u_aw=1366&u_cd=24&u_his=8&u_tz=330&u_java=false&u_nplug=2&u_nmime=2&data=ecomm_prodid%3Dpp5007510252%3Becomm_pagetype%3Dproduct%3Becomm_totalvalue%3DNaN&frm=0&url=http%3A//m.jcpenney.com/city-triangles-sleeveless-lace-a-line-dress/prod.jump%3FppId%3Dpp5007510252%26catId%3Dcat100240012%26Ntt%3D&tiba=JCPenney&async=1", "HEADER=Accept-Language:en-in", "COOKIE=id;IDE", "REDIRECT=YES", "LOCATION=https://www.google.com/ads/user-lists/974303325/?fmt=3&num=1&cv=8&frm=0&url=http%3A//m.jcpenney.com/city-triangles-sleeveless-lace-a-line-dress/prod.jump%3FppId%3Dpp5007510252%26catId%3Dcat100240012%26Ntt%3D&data=ecomm_prodid%3Dpp5007510252%3Becomm_pagetype%3Dproduct%3Becomm_totalvalue%3DNaN&random=237910286", END_INLINE,
+            "URL=http://m.jcpenney.com/b/assets/js/perfect-scrollbar.min.js", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;CavSF;CavLTS;CavPI;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;akaau;fsr.s", END_INLINE,
+            "URL=http://www88.jcpenney.com/cm?tid=8&ci=90024642&st=1469690809484&vn1=4.16.9&ec=utf-8&pi=Product%3ACity%20Triangles%C2%AE%20Sleeveless%20Lace%20A-Line%20Dress-%20Juniors(pp5007510252)&ti=1469691000701&hr=%23swatchPeacockpp5007510252&ul=http%3A%2F%2Fm.jcpenney.com", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;CoreID6;TestSess3;90024642_login;marketing;TLTSID;_gat;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;90024642_reset;fsr.s", END_INLINE,
+            "URL=http://s7d9.scene7.com/is/image/JCPenney/DP0523201617051785S.jpg?$swatch_large$", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=https://www.google-analytics.com/plugins/ua/ec.js", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=https://apps.nexus.bazaarvoice.com/JCPenney/1573-en_us/bv.js", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=http://jcpenney.ugc.bazaarvoice.com/1573-en_us/pp5007510252/reviews.djs?format=embeddedhtml", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=http://jcpenney.ugc.bazaarvoice.com/static/1573-en_us/bazaarvoice.css", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=http://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=https://www.google.com/ads/user-lists/974303325/?fmt=3&num=1&cv=8&frm=0&url=http%3A//m.jcpenney.com/city-triangles-sleeveless-lace-a-line-dress/prod.jump%3FppId%3Dpp5007510252%26catId%3Dcat100240012%26Ntt%3D&data=ecomm_prodid%3Dpp5007510252%3Becomm_pagetype%3Dproduct%3Becomm_totalvalue%3DNaN&random=237910286", "HEADER=Accept-Language:en-in", "REDIRECT=YES", "LOCATION=https://www.google.co.in/ads/user-lists/974303325/?fmt=3&num=1&cv=8&frm=0&url=http%3A//m.jcpenney.com/city-triangles-sleeveless-lace-a-line-dress/prod.jump%3FppId%3Dpp5007510252%26catId%3Dcat100240012%26Ntt%3D&data=ecomm_prodid%3Dpp5007510252%3Becomm_pagetype%3Dproduct%3Becomm_totalvalue%3DNaN&random=237910286&ipr=y", END_INLINE,
+            "URL=http://jcpenney.ugc.bazaarvoice.com/module/1573-en_us/cmn/1573redes/display.pkg.js", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=http://jcpenney.ugc.bazaarvoice.com/module/1573-en_us/rr/1573redes/display.pkg.js", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=https://www.google-analytics.com/collect?v=1&_v=j44&a=754767527&t=pageview&_s=4&dl=http%3A%2F%2Fm.jcpenney.com%2F&ul=en-us&de=UTF-8&dt=JCPenney&sd=24-bit&sr=1366x768&vp=1366x607&je=0&_u=SCCAgEIJ~&jid=&cid=814394015.1469690568&uid=20206227647&tid=UA-43509801-1&pa=detail&pr1nm=City%20Triangles%C2%AE%20Sleeveless%20Lace%20A-Line%20Dress-%20Juniors&pr1ca=Division%20undefined%2FEntity%20undefined%2FSubdivision%20undefined&z=387872267", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=https://www.facebook.com/tr/?id=1563570357241998&ev=ViewContent&cd[content_type]=product&cd[content_ids]=%5B%22783752%22%5D&cd[product_catalog_id]=1012187682206761&cd[product_category]=1541884890&cd[criteo_audience_3_0]=B3&cd[external_id]=433648ba-5b5a-4261-a17a-67277e5746b2&cd[application_id]=423936147658676", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=https://www.google.co.in/ads/user-lists/974303325/?fmt=3&num=1&cv=8&frm=0&url=http%3A//m.jcpenney.com/city-triangles-sleeveless-lace-a-line-dress/prod.jump%3FppId%3Dpp5007510252%26catId%3Dcat100240012%26Ntt%3D&data=ecomm_prodid%3Dpp5007510252%3Becomm_pagetype%3Dproduct%3Becomm_totalvalue%3DNaN&random=237910286&ipr=y", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=http://dis.us.criteo.com/dis/dis.aspx?p=11251&cb=15212966541&ref=&sc_r=1366x768&sc_d=24&site_type=m", "HEADER=Upgrade-Insecure-Requests:1", "HEADER=Accept-Language:en-in", "COOKIE=uid", END_INLINE,
+            "URL=http://jcpenney.ugc.bazaarvoice.com/1573-en_us/crossdomain.htm?format=embedded#origin=http%3A%2F%2Fm.jcpenney.com", "HEADER=Upgrade-Insecure-Requests:1", "HEADER=Accept-Language:en-in", END_INLINE
+    );
+
+ 	
+ 	 ns_web_url ("API_SFL_PDP_savedItems",
+        "URL=https://m.jcpenney.com/v2.1/savedItems",
+        "METHOD=POST",
+        "HEADER=Accept-Language:en-US",
+        "HEADER=Origin:http://m.jcpenney.com",
+        "HEADER=Content-Type:application/json;charset=UTF-8",
+        "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;_gat;CavSID;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;JCPSignInCookie;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_ID;DP_SFL_PPIDS;akaau;testVersion;CavSF;CavLTS;CavPI;fsr.s",
+        "REDIRECT=YES",
+        "LOCATION=http://m.jcpenney.com:80/v2.1/savedItems/",
+        "PreSnapshot=webpage_1469691035111.png",
+        "Snapshot=webpage_1469691083404.png",
+        //"{"items":[{"ppId":"pp5007510252","id":null,"quantity":1}]}",
+        BODY_BEGIN,
+            "{"items":[{"ppId":"{SelectedPPIDSP}","id":null,"quantity":1}]}",
+        BODY_END,
+        INLINE_URLS,
+            "URL=http://www88.jcpenney.com/cm?tid=14&ci=90024642&vn2=e4.0&st=1469690809484&vn1=4.16.9&ec=utf-8&cid=Logged%20In%20Customer%20PDP&cat=2&ccid=Add%20To%20Saved%20Items&rnd=1469696019548&c_a1=pp5007510252&c_a3=Saved%20Items(pp5007510252)&ul=http%3A%2F%2Fm.jcpenney.com%2Fcity-triangles-sleeveless-lace-a-line-dress%2Fprod.jump%3FppId%3Dpp5007510252%26catId%3Dcat100240012%26Ntt%3D", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;CoreID6;TestSess3;90024642_login;marketing;TLTSID;_gat;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;90024642_reset;fsr.s;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_PPIDS;DP_SFL_ID", END_INLINE,
+            "URL=http://www88.jcpenney.com/cm?ci=90024642&st=1469690809484&vn1=4.16.9&ec=utf-8&pi=Product%3ACity%20Triangles%C2%AE%20Sleeveless%20Lace%20A-Line%20Dress-%20Juniors(pp5007510252)&ul=http%3A%2F%2Fm.jcpenney.com&tid=8&ti=1469691082731&nm=fav-icon&hr=%2FsavedItems", "HEADER=Accept-Language:en-in", "COOKIE=DPJSESSIONID;DPUserTracking;testpool;DPSessionTimeOutInterval;CoreID6;TestSess3;90024642_login;marketing;TLTSID;_gat;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;USER_ACCT_ID;BNSPrevPercentage;BNSOrigin;mmcore.tst;clientTestPool1;_ga;mm-loginstatus;mmapi.store.p.0;mmapi.store.s.0;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_PPIDS;DP_SFL_ID;90024642_reset;fsr.s", END_INLINE,
+            "URL=https://uscollector.tealeaf.ibmcloud.com/collector/collectorPost", "METHOD=OPTIONS", "HEADER=Access-Control-Request-Headers:content-encoding, content-type, x-requested-with, x-tealeaf, x-tealeaf-messagetypes, x-tealeaf-page-url, x-tealeaf-saas-appkey, x-tealeaf-saas-tltsid, x-tealeaftype", "HEADER=Accept-Language:en-in", "HEADER=Origin:http://m.jcpenney.com", "HEADER=Access-Control-Request-Method:POST", END_INLINE
+    );
+ 	
+ 
+    // Click on My Account
+    // Click on Saved Items
+
+    ns_start_transaction("MOB_CAM_ViewSavedItem");	
+    ns_start_transaction("API_CAM_savedItems_GET");    	
+	    ns_web_url ("API_SavedItems",
+        "URL=https://m.jcpenney.com/v2.1/savedItems",
+        "HEADER=Accept-Language:en-in",
+        "COOKIE=yoda-experience;cmTPSet;TLTSID;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;DPUserTracking;DPSecureCookie;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_PPIDS;omni_profileType;omni_profileAttr;omni_profileOptin;DPOrder;ItemCount;ItemTotal;InternationalItemTotal;DPLastAccessedTime;DPIdentifier;DPSessionTimeOutInterval;testpool;DPCluster;DPInstance;DPJSESSIONID;DPSTKN;JCPSignInCookie;USER_ACCT_ID;SVCVER;BNSPrevPercentage;BNSOrigin;LPCKEY-58507821;LPVID;LPSID-58507821;marketing;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;_uetsid;c17;v53;s_ptc;s_cc;CavSF;s_sq;CavNVC;mbox;jcp.ab.test;clientTestPool1",
+        "PreSnapshot=webpage_1493360993385.png",
+        "Snapshot=webpage_1493360993631.png",
+        INLINE_URLS,
+            "URL=https://m.jcpenney.com/b/assets/img/arrow_down.svg", "HEADER=Accept-Language:en-in", "COOKIE=yoda-experience;cmTPSet;TLTSID;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;DPUserTracking;DPSecureCookie;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_PPIDS;omni_profileType;omni_profileAttr;omni_profileOptin;DPOrder;ItemCount;ItemTotal;InternationalItemTotal;DPLastAccessedTime;DPIdentifier;DPSessionTimeOutInterval;testpool;DPCluster;DPInstance;DPJSESSIONID;DPSTKN;JCPSignInCookie;USER_ACCT_ID;SVCVER;BNSPrevPercentage;BNSOrigin;LPCKEY-58507821;LPVID;LPSID-58507821;marketing;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;_uetsid;c17;v53;s_ptc;s_cc;CavSF;s_sq;CavNVC;mbox;jcp.ab.test;clientTestPool1", END_INLINE,
+            "URL=https://m.jcpenney.com/b/assets/img/jcp-app-dl-logo-red.png", "HEADER=Accept-Language:en-in", "COOKIE=yoda-experience;cmTPSet;TLTSID;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;DPUserTracking;DPSecureCookie;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;DP_USER_AUTH_STATUS;DP_USER_FAVCOUNT;DP_SFL_PPIDS;omni_profileType;omni_profileAttr;omni_profileOptin;DPOrder;ItemCount;ItemTotal;InternationalItemTotal;DPLastAccessedTime;DPIdentifier;DPSessionTimeOutInterval;testpool;DPCluster;DPInstance;DPJSESSIONID;DPSTKN;JCPSignInCookie;USER_ACCT_ID;SVCVER;BNSPrevPercentage;BNSOrigin;LPCKEY-58507821;LPVID;LPSID-58507821;marketing;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;_uetsid;c17;v53;s_ptc;s_cc;CavSF;s_sq;CavNVC;mbox;jcp.ab.test;clientTestPool1", END_INLINE
+    );
+    ns_end_transaction("API_CAM_savedItems_GET", NS_AUTO_STATUS);    
+    ns_end_transaction("MOB_CAM_ViewSavedItem", NS_AUTO_STATUS);
+	 ns_page_think_time(0.102);
+
+    // Click on My account
+    // Click on My Orders
+    
+    ns_start_transaction("MOB_CAM_OrderHistory"); 
+    ns_start_transaction("API_CAM_orders_GET");       
+        ns_web_url ("API_VewOrders",
+        "URL=https://m.jcpenney.com/v2.1/orders",
+        "HEADER=Accept-Language:en-in",
+        "COOKIE=yoda-experience;cmTPSet;TLTSID;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;DPUserTracking;DPSecureCookie;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;omni_profileType;omni_profileAttr;omni_profileOptin;DPOrder;ItemCount;ItemTotal;InternationalItemTotal;DPSessionTimeOutInterval;DPJSESSIONID;DPSTKN;JCPSignInCookie;USER_ACCT_ID;SVCVER;BNSPrevPercentage;BNSOrigin;marketing;mbox;jcp.ab.test;clientTestPool1;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;testpool;LPCKEY-58507821;s_ptc;s_cc;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;c17;v53;s_sq;CavSF;CavNVC;_uetsid;LPVID;LPSID-58507821",
+        "PreSnapshot=webpage_1493361122759.png",
+        "Snapshot=webpage_1493361124654.png",
+        INLINE_URLS,
+            "URL=https://www88.jcpenney.com/cm?tid=1&ci=90024642&vn2=e4.0&st=1493360993638&vn1=4.16.9&ec=utf-8&pi=My%20Orders&cg=Mobile%7CAccountmanagement%7CMyAccount%7CMyOrders&rnd=1493367116383&pv_a4=20101573135&pv_a23=Google%20Chrome&pv_a38=responsive&ul=https%3A%2F%2Fm.jcpenney.com%2Faccount&rf=http%3A%2F%2Fm.jcpenney.com%2F", "HEADER=Accept-Language:en-in", "COOKIE=yoda-experience;CoreID6;TestSess3;90024642_login;TLTSID;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;DPUserTracking;DPSecureCookie;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;omni_profileType;omni_profileAttr;omni_profileOptin;DPOrder;ItemCount;ItemTotal;InternationalItemTotal;DPSessionTimeOutInterval;DPJSESSIONID;DPSTKN;USER_ACCT_ID;SVCVER;BNSPrevPercentage;BNSOrigin;marketing;mbox;clientTestPool1;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;testpool;LPCKEY-58507821;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;90024642_reset;_uetsid;LPVID;LPSID-58507821", END_INLINE,
+            "URL=https://bat.bing.com/action/0?ti=4002289&Ver=2&mid=5bcde5a3-625c-b374-1484-39fa70139c4a&evt=pageLoad&sid=e016e8c0-0&lt=7874&pi=-1292315712&lg=en-gb&sw=1366&sh=768&sc=24&r=http%3A%2F%2Fm.jcpenney.com%2F&p=https%3A%2F%2Fm.jcpenney.com%2Faccount&rn=780472", "HEADER=Accept-Language:en-in", "COOKIE=MUID;MR;MUIDB", END_INLINE,
+            "URL=https://www.res-x.com/ws/r2/Resonance.aspx?appid=jcpenney03&tk=643360201863876&ss=237711581726473&sg=1&pg=375401068053213&vr=5.5x&bx=false&sc=&ev=&ei=&cu=L110056920658&ur=https%3A%2F%2Fm.jcpenney.com%2Fmyorder&plk=&rf=http%3A%2F%2Fm.jcpenney.com%2F", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=https://www88.jcpenney.com/cm?tid=1&ci=90024642&vn2=e4.0&st=1493360993638&vn1=4.16.9&ec=utf-8&pi=Email%20%26%20Mobile%20Preferences&cg=Mobile%7CMy%20Account&rnd=1493367544205&pv_a4=20101573135&pv_a23=Google%20Chrome&pv_a38=responsive&ul=https%3A%2F%2Fm.jcpenney.com%2Fmyorder&rf=http%3A%2F%2Fm.jcpenney.com%2F", "HEADER=Accept-Language:en-in", "COOKIE=yoda-experience;CoreID6;TestSess3;90024642_login;TLTSID;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;DPUserTracking;DPSecureCookie;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;omni_profileType;omni_profileAttr;omni_profileOptin;DPOrder;ItemCount;ItemTotal;InternationalItemTotal;DPSessionTimeOutInterval;DPJSESSIONID;DPSTKN;USER_ACCT_ID;SVCVER;BNSPrevPercentage;BNSOrigin;marketing;mbox;clientTestPool1;LPCKEY-58507821;_uetsid;LPVID;LPSID-58507821;90024642_reset;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;ACCTSRC;testpool;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID", END_INLINE,
+            "URL=https://netvision.cavisson.com/test_rum?s=000450226282081289113&p=0&op=timing&pi=4&pid=-1&d=1|0|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|1571|570|-1|-1|0|-1|http%3A%2F%2Fm.jcpenney.com%2F|https%3A%2F%2Fm.jcpenney.com%2Fmyorder|m.jcpenney.com|yoda-experience%3Dh%3A0%3B%20cmTPSet%3DY%3B%20TLTSID%3DPXQSULTD0EW9U8BOIA951A6O6SQCHYSF%3B%20AMCVS_CEEB350F5746CDE97F000101%2540AdobeOrg%3D1%3B%20AMCV_CEEB350F5746CDE97F000101%2540AdobeOrg%3D-1176276602%25PIPE%25MCMID%25PIPE%2549528476585752576190483525314846989045%25PIPE%25MCAAMLH-1493965674%25PIPE%259%25PIPE%25MCAAMB-1493965674%25PIPE%25cIBAx_aQzFEHcPoEv0GwcQ%25PIPE%25MCOPTOUT-1493368074s%25PIPE%25NONE%25PIPE%25MCAID%25PIPE%25NONE%3B%20DPUserTracking%3Dnull%3B%20DPSecureCookie%3D284171fe47d0e77a89267764ea154272%3B%20cmvid%3D20101573135%3B%20DP_USER_STATE%3D1%3B%20DYN_USER_ID%3DL110056920658%3B%20omni_profileType%3DA%25PIPE%25C%25PIPE%25NA%25PIPE%25NA%3B%20omni_profileAttr%3DY%25PIPE%25N%3B%20omni_profileOptin%3DN%25PIPE%25NA%2CNA%3B%20DPOrder%3DC15918407278%3B%20ItemCount%3D21%3B%20ItemTotal%3D%24234.95%3B%20InternationalItemTotal%3D%3B%20DPSessionTimeOutInterval%3D1200000%3B%20DPJSESSIONID%3DCmCzPxjtJyDl96WMmnMxcm13_s_d_AbTh1DAApUQev_zcGDw5qKv!2081854305%3B%20DPSTKN%3DCYSZ3eyYew1370qKA93sQrLvfAvA%3B%20JCPSignInCookie%3D%3B%20USER_ACCT_ID%3DL110056920658%3B%20SVCVER%3Dlatest%3B%20BNSPrevPercentage%3D100%3B%20BNSOrigin%3DA%3B%20marketing%3Ddirect%3B|0|101|-1|24|24|WINDOWS|MOZILLA%2F5.0%20(WINDOWS%20NT%206.1%3B%20WOW64)%20APPLEWEBKIT%2F537.36%20(KHTML%2C%20LIKE%20GECKO)%20CHROME%2F49.0.2623.87%20SAFARI%2F537.36|en-gb|%5Bobject%20PluginArray%5D|Mozilla|0|PC|49.0|7|-1|1|0|254|%7B-1%7D|-1|-1&lts=104826633&d2=-1|-1|-1|2|100", "HEADER=Accept-Language:en-in", END_INLINE
+    );
+    ns_end_transaction("API_CAM_orders_GET", NS_AUTO_STATUS);    
+    ns_end_transaction("MOB_CAM_OrderHistory", NS_AUTO_STATUS);    
+    ns_page_think_time(0.102);
+ 
+
+    // Click on Shipping Address
+    
+    ns_start_transaction("MOB_CAM_MyAddresses");
+    ns_start_transaction("API_CAM_addresses_GET");    			
+	    ns_web_url ("API_ShippingAddress",
+        //"URL=https://m.jcpenney.com/v4/accounts/L110056920658/addresses",
+        "URL=https://m.jcpenney.com/v4/accounts/{DynUserIdDP}/addresses",
+        "HEADER=Accept-Language:en-in",
+        "COOKIE=yoda-experience;cmTPSet;TLTSID;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;DPUserTracking;DPSecureCookie;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;omni_profileType;omni_profileAttr;omni_profileOptin;DPOrder;ItemCount;ItemTotal;InternationalItemTotal;DPSessionTimeOutInterval;DPJSESSIONID;DPSTKN;JCPSignInCookie;USER_ACCT_ID;SVCVER;BNSPrevPercentage;BNSOrigin;marketing;mbox;jcp.ab.test;clientTestPool1;LPCKEY-58507821;s_ptc;s_cc;c17;v53;_uetsid;LPVID;LPSID-58507821;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;ACCTSRC;testpool;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;CavSF;CavNVC;s_sq",
+        "PreSnapshot=webpage_1493361191839.png",
+        "Snapshot=webpage_1493361193803.png",
+        INLINE_URLS,
+            "URL=https://www.google-analytics.com/analytics.js", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=https://jcpenney.d1.sc.omtrdc.net/b/ss/jcpenneyprod/1/JS-1.7.0/s47768413134512?AQB=1&ndh=1&pf=1&t=28%2F3%2F2017%201%3A33%3A12%205%20300&mid=49528476585752576190483525314846989045&aamlh=9&ce=UTF-8&ns=jcpenney&pageName=r%3Aaccount%3Ashipping%20address&g=https%3A%2F%2Fm.jcpenney.com%2Faccount%2Fmyshipping&c.&events=event3%2Cevent70%3D234.95&.c&cc=USD&ch=account&server=DTAPIEXPR1C2J4_14&events=event3%2Cevent70%3D234.95&aamb=cIBAx_aQzFEHcPoEv0GwcQ&c1=account&v1=D%3Dc1&c6=account%3Ashipping%20address&c7=http%3A%2F%2Fm.jcpenney.com%2Faccount%2Fmyshipping&v7=1%3A33%20AM%7CFriday&c11=account&v11=D%3Dc11&c12=p2p-2017.5.0.0%3A1.7.0&c14=PXQSULTD0EW9U8BOIA951A6O6SQCHYSF&c15=D%3Dr&v16=D%3DpageName&c17=r%3Aaccount%3Amy%20account&v17=D%3Dc17&c33=20101573135&v33=D%3Dc33&c39=no%20type%3Alogged-in&v39=D%3Dc39&c44=tablet&v44=D%3Dc44&c45=no%20rewards%20account&v45=D%3Dc45&c46=L110056920658&v46=D%3Dc46&c47=active%7Ccredit&v47=D%3Dc47&v48=D%3Dmid&v49=no&v50=%2B1&v53=account&v55=2017-04-27&c.&a.&activitymap.&page=r%3Aaccount%3Amy%20account&link=Shipping%20Address&region=account-page&pageIDType=1&.activitymap&.a&.c&s=1366x768&c=24&j=1.6&v=N&k=Y&bw=1366&bh=607&AQE=1", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=https://www.google-analytics.com/r/collect?v=1&_v=j52&a=753013705&t=pageview&_s=1&dl=https%3A%2F%2Fm.jcpenney.com%2Faccount%2Fmyshipping&ul=en-gb&de=UTF-8&dt=20%3A00%20until%20your%20session%20times%20out!&sd=24-bit&sr=1366x768&vp=1349x607&je=0&_u=QEAAAAABI~&jid=1993404538&gjid=1252670723&cid=2035048465.1493361193&tid=UA-43509801-1&_r=1&cd13=Account%3A%20Logged%20In&z=1812869258", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=https://www.google-analytics.com/collect?v=1&_v=j52&a=753013705&t=pageview&_s=2&dl=https%3A%2F%2Fm.jcpenney.com%2Faccount%2Fmyshipping&ul=en-gb&de=UTF-8&dt=20%3A00%20until%20your%20session%20times%20out!&sd=24-bit&sr=1366x768&vp=1349x607&je=0&_u=QEAAAAABI~&jid=&gjid=&cid=2035048465.1493361193&tid=UA-43509801-1&cd13=Account%3A%20Logged%20In&z=43208788", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=https://www.google-analytics.com/collect?v=1&_v=j52&a=753013705&t=pageview&_s=3&dl=https%3A%2F%2Fm.jcpenney.com%2Faccount%2Fmyshipping&ul=en-gb&de=UTF-8&dt=20%3A00%20until%20your%20session%20times%20out!&sd=24-bit&sr=1366x768&vp=1349x607&je=0&_u=QEAAAAABI~&jid=&gjid=&cid=2035048465.1493361193&tid=UA-43509801-1&cd13=Account%3A%20Logged%20In&z=1586100234", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=https://gateway.answerscloud.com/code/19.3.2-v.2/fs.frame.html?d=m.jcpenney.com&_cv_=19.3.2-v.2&_vt_=t76r1kb&uid=2035048465.1493361193", "HEADER=Upgrade-Insecure-Requests:1", "HEADER=Accept-Language:en-in", END_INLINE,
+            "URL=https://stats.g.doubleclick.net/r/collect?v=1&aip=1&t=dc&_r=3&tid=UA-43509801-1&cid=2035048465.1493361193&jid=1993404538&_v=j52&z=1812869258", "HEADER=Accept-Language:en-in", "COOKIE=test_cookie", END_INLINE
+    );
+    ns_end_transaction("API_CAM_addresses_GET", NS_AUTO_STATUS);    
+    ns_end_transaction("MOB_CAM_MyAddresses", NS_AUTO_STATUS);	
+	 ns_page_think_time(0.102);
+	 
+	// Click on Add Address
+    ns_start_transaction("MOB_CAM_AddAddress");		
+    ns_start_transaction("API_CAM_countries_GET");	
+	    ns_web_url ("API_countries",
+        "URL=https://m.jcpenney.com/v2.1/addressing/countries",
+        "HEADER=Accept-Language:en-in",
+        "COOKIE=yoda-experience;cmTPSet;TLTSID;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;DPUserTracking;DPSecureCookie;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;omni_profileType;omni_profileAttr;omni_profileOptin;DPOrder;ItemCount;ItemTotal;InternationalItemTotal;DPSessionTimeOutInterval;DPJSESSIONID;DPSTKN;JCPSignInCookie;USER_ACCT_ID;BNSPrevPercentage;BNSOrigin;marketing;mbox;jcp.ab.test;clientTestPool1;LPCKEY-58507821;s_ptc;s_cc;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;ACCTSRC;testpool;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;SVCVER;c17;v53;s_sq;_ga;_gat;CavSF;CavNVC;_uetsid;_4c_;LPVID;LPSID-58507821",
+        "PreSnapshot=webpage_1493361219234.png",
+        "Snapshot=webpage_1493361219328.png"
+    );
+    ns_end_transaction("API_CAM_countries_GET", NS_AUTO_STATUS);	
+    ns_end_transaction("MOB_CAM_AddAddress", NS_AUTO_STATUS);	
+    ns_page_think_time(0.102);
+    
+    ns_start_transaction("API_CAM_zipCodes_GET"); 
+ 	ns_web_url ("API_zipCode",
+       // "URL=https://m.jcpenney.com/v2.1/zipCodes/11211",
+        "URL=https://m.jcpenney.com/v2.1/zipCodes/{ZipCodeFP}",
+        "HEADER=Accept-Language:en-in",
+        "COOKIE=yoda-experience;cmTPSet;TLTSID;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;DPUserTracking;DPSecureCookie;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;omni_profileType;omni_profileAttr;omni_profileOptin;DPOrder;ItemCount;ItemTotal;InternationalItemTotal;DPSessionTimeOutInterval;DPJSESSIONID;DPSTKN;JCPSignInCookie;USER_ACCT_ID;BNSPrevPercentage;BNSOrigin;marketing;mbox;jcp.ab.test;clientTestPool1;LPCKEY-58507821;s_ptc;s_cc;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;ACCTSRC;testpool;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;c17;v53;s_sq;_ga;SVCVER;CavSF;CavNVC;_4c_;_uetsid;LPVID;LPSID-58507821",
+        "PreSnapshot=webpage_1493361401221.png",
+        "Snapshot=webpage_1493361406570.png"
+    );
+    ns_end_transaction("API_CAM_zipCodes_GET", NS_AUTO_STATUS);	
+		 
+
+	// Click on Save
+	ns_start_transaction("MOB_CAM_ClickOnSaveAddress");
+    ns_start_transaction("API_CAM_addresses_POST");	    
+    ns_web_url ("API_SaveAddresses1",
+        //"URL=https://m.jcpenney.com/v4/accounts/L110056920658/addresses",
+        "URL=https://m.jcpenney.com/v4/accounts/{DynUserIdDP}/addresses",
+        "METHOD=POST",
+        "HEADER=Accept-Language:en-in",
+        "HEADER=X-STANDARDIZATION-REQUIRED:true",
+        "HEADER=Origin:https://m.jcpenney.com",
+        "HEADER=Content-Type:application/json;charset=UTF-8",
+        "COOKIE=yoda-experience;cmTPSet;TLTSID;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;DPUserTracking;DPSecureCookie;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;omni_profileType;omni_profileAttr;omni_profileOptin;DPOrder;ItemCount;ItemTotal;InternationalItemTotal;DPSessionTimeOutInterval;DPJSESSIONID;DPSTKN;JCPSignInCookie;USER_ACCT_ID;BNSPrevPercentage;BNSOrigin;marketing;mbox;jcp.ab.test;clientTestPool1;LPCKEY-58507821;s_ptc;s_cc;DPInstance;DPLastAccessedTime;DPIdentifier;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;ACCTSRC;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;c17;v53;_ga;CavSF;CavNVC;_4c_;_uetsid;LPVID;LPSID-58507821;DPCluster;testpool;SVCVER;s_sq",
+        "REDIRECT=YES",
+        "LOCATION=https://992c9b4cf3c5.prod.internal.dp-prod.jcpcloud2.net:8080/api/v1/accounts/L110056920658/addresses/4dcdf700-2bdd-11e7-902a-a3cc4444e0a9",
+        "PreSnapshot=webpage_1493361510557.png",
+        "Snapshot=webpage_1493361512197.png",
+        //"{"firstName":"Load","lastName":"Test","addressLineOne":",202 S 2ND ST  APT 9","city":"Brooklyn","country":"US","state":"NY","zip":"11211","phone":"2196264507"}",
+        BODY_BEGIN,
+            "{"firstName":"{FirstNameFP}","lastName":"{LastNameFP}","addressLineOne":"{AddressFP}","city":"{CitySP}","country":"{CountrySP}","state":"{StateCodeSP}","zip":"{ZipcodeSP}","phone":"{PhonenoFP}"}",
+        BODY_END
+    );
+    ns_end_transaction("API_CAM_addresses_POST", NS_AUTO_STATUS);	
+	
+    //Page Auto splitted for application/json type
+    ns_start_transaction("API_CAM_addresses_GET");    
+    ns_web_url ("API_SaveAddresses2",
+        //"URL=https://m.jcpenney.com/v4/accounts/L110056920658/addresses",
+        "URL=https://m.jcpenney.com/v4/accounts/{DynUserIdDP}/addresses",
+        "HEADER=Accept-Language:en-in",
+        "COOKIE=yoda-experience;cmTPSet;TLTSID;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;DPUserTracking;DPSecureCookie;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;omni_profileType;omni_profileAttr;omni_profileOptin;DPOrder;ItemCount;ItemTotal;InternationalItemTotal;DPSessionTimeOutInterval;DPJSESSIONID;DPSTKN;JCPSignInCookie;USER_ACCT_ID;BNSPrevPercentage;BNSOrigin;marketing;mbox;jcp.ab.test;clientTestPool1;LPCKEY-58507821;s_ptc;s_cc;DPInstance;DPLastAccessedTime;DPIdentifier;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;ACCTSRC;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;c17;v53;_ga;CavSF;CavNVC;_4c_;_uetsid;LPVID;LPSID-58507821;DPCluster;testpool;s_sq;SVCVER",
+        "PreSnapshot=webpage_1493361512197.png",
+        "Snapshot=webpage_1493361512300.png"
+    );
+    ns_end_transaction("API_CAM_addresses_GET", NS_AUTO_STATUS);	
+    ns_end_transaction("MOB_CAM_ClickOnSaveAddress", NS_AUTO_STATUS);	
+    ns_page_think_time(0.102);
+    // Delete Address
+    // Click on YES
+    
+//    if(!(strcmp(ns_eval_string("{AddressIdSP}"), ""))){
+//    	goto ViewPaymentInfo ;
+//    }
+    
+     //Page Auto splitted for Method = DELETE
+    ns_start_transaction("MOB_CAM_DeleteAddress"); 
+    ns_start_transaction("API_CAM_addressesId_GET");        
+    ns_web_url ("API_DeleteAddress",
+        //"URL=https://m.jcpenney.com/v4/accounts/L110056920658/addresses/l1userci123830553",
+        "URL=https://m.jcpenney.com/v4/accounts/{DynUserIdDP}/addresses/{AddressIdSP}",
+        "METHOD=DELETE",
+        "HEADER=Accept-Language:en-in",
+        "HEADER=Origin:https://m.jcpenney.com",
+        "COOKIE=yoda-experience;cmTPSet;TLTSID;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;DPUserTracking;DPSecureCookie;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;omni_profileType;omni_profileAttr;omni_profileOptin;DPOrder;ItemCount;ItemTotal;InternationalItemTotal;DPSessionTimeOutInterval;DPJSESSIONID;DPSTKN;JCPSignInCookie;USER_ACCT_ID;BNSPrevPercentage;BNSOrigin;marketing;mbox;jcp.ab.test;clientTestPool1;LPCKEY-58507821;s_ptc;s_cc;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;ACCTSRC;testpool;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;SVCVER;c17;v53;s_sq;_ga;CavSF;CavNVC;_4c_;_uetsid;LPVID;LPSID-58507821",
+        "PreSnapshot=webpage_1493361303377.png",
+        "Snapshot=webpage_1493361303936.png"
+    );
+    ns_end_transaction("API_CAM_addressesId_GET", NS_AUTO_STATUS);
+    	
+    ns_start_transaction("API_CAM_addresses_GET");    
+    ns_web_url ("API_DeleteAddress2",
+        //"URL=https://m.jcpenney.com/v4/accounts/L110056920658/addresses",
+        "URL=https://m.jcpenney.com/v4/accounts/{DynUserIdDP}/addresses",
+        "HEADER=Accept-Language:en-in",
+        "COOKIE=yoda-experience;cmTPSet;TLTSID;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;DPUserTracking;DPSecureCookie;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;omni_profileType;omni_profileAttr;omni_profileOptin;DPOrder;ItemCount;ItemTotal;InternationalItemTotal;DPSessionTimeOutInterval;DPJSESSIONID;DPSTKN;JCPSignInCookie;USER_ACCT_ID;BNSPrevPercentage;BNSOrigin;marketing;mbox;jcp.ab.test;clientTestPool1;LPCKEY-58507821;s_ptc;s_cc;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;ACCTSRC;testpool;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;c17;v53;s_sq;_ga;CavSF;CavNVC;_4c_;_uetsid;LPVID;LPSID-58507821;SVCVER",
+        "PreSnapshot=webpage_1493361303936.png",
+        "Snapshot=webpage_1493361304053.png"
+    );
+    ns_end_transaction("API_CAM_addresses_GET", NS_AUTO_STATUS);    
+    ns_end_transaction("MOB_CAM_DeleteAddress", NS_AUTO_STATUS);
+	 ns_page_think_time(0.102);
+
+
+    // Click on Payment Info
+    //  ViewPaymentInfo:
+    ns_start_transaction("MOB_CAM_MyPaymentMethod"); 
+    ns_start_transaction("API_CAM_paymentmethods_GET");           
+   		 ns_web_url ("API_ViewPaymentInfo",
+       // "URL=https://m.jcpenney.com/v4/accounts/L110056920658/payment-methods",
+        "URL=https://m.jcpenney.com/v4/accounts/{DynUserIdDP}/payment-methods",
+        "HEADER=Accept-Language:en-in",
+        "COOKIE=yoda-experience;cmTPSet;TLTSID;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;DPUserTracking;DPSecureCookie;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;omni_profileType;omni_profileAttr;omni_profileOptin;DPOrder;ItemCount;ItemTotal;InternationalItemTotal;DPSessionTimeOutInterval;DPJSESSIONID;DPSTKN;JCPSignInCookie;USER_ACCT_ID;BNSPrevPercentage;BNSOrigin;marketing;mbox;jcp.ab.test;clientTestPool1;LPCKEY-58507821;s_ptc;s_cc;DPInstance;DPLastAccessedTime;DPIdentifier;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;ACCTSRC;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;c17;v53;_ga;DPCluster;testpool;SVCVER;CavSF;CavNVC;_4c_;_gat;_uetsid;LPVID;LPSID-58507821;s_sq",
+        "PreSnapshot=webpage_1493361548310.png",
+        "Snapshot=webpage_1493361548399.png"
+    );
+    ns_end_transaction("API_CAM_paymentmethods_GET", NS_AUTO_STATUS);    
+    ns_end_transaction("MOB_CAM_MyPaymentMethod", NS_AUTO_STATUS);	
+	 ns_page_think_time(0.102);
+	
+
+
+    // Click on SignOut
+    ns_start_transaction("MOB_CAM_Logout"); 
+    ns_start_transaction("API_CAM_session_DELETE");       	
+        ns_web_url ("API_SessionSignOut",
+        "URL=https://m.jcpenney.com/v4/session",
+        "METHOD=DELETE",
+        "HEADER=Accept-Language:en-in",
+        "HEADER=Origin:https://m.jcpenney.com",
+        "COOKIE=yoda-experience;cmTPSet;TLTSID;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;DPUserTracking;DPSecureCookie;cmvid;DP_USER_STATE;DP_USER_NAME;DYN_USER_ID;omni_profileType;omni_profileAttr;omni_profileOptin;DPOrder;ItemCount;ItemTotal;InternationalItemTotal;DPSessionTimeOutInterval;DPJSESSIONID;DPSTKN;JCPSignInCookie;USER_ACCT_ID;BNSPrevPercentage;BNSOrigin;marketing;mbox;jcp.ab.test;clientTestPool1;LPCKEY-58507821;s_ptc;s_cc;DPInstance;DPLastAccessedTime;DPIdentifier;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;ACCTSRC;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;_ga;DPCluster;testpool;SVCVER;c17;v53;s_sq;_4c_;CavSF;CavNVC;_uetsid;LPVID;LPSID-58507821",
+        "PreSnapshot=webpage_1493361584586.png",
+        "Snapshot=webpage_1493361584865.png"
+    );
+    ns_end_transaction("API_CAM_session_DELETE", NS_AUTO_STATUS);
+    ns_end_transaction("MOB_CAM_Logout", NS_AUTO_STATUS);
+    ns_page_think_time(0.102);	
+    
+    
+//    ns_start_transaction("API_Logout_HomePage_GET");    
+//	    ns_web_url ("API_Signout_HomePage",
+//        "URL=http://m.jcpenney.com/",
+//        "HEADER=Upgrade-Insecure-Requests:1",
+//        "HEADER=Accept-Language:en-in",
+//        "COOKIE=yoda-experience;cmTPSet;TLTSID;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;DPUserTracking;cmvid;omni_profileType;omni_profileAttr;omni_profileOptin;DPSessionTimeOutInterval;JCPSignInCookie;BNSPrevPercentage;BNSOrigin;marketing;mbox;jcp.ab.test;clientTestPool1;LPCKEY-58507821;s_ptc;s_cc;ACCTSRC;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;_ga;SVCVER;c17;v53;s_sq;CavSF;_uetsid;LPVID;LPSID-58507821;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPOrder;InternationalItemTotal;DP_USER_AUTH_STATUS;DPJSESSIONID;testpool;_4c_;CavNVC",
+//        "PreSnapshot=webpage_1493361585128.png",
+//        "Snapshot=webpage_1493361587084.png",
+//        INLINE_URLS,
+//            "URL=http://m.jcpenney.com/b/assets/img/logo.svg?v=20170411105036", "HEADER=Accept-Language:en-in", "COOKIE=yoda-experience;cmTPSet;TLTSID;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;DPUserTracking;cmvid;omni_profileType;omni_profileAttr;omni_profileOptin;DPSessionTimeOutInterval;JCPSignInCookie;marketing;mbox;jcp.ab.test;clientTestPool1;LPCKEY-58507821;s_ptc;s_cc;ACCTSRC;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;_ga;SVCVER;c17;v53;s_sq;CavSF;_uetsid;LPVID;LPSID-58507821;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPOrder;InternationalItemTotal;DP_USER_AUTH_STATUS;DPJSESSIONID;testpool;_4c_;CavNVC;BNSPrevPercentage;BNSOrigin", END_INLINE,
+//            "URL=http://m.jcpenney.com/b/assets/css/pure-base.css?v=20170411105036", "HEADER=Accept-Language:en-in", "COOKIE=yoda-experience;cmTPSet;TLTSID;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;DPUserTracking;cmvid;omni_profileType;omni_profileAttr;omni_profileOptin;DPSessionTimeOutInterval;JCPSignInCookie;marketing;mbox;jcp.ab.test;clientTestPool1;LPCKEY-58507821;s_ptc;s_cc;ACCTSRC;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;_ga;SVCVER;c17;v53;s_sq;CavSF;_uetsid;LPVID;LPSID-58507821;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPOrder;InternationalItemTotal;DP_USER_AUTH_STATUS;DPJSESSIONID;testpool;_4c_;CavNVC;BNSPrevPercentage;BNSOrigin", END_INLINE,
+//            "URL=http://m.jcpenney.com/b/assets/css/home.css?v=20170411105036", "HEADER=Accept-Language:en-in", "COOKIE=yoda-experience;cmTPSet;TLTSID;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;DPUserTracking;cmvid;omni_profileType;omni_profileAttr;omni_profileOptin;DPSessionTimeOutInterval;JCPSignInCookie;marketing;mbox;jcp.ab.test;clientTestPool1;LPCKEY-58507821;s_ptc;s_cc;ACCTSRC;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;_ga;SVCVER;c17;v53;s_sq;CavSF;_uetsid;LPVID;LPSID-58507821;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPOrder;InternationalItemTotal;DP_USER_AUTH_STATUS;DPJSESSIONID;testpool;_4c_;CavNVC;BNSPrevPercentage;BNSOrigin", END_INLINE,
+//            "URL=http://m.jcpenney.com/b/assets/vendor/jquery.js?v=2.1.1", "HEADER=Accept-Language:en-in", "COOKIE=yoda-experience;cmTPSet;TLTSID;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;DPUserTracking;cmvid;omni_profileType;omni_profileAttr;omni_profileOptin;DPSessionTimeOutInterval;JCPSignInCookie;marketing;mbox;jcp.ab.test;clientTestPool1;LPCKEY-58507821;s_ptc;s_cc;ACCTSRC;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;_ga;SVCVER;c17;v53;s_sq;CavSF;_uetsid;LPVID;LPSID-58507821;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPOrder;InternationalItemTotal;DP_USER_AUTH_STATUS;DPJSESSIONID;testpool;_4c_;CavNVC;BNSPrevPercentage;BNSOrigin", END_INLINE,
+//            "URL=http://m.jcpenney.com/b/core.0565c9daa670b7ab4f77.js", "HEADER=Accept-Language:en-in", "COOKIE=yoda-experience;cmTPSet;TLTSID;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;DPUserTracking;cmvid;omni_profileType;omni_profileAttr;omni_profileOptin;DPSessionTimeOutInterval;JCPSignInCookie;marketing;mbox;jcp.ab.test;clientTestPool1;LPCKEY-58507821;s_ptc;s_cc;ACCTSRC;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;_ga;SVCVER;c17;v53;s_sq;CavSF;_uetsid;LPVID;LPSID-58507821;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPOrder;InternationalItemTotal;DP_USER_AUTH_STATUS;DPJSESSIONID;testpool;_4c_;CavNVC;BNSPrevPercentage;BNSOrigin", END_INLINE,
+//            "URL=http://m.jcpenney.com/b/deps.dd2ae7afe78e50119c68.js", "HEADER=Accept-Language:en-in", "COOKIE=yoda-experience;cmTPSet;TLTSID;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;DPUserTracking;cmvid;omni_profileType;omni_profileAttr;omni_profileOptin;DPSessionTimeOutInterval;JCPSignInCookie;marketing;mbox;jcp.ab.test;clientTestPool1;LPCKEY-58507821;s_ptc;s_cc;ACCTSRC;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;_ga;SVCVER;c17;v53;s_sq;CavSF;_uetsid;LPVID;LPSID-58507821;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPOrder;InternationalItemTotal;DP_USER_AUTH_STATUS;DPJSESSIONID;testpool;_4c_;CavNVC;BNSPrevPercentage;BNSOrigin", END_INLINE,
+//            "URL=http://m.jcpenney.com/b/assets/js/jcpredirectrules.js?v=20170411105036", "HEADER=Accept-Language:en-in", "COOKIE=yoda-experience;cmTPSet;TLTSID;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;DPUserTracking;cmvid;omni_profileType;omni_profileAttr;omni_profileOptin;DPSessionTimeOutInterval;JCPSignInCookie;marketing;mbox;jcp.ab.test;clientTestPool1;LPCKEY-58507821;s_ptc;s_cc;ACCTSRC;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;_ga;SVCVER;c17;v53;s_sq;CavSF;_uetsid;LPVID;LPSID-58507821;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPOrder;InternationalItemTotal;DP_USER_AUTH_STATUS;DPJSESSIONID;testpool;_4c_;CavNVC;BNSPrevPercentage;BNSOrigin", END_INLINE,
+//            "URL=http://m.jcpenney.com/b/app.5f83dc802b0c15665be9.js", "HEADER=Accept-Language:en-in", "COOKIE=yoda-experience;cmTPSet;TLTSID;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;DPUserTracking;cmvid;omni_profileType;omni_profileAttr;omni_profileOptin;DPSessionTimeOutInterval;JCPSignInCookie;marketing;mbox;jcp.ab.test;clientTestPool1;LPCKEY-58507821;s_ptc;s_cc;ACCTSRC;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;_ga;SVCVER;c17;v53;s_sq;CavSF;_uetsid;LPVID;LPSID-58507821;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPOrder;InternationalItemTotal;DP_USER_AUTH_STATUS;DPJSESSIONID;testpool;_4c_;CavNVC;BNSPrevPercentage;BNSOrigin", END_INLINE,
+//            "URL=http://m.jcpenney.com/b/pages.3f844f801f9729f12e70.js", "HEADER=Accept-Language:en-in", "COOKIE=yoda-experience;cmTPSet;TLTSID;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;DPUserTracking;cmvid;omni_profileType;omni_profileAttr;omni_profileOptin;DPSessionTimeOutInterval;JCPSignInCookie;marketing;mbox;jcp.ab.test;clientTestPool1;LPCKEY-58507821;s_ptc;s_cc;ACCTSRC;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;_ga;SVCVER;c17;v53;s_sq;CavSF;_uetsid;LPVID;LPSID-58507821;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPOrder;InternationalItemTotal;DP_USER_AUTH_STATUS;DPJSESSIONID;testpool;_4c_;CavNVC;BNSPrevPercentage;BNSOrigin", END_INLINE,
+//            "URL=http://m.jcpenney.com/b/assets/vendor/mbox-responsive.js", "HEADER=Accept-Language:en-in", "COOKIE=yoda-experience;cmTPSet;TLTSID;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;DPUserTracking;cmvid;omni_profileType;omni_profileAttr;omni_profileOptin;DPSessionTimeOutInterval;JCPSignInCookie;marketing;mbox;jcp.ab.test;clientTestPool1;LPCKEY-58507821;s_ptc;s_cc;ACCTSRC;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;_ga;SVCVER;c17;v53;s_sq;CavSF;_uetsid;LPVID;LPSID-58507821;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPOrder;InternationalItemTotal;DP_USER_AUTH_STATUS;DPJSESSIONID;testpool;_4c_;CavNVC;BNSPrevPercentage;BNSOrigin", END_INLINE,
+//            "URL=http://cdn.tt.omtrdc.net/cdn/target.js", "HEADER=Accept-Language:en-in", END_INLINE,
+//            "URL=http://m.jcpenney.com/b/assets/fonts/jcp-icons_1ec365fb9f26fa6928906e2955234fa6.woff", "HEADER=Accept-Language:en-in", "HEADER=Origin:http://m.jcpenney.com", "COOKIE=yoda-experience;cmTPSet;TLTSID;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;DPUserTracking;cmvid;omni_profileType;omni_profileAttr;omni_profileOptin;DPSessionTimeOutInterval;JCPSignInCookie;marketing;jcp.ab.test;clientTestPool1;LPCKEY-58507821;s_ptc;s_cc;ACCTSRC;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;_ga;SVCVER;c17;v53;s_sq;CavSF;_uetsid;LPVID;LPSID-58507821;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPOrder;InternationalItemTotal;DP_USER_AUTH_STATUS;DPJSESSIONID;testpool;_4c_;CavNVC;BNSPrevPercentage;BNSOrigin;mbox", END_INLINE,
+//            "URL=http://nexus.ensighten.com/jcpenney/Bootstrap.js", "HEADER=Accept-Language:en-in", END_INLINE
+//    );
+//    ns_end_transaction("API_Logout_HomePage_GET", NS_AUTO_STATUS);	
+//
+//    //Page Auto splitted for application/json type
+//    ns_start_transaction("API_settings_GET");    
+//    ns_web_url ("API_settings",
+//        "URL=http://m.jcpenney.com/v2.1/settings",
+//        "HEADER=Accept-Language:en-in",
+//        "COOKIE=yoda-experience;cmTPSet;TLTSID;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;DPUserTracking;cmvid;omni_profileType;omni_profileAttr;omni_profileOptin;DPSessionTimeOutInterval;JCPSignInCookie;marketing;jcp.ab.test;clientTestPool1;LPCKEY-58507821;s_ptc;s_cc;ACCTSRC;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;_ga;SVCVER;c17;v53;s_sq;CavSF;_uetsid;LPVID;LPSID-58507821;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPOrder;InternationalItemTotal;DP_USER_AUTH_STATUS;DPJSESSIONID;testpool;_4c_;CavNVC;BNSPrevPercentage;BNSOrigin;mbox",
+//        "PreSnapshot=webpage_1493361587098.png",
+//        "Snapshot=webpage_1493361587599.png",
+//        INLINE_URLS,
+//            "URL=http://wurfl.io/wurfl.js", "HEADER=Accept-Language:en-in", "COOKIE=_wios;_wiou", END_INLINE,
+//            "URL=http://m.jcpenney.com/b/assets/vendor/eluminate.min.js", "HEADER=Accept-Language:en-in", "COOKIE=yoda-experience;cmTPSet;TLTSID;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;DPUserTracking;cmvid;omni_profileType;omni_profileAttr;omni_profileOptin;DPSessionTimeOutInterval;JCPSignInCookie;marketing;jcp.ab.test;clientTestPool1;LPCKEY-58507821;s_ptc;s_cc;ACCTSRC;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;_ga;SVCVER;c17;v53;s_sq;CavSF;_uetsid;LPVID;LPSID-58507821;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPOrder;InternationalItemTotal;DP_USER_AUTH_STATUS;DPJSESSIONID;testpool;_4c_;CavNVC;BNSPrevPercentage;BNSOrigin;mbox", END_INLINE
+//    );
+//    ns_end_transaction("API_settings_GET", NS_AUTO_STATUS);	
+//	
+//    //Page Auto splitted for application/json type
+//    ns_start_transaction("API_rootCategories_GET");    
+//    ns_web_url ("API_rootCategories",
+//        "URL=http://m.jcpenney.com/v4/categories/root?rwdcb=20170411105036",
+//        "HEADER=Accept-Language:en-in",
+//        "COOKIE=yoda-experience;cmTPSet;TLTSID;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;DPUserTracking;cmvid;omni_profileType;omni_profileAttr;omni_profileOptin;DPSessionTimeOutInterval;JCPSignInCookie;marketing;LPCKEY-58507821;s_ptc;s_cc;ACCTSRC;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;_ga;SVCVER;c17;v53;s_sq;CavSF;_uetsid;LPVID;LPSID-58507821;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPOrder;InternationalItemTotal;DP_USER_AUTH_STATUS;DPJSESSIONID;testpool;_4c_;CavNVC;BNSPrevPercentage;BNSOrigin;mbox;jcp.ab.test;clientTestPool1",
+//        "PreSnapshot=webpage_1493361587599.png",
+//        "Snapshot=webpage_1493361587610.png"
+//    );
+//    ns_end_transaction("API_rootCategories_GET", NS_AUTO_STATUS);	
+//	
+//    //Page Auto splitted for application/json type
+//    
+//    ns_start_transaction("API_content_GET");    
+//    ns_web_url ("API_content",
+//        "URL=http://m.jcpenney.com/v2.1/content/pg00001/mobile?rwdcb=20170411105036",
+//        "HEADER=Accept-Language:en-in",
+//        "COOKIE=yoda-experience;cmTPSet;TLTSID;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;DPUserTracking;cmvid;omni_profileType;omni_profileAttr;omni_profileOptin;DPSessionTimeOutInterval;JCPSignInCookie;marketing;LPCKEY-58507821;s_ptc;s_cc;ACCTSRC;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;_ga;SVCVER;c17;v53;s_sq;CavSF;_uetsid;LPVID;LPSID-58507821;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPOrder;InternationalItemTotal;DP_USER_AUTH_STATUS;DPJSESSIONID;testpool;_4c_;CavNVC;BNSPrevPercentage;BNSOrigin;mbox;jcp.ab.test;clientTestPool1",
+//        "PreSnapshot=webpage_1493361587610.png",
+//        "Snapshot=webpage_1493361587680.png"
+//    );
+//    ns_end_transaction("API_content_GET", NS_AUTO_STATUS);	
+//	
+//    //Page Auto splitted for application/json type
+//    ns_start_transaction("API_home_content_GET");    
+//    ns_web_url ("API_home_content",
+//        "URL=http://m.jcpenney.com/v4/content/home?rwdcb=20170411105036",
+//        "HEADER=Accept-Language:en-in",
+//        "COOKIE=yoda-experience;cmTPSet;TLTSID;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;DPUserTracking;cmvid;omni_profileType;omni_profileAttr;omni_profileOptin;DPSessionTimeOutInterval;JCPSignInCookie;marketing;LPCKEY-58507821;s_ptc;s_cc;ACCTSRC;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;_ga;SVCVER;c17;v53;s_sq;CavSF;_uetsid;LPVID;LPSID-58507821;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPOrder;InternationalItemTotal;DP_USER_AUTH_STATUS;DPJSESSIONID;testpool;_4c_;CavNVC;BNSPrevPercentage;BNSOrigin;mbox;jcp.ab.test;clientTestPool1",
+//        "PreSnapshot=webpage_1493361587680.png",
+//        "Snapshot=webpage_1493361601217.png",
+//        INLINE_URLS,
+//            "URL=http://libs.coremetrics.com/configs/90024642.js", "HEADER=Accept-Language:en-in", END_INLINE,
+//            "URL=http://www88.jcpenney.com/cookie-id.js?fn=eluminate5547", "HEADER=Accept-Language:en-in", "COOKIE=yoda-experience;CoreID6;TestSess3;90024642_login;TLTSID;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;DPUserTracking;cmvid;omni_profileType;omni_profileAttr;omni_profileOptin;DPSessionTimeOutInterval;marketing;LPCKEY-58507821;ACCTSRC;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;90024642_reset;_ga;SVCVER;_uetsid;LPVID;LPSID-58507821;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPOrder;InternationalItemTotal;DP_USER_AUTH_STATUS;DPJSESSIONID;testpool;_4c_;BNSPrevPercentage;BNSOrigin;mbox;clientTestPool1", END_INLINE,
+//            "URL=http://nexus.ensighten.com/jcpenney/prod/serverComponent.php?r=494902497.15054315&ClientID=730&PageID=http%3A%2F%2Fm.jcpenney.com%2F", "HEADER=Accept-Language:en-in", END_INLINE,
+//            "URL=http://www88.jcpenney.com/cm?ci=90024642&st=1493361588169&vn1=4.16.9&ec=utf-8&vn2=e4.0&pi=Welcome&ul=http%3A%2F%2Fm.jcpenney.com%2F&tid=1&cg=Mobile%7CWelcome&rnd=1493371067632&pv_a4=999&pv_a23=Google%20Chrome&pv_a38=responsive", "HEADER=Accept-Language:en-in", "COOKIE=yoda-experience;CoreID6;TestSess3;90024642_login;TLTSID;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;DPUserTracking;cmvid;omni_profileType;omni_profileAttr;omni_profileOptin;DPSessionTimeOutInterval;marketing;LPCKEY-58507821;ACCTSRC;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;90024642_reset;_ga;SVCVER;_uetsid;LPVID;LPSID-58507821;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPOrder;InternationalItemTotal;DP_USER_AUTH_STATUS;DPJSESSIONID;testpool;_4c_;BNSPrevPercentage;BNSOrigin;mbox;clientTestPool1", END_INLINE,
+//            "URL=http://nexus.ensighten.com/jcpenney/prod/code/88a70c01f7a0933a76e260c827fb3606.js?conditionId0=324309", "HEADER=Accept-Language:en-in", END_INLINE,
+//            "URL=http://nexus.ensighten.com/jcpenney/prod/code/022c5310fe895e0a983435ad46ac3549.js?conditionId0=335310", "HEADER=Accept-Language:en-in", END_INLINE,
+//            "URL=http://nexus.ensighten.com/jcpenney/prod/code/d77a940d8d19849e8988cf12bddaf014.js?conditionId0=454795", "HEADER=Accept-Language:en-in", END_INLINE,
+//            "URL=http://nexus.ensighten.com/jcpenney/prod/code/917c49a2004d2d8ef510e0d6f92ed48d.js?conditionId0=346183", "HEADER=Accept-Language:en-in", END_INLINE,
+//            "URL=http://nexus.ensighten.com/jcpenney/prod/code/0f5a676ae1e8054f19c40224b4a93570.js?conditionId0=422808", "HEADER=Accept-Language:en-in", END_INLINE,
+//            "URL=http://nexus.ensighten.com/jcpenney/prod/code/c7e43538738c288010f23449481c08c0.js?conditionId0=375492&conditionId1=335514", "HEADER=Accept-Language:en-in", END_INLINE,
+//            "URL=http://nexus.ensighten.com/jcpenney/prod/code/877e96df370af7a4f98cd5408329dccf.js?conditionId0=340698", "HEADER=Accept-Language:en-in", END_INLINE,
+//            "URL=http://nexus.ensighten.com/jcpenney/prod/code/877e96df370af7a4f98cd5408329dccf.js?conditionId0=374189", "HEADER=Accept-Language:en-in", END_INLINE,
+//            "URL=http://netvision.cavisson.com/nv/JCPenney/cav_nv.js", "HEADER=Accept-Language:en-in", END_INLINE,
+//            "URL=https://lptag.liveperson.net/tag/tag.js?site=58507821", "HEADER=Accept-Language:en-in", END_INLINE,
+//            "URL=http://netvision.cavisson.com/nv/JCPenney/Mobile/config.js", "HEADER=Accept-Language:en-in", END_INLINE,
+//            "URL=https://lptag.liveperson.net/lptag/api/account/58507821/configuration/applications/taglets/.jsonp?df=0&b=1", "HEADER=Accept-Language:en-in", END_INLINE,
+//            "URL=https://lpcdn.lpsnmedia.net/le_unified_window/8.10.0.7-release_2719/le_secure_storage/storage.secure.min.html?loc=http%3A%2F%2Fm.jcpenney.com&site=58507821&asmr=15&env=prod", "HEADER=Upgrade-Insecure-Requests:1", "HEADER=Accept-Language:en-in", END_INLINE
+//    );
+//    ns_end_transaction("API_home_content_GET", NS_AUTO_STATUS);	
+   
+
+   
+        
+    
+
+   
+    
+
+   
+    
+
+    
+    
+
+   
+   
+
+   
+
+   
+
+}

@@ -1,0 +1,174 @@
+--Request 
+HEAD https://images-eu.ssl-images-amazon.com/images/I/71wyXTn7IWL._AC_SY200_.jpg
+Host: images-eu.ssl-images-amazon.com
+Origin: https://www.amazon.in
+Accept: */*
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:16:43 GMT
+content-length: 7837
+server: Server
+expires: Sat, 14 May 2039 08:33:56 GMT
+x-amz-ir-id: 6dbb4544-29c4-4231-aabd-8baeb14e19a0
+access-control-allow-origin: *
+last-modified: Sun, 08 Apr 2018 11:36:16 GMT
+content-type: image/jpeg
+timing-allow-origin: https://www.amazon.com
+x-cache: Hit from akamai
+cache-control: public, max-age=626383033
+status: 200
+----
+--Request 
+GET https://www.amazon.in/gp/uedata?at&v=0.204437.0&id=FQHMBRA36T6KVA44S1T8&m=1&sc=adblk_no&pc=14446&at=14446&t=1562591815077&csmtags=aui:sw:browser:register:supported|adblk_no&pty=Gateway&spty=desktop&pti=desktop&tid=FQHMBRA36T6KVA44S1T8&aftb=1
+Host: www.amazon.in
+Cookie: session-id=259-1202557-5929705; i18n-prefs=INR; ubid-acbin=258-0672242-6953331; x-wl-uid=1ecJvyxzwiGLpb/ivu3x3ngupYO7bY1+BPjlMC56V5J9AKfsIjsCkfc+Jr7a3C9XLJxX0u1syPM0=; session-token=qbOQOkS0VEpBUocLOZRgf/vBjfAa/L1gvzuk4dHaABRLwBcXdkoWG+tgKYovU/GtpgviGH2ntZ17AVp7e48ZFY6MNw3iH/RJtLL2eZrJEHt3s9Cy0QE8n08HbD+hmqwfffrZuHf+ncTYp9ne7NmDLRaqAwIAVoD+O39gZOoyeiIbwRC9aZp+vc79loUdfIgRN7k1iETJ2x2I7SZjKc9arkykk2SqRFhbbijoObQQg4mvjy58UMqGvQ==; session-id-time=2082758401l; visitCount=1; csm-hit=tb:s-FQHMBRA36T6KVA44S1T8|1562591802960&t:1562591815077&adb:adblk_no
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:16:56 GMT
+x-amz-cf-pop: DEL51
+server: Server
+vary: Accept-Encoding,User-Agent,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment
+content-encoding: gzip
+x-frame-options: SAMEORIGIN
+x-amz-rid: PY63B6S7Y933XGRW5EW3
+strict-transport-security: max-age=47474747; includeSubDomains; preload
+via: 1.1 b804a121dcbb7cb51fd709903749806e.cloudfront.net (CloudFront)
+set-cookie: session-id=259-1202557-5929705; path=/; domain=.amazon.in; expires=Tue, 01-Jan-2036 00:00:01 GMT
+content-type: image/gif
+x-amz-id-1: PY63B6S7Y933XGRW5EW3
+x-cache: Miss from cloudfront
+cache-control: no-transform
+x-amz-cf-id: UnjrSG7Je0F8OB-K1thgVsy0UJmZsvC-9qARdSt-5w-LTO0Ck3PKtA==
+status: 200
+----
+--Request 
+GET https://fls-eu.amazon.in/1/batch/1/OP/A21TJRUUN4KGV:259-1202557-5929705:FQHMBRA36T6KVA44S1T8$uedata=s:%2Fgp%2Fuedata%3Fat%26v%3D0.204437.0%26id%3DFQHMBRA36T6KVA44S1T8%26m%3D1%26sc%3Dadblk_no%26pc%3D14446%26at%3D14446%26t%3D1562591815077%26csmtags%3Daui%3Asw%3Abrowser%3Aregister%3Asupported%7Cadblk_no%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3DFQHMBRA36T6KVA44S1T8%26aftb%3D1:14445
+Host: fls-eu.amazon.in
+Cookie: session-id=259-1202557-5929705; i18n-prefs=INR; ubid-acbin=258-0672242-6953331; x-wl-uid=1ecJvyxzwiGLpb/ivu3x3ngupYO7bY1+BPjlMC56V5J9AKfsIjsCkfc+Jr7a3C9XLJxX0u1syPM0=; session-token=qbOQOkS0VEpBUocLOZRgf/vBjfAa/L1gvzuk4dHaABRLwBcXdkoWG+tgKYovU/GtpgviGH2ntZ17AVp7e48ZFY6MNw3iH/RJtLL2eZrJEHt3s9Cy0QE8n08HbD+hmqwfffrZuHf+ncTYp9ne7NmDLRaqAwIAVoD+O39gZOoyeiIbwRC9aZp+vc79loUdfIgRN7k1iETJ2x2I7SZjKc9arkykk2SqRFhbbijoObQQg4mvjy58UMqGvQ==; session-id-time=2082758401l; visitCount=1
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:16:56 GMT
+content-length: 43
+content-type: image/gif
+x-amzn-requestid: cf5d5916-6b1f-4423-a987-099120e61435
+status: 200
+----
+--Request 
+GET https://www.amazon.in/service-worker.js
+Host: www.amazon.in
+Cookie: session-id=259-1202557-5929705; i18n-prefs=INR; ubid-acbin=258-0672242-6953331; x-wl-uid=1ecJvyxzwiGLpb/ivu3x3ngupYO7bY1+BPjlMC56V5J9AKfsIjsCkfc+Jr7a3C9XLJxX0u1syPM0=; session-token=qbOQOkS0VEpBUocLOZRgf/vBjfAa/L1gvzuk4dHaABRLwBcXdkoWG+tgKYovU/GtpgviGH2ntZ17AVp7e48ZFY6MNw3iH/RJtLL2eZrJEHt3s9Cy0QE8n08HbD+hmqwfffrZuHf+ncTYp9ne7NmDLRaqAwIAVoD+O39gZOoyeiIbwRC9aZp+vc79loUdfIgRN7k1iETJ2x2I7SZjKc9arkykk2SqRFhbbijoObQQg4mvjy58UMqGvQ==; session-id-time=2082758401l; visitCount=1; csm-hit=tb:s-FQHMBRA36T6KVA44S1T8|1562591802960&t:1562591815077&adb:adblk_no
+Accept: */*
+Referer: https://www.amazon.in/service-worker.js
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Service-Worker: script
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:16:56 GMT
+x-amz-cf-pop: DEL51
+server: Server
+vary: Accept-Encoding,User-Agent,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment
+content-encoding: gzip
+x-frame-options: SAMEORIGIN
+x-amz-rid: NKZM4EVNA30G7QJG66PM
+strict-transport-security: max-age=47474747; includeSubDomains; preload
+via: 1.1 b804a121dcbb7cb51fd709903749806e.cloudfront.net (CloudFront)
+set-cookie: session-id=259-1202557-5929705; path=/; domain=.amazon.in; expires=Tue, 01-Jan-2036 00:00:01 GMT
+content-type: application/x-javascript
+x-amz-id-1: NKZM4EVNA30G7QJG66PM
+x-cache: Miss from cloudfront
+cache-control: private, max-age=60, no-transform
+x-amz-cf-id: NAuGHzZerXmwWY801G8GIj9S8R6vy1tXvrvU1mjny0v3RJ5BvpL31A==
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/javascripts/lib/popover/images/snake._CB138350263_.gif
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+access-control-allow-origin: *
+date: Mon, 08 Jul 2019 13:16:56 GMT
+content-length: 1698
+last-modified: Fri, 28 May 2010 22:22:17 GMT
+server: Server
+expires: Thu, 17 Mar 2039 17:44:19 GMT
+x-amz-ir-id: 6e844fd4-1e98-4f85-b511-ac3d4183d16f
+content-type: image/gif
+x-cache: Hit from akamai
+cache-control: public, max-age=621404843
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/gno/sprites/nav-sprite-global_bluebeacon-V3-2x_optimized._CB468962293_.png
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:16:56 GMT
+content-length: 22014
+server: Server
+expires: Wed, 02 Mar 2039 22:59:43 GMT
+x-amz-ir-id: e7758f06-345f-42cc-b9db-5396244cd132
+access-control-allow-origin: *
+last-modified: Fri, 22 Feb 2019 19:35:19 GMT
+content-type: image/png
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from akamai
+cache-control: public, max-age=620127767
+status: 200
+----
+--Request 
+GET https://aax-eu.amazon-adsystem.com/s/iu3?d=amazon.in&slot=navFooter&a2=010167e39654ed462ded327d5bc14af764ce778e0ead47b9221cdb8bb4f01946cace&old_oo=0&ts=1562591800856&s=ARGkJ-texgWfQ7O9WLUsM_pPjgTLGp8iQqIB5sd_vocx&cb=1562591800856
+Host: aax-eu.amazon-adsystem.com
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 302 Found
+Cache-Control: max-age=0, no-cache, no-store, private, must-revalidate, s-maxage=0
+Server: Server
+Connection: keep-alive
+Set-Cookie: ad-id=A12g3-vssU7xrcsPDnR90f0|t; Domain=.amazon-adsystem.com; Expires=Wed, 01-Apr-2020 13:16:56 GMT; Path=/; HttpOnly
+Vary: User-Agent
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Pragma: no-cache
+Content-Length: 0
+p3p: policyref=\"https://www.amazon.com/w3c/p3p.xml\", CP=\"PSAo PSDo OUR SAM OTR DSP COR\"
+Date: Mon, 08 Jul 2019 13:16:56 GMT
+Location: https://aax-eu.amazon-adsystem.com/s/iu3?d=amazon.in&slot=navFooter&a2=010167e39654ed462ded327d5bc14af764ce778e0ead47b9221cdb8bb4f01946cace&old_oo=0&ts=1562591800856&s=ARGkJ-texgWfQ7O9WLUsM_pPjgTLGp8iQqIB5sd_vocx&cb=1562591800856&dcc=t
+----
+

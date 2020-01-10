@@ -1,0 +1,39 @@
+syntax = "proto3";
+
+message DataType {
+  double doubletype = 1;
+  float floattype = 2;
+  int32 int32type = 3;
+  int64 int64type = 4;
+  uint32 uint32type = 5;
+  uint64 uint64type = 6;
+  sint32 sint32type = 7;
+  sint64 sint64type = 8;
+  fixed32 fixed32type = 9;
+  fixed64 fixed64type = 10;
+  sfixed32 sfixed32type = 11;
+  sfixed64 sfixed64type = 12;
+  bool booltype = 13;
+  string stringtype = 14;
+  bytes bytestype = 15;
+  
+  Test2 b = 16;
+}
+
+message Test2 {
+  double doubletype1 = 1;
+  float floattype1 = 2;
+  int32 int32type1 = 3;
+  int64 int64type1 = 4;
+  uint32 uint32type1 = 5;
+  uint64 uint64type1 = 6;
+  sint32 sint32type1 = 7;
+  sint64 sint64type1 = 8;
+  fixed32 fixed32type1 = 9;
+  fixed64 fixed64type1 = 10;
+  sfixed32 sfixed32type1 = 11;
+  sfixed64 sfixed64type1 = 12;
+  bool booltype1 = 13;
+  string stringtype1 = 14;
+  bytes bytestype1 = 15;
+}

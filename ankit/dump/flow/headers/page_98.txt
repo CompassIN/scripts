@@ -1,0 +1,196 @@
+--Request 
+GET https://completion.amazon.co.uk/api/2017/suggestions?session-id=260-6898445-8949221&customer-id=&request-id=Q3A6HVWZDTVCTAEBMX6F&page-type=Detail&lop=en_IN&site-variant=desktop&client-info=amazon-search-ui&mid=A21TJRUUN4KGV&alias=apparel&searchTerm=a&suggestion-type=KEYWORD&suggestion-type=WIDGET&_=1563387935996
+Host: completion.amazon.co.uk
+Origin: https://www.amazon.in
+Accept: application/json, text/javascript, */*; q=0.01
+Referer: https://www.amazon.in/Ateesa-Womens-Rayon-Pleated-7058_Navy_Xx-Large/dp/B07NFDRP67/ref=sr_1_1?qid=1563387908&s=apparel&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+----
+--Response 
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Server: Server
+Access-Control-Allow-Origin: *
+Date: Wed, 17 Jul 2019 18:25:36 GMT
+Content-Type: application/json
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img17/TV/Flyout/1050726_InternetTV_flyout-2._CB505081595_.png
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/Ateesa-Womens-Rayon-Pleated-7058_Navy_Xx-Large/dp/B07NFDRP67/ref=sr_1_1?qid=1563387908&s=apparel&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 12 Jun 2019 08:12:48 GMT
+x-amz-cf-pop: ORD50-C1
+content-length: 24979
+server: Server
+expires: Thu, 14 Apr 2039 15:30:12 GMT
+x-amz-ir-id: 0f588e0a-65e8-4521-841e-fd4039ff4f17
+via: 1.1 6ca6a5c7e4ef3511c3ea6d058e2252f9.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Fri, 14 Jul 2017 12:39:51 GMT
+content-type: image/png
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from cloudfront
+cache-control: max-age=630720000,public
+age: 3196402
+x-amz-cf-id: GStXlboq4jOjdm2JlWSMtIHn4qV7V5gONkF60EcivK0QunNOjWI9eQ==
+status: 200
+----
+--Request 
+GET https://images-na.ssl-images-amazon.com/images/I/614g7QLGSmL._UL1459_.jpg
+Host: images-na.ssl-images-amazon.com
+Referer: https://www.amazon.in/Ateesa-Womens-Rayon-Pleated-7058_Navy_Xx-Large/dp/B07NFDRP67/ref=sr_1_1?qid=1563387908&s=apparel&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 17 Jul 2019 18:25:36 GMT
+x-amz-cf-pop: ORD50-C1
+content-length: 68573
+server: Server
+expires: Tue, 12 Jul 2039 18:25:36 GMT
+x-amz-ir-id: 5f5e6861-b0e0-4221-934d-0d3c13f34d60
+via: 1.1 6ca6a5c7e4ef3511c3ea6d058e2252f9.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Sat, 06 Jul 2019 06:28:34 GMT
+content-type: image/jpeg
+timing-allow-origin: https://www.amazon.com
+x-cache: Miss from cloudfront
+cache-control: max-age=630720000,public
+x-amz-cf-id: UStcgREhJoXsqpWZUlKmv2lFrAga6ghh_pPCIz_7rv8qpxMvW-2UWQ==
+status: 200
+----
+--Request 
+GET https://www.amazon.in/gp/uedata?ld&v=0.204437.0&id=Q3A6HVWZDTVCTAEBMX6F&sw=1360&sh=768&vw=1055&vh=498&m=1&sc=Q3A6HVWZDTVCTAEBMX6F&ue=39&bb=549&ns=585&ne=625&x1=626&af=678&cf=5313&be=5493&fp=1000&fcp=1000&pc=8865&tc=-690&na_=-690&ul_=-1563387928352&_ul=-1563387928352&rd_=-1563387928352&_rd=-1563387928352&fe_=-689&lk_=-689&_lk=-689&co_=-689&_co=-689&sc_=-1563387928352&rq_=-613&rs_=-102&_rs=3694&dl_=-10&di_=6308&de_=6308&_de=7003&_dc=8865&ld_=8865&_ld=-1563387928352&ntd=-1&ty=0&rc=0&hob=37&hoe=39&ld=8867&t=1563387937219&ctb=1&rt=cf:30-8-6-10-3-10-1_af:12-0-3-4-2-9-1_ld:60-15-7-27-5-24-1&csmtags=aui|aui:aui_build_date:3.19.4-2019-06-27|navbar|desktop-html-atf-marker|ABPStatusNotEnabled:Detail:ams-detail-right-v2:desktop|ABPStatusNotEnabled:Detail:customer-reviews-top:Glance|SoftlinesDetailPageMetaAssetNotCached|auiNotCached|fls-eu|csm-feature-touch-enabled:false|navigate|noadrender:Detail:ams-detail-right-v2:desktop|iss-on-time|variation_dimension:1|size_name|dropdown|noadrender:Detail:customer-reviews-top:Glance|noadrender:c9a09184-bad8-4206-80a7-f9db64ba2bb1|DPCIFBuyable|DPCIFLongPoleimageblock&viz=visible:38&pty=Detail&spty=Glance&pti=B07PY95354&tid=QTX88JN8XW6309TZ412A&aftb=1&ui=2
+Host: www.amazon.in
+Cookie: session-id=260-6898445-8949221; i18n-prefs=INR; ubid-acbin=262-8671103-6623656; x-wl-uid=1OfaMC7JpnskpcFBQZ0Uq5V8k/Li+eH9j/u3WVuWMZt5YlTHc5uQTLxZFK0jTKGcRFjeKmsxSpo8=; session-token=\"FOD9ahBmF5GIKmPl1E0GHlNJV5EedVXMFVEZhlbBTx0kTXXMg1IYR5c5brnaRCYcCUYDFNILc5DnAHxrFPaxoptoxnDRXfbxQaDXulcLsGquoPty2zDMdmxnHPRVTtAnQDJ5n7OZtZxq8SQ36hwOyZ/OIwYQLZ84s7v4Fd3QqFQ7zkpZa9aeDQF9Ysr3lsS5MnV7pdgpl47Vgy7x4V7fxgY/Hg2HKg2CyscZ924Wm5C+krHuGrc01w==\"; lc-acbin=en_IN; visitCount=2; csm-hit=tb:s-Q3A6HVWZDTVCTAEBMX6F|1563387928899&t:1563387928899&adb:adblk_no; session-id-time=2082758401l
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://www.amazon.in/Ateesa-Womens-Rayon-Pleated-7058_Navy_Xx-Large/dp/B07NFDRP67/ref=sr_1_1?qid=1563387908&s=apparel&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 17 Jul 2019 18:25:37 GMT
+x-amz-cf-pop: ORD52-C1
+server: Server
+vary: Accept-Encoding,User-Agent,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment
+content-encoding: gzip
+x-frame-options: SAMEORIGIN
+x-amz-rid: M4ZB0CFH7J6RGH35Z4SS
+strict-transport-security: max-age=47474747; includeSubDomains; preload
+via: 1.1 1bc8b41b2ed9cf32d0eba23fa9af49b3.cloudfront.net (CloudFront)
+set-cookie: session-id=260-6898445-8949221; path=/; domain=.amazon.in; expires=Tue, 01-Jan-2036 00:00:01 GMT
+content-type: image/gif
+x-amz-id-1: M4ZB0CFH7J6RGH35Z4SS
+x-cache: Miss from cloudfront
+cache-control: no-transform
+x-amz-cf-id: wzRQaOQQ68SEZNczbVfAfuvrnQRkvwFMZjRZbUtPUNqcTYYoxk0emg==
+status: 200
+----
+--Request 
+GET https://fls-eu.amazon.in/1/batch/1/OP/A21TJRUUN4KGV:260-6898445-8949221:Q3A6HVWZDTVCTAEBMX6F$uedata=s:%2Fgp%2Fuedata%3Fld%26v%3D0.204437.0%26id%3DQ3A6HVWZDTVCTAEBMX6F%26sw%3D1360%26sh%3D768%26vw%3D1055%26vh%3D498%26m%3D1%26sc%3DQ3A6HVWZDTVCTAEBMX6F%26ue%3D39%26bb%3D549%26ns%3D585%26ne%3D625%26x1%3D626%26af%3D678%26cf%3D5313%26be%3D5493%26fp%3D1000%26fcp%3D1000%26pc%3D8865%26tc%3D-690%26na_%3D-690%26ul_%3D-1563387928352%26_ul%3D-1563387928352%26rd_%3D-1563387928352%26_rd%3D-1563387928352%26fe_%3D-689%26lk_%3D-689%26_lk%3D-689%26co_%3D-689%26_co%3D-689%26sc_%3D-1563387928352%26rq_%3D-613%26rs_%3D-102%26_rs%3D3694%26dl_%3D-10%26di_%3D6308%26de_%3D6308%26_de%3D7003%26_dc%3D8865%26ld_%3D8865%26_ld%3D-1563387928352%26ntd%3D-1%26ty%3D0%26rc%3D0%26hob%3D37%26hoe%3D39%26ld%3D8867%26t%3D1563387937219%26ctb%3D1%26rt%3Dcf%3A30-8-6-10-3-10-1_af%3A12-0-3-4-2-9-1_ld%3A60-15-7-27-5-24-1%26csmtags%3Daui%7Caui%3Aaui_build_date%3A3.19.4-2019-06-27%7Cnavbar%7Cdesktop-html-atf-marker%7CABPStatusNotEnabled%3ADetail%3Aams-detail-right-v2%3Adesktop%7CABPStatusNotEnabled%3ADetail%3Acustomer-reviews-top%3AGlance%7CSoftlinesDetailPageMetaAssetNotCached%7CauiNotCached%7Cfls-eu%7Ccsm-feature-touch-enabled%3Afalse%7Cnavigate%7Cnoadrender%3ADetail%3Aams-detail-right-v2%3Adesktop%7Ciss-on-time%7Cvariation_dimension%3A1%7Csize_name%7Cdropdown%7Cnoadrender%3ADetail%3Acustomer-reviews-top%3AGlance%7Cnoadrender%3Ac9a09184-bad8-4206-80a7-f9db64ba2bb1%7CDPCIFBuyable%7CDPCIFLongPoleimageblock%26viz%3Dvisible%3A38%26pty%3DDetail%26spty%3DGlance%26pti%3DB07PY95354%26tid%3DQTX88JN8XW6309TZ412A%26aftb%3D1%26ui%3D2:8872
+Host: fls-eu.amazon.in
+Cookie: session-id=260-6898445-8949221; i18n-prefs=INR; ubid-acbin=262-8671103-6623656; x-wl-uid=1OfaMC7JpnskpcFBQZ0Uq5V8k/Li+eH9j/u3WVuWMZt5YlTHc5uQTLxZFK0jTKGcRFjeKmsxSpo8=; session-token=\"FOD9ahBmF5GIKmPl1E0GHlNJV5EedVXMFVEZhlbBTx0kTXXMg1IYR5c5brnaRCYcCUYDFNILc5DnAHxrFPaxoptoxnDRXfbxQaDXulcLsGquoPty2zDMdmxnHPRVTtAnQDJ5n7OZtZxq8SQ36hwOyZ/OIwYQLZ84s7v4Fd3QqFQ7zkpZa9aeDQF9Ysr3lsS5MnV7pdgpl47Vgy7x4V7fxgY/Hg2HKg2CyscZ924Wm5C+krHuGrc01w==\"; lc-acbin=en_IN; visitCount=2; session-id-time=2082758401l
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://www.amazon.in/Ateesa-Womens-Rayon-Pleated-7058_Navy_Xx-Large/dp/B07NFDRP67/ref=sr_1_1?qid=1563387908&s=apparel&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 17 Jul 2019 18:25:37 GMT
+content-length: 43
+content-type: image/gif
+x-amzn-requestid: 2a015300-6bfd-4760-bf92-576995c14e3f
+status: 200
+----
+--Request 
+GET https://fls-eu.amazon.in/1/batch/1/OP/A21TJRUUN4KGV:260-6898445-8949221:Q3A6HVWZDTVCTAEBMX6F$uedata=s:%2Fgp%2Fuedata%3Fld%26v%3D0.204437.0%26id%3DQ3A6HVWZDTVCTAEBMX6F%26sc0%3DclickToCI%26bb0%3D545%26cf0%3D7978%26pc0%3D7979%26ld0%3D7979%26t0%3D1563387936331%26sc1%3Dportal-bb%26pc1%3D1%26ld1%3D1%26t1%3D1563387928902%26sc2%3Diss-init-pc%26bb2%3D596%26cf2%3D7632%26be2%3D7632%26pc2%3D7632%26ld2%3D7632%26t2%3D1563387935984%26sc3%3DudpV3atfwait%26bb3%3D626%26be3%3D626%26pc3%3D626%26ld3%3D626%26t3%3D1563387928978%26sc4%3DTwisterAUIWait%26bb4%3D679%26af4%3D5386%26be4%3D7840%26pc4%3D7840%26ld4%3D7840%26t4%3D1563387936192%26sc5%3DdpATCTTI%26bb5%3D5458%26cf5%3D652%26pc5%3D7979%26ld5%3D7979%26t5%3D1563387936331%26sc6%3DcsmCELLSframework%26bb6%3D6264%26pc6%3D6265%26ld6%3D6265%26t6%3D1563387934617%26sc7%3DcsmCELLSpdm%26bb7%3D6265%26pc7%3D6267%26ld7%3D6267%26t7%3D1563387934619%26sc8%3DcsmCELLSvpm%26bb8%3D6267%26pc8%3D6268%26ld8%3D6268%26t8%3D1563387934620%26sc9%3DcsmCELLSfem%26bb9%3D6268%26pc9%3D6268%26ld9%3D6268%26t9%3D1563387934620%26sc10%3Due_sushi_v1%26bb10%3D6270%26pc10%3D6272%26ld10%3D6272%26t10%3D1563387934624%26sc11%3DclickToTwister%26bb11%3D6283%26be11%3D7840%26pc11%3D7840%26ld11%3D7840%26t11%3D1563387936192%26ctb%3D1:8872
+Host: fls-eu.amazon.in
+Cookie: session-id=260-6898445-8949221; i18n-prefs=INR; ubid-acbin=262-8671103-6623656; x-wl-uid=1OfaMC7JpnskpcFBQZ0Uq5V8k/Li+eH9j/u3WVuWMZt5YlTHc5uQTLxZFK0jTKGcRFjeKmsxSpo8=; session-token=\"FOD9ahBmF5GIKmPl1E0GHlNJV5EedVXMFVEZhlbBTx0kTXXMg1IYR5c5brnaRCYcCUYDFNILc5DnAHxrFPaxoptoxnDRXfbxQaDXulcLsGquoPty2zDMdmxnHPRVTtAnQDJ5n7OZtZxq8SQ36hwOyZ/OIwYQLZ84s7v4Fd3QqFQ7zkpZa9aeDQF9Ysr3lsS5MnV7pdgpl47Vgy7x4V7fxgY/Hg2HKg2CyscZ924Wm5C+krHuGrc01w==\"; lc-acbin=en_IN; visitCount=2; session-id-time=2082758401l
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://www.amazon.in/Ateesa-Womens-Rayon-Pleated-7058_Navy_Xx-Large/dp/B07NFDRP67/ref=sr_1_1?qid=1563387908&s=apparel&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 17 Jul 2019 18:25:37 GMT
+content-length: 43
+content-type: image/gif
+x-amzn-requestid: a04501df-1c1c-4474-8746-830b8cd35248
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/01/AUIClients/ClientSideMetricsAUIJavascript@jserrorsForester.10f2559e93ec589d92509318a7e2acbac74c343a._V2_.js
+Host: images-eu.ssl-images-amazon.com
+Origin: https://www.amazon.in
+Accept: */*
+Referer: https://www.amazon.in/Ateesa-Womens-Rayon-Pleated-7058_Navy_Xx-Large/dp/B07NFDRP67/ref=sr_1_1?qid=1563387908&s=apparel&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+----
+--Response 
+HTTP/1.1 200
+date: Thu, 13 Dec 2018 12:54:35 GMT
+x-amz-cf-pop: ORD50-C1
+server: Server
+expires: Sun, 05 Dec 2038 07:57:53 GMT
+x-amz-ir-id: 03477b53-85a3-4166-b937-2d59232000c2
+content-encoding: gzip
+via: 1.1 fc9898e8f62308e3f28fb29079b65ebb.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Wed, 14 Nov 2018 15:06:07 GMT
+content-type: application/x-javascript; charset=utf-8
+timing-allow-origin: https://www.amazon.com
+x-cache: Hit from cloudfront
+cache-control: max-age=630720000,public
+age: 18684523
+x-amz-cf-id: O5a7jL37MwBapXQhVlQce7XawhRzrj8KWUyp1dC7tcMiJ9YHaLjozg==
+status: 200
+----
+--Request 
+GET https://m.media-amazon.com/images/G/01/csm/showads.v2.js
+Host: m.media-amazon.com
+Origin: https://www.amazon.in
+Accept: */*
+Referer: https://www.amazon.in/Ateesa-Womens-Rayon-Pleated-7058_Navy_Xx-Large/dp/B07NFDRP67/ref=sr_1_1?qid=1563387908&s=apparel&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 17 Jul 2019 06:13:04 GMT
+x-amz-cf-pop: ORD50-C1
+server: Server
+expires: Wed, 18 Jul 2018 01:42:51 GMT
+x-amz-ir-id: f7a65af0-7f20-478e-8450-21ce4f389d8c
+content-encoding: gzip
+via: 1.1 50fe1d71b205e020c992be911ed0d44c.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Mon, 28 Nov 2016 08:24:04 GMT
+content-type: application/x-javascript
+x-cache: Hit from cloudfront
+cache-control: max-age=86400,public
+age: 43850
+x-amz-cf-id: KNIwXhgixotZ6ufcLhvPCliyNirGXti4w6bAUU05CB5BZyGGXj2tUA==
+status: 200
+----
+

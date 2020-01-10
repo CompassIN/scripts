@@ -1,0 +1,43 @@
+/*-----------------------------------------------------------------------------
+    Name:PFC_GetDetails
+    Recorded By: Anjali
+    Date of recording: 05/18/2016 03:32:09
+    Flow details:
+    Build details: 4.1.4 (build# 40)
+    Modification History:
+-----------------------------------------------------------------------------*/
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "ns_string.h"
+#include "Util.c"
+void DirectCoupons()
+{
+    ns_start_transaction("COM_Direct_Coupons"); 
+    ns_web_url ("Coupons",
+       // "URL=http://www.jcpenney.com/jsp/browse/marketing/promotion.jsp?pageId=pg40027800029",
+      	//Below is the new URL in R6.2 hot fix
+      	"URL=http://www.jcpenney.com/m/jcpenney-coupons/N-mpi6e5",
+        "HEADER=Accept-Language:en-US,en;q=0.8",
+        "COOKIE=DPJSESSIONID;DPSessionTimeOutInterval;userLatLong;DPUserTracking;cmTPSet;AKJCP;marketing;TLTSID;__gads;CavSID;InternationalItemTotal;ItemTotal;ItemCount;DPOrder;shipToCurrencyCode;shipToCountry;mmcore.tst;DPInstance;DP_USER_FAVCOUNT;DP_SFL_PPIDS;DP_USER_AUTH_STATUS;DPRRSESSIONID;DPCluster;DPLastAccessedTime;rr_rcs;akaau;CavSF;CavLTS;CavPI;mmapi.store.p.0;mmapi.store.s.0;1360182-VID;1360182-SKEY;HumanClickSiteContainerID_1360182;DPIdentifier;LegacyIdentifier",
+        "PreSnapshot=webpage_1463565621199.png",
+        "Snapshot=webpage_1463565623792.png",
+        INLINE_URLS,
+            "URL=http://pagead2.googlesyndication.com/activeview?avi=BfTl28zw8V7zSHJaMpgOO1bqwDwAAAAAQATgByAEJwAIC4AIA4AQBoAYg&cid=5GgrMU21ZUZ18r9g0yJepnaDOdE&id=osdtos&ti=1&adk=717340194&p=755,15,1355,175&tos=221,1266,233,0,194&mtos=221,1487,1720,1720,1914&rs=3&ht=0&tfs=53625&tls=55345&mc=1&lte=0&bas=0&bac=0&fp=correlator%3D391175701790720%26eid%3D108809080%26iu%3D%252F5705%252Fbv.jcpenney%252Fhomepage%26oid%3D3%26url%3Dhttp%253A%252F%252Fwww.jcpenney.com%252F&afp=%26output%3Djson_html%26impl%3Dfif%26dt%3D1463565555987%26adx%3D15%26ady%3D755%26ifi%3D2%26flash%3D0&r=u&bs=1349,608&bos=-12245933,-12245933&ps=1349,3083&ss=1366,768&tt=63791&pt=9&deb=1-3-3-56-95-57&tvt=63754&uc=93&tgt=nf&cl=0", "HEADER=Accept-Language:en-US,en;q=0.8", "HEADER=Cache-Control:max-age=0", END_INLINE,
+            "URL=http://pagead2.googlesyndication.com/activeview?avi=B6DsW8zw8V73SHJaMpgOO1bqwDwAAAAAQATgByAEJwAIC4AIA4AQBoAYf&cid=5Gg_3d7cuFbOrd-XRCUfuGG9V5k&id=osdtos&ti=1&adk=717340193&p=755,1175,1355,1335&tos=221,1266,233,0,194&mtos=221,1487,1720,1720,1914&rs=3&ht=0&tfs=53625&tls=55345&mc=1&lte=0&bas=0&bac=0&fp=correlator%3D391175701790720%26eid%3D108809080%26iu%3D%252F5705%252Fbv.jcpenney%252Fhomepage%26oid%3D3%26url%3Dhttp%253A%252F%252Fwww.jcpenney.com%252F&afp=%26output%3Djson_html%26impl%3Dfif%26dt%3D1463565556001%26adx%3D1175%26ady%3D755%26ifi%3D3%26flash%3D0&r=u&bs=1349,608&bos=-12245933,-12245933&ps=1349,3083&ss=1366,768&tt=63791&pt=9&deb=1-3-3-56-95-57&tvt=63754&uc=93&tgt=IMG&cl=0", "HEADER=Accept-Language:en-US,en;q=0.8", "HEADER=Cache-Control:max-age=0", END_INLINE,
+            "URL=http://pagead2.googlesyndication.com/activeview?avi=B4LlC9jw8V8-HIY3qBfGMsIALAAAAABABOAHIAQnAAgLgAgDgBAGgBh8&cid=5Gg0TObdoPTTtHWQ4VeqLoX38JY&id=osdtos&ti=1&adk=131569206&p=2835,316,2926,1044&tos=7795,0,0,0,0&mtos=7795,7795,7795,7795,7795&rs=3&ht=0&tfs=54471&tls=62266&mc=1&lte=0&bas=0&bac=0&fp=correlator%3D2572191373721600%26eid%3D108809080%26iu%3D5705%252Fbv.jcpenney%252Findex%26oid%3D3%26ifk%3D3132458371%26url%3Dhttp%253A%252F%252Fwww.jcpenney.com%252F&afp=%26output%3Djson_html%26impl%3Ds%26dt%3D1463565559226%26ifi%3D1%26flash%3D0&r=u&bs=1349,608&bos=-12245933,-12245933&ps=1349,3432&ss=1366,768&tt=43436&pt=18830&deb=1-1-1-72-590-15&tvt=61624&iframe_loc=http%3A%2F%2Fwww.jcpenney.com%2F&is=728,90&uc=590&tgt=IMG&cl=0", "HEADER=Accept-Language:en-US,en;q=0.8", "HEADER=Cache-Control:max-age=0", END_INLINE,
+            "URL=http://service.maxymiser.net/cg/v5us/?fv=dmn%3Djcpenney.com%3Bref%3Dhttp%253A%252F%252Fwww.jcpenney.com%252F%3Burl%3Dhttp%253A%252F%252Fwww.jcpenney.com%252Fjsp%252Fbrowse%252Fmarketing%252Fpromotion.jsp%253FpageId%253Dpg40027800029%3Bscrw%3D1366%3Bscrh%3D768%3Bclrd%3D24%3Bcok%3D1&lver=1.4&jsncl=mmRequestCallbacks%5B1%5D&ri=1&uat=TimeLastPurch%3DNone%3BTimeLastVisit%3D0-1%2520day%3BLoginStatus%3DNonAccount&mmid=1708269678%7CBAAAAAqQJKO7YQ0AAA%3D%3D&pd=622247489%7CBAAAAAoBQpAko7thDYTLlxYBAOzoMBADf9NIDwAAAHhWFc8Cf9NIAAAAAP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FAAZEaXJlY3QBYQ0BAAAAAAAAAAAAANulAAAVNgAA26UAAAMAVVIAAAAtzMv2YQ0A%2F%2F%2F%2F%2FwFhDWEN%2F%2F8CAAABAAAAAAGSyAAAEj4BAADrYQAAADWj%2F51hDQALYQAABWENYQ3%2F%2FwIAAAEAAAAAAT%2FrAAD5cwEAAPNhAAAAsu1avmENAP%2F%2F%2F%2F8BYQ1hDf%2F%2FAgAAAQAAAAABXusAAAd1AQAAAAAAAUU%3D&srv=lvsvwcgus01&jsver=5.13.1", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://www.jcpenney.com/dotcom/js/namespace.js?v=2016.4.5.0.44.0", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=DPJSESSIONID;DPSessionTimeOutInterval;userLatLong;DPUserTracking;cmTPSet;AKJCP;marketing;TLTSID;__gads;CavSID;InternationalItemTotal;ItemTotal;ItemCount;DPOrder;shipToCurrencyCode;shipToCountry;DPInstance;DP_USER_FAVCOUNT;DP_SFL_PPIDS;DP_USER_AUTH_STATUS;DPRRSESSIONID;DPCluster;DPLastAccessedTime;rr_rcs;CavSF;CavLTS;CavPI;1360182-VID;1360182-SKEY;HumanClickSiteContainerID_1360182;DPIdentifier;akaau;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0", END_INLINE,
+            "URL=http://nexus.ensighten.com/jcpenney/prod/serverComponent.php?r=93387574.28340614&ClientID=730&PageID=http%3A%2F%2Fwww.jcpenney.com%2Fjsp%2Fbrowse%2Fmarketing%2Fpromotion.jsp%3FpageId%3Dpg40027800029", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://tpc.googlesyndication.com/safeframe/1-0-2/html/container.html", "HEADER=Accept-Language:en-US,en;q=0.8", "HEADER=Purpose:prefetch", END_INLINE,
+            "URL=http://www88.jcpenney.com/cookie-id.js?fn=eluminate1720", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=DPJSESSIONID;DPSessionTimeOutInterval;userLatLong;DPUserTracking;CoreID6;TestSess3;90024642_login;AKJCP;marketing;TLTSID;__gads;InternationalItemTotal;ItemTotal;ItemCount;DPOrder;shipToCurrencyCode;shipToCountry;DPInstance;DP_USER_FAVCOUNT;DP_SFL_PPIDS;DP_USER_AUTH_STATUS;DPRRSESSIONID;DPCluster;DPLastAccessedTime;rr_rcs;90024642_reset;mmcore.tst;DPIdentifier;LegacyIdentifier;mmapi.store.p.0;mmapi.store.s.0", END_INLINE,
+            "URL=http://www88.jcpenney.com/cm?ci=90024642&st=1463565623516&vn1=4.14.30&ec=utf-8&vn2=e4.0&pi=Promotion%20Landing%20Page%3Ajcp%20coupon(pg40027800029)&rf=http%3A%2F%2Fwww.jcpenney.com%2F&ul=http%3A%2F%2Fwww.jcpenney.com%2Fjsp%2Fbrowse%2Fmarketing%2Fpromotion.jsp%3FpageId%3Dpg40027800029&tid=1&cg=JCP%7Cpg40027800029&rnd=1463566057511", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=DPJSESSIONID;DPSessionTimeOutInterval;userLatLong;DPUserTracking;CoreID6;TestSess3;90024642_login;AKJCP;marketing;TLTSID;__gads;InternationalItemTotal;ItemTotal;ItemCount;DPOrder;shipToCurrencyCode;shipToCountry;DPInstance;DP_USER_FAVCOUNT;DP_SFL_PPIDS;DP_USER_AUTH_STATUS;DPRRSESSIONID;DPCluster;DPLastAccessedTime;rr_rcs;90024642_reset;mmcore.tst;DPIdentifier;LegacyIdentifier;mmapi.store.p.0;mmapi.store.s.0", END_INLINE,
+            "URL=http://www.jcpenney.com/dotcom/images/modal_btn_blue.png", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=DPJSESSIONID;DPSessionTimeOutInterval;userLatLong;DPUserTracking;cmTPSet;AKJCP;marketing;TLTSID;__gads;CavSID;InternationalItemTotal;ItemTotal;ItemCount;DPOrder;shipToCurrencyCode;shipToCountry;DPInstance;DP_USER_FAVCOUNT;DP_SFL_PPIDS;DP_USER_AUTH_STATUS;DPRRSESSIONID;DPCluster;DPLastAccessedTime;rr_rcs;CavSF;CavLTS;CavPI;1360182-VID;1360182-SKEY;HumanClickSiteContainerID_1360182;akaau;mmcore.tst;DPIdentifier;LegacyIdentifier;mmapi.store.p.0;mmapi.store.s.0", END_INLINE,
+            "URL=http://www.jcpenney.com/dotcom/images/top_header_pipe.gif", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=DPJSESSIONID;DPSessionTimeOutInterval;userLatLong;DPUserTracking;cmTPSet;AKJCP;marketing;TLTSID;__gads;CavSID;InternationalItemTotal;ItemTotal;ItemCount;DPOrder;shipToCurrencyCode;shipToCountry;DPInstance;DP_USER_FAVCOUNT;DP_SFL_PPIDS;DP_USER_AUTH_STATUS;DPRRSESSIONID;DPCluster;DPLastAccessedTime;rr_rcs;CavSF;CavLTS;CavPI;1360182-VID;1360182-SKEY;HumanClickSiteContainerID_1360182;akaau;mmcore.tst;DPIdentifier;LegacyIdentifier;mmapi.store.p.0;mmapi.store.s.0", END_INLINE
+    );
+   ns_end_transaction("COM_Direct_Coupons", NS_AUTO_STATUS);
+   ns_page_think_time(0);
+   
+
+}

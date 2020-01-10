@@ -1,0 +1,170 @@
+--Request 
+POST https://www.amazon.in/gp/customer-reviews/aj/private/reviewsGallery/get-application-resources-for-reviews-gallery
+Host: www.amazon.in
+Cookie: session-id=259-1202557-5929705; i18n-prefs=INR; ubid-acbin=258-0672242-6953331; x-wl-uid=1ecJvyxzwiGLpb/ivu3x3ngupYO7bY1+BPjlMC56V5J9AKfsIjsCkfc+Jr7a3C9XLJxX0u1syPM0=; session-token=\"qbOQOkS0VEpBUocLOZRgf/vBjfAa/L1gvzuk4dHaABRLwBcXdkoWG+tgKYovU/GtpgviGH2ntZ17AVp7e48ZFY6MNw3iH/RJtLL2eZrJEHt3s9Cy0QE8n08HbD+hmqwfffrZuHf+ncTYp9ne7NmDLRaqAwIAVoD+O39gZOoyeiIbwRC9aZp+vc79loUdfIgRN7k1iETJ2x2I7SZjKc9arkykk2SqRFhbbijoObQQg4mvjy58UMqGvQ==\"; lc-acbin=en_IN; csm-hit=tb:s-XS1R1NSST0MSNB81W2M8|1562592294012&t:1562592295847&adb:adblk_no; session-id-time=2082758401l; visitCount=2
+Origin: https://www.amazon.in
+Accept: */*
+X-Requested-With: XMLHttpRequest
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Content-Type: application/x-www-form-urlencoded
+----
+ POSTDATA noCache=1562592299861
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:25:00 GMT
+x-amz-cf-pop: DEL51
+server: Server
+vary: Accept-Encoding,User-Agent,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment
+content-encoding: gzip
+x-frame-options: SAMEORIGIN
+x-amz-rid: 6TE6XF412VND778TQZJ0
+strict-transport-security: max-age=47474747; includeSubDomains; preload
+via: 1.1 2cbe2d6bb9079c1d153e7e15e9eac3c8.cloudfront.net (CloudFront)
+set-cookie: session-id=259-1202557-5929705; path=/; domain=.amazon.in; expires=Tue, 01-Jan-2036 00:00:01 GMT
+content-type: application/json
+x-amz-id-1: 6TE6XF412VND778TQZJ0
+x-cache: Miss from cloudfront
+cache-control: no-transform
+x-amz-cf-id: iVt5DON18dl4tpbasvzSOgKEp8-khn1YL-Or83k-s7chLlAf4OmmGQ==
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/x-locale/common/buy-buttons/review-1-click-order._CB138348768_.gif
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Tue, 28 May 2019 20:35:39 GMT
+x-amz-cf-pop: DEL51
+content-length: 2502
+server: Server
+expires: Wed, 18 May 2039 04:48:58 GMT
+x-amz-ir-id: 13b22efb-9133-4872-8ce7-31f1f91082f7
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Wed, 02 Jun 2010 21:58:48 GMT
+content-type: image/gif
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from cloudfront
+cache-control: max-age=630720000,public
+age: 4005362
+x-amz-cf-id: Ys3xB9nPN12BcBGvBVz-HmF2j_btqw-4VWdDTq8Ac2ebgckNgoulyg==
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/x-locale/common/buttons/continue-shopping._CB138360611_.gif
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Tue, 28 May 2019 20:59:59 GMT
+x-amz-cf-pop: DEL51
+content-length: 1817
+server: Server
+expires: Wed, 18 May 2039 22:02:11 GMT
+x-amz-ir-id: 619a0798-572b-4955-b1df-4e9691f09f6b
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Wed, 02 Jun 2010 20:15:59 GMT
+content-type: image/gif
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from cloudfront
+cache-control: max-age=630720000,public
+age: 3943369
+x-amz-cf-id: IS8J8ywHdn_r8hMXeBT7ElDt1BZwXykX5_u-THNXlXHyLYtBLQvZdw==
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/x-locale/common/buy-buttons/thank-you-elbow._CB138348794_.gif
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Sat, 08 Jun 2019 21:21:33 GMT
+x-amz-cf-pop: DEL51
+content-length: 92
+server: Server
+expires: Wed, 01 Jun 2039 04:30:06 GMT
+x-amz-ir-id: 303eaad1-6c2e-4984-b316-f398136f441d
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Wed, 02 Jun 2010 23:02:07 GMT
+content-type: image/gif
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from cloudfront
+cache-control: max-age=630720000,public
+age: 2796893
+x-amz-cf-id: UAy0synnBka2ueGyJ15js88GmGNfHHmStwWArwi440v_fFBZhnRHHg==
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/x-locale/communities/social/snwicons_v2._CB402380004_.png
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:17:01 GMT
+content-length: 3564
+server: Server
+expires: Sun, 03 Apr 2039 11:10:44 GMT
+x-amz-ir-id: f5ca3ea9-ba6c-4342-8245-b983f7e4e9bc
+access-control-allow-origin: *
+last-modified: Wed, 12 Sep 2012 12:00:28 GMT
+content-type: image/png
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from akamai
+cache-control: public, max-age=622850023
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/checkout/assets/carrot._CB138350193_.gif
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Sat, 01 Dec 2018 14:39:10 GMT
+x-amz-cf-pop: DEL51
+content-length: 76
+server: Server
+expires: Fri, 26 Nov 2038 14:39:10 GMT
+x-amz-ir-id: 4c57c931-41ea-4bf0-bfde-4ea944da8f82
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Wed, 26 May 2010 00:33:08 GMT
+content-type: image/gif
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from cloudfront
+cache-control: max-age=630720000,public
+age: 18917149
+x-amz-cf-id: -3jsr69mHR8m5gVXx67zAa-47XvYOhY-aodd3hPn7mGbx5RAfk0bPA==
+status: 200
+----
+

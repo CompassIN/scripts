@@ -1,0 +1,283 @@
+/*-----------------------------------------------------------------------------
+    Name: ShoppingBag
+    Recorded By: anjali
+    Date of recording: 06/28/2016 02:23:10
+    Flow details:
+    Build details: 4.1.4 (build# 43)
+    Modification History:
+-----------------------------------------------------------------------------*/
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "ns_string.h"
+
+void ShoppingBag()
+{
+	ns_start_transaction("API_SB_shoppingCart_GET");
+    ns_web_url ("index",
+        "URL=https://m.jcpenney.com/v2.2/cart?context=shoppingCart",
+        "HEADER=Accept-Language:en-US,en;q=0.8",
+        "PreSnapshot=webpage_1467103795312.png",
+        "Snapshot=webpage_1467103824811.png",
+        INLINE_URLS,
+            "URL=http://m.jcpenney.com/b/assets/css/jcp.css?v=20160623202144", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=clientTestPool1;akaau;BNSOrigin;BNSPrevPercentage", END_INLINE,
+            "URL=http://d2zah9y47r7bi2.cloudfront.net/releases/current/tracker.js", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://service.maxymiser.net/cdn/jcpenny/js/mmcore.js", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://m.jcpenney.com/b/assets/img/spinner-inline.gif", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=clientTestPool1;akaau;BNSOrigin;BNSPrevPercentage", END_INLINE,
+            "URL=http://m.jcpenney.com/b/lib/lib.min.js?v=20160623202144", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=clientTestPool1;akaau;BNSOrigin;BNSPrevPercentage", END_INLINE,
+            "URL=http://m.jcpenney.com/b/assets/js/jcpredirectrules.js?v=20160623202144", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=clientTestPool1;akaau;BNSOrigin;BNSPrevPercentage", END_INLINE,
+            "URL=http://m.jcpenney.com/b/vendor.bundle.js?v=20160623202144", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=clientTestPool1;akaau;BNSOrigin;BNSPrevPercentage", END_INLINE,
+            "URL=http://m.jcpenney.com/b/jcp.min.20160623202123.js?v=20160623202144", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=clientTestPool1;akaau;BNSOrigin;BNSPrevPercentage", END_INLINE,
+            "URL=http://service.maxymiser.net/cdn/jcpenny/js/mmcore_old.js", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://service.maxymiser.net/cg/v5us/?fv=dmn%3Djcpenney.com%3Bref%3D%3Burl%3Dhttp%253A%252F%252Fm.jcpenney.com%252F%3Bscrw%3D1366%3Bscrh%3D768%3Bclrd%3D24%3Bcok%3D1&lver=1.4&jsncl=mmRequestCallbacks%5B1%5D&ri=1&jsver=5.13.1", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://service.maxymiser.net/platform/us/api/mmpackage-1.8.js", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=https://usage.trackjs.com/usage.gif?token=081f63e814534625a4cbb8a490dc4971&correlationId=8bdac315-d524-4200-b886-2c106dd74622&application=jcpprod&x=d32efd82-959d-4ae6-b6a1-a2fb81d5b24f&", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://nexus.ensighten.com/jcpenney/Bootstrap.js", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://m.jcpenney.com/b/assets/js/feature-flags.json", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=clientTestPool1;akaau;BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0", END_INLINE,
+            "URL=http://m.jcpenney.com/v2.1/settings", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=clientTestPool1;akaau;BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0", END_INLINE,
+            "URL=http://m.jcpenney.com/b/assets/css/home.css?v=20160623202146", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=clientTestPool1;akaau;BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0", END_INLINE,
+            "URL=http://wurfl.io/wurfl.js", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://m.jcpenney.com/b/assets/vendor/eluminate.min.js", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=clientTestPool1;akaau;BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0", END_INLINE,
+            "URL=http://m.jcpenney.com/b/assets/img/loading-200.gif", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=akaau;BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1", END_INLINE,
+            "URL=http://m.jcpenney.com/b/components/rich-relevance/rich-relevance.html?v=20160623202146", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPSessionTimeOutInterval;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/v2.1/content/pg00001/tablet", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPSessionTimeOutInterval;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/v2.1/content/site/menus", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPSessionTimeOutInterval;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/b/assets/img/spinner.gif?v=20160623202144", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPSessionTimeOutInterval;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/b/assets/img/adchoices-icon.gif?v=20160623202144", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPSessionTimeOutInterval;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/b/StoreSearchPage/store-search.html?v=20160623202146", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPSessionTimeOutInterval;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/b/assets/img/app_icon.png", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPSessionTimeOutInterval;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/b/assets/img/logo.svg?v=20160623202146", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPSessionTimeOutInterval;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/b/assets/fonts/jcp-icons.woff", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPSessionTimeOutInterval;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/v4/categories/root?version=20160623202146", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPSessionTimeOutInterval;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau", END_INLINE
+    );
+    
+    // Check to see how many items are added in bag .. and end transaction accordingly ...
+    if(!strcmp(ns_eval_string("{ItemCountSP}"),"1")){
+    ns_end_transaction_as("API_SB_shoppingCart_GET", NS_AUTO_STATUS, "API_SB_shoppingCart_With1Item_GET");}
+    else if(!strcmp(ns_eval_string("{ItemCountSP}"),"2")){
+    ns_end_transaction_as("API_SB_shoppingCart_GET", NS_AUTO_STATUS, "API_SB_shoppingCart_With2Item_GET");}
+    else if(!strcmp(ns_eval_string("{ItemCountSP}"),"3")){
+    ns_end_transaction_as("API_SB_shoppingCart_GET", NS_AUTO_STATUS, "API_SB_shoppingCart_With3Item_GET");}
+    else if(!strcmp(ns_eval_string("{ItemCountSP}"),"4")){
+    ns_end_transaction_as("API_SB_shoppingCart_GET", NS_AUTO_STATUS, "API_SB_shoppingCart_With4Item_GET");}
+    else if(!strcmp(ns_eval_string("{ItemCountSP}"),"5")){
+    ns_end_transaction_as("API_SB_shoppingCart_GET", NS_AUTO_STATUS, "API_SB_shoppingCart_With5Item_GET");}
+    else if(!strcmp(ns_eval_string("{ItemCountSP}"),"6")){
+    ns_end_transaction_as("API_SB_shoppingCart_GET", NS_AUTO_STATUS, "API_SB_shoppingCart_With6Item_GET");}
+    else if(!strcmp(ns_eval_string("{ItemCountSP}"),"7")){
+    ns_end_transaction_as("API_SB_shoppingCart_GET", NS_AUTO_STATUS, "API_SB_shoppingCart_With7Item_GET");}
+    else if(!strcmp(ns_eval_string("{ItemCountSP}"),"8")){
+    ns_end_transaction_as("API_SB_shoppingCart_GET", NS_AUTO_STATUS, "API_SB_shoppingCart_With8Item_GET");}
+    else if(!strcmp(ns_eval_string("{ItemCountSP}"),"9")){
+    ns_end_transaction_as("API_SB_shoppingCart_GET", NS_AUTO_STATUS, "API_SB_shoppingCart_With9Item_GET");}
+    else {
+    ns_end_transaction_as("API_SB_shoppingCart_GET", NS_AUTO_STATUS, "API_SB_shoppingCart_With10Item_GET");}
+
+    //Page Auto splitted for Method = POST
+    ns_start_transaction("API_SB_settings_GET");
+    ns_web_url ("geolocate",
+        "URL=https://m.jcpenney.com/v2.2/settings",
+        "HEADER=Accept-Language:en-US,en;q=0.8",
+        "HEADER=Content-Type:application/json",
+        "PreSnapshot=webpage_1467103824811.png",
+        "Snapshot=webpage_1467103834488.png",
+        INLINE_URLS,
+            "URL=http://m.jcpenney.com/b/assets/img/x.svg", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPSessionTimeOutInterval;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau", END_INLINE,
+            "URL=http://libs.coremetrics.com/configs/90024642.js", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://www88.jcpenney.com/cookie-id.js?fn=eluminate23", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPSessionTimeOutInterval;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT", END_INLINE,
+            "URL=http://www88.jcpenney.com/cm?ci=90024642&st=1467103824945&vn1=4.16.9&ec=utf-8&vn2=e4.0&pi=Welcome&ul=http%3A%2F%2Fm.jcpenney.com%2F&tid=6&cg=Mobile%7CWelcome&rnd=1467103971702&pc=Y&jv=1.8.5&np0=Chrome%20PDF%20Viewer&np1=ActiveTouch%20General%20Plugin%20Container&np2=Microsoft%20Office%202013&np3=Adobe%20Acrobat&np4=Google%20Update&np5=Java%20Deployment%20Toolkit%207.0.800.5&np6=Java(TM)%20Platform%20SE%207%20U80&np7=Microsoft%20Office%202013&je=y&sw=1366&sh=768&pd=24&tz=-5.5&pv_a23=Google%20Chrome&pv_a38=responsive", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPSessionTimeOutInterval;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT", "REDIRECT=YES", "LOCATION=/cm?ci=90024642&st=1467103824945&vn1=4.16.9&ec=utf-8&vn2=e4.0&pi=Welcome&ul=http%3A%2F%2Fm.jcpenney.com%2F&tid=6&cg=Mobile%7CWelcome&rnd=1467103971702&pc=Y&jv=1.8.5&np0=Chrome%20PDF%20Viewer&np1=ActiveTouch%20General%20Plugin%20Container&np2=Microsoft%20Office%202013&np3=Adobe%20Acrobat&np4=Google%20Update&np5=Java%20Deployment%20Toolkit%207.0.800.5&np6=Java(TM)%20Platform%20SE%207%20U80&np7=Microsoft%20Office%202013&je=y&sw=1366&sh=768&pd=24&tz=-5.5&pv_a23=Google%20Chrome&pv_a38=responsive&cvdone=p", END_INLINE,
+            "URL=http://nexus.ensighten.com/jcpenney/prod/serverComponent.php?r=1537915489.1707003&ClientID=730&PageID=http%3A%2F%2Fm.jcpenney.com%2F", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://media.richrelevance.com/rrserver/js/1.0/p13n.js", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://m.jcpenney.com/mobile/images/account.png", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;cmTPSet;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/mobile/images/coupon.png", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;cmTPSet;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/mobile/images/customer_service.png", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;cmTPSet;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/mobile/images/rewards.png", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;cmTPSet;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/mobile/images/find_store.png", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;cmTPSet;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau", END_INLINE,
+            "URL=http://nexus.ensighten.com/jcpenney/prod/code/e8a1cfbc60fb3ede73d6ededaee3202c.js?conditionId0=335310", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://nexus.ensighten.com/jcpenney/prod/code/db328cbda596e3932f876ea80180e756.js?conditionId0=374189", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://nexus.ensighten.com/jcpenney/prod/code/0847bd5a7aa059209fcb9e49b5967b99.js?conditionId0=335514", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://m.jcpenney.com/mobile/images/gift_card.png", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;cmTPSet;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/tablet//images/pg00001_m2600027_51600009.gif", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;cmTPSet;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/tablet//images/53800013v2.jpg", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;cmTPSet;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau", END_INLINE,
+            "URL=http://nexus.ensighten.com/jcpenney/prod/code/84d1fe8e937c44ce34b30fde996fd00c.js?conditionId0=346183", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://m.jcpenney.com/mobile/images/eGift.png", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;cmTPSet;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau", END_INLINE,
+            "URL=http://nexus.ensighten.com/jcpenney/prod/code/758e23f6476fb6a3cd424192a372398c.js?conditionId0=340698", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://nexus.ensighten.com/jcpenney/prod/code/6512b8b1fd7ff820aac14acdc9f9a0c3.js?conditionId0=375492", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://m.jcpenney.com/mobile/images/ads.png", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;cmTPSet;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau", END_INLINE,
+            "URL=http://nexus.ensighten.com/jcpenney/prod/code/0a70099349343602a68f051236a8ead2.js?conditionId0=335317", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://m.jcpenney.com/mobile/images/recommendations.png", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;cmTPSet;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau", END_INLINE,
+            "URL=http://netvision.cavisson.com/nv/JCPenney/cav_nv.js", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://www88.jcpenney.com/cm?ci=90024642&st=1467103824945&vn1=4.16.9&ec=utf-8&vn2=e4.0&pi=Welcome&ul=http%3A%2F%2Fm.jcpenney.com%2F&tid=6&cg=Mobile%7CWelcome&rnd=1467103971702&pc=Y&jv=1.8.5&np0=Chrome%20PDF%20Viewer&np1=ActiveTouch%20General%20Plugin%20Container&np2=Microsoft%20Office%202013&np3=Adobe%20Acrobat&np4=Google%20Update&np5=Java%20Deployment%20Toolkit%207.0.800.5&np6=Java(TM)%20Platform%20SE%207%20U80&np7=Microsoft%20Office%202013&je=y&sw=1366&sh=768&pd=24&tz=-5.5&pv_a23=Google%20Chrome&pv_a38=responsive&cvdone=p", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;CoreID6;TestSess3", END_INLINE,
+            "URL=http://m.jcpenney.com/mobile/images/track_order.png", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;cmTPSet;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/mobile/images/save_items.png", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;cmTPSet;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/mobile/images/store_services.png", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;cmTPSet;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/tablet//images/pg00001_m2600027_53800014.jpg", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;cmTPSet;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau", END_INLINE,
+            "URL=http://recs.richrelevance.com/rrserver/p13n_generated.js?a=5387d7af823640a7&ts=1467103828619&pt=%7Chome_page.content1_tablet_json&s=0027929912924594287f39977f6bfae6&channelId=6506489ec3a5e8a8&cts=http%3A%2F%2Fm.jcpenney.com&flv=0.0.0&l=1", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://m.jcpenney.com/v2.1/products/ens6004030003?fields=prices,images,rating,id,manufacturerAdvertisedPrice,marketingLabel,isNew,name,isPreOrder", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;cmTPSet;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau;rr_rcs", END_INLINE,
+            "URL=http://m.jcpenney.com/v2.1/products/ens6004030005?fields=prices,images,rating,id,manufacturerAdvertisedPrice,marketingLabel,isNew,name,isPreOrder", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;cmTPSet;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau;rr_rcs", END_INLINE,
+            "URL=http://m.jcpenney.com/v2.1/products/pp5006153062?fields=prices,images,rating,id,manufacturerAdvertisedPrice,marketingLabel,isNew,name,isPreOrder", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;cmTPSet;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau;rr_rcs", END_INLINE,
+            "URL=http://m.jcpenney.com/v2.1/products/pp5006292056?fields=prices,images,rating,id,manufacturerAdvertisedPrice,marketingLabel,isNew,name,isPreOrder", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;cmTPSet;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau;rr_rcs", END_INLINE,
+            "URL=http://m.jcpenney.com/v2.1/products/pp5002351376?fields=prices,images,rating,id,manufacturerAdvertisedPrice,marketingLabel,isNew,name,isPreOrder", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;cmTPSet;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau;rr_rcs", END_INLINE,
+            "URL=http://m.jcpenney.com/v2.1/products/ens6005010095?fields=prices,images,rating,id,manufacturerAdvertisedPrice,marketingLabel,isNew,name,isPreOrder", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;cmTPSet;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau;rr_rcs", END_INLINE,
+            "URL=http://m.jcpenney.com/v2.1/products/pp5003740036?fields=prices,images,rating,id,manufacturerAdvertisedPrice,marketingLabel,isNew,name,isPreOrder", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;cmTPSet;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau;rr_rcs", END_INLINE,
+            "URL=http://m.jcpenney.com/v2.1/products/pp5002260198?fields=prices,images,rating,id,manufacturerAdvertisedPrice,marketingLabel,isNew,name,isPreOrder", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;cmTPSet;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau;rr_rcs", END_INLINE,
+            "URL=http://m.jcpenney.com/v2.1/products/pp5006310918?fields=prices,images,rating,id,manufacturerAdvertisedPrice,marketingLabel,isNew,name,isPreOrder", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;cmTPSet;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau;rr_rcs", END_INLINE,
+            "URL=http://m.jcpenney.com/v2.1/products/ens6006350035?fields=prices,images,rating,id,manufacturerAdvertisedPrice,marketingLabel,isNew,name,isPreOrder", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;cmTPSet;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau;rr_rcs", END_INLINE,
+            "URL=http://m.jcpenney.com/v2.1/products/pp5006220931?fields=prices,images,rating,id,manufacturerAdvertisedPrice,marketingLabel,isNew,name,isPreOrder", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;cmTPSet;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau;rr_rcs", END_INLINE,
+            "URL=http://www.googleadservices.com/pagead/conversion_async.js", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://connect.facebook.net/en_US/fbevents.js", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://platform.twitter.com/oct.js", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://www.google-analytics.com/analytics.js", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://d2e0sxz09bo7k2.cloudfront.net/attribution.js", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://static.criteo.net/js/ld/ld.js", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://dms.netmng.com/si/CM/Tracking/ClickTracking.aspx?siclientid=1637&jscript=1", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=https://uscollector.tealeaf.ibmcloud.com/collector/collectorPost", "METHOD=OPTIONS", "HEADER=Access-Control-Request-Headers:x-requested-with", "HEADER=Accept-Language:en-US,en;q=0.8", "HEADER=Origin:http://m.jcpenney.com", "HEADER=Access-Control-Request-Method:POST", END_INLINE,
+            "URL=http://www.google-analytics.com/collect?v=1&_v=j44&a=81515145&t=pageview&_s=1&dl=http%3A%2F%2Fm.jcpenney.com%2F&ul=en-us&de=UTF-8&dt=JCPenney%20%7C%20Find%20the%20best%20deals%20on%20Clothing%2C%20Furniture%2C%20and%20more!%20-%20JCPenney&sd=24-bit&sr=1366x768&vp=1280x1024&je=1&_u=AGAAgEAB~&jid=1403030431&cid=1950836366.1467103833&tid=UA-43509801-1&z=325279932", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=https://stats.g.doubleclick.net/r/collect?t=dc&aip=1&_r=3&v=1&_v=j44&tid=UA-43509801-1&cid=1950836366.1467103833&jid=1403030431&_u=AGAAgEAB~&z=883632890", "HEADER=Accept-Language:en-US,en;q=0.8", "REDIRECT=YES", "LOCATION=https://www.google.com/ads/ga-audiences?v=1&aip=1&t=sr&_r=4&tid=UA-43509801-1&cid=1950836366.1467103833&jid=1403030431&_v=j44&z=883632890", END_INLINE,
+            "URL=http://a.wishabi.com/track.gif?aid=attrib&goal_id=2&goal_value=1&merchant_id=2207", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://widget.criteo.com/event?a=11251&v=4.0.0&p0=e%3Dexd%26site_type%3Dm&p1=e%3Dvh&p2=e%3Ddis&adce=1", "HEADER=Accept-Language:en-US,en;q=0.8", "REDIRECT=YES", "LOCATION=http://widget.us.criteo.com/event?a=11251&v=4.0.0&p0=e%3Dexd%26site_type%3Dm&p1=e%3Dvh&p2=e%3Ddis&adce=1", END_INLINE,
+            "URL=http://widget.us.criteo.com/event?a=11251&v=4.0.0&p0=e%3Dexd%26site_type%3Dm&p1=e%3Dvh&p2=e%3Ddis&adce=1", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://s7d9.scene7.com/is/image/JCPenney/DP0430201405142182M?$richrelevance$", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE
+    );
+    ns_end_transaction("API_SB_settings_GET", NS_AUTO_STATUS);
+    
+    //Page Auto splitted for Method = POST
+    ns_start_transaction("API_SB_targeters_GET");
+    ns_web_url ("collectorPost",
+        "URL=https://m.jcpenney.com/v2.2/content/targeters/freeShipping",
+        "HEADER=Accept-Language:en-US,en;q=0.8",
+        "HEADER=X-Requested-With:XMLHttpRequest",
+        "HEADER=Origin:http://m.jcpenney.com",
+        "HEADER=Content-Type:text/plain",
+        "PreSnapshot=webpage_1467103834488.png",
+        "Snapshot=webpage_1467103881413.png",
+        INLINE_URLS,
+            "URL=http://dis.us.criteo.com/dis/dis.aspx?p=11251&cb=94616881617&ref=&sc_r=1366x768&sc_d=24&site_type=m", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=uid", END_INLINE,
+            "URL=http://s7d9.scene7.com/is/image/JCPenney/DP0513201417082870M?$richrelevance$", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=https://bid.g.doubleclick.net/xbbe/pixel?d=KAE", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=https://googleads.g.doubleclick.net/pagead/viewthroughconversion/974303325/?random=1467103836437&cv=8&fst=1467103836437&num=1&fmt=3&guid=ON&eid=376635471&u_h=768&u_w=1366&u_ah=728&u_aw=1366&u_cd=24&u_his=2&u_tz=330&u_java=true&u_nplug=8&u_nmime=53&data=ecomm_prodid%3D%3Becomm_pagetype%3Dhomepage%3Becomm_totalvalue%3D0.00&frm=0&url=http%3A//m.jcpenney.com/&tiba=JCPenney%20%7C%20Find%20the%20best%20deals%20on%20Clothing%2C%20Furniture%2C%20and%20more!%20-%20JCPenney&async=1", "HEADER=Accept-Language:en-US,en;q=0.8", "REDIRECT=YES", "LOCATION=https://www.google.com/ads/user-lists/974303325/?fmt=3&num=1&cv=8&frm=0&url=http%3A//m.jcpenney.com/&eid=376635471&data=ecomm_prodid%3D%3Becomm_pagetype%3Dhomepage%3Becomm_totalvalue%3D0.00&random=3616243063", END_INLINE,
+            "URL=http://s7d9.scene7.com/is/image/JCPenney/DP0429201620355494C?$richrelevance$", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://s7d9.scene7.com/is/image/JCPenney/DP0609201620423783C?$richrelevance$", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=https://www.google.com/ads/ga-audiences?v=1&aip=1&t=sr&_r=4&tid=UA-43509801-1&cid=1950836366.1467103833&jid=1403030431&_v=j44&z=883632890", "HEADER=Accept-Language:en-US,en;q=0.8", "REDIRECT=YES", "LOCATION=https://www.google.co.in/ads/ga-audiences?v=1&aip=1&t=sr&_r=4&tid=UA-43509801-1&cid=1950836366.1467103833&jid=1403030431&_v=j44&z=883632890&ipr=y", END_INLINE,
+            "URL=https://www.google.com/ads/user-lists/974303325/?fmt=3&num=1&cv=8&frm=0&url=http%3A//m.jcpenney.com/&eid=376635471&data=ecomm_prodid%3D%3Becomm_pagetype%3Dhomepage%3Becomm_totalvalue%3D0.00&random=3616243063", "HEADER=Accept-Language:en-US,en;q=0.8", "REDIRECT=YES", "LOCATION=https://www.google.co.in/ads/user-lists/974303325/?fmt=3&num=1&cv=8&frm=0&url=http%3A//m.jcpenney.com/&eid=376635471&data=ecomm_prodid%3D%3Becomm_pagetype%3Dhomepage%3Becomm_totalvalue%3D0.00&random=3616243063&ipr=y", END_INLINE,
+            "URL=http://s7d9.scene7.com/is/image/JCPenney/DP0422201517022106M?$richrelevance$", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=https://www.google.co.in/ads/ga-audiences?v=1&aip=1&t=sr&_r=4&tid=UA-43509801-1&cid=1950836366.1467103833&jid=1403030431&_v=j44&z=883632890&ipr=y", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://m.jcpenney.com/b/assets/js/gateway/snippet.js", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;cmTPSet;rr_rcs;marketing;TLTSID;_ga;_gat;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau", END_INLINE,
+            "URL=http://s7d9.scene7.com/is/image/JCPenney/DP0904201517030571M?$richrelevance$", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=https://www.google.co.in/ads/user-lists/974303325/?fmt=3&num=1&cv=8&frm=0&url=http%3A//m.jcpenney.com/&eid=376635471&data=ecomm_prodid%3D%3Becomm_pagetype%3Dhomepage%3Becomm_totalvalue%3D0.00&random=3616243063&ipr=y", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://m.jcpenney.com/b/assets/js/gateway/foresee/foresee_trigger.js?v=R03527CCF14", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;cmTPSet;rr_rcs;marketing;TLTSID;_ga;_gat;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau", END_INLINE,
+            "URL=http://content.webcollage.net/api/v2/product-content?v=R03527CCF14", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://m.jcpenney.com/b/assets/js/gateway/foresee/frameWorker.html?v=R03527CCF14", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;cmTPSet;rr_rcs;marketing;TLTSID;_ga;_gat;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/b/assets/js/gateway/foresee/foresee_surveydef.js?v=R03527CCF14", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;cmTPSet;rr_rcs;marketing;TLTSID;_ga;_gat;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau;fsr.s", END_INLINE,
+            "URL=http://m.jcpenney.com/b/assets/js/gateway/foresee/foresee_frame_controller.js?v=R03527CCF14", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;cmTPSet;rr_rcs;marketing;TLTSID;_ga;_gat;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau;fsr.s", END_INLINE,
+            "URL=https://www.dsply.com/?pid=01nzy3bz91&t=KDQfoofz!%7D!Gjoe!uif!cftu!efbmt!po!Dmpuijoh-!Gvsojuvsf-!boe!npsf%22!.!KDQfoofz&st=n%2Fkdqfoofz%2Fdpn", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://m.jcpenney.com/b/assets/js/gateway/foresee/foresee_dhtml.css?v=R03527CCF14", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;cmTPSet;rr_rcs;marketing;TLTSID;_ga;_gat;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau;fsr.s", END_INLINE,
+            "URL=http://replaycontroller.4seeresults.com/images/jcpenney.com.gif?protocol=http%3A&uid=1467103839300", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://m.jcpenney.com/v2.1/products/pp5002260198?fields=prices,images,rating,id,manufacturerAdvertisedPrice,marketingLabel,isNew,name,isPreOrder", END_INLINE,
+            "URL=http://s7d9.scene7.com/is/image/JCPenney/DP1028201520391320C?$richrelevance$", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://m.jcpenney.com/v2.1/products/pp5003740036?fields=prices,images,rating,id,manufacturerAdvertisedPrice,marketingLabel,isNew,name,isPreOrder", END_INLINE,
+            "URL=http://s7d9.scene7.com/is/image/JCPenney/DP0618201417152584M?$richrelevance$", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://m.jcpenney.com/v2.1/products/pp5006220931?fields=prices,images,rating,id,manufacturerAdvertisedPrice,marketingLabel,isNew,name,isPreOrder", END_INLINE,
+            "URL=http://s7d9.scene7.com/is/image/JCPenney/DP0209201617044082M?$richrelevance$", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://m.jcpenney.com/v2.1/products/pp5006310918?fields=prices,images,rating,id,manufacturerAdvertisedPrice,marketingLabel,isNew,name,isPreOrder", END_INLINE,
+            "URL=http://m.jcpenney.com/v2.1/products/ens6006350035?fields=prices,images,rating,id,manufacturerAdvertisedPrice,marketingLabel,isNew,name,isPreOrder", END_INLINE,
+            "URL=http://s7d9.scene7.com/is/image/JCPenney/DP0405201620454892C?$richrelevance$", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://s7d9.scene7.com/is/image/JCPenney/DP1228201517142101M?$richrelevance$", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://m.jcpenney.com/v2.1/search/terms/p", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;cmTPSet;rr_rcs;marketing;TLTSID;_ga;_gat;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau;fsr.s;_IFR_jcpenney.com_fsr.a", END_INLINE,
+            "URL=http://m.jcpenney.com/v2.1/search/terms/pa", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;cmTPSet;rr_rcs;marketing;TLTSID;_ga;_gat;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau;fsr.s;_IFR_jcpenney.com_fsr.a", END_INLINE,
+            "URL=http://m.jcpenney.com/v2.1/search/terms/pan", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;cmTPSet;rr_rcs;marketing;TLTSID;_ga;_gat;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau;fsr.s;_IFR_jcpenney.com_fsr.a", END_INLINE,
+            "URL=http://m.jcpenney.com/v2.1/search/terms/pant", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;cmTPSet;rr_rcs;marketing;TLTSID;_ga;_gat;fsr.s;_IFR_jcpenney.com_fsr.a;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/v2.1/search/terms/panta", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;cmTPSet;rr_rcs;marketing;TLTSID;_ga;_gat;fsr.s;_IFR_jcpenney.com_fsr.a;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/v2.1/search/terms/pant", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;cmTPSet;rr_rcs;marketing;TLTSID;_ga;_gat;fsr.s;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau;_IFR_jcpenney.com_fsr.a", END_INLINE,
+            "URL=http://m.jcpenney.com/v2.1/search/terms/pan", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;cmTPSet;rr_rcs;marketing;TLTSID;_ga;_gat;fsr.s;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau;_IFR_jcpenney.com_fsr.a", END_INLINE
+    );
+    ns_end_transaction("API_SB_targeters_GET", NS_AUTO_STATUS);
+
+    ns_start_transaction("API_SB_rewardsEligible_GET");
+    ns_web_url("rw",
+        "URL=https://m.jcpenney.com/v2.2/session?fields=rewardsEligible",
+        "HEADER=Accept-Language:en-US,en;q=0.8",
+        "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;cmTPSet;rr_rcs;marketing;TLTSID;_ga;_gat;fsr.s;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau;_IFR_jcpenney.com_fsr.a",
+        INLINE_URLS,
+            "URL=http://m.jcpenney.com/v2.1/search/terms/p", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;cmTPSet;rr_rcs;marketing;TLTSID;_ga;_gat;fsr.s;_IFR_jcpenney.com_fsr.a;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau", END_INLINE,
+            "URL=http://netvision.cavisson.com/nv/JCPenney/Mobile/config.js", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://netvision.cavisson.com/test_rum?s=000000000000000000000&op=timing&pi=-1&d=1|0|-1|236|4411|351|3515|-1|4485|9|-2|33227|1362|83|37806|28026|72|-1|-1|300||http%3A%2F%2Fm.jcpenney.com%2F|m.jcpenney.com|BNSOrigin%3DA%3B%20BNSPrevPercentage%3D100%3B%20mmcore.tst%3D0.310%3B%20mmapi.store.p.0%3D%257B%2522mmparams.d%2522%253A%257B%257D%252C%2522mmparams.p%2522%253A%257B%2522mmid%2522%253A%25221498639822134%25PIPE%25%255C%2522793737797%25PIPE%25AQAAAAqi%252BnJDig0AAA%253D%253D%255C%2522%2522%252C%2522pd%2522%253A%25221498639822146%25PIPE%25%255C%2522-1602875706%25PIPE%25AQAAAAoBQqL6ckOKDbiQPU8BAJT1pTwxn9NIDwAAAJT1pTwxn9NIAAAAAP%252F%252F%252F%252F%252F%252F%252F%252F%252F%252FAAZEaXJlY3QBig0BAAAAAAAAAAEAABU2AAD%252F%252F%252F%252F%252F%252F%252F%252F%252F%252FwEA62EAAADTGZAKig0AC2EAAAWKDYoN%252F%252F8BAAABAAAAAAE%252F6wAA%252BHMBAAAAAAABRQ%253D%253D%255C%2522%2522%252C%2522srv%2522%253A%25221498639822155%25PIPE%25%255C%2522lvsvwcgus08%255C%2522%2522%252C%2522uat%2522%253A%25221498639823255%25PIPE%25%257B%255C%2522TimeLastPurch%255C%2522%253A%255C%2522None%255C%2522%252C%255C%2522TimeLastVisit%255C%2522%253A%255C%2522None%255C%2522%252C%255C%2522LoginStatus%255C%2522%253A%255C%2522NonAccount%255C%2522%257D%2522%257D%252C%2522mmengine%2522%253A%257B%257D%257D%3B%20mmapi.store.s.0%3D%257B%2522mmparams.d%2522%253A%257B%257D%252C%2522mmparams.p%2522%253A%257B%257D%252C%2522mmengine%2522%253A%257B%257D%257D%3B%20clientTestPool1%3Drwd%3B%20DPUserTracking%3Dnull%3B%20DPSessionTimeOutInterval%3D1200000%3B%20cmTPSet%3DY%3B|0|101|-1|24|24|WINDOWS|MOZILLA%2F5.0%20(WINDOWS%20NT%206.1)%20APPLEWEBKIT%2F537.36%20(KHTML%2C%20LIKE%20GECKO)%20CHROME%2F39.0.2171.71%20SAFARI%2F537.36|en-US|%5Bobject%20PluginArray%5D|Mozilla|0|PC|39.0|7|-1|1|0&lts=0&d2=-1|-1|-1|1|100", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE
+    );
+    ns_end_transaction("API_SB_rewardsEligible_GET", NS_AUTO_STATUS);
+
+    //Page Auto splitted for Method = POST
+    ns_start_transaction("API_SB_promotions_GET");
+    ns_web_url ("test_rum",
+        "URL=https://m.jcpenney.com/v2.2/cart/promotions",
+        "HEADER=Accept-Language:en-US,en;q=0.8",
+        "HEADER=Origin:http://m.jcpenney.com",
+        "HEADER=Content-Type:text/plain;charset=UTF-8",
+        "PreSnapshot=webpage_1467103881413.png",
+        "Snapshot=webpage_1467103882661.png",
+        INLINE_URLS,
+            "URL=http://www88.jcpenney.com/cm?ci=90024642&st=1467103824945&vn1=4.16.9&ec=utf-8&pi=Welcome&ul=http%3A%2F%2Fm.jcpenney.com&tid=8&ti=1467103914055&nm=jcp-logo&hr=%2F", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;CoreID6;TestSess3;90024642_login;90024642_reset;rr_rcs;marketing;TLTSID;_ga;_gat;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;fsr.s", END_INLINE,
+            "URL=http://www88.jcpenney.com/cm?ci=90024642&st=1467103824945&vn1=4.16.9&ec=utf-8&pi=Welcome&ul=http%3A%2F%2Fm.jcpenney.com&tid=8&ti=1467103960055&nm=jcp-logo&hr=%2F", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;CoreID6;TestSess3;90024642_login;rr_rcs;marketing;TLTSID;_ga;_gat;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;fsr.s;90024642_reset", END_INLINE
+    );
+    ns_end_transaction("API_SB_promotions_GET", NS_AUTO_STATUS);
+    ns_page_think_time(27.825);
+
+
+
+    int ApplyPromoCode = ns_get_random_number_int(1,100);
+    int DoApplyCheckOutPromo = ns_get_random_number_int(1,100);
+    if (ApplyPromoCode <= 90){
+        if(DoApplyCheckOutPromo <= 83){
+             ns_set_int_val("CheckOutPromoDP", 1);
+    ns_start_transaction("API_SB_coupons_GET");
+    ns_web_url("CP1",
+        "URL=https://m.jcpenney.com/v4/content/coupons",
+        "HEADER=Accept-Language:en-US,en;q=0.8",
+        "COOKIE=BNSOrigin;BNSPrevPercentage;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;CavSID;_gat;recentSearchData;clientTestPool1;rr_rcs;testVersion;NSPrevPercentage;NSOrigin;mmcore.tst;mm_order_conf;mmapi.store.p.0;mmapi.store.s.0;DPSecureCookie;DPInstance;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;DPOrder;ItemCount;ItemTotal;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;akaau;_ga;CavSF;CavLTS;CavPI;fsr.s;_IFR_jcpenney.com_fsr.a",
+        INLINE_URLS,
+            "URL=https://m.jcpenney.com/v4/content/coupons", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;CavSID;_gat;recentSearchData;clientTestPool1;rr_rcs;testVersion;NSPrevPercentage;NSOrigin;mmcore.tst;mm_order_conf;mmapi.store.p.0;mmapi.store.s.0;DPSecureCookie;DPInstance;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;DPOrder;ItemCount;ItemTotal;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;akaau;_ga;CavSF;CavLTS;CavPI;fsr.s;_IFR_jcpenney.com_fsr.a", END_INLINE,
+            "URL=https://m.jcpenney.com/v4/content/coupons", END_INLINE
+    );
+    ns_end_transaction("API_SB_coupons_GET", NS_AUTO_STATUS);
+    
+    ns_start_transaction("API_SB_promotions_POST");
+    ns_web_url ("CP4",
+        "URL=https://m.jcpenney.com/v2.2/cart/promotions",
+        "METHOD=POST",
+        "HEADER=Accept-Language:en-US,en;q=0.8",
+        "HEADER=Origin:https://m.jcpenney.com",
+        "HEADER=Content-Type:application/json;charset=UTF-8",
+        "COOKIE=BNSOrigin;BNSPrevPercentage;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;CavSID;_gat;recentSearchData;clientTestPool1;rr_rcs;testVersion;NSPrevPercentage;NSOrigin;mmcore.tst;mm_order_conf;mmapi.store.p.0;mmapi.store.s.0;DPSecureCookie;DPOrder;ItemCount;ItemTotal;_ga;CavSF;CavLTS;CavPI;fsr.s;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;akaau;_IFR_jcpenney.com_fsr.a",
+        "REDIRECT=YES",
+        "LOCATION=https://m.jcpenney.com:443/v2.2/cart/promotions",
+        "PreSnapshot=webpage_1467104292782.png",
+        "Snapshot=webpage_1467104310136.png",
+        BODY_BEGIN,
+            "{"promotions":[{"code":"{PromocodeFP}","type":"COUPON"}]}",
+        BODY_END,
+        INLINE_URLS,
+            "URL=https://www88.jcpenney.com/cm?ci=90024642&st=1467104229372&vn1=4.16.9&ec=utf-8&vn2=e4.0&rf=http%3A%2F%2Fm.jcpenney.com%2Fjbw-562-mens-18-ct-tw-diamond-gold-tone-stainless-steel-watch-jb-6225-c%2Fprod.jump%3FppId%3Dpp5005942543%26Ntt%3Dwatches&ul=https%3A%2F%2Fm.jcpenney.com%2Fc%2Findex.html%23%2F&tid=14&cid=Non-Linked%20Account%20Bag%20Manual&cat=1&ccid=JCP%20Rewards%20Redemption&cpt=0&rnd=1467109485225", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;CoreID6;TestSess3;90024642_login;marketing;TLTSID;_gat;recentSearchData;clientTestPool1;rr_rcs;NSPrevPercentage;NSOrigin;mmcore.tst;mm_order_conf;mmapi.store.p.0;mmapi.store.s.0;DPSecureCookie;DPOrder;ItemCount;ItemTotal;90024642_reset;_ga;fsr.s;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT", END_INLINE,
+            "URL=https://www88.jcpenney.com/cm?tid=14&ci=90024642&vn2=e4.0&st=1467104229372&vn1=4.16.9&ec=utf-8&cid=Manually%20entered%20coupon(s)&cat=1&ccid=Find%20Coupon&cpt=0&rnd=1467109031731&c_a6=Checkout%20Page%2FShopping%20Bag&ul=https%3A%2F%2Fm.jcpenney.com%2Fc%2Findex.html%23%2F&rf=http%3A%2F%2Fm.jcpenney.com%2Fjbw-562-mens-18-ct-tw-diamond-gold-tone-stainless-steel-watch-jb-6225-c%2Fprod.jump%3FppId%3Dpp5005942543%26Ntt%3Dwatches", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;CoreID6;TestSess3;90024642_login;marketing;TLTSID;_gat;recentSearchData;clientTestPool1;rr_rcs;NSPrevPercentage;NSOrigin;mmcore.tst;mm_order_conf;mmapi.store.p.0;mmapi.store.s.0;DPSecureCookie;DPOrder;ItemCount;ItemTotal;90024642_reset;_ga;fsr.s;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT", END_INLINE,
+            "URL=https://www88.jcpenney.com/cm?tid=14&ci=90024642&vn2=e4.0&st=1467104229372&vn1=4.16.9&ec=utf-8&cid=Manually%20entered%20coupon(s)&cat=2&ccid=Find%20Coupon&cpt=0&rnd=1467110246092&c_a6=Checkout%20Page%2FShopping%20Bag&ul=https%3A%2F%2Fm.jcpenney.com%2Fc%2Findex.html%23%2F&rf=http%3A%2F%2Fm.jcpenney.com%2Fjbw-562-mens-18-ct-tw-diamond-gold-tone-stainless-steel-watch-jb-6225-c%2Fprod.jump%3FppId%3Dpp5005942543%26Ntt%3Dwatches", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;CoreID6;TestSess3;90024642_login;marketing;TLTSID;_gat;recentSearchData;clientTestPool1;rr_rcs;NSPrevPercentage;NSOrigin;mmcore.tst;mm_order_conf;mmapi.store.p.0;mmapi.store.s.0;DPSecureCookie;DPOrder;ItemCount;ItemTotal;90024642_reset;_ga;fsr.s;DPInstance;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT", END_INLINE
+    );
+     ns_end_transaction("API_SB_promotions_POST", NS_AUTO_STATUS);
+
+    ns_start_transaction("API_SB_shoppingCart_GET");
+    ns_web_url("CP2",
+        "URL=https://m.jcpenney.com/v2.2/cart?context=shoppingCart",
+        "HEADER=Accept-Language:en-US,en;q=0.8",
+        "COOKIE=BNSOrigin;BNSPrevPercentage;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;CavSID;_gat;recentSearchData;clientTestPool1;rr_rcs;testVersion;NSPrevPercentage;NSOrigin;mmcore.tst;mm_order_conf;mmapi.store.p.0;mmapi.store.s.0;DPSecureCookie;_ga;CavSF;CavLTS;CavPI;fsr.s;DPInstance;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;DPOrder;ItemCount;ItemTotal;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;akaau;_IFR_jcpenney.com_fsr.a"
+    );
+   ns_end_transaction("API_SB_shoppingCart_GET", NS_AUTO_STATUS);
+    
+    ns_start_transaction("API_SB_promotions_GET");
+    ns_web_url("CP3",
+        "URL=https://m.jcpenney.com/v2.2/cart/promotions",
+        "HEADER=Accept-Language:en-US,en;q=0.8",
+        "COOKIE=BNSOrigin;BNSPrevPercentage;DPJSESSIONID;DPUserTracking;DPSessionTimeOutInterval;cmTPSet;marketing;TLTSID;CavSID;_gat;recentSearchData;clientTestPool1;rr_rcs;testVersion;NSPrevPercentage;NSOrigin;mmcore.tst;mm_order_conf;mmapi.store.p.0;mmapi.store.s.0;DPSecureCookie;_ga;CavSF;CavLTS;CavPI;fsr.s;_IFR_jcpenney.com_fsr.a;DPInstance;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;DPOrder;ItemCount;ItemTotal;DPLastAccessedTime;DPCluster;DPIdentifier;DPRRSESSIONID;akaau"
+    );
+    ns_end_transaction("API_SB_promotions_GET", NS_AUTO_STATUS);
+    ns_page_think_time(0);
+       }
+    }
+}

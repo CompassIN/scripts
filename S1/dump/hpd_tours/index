@@ -1,0 +1,7 @@
+1,index_html,/tours/,192.168.1.69:81,./../,192.168.1.69_81/tours/index.html
+2,login,/cgi-bin/,192.168.1.69:81,./../,192.168.1.69_81/cgi-bin/login_userSession=75893.0884568651DQADHfApHDHfcDtccpfAttcf_username=netstorm_password=netstorm_JSFormSubmit=off_login.x=52_login.y=10
+3,reservation,/cgi-bin/,192.168.1.69:81,./../,192.168.1.69_81/cgi-bin/reservation
+4,findflight,/cgi-bin/,192.168.1.69:81,./../,192.168.1.69_81/cgi-bin/findflight_depart=Acapulco_departDate=04-10-2012_arrive=Acapulco_returnDate=04-11-2012_numPassengers=1_seatPref=Window_seatType=First_findFlights.x=
+5,findflight_2,/cgi-bin/,192.168.1.69:81,./../,192.168.1.69_81/cgi-bin/findflight_hidden_outboundFlight_button0=000_0_04-10-2012_hidden_outboundFlight_button1=001_0_04-10-2012_outboundFlight=button2_hidden_outboundFligh
+6,findflight_3,/cgi-bin/,192.168.1.69:81,./../,192.168.1.69_81/cgi-bin/findflight_firstName=Tiger_lastName=Scott_address1=4261+Stevenson+Blvd._address2=Fremont_2C+CA+94538_pass1=Scott+Tiger_creditCard=_expDate=_oldCCOpt
+7,welcome,/cgi-bin/,192.168.1.69:81,./../,192.168.1.69_81/cgi-bin/welcome

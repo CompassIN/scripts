@@ -1,0 +1,2322 @@
+8/14 5:7:14|ChromeMainFrame|createBrowserWindowWithListener|constructor called.
+8/14 5:7:36|ChromeBrowserConfigurationSettings|EnableDisableBrowserOtions|method called.
+8/14 5:7:36|ChromeBrowserConfigurationSettings|EnableDisableBrowserOtions|Enabling JavaScript feature.
+8/14 5:7:36|ChromeBrowserConfigurationSettings|EnableDisableBrowserOtions|Enabling ImageDownload feature.
+8/14 5:7:36|ChromeBrowserConfigurationSettings|EnableDisableBrowserOtions|Enabling Plugins feature.
+8/14 5:7:36|ChromeBrowserConfigurationSettings|clearLocalStorage|Method called.
+8/14 5:7:36|ChromeBrowserConfigurationSettings|setSecurityCertificationErrors|Method called.
+8/14 5:7:36|ChromeMainFrame|addStatusAndTitleBrowser|Method called.
+8/14 5:7:36|ChromeMainFrame|addPageNavigationListeners|method called.
+8/14 5:7:36|ChromeBrowserNavigationListener|ChromeBrowserNavigationListener|Constructor Called.
+8/14 5:7:36|ChromeRecordingHttpListener||constructor called.
+8/14 5:7:36|ChromeMainFrame|createinitUI|constructor called.
+8/14 5:7:36|TabContent|createComponents|method called.
+8/14 5:7:36|TabContent|createBrowserContainer|method called.
+8/14 5:7:36|TabContent|createToolBar|method called.
+8/14 5:7:36|ProgressBar|initializeGUI|Method Called
+8/14 5:7:36|ToolBar|createToolBarComponents|method called.
+8/14 5:7:36|ToolBar|createAddressBar|method called.
+8/14 5:7:36|ToolBar|createActionsPane|method called.
+8/14 5:7:37|ChromeBrowserNavigationListener|onStartLoadingFrame|Method Called for URL=http://10.10.30.15:9010/tours/index.html
+8/14 5:7:37|ChromeBrowserNavigationListener|onStartLoadingFrame|Begin Loading URL == http://10.10.30.15:9010/tours/index.html  ===== Begin = 1565782657056
+8/14 5:7:37|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/index.html, requestOrResponce = snapShot
+8/14 5:7:37|ProgressBar|setVisible|Method Called. bool = true
+8/14 5:7:37|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/14 5:7:37|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/14 5:7:37|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/index.html, requestOrResponce = request
+8/14 5:7:37|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782657469
+8/14 5:7:37|Utils|convertToSecond method called|time = 22673.0
+8/14 5:7:37|Utils|isSplit|Method called.
+8/14 5:7:37|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:7:37|Utils|isSplit|Splitting for method GET = false
+8/14 5:7:37|Utils|isSplit|result = false
+8/14 5:7:37|Utils|isSplitForTimeDiff|Method called.
+8/14 5:7:37|Utils|isSplit|result = false
+8/14 5:7:37|Utils|isSplitForURLType|Method called.
+8/14 5:7:37|Utils|isSplitForURLType|value = false
+8/14 5:7:37|Utils|isSplitForURLType|value = false
+8/14 5:7:37|Utils|isSplit|isSplitForURLType = false
+8/14 5:7:37|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/index.html, requestOrResponce = response
+8/14 5:7:37|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782657614
+8/14 5:7:37|Utils|convertToSecond method called|time = 22818.0
+8/14 5:7:37|Utils|isSplit|Method called.
+8/14 5:7:37|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:7:37|Utils|isSplit|Splitting for method GET = false
+8/14 5:7:37|Utils|isSplit|result = false
+8/14 5:7:37|Utils|isSplitForTimeDiff|Method called.
+8/14 5:7:37|Utils|isSplit|result = false
+8/14 5:7:37|Utils|isSplitForURLType|Method called.
+8/14 5:7:37|Utils|isSplitForURLType|value = false
+8/14 5:7:37|Utils|isSplitForURLType|value = false
+8/14 5:7:37|Utils|isSplitForURLType|value = false
+8/14 5:7:37|Utils|isSplit|isSplitForURLType = false
+8/14 5:7:37|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://10.10.30.15:9010/tours/index.html
+8/14 5:7:37|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782657614
+8/14 5:7:37|Utils|convertToSecond method called|time = 22818.0
+8/14 5:7:37|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782657614
+8/14 5:7:37|Utils|convertToSecond method called|time = 22818.0
+8/14 5:7:39|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow\10.10.30.15_9010/tours/
+8/14 5:7:39|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/14 5:7:39|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/14 5:7:39|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/banner_animated.gif, requestOrResponce = request
+8/14 5:7:39|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782659391
+8/14 5:7:39|Utils|convertToSecond method called|time = 24595.0
+8/14 5:7:39|Utils|isSplit|Method called.
+8/14 5:7:39|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:7:39|Utils|isSplit|Splitting for method GET = false
+8/14 5:7:39|Utils|isSplit|result = false
+8/14 5:7:39|Utils|isSplitForTimeDiff|Method called.
+8/14 5:7:39|Utils|isSplit|Splitting for time 1.7769999999999975 = false
+8/14 5:7:39|Utils|isSplit|result = false
+8/14 5:7:39|Utils|isSplitForURLType|Method called.
+8/14 5:7:39|Utils|isSplitForURLType|value = false
+8/14 5:7:39|Utils|isSplitForURLType|value = false
+8/14 5:7:39|Utils|isSplit|isSplitForURLType = false
+8/14 5:7:39|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/14 5:7:39|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/14 5:7:39|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/sun_swede.gif, requestOrResponce = request
+8/14 5:7:39|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782659443
+8/14 5:7:39|Utils|convertToSecond method called|time = 24647.0
+8/14 5:7:39|Utils|isSplit|Method called.
+8/14 5:7:39|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:7:39|Utils|isSplit|Splitting for method GET = false
+8/14 5:7:39|Utils|isSplit|result = false
+8/14 5:7:39|Utils|isSplitForTimeDiff|Method called.
+8/14 5:7:39|Utils|isSplit|Splitting for time 1.828999999999997 = false
+8/14 5:7:39|Utils|isSplit|result = false
+8/14 5:7:39|Utils|isSplitForURLType|Method called.
+8/14 5:7:39|Utils|isSplitForURLType|value = false
+8/14 5:7:39|Utils|isSplitForURLType|value = false
+8/14 5:7:39|Utils|isSplit|isSplitForURLType = false
+8/14 5:7:39|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/14 5:7:39|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/14 5:7:39|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/login.gif, requestOrResponce = request
+8/14 5:7:39|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782659452
+8/14 5:7:39|Utils|convertToSecond method called|time = 24656.0
+8/14 5:7:39|Utils|isSplit|Method called.
+8/14 5:7:39|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:7:39|Utils|isSplit|Splitting for method GET = false
+8/14 5:7:39|Utils|isSplit|result = false
+8/14 5:7:39|Utils|isSplitForTimeDiff|Method called.
+8/14 5:7:39|Utils|isSplit|Splitting for time 1.8379999999999974 = false
+8/14 5:7:39|Utils|isSplit|result = false
+8/14 5:7:39|Utils|isSplitForURLType|Method called.
+8/14 5:7:39|Utils|isSplitForURLType|value = false
+8/14 5:7:39|Utils|isSplitForURLType|value = false
+8/14 5:7:39|Utils|isSplit|isSplitForURLType = false
+8/14 5:7:39|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/14 5:7:39|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/14 5:7:39|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/images/banner_merctur.jpg, requestOrResponce = request
+8/14 5:7:39|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782659465
+8/14 5:7:39|Utils|convertToSecond method called|time = 24669.0
+8/14 5:7:39|Utils|isSplit|Method called.
+8/14 5:7:39|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:7:39|Utils|isSplit|Splitting for method GET = false
+8/14 5:7:39|Utils|isSplit|result = false
+8/14 5:7:39|Utils|isSplitForTimeDiff|Method called.
+8/14 5:7:39|Utils|isSplit|Splitting for time 1.850999999999999 = false
+8/14 5:7:39|Utils|isSplit|result = false
+8/14 5:7:39|Utils|isSplitForURLType|Method called.
+8/14 5:7:39|Utils|isSplitForURLType|value = false
+8/14 5:7:39|Utils|isSplitForURLType|value = false
+8/14 5:7:39|Utils|isSplit|isSplitForURLType = false
+8/14 5:7:39|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/banner_animated.gif, requestOrResponce = response
+8/14 5:7:39|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782659481
+8/14 5:7:39|Utils|convertToSecond method called|time = 24685.0
+8/14 5:7:39|Utils|isSplit|Method called.
+8/14 5:7:39|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:7:39|Utils|isSplit|Splitting for method GET = false
+8/14 5:7:39|Utils|isSplit|result = false
+8/14 5:7:39|Utils|isSplitForTimeDiff|Method called.
+8/14 5:7:39|Utils|isSplit|Splitting for time 1.7769999999999975 = false
+8/14 5:7:39|Utils|isSplit|result = false
+8/14 5:7:39|Utils|isSplitForURLType|Method called.
+8/14 5:7:39|Utils|isSplitForURLType|value = false
+8/14 5:7:39|Utils|isSplitForURLType|value = false
+8/14 5:7:39|Utils|isSplitForURLType|value = false
+8/14 5:7:39|Utils|isSplit|isSplitForURLType = false
+8/14 5:7:39|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://10.10.30.15:9010/tours/Merc10-dev/images/banner_animated.gif
+8/14 5:7:39|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782659481
+8/14 5:7:39|Utils|convertToSecond method called|time = 24685.0
+8/14 5:7:39|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782659481
+8/14 5:7:39|Utils|convertToSecond method called|time = 24685.0
+8/14 5:7:39|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow\10.10.30.15_9010/tours/Merc10-dev/images/
+8/14 5:7:39|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/sun_swede.gif, requestOrResponce = response
+8/14 5:7:39|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782659545
+8/14 5:7:39|Utils|convertToSecond method called|time = 24749.0
+8/14 5:7:39|Utils|isSplit|Method called.
+8/14 5:7:39|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:7:39|Utils|isSplit|Splitting for method GET = false
+8/14 5:7:39|Utils|isSplit|result = false
+8/14 5:7:39|Utils|isSplitForTimeDiff|Method called.
+8/14 5:7:39|Utils|isSplit|Splitting for time -0.038000000000000256 = false
+8/14 5:7:39|Utils|isSplit|result = false
+8/14 5:7:39|Utils|isSplitForURLType|Method called.
+8/14 5:7:39|Utils|isSplitForURLType|value = false
+8/14 5:7:39|Utils|isSplitForURLType|value = false
+8/14 5:7:39|Utils|isSplitForURLType|value = false
+8/14 5:7:39|Utils|isSplit|isSplitForURLType = false
+8/14 5:7:39|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://10.10.30.15:9010/tours/Merc10-dev/images/sun_swede.gif
+8/14 5:7:39|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782659545
+8/14 5:7:39|Utils|convertToSecond method called|time = 24749.0
+8/14 5:7:39|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782659545
+8/14 5:7:39|Utils|convertToSecond method called|time = 24749.0
+8/14 5:7:39|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/login.gif, requestOrResponce = response
+8/14 5:7:39|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782659556
+8/14 5:7:39|Utils|convertToSecond method called|time = 24760.0
+8/14 5:7:39|Utils|isSplit|Method called.
+8/14 5:7:39|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:7:39|Utils|isSplit|Splitting for method GET = false
+8/14 5:7:39|Utils|isSplit|result = false
+8/14 5:7:39|Utils|isSplitForTimeDiff|Method called.
+8/14 5:7:39|Utils|isSplit|Splitting for time -0.09299999999999997 = false
+8/14 5:7:39|Utils|isSplit|result = false
+8/14 5:7:39|Utils|isSplitForURLType|Method called.
+8/14 5:7:39|Utils|isSplitForURLType|value = false
+8/14 5:7:39|Utils|isSplitForURLType|value = false
+8/14 5:7:39|Utils|isSplitForURLType|value = false
+8/14 5:7:39|Utils|isSplit|isSplitForURLType = false
+8/14 5:7:39|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://10.10.30.15:9010/tours/Merc10-dev/images/login.gif
+8/14 5:7:39|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782659556
+8/14 5:7:39|Utils|convertToSecond method called|time = 24760.0
+8/14 5:7:39|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782659556
+8/14 5:7:39|Utils|convertToSecond method called|time = 24760.0
+8/14 5:7:39|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/images/banner_merctur.jpg, requestOrResponce = response
+8/14 5:7:39|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782659567
+8/14 5:7:39|Utils|convertToSecond method called|time = 24771.0
+8/14 5:7:39|Utils|isSplit|Method called.
+8/14 5:7:39|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:7:39|Utils|isSplit|Splitting for method GET = false
+8/14 5:7:39|Utils|isSplit|result = false
+8/14 5:7:39|Utils|isSplitForTimeDiff|Method called.
+8/14 5:7:39|Utils|isSplit|Splitting for time -0.09100000000000108 = false
+8/14 5:7:39|Utils|isSplit|result = false
+8/14 5:7:39|Utils|isSplitForURLType|Method called.
+8/14 5:7:39|Utils|isSplitForURLType|value = false
+8/14 5:7:39|Utils|isSplitForURLType|value = false
+8/14 5:7:39|Utils|isSplitForURLType|value = false
+8/14 5:7:39|Utils|isSplit|isSplitForURLType = false
+8/14 5:7:39|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://10.10.30.15:9010/tours/images/banner_merctur.jpg
+8/14 5:7:39|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782659567
+8/14 5:7:39|Utils|convertToSecond method called|time = 24771.0
+8/14 5:7:39|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782659567
+8/14 5:7:39|Utils|convertToSecond method called|time = 24771.0
+8/14 5:7:39|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow\10.10.30.15_9010/tours/Merc10-dev/images/
+8/14 5:7:39|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow\10.10.30.15_9010/tours/Merc10-dev/images/
+8/14 5:7:39|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow\10.10.30.15_9010/tours/images/
+8/14 5:7:40|ChromeBrowserNavigationListener|onFinishLoadingFrame|Method Called for URL=http://10.10.30.15:9010/tours/index.html
+8/14 5:7:40|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/index.html, requestOrResponce = snapShot
+8/14 5:7:40|WebCFormattor||constructor called.
+8/14 5:7:40|ProgressBar|setVisible|Method Called. bool = false
+8/14 5:7:40|ScriptHTMLStart|Recording|Thread state =2
+8/14 5:7:40|ChromeCClickListener|addAllHTMLElementsListeners|Method Called.
+8/14 5:7:40|ScriptHTMLStart|run|Setting thread state.State of Thread - 2
+8/14 5:10:12|ChromeCClickListener|handleEvent|Method Called.
+8/14 5:10:12|ChromeCClickListener|dumpEvent|Method Called. Event Type: com.teamdev.jxbrowser.chromium.dom.events.DOMEventType@5a5c588
+ Tag Name = INPUT
+8/14 5:10:12|Utils|setRecordingComments|method called.
+8/14 5:10:19|ChromeCClickListener|handleEvent|Method Called.
+8/14 5:10:19|ChromeCClickListener|dumpEvent|Method Called. Event Type: com.teamdev.jxbrowser.chromium.dom.events.DOMEventType@5a5c588
+ Tag Name = INPUT
+8/14 5:10:19|ChromeCClickListener|addImgLinkElement|Method Called.
+8/14 5:10:19|Utils|setRecordingComments|method called.
+8/14 5:10:19|ChromeBrowserNavigationListener|onStartLoadingFrame|Method Called for URL=http://10.10.30.15:9010/cgi-bin/login?userSession=75893.0884568651DQADHfApHDHfcDtccpfAttcf&username=king&password=leo&login.x=38&login.y=15&login=Login&JSFormSubmit=off
+8/14 5:10:19|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/14 5:10:19|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/14 5:10:19|Utils|getURLTracker|urlString = http://10.10.30.15:9010/cgi-bin/login?userSession=75893.0884568651DQADHfApHDHfcDtccpfAttcf&username=king&password=leo&login.x=38&login.y=15&login=Login&JSFormSubmit=off, requestOrResponce = request
+8/14 5:10:19|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782819489
+8/14 5:10:19|Utils|convertToSecond method called|time = 184693.0
+8/14 5:10:19|Utils|isSplit|Method called.
+8/14 5:10:19|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:19|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:19|Utils|isSplit|result = false
+8/14 5:10:19|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:19|Utils|isSplit|Splitting for time 159.92200000000003 = false
+8/14 5:10:19|Utils|isSplit|result = false
+8/14 5:10:19|Utils|isSplitForURLType|Method called.
+8/14 5:10:19|Utils|isSplitForURLType|value = false
+8/14 5:10:19|Utils|isSplitForURLType|value = false
+8/14 5:10:19|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:19|ChromeRecordingHttpListener|dumpRequestHeaders|Auto split page for user click = http://10.10.30.15:9010/cgi-bin/login?userSession=75893.0884568651DQADHfApHDHfcDtccpfAttcf&username=king&password=leo&login.x=38&login.y=15&login=Login&JSFormSubmit=off
+8/14 5:10:19|ChromeBrowserNavigationListener|onStartLoadingFrame|Begin Loading URL == http://10.10.30.15:9010/cgi-bin/login?userSession=75893.0884568651DQADHfApHDHfcDtccpfAttcf&username=king&password=leo&login.x=38&login.y=15&login=Login&JSFormSubmit=off  ===== Begin = 1565782819507
+8/14 5:10:19|Utils|getURLTracker|urlString = http://10.10.30.15:9010/cgi-bin/login?userSession=75893.0884568651DQADHfApHDHfcDtccpfAttcf&username=king&password=leo&login.x=38&login.y=15&login=Login&JSFormSubmit=off, requestOrResponce = snapShot
+8/14 5:10:19|ProgressBar|setVisible|Method Called. bool = true
+8/14 5:10:19|Utils|getURLTracker|urlString = http://10.10.30.15:9010/cgi-bin/login?userSession=75893.0884568651DQADHfApHDHfcDtccpfAttcf&username=king&password=leo&login.x=38&login.y=15&login=Login&JSFormSubmit=off, requestOrResponce = response
+8/14 5:10:19|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782819571
+8/14 5:10:19|Utils|convertToSecond method called|time = 184775.0
+8/14 5:10:19|Utils|isSplit|Method called.
+8/14 5:10:19|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:19|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:19|Utils|isSplit|result = false
+8/14 5:10:19|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:19|Utils|isSplit|Splitting for time 159.92200000000003 = false
+8/14 5:10:19|Utils|isSplit|result = false
+8/14 5:10:19|Utils|isSplitForURLType|Method called.
+8/14 5:10:19|Utils|isSplitForURLType|value = false
+8/14 5:10:19|Utils|isSplitForURLType|value = false
+8/14 5:10:19|Utils|isSplitForURLType|value = false
+8/14 5:10:19|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:19|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://10.10.30.15:9010/cgi-bin/login?userSession=75893.0884568651DQADHfApHDHfcDtccpfAttcf&username=king&password=leo&login.x=38&login.y=15&login=Login&JSFormSubmit=off
+8/14 5:10:19|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782819571
+8/14 5:10:19|Utils|convertToSecond method called|time = 184775.0
+8/14 5:10:19|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782819571
+8/14 5:10:19|Utils|convertToSecond method called|time = 184775.0
+8/14 5:10:19|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow\10.10.30.15_9010/cgi-bin/
+8/14 5:10:19|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/14 5:10:19|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/14 5:10:19|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/banner_animated.gif, requestOrResponce = request
+8/14 5:10:19|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782819674
+8/14 5:10:19|Utils|convertToSecond method called|time = 184878.0
+8/14 5:10:19|Utils|isSplit|Method called.
+8/14 5:10:19|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:19|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:19|Utils|isSplit|result = false
+8/14 5:10:19|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:19|Utils|isSplit|Splitting for time 0.10299999999998022 = false
+8/14 5:10:19|Utils|isSplit|result = false
+8/14 5:10:19|Utils|isSplitForURLType|Method called.
+8/14 5:10:19|Utils|isSplitForURLType|value = false
+8/14 5:10:19|Utils|isSplitForURLType|value = false
+8/14 5:10:19|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:19|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/14 5:10:19|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/14 5:10:19|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/sun_swede.gif, requestOrResponce = request
+8/14 5:10:19|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782819686
+8/14 5:10:19|Utils|convertToSecond method called|time = 184890.0
+8/14 5:10:19|Utils|isSplit|Method called.
+8/14 5:10:19|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:19|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:19|Utils|isSplit|result = false
+8/14 5:10:19|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:19|Utils|isSplit|Splitting for time 0.11499999999998067 = false
+8/14 5:10:19|Utils|isSplit|result = false
+8/14 5:10:19|Utils|isSplitForURLType|Method called.
+8/14 5:10:19|Utils|isSplitForURLType|value = false
+8/14 5:10:19|Utils|isSplitForURLType|value = false
+8/14 5:10:19|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:19|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/14 5:10:19|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/14 5:10:19|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/flights.gif, requestOrResponce = request
+8/14 5:10:19|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782819698
+8/14 5:10:19|Utils|convertToSecond method called|time = 184902.0
+8/14 5:10:19|Utils|isSplit|Method called.
+8/14 5:10:19|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:19|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:19|Utils|isSplit|result = false
+8/14 5:10:19|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:19|Utils|isSplit|Splitting for time 0.12699999999998113 = false
+8/14 5:10:19|Utils|isSplit|result = false
+8/14 5:10:19|Utils|isSplitForURLType|Method called.
+8/14 5:10:19|Utils|isSplitForURLType|value = false
+8/14 5:10:19|Utils|isSplitForURLType|value = false
+8/14 5:10:19|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:19|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/14 5:10:19|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/14 5:10:19|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/home.gif, requestOrResponce = request
+8/14 5:10:19|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782819707
+8/14 5:10:19|Utils|convertToSecond method called|time = 184911.0
+8/14 5:10:19|Utils|isSplit|Method called.
+8/14 5:10:19|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:19|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:19|Utils|isSplit|result = false
+8/14 5:10:19|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:19|Utils|isSplit|Splitting for time 0.13599999999999568 = false
+8/14 5:10:19|Utils|isSplit|result = false
+8/14 5:10:19|Utils|isSplitForURLType|Method called.
+8/14 5:10:19|Utils|isSplitForURLType|value = false
+8/14 5:10:19|Utils|isSplitForURLType|value = false
+8/14 5:10:19|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:19|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/14 5:10:19|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/14 5:10:19|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/signoff.gif, requestOrResponce = request
+8/14 5:10:19|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782819717
+8/14 5:10:19|Utils|convertToSecond method called|time = 184921.0
+8/14 5:10:19|Utils|isSplit|Method called.
+8/14 5:10:19|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:19|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:19|Utils|isSplit|result = false
+8/14 5:10:19|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:19|Utils|isSplit|Splitting for time 0.14599999999998658 = false
+8/14 5:10:19|Utils|isSplit|result = false
+8/14 5:10:19|Utils|isSplitForURLType|Method called.
+8/14 5:10:19|Utils|isSplitForURLType|value = false
+8/14 5:10:19|Utils|isSplitForURLType|value = false
+8/14 5:10:19|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:19|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/14 5:10:19|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/14 5:10:19|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/images/banner_merctur.jpg, requestOrResponce = request
+8/14 5:10:19|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782819727
+8/14 5:10:19|Utils|convertToSecond method called|time = 184931.0
+8/14 5:10:19|Utils|isSplit|Method called.
+8/14 5:10:19|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:19|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:19|Utils|isSplit|result = false
+8/14 5:10:19|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:19|Utils|isSplit|Splitting for time 0.1560000000000059 = false
+8/14 5:10:19|Utils|isSplit|result = false
+8/14 5:10:19|Utils|isSplitForURLType|Method called.
+8/14 5:10:19|Utils|isSplitForURLType|value = false
+8/14 5:10:19|Utils|isSplitForURLType|value = false
+8/14 5:10:19|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:19|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/banner_animated.gif, requestOrResponce = response
+8/14 5:10:19|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782819737
+8/14 5:10:19|Utils|convertToSecond method called|time = 184941.0
+8/14 5:10:19|Utils|isSplit|Method called.
+8/14 5:10:19|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:19|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:19|Utils|isSplit|result = false
+8/14 5:10:19|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:19|Utils|isSplit|Splitting for time 0.10299999999998022 = false
+8/14 5:10:19|Utils|isSplit|result = false
+8/14 5:10:19|Utils|isSplitForURLType|Method called.
+8/14 5:10:19|Utils|isSplitForURLType|value = false
+8/14 5:10:19|Utils|isSplitForURLType|value = false
+8/14 5:10:19|Utils|isSplitForURLType|value = false
+8/14 5:10:19|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:19|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://10.10.30.15:9010/tours/Merc10-dev/images/banner_animated.gif
+8/14 5:10:19|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782819737
+8/14 5:10:19|Utils|convertToSecond method called|time = 184941.0
+8/14 5:10:19|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782819737
+8/14 5:10:19|Utils|convertToSecond method called|time = 184941.0
+8/14 5:10:19|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow\10.10.30.15_9010/tours/Merc10-dev/images/
+8/14 5:10:19|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/14 5:10:19|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/14 5:10:19|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/vep/images/velocigen.gif, requestOrResponce = request
+8/14 5:10:19|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782819783
+8/14 5:10:19|Utils|convertToSecond method called|time = 184987.0
+8/14 5:10:19|Utils|isSplit|Method called.
+8/14 5:10:19|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:19|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:19|Utils|isSplit|result = false
+8/14 5:10:19|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:19|Utils|isSplit|Splitting for time 0.04599999999999227 = false
+8/14 5:10:19|Utils|isSplit|result = false
+8/14 5:10:19|Utils|isSplitForURLType|Method called.
+8/14 5:10:19|Utils|isSplitForURLType|value = false
+8/14 5:10:19|Utils|isSplitForURLType|value = false
+8/14 5:10:19|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:19|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/flights.gif, requestOrResponce = response
+8/14 5:10:19|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782819788
+8/14 5:10:19|Utils|convertToSecond method called|time = 184992.0
+8/14 5:10:19|Utils|isSplit|Method called.
+8/14 5:10:19|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:19|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:19|Utils|isSplit|result = false
+8/14 5:10:19|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:19|Utils|isSplit|Splitting for time -0.03900000000001569 = false
+8/14 5:10:19|Utils|isSplit|result = false
+8/14 5:10:19|Utils|isSplitForURLType|Method called.
+8/14 5:10:19|Utils|isSplitForURLType|value = false
+8/14 5:10:19|Utils|isSplitForURLType|value = false
+8/14 5:10:19|Utils|isSplitForURLType|value = false
+8/14 5:10:19|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:19|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://10.10.30.15:9010/tours/Merc10-dev/images/flights.gif
+8/14 5:10:19|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782819788
+8/14 5:10:19|Utils|convertToSecond method called|time = 184992.0
+8/14 5:10:19|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782819788
+8/14 5:10:19|Utils|convertToSecond method called|time = 184992.0
+8/14 5:10:19|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/home.gif, requestOrResponce = response
+8/14 5:10:19|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782819800
+8/14 5:10:19|Utils|convertToSecond method called|time = 185004.0
+8/14 5:10:19|Utils|isSplit|Method called.
+8/14 5:10:19|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:19|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:19|Utils|isSplit|result = false
+8/14 5:10:19|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:19|Utils|isSplit|Splitting for time -0.08099999999998886 = false
+8/14 5:10:19|Utils|isSplit|result = false
+8/14 5:10:19|Utils|isSplitForURLType|Method called.
+8/14 5:10:19|Utils|isSplitForURLType|value = false
+8/14 5:10:19|Utils|isSplitForURLType|value = false
+8/14 5:10:19|Utils|isSplitForURLType|value = false
+8/14 5:10:19|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:19|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://10.10.30.15:9010/tours/Merc10-dev/images/home.gif
+8/14 5:10:19|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782819800
+8/14 5:10:19|Utils|convertToSecond method called|time = 185004.0
+8/14 5:10:19|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782819800
+8/14 5:10:19|Utils|convertToSecond method called|time = 185004.0
+8/14 5:10:19|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/signoff.gif, requestOrResponce = response
+8/14 5:10:19|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782819809
+8/14 5:10:19|Utils|convertToSecond method called|time = 185013.0
+8/14 5:10:19|Utils|isSplit|Method called.
+8/14 5:10:19|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:19|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:19|Utils|isSplit|result = false
+8/14 5:10:19|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:19|Utils|isSplit|Splitting for time -0.08299999999999841 = false
+8/14 5:10:19|Utils|isSplit|result = false
+8/14 5:10:19|Utils|isSplitForURLType|Method called.
+8/14 5:10:19|Utils|isSplitForURLType|value = false
+8/14 5:10:19|Utils|isSplitForURLType|value = false
+8/14 5:10:19|Utils|isSplitForURLType|value = false
+8/14 5:10:19|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:19|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://10.10.30.15:9010/tours/Merc10-dev/images/signoff.gif
+8/14 5:10:19|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782819809
+8/14 5:10:19|Utils|convertToSecond method called|time = 185013.0
+8/14 5:10:19|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782819809
+8/14 5:10:19|Utils|convertToSecond method called|time = 185013.0
+8/14 5:10:19|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow\10.10.30.15_9010/tours/Merc10-dev/images/
+8/14 5:10:19|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow\10.10.30.15_9010/tours/Merc10-dev/images/
+8/14 5:10:19|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow\10.10.30.15_9010/tours/Merc10-dev/images/
+8/14 5:10:19|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/sun_swede.gif, requestOrResponce = response
+8/14 5:10:19|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782819876
+8/14 5:10:19|Utils|convertToSecond method called|time = 185080.0
+8/14 5:10:19|Utils|isSplit|Method called.
+8/14 5:10:19|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:19|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:19|Utils|isSplit|result = false
+8/14 5:10:19|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:19|Utils|isSplit|Splitting for time -0.12300000000001887 = false
+8/14 5:10:19|Utils|isSplit|result = false
+8/14 5:10:19|Utils|isSplitForURLType|Method called.
+8/14 5:10:19|Utils|isSplitForURLType|value = false
+8/14 5:10:19|Utils|isSplitForURLType|value = false
+8/14 5:10:19|Utils|isSplitForURLType|value = false
+8/14 5:10:19|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:19|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://10.10.30.15:9010/tours/Merc10-dev/images/sun_swede.gif
+8/14 5:10:19|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782819876
+8/14 5:10:19|Utils|convertToSecond method called|time = 185080.0
+8/14 5:10:19|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782819876
+8/14 5:10:19|Utils|convertToSecond method called|time = 185080.0
+8/14 5:10:19|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/images/banner_merctur.jpg, requestOrResponce = response
+8/14 5:10:19|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782819906
+8/14 5:10:19|Utils|convertToSecond method called|time = 185110.0
+8/14 5:10:19|Utils|isSplit|Method called.
+8/14 5:10:19|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:19|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:19|Utils|isSplit|result = false
+8/14 5:10:19|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:19|Utils|isSplit|Splitting for time -0.1490000000000009 = false
+8/14 5:10:19|Utils|isSplit|result = false
+8/14 5:10:19|Utils|isSplitForURLType|Method called.
+8/14 5:10:19|Utils|isSplitForURLType|value = false
+8/14 5:10:19|Utils|isSplitForURLType|value = false
+8/14 5:10:19|Utils|isSplitForURLType|value = false
+8/14 5:10:19|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:19|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://10.10.30.15:9010/tours/images/banner_merctur.jpg
+8/14 5:10:19|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782819906
+8/14 5:10:19|Utils|convertToSecond method called|time = 185110.0
+8/14 5:10:19|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782819906
+8/14 5:10:19|Utils|convertToSecond method called|time = 185110.0
+8/14 5:10:19|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow\10.10.30.15_9010/tours/Merc10-dev/images/
+8/14 5:10:19|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow\10.10.30.15_9010/tours/images/
+8/14 5:10:19|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/vep/images/velocigen.gif, requestOrResponce = response
+8/14 5:10:19|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782819940
+8/14 5:10:19|Utils|convertToSecond method called|time = 185144.0
+8/14 5:10:19|Utils|isSplit|Method called.
+8/14 5:10:19|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:19|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:19|Utils|isSplit|result = false
+8/14 5:10:19|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:19|Utils|isSplit|Splitting for time -0.12300000000001887 = false
+8/14 5:10:19|Utils|isSplit|result = false
+8/14 5:10:19|Utils|isSplitForURLType|Method called.
+8/14 5:10:19|Utils|isSplitForURLType|value = false
+8/14 5:10:19|Utils|isSplitForURLType|value = false
+8/14 5:10:19|Utils|isSplitForURLType|value = false
+8/14 5:10:19|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:19|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://10.10.30.15:9010/tours/vep/images/velocigen.gif
+8/14 5:10:19|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782819940
+8/14 5:10:19|Utils|convertToSecond method called|time = 185144.0
+8/14 5:10:19|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782819940
+8/14 5:10:19|Utils|convertToSecond method called|time = 185144.0
+8/14 5:10:19|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow\10.10.30.15_9010/tours/vep/images/
+8/14 5:10:20|ChromeBrowserNavigationListener|onFinishLoadingFrame|Method Called for URL=http://10.10.30.15:9010/cgi-bin/login?userSession=75893.0884568651DQADHfApHDHfcDtccpfAttcf&username=king&password=leo&login.x=38&login.y=15&login=Login&JSFormSubmit=off
+8/14 5:10:20|Utils|getURLTracker|urlString = http://10.10.30.15:9010/cgi-bin/login?userSession=75893.0884568651DQADHfApHDHfcDtccpfAttcf&username=king&password=leo&login.x=38&login.y=15&login=Login&JSFormSubmit=off, requestOrResponce = snapShot
+8/14 5:10:20|ChromeCClickListener|addAllHTMLElementsListeners|Method Called.
+8/14 5:10:20|ProgressBar|setVisible|Method Called. bool = false
+8/14 5:10:23|ChromeCClickListener|handleEvent|Method Called.
+8/14 5:10:23|ChromeBrowserNavigationListener|onStartLoadingFrame|Method Called for URL=http://10.10.30.15:9010/cgi-bin/reservation
+8/14 5:10:23|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/14 5:10:23|ChromeBrowserNavigationListener|onStartLoadingFrame|Begin Loading URL == http://10.10.30.15:9010/cgi-bin/reservation  ===== Begin = 1565782823363
+8/14 5:10:23|ChromeCClickListener|dumpEvent|Method Called. Event Type: com.teamdev.jxbrowser.chromium.dom.events.DOMEventType@5a5c588
+ Tag Name = IMG
+8/14 5:10:23|Utils|getURLTracker|urlString = http://10.10.30.15:9010/cgi-bin/reservation, requestOrResponce = snapShot
+8/14 5:10:23|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/14 5:10:23|Utils|getURLTracker|urlString = http://10.10.30.15:9010/cgi-bin/reservation, requestOrResponce = request
+8/14 5:10:23|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782823365
+8/14 5:10:23|Utils|convertToSecond method called|time = 188569.0
+8/14 5:10:23|Utils|isSplit|Method called.
+8/14 5:10:23|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:23|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:23|Utils|isSplit|result = false
+8/14 5:10:23|ProgressBar|setVisible|Method Called. bool = true
+8/14 5:10:23|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:23|Utils|isSplit|Splitting for time 3.424999999999983 = false
+8/14 5:10:23|Utils|isSplit|result = false
+8/14 5:10:23|Utils|isSplitForURLType|Method called.
+8/14 5:10:23|Utils|isSplitForURLType|value = false
+8/14 5:10:23|Utils|isSplitForURLType|value = false
+8/14 5:10:23|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:23|ChromeCClickListener|addImgLinkElement|Method Called.
+8/14 5:10:23|Utils|setRecordingComments|method called.
+8/14 5:10:23|Utils|getURLTracker|urlString = http://10.10.30.15:9010/cgi-bin/reservation, requestOrResponce = response
+8/14 5:10:23|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782823400
+8/14 5:10:23|Utils|convertToSecond method called|time = 188604.0
+8/14 5:10:23|Utils|isSplit|Method called.
+8/14 5:10:23|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:23|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:23|Utils|isSplit|result = false
+8/14 5:10:23|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:23|Utils|isSplit|Splitting for time 3.424999999999983 = false
+8/14 5:10:23|Utils|isSplit|result = false
+8/14 5:10:23|Utils|isSplitForURLType|Method called.
+8/14 5:10:23|Utils|isSplitForURLType|value = false
+8/14 5:10:23|Utils|isSplitForURLType|value = false
+8/14 5:10:23|Utils|isSplitForURLType|value = false
+8/14 5:10:23|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:23|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://10.10.30.15:9010/cgi-bin/reservation
+8/14 5:10:23|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782823400
+8/14 5:10:23|Utils|convertToSecond method called|time = 188604.0
+8/14 5:10:23|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782823400
+8/14 5:10:23|Utils|convertToSecond method called|time = 188604.0
+8/14 5:10:23|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow\10.10.30.15_9010/cgi-bin/
+8/14 5:10:23|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/14 5:10:23|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/14 5:10:23|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/banner_animated.gif, requestOrResponce = request
+8/14 5:10:23|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782823469
+8/14 5:10:23|Utils|convertToSecond method called|time = 188673.0
+8/14 5:10:23|Utils|isSplit|Method called.
+8/14 5:10:23|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:23|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:23|Utils|isSplit|result = false
+8/14 5:10:23|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:23|Utils|isSplit|Splitting for time 0.0689999999999884 = false
+8/14 5:10:23|Utils|isSplit|result = false
+8/14 5:10:23|Utils|isSplitForURLType|Method called.
+8/14 5:10:23|Utils|isSplitForURLType|value = false
+8/14 5:10:23|Utils|isSplitForURLType|value = false
+8/14 5:10:23|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:23|ChromeRecordingHttpListener|dumpRequestHeaders|Auto split page for user click = http://10.10.30.15:9010/tours/Merc10-dev/images/banner_animated.gif
+8/14 5:10:23|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/14 5:10:23|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/14 5:10:23|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/sun_swede.gif, requestOrResponce = request
+8/14 5:10:23|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782823485
+8/14 5:10:23|Utils|convertToSecond method called|time = 188689.0
+8/14 5:10:23|Utils|isSplit|Method called.
+8/14 5:10:23|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:23|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:23|Utils|isSplit|result = false
+8/14 5:10:23|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:23|Utils|isSplit|Splitting for time 0.08499999999997954 = false
+8/14 5:10:23|Utils|isSplit|result = false
+8/14 5:10:23|Utils|isSplitForURLType|Method called.
+8/14 5:10:23|Utils|isSplitForURLType|value = false
+8/14 5:10:23|Utils|isSplitForURLType|value = false
+8/14 5:10:23|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:23|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/14 5:10:23|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/14 5:10:23|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/flights.gif, requestOrResponce = request
+8/14 5:10:23|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782823495
+8/14 5:10:23|Utils|convertToSecond method called|time = 188699.0
+8/14 5:10:23|Utils|isSplit|Method called.
+8/14 5:10:23|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:23|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:23|Utils|isSplit|result = false
+8/14 5:10:23|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:23|Utils|isSplit|Splitting for time 0.09499999999999886 = false
+8/14 5:10:23|Utils|isSplit|result = false
+8/14 5:10:23|Utils|isSplitForURLType|Method called.
+8/14 5:10:23|Utils|isSplitForURLType|value = false
+8/14 5:10:23|Utils|isSplitForURLType|value = false
+8/14 5:10:23|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:23|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/14 5:10:23|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/14 5:10:23|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/home.gif, requestOrResponce = request
+8/14 5:10:23|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782823506
+8/14 5:10:23|Utils|convertToSecond method called|time = 188710.0
+8/14 5:10:23|Utils|isSplit|Method called.
+8/14 5:10:23|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:23|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:23|Utils|isSplit|result = false
+8/14 5:10:23|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:23|Utils|isSplit|Splitting for time 0.10599999999999454 = false
+8/14 5:10:23|Utils|isSplit|result = false
+8/14 5:10:23|Utils|isSplitForURLType|Method called.
+8/14 5:10:23|Utils|isSplitForURLType|value = false
+8/14 5:10:23|Utils|isSplitForURLType|value = false
+8/14 5:10:23|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:23|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/14 5:10:23|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/14 5:10:23|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/signoff.gif, requestOrResponce = request
+8/14 5:10:23|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782823516
+8/14 5:10:23|Utils|convertToSecond method called|time = 188720.0
+8/14 5:10:23|Utils|isSplit|Method called.
+8/14 5:10:23|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:23|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:23|Utils|isSplit|result = false
+8/14 5:10:23|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:23|Utils|isSplit|Splitting for time 0.11599999999998545 = false
+8/14 5:10:23|Utils|isSplit|result = false
+8/14 5:10:23|Utils|isSplitForURLType|Method called.
+8/14 5:10:23|Utils|isSplitForURLType|value = false
+8/14 5:10:23|Utils|isSplitForURLType|value = false
+8/14 5:10:23|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:23|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/14 5:10:23|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/14 5:10:23|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/splash_Findflight.gif, requestOrResponce = request
+8/14 5:10:23|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782823528
+8/14 5:10:23|Utils|convertToSecond method called|time = 188732.0
+8/14 5:10:23|Utils|isSplit|Method called.
+8/14 5:10:23|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:23|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:23|Utils|isSplit|result = false
+8/14 5:10:23|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:23|Utils|isSplit|Splitting for time 0.1279999999999859 = false
+8/14 5:10:23|Utils|isSplit|result = false
+8/14 5:10:23|Utils|isSplitForURLType|Method called.
+8/14 5:10:23|Utils|isSplitForURLType|value = false
+8/14 5:10:23|Utils|isSplitForURLType|value = false
+8/14 5:10:23|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:23|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/banner_animated.gif, requestOrResponce = response
+8/14 5:10:23|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782823543
+8/14 5:10:23|Utils|convertToSecond method called|time = 188747.0
+8/14 5:10:23|Utils|isSplit|Method called.
+8/14 5:10:23|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:23|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:23|Utils|isSplit|result = false
+8/14 5:10:23|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:23|Utils|isSplit|Splitting for time 0.0689999999999884 = false
+8/14 5:10:23|Utils|isSplit|result = false
+8/14 5:10:23|Utils|isSplitForURLType|Method called.
+8/14 5:10:23|Utils|isSplitForURLType|value = false
+8/14 5:10:23|Utils|isSplitForURLType|value = false
+8/14 5:10:23|Utils|isSplitForURLType|value = false
+8/14 5:10:23|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:23|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split page url for User event = http://10.10.30.15:9010/tours/Merc10-dev/images/banner_animated.gif
+8/14 5:10:23|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782823543
+8/14 5:10:23|Utils|convertToSecond method called|time = 188747.0
+8/14 5:10:23|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782823543
+8/14 5:10:23|Utils|convertToSecond method called|time = 188747.0
+8/14 5:10:23|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow\10.10.30.15_9010/tours/Merc10-dev/images/
+8/14 5:10:23|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/14 5:10:23|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/14 5:10:23|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/images/continue.gif, requestOrResponce = request
+8/14 5:10:23|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782823572
+8/14 5:10:23|Utils|convertToSecond method called|time = 188776.0
+8/14 5:10:23|Utils|isSplit|Method called.
+8/14 5:10:23|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:23|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:23|Utils|isSplit|result = false
+8/14 5:10:23|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:23|Utils|isSplit|Splitting for time 0.028999999999996362 = false
+8/14 5:10:23|Utils|isSplit|result = false
+8/14 5:10:23|Utils|isSplitForURLType|Method called.
+8/14 5:10:23|Utils|isSplitForURLType|value = false
+8/14 5:10:23|Utils|isSplitForURLType|value = false
+8/14 5:10:23|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:23|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/sun_swede.gif, requestOrResponce = response
+8/14 5:10:23|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782823582
+8/14 5:10:23|Utils|convertToSecond method called|time = 188786.0
+8/14 5:10:23|Utils|isSplit|Method called.
+8/14 5:10:23|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:23|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:23|Utils|isSplit|result = false
+8/14 5:10:23|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:23|Utils|isSplit|Splitting for time -0.058000000000021146 = false
+8/14 5:10:23|Utils|isSplit|result = false
+8/14 5:10:23|Utils|isSplitForURLType|Method called.
+8/14 5:10:23|Utils|isSplitForURLType|value = false
+8/14 5:10:23|Utils|isSplitForURLType|value = false
+8/14 5:10:23|Utils|isSplitForURLType|value = false
+8/14 5:10:23|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:23|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://10.10.30.15:9010/tours/Merc10-dev/images/sun_swede.gif
+8/14 5:10:23|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782823582
+8/14 5:10:23|Utils|convertToSecond method called|time = 188786.0
+8/14 5:10:23|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782823582
+8/14 5:10:23|Utils|convertToSecond method called|time = 188786.0
+8/14 5:10:23|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/flights.gif, requestOrResponce = response
+8/14 5:10:23|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782823593
+8/14 5:10:23|Utils|convertToSecond method called|time = 188797.0
+8/14 5:10:23|Utils|isSplit|Method called.
+8/14 5:10:23|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:23|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:23|Utils|isSplit|result = false
+8/14 5:10:23|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:23|Utils|isSplit|Splitting for time -0.08699999999998909 = false
+8/14 5:10:23|Utils|isSplit|result = false
+8/14 5:10:23|Utils|isSplitForURLType|Method called.
+8/14 5:10:23|Utils|isSplitForURLType|value = false
+8/14 5:10:23|Utils|isSplitForURLType|value = false
+8/14 5:10:23|Utils|isSplitForURLType|value = false
+8/14 5:10:23|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:23|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://10.10.30.15:9010/tours/Merc10-dev/images/flights.gif
+8/14 5:10:23|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782823593
+8/14 5:10:23|Utils|convertToSecond method called|time = 188797.0
+8/14 5:10:23|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782823593
+8/14 5:10:23|Utils|convertToSecond method called|time = 188797.0
+8/14 5:10:23|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/home.gif, requestOrResponce = response
+8/14 5:10:23|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782823604
+8/14 5:10:23|Utils|convertToSecond method called|time = 188808.0
+8/14 5:10:23|Utils|isSplit|Method called.
+8/14 5:10:23|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:23|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:23|Utils|isSplit|result = false
+8/14 5:10:23|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:23|Utils|isSplit|Splitting for time -0.08699999999998909 = false
+8/14 5:10:23|Utils|isSplit|result = false
+8/14 5:10:23|Utils|isSplitForURLType|Method called.
+8/14 5:10:23|Utils|isSplitForURLType|value = false
+8/14 5:10:23|Utils|isSplitForURLType|value = false
+8/14 5:10:23|Utils|isSplitForURLType|value = false
+8/14 5:10:23|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:23|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://10.10.30.15:9010/tours/Merc10-dev/images/home.gif
+8/14 5:10:23|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782823604
+8/14 5:10:23|Utils|convertToSecond method called|time = 188808.0
+8/14 5:10:23|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782823604
+8/14 5:10:23|Utils|convertToSecond method called|time = 188808.0
+8/14 5:10:23|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/signoff.gif, requestOrResponce = response
+8/14 5:10:23|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782823616
+8/14 5:10:23|Utils|convertToSecond method called|time = 188820.0
+8/14 5:10:23|Utils|isSplit|Method called.
+8/14 5:10:23|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:23|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:23|Utils|isSplit|result = false
+8/14 5:10:23|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:23|Utils|isSplit|Splitting for time -0.08799999999999386 = false
+8/14 5:10:23|Utils|isSplit|result = false
+8/14 5:10:23|Utils|isSplitForURLType|Method called.
+8/14 5:10:23|Utils|isSplitForURLType|value = false
+8/14 5:10:23|Utils|isSplitForURLType|value = false
+8/14 5:10:23|Utils|isSplitForURLType|value = false
+8/14 5:10:23|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:23|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://10.10.30.15:9010/tours/Merc10-dev/images/signoff.gif
+8/14 5:10:23|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782823616
+8/14 5:10:23|Utils|convertToSecond method called|time = 188820.0
+8/14 5:10:23|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782823616
+8/14 5:10:23|Utils|convertToSecond method called|time = 188820.0
+8/14 5:10:23|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/splash_Findflight.gif, requestOrResponce = response
+8/14 5:10:23|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782823628
+8/14 5:10:23|Utils|convertToSecond method called|time = 188832.0
+8/14 5:10:23|Utils|isSplit|Method called.
+8/14 5:10:23|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:23|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:23|Utils|isSplit|result = false
+8/14 5:10:23|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:23|Utils|isSplit|Splitting for time -0.08799999999999386 = false
+8/14 5:10:23|Utils|isSplit|result = false
+8/14 5:10:23|Utils|isSplitForURLType|Method called.
+8/14 5:10:23|Utils|isSplitForURLType|value = false
+8/14 5:10:23|Utils|isSplitForURLType|value = false
+8/14 5:10:23|Utils|isSplitForURLType|value = false
+8/14 5:10:23|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:23|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://10.10.30.15:9010/tours/Merc10-dev/images/splash_Findflight.gif
+8/14 5:10:23|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782823628
+8/14 5:10:23|Utils|convertToSecond method called|time = 188832.0
+8/14 5:10:23|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782823628
+8/14 5:10:23|Utils|convertToSecond method called|time = 188832.0
+8/14 5:10:23|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow\10.10.30.15_9010/tours/Merc10-dev/images/
+8/14 5:10:23|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow\10.10.30.15_9010/tours/Merc10-dev/images/
+8/14 5:10:23|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow\10.10.30.15_9010/tours/Merc10-dev/images/
+8/14 5:10:23|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow\10.10.30.15_9010/tours/Merc10-dev/images/
+8/14 5:10:23|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow\10.10.30.15_9010/tours/Merc10-dev/images/
+8/14 5:10:23|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/14 5:10:23|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/14 5:10:23|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/vep/images/velocigen.gif, requestOrResponce = request
+8/14 5:10:23|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782823757
+8/14 5:10:23|Utils|convertToSecond method called|time = 188961.0
+8/14 5:10:23|Utils|isSplit|Method called.
+8/14 5:10:23|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:23|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:23|Utils|isSplit|result = false
+8/14 5:10:23|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:23|Utils|isSplit|Splitting for time 0.1290000000000191 = false
+8/14 5:10:23|Utils|isSplit|result = false
+8/14 5:10:23|Utils|isSplitForURLType|Method called.
+8/14 5:10:23|Utils|isSplitForURLType|value = false
+8/14 5:10:23|Utils|isSplitForURLType|value = false
+8/14 5:10:23|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:23|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/images/continue.gif, requestOrResponce = response
+8/14 5:10:23|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782823808
+8/14 5:10:23|Utils|convertToSecond method called|time = 189012.0
+8/14 5:10:23|Utils|isSplit|Method called.
+8/14 5:10:23|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:23|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:23|Utils|isSplit|result = false
+8/14 5:10:23|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:23|Utils|isSplit|Splitting for time -0.055999999999983174 = false
+8/14 5:10:23|Utils|isSplit|result = false
+8/14 5:10:23|Utils|isSplitForURLType|Method called.
+8/14 5:10:23|Utils|isSplitForURLType|value = false
+8/14 5:10:23|Utils|isSplitForURLType|value = false
+8/14 5:10:23|Utils|isSplitForURLType|value = false
+8/14 5:10:23|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:23|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://10.10.30.15:9010/tours/images/continue.gif
+8/14 5:10:23|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782823808
+8/14 5:10:23|Utils|convertToSecond method called|time = 189012.0
+8/14 5:10:23|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782823808
+8/14 5:10:23|Utils|convertToSecond method called|time = 189012.0
+8/14 5:10:23|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow\10.10.30.15_9010/tours/images/
+8/14 5:10:23|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/vep/images/velocigen.gif, requestOrResponce = response
+8/14 5:10:23|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782823828
+8/14 5:10:23|Utils|convertToSecond method called|time = 189032.0
+8/14 5:10:23|Utils|isSplit|Method called.
+8/14 5:10:23|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:23|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:23|Utils|isSplit|result = false
+8/14 5:10:23|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:23|Utils|isSplit|Splitting for time -0.05099999999998772 = false
+8/14 5:10:23|Utils|isSplit|result = false
+8/14 5:10:23|Utils|isSplitForURLType|Method called.
+8/14 5:10:23|Utils|isSplitForURLType|value = false
+8/14 5:10:23|Utils|isSplitForURLType|value = false
+8/14 5:10:23|Utils|isSplitForURLType|value = false
+8/14 5:10:23|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:23|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://10.10.30.15:9010/tours/vep/images/velocigen.gif
+8/14 5:10:23|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782823828
+8/14 5:10:23|Utils|convertToSecond method called|time = 189032.0
+8/14 5:10:23|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782823828
+8/14 5:10:23|Utils|convertToSecond method called|time = 189032.0
+8/14 5:10:23|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow\10.10.30.15_9010/tours/vep/images/
+8/14 5:10:24|ChromeBrowserNavigationListener|onFinishLoadingFrame|Method Called for URL=http://10.10.30.15:9010/cgi-bin/reservation
+8/14 5:10:24|Utils|getURLTracker|urlString = http://10.10.30.15:9010/cgi-bin/reservation, requestOrResponce = snapShot
+8/14 5:10:24|ChromeCClickListener|addAllHTMLElementsListeners|Method Called.
+8/14 5:10:24|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/14 5:10:24|ChromeRecordingHttpListener|dumpPostData|method called.
+8/14 5:10:24|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/14 5:10:24|Utils|getURLTracker|urlString = https://clients1.google.com/tbproxy/af/query?client=Chromium, requestOrResponce = request
+8/14 5:10:24|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782824183
+8/14 5:10:24|Utils|convertToSecond method called|time = 189387.0
+8/14 5:10:24|Utils|isSplit|Method called.
+8/14 5:10:24|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:24|Utils|isSplit|Splitting for method POST = true
+8/14 5:10:24|Utils|isSplit|result = true
+8/14 5:10:24|ChromeRecordingHttpListener|dumpRequestHeaders|Auto split page url for ajax call or method = https://clients1.google.com/tbproxy/af/query?client=Chromium
+8/14 5:10:24|ProgressBar|setVisible|Method Called. bool = false
+8/14 5:10:24|Utils|getURLTracker|urlString = https://clients1.google.com/tbproxy/af/query?client=Chromium, requestOrResponce = response
+8/14 5:10:24|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782824905
+8/14 5:10:24|Utils|convertToSecond method called|time = 190109.0
+8/14 5:10:24|Utils|isSplit|Method called.
+8/14 5:10:24|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:24|Utils|isSplit|Splitting for method POST = true
+8/14 5:10:24|Utils|isSplit|result = true
+8/14 5:10:24|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split page url for header and method = https://clients1.google.com/tbproxy/af/query?client=Chromium
+8/14 5:10:24|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782824905
+8/14 5:10:24|Utils|convertToSecond method called|time = 190109.0
+8/14 5:10:24|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782824905
+8/14 5:10:24|Utils|convertToSecond method called|time = 190109.0
+8/14 5:10:24|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow\clients1.google.com/tbproxy/af/
+8/14 5:10:25|ChromeCClickListener|handleEvent|Method Called.
+8/14 5:10:25|ChromeCClickListener|dumpEvent|Method Called. Event Type: com.teamdev.jxbrowser.chromium.dom.events.DOMEventType@5a5c588
+ Tag Name = INPUT
+8/14 5:10:25|ChromeCClickListener|addImgLinkElement|Method Called.
+8/14 5:10:25|Utils|setRecordingComments|method called.
+8/14 5:10:25|ChromeBrowserNavigationListener|onStartLoadingFrame|Method Called for URL=http://10.10.30.15:9010/cgi-bin/findflight?depart=Acapulco&departDate=08-15-2019&arrive=Acapulco&returnDate=08-16-2019&numPassengers=1&seatPref=None&seatType=Coach&findFlights.x=47&findFlights.y=12&findFlights=Submit
+8/14 5:10:25|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/14 5:10:25|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/14 5:10:25|Utils|getURLTracker|urlString = http://10.10.30.15:9010/cgi-bin/findflight?depart=Acapulco&departDate=08-15-2019&arrive=Acapulco&returnDate=08-16-2019&numPassengers=1&seatPref=None&seatType=Coach&findFlights.x=47&findFlights.y=12&findFlights=Submit, requestOrResponce = request
+8/14 5:10:25|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782825955
+8/14 5:10:25|Utils|convertToSecond method called|time = 191159.0
+8/14 5:10:25|Utils|isSplit|Method called.
+8/14 5:10:25|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:25|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:25|Utils|isSplit|result = false
+8/14 5:10:25|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:25|Utils|isSplit|Splitting for time 1.049999999999983 = false
+8/14 5:10:25|Utils|isSplit|result = false
+8/14 5:10:25|Utils|isSplitForURLType|Method called.
+8/14 5:10:25|Utils|isSplitForURLType|value = false
+8/14 5:10:25|Utils|isSplitForURLType|value = false
+8/14 5:10:25|ChromeBrowserNavigationListener|onStartLoadingFrame|Begin Loading URL == http://10.10.30.15:9010/cgi-bin/findflight?depart=Acapulco&departDate=08-15-2019&arrive=Acapulco&returnDate=08-16-2019&numPassengers=1&seatPref=None&seatType=Coach&findFlights.x=47&findFlights.y=12&findFlights=Submit  ===== Begin = 15657828259628/14 5:10:25|Utils|isSplit|isSplitForURLType = false
+
+8/14 5:10:25|ChromeRecordingHttpListener|dumpRequestHeaders|Auto split page for user click = http://10.10.30.15:9010/cgi-bin/findflight?depart=Acapulco&departDate=08-15-2019&arrive=Acapulco&returnDate=08-16-2019&numPassengers=1&seatPref=None&seatType=Coach&findFlights.x=47&findFlights.y=12&findFlights=Submit8/14 5:10:25|Utils|getURLTracker|urlString = http://10.10.30.15:9010/cgi-bin/findflight?depart=Acapulco&departDate=08-15-2019&arrive=Acapulco&returnDate=08-16-2019&numPassengers=1&seatPref=None&seatType=Coach&findFlights.x=47&findFlights.y=12&findFlights=Submit, requestOrResponce = snapShot
+
+8/14 5:10:25|ProgressBar|setVisible|Method Called. bool = true
+8/14 5:10:26|Utils|getURLTracker|urlString = http://10.10.30.15:9010/cgi-bin/findflight?depart=Acapulco&departDate=08-15-2019&arrive=Acapulco&returnDate=08-16-2019&numPassengers=1&seatPref=None&seatType=Coach&findFlights.x=47&findFlights.y=12&findFlights=Submit, requestOrResponce = response
+8/14 5:10:26|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782826051
+8/14 5:10:26|Utils|convertToSecond method called|time = 191255.0
+8/14 5:10:26|Utils|isSplit|Method called.
+8/14 5:10:26|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:26|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:26|Utils|isSplit|result = false
+8/14 5:10:26|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:26|Utils|isSplit|Splitting for time 1.049999999999983 = false
+8/14 5:10:26|Utils|isSplit|result = false
+8/14 5:10:26|Utils|isSplitForURLType|Method called.
+8/14 5:10:26|Utils|isSplitForURLType|value = false
+8/14 5:10:26|Utils|isSplitForURLType|value = false
+8/14 5:10:26|Utils|isSplitForURLType|value = false
+8/14 5:10:26|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:26|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://10.10.30.15:9010/cgi-bin/findflight?depart=Acapulco&departDate=08-15-2019&arrive=Acapulco&returnDate=08-16-2019&numPassengers=1&seatPref=None&seatType=Coach&findFlights.x=47&findFlights.y=12&findFlights=Submit
+8/14 5:10:26|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782826051
+8/14 5:10:26|Utils|convertToSecond method called|time = 191255.0
+8/14 5:10:26|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782826051
+8/14 5:10:26|Utils|convertToSecond method called|time = 191255.0
+8/14 5:10:26|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow\10.10.30.15_9010/cgi-bin/
+8/14 5:10:26|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/14 5:10:26|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/14 5:10:26|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/banner_animated.gif, requestOrResponce = request
+8/14 5:10:26|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782826073
+8/14 5:10:26|Utils|convertToSecond method called|time = 191277.0
+8/14 5:10:26|Utils|isSplit|Method called.
+8/14 5:10:26|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:26|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:26|Utils|isSplit|result = false
+8/14 5:10:26|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:26|Utils|isSplit|Splitting for time 0.02199999999999136 = false
+8/14 5:10:26|Utils|isSplit|result = false
+8/14 5:10:26|Utils|isSplitForURLType|Method called.
+8/14 5:10:26|Utils|isSplitForURLType|value = false
+8/14 5:10:26|Utils|isSplitForURLType|value = false
+8/14 5:10:26|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:26|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/14 5:10:26|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/14 5:10:26|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/sun_swede.gif, requestOrResponce = request
+8/14 5:10:26|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782826093
+8/14 5:10:26|Utils|convertToSecond method called|time = 191297.0
+8/14 5:10:26|Utils|isSplit|Method called.
+8/14 5:10:26|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:26|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:26|Utils|isSplit|result = false
+8/14 5:10:26|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:26|Utils|isSplit|Splitting for time 0.04200000000000159 = false
+8/14 5:10:26|Utils|isSplit|result = false
+8/14 5:10:26|Utils|isSplitForURLType|Method called.
+8/14 5:10:26|Utils|isSplitForURLType|value = false
+8/14 5:10:26|Utils|isSplitForURLType|value = false
+8/14 5:10:26|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:26|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/14 5:10:26|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/14 5:10:26|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/flights.gif, requestOrResponce = request
+8/14 5:10:26|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782826102
+8/14 5:10:26|Utils|convertToSecond method called|time = 191306.0
+8/14 5:10:26|Utils|isSplit|Method called.
+8/14 5:10:26|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:26|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:26|Utils|isSplit|result = false
+8/14 5:10:26|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:26|Utils|isSplit|Splitting for time 0.051000000000016144 = false
+8/14 5:10:26|Utils|isSplit|result = false
+8/14 5:10:26|Utils|isSplitForURLType|Method called.
+8/14 5:10:26|Utils|isSplitForURLType|value = false
+8/14 5:10:26|Utils|isSplitForURLType|value = false
+8/14 5:10:26|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:26|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/14 5:10:26|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/14 5:10:26|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/home.gif, requestOrResponce = request
+8/14 5:10:26|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782826112
+8/14 5:10:26|Utils|convertToSecond method called|time = 191316.0
+8/14 5:10:26|Utils|isSplit|Method called.
+8/14 5:10:26|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:26|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:26|Utils|isSplit|result = false
+8/14 5:10:26|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:26|Utils|isSplit|Splitting for time 0.06100000000000705 = false
+8/14 5:10:26|Utils|isSplit|result = false
+8/14 5:10:26|Utils|isSplitForURLType|Method called.
+8/14 5:10:26|Utils|isSplitForURLType|value = false
+8/14 5:10:26|Utils|isSplitForURLType|value = false
+8/14 5:10:26|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:26|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/14 5:10:26|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/14 5:10:26|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/signoff.gif, requestOrResponce = request
+8/14 5:10:26|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782826122
+8/14 5:10:26|Utils|convertToSecond method called|time = 191326.0
+8/14 5:10:26|Utils|isSplit|Method called.
+8/14 5:10:26|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:26|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:26|Utils|isSplit|result = false
+8/14 5:10:26|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:26|Utils|isSplit|Splitting for time 0.07099999999999795 = false
+8/14 5:10:26|Utils|isSplit|result = false
+8/14 5:10:26|Utils|isSplitForURLType|Method called.
+8/14 5:10:26|Utils|isSplitForURLType|value = false
+8/14 5:10:26|Utils|isSplitForURLType|value = false
+8/14 5:10:26|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:26|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/14 5:10:26|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/14 5:10:26|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/images/splash_Searchresults.gif, requestOrResponce = request
+8/14 5:10:26|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782826135
+8/14 5:10:26|Utils|convertToSecond method called|time = 191339.0
+8/14 5:10:26|Utils|isSplit|Method called.
+8/14 5:10:26|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:26|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:26|Utils|isSplit|result = false
+8/14 5:10:26|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:26|Utils|isSplit|Splitting for time 0.08400000000000318 = false
+8/14 5:10:26|Utils|isSplit|result = false
+8/14 5:10:26|Utils|isSplitForURLType|Method called.
+8/14 5:10:26|Utils|isSplitForURLType|value = false
+8/14 5:10:26|Utils|isSplitForURLType|value = false
+8/14 5:10:26|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:26|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/14 5:10:26|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/14 5:10:26|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/images/continue.gif, requestOrResponce = request
+8/14 5:10:26|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782826146
+8/14 5:10:26|Utils|convertToSecond method called|time = 191350.0
+8/14 5:10:26|Utils|isSplit|Method called.
+8/14 5:10:26|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:26|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:26|Utils|isSplit|result = false
+8/14 5:10:26|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:26|Utils|isSplit|Splitting for time 0.09499999999999886 = false
+8/14 5:10:26|Utils|isSplit|result = false
+8/14 5:10:26|Utils|isSplitForURLType|Method called.
+8/14 5:10:26|Utils|isSplitForURLType|value = false
+8/14 5:10:26|Utils|isSplitForURLType|value = false
+8/14 5:10:26|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:26|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/14 5:10:26|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/14 5:10:26|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/images/startover.gif, requestOrResponce = request
+8/14 5:10:26|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782826155
+8/14 5:10:26|Utils|convertToSecond method called|time = 191359.0
+8/14 5:10:26|Utils|isSplit|Method called.
+8/14 5:10:26|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:26|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:26|Utils|isSplit|result = false
+8/14 5:10:26|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:26|Utils|isSplit|Splitting for time 0.10400000000001342 = false
+8/14 5:10:26|Utils|isSplit|result = false
+8/14 5:10:26|Utils|isSplitForURLType|Method called.
+8/14 5:10:26|Utils|isSplitForURLType|value = false
+8/14 5:10:26|Utils|isSplitForURLType|value = false
+8/14 5:10:26|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:26|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/banner_animated.gif, requestOrResponce = response
+8/14 5:10:26|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782826172
+8/14 5:10:26|Utils|convertToSecond method called|time = 191376.0
+8/14 5:10:26|Utils|isSplit|Method called.
+8/14 5:10:26|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:26|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:26|Utils|isSplit|result = false
+8/14 5:10:26|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:26|Utils|isSplit|Splitting for time 0.02199999999999136 = false
+8/14 5:10:26|Utils|isSplit|result = false
+8/14 5:10:26|Utils|isSplitForURLType|Method called.
+8/14 5:10:26|Utils|isSplitForURLType|value = false
+8/14 5:10:26|Utils|isSplitForURLType|value = false
+8/14 5:10:26|Utils|isSplitForURLType|value = false
+8/14 5:10:26|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:26|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://10.10.30.15:9010/tours/Merc10-dev/images/banner_animated.gif
+8/14 5:10:26|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782826172
+8/14 5:10:26|Utils|convertToSecond method called|time = 191376.0
+8/14 5:10:26|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782826172
+8/14 5:10:26|Utils|convertToSecond method called|time = 191376.0
+8/14 5:10:26|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/sun_swede.gif, requestOrResponce = response
+8/14 5:10:26|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782826184
+8/14 5:10:26|Utils|convertToSecond method called|time = 191388.0
+8/14 5:10:26|Utils|isSplit|Method called.
+8/14 5:10:26|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:26|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:26|Utils|isSplit|result = false
+8/14 5:10:26|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:26|Utils|isSplit|Splitting for time -0.07900000000000773 = false
+8/14 5:10:26|Utils|isSplit|result = false
+8/14 5:10:26|Utils|isSplitForURLType|Method called.
+8/14 5:10:26|Utils|isSplitForURLType|value = false
+8/14 5:10:26|Utils|isSplitForURLType|value = false
+8/14 5:10:26|Utils|isSplitForURLType|value = false
+8/14 5:10:26|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:26|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://10.10.30.15:9010/tours/Merc10-dev/images/sun_swede.gif
+8/14 5:10:26|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782826184
+8/14 5:10:26|Utils|convertToSecond method called|time = 191388.0
+8/14 5:10:26|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782826184
+8/14 5:10:26|Utils|convertToSecond method called|time = 191388.0
+8/14 5:10:26|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/images/splash_Searchresults.gif, requestOrResponce = response
+8/14 5:10:26|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782826198
+8/14 5:10:26|Utils|convertToSecond method called|time = 191402.0
+8/14 5:10:26|Utils|isSplit|Method called.
+8/14 5:10:26|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:26|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:26|Utils|isSplit|result = false
+8/14 5:10:26|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:26|Utils|isSplit|Splitting for time -0.049000000000006594 = false
+8/14 5:10:26|Utils|isSplit|result = false
+8/14 5:10:26|Utils|isSplitForURLType|Method called.
+8/14 5:10:26|Utils|isSplitForURLType|value = false
+8/14 5:10:26|Utils|isSplitForURLType|value = false
+8/14 5:10:26|Utils|isSplitForURLType|value = false
+8/14 5:10:26|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:26|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://10.10.30.15:9010/tours/images/splash_Searchresults.gif
+8/14 5:10:26|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782826198
+8/14 5:10:26|Utils|convertToSecond method called|time = 191402.0
+8/14 5:10:26|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782826198
+8/14 5:10:26|Utils|convertToSecond method called|time = 191402.0
+8/14 5:10:26|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/home.gif, requestOrResponce = response
+8/14 5:10:26|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782826214
+8/14 5:10:26|Utils|convertToSecond method called|time = 191418.0
+8/14 5:10:26|Utils|isSplit|Method called.
+8/14 5:10:26|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:26|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:26|Utils|isSplit|result = false
+8/14 5:10:26|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:26|Utils|isSplit|Splitting for time -0.08599999999998431 = false
+8/14 5:10:26|Utils|isSplit|result = false
+8/14 5:10:26|Utils|isSplitForURLType|Method called.
+8/14 5:10:26|Utils|isSplitForURLType|value = false
+8/14 5:10:26|Utils|isSplitForURLType|value = false
+8/14 5:10:26|Utils|isSplitForURLType|value = false
+8/14 5:10:26|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:26|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://10.10.30.15:9010/tours/Merc10-dev/images/home.gif
+8/14 5:10:26|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782826214
+8/14 5:10:26|Utils|convertToSecond method called|time = 191418.0
+8/14 5:10:26|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782826214
+8/14 5:10:26|Utils|convertToSecond method called|time = 191418.0
+8/14 5:10:26|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/signoff.gif, requestOrResponce = response
+8/14 5:10:26|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782826225
+8/14 5:10:26|Utils|convertToSecond method called|time = 191429.0
+8/14 5:10:26|Utils|isSplit|Method called.
+8/14 5:10:26|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:26|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:26|Utils|isSplit|result = false
+8/14 5:10:26|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:26|Utils|isSplit|Splitting for time -0.09200000000001296 = false
+8/14 5:10:26|Utils|isSplit|result = false
+8/14 5:10:26|Utils|isSplitForURLType|Method called.
+8/14 5:10:26|Utils|isSplitForURLType|value = false
+8/14 5:10:26|Utils|isSplitForURLType|value = false
+8/14 5:10:26|Utils|isSplitForURLType|value = false
+8/14 5:10:26|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:26|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://10.10.30.15:9010/tours/Merc10-dev/images/signoff.gif
+8/14 5:10:26|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782826225
+8/14 5:10:26|Utils|convertToSecond method called|time = 191429.0
+8/14 5:10:26|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782826225
+8/14 5:10:26|Utils|convertToSecond method called|time = 191429.0
+8/14 5:10:26|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/flights.gif, requestOrResponce = response
+8/14 5:10:26|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782826236
+8/14 5:10:26|Utils|convertToSecond method called|time = 191440.0
+8/14 5:10:26|Utils|isSplit|Method called.
+8/14 5:10:26|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:26|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:26|Utils|isSplit|result = false
+8/14 5:10:26|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:26|Utils|isSplit|Splitting for time -0.12299999999999045 = false
+8/14 5:10:26|Utils|isSplit|result = false
+8/14 5:10:26|Utils|isSplitForURLType|Method called.
+8/14 5:10:26|Utils|isSplitForURLType|value = false
+8/14 5:10:26|Utils|isSplitForURLType|value = false
+8/14 5:10:26|Utils|isSplitForURLType|value = false
+8/14 5:10:26|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:26|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://10.10.30.15:9010/tours/Merc10-dev/images/flights.gif
+8/14 5:10:26|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782826236
+8/14 5:10:26|Utils|convertToSecond method called|time = 191440.0
+8/14 5:10:26|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782826236
+8/14 5:10:26|Utils|convertToSecond method called|time = 191440.0
+8/14 5:10:26|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow\10.10.30.15_9010/tours/images/
+8/14 5:10:26|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow\10.10.30.15_9010/tours/Merc10-dev/images/
+8/14 5:10:26|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow\10.10.30.15_9010/tours/Merc10-dev/images/
+8/14 5:10:26|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow\10.10.30.15_9010/tours/Merc10-dev/images/
+8/14 5:10:26|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow\10.10.30.15_9010/tours/Merc10-dev/images/
+8/14 5:10:26|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow\10.10.30.15_9010/tours/Merc10-dev/images/
+8/14 5:10:26|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/14 5:10:26|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/14 5:10:26|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/vep/images/velocigen.gif, requestOrResponce = request
+8/14 5:10:26|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782826318
+8/14 5:10:26|Utils|convertToSecond method called|time = 191522.0
+8/14 5:10:26|Utils|isSplit|Method called.
+8/14 5:10:26|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:26|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:26|Utils|isSplit|result = false
+8/14 5:10:26|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:26|Utils|isSplit|Splitting for time 0.08199999999999363 = false
+8/14 5:10:26|Utils|isSplit|result = false
+8/14 5:10:26|Utils|isSplitForURLType|Method called.
+8/14 5:10:26|Utils|isSplitForURLType|value = false
+8/14 5:10:26|Utils|isSplitForURLType|value = false
+8/14 5:10:26|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:26|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/images/startover.gif, requestOrResponce = response
+8/14 5:10:26|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782826434
+8/14 5:10:26|Utils|convertToSecond method called|time = 191638.0
+8/14 5:10:26|Utils|isSplit|Method called.
+8/14 5:10:26|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:26|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:26|Utils|isSplit|result = false
+8/14 5:10:26|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:26|Utils|isSplit|Splitting for time -0.08099999999998886 = false
+8/14 5:10:26|Utils|isSplit|result = false
+8/14 5:10:26|Utils|isSplitForURLType|Method called.
+8/14 5:10:26|Utils|isSplitForURLType|value = false
+8/14 5:10:26|Utils|isSplitForURLType|value = false
+8/14 5:10:26|Utils|isSplitForURLType|value = false
+8/14 5:10:26|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:26|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://10.10.30.15:9010/tours/images/startover.gif
+8/14 5:10:26|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782826434
+8/14 5:10:26|Utils|convertToSecond method called|time = 191638.0
+8/14 5:10:26|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782826434
+8/14 5:10:26|Utils|convertToSecond method called|time = 191638.0
+8/14 5:10:26|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/images/continue.gif, requestOrResponce = response
+8/14 5:10:26|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782826446
+8/14 5:10:26|Utils|convertToSecond method called|time = 191650.0
+8/14 5:10:26|Utils|isSplit|Method called.
+8/14 5:10:26|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:26|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:26|Utils|isSplit|result = false
+8/14 5:10:26|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:26|Utils|isSplit|Splitting for time -0.2880000000000109 = false
+8/14 5:10:26|Utils|isSplit|result = false
+8/14 5:10:26|Utils|isSplitForURLType|Method called.
+8/14 5:10:26|Utils|isSplitForURLType|value = false
+8/14 5:10:26|Utils|isSplitForURLType|value = false
+8/14 5:10:26|Utils|isSplitForURLType|value = false
+8/14 5:10:26|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:26|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://10.10.30.15:9010/tours/images/continue.gif
+8/14 5:10:26|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782826446
+8/14 5:10:26|Utils|convertToSecond method called|time = 191650.0
+8/14 5:10:26|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782826446
+8/14 5:10:26|Utils|convertToSecond method called|time = 191650.0
+8/14 5:10:26|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow\10.10.30.15_9010/tours/images/
+8/14 5:10:26|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow\10.10.30.15_9010/tours/images/
+8/14 5:10:26|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/vep/images/velocigen.gif, requestOrResponce = response
+8/14 5:10:26|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782826468
+8/14 5:10:26|Utils|convertToSecond method called|time = 191672.0
+8/14 5:10:26|Utils|isSplit|Method called.
+8/14 5:10:26|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:26|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:26|Utils|isSplit|result = false
+8/14 5:10:26|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:26|Utils|isSplit|Splitting for time -0.12800000000001432 = false
+8/14 5:10:26|Utils|isSplit|result = false
+8/14 5:10:26|Utils|isSplitForURLType|Method called.
+8/14 5:10:26|Utils|isSplitForURLType|value = false
+8/14 5:10:26|Utils|isSplitForURLType|value = false
+8/14 5:10:26|Utils|isSplitForURLType|value = false
+8/14 5:10:26|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:26|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://10.10.30.15:9010/tours/vep/images/velocigen.gif
+8/14 5:10:26|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782826468
+8/14 5:10:26|Utils|convertToSecond method called|time = 191672.0
+8/14 5:10:26|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782826468
+8/14 5:10:26|Utils|convertToSecond method called|time = 191672.0
+8/14 5:10:26|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow\10.10.30.15_9010/tours/vep/images/
+8/14 5:10:26|ChromeBrowserNavigationListener|onFinishLoadingFrame|Method Called for URL=http://10.10.30.15:9010/cgi-bin/findflight?depart=Acapulco&departDate=08-15-2019&arrive=Acapulco&returnDate=08-16-2019&numPassengers=1&seatPref=None&seatType=Coach&findFlights.x=47&findFlights.y=12&findFlights=Submit
+8/14 5:10:26|ChromeCClickListener|addAllHTMLElementsListeners|Method Called.
+8/14 5:10:26|Utils|getURLTracker|urlString = http://10.10.30.15:9010/cgi-bin/findflight?depart=Acapulco&departDate=08-15-2019&arrive=Acapulco&returnDate=08-16-2019&numPassengers=1&seatPref=None&seatType=Coach&findFlights.x=47&findFlights.y=12&findFlights=Submit, requestOrResponce = snapShot
+8/14 5:10:26|ProgressBar|setVisible|Method Called. bool = false
+8/14 5:10:27|ChromeCClickListener|handleEvent|Method Called.
+8/14 5:10:27|ChromeCClickListener|dumpEvent|Method Called. Event Type: com.teamdev.jxbrowser.chromium.dom.events.DOMEventType@5a5c588
+ Tag Name = INPUT
+8/14 5:10:27|Utils|setRecordingComments|method called.
+8/14 5:10:29|ChromeCClickListener|handleEvent|Method Called.
+8/14 5:10:29|ChromeCClickListener|dumpEvent|Method Called. Event Type: com.teamdev.jxbrowser.chromium.dom.events.DOMEventType@5a5c588
+ Tag Name = INPUT
+8/14 5:10:29|ChromeBrowserNavigationListener|onStartLoadingFrame|Method Called for URL=http://10.10.30.15:9010/cgi-bin/findflight?hidden_outboundFlight_button0=000%7C0%7C08-15-2019&outboundFlight=button1&hidden_outboundFlight_button1=001%7C0%7C08-15-2019&hidden_outboundFlight_button2=002%7C0%7C08-15-2019&hidden_outboundFlight_button3=003%7C0%7C08-15-2019&numPassengers=1&advanceDiscount=&seatType=Coach&seatPref=None&reserveFlights.x=65&reserveFlights.y=10
+8/14 5:10:29|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/14 5:10:29|ChromeCClickListener|addImgLinkElement|Method Called.
+8/14 5:10:29|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/14 5:10:29|Utils|getURLTracker|urlString = http://10.10.30.15:9010/cgi-bin/findflight?hidden_outboundFlight_button0=000%7C0%7C08-15-2019&outboundFlight=button1&hidden_outboundFlight_button1=001%7C0%7C08-15-2019&hidden_outboundFlight_button2=002%7C0%7C08-15-2019&hidden_outboundFlight_button3=003%7C0%7C08-15-2019&numPassengers=1&advanceDiscount=&seatType=Coach&seatPref=None&reserveFlights.x=65&reserveFlights.y=10, requestOrResponce = request
+8/14 5:10:29|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782829101
+8/14 5:10:29|Utils|setRecordingComments|method called.
+8/14 5:10:29|Utils|convertToSecond method called|time = 194305.0
+8/14 5:10:29|Utils|isSplit|Method called.
+8/14 5:10:29|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:29|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:29|Utils|isSplit|result = false
+8/14 5:10:29|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:29|Utils|isSplit|Splitting for time 2.6330000000000098 = false
+8/14 5:10:29|Utils|isSplit|result = false
+8/14 5:10:29|Utils|isSplitForURLType|Method called.
+8/14 5:10:29|Utils|isSplitForURLType|value = false
+8/14 5:10:29|Utils|isSplitForURLType|value = false
+8/14 5:10:29|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:29|ChromeRecordingHttpListener|dumpRequestHeaders|Auto split page for user click = http://10.10.30.15:9010/cgi-bin/findflight?hidden_outboundFlight_button0=000%7C0%7C08-15-2019&outboundFlight=button1&hidden_outboundFlight_button1=001%7C0%7C08-15-2019&hidden_outboundFlight_button2=002%7C0%7C08-15-2019&hidden_outboundFlight_button3=003%7C0%7C08-15-2019&numPassengers=1&advanceDiscount=&seatType=Coach&seatPref=None&reserveFlights.x=65&reserveFlights.y=10
+8/14 5:10:29|ChromeBrowserNavigationListener|onStartLoadingFrame|Begin Loading URL == http://10.10.30.15:9010/cgi-bin/findflight?hidden_outboundFlight_button0=000%7C0%7C08-15-2019&outboundFlight=button1&hidden_outboundFlight_button1=001%7C0%7C08-15-2019&hidden_outboundFlight_button2=002%7C0%7C08-15-2019&hidden_outboundFlight_button3=003%7C0%7C08-15-2019&numPassengers=1&advanceDiscount=&seatType=Coach&seatPref=None&reserveFlights.x=65&reserveFlights.y=10  ===== Begin = 1565782829119
+8/14 5:10:29|Utils|getURLTracker|urlString = http://10.10.30.15:9010/cgi-bin/findflight?hidden_outboundFlight_button0=000%7C0%7C08-15-2019&outboundFlight=button1&hidden_outboundFlight_button1=001%7C0%7C08-15-2019&hidden_outboundFlight_button2=002%7C0%7C08-15-2019&hidden_outboundFlight_button3=003%7C0%7C08-15-2019&numPassengers=1&advanceDiscount=&seatType=Coach&seatPref=None&reserveFlights.x=65&reserveFlights.y=10, requestOrResponce = snapShot
+8/14 5:10:29|Utils|getURLTracker|urlString = http://10.10.30.15:9010/cgi-bin/findflight?hidden_outboundFlight_button0=000%7C0%7C08-15-2019&outboundFlight=button1&hidden_outboundFlight_button1=001%7C0%7C08-15-2019&hidden_outboundFlight_button2=002%7C0%7C08-15-2019&hidden_outboundFlight_button3=003%7C0%7C08-15-2019&numPassengers=1&advanceDiscount=&seatType=Coach&seatPref=None&reserveFlights.x=65&reserveFlights.y=10, requestOrResponce = response
+8/14 5:10:29|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782829150
+8/14 5:10:29|Utils|convertToSecond method called|time = 194354.0
+8/14 5:10:29|Utils|isSplit|Method called.
+8/14 5:10:29|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:29|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:29|Utils|isSplit|result = false
+8/14 5:10:29|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:29|Utils|isSplit|Splitting for time 2.6330000000000098 = false
+8/14 5:10:29|Utils|isSplit|result = false
+8/14 5:10:29|Utils|isSplitForURLType|Method called.
+8/14 5:10:29|Utils|isSplitForURLType|value = false
+8/14 5:10:29|Utils|isSplitForURLType|value = false
+8/14 5:10:29|Utils|isSplitForURLType|value = false
+8/14 5:10:29|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:29|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split page url for User event = http://10.10.30.15:9010/cgi-bin/findflight?hidden_outboundFlight_button0=000%7C0%7C08-15-2019&outboundFlight=button1&hidden_outboundFlight_button1=001%7C0%7C08-15-2019&hidden_outboundFlight_button2=002%7C0%7C08-15-2019&hidden_outboundFlight_button3=003%7C0%7C08-15-2019&numPassengers=1&advanceDiscount=&seatType=Coach&seatPref=None&reserveFlights.x=65&reserveFlights.y=10
+8/14 5:10:29|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782829150
+8/14 5:10:29|Utils|convertToSecond method called|time = 194354.0
+8/14 5:10:29|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782829150
+8/14 5:10:29|Utils|convertToSecond method called|time = 194354.08/14 5:10:29|ProgressBar|setVisible|Method Called. bool = true
+
+8/14 5:10:29|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow\10.10.30.15_9010/cgi-bin/
+8/14 5:10:29|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/14 5:10:29|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/14 5:10:29|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/banner_animated.gif, requestOrResponce = request
+8/14 5:10:29|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782829290
+8/14 5:10:29|Utils|convertToSecond method called|time = 194494.0
+8/14 5:10:29|Utils|isSplit|Method called.
+8/14 5:10:29|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:29|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:29|Utils|isSplit|result = false
+8/14 5:10:29|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:29|Utils|isSplit|Splitting for time 0.13999999999998636 = false
+8/14 5:10:29|Utils|isSplit|result = false
+8/14 5:10:29|Utils|isSplitForURLType|Method called.
+8/14 5:10:29|Utils|isSplitForURLType|value = false
+8/14 5:10:29|Utils|isSplitForURLType|value = false
+8/14 5:10:29|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:29|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/14 5:10:29|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/14 5:10:29|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/sun_swede.gif, requestOrResponce = request
+8/14 5:10:29|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782829299
+8/14 5:10:29|Utils|convertToSecond method called|time = 194503.0
+8/14 5:10:29|Utils|isSplit|Method called.
+8/14 5:10:29|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:29|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:29|Utils|isSplit|result = false
+8/14 5:10:29|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:29|Utils|isSplit|Splitting for time 0.1489999999999725 = false
+8/14 5:10:29|Utils|isSplit|result = false
+8/14 5:10:29|Utils|isSplitForURLType|Method called.
+8/14 5:10:29|Utils|isSplitForURLType|value = false
+8/14 5:10:29|Utils|isSplitForURLType|value = false
+8/14 5:10:29|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:29|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/14 5:10:29|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/14 5:10:29|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/flights.gif, requestOrResponce = request
+8/14 5:10:29|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782829310
+8/14 5:10:29|Utils|convertToSecond method called|time = 194514.0
+8/14 5:10:29|Utils|isSplit|Method called.
+8/14 5:10:29|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:29|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:29|Utils|isSplit|result = false
+8/14 5:10:29|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:29|Utils|isSplit|Splitting for time 0.1599999999999966 = false
+8/14 5:10:29|Utils|isSplit|result = false
+8/14 5:10:29|Utils|isSplitForURLType|Method called.
+8/14 5:10:29|Utils|isSplitForURLType|value = false
+8/14 5:10:29|Utils|isSplitForURLType|value = false
+8/14 5:10:29|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:29|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/14 5:10:29|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/14 5:10:29|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/home.gif, requestOrResponce = request
+8/14 5:10:29|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782829320
+8/14 5:10:29|Utils|convertToSecond method called|time = 194524.0
+8/14 5:10:29|Utils|isSplit|Method called.
+8/14 5:10:29|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:29|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:29|Utils|isSplit|result = false
+8/14 5:10:29|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:29|Utils|isSplit|Splitting for time 0.1699999999999875 = false
+8/14 5:10:29|Utils|isSplit|result = false
+8/14 5:10:29|Utils|isSplitForURLType|Method called.
+8/14 5:10:29|Utils|isSplitForURLType|value = false
+8/14 5:10:29|Utils|isSplitForURLType|value = false
+8/14 5:10:29|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:29|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/14 5:10:29|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/14 5:10:29|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/signoff.gif, requestOrResponce = request
+8/14 5:10:29|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782829329
+8/14 5:10:29|Utils|convertToSecond method called|time = 194533.0
+8/14 5:10:29|Utils|isSplit|Method called.
+8/14 5:10:29|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:29|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:29|Utils|isSplit|result = false
+8/14 5:10:29|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:29|Utils|isSplit|Splitting for time 0.17899999999997362 = false
+8/14 5:10:29|Utils|isSplit|result = false
+8/14 5:10:29|Utils|isSplitForURLType|Method called.
+8/14 5:10:29|Utils|isSplitForURLType|value = false
+8/14 5:10:29|Utils|isSplitForURLType|value = false
+8/14 5:10:29|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:29|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/14 5:10:29|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/14 5:10:29|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/images/splash_creditcard.gif, requestOrResponce = request
+8/14 5:10:29|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782829338
+8/14 5:10:29|Utils|convertToSecond method called|time = 194542.0
+8/14 5:10:29|Utils|isSplit|Method called.
+8/14 5:10:29|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:29|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:29|Utils|isSplit|result = false
+8/14 5:10:29|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:29|Utils|isSplit|Splitting for time 0.18799999999998818 = false
+8/14 5:10:29|Utils|isSplit|result = false
+8/14 5:10:29|Utils|isSplitForURLType|Method called.
+8/14 5:10:29|Utils|isSplitForURLType|value = false
+8/14 5:10:29|Utils|isSplitForURLType|value = false
+8/14 5:10:29|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:29|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/banner_animated.gif, requestOrResponce = response
+8/14 5:10:29|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782829359
+8/14 5:10:29|Utils|convertToSecond method called|time = 194563.0
+8/14 5:10:29|Utils|isSplit|Method called.
+8/14 5:10:29|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:29|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:29|Utils|isSplit|result = false
+8/14 5:10:29|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:29|Utils|isSplit|Splitting for time 0.13999999999998636 = false
+8/14 5:10:29|Utils|isSplit|result = false
+8/14 5:10:29|Utils|isSplitForURLType|Method called.
+8/14 5:10:29|Utils|isSplitForURLType|value = false
+8/14 5:10:29|Utils|isSplitForURLType|value = false
+8/14 5:10:29|Utils|isSplitForURLType|value = false
+8/14 5:10:29|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:29|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://10.10.30.15:9010/tours/Merc10-dev/images/banner_animated.gif
+8/14 5:10:29|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782829359
+8/14 5:10:29|Utils|convertToSecond method called|time = 194563.0
+8/14 5:10:29|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782829359
+8/14 5:10:29|Utils|convertToSecond method called|time = 194563.0
+8/14 5:10:29|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow\10.10.30.15_9010/tours/Merc10-dev/images/
+8/14 5:10:29|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/14 5:10:29|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/14 5:10:29|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/images/purchaseflight.gif, requestOrResponce = request
+8/14 5:10:29|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782829382
+8/14 5:10:29|Utils|convertToSecond method called|time = 194586.0
+8/14 5:10:29|Utils|isSplit|Method called.
+8/14 5:10:29|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:29|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:29|Utils|isSplit|result = false
+8/14 5:10:29|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:29|Utils|isSplit|Splitting for time 0.023000000000024556 = false
+8/14 5:10:29|Utils|isSplit|result = false
+8/14 5:10:29|Utils|isSplitForURLType|Method called.
+8/14 5:10:29|Utils|isSplitForURLType|value = false
+8/14 5:10:29|Utils|isSplitForURLType|value = false
+8/14 5:10:29|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:29|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/flights.gif, requestOrResponce = response
+8/14 5:10:29|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782829390
+8/14 5:10:29|Utils|convertToSecond method called|time = 194594.0
+8/14 5:10:29|Utils|isSplit|Method called.
+8/14 5:10:29|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:29|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:29|Utils|isSplit|result = false
+8/14 5:10:29|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:29|Utils|isSplit|Splitting for time -0.04899999999997817 = false
+8/14 5:10:29|Utils|isSplit|result = false
+8/14 5:10:29|Utils|isSplitForURLType|Method called.
+8/14 5:10:29|Utils|isSplitForURLType|value = false
+8/14 5:10:29|Utils|isSplitForURLType|value = false
+8/14 5:10:29|Utils|isSplitForURLType|value = false
+8/14 5:10:29|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:29|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://10.10.30.15:9010/tours/Merc10-dev/images/flights.gif
+8/14 5:10:29|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782829390
+8/14 5:10:29|Utils|convertToSecond method called|time = 194594.0
+8/14 5:10:29|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782829390
+8/14 5:10:29|Utils|convertToSecond method called|time = 194594.0
+8/14 5:10:29|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/sun_swede.gif, requestOrResponce = response
+8/14 5:10:29|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782829399
+8/14 5:10:29|Utils|convertToSecond method called|time = 194603.0
+8/14 5:10:29|Utils|isSplit|Method called.
+8/14 5:10:29|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:29|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:29|Utils|isSplit|result = false
+8/14 5:10:29|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:29|Utils|isSplit|Splitting for time -0.09100000000000819 = false
+8/14 5:10:29|Utils|isSplit|result = false
+8/14 5:10:29|Utils|isSplitForURLType|Method called.
+8/14 5:10:29|Utils|isSplitForURLType|value = false
+8/14 5:10:29|Utils|isSplitForURLType|value = false
+8/14 5:10:29|Utils|isSplitForURLType|value = false
+8/14 5:10:29|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:29|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://10.10.30.15:9010/tours/Merc10-dev/images/sun_swede.gif
+8/14 5:10:29|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782829399
+8/14 5:10:29|Utils|convertToSecond method called|time = 194603.0
+8/14 5:10:29|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782829399
+8/14 5:10:29|Utils|convertToSecond method called|time = 194603.0
+8/14 5:10:29|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/signoff.gif, requestOrResponce = response
+8/14 5:10:29|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782829410
+8/14 5:10:29|Utils|convertToSecond method called|time = 194614.0
+8/14 5:10:29|Utils|isSplit|Method called.
+8/14 5:10:29|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:29|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:29|Utils|isSplit|result = false
+8/14 5:10:29|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:29|Utils|isSplit|Splitting for time -0.0700000000000216 = false
+8/14 5:10:29|Utils|isSplit|result = false
+8/14 5:10:29|Utils|isSplitForURLType|Method called.
+8/14 5:10:29|Utils|isSplitForURLType|value = false
+8/14 5:10:29|Utils|isSplitForURLType|value = false
+8/14 5:10:29|Utils|isSplitForURLType|value = false
+8/14 5:10:29|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:29|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://10.10.30.15:9010/tours/Merc10-dev/images/signoff.gif
+8/14 5:10:29|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782829410
+8/14 5:10:29|Utils|convertToSecond method called|time = 194614.0
+8/14 5:10:29|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782829410
+8/14 5:10:29|Utils|convertToSecond method called|time = 194614.0
+8/14 5:10:29|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/home.gif, requestOrResponce = response
+8/14 5:10:29|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782829421
+8/14 5:10:29|Utils|convertToSecond method called|time = 194625.0
+8/14 5:10:29|Utils|isSplit|Method called.
+8/14 5:10:29|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:29|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:29|Utils|isSplit|result = false
+8/14 5:10:29|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:29|Utils|isSplit|Splitting for time -0.09000000000000341 = false
+8/14 5:10:29|Utils|isSplit|result = false
+8/14 5:10:29|Utils|isSplitForURLType|Method called.
+8/14 5:10:29|Utils|isSplitForURLType|value = false
+8/14 5:10:29|Utils|isSplitForURLType|value = false
+8/14 5:10:29|Utils|isSplitForURLType|value = false
+8/14 5:10:29|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:29|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://10.10.30.15:9010/tours/Merc10-dev/images/home.gif
+8/14 5:10:29|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782829421
+8/14 5:10:29|Utils|convertToSecond method called|time = 194625.0
+8/14 5:10:29|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782829421
+8/14 5:10:29|Utils|convertToSecond method called|time = 194625.0
+8/14 5:10:29|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/images/splash_creditcard.gif, requestOrResponce = response
+8/14 5:10:29|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782829431
+8/14 5:10:29|Utils|convertToSecond method called|time = 194635.0
+8/14 5:10:29|Utils|isSplit|Method called.
+8/14 5:10:29|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:29|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:29|Utils|isSplit|result = false
+8/14 5:10:29|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:29|Utils|isSplit|Splitting for time -0.08299999999999841 = false
+8/14 5:10:29|Utils|isSplit|result = false
+8/14 5:10:29|Utils|isSplitForURLType|Method called.
+8/14 5:10:29|Utils|isSplitForURLType|value = false
+8/14 5:10:29|Utils|isSplitForURLType|value = false
+8/14 5:10:29|Utils|isSplitForURLType|value = false
+8/14 5:10:29|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:29|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://10.10.30.15:9010/tours/images/splash_creditcard.gif
+8/14 5:10:29|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782829431
+8/14 5:10:29|Utils|convertToSecond method called|time = 194635.0
+8/14 5:10:29|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782829431
+8/14 5:10:29|Utils|convertToSecond method called|time = 194635.0
+8/14 5:10:29|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow\10.10.30.15_9010/tours/Merc10-dev/images/
+8/14 5:10:29|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/14 5:10:29|ChromeRecordingHttpListener|dumpPostData|method called.
+8/14 5:10:29|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/14 5:10:29|Utils|getURLTracker|urlString = https://clients1.google.com/tbproxy/af/query?client=Chromium, requestOrResponce = request
+8/14 5:10:29|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782829456
+8/14 5:10:29|Utils|convertToSecond method called|time = 194660.0
+8/14 5:10:29|Utils|isSplit|Method called.
+8/14 5:10:29|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:29|Utils|isSplit|Splitting for method POST = true
+8/14 5:10:29|Utils|isSplit|result = true
+8/14 5:10:29|ChromeRecordingHttpListener|dumpRequestHeaders|Auto split page url for ajax call or method = https://clients1.google.com/tbproxy/af/query?client=Chromium
+8/14 5:10:29|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow\10.10.30.15_9010/tours/Merc10-dev/images/
+8/14 5:10:29|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow\10.10.30.15_9010/tours/Merc10-dev/images/
+8/14 5:10:29|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow\10.10.30.15_9010/tours/images/
+8/14 5:10:29|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/14 5:10:29|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/14 5:10:29|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/images/startover.gif, requestOrResponce = request
+8/14 5:10:29|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782829491
+8/14 5:10:29|Utils|convertToSecond method called|time = 194695.0
+8/14 5:10:29|Utils|isSplit|Method called.
+8/14 5:10:29|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:29|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:29|Utils|isSplit|result = false
+8/14 5:10:29|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:29|Utils|isSplit|Splitting for time 0.060000000000002274 = false
+8/14 5:10:29|Utils|isSplit|result = false
+8/14 5:10:29|Utils|isSplitForURLType|Method called.
+8/14 5:10:29|Utils|isSplitForURLType|value = false
+8/14 5:10:29|Utils|isSplitForURLType|value = false
+8/14 5:10:29|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:29|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow\10.10.30.15_9010/tours/Merc10-dev/images/
+8/14 5:10:29|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/14 5:10:29|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/14 5:10:29|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/vep/images/velocigen.gif, requestOrResponce = request
+8/14 5:10:29|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782829501
+8/14 5:10:29|Utils|convertToSecond method called|time = 194705.0
+8/14 5:10:29|Utils|isSplit|Method called.
+8/14 5:10:29|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:29|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:29|Utils|isSplit|result = false
+8/14 5:10:29|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:29|Utils|isSplit|Splitting for time 0.0700000000000216 = false
+8/14 5:10:29|Utils|isSplit|result = false
+8/14 5:10:29|Utils|isSplitForURLType|Method called.
+8/14 5:10:29|Utils|isSplitForURLType|value = false
+8/14 5:10:29|Utils|isSplitForURLType|value = false
+8/14 5:10:29|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:29|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/images/purchaseflight.gif, requestOrResponce = response
+8/14 5:10:29|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782829541
+8/14 5:10:29|Utils|convertToSecond method called|time = 194745.0
+8/14 5:10:29|Utils|isSplit|Method called.
+8/14 5:10:29|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:29|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:29|Utils|isSplit|result = false
+8/14 5:10:29|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:29|Utils|isSplit|Splitting for time -0.04899999999997817 = false
+8/14 5:10:29|Utils|isSplit|result = false
+8/14 5:10:29|Utils|isSplitForURLType|Method called.
+8/14 5:10:29|Utils|isSplitForURLType|value = false
+8/14 5:10:29|Utils|isSplitForURLType|value = false
+8/14 5:10:29|Utils|isSplitForURLType|value = false
+8/14 5:10:29|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:29|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://10.10.30.15:9010/tours/images/purchaseflight.gif
+8/14 5:10:29|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782829541
+8/14 5:10:29|Utils|convertToSecond method called|time = 194745.0
+8/14 5:10:29|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782829541
+8/14 5:10:29|Utils|convertToSecond method called|time = 194745.0
+8/14 5:10:29|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow\10.10.30.15_9010/tours/images/
+8/14 5:10:29|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/images/startover.gif, requestOrResponce = response
+8/14 5:10:29|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782829587
+8/14 5:10:29|Utils|convertToSecond method called|time = 194791.0
+8/14 5:10:29|Utils|isSplit|Method called.
+8/14 5:10:29|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:29|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:29|Utils|isSplit|result = false
+8/14 5:10:29|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:29|Utils|isSplit|Splitting for time -0.05000000000001137 = false
+8/14 5:10:29|Utils|isSplit|result = false
+8/14 5:10:29|Utils|isSplitForURLType|Method called.
+8/14 5:10:29|Utils|isSplitForURLType|value = false
+8/14 5:10:29|Utils|isSplitForURLType|value = false
+8/14 5:10:29|Utils|isSplitForURLType|value = false
+8/14 5:10:29|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:29|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://10.10.30.15:9010/tours/images/startover.gif
+8/14 5:10:29|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782829587
+8/14 5:10:29|Utils|convertToSecond method called|time = 194791.0
+8/14 5:10:29|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782829587
+8/14 5:10:29|Utils|convertToSecond method called|time = 194791.0
+8/14 5:10:29|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/vep/images/velocigen.gif, requestOrResponce = response
+8/14 5:10:29|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782829597
+8/14 5:10:29|Utils|convertToSecond method called|time = 194801.0
+8/14 5:10:29|Utils|isSplit|Method called.
+8/14 5:10:29|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:29|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:29|Utils|isSplit|result = false
+8/14 5:10:29|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:29|Utils|isSplit|Splitting for time -0.08599999999998431 = false
+8/14 5:10:29|Utils|isSplit|result = false
+8/14 5:10:29|Utils|isSplitForURLType|Method called.
+8/14 5:10:29|Utils|isSplitForURLType|value = false
+8/14 5:10:29|Utils|isSplitForURLType|value = false
+8/14 5:10:29|Utils|isSplitForURLType|value = false
+8/14 5:10:29|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:29|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://10.10.30.15:9010/tours/vep/images/velocigen.gif
+8/14 5:10:29|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782829597
+8/14 5:10:29|Utils|convertToSecond method called|time = 194801.0
+8/14 5:10:29|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782829597
+8/14 5:10:29|Utils|convertToSecond method called|time = 194801.0
+8/14 5:10:29|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow\10.10.30.15_9010/tours/images/
+8/14 5:10:29|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow\10.10.30.15_9010/tours/vep/images/
+8/14 5:10:29|ChromeBrowserNavigationListener|onFinishLoadingFrame|Method Called for URL=http://10.10.30.15:9010/cgi-bin/findflight?hidden_outboundFlight_button0=000%7C0%7C08-15-2019&outboundFlight=button1&hidden_outboundFlight_button1=001%7C0%7C08-15-2019&hidden_outboundFlight_button2=002%7C0%7C08-15-2019&hidden_outboundFlight_button3=003%7C0%7C08-15-2019&numPassengers=1&advanceDiscount=&seatType=Coach&seatPref=None&reserveFlights.x=65&reserveFlights.y=10
+8/14 5:10:29|Utils|getURLTracker|urlString = https://clients1.google.com/tbproxy/af/query?client=Chromium, requestOrResponce = response
+8/14 5:10:29|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782829636
+8/14 5:10:29|Utils|convertToSecond method called|time = 194840.0
+8/14 5:10:29|Utils|isSplit|Method called.
+8/14 5:10:29|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:29|Utils|isSplit|Splitting for method POST = true
+8/14 5:10:29|Utils|isSplit|result = true
+8/14 5:10:29|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split page url for header and method = https://clients1.google.com/tbproxy/af/query?client=Chromium
+8/14 5:10:29|ChromeCClickListener|addAllHTMLElementsListeners|Method Called.
+8/14 5:10:29|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782829636
+8/14 5:10:29|Utils|convertToSecond method called|time = 194840.0
+8/14 5:10:29|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782829636
+8/14 5:10:29|Utils|convertToSecond method called|time = 194840.0
+8/14 5:10:29|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow\clients1.google.com/tbproxy/af/
+8/14 5:10:29|Utils|getURLTracker|urlString = http://10.10.30.15:9010/cgi-bin/findflight?hidden_outboundFlight_button0=000%7C0%7C08-15-2019&outboundFlight=button1&hidden_outboundFlight_button1=001%7C0%7C08-15-2019&hidden_outboundFlight_button2=002%7C0%7C08-15-2019&hidden_outboundFlight_button3=003%7C0%7C08-15-2019&numPassengers=1&advanceDiscount=&seatType=Coach&seatPref=None&reserveFlights.x=65&reserveFlights.y=10, requestOrResponce = snapShot
+8/14 5:10:29|ProgressBar|setVisible|Method Called. bool = false
+8/14 5:10:33|ChromeCClickListener|handleEvent|Method Called.
+8/14 5:10:33|ChromeBrowserNavigationListener|onStartLoadingFrame|Method Called for URL=http://10.10.30.15:9010/cgi-bin/welcome
+8/14 5:10:33|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/14 5:10:33|ChromeBrowserNavigationListener|onStartLoadingFrame|Begin Loading URL == http://10.10.30.15:9010/cgi-bin/welcome  ===== Begin = 1565782833064
+8/14 5:10:33|ChromeCClickListener|dumpEvent|Method Called. Event Type: com.teamdev.jxbrowser.chromium.dom.events.DOMEventType@5a5c588
+ Tag Name = IMG
+8/14 5:10:33|Utils|getURLTracker|urlString = http://10.10.30.15:9010/cgi-bin/welcome, requestOrResponce = snapShot
+8/14 5:10:33|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/14 5:10:33|Utils|getURLTracker|urlString = http://10.10.30.15:9010/cgi-bin/welcome, requestOrResponce = request
+8/14 5:10:33|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782833065
+8/14 5:10:33|Utils|convertToSecond method called|time = 198269.0
+8/14 5:10:33|Utils|isSplit|Method called.
+8/14 5:10:33|ChromeCClickListener|addImgLinkElement|Method Called.
+8/14 5:10:33|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:33|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:33|Utils|isSplit|result = false
+8/14 5:10:33|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:33|Utils|isSplit|Splitting for time 3.429000000000002 = false
+8/14 5:10:33|ProgressBar|setVisible|Method Called. bool = true
+8/14 5:10:33|Utils|isSplit|result = false
+8/14 5:10:33|Utils|isSplitForURLType|Method called.
+8/14 5:10:33|Utils|isSplitForURLType|value = false
+8/14 5:10:33|Utils|isSplitForURLType|value = false
+8/14 5:10:33|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:33|Utils|setRecordingComments|method called.
+8/14 5:10:33|Utils|getURLTracker|urlString = http://10.10.30.15:9010/cgi-bin/welcome, requestOrResponce = response
+8/14 5:10:33|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782833093
+8/14 5:10:33|Utils|convertToSecond method called|time = 198297.0
+8/14 5:10:33|Utils|isSplit|Method called.
+8/14 5:10:33|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:33|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:33|Utils|isSplit|result = false
+8/14 5:10:33|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:33|Utils|isSplit|Splitting for time 3.429000000000002 = false
+8/14 5:10:33|Utils|isSplit|result = false
+8/14 5:10:33|Utils|isSplitForURLType|Method called.
+8/14 5:10:33|Utils|isSplitForURLType|value = false
+8/14 5:10:33|Utils|isSplitForURLType|value = false
+8/14 5:10:33|Utils|isSplitForURLType|value = false
+8/14 5:10:33|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:33|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://10.10.30.15:9010/cgi-bin/welcome
+8/14 5:10:33|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782833093
+8/14 5:10:33|Utils|convertToSecond method called|time = 198297.0
+8/14 5:10:33|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782833093
+8/14 5:10:33|Utils|convertToSecond method called|time = 198297.0
+8/14 5:10:33|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow\10.10.30.15_9010/cgi-bin/
+8/14 5:10:33|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/14 5:10:33|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/14 5:10:33|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/banner_animated.gif, requestOrResponce = request
+8/14 5:10:33|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782833118
+8/14 5:10:33|Utils|convertToSecond method called|time = 198322.0
+8/14 5:10:33|Utils|isSplit|Method called.
+8/14 5:10:33|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:33|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:33|Utils|isSplit|result = false
+8/14 5:10:33|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:33|Utils|isSplit|Splitting for time 0.025000000000005684 = false
+8/14 5:10:33|Utils|isSplit|result = false
+8/14 5:10:33|Utils|isSplitForURLType|Method called.
+8/14 5:10:33|Utils|isSplitForURLType|value = false
+8/14 5:10:33|Utils|isSplitForURLType|value = false
+8/14 5:10:33|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:33|ChromeRecordingHttpListener|dumpRequestHeaders|Auto split page for user click = http://10.10.30.15:9010/tours/Merc10-dev/images/banner_animated.gif
+8/14 5:10:33|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/14 5:10:33|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/14 5:10:33|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/sun_swede.gif, requestOrResponce = request
+8/14 5:10:33|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782833134
+8/14 5:10:33|Utils|convertToSecond method called|time = 198338.0
+8/14 5:10:33|Utils|isSplit|Method called.
+8/14 5:10:33|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:33|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:33|Utils|isSplit|result = false
+8/14 5:10:33|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:33|Utils|isSplit|Splitting for time 0.04099999999999682 = false
+8/14 5:10:33|Utils|isSplit|result = false
+8/14 5:10:33|Utils|isSplitForURLType|Method called.
+8/14 5:10:33|Utils|isSplitForURLType|value = false
+8/14 5:10:33|Utils|isSplitForURLType|value = false
+8/14 5:10:33|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:33|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/14 5:10:33|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/14 5:10:33|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/login.gif, requestOrResponce = request
+8/14 5:10:33|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782833148
+8/14 5:10:33|Utils|convertToSecond method called|time = 198352.0
+8/14 5:10:33|Utils|isSplit|Method called.
+8/14 5:10:33|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:33|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:33|Utils|isSplit|result = false
+8/14 5:10:33|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:33|Utils|isSplit|Splitting for time 0.05500000000000682 = false
+8/14 5:10:33|Utils|isSplit|result = false
+8/14 5:10:33|Utils|isSplitForURLType|Method called.
+8/14 5:10:33|Utils|isSplitForURLType|value = false
+8/14 5:10:33|Utils|isSplitForURLType|value = false
+8/14 5:10:33|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:33|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/14 5:10:33|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/14 5:10:33|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/images/banner_merctur.jpg, requestOrResponce = request
+8/14 5:10:33|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782833157
+8/14 5:10:33|Utils|convertToSecond method called|time = 198361.0
+8/14 5:10:33|Utils|isSplit|Method called.
+8/14 5:10:33|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:33|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:33|Utils|isSplit|result = false
+8/14 5:10:33|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:33|Utils|isSplit|Splitting for time 0.06399999999999295 = false
+8/14 5:10:33|Utils|isSplit|result = false
+8/14 5:10:33|Utils|isSplitForURLType|Method called.
+8/14 5:10:33|Utils|isSplitForURLType|value = false
+8/14 5:10:33|Utils|isSplitForURLType|value = false
+8/14 5:10:33|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:33|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/14 5:10:33|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/14 5:10:33|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/vep/images/velocigen.gif, requestOrResponce = request
+8/14 5:10:33|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782833167
+8/14 5:10:33|Utils|convertToSecond method called|time = 198371.0
+8/14 5:10:33|Utils|isSplit|Method called.
+8/14 5:10:33|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:33|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:33|Utils|isSplit|result = false
+8/14 5:10:33|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:33|Utils|isSplit|Splitting for time 0.07400000000001228 = false
+8/14 5:10:33|Utils|isSplit|result = false
+8/14 5:10:33|Utils|isSplitForURLType|Method called.
+8/14 5:10:33|Utils|isSplitForURLType|value = false
+8/14 5:10:33|Utils|isSplitForURLType|value = false
+8/14 5:10:33|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:33|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/banner_animated.gif, requestOrResponce = response
+8/14 5:10:33|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782833180
+8/14 5:10:33|Utils|convertToSecond method called|time = 198384.0
+8/14 5:10:33|Utils|isSplit|Method called.
+8/14 5:10:33|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:33|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:33|Utils|isSplit|result = false
+8/14 5:10:33|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:33|Utils|isSplit|Splitting for time 0.025000000000005684 = false
+8/14 5:10:33|Utils|isSplit|result = false
+8/14 5:10:33|Utils|isSplitForURLType|Method called.
+8/14 5:10:33|Utils|isSplitForURLType|value = false
+8/14 5:10:33|Utils|isSplitForURLType|value = false
+8/14 5:10:33|Utils|isSplitForURLType|value = false
+8/14 5:10:33|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:33|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split page url for User event = http://10.10.30.15:9010/tours/Merc10-dev/images/banner_animated.gif
+8/14 5:10:33|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782833180
+8/14 5:10:33|Utils|convertToSecond method called|time = 198384.0
+8/14 5:10:33|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782833180
+8/14 5:10:33|Utils|convertToSecond method called|time = 198384.0
+8/14 5:10:33|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow\10.10.30.15_9010/tours/Merc10-dev/images/
+8/14 5:10:33|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/vep/images/velocigen.gif, requestOrResponce = response
+8/14 5:10:33|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782833205
+8/14 5:10:33|Utils|convertToSecond method called|time = 198409.0
+8/14 5:10:33|Utils|isSplit|Method called.
+8/14 5:10:33|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:33|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:33|Utils|isSplit|result = false
+8/14 5:10:33|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:33|Utils|isSplit|Splitting for time -0.012999999999976808 = false
+8/14 5:10:33|Utils|isSplit|result = false
+8/14 5:10:33|Utils|isSplitForURLType|Method called.
+8/14 5:10:33|Utils|isSplitForURLType|value = false
+8/14 5:10:33|Utils|isSplitForURLType|value = false
+8/14 5:10:33|Utils|isSplitForURLType|value = false
+8/14 5:10:33|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:33|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://10.10.30.15:9010/tours/vep/images/velocigen.gif
+8/14 5:10:33|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782833205
+8/14 5:10:33|Utils|convertToSecond method called|time = 198409.0
+8/14 5:10:33|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782833205
+8/14 5:10:33|Utils|convertToSecond method called|time = 198409.0
+8/14 5:10:33|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/images/banner_merctur.jpg, requestOrResponce = response
+8/14 5:10:33|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782833215
+8/14 5:10:33|Utils|convertToSecond method called|time = 198419.0
+8/14 5:10:33|Utils|isSplit|Method called.
+8/14 5:10:33|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:33|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:33|Utils|isSplit|result = false
+8/14 5:10:33|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:33|Utils|isSplit|Splitting for time -0.04800000000000182 = false
+8/14 5:10:33|Utils|isSplit|result = false
+8/14 5:10:33|Utils|isSplitForURLType|Method called.
+8/14 5:10:33|Utils|isSplitForURLType|value = false
+8/14 5:10:33|Utils|isSplitForURLType|value = false
+8/14 5:10:33|Utils|isSplitForURLType|value = false
+8/14 5:10:33|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:33|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://10.10.30.15:9010/tours/images/banner_merctur.jpg
+8/14 5:10:33|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782833215
+8/14 5:10:33|Utils|convertToSecond method called|time = 198419.0
+8/14 5:10:33|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782833215
+8/14 5:10:33|Utils|convertToSecond method called|time = 198419.0
+8/14 5:10:33|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/login.gif, requestOrResponce = response
+8/14 5:10:33|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782833225
+8/14 5:10:33|Utils|convertToSecond method called|time = 198429.0
+8/14 5:10:33|Utils|isSplit|Method called.
+8/14 5:10:33|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:33|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:33|Utils|isSplit|result = false
+8/14 5:10:33|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:33|Utils|isSplit|Splitting for time -0.06700000000000728 = false
+8/14 5:10:33|Utils|isSplit|result = false
+8/14 5:10:33|Utils|isSplitForURLType|Method called.
+8/14 5:10:33|Utils|isSplitForURLType|value = false
+8/14 5:10:33|Utils|isSplitForURLType|value = false
+8/14 5:10:33|Utils|isSplitForURLType|value = false
+8/14 5:10:33|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:33|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://10.10.30.15:9010/tours/Merc10-dev/images/login.gif
+8/14 5:10:33|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782833225
+8/14 5:10:33|Utils|convertToSecond method called|time = 198429.0
+8/14 5:10:33|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782833225
+8/14 5:10:33|Utils|convertToSecond method called|time = 198429.0
+8/14 5:10:33|Utils|getURLTracker|urlString = http://10.10.30.15:9010/tours/Merc10-dev/images/sun_swede.gif, requestOrResponce = response
+8/14 5:10:33|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782833236
+8/14 5:10:33|Utils|convertToSecond method called|time = 198440.0
+8/14 5:10:33|Utils|isSplit|Method called.
+8/14 5:10:33|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:33|Utils|isSplit|Splitting for method GET = false
+8/14 5:10:33|Utils|isSplit|result = false
+8/14 5:10:33|Utils|isSplitForTimeDiff|Method called.
+8/14 5:10:33|Utils|isSplit|Splitting for time -0.09100000000000819 = false
+8/14 5:10:33|Utils|isSplit|result = false
+8/14 5:10:33|Utils|isSplitForURLType|Method called.
+8/14 5:10:33|Utils|isSplitForURLType|value = false
+8/14 5:10:33|Utils|isSplitForURLType|value = false
+8/14 5:10:33|Utils|isSplitForURLType|value = false
+8/14 5:10:33|Utils|isSplit|isSplitForURLType = false
+8/14 5:10:33|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://10.10.30.15:9010/tours/Merc10-dev/images/sun_swede.gif
+8/14 5:10:33|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782833236
+8/14 5:10:33|Utils|convertToSecond method called|time = 198440.0
+8/14 5:10:33|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782833236
+8/14 5:10:33|Utils|convertToSecond method called|time = 198440.0
+8/14 5:10:33|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow\10.10.30.15_9010/tours/vep/images/
+8/14 5:10:33|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow\10.10.30.15_9010/tours/Merc10-dev/images/
+8/14 5:10:33|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow\10.10.30.15_9010/tours/images/
+8/14 5:10:33|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow\10.10.30.15_9010/tours/Merc10-dev/images/
+8/14 5:10:33|ChromeBrowserNavigationListener|onFinishLoadingFrame|Method Called for URL=http://10.10.30.15:9010/cgi-bin/welcome
+8/14 5:10:33|Utils|getURLTracker|urlString = http://10.10.30.15:9010/cgi-bin/welcome, requestOrResponce = snapShot
+8/14 5:10:33|ChromeCClickListener|addAllHTMLElementsListeners|Method Called.
+8/14 5:10:33|ProgressBar|setVisible|Method Called. bool = false
+8/14 5:10:35|ScriptHTMLStart|stopRecording|Method Called.
+8/14 5:10:35|ScriptHTMLStart|stopRecording|Going to stop recording
+8/14 5:10:35|NSChromeBrowser|stopRecord|Method called.
+8/14 5:10:36|ChromeMainFrame|addBrowserDisposeListener|browser disposed called.
+8/14 5:10:36|WebCFormattor|generateScripts|method called.
+8/14 5:10:36|Utils|addLastPageLeftUrlsToInlineUrlsOfLastPage|Method called.
+8/14 5:10:36|Utils|modifyMapForSplit|Method called.
+8/14 5:10:36|Utils|modifyMapForSplit|Before Modify URL Map Size :6
+8/14 5:10:36|Utils|modifyMapForThinkTime|Method called.
+8/14 5:10:36|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1565782835017
+8/14 5:10:36|Utils|convertToSecond method called|time = 200221.0
+8/14 5:10:36|Utils|modifyMapForThinkTime|Modifying url list for last page=welcome, startThink=198.409, endThink=200.221
+8/14 5:10:36|Utils|modifyMapForSplit|url = http://10.10.30.15:9010/tours/Merc10-dev/images/banner_animated.gif
+8/14 5:10:36|Utils|modifyMapForSplit|pageName reservationindex2listOfSplittedUrl size1
+8/14 5:10:36|Utils|modifyMapForSplit|url = https://clients1.google.com/tbproxy/af/query?client=Chromium
+8/14 5:10:36|Utils|isSplit|Method called.
+8/14 5:10:36|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:36|Utils|isSplit|Splitting for method POST = true
+8/14 5:10:36|Utils|isSplit|result = true
+8/14 5:10:36|Utils|modifyMapForSplit|pageName banner_animated_gifindex3listOfSplittedUrl size8
+8/14 5:10:36|Utils|modifyMapForSplit|url = https://clients1.google.com/tbproxy/af/query?client=Chromium
+8/14 5:10:36|Utils|isSplit|Method called.
+8/14 5:10:36|Utils|isSplit|Splitting for Ajax Header = false
+8/14 5:10:36|Utils|isSplit|Splitting for method POST = true
+8/14 5:10:36|Utils|isSplit|result = true
+8/14 5:10:36|Utils|modifyMapForSplit|pageName findflight_2index6listOfSplittedUrl size8
+8/14 5:10:36|Utils|modifyMapForSplit|url = http://10.10.30.15:9010/tours/Merc10-dev/images/banner_animated.gif
+8/14 5:10:36|Utils|modifyMapForSplit|pageName welcomeindex8listOfSplittedUrl size1
+8/14 5:10:36|Utils|modifyMapForSplit|After Modify URL Map Size :10
+8/14 5:10:36|Utils|generateEventDetail|method called.
+8/14 5:10:36|Utils|getTimeStampForPage|Method called.
+8/14 5:10:36|Utils|getTimeStampForPage|Method called.
+8/14 5:10:36|Utils|getTimeStampForPage|Method called.
+8/14 5:10:36|Utils|getTimeStampForPage|Method called.
+8/14 5:10:36|Utils|getTimeStampForPage|Method called.
+8/14 5:10:36|Utils|getTimeStampForPage|Method called.
+8/14 5:10:36|Utils|getTimeStampForPage|Method called.
+8/14 5:10:36|Utils|getTimeStampForPage|Method called.
+8/14 5:10:36|Utils|getTimeStampForPage|Method called.
+8/14 5:10:36|Utils|getTimeStampForPage|Method called.
+8/14 5:10:36|Utils|generateUrlInfoListDetail|method called
+8/14 5:10:36|Utils|getTimeStampForPage|Method called.
+8/14 5:10:36|Utils|generateUrlInfoListDetail|URL = http://10.10.30.15:9010/tours/index.html
+8/14 5:10:36|Utils|convertToSecond method called|time = 0.14500000000000313
+8/14 5:10:36|Utils|generateUrlInfoListDetail|ScriptparsingData =http://10.10.30.15:9010/tours/index.html
+8/14 5:10:36|Utils|generateUrlInfoListDetail|UrlTracker.scriptParsingData.getParsedPath()=10.10.30.15_9010/tours/, Utils.getDumpPath() = C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow
+8/14 5:10:37|Utils|generateUrlInfoListDetail|URL = http://10.10.30.15:9010/tours/Merc10-dev/images/banner_animated.gif
+8/14 5:10:37|Utils|convertToSecond method called|time = 0.08999999999999986
+8/14 5:10:37|Utils|generateUrlInfoListDetail|ScriptparsingData =http://10.10.30.15:9010/tours/Merc10-dev/images/banner_animated.gif
+8/14 5:10:37|Utils|generateUrlInfoListDetail|URL = http://10.10.30.15:9010/tours/Merc10-dev/images/sun_swede.gif
+8/14 5:10:37|Utils|convertToSecond method called|time = 0.10200000000000031
+8/14 5:10:37|Utils|generateUrlInfoListDetail|ScriptparsingData =http://10.10.30.15:9010/tours/Merc10-dev/images/sun_swede.gif
+8/14 5:10:37|Utils|generateUrlInfoListDetail|URL = http://10.10.30.15:9010/tours/Merc10-dev/images/login.gif
+8/14 5:10:37|Utils|convertToSecond method called|time = 0.10400000000000276
+8/14 5:10:37|Utils|generateUrlInfoListDetail|ScriptparsingData =http://10.10.30.15:9010/tours/Merc10-dev/images/login.gif
+8/14 5:10:37|Utils|generateUrlInfoListDetail|URL = http://10.10.30.15:9010/tours/images/banner_merctur.jpg
+8/14 5:10:37|Utils|convertToSecond method called|time = 0.10200000000000031
+8/14 5:10:37|Utils|generateUrlInfoListDetail|ScriptparsingData =http://10.10.30.15:9010/tours/images/banner_merctur.jpg
+8/14 5:10:37|Utils|getTimeStampForPage|Method called.
+8/14 5:10:37|Utils|generateUrlInfoListDetail|URL = http://10.10.30.15:9010/cgi-bin/login?userSession=75893.0884568651DQADHfApHDHfcDtccpfAttcf&username=king&password=leo&login.x=38&login.y=15&login=Login&JSFormSubmit=off
+8/14 5:10:37|Utils|convertToSecond method called|time = 0.08199999999999363
+8/14 5:10:37|Utils|generateUrlInfoListDetail|ScriptparsingData =http://10.10.30.15:9010/cgi-bin/login?userSession=75893.0884568651DQADHfApHDHfcDtccpfAttcf&username=king&password=leo&login.x=38&login.y=15&login=Login&JSFormSubmit=off
+8/14 5:10:37|Utils|generateUrlInfoListDetail|UrlTracker.scriptParsingData.getParsedPath()=10.10.30.15_9010/cgi-bin/, Utils.getDumpPath() = C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow
+8/14 5:10:37|Utils|generateUrlInfoListDetail|URL = http://10.10.30.15:9010/tours/Merc10-dev/images/banner_animated.gif
+8/14 5:10:37|Utils|convertToSecond method called|time = 0.0630000000000166
+8/14 5:10:37|Utils|generateUrlInfoListDetail|ScriptparsingData =http://10.10.30.15:9010/tours/Merc10-dev/images/banner_animated.gif
+8/14 5:10:37|Utils|generateUrlInfoListDetail|URL = http://10.10.30.15:9010/tours/Merc10-dev/images/sun_swede.gif
+8/14 5:10:37|Utils|convertToSecond method called|time = 0.19000000000002615
+8/14 5:10:37|Utils|generateUrlInfoListDetail|ScriptparsingData =http://10.10.30.15:9010/tours/Merc10-dev/images/sun_swede.gif
+8/14 5:10:37|Utils|generateUrlInfoListDetail|URL = http://10.10.30.15:9010/tours/Merc10-dev/images/flights.gif
+8/14 5:10:37|Utils|convertToSecond method called|time = 0.09000000000000341
+8/14 5:10:37|Utils|generateUrlInfoListDetail|ScriptparsingData =http://10.10.30.15:9010/tours/Merc10-dev/images/flights.gif
+8/14 5:10:37|Utils|generateUrlInfoListDetail|URL = http://10.10.30.15:9010/tours/Merc10-dev/images/home.gif
+8/14 5:10:37|Utils|convertToSecond method called|time = 0.09299999999998931
+8/14 5:10:37|Utils|generateUrlInfoListDetail|ScriptparsingData =http://10.10.30.15:9010/tours/Merc10-dev/images/home.gif
+8/14 5:10:37|Utils|generateUrlInfoListDetail|URL = http://10.10.30.15:9010/tours/Merc10-dev/images/signoff.gif
+8/14 5:10:37|Utils|convertToSecond method called|time = 0.09200000000001296
+8/14 5:10:37|Utils|generateUrlInfoListDetail|ScriptparsingData =http://10.10.30.15:9010/tours/Merc10-dev/images/signoff.gif
+8/14 5:10:37|Utils|generateUrlInfoListDetail|URL = http://10.10.30.15:9010/tours/images/banner_merctur.jpg
+8/14 5:10:37|Utils|convertToSecond method called|time = 0.17900000000000205
+8/14 5:10:37|Utils|generateUrlInfoListDetail|ScriptparsingData =http://10.10.30.15:9010/tours/images/banner_merctur.jpg
+8/14 5:10:37|Utils|generateUrlInfoListDetail|URL = http://10.10.30.15:9010/tours/vep/images/velocigen.gif
+8/14 5:10:37|Utils|convertToSecond method called|time = 0.1570000000000107
+8/14 5:10:37|Utils|generateUrlInfoListDetail|ScriptparsingData =http://10.10.30.15:9010/tours/vep/images/velocigen.gif
+8/14 5:10:37|Utils|getTimeStampForPage|Method called.
+8/14 5:10:37|Utils|generateUrlInfoListDetail|URL = http://10.10.30.15:9010/cgi-bin/reservation
+8/14 5:10:37|Utils|convertToSecond method called|time = 0.03500000000002501
+8/14 5:10:37|Utils|generateUrlInfoListDetail|ScriptparsingData =http://10.10.30.15:9010/cgi-bin/reservation
+8/14 5:10:37|Utils|generateUrlInfoListDetail|UrlTracker.scriptParsingData.getParsedPath()=10.10.30.15_9010/cgi-bin/, Utils.getDumpPath() = C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow
+8/14 5:10:37|Utils|getTimeStampForPage|Method called.
+8/14 5:10:37|Utils|generateUrlInfoListDetail|URL = http://10.10.30.15:9010/tours/Merc10-dev/images/banner_animated.gif
+8/14 5:10:37|Utils|convertToSecond method called|time = 0.07400000000001228
+8/14 5:10:37|Utils|generateUrlInfoListDetail|ScriptparsingData =http://10.10.30.15:9010/tours/Merc10-dev/images/banner_animated.gif
+8/14 5:10:37|Utils|generateUrlInfoListDetail|URL = http://10.10.30.15:9010/tours/Merc10-dev/images/sun_swede.gif
+8/14 5:10:37|Utils|convertToSecond method called|time = 0.09700000000000841
+8/14 5:10:37|Utils|generateUrlInfoListDetail|ScriptparsingData =http://10.10.30.15:9010/tours/Merc10-dev/images/sun_swede.gif
+8/14 5:10:37|Utils|generateUrlInfoListDetail|URL = http://10.10.30.15:9010/tours/Merc10-dev/images/flights.gif
+8/14 5:10:37|Utils|convertToSecond method called|time = 0.09799999999998477
+8/14 5:10:37|Utils|generateUrlInfoListDetail|ScriptparsingData =http://10.10.30.15:9010/tours/Merc10-dev/images/flights.gif
+8/14 5:10:37|Utils|generateUrlInfoListDetail|URL = http://10.10.30.15:9010/tours/Merc10-dev/images/home.gif
+8/14 5:10:37|Utils|convertToSecond method called|time = 0.09799999999998477
+8/14 5:10:37|Utils|generateUrlInfoListDetail|ScriptparsingData =http://10.10.30.15:9010/tours/Merc10-dev/images/home.gif
+8/14 5:10:37|Utils|generateUrlInfoListDetail|URL = http://10.10.30.15:9010/tours/Merc10-dev/images/signoff.gif
+8/14 5:10:37|Utils|convertToSecond method called|time = 0.09999999999999432
+8/14 5:10:37|Utils|generateUrlInfoListDetail|ScriptparsingData =http://10.10.30.15:9010/tours/Merc10-dev/images/signoff.gif
+8/14 5:10:37|Utils|generateUrlInfoListDetail|URL = http://10.10.30.15:9010/tours/Merc10-dev/images/splash_Findflight.gif
+8/14 5:10:37|Utils|convertToSecond method called|time = 0.09999999999999432
+8/14 5:10:37|Utils|generateUrlInfoListDetail|ScriptparsingData =http://10.10.30.15:9010/tours/Merc10-dev/images/splash_Findflight.gif
+8/14 5:10:37|Utils|generateUrlInfoListDetail|URL = http://10.10.30.15:9010/tours/images/continue.gif
+8/14 5:10:37|Utils|convertToSecond method called|time = 0.23599999999999
+8/14 5:10:37|Utils|generateUrlInfoListDetail|ScriptparsingData =http://10.10.30.15:9010/tours/images/continue.gif
+8/14 5:10:37|Utils|generateUrlInfoListDetail|URL = http://10.10.30.15:9010/tours/vep/images/velocigen.gif
+8/14 5:10:37|Utils|convertToSecond method called|time = 0.07099999999999795
+8/14 5:10:37|Utils|generateUrlInfoListDetail|ScriptparsingData =http://10.10.30.15:9010/tours/vep/images/velocigen.gif
+8/14 5:10:37|Utils|getTimeStampForPage|Method called.
+8/14 5:10:37|Utils|generateUrlInfoListDetail|URL = https://clients1.google.com/tbproxy/af/query?client=Chromium
+8/14 5:10:37|Utils|convertToSecond method called|time = 0.7220000000000084
+8/14 5:10:37|Utils|generateUrlInfoListDetail|ScriptparsingData =https://clients1.google.com/tbproxy/af/query?client=Chromium
+8/14 5:10:37|Utils|generateUrlInfoListDetail|UrlTracker.scriptParsingData.getParsedPath()=clients1.google.com/tbproxy/af/, Utils.getDumpPath() = C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow
+8/14 5:10:37|Utils|getTimeStampForPage|Method called.
+8/14 5:10:37|Utils|generateUrlInfoListDetail|URL = http://10.10.30.15:9010/cgi-bin/findflight?depart=Acapulco&departDate=08-15-2019&arrive=Acapulco&returnDate=08-16-2019&numPassengers=1&seatPref=None&seatType=Coach&findFlights.x=47&findFlights.y=12&findFlights=Submit
+8/14 5:10:37|Utils|convertToSecond method called|time = 0.09600000000000364
+8/14 5:10:37|Utils|generateUrlInfoListDetail|ScriptparsingData =http://10.10.30.15:9010/cgi-bin/findflight?depart=Acapulco&departDate=08-15-2019&arrive=Acapulco&returnDate=08-16-2019&numPassengers=1&seatPref=None&seatType=Coach&findFlights.x=47&findFlights.y=12&findFlights=Submit
+8/14 5:10:37|Utils|generateUrlInfoListDetail|UrlTracker.scriptParsingData.getParsedPath()=10.10.30.15_9010/cgi-bin/, Utils.getDumpPath() = C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow
+8/14 5:10:37|Utils|generateUrlInfoListDetail|URL = http://10.10.30.15:9010/tours/Merc10-dev/images/banner_animated.gif
+8/14 5:10:37|Utils|convertToSecond method called|time = 0.09900000000001796
+8/14 5:10:37|Utils|generateUrlInfoListDetail|ScriptparsingData =http://10.10.30.15:9010/tours/Merc10-dev/images/banner_animated.gif
+8/14 5:10:37|Utils|generateUrlInfoListDetail|URL = http://10.10.30.15:9010/tours/Merc10-dev/images/sun_swede.gif
+8/14 5:10:37|Utils|convertToSecond method called|time = 0.09100000000000819
+8/14 5:10:37|Utils|generateUrlInfoListDetail|ScriptparsingData =http://10.10.30.15:9010/tours/Merc10-dev/images/sun_swede.gif
+8/14 5:10:37|Utils|generateUrlInfoListDetail|URL = http://10.10.30.15:9010/tours/Merc10-dev/images/flights.gif
+8/14 5:10:37|Utils|convertToSecond method called|time = 0.13399999999998613
+8/14 5:10:37|Utils|generateUrlInfoListDetail|ScriptparsingData =http://10.10.30.15:9010/tours/Merc10-dev/images/flights.gif
+8/14 5:10:37|Utils|generateUrlInfoListDetail|URL = http://10.10.30.15:9010/tours/Merc10-dev/images/home.gif
+8/14 5:10:37|Utils|convertToSecond method called|time = 0.10200000000000387
+8/14 5:10:37|Utils|generateUrlInfoListDetail|ScriptparsingData =http://10.10.30.15:9010/tours/Merc10-dev/images/home.gif
+8/14 5:10:37|Utils|generateUrlInfoListDetail|URL = http://10.10.30.15:9010/tours/Merc10-dev/images/signoff.gif
+8/14 5:10:37|Utils|convertToSecond method called|time = 0.10300000000000864
+8/14 5:10:37|Utils|generateUrlInfoListDetail|ScriptparsingData =http://10.10.30.15:9010/tours/Merc10-dev/images/signoff.gif
+8/14 5:10:37|Utils|generateUrlInfoListDetail|URL = http://10.10.30.15:9010/tours/images/splash_Searchresults.gif
+8/14 5:10:37|Utils|convertToSecond method called|time = 0.06299999999998818
+8/14 5:10:37|Utils|generateUrlInfoListDetail|ScriptparsingData =http://10.10.30.15:9010/tours/images/splash_Searchresults.gif
+8/14 5:10:37|Utils|generateUrlInfoListDetail|URL = http://10.10.30.15:9010/tours/images/continue.gif
+8/14 5:10:37|Utils|convertToSecond method called|time = 0.30000000000001137
+8/14 5:10:37|Utils|generateUrlInfoListDetail|ScriptparsingData =http://10.10.30.15:9010/tours/images/continue.gif
+8/14 5:10:37|Utils|generateUrlInfoListDetail|URL = http://10.10.30.15:9010/tours/images/startover.gif
+8/14 5:10:37|Utils|convertToSecond method called|time = 0.27899999999999636
+8/14 5:10:37|Utils|generateUrlInfoListDetail|ScriptparsingData =http://10.10.30.15:9010/tours/images/startover.gif
+8/14 5:10:37|Utils|generateUrlInfoListDetail|URL = http://10.10.30.15:9010/tours/vep/images/velocigen.gif
+8/14 5:10:37|Utils|convertToSecond method called|time = 0.15000000000000568
+8/14 5:10:37|Utils|generateUrlInfoListDetail|ScriptparsingData =http://10.10.30.15:9010/tours/vep/images/velocigen.gif
+8/14 5:10:37|Utils|getTimeStampForPage|Method called.
+8/14 5:10:37|Utils|generateUrlInfoListDetail|URL = http://10.10.30.15:9010/cgi-bin/findflight?hidden_outboundFlight_button0=000%7C0%7C08-15-2019&outboundFlight=button1&hidden_outboundFlight_button1=001%7C0%7C08-15-2019&hidden_outboundFlight_button2=002%7C0%7C08-15-2019&hidden_outboundFlight_button3=003%7C0%7C08-15-2019&numPassengers=1&advanceDiscount=&seatType=Coach&seatPref=None&reserveFlights.x=65&reserveFlights.y=10
+8/14 5:10:37|Utils|convertToSecond method called|time = 0.049000000000006594
+8/14 5:10:37|Utils|generateUrlInfoListDetail|ScriptparsingData =http://10.10.30.15:9010/cgi-bin/findflight?hidden_outboundFlight_button0=000%7C0%7C08-15-2019&outboundFlight=button1&hidden_outboundFlight_button1=001%7C0%7C08-15-2019&hidden_outboundFlight_button2=002%7C0%7C08-15-2019&hidden_outboundFlight_button3=003%7C0%7C08-15-2019&numPassengers=1&advanceDiscount=&seatType=Coach&seatPref=None&reserveFlights.x=65&reserveFlights.y=10
+8/14 5:10:37|Utils|generateUrlInfoListDetail|UrlTracker.scriptParsingData.getParsedPath()=10.10.30.15_9010/cgi-bin/, Utils.getDumpPath() = C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow
+8/14 5:10:37|Utils|generateUrlInfoListDetail|URL = http://10.10.30.15:9010/tours/Merc10-dev/images/banner_animated.gif
+8/14 5:10:37|Utils|convertToSecond method called|time = 0.0689999999999884
+8/14 5:10:37|Utils|generateUrlInfoListDetail|ScriptparsingData =http://10.10.30.15:9010/tours/Merc10-dev/images/banner_animated.gif
+8/14 5:10:37|Utils|generateUrlInfoListDetail|URL = http://10.10.30.15:9010/tours/Merc10-dev/images/sun_swede.gif
+8/14 5:10:37|Utils|convertToSecond method called|time = 0.10000000000002274
+8/14 5:10:37|Utils|generateUrlInfoListDetail|ScriptparsingData =http://10.10.30.15:9010/tours/Merc10-dev/images/sun_swede.gif
+8/14 5:10:37|Utils|generateUrlInfoListDetail|URL = http://10.10.30.15:9010/tours/Merc10-dev/images/flights.gif
+8/14 5:10:37|Utils|convertToSecond method called|time = 0.07999999999998408
+8/14 5:10:37|Utils|generateUrlInfoListDetail|ScriptparsingData =http://10.10.30.15:9010/tours/Merc10-dev/images/flights.gif
+8/14 5:10:37|Utils|generateUrlInfoListDetail|URL = http://10.10.30.15:9010/tours/Merc10-dev/images/home.gif
+8/14 5:10:37|Utils|convertToSecond method called|time = 0.10099999999999909
+8/14 5:10:37|Utils|generateUrlInfoListDetail|ScriptparsingData =http://10.10.30.15:9010/tours/Merc10-dev/images/home.gif
+8/14 5:10:37|Utils|generateUrlInfoListDetail|URL = http://10.10.30.15:9010/tours/Merc10-dev/images/signoff.gif
+8/14 5:10:37|Utils|convertToSecond method called|time = 0.08100000000001728
+8/14 5:10:37|Utils|generateUrlInfoListDetail|ScriptparsingData =http://10.10.30.15:9010/tours/Merc10-dev/images/signoff.gif
+8/14 5:10:37|Utils|generateUrlInfoListDetail|URL = http://10.10.30.15:9010/tours/images/splash_creditcard.gif
+8/14 5:10:37|Utils|convertToSecond method called|time = 0.09299999999998931
+8/14 5:10:37|Utils|generateUrlInfoListDetail|ScriptparsingData =http://10.10.30.15:9010/tours/images/splash_creditcard.gif
+8/14 5:10:37|Utils|generateUrlInfoListDetail|URL = http://10.10.30.15:9010/tours/images/purchaseflight.gif
+8/14 5:10:37|Utils|convertToSecond method called|time = 0.15899999999999181
+8/14 5:10:37|Utils|generateUrlInfoListDetail|ScriptparsingData =http://10.10.30.15:9010/tours/images/purchaseflight.gif
+8/14 5:10:37|Utils|getTimeStampForPage|Method called.
+8/14 5:10:37|Utils|generateUrlInfoListDetail|URL = https://clients1.google.com/tbproxy/af/query?client=Chromium
+8/14 5:10:37|Utils|convertToSecond method called|time = 0.18000000000000682
+8/14 5:10:37|Utils|generateUrlInfoListDetail|ScriptparsingData =https://clients1.google.com/tbproxy/af/query?client=Chromium
+8/14 5:10:37|Utils|generateUrlInfoListDetail|UrlTracker.scriptParsingData.getParsedPath()=clients1.google.com/tbproxy/af/, Utils.getDumpPath() = C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow
+8/14 5:10:37|Utils|generateUrlInfoListDetail|URL = http://10.10.30.15:9010/tours/images/startover.gif
+8/14 5:10:37|Utils|convertToSecond method called|time = 0.09600000000000364
+8/14 5:10:37|Utils|generateUrlInfoListDetail|ScriptparsingData =http://10.10.30.15:9010/tours/images/startover.gif
+8/14 5:10:37|Utils|generateUrlInfoListDetail|URL = http://10.10.30.15:9010/tours/vep/images/velocigen.gif
+8/14 5:10:37|Utils|convertToSecond method called|time = 0.09599999999997522
+8/14 5:10:37|Utils|generateUrlInfoListDetail|ScriptparsingData =http://10.10.30.15:9010/tours/vep/images/velocigen.gif
+8/14 5:10:37|Utils|getTimeStampForPage|Method called.
+8/14 5:10:37|Utils|generateUrlInfoListDetail|URL = http://10.10.30.15:9010/cgi-bin/welcome
+8/14 5:10:37|Utils|convertToSecond method called|time = 0.027999999999991587
+8/14 5:10:37|Utils|generateUrlInfoListDetail|ScriptparsingData =http://10.10.30.15:9010/cgi-bin/welcome
+8/14 5:10:37|Utils|generateUrlInfoListDetail|UrlTracker.scriptParsingData.getParsedPath()=10.10.30.15_9010/cgi-bin/, Utils.getDumpPath() = C:\Users\HP\Desktop\recorder\scripts\default/default/hpd_ns\dump\flow
+8/14 5:10:37|Utils|getTimeStampForPage|Method called.
+8/14 5:10:37|Utils|generateUrlInfoListDetail|URL = http://10.10.30.15:9010/tours/Merc10-dev/images/banner_animated.gif
+8/14 5:10:37|Utils|convertToSecond method called|time = 0.0619999999999834
+8/14 5:10:37|Utils|generateUrlInfoListDetail|ScriptparsingData =http://10.10.30.15:9010/tours/Merc10-dev/images/banner_animated.gif
+8/14 5:10:37|Utils|generateUrlInfoListDetail|URL = http://10.10.30.15:9010/tours/Merc10-dev/images/sun_swede.gif
+8/14 5:10:37|Utils|convertToSecond method called|time = 0.10200000000000387
+8/14 5:10:37|Utils|generateUrlInfoListDetail|ScriptparsingData =http://10.10.30.15:9010/tours/Merc10-dev/images/sun_swede.gif
+8/14 5:10:37|Utils|generateUrlInfoListDetail|URL = http://10.10.30.15:9010/tours/Merc10-dev/images/login.gif
+8/14 5:10:37|Utils|convertToSecond method called|time = 0.07699999999999818
+8/14 5:10:37|Utils|generateUrlInfoListDetail|ScriptparsingData =http://10.10.30.15:9010/tours/Merc10-dev/images/login.gif
+8/14 5:10:37|Utils|generateUrlInfoListDetail|URL = http://10.10.30.15:9010/tours/images/banner_merctur.jpg
+8/14 5:10:37|Utils|convertToSecond method called|time = 0.058000000000021146
+8/14 5:10:37|Utils|generateUrlInfoListDetail|ScriptparsingData =http://10.10.30.15:9010/tours/images/banner_merctur.jpg
+8/14 5:10:37|Utils|generateUrlInfoListDetail|URL = http://10.10.30.15:9010/tours/vep/images/velocigen.gif
+8/14 5:10:37|Utils|convertToSecond method called|time = 0.03799999999998249
+8/14 5:10:37|Utils|generateUrlInfoListDetail|ScriptparsingData =http://10.10.30.15:9010/tours/vep/images/velocigen.gif
+8/14 5:10:37|WebCFormattor|generateEventsForFlow|method called.
+8/14 5:10:37|WebCGenerator|generate|method called.
+8/14 5:10:37|WebCGenerator|generate|Putting header comments in Buffer.
+8/14 5:10:37|WebCGenerator|generate|Processing URLs with list size=10
+8/14 5:10:37|Utils|getTimeStampForPage|Method called.
+8/14 5:10:37|WebCGenerator|getValidURL|Since this URL is not in filtered list, returning the URL=http://10.10.30.15:9010/tours/index.html
+8/14 5:10:37|Utils|getTimeStampForPage|Method called.
+8/14 5:10:37|WebCGenerator|getUrlReqAndResDetails|method called.
+8/14 5:10:37|WebCGenerator|appendRealBrowserData|method called. The isRealBrowser value = false
+8/14 5:10:37|WebCGenerator|generate|Adding Inline template to the page.
+8/14 5:10:37|WebCGenerator|appendHeadersAndEndline|method called.
+8/14 5:10:37|WebCGenerator|getUrlReqAndResDetails|method called.
+8/14 5:10:37|WebCGenerator|appendHeadersAndEndline|method called.
+8/14 5:10:37|WebCGenerator|getUrlReqAndResDetails|method called.
+8/14 5:10:37|WebCGenerator|appendHeadersAndEndline|method called.
+8/14 5:10:37|WebCGenerator|getUrlReqAndResDetails|method called.
+8/14 5:10:37|WebCGenerator|appendHeadersAndEndline|method called.
+8/14 5:10:37|WebCGenerator|getUrlReqAndResDetails|method called.
+8/14 5:10:37|Utils|convertToSecond method called|time = 159.92200000000003
+8/14 5:10:37|Utils|getTimeStampForPage|Method called.
+8/14 5:10:37|WebCGenerator|getValidURL|Since this URL is not in filtered list, returning the URL=http://10.10.30.15:9010/cgi-bin/login?userSession=75893.0884568651DQADHfApHDHfcDtccpfAttcf&username=king&password=leo&login.x=38&login.y=15&login=Login&JSFormSubmit=off
+8/14 5:10:37|Utils|getTimeStampForPage|Method called.
+8/14 5:10:37|WebCGenerator|generate|Adding Comments to page.login
+8/14 5:10:37|WebCGenerator|getUrlReqAndResDetails|method called.
+8/14 5:10:37|WebCGenerator|appendRealBrowserData|method called. The isRealBrowser value = false
+8/14 5:10:37|WebCGenerator|generate|Adding Inline template to the page.
+8/14 5:10:37|WebCGenerator|appendHeadersAndEndline|method called.
+8/14 5:10:37|WebCGenerator|getUrlReqAndResDetails|method called.
+8/14 5:10:37|WebCGenerator|appendHeadersAndEndline|method called.
+8/14 5:10:37|WebCGenerator|getUrlReqAndResDetails|method called.
+8/14 5:10:37|WebCGenerator|appendHeadersAndEndline|method called.
+8/14 5:10:37|WebCGenerator|getUrlReqAndResDetails|method called.
+8/14 5:10:37|WebCGenerator|appendHeadersAndEndline|method called.
+8/14 5:10:37|WebCGenerator|getUrlReqAndResDetails|method called.
+8/14 5:10:37|WebCGenerator|appendHeadersAndEndline|method called.
+8/14 5:10:37|WebCGenerator|getUrlReqAndResDetails|method called.
+8/14 5:10:37|WebCGenerator|appendHeadersAndEndline|method called.
+8/14 5:10:37|WebCGenerator|getUrlReqAndResDetails|method called.
+8/14 5:10:37|WebCGenerator|appendHeadersAndEndline|method called.
+8/14 5:10:37|WebCGenerator|getUrlReqAndResDetails|method called.
+8/14 5:10:37|Utils|convertToSecond method called|time = 3.424999999999983
+8/14 5:10:37|Utils|getTimeStampForPage|Method called.
+8/14 5:10:37|WebCGenerator|getValidURL|Since this URL is not in filtered list, returning the URL=http://10.10.30.15:9010/cgi-bin/reservation
+8/14 5:10:37|Utils|getTimeStampForPage|Method called.
+8/14 5:10:37|WebCGenerator|getUrlReqAndResDetails|method called.
+8/14 5:10:37|WebCGenerator|appendRealBrowserData|method called. The isRealBrowser value = false
+8/14 5:10:37|Utils|convertToSecond method called|time = 0.0689999999999884
+8/14 5:10:37|Utils|getTimeStampForPage|Method called.
+8/14 5:10:37|WebCGenerator|getValidURL|Since this URL is not in filtered list, returning the URL=http://10.10.30.15:9010/tours/Merc10-dev/images/banner_animated.gif
+8/14 5:10:37|Utils|getTimeStampForPage|Method called.
+8/14 5:10:37|WebCGenerator|generate|Adding Comments to page.banner_animated_gif
+8/14 5:10:37|WebCGenerator|getUrlReqAndResDetails|method called.
+8/14 5:10:37|WebCGenerator|appendRealBrowserData|method called. The isRealBrowser value = false
+8/14 5:10:37|WebCGenerator|generate|Adding Inline template to the page.
+8/14 5:10:37|WebCGenerator|appendHeadersAndEndline|method called.
+8/14 5:10:37|WebCGenerator|getUrlReqAndResDetails|method called.
+8/14 5:10:37|WebCGenerator|appendHeadersAndEndline|method called.
+8/14 5:10:37|WebCGenerator|getUrlReqAndResDetails|method called.
+8/14 5:10:37|WebCGenerator|appendHeadersAndEndline|method called.
+8/14 5:10:37|WebCGenerator|getUrlReqAndResDetails|method called.
+8/14 5:10:37|WebCGenerator|appendHeadersAndEndline|method called.
+8/14 5:10:37|WebCGenerator|getUrlReqAndResDetails|method called.
+8/14 5:10:37|WebCGenerator|appendHeadersAndEndline|method called.
+8/14 5:10:37|WebCGenerator|getUrlReqAndResDetails|method called.
+8/14 5:10:37|WebCGenerator|appendHeadersAndEndline|method called.
+8/14 5:10:37|WebCGenerator|getUrlReqAndResDetails|method called.
+8/14 5:10:37|WebCGenerator|appendHeadersAndEndline|method called.
+8/14 5:10:37|WebCGenerator|getUrlReqAndResDetails|method called.
+8/14 5:10:37|Utils|getTimeStampForPage|Method called.
+8/14 5:10:37|WebCGenerator|getValidURL|Since this URL is not in filtered list, returning the URL=https://clients1.google.com/tbproxy/af/query?client=Chromium
+8/14 5:10:37|Utils|getTimeStampForPage|Method called.
+8/14 5:10:37|WebCGenerator|generate|Adding Comments to page.query
+8/14 5:10:37|HttpRequestBodyFormatter|formatReqBody|Method called.
+8/14 5:10:37|HttpRequestBodyFormatter|dumpRequestBody|Method called. curPageName = query
+8/14 5:10:37|HttpRequestBodyFormatter|getContentType|Method called.
+8/14 5:10:37|HttpRequestBodyFormatter|processRequestBody|Method called.
+8/14 5:10:37|HttpRequestBodyFormatter|createBody|Method called.
+8/14 5:10:37|HttpRequestBodyFormatter|createBinaryBodyFile|Method called. curPageName = query
+8/14 5:10:37|HttpRequestBodyFormatter|getDataType|Method Started
+8/14 5:10:37|HttpRequestBodyFormatter|createBinaryBodyFile|The bodyType value =  2
+8/14 5:10:37|HttpRequestBodyFormatter|formatReqBody|buffer        BODY_BEGIN,
+            "$CAVINCLUDE_NOPARAM$=http_request_body/query_main_url_1_1565782837876.body",
+        BODY_END
+8/14 5:10:37|WebCGenerator|getUrlReqAndResDetails|method called.
+8/14 5:10:37|WebCGenerator|appendRealBrowserData|method called. The isRealBrowser value = false
+8/14 5:10:37|Utils|convertToSecond method called|time = 1.049999999999983
+8/14 5:10:37|Utils|getTimeStampForPage|Method called.
+8/14 5:10:37|WebCGenerator|getValidURL|Since this URL is not in filtered list, returning the URL=http://10.10.30.15:9010/cgi-bin/findflight?depart=Acapulco&departDate=08-15-2019&arrive=Acapulco&returnDate=08-16-2019&numPassengers=1&seatPref=None&seatType=Coach&findFlights.x=47&findFlights.y=12&findFlights=Submit
+8/14 5:10:37|Utils|getTimeStampForPage|Method called.
+8/14 5:10:37|WebCGenerator|generate|Adding Comments to page.findflight
+8/14 5:10:37|WebCGenerator|getUrlReqAndResDetails|method called.
+8/14 5:10:37|WebCGenerator|appendRealBrowserData|method called. The isRealBrowser value = false
+8/14 5:10:37|WebCGenerator|generate|Adding Inline template to the page.
+8/14 5:10:37|WebCGenerator|appendHeadersAndEndline|method called.
+8/14 5:10:37|WebCGenerator|getUrlReqAndResDetails|method called.
+8/14 5:10:37|WebCGenerator|appendHeadersAndEndline|method called.
+8/14 5:10:37|WebCGenerator|getUrlReqAndResDetails|method called.
+8/14 5:10:37|WebCGenerator|appendHeadersAndEndline|method called.
+8/14 5:10:37|WebCGenerator|getUrlReqAndResDetails|method called.
+8/14 5:10:37|WebCGenerator|appendHeadersAndEndline|method called.
+8/14 5:10:37|WebCGenerator|getUrlReqAndResDetails|method called.
+8/14 5:10:37|WebCGenerator|appendHeadersAndEndline|method called.
+8/14 5:10:37|WebCGenerator|getUrlReqAndResDetails|method called.
+8/14 5:10:37|WebCGenerator|appendHeadersAndEndline|method called.
+8/14 5:10:37|WebCGenerator|getUrlReqAndResDetails|method called.
+8/14 5:10:37|WebCGenerator|appendHeadersAndEndline|method called.
+8/14 5:10:37|WebCGenerator|getUrlReqAndResDetails|method called.
+8/14 5:10:37|WebCGenerator|appendHeadersAndEndline|method called.
+8/14 5:10:37|WebCGenerator|getUrlReqAndResDetails|method called.
+8/14 5:10:37|WebCGenerator|appendHeadersAndEndline|method called.
+8/14 5:10:37|WebCGenerator|getUrlReqAndResDetails|method called.
+8/14 5:10:37|Utils|convertToSecond method called|time = 2.6330000000000098
+8/14 5:10:37|Utils|getTimeStampForPage|Method called.
+8/14 5:10:37|WebCGenerator|getValidURL|Since this URL is not in filtered list, returning the URL=http://10.10.30.15:9010/cgi-bin/findflight?hidden_outboundFlight_button0=000%7C0%7C08-15-2019&outboundFlight=button1&hidden_outboundFlight_button1=001%7C0%7C08-15-2019&hidden_outboundFlight_button2=002%7C0%7C08-15-2019&hidden_outboundFlight_button3=003%7C0%7C08-15-2019&numPassengers=1&advanceDiscount=&seatType=Coach&seatPref=None&reserveFlights.x=65&reserveFlights.y=10
+8/14 5:10:37|Utils|getTimeStampForPage|Method called.
+8/14 5:10:37|WebCGenerator|generate|Adding Comments to page.findflight_2
+8/14 5:10:37|WebCGenerator|getUrlReqAndResDetails|method called.
+8/14 5:10:37|WebCGenerator|appendRealBrowserData|method called. The isRealBrowser value = false
+8/14 5:10:37|WebCGenerator|generate|Adding Inline template to the page.
+8/14 5:10:37|WebCGenerator|appendHeadersAndEndline|method called.
+8/14 5:10:37|WebCGenerator|getUrlReqAndResDetails|method called.
+8/14 5:10:37|WebCGenerator|appendHeadersAndEndline|method called.
+8/14 5:10:37|WebCGenerator|getUrlReqAndResDetails|method called.
+8/14 5:10:37|WebCGenerator|appendHeadersAndEndline|method called.
+8/14 5:10:37|WebCGenerator|getUrlReqAndResDetails|method called.
+8/14 5:10:37|WebCGenerator|appendHeadersAndEndline|method called.
+8/14 5:10:37|WebCGenerator|getUrlReqAndResDetails|method called.
+8/14 5:10:37|WebCGenerator|appendHeadersAndEndline|method called.
+8/14 5:10:37|WebCGenerator|getUrlReqAndResDetails|method called.
+8/14 5:10:37|WebCGenerator|appendHeadersAndEndline|method called.
+8/14 5:10:37|WebCGenerator|getUrlReqAndResDetails|method called.
+8/14 5:10:37|WebCGenerator|appendHeadersAndEndline|method called.
+8/14 5:10:37|WebCGenerator|getUrlReqAndResDetails|method called.
+8/14 5:10:37|Utils|getTimeStampForPage|Method called.
+8/14 5:10:37|WebCGenerator|getValidURL|Since this URL is not in filtered list, returning the URL=https://clients1.google.com/tbproxy/af/query?client=Chromium
+8/14 5:10:37|Utils|getTimeStampForPage|Method called.
+8/14 5:10:37|WebCGenerator|generate|Adding Comments to page.query_2
+8/14 5:10:37|HttpRequestBodyFormatter|formatReqBody|Method called.
+8/14 5:10:37|HttpRequestBodyFormatter|dumpRequestBody|Method called. curPageName = query_2
+8/14 5:10:37|HttpRequestBodyFormatter|dumpRequestBody|Method called. pageNum = query_2
+8/14 5:10:37|HttpRequestBodyFormatter|getContentType|Method called.
+8/14 5:10:37|HttpRequestBodyFormatter|processRequestBody|Method called.
+8/14 5:10:37|HttpRequestBodyFormatter|createBody|Method called.
+8/14 5:10:37|HttpRequestBodyFormatter|createBinaryBodyFile|Method called. curPageName = query_2
+8/14 5:10:37|HttpRequestBodyFormatter|getDataType|Method Started
+8/14 5:10:37|HttpRequestBodyFormatter|createBinaryBodyFile|The bodyType value =  2
+8/14 5:10:37|HttpRequestBodyFormatter|dumpRequestBody|Method called. pageNum = query_2
+8/14 5:10:37|HttpRequestBodyFormatter|formatReqBody|buffer        BODY_BEGIN,
+            "$CAVINCLUDE_NOPARAM$=http_request_body/query_2_main_url_1_1565782837982.body",
+        BODY_END
+8/14 5:10:37|WebCGenerator|getUrlReqAndResDetails|method called.
+8/14 5:10:37|WebCGenerator|appendRealBrowserData|method called. The isRealBrowser value = false
+8/14 5:10:37|WebCGenerator|generate|Adding Inline template to the page.
+8/14 5:10:37|WebCGenerator|appendHeadersAndEndline|method called.
+8/14 5:10:37|WebCGenerator|getUrlReqAndResDetails|method called.
+8/14 5:10:37|WebCGenerator|appendHeadersAndEndline|method called.
+8/14 5:10:37|WebCGenerator|getUrlReqAndResDetails|method called.
+8/14 5:10:37|Utils|convertToSecond method called|time = 3.4680000000000177
+8/14 5:10:37|Utils|getTimeStampForPage|Method called.
+8/14 5:10:37|WebCGenerator|getValidURL|Since this URL is not in filtered list, returning the URL=http://10.10.30.15:9010/cgi-bin/welcome
+8/14 5:10:37|Utils|getTimeStampForPage|Method called.
+8/14 5:10:37|WebCGenerator|getUrlReqAndResDetails|method called.
+8/14 5:10:37|WebCGenerator|appendRealBrowserData|method called. The isRealBrowser value = false
+8/14 5:10:37|Utils|convertToSecond method called|time = 0.025000000000005684
+8/14 5:10:37|Utils|getTimeStampForPage|Method called.
+8/14 5:10:37|WebCGenerator|getValidURL|Since this URL is not in filtered list, returning the URL=http://10.10.30.15:9010/tours/Merc10-dev/images/banner_animated.gif
+8/14 5:10:37|Utils|getTimeStampForPage|Method called.
+8/14 5:10:37|WebCGenerator|generate|Adding Comments to page.banner_animated_gif_2
+8/14 5:10:37|WebCGenerator|getUrlReqAndResDetails|method called.
+8/14 5:10:37|WebCGenerator|appendRealBrowserData|method called. The isRealBrowser value = false
+8/14 5:10:37|WebCGenerator|generate|Adding Inline template to the page.
+8/14 5:10:38|WebCGenerator|appendHeadersAndEndline|method called.
+8/14 5:10:38|WebCGenerator|getUrlReqAndResDetails|method called.
+8/14 5:10:38|WebCGenerator|appendHeadersAndEndline|method called.
+8/14 5:10:38|WebCGenerator|getUrlReqAndResDetails|method called.
+8/14 5:10:38|WebCGenerator|appendHeadersAndEndline|method called.
+8/14 5:10:38|WebCGenerator|getUrlReqAndResDetails|method called.
+8/14 5:10:38|WebCGenerator|appendHeadersAndEndline|method called.
+8/14 5:10:38|WebCGenerator|getUrlReqAndResDetails|method called.
+8/14 5:10:38|Utils|convertToSecond method called|time = 1.8120000000000118
+8/14 5:10:38|ChromeMainFrame|addBrowserDisposeListener|browser disposed Exiting.
+8/14 5:10:38|ScriptHTMLStart|stopRecording|Going to upload script to server.
+8/14 5:10:40|ScriptRecordUtils|saveScriptToServer|method called.

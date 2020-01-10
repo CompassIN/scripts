@@ -1,0 +1,195 @@
+--Request 
+POST https://fls-eu.amazon.in/1/batch/1/OE/
+Host: fls-eu.amazon.in
+Cookie: session-id=259-1202557-5929705; i18n-prefs=INR; ubid-acbin=258-0672242-6953331; x-wl-uid=1ecJvyxzwiGLpb/ivu3x3ngupYO7bY1+BPjlMC56V5J9AKfsIjsCkfc+Jr7a3C9XLJxX0u1syPM0=; visitCount=1; session-token=\"qbOQOkS0VEpBUocLOZRgf/vBjfAa/L1gvzuk4dHaABRLwBcXdkoWG+tgKYovU/GtpgviGH2ntZ17AVp7e48ZFY6MNw3iH/RJtLL2eZrJEHt3s9Cy0QE8n08HbD+hmqwfffrZuHf+ncTYp9ne7NmDLRaqAwIAVoD+O39gZOoyeiIbwRC9aZp+vc79loUdfIgRN7k1iETJ2x2I7SZjKc9arkykk2SqRFhbbijoObQQg4mvjy58UMqGvQ==\"; lc-acbin=en_IN; session-id-time=2082758401l
+Origin: https://www.amazon.in
+Accept: */*
+Cache-Control: max-age=0
+Referer: https://www.amazon.in/b?ie=UTF8&node=16182118031&s=review-rank&pf_rd_p=5257cbb4-a92e-49af-bb2e-3535232a9738&pf_rd_r=FQHMBRA36T6KVA44S1T8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Content-Type: text/plain;charset=UTF-8
+----
+ POSTDATA {"rid":"EH62JJ2C4MP7MD1QJXHQ","sid":"259-1202557-5929705","mid":"A21TJRUUN4KGV","sn":"www.amazon.in","reqs":[{"cel":{"w":1519,"h":4498,"t":3303,"k":"doi"}},{"csmcount":{"counter":"iss-warmup:ajax:error","value":1,"t":3336}},{"csmcount":{"counter":"iss-warmup:ajax:errorerror","value":1,"t":3336}},{"csmcount":{"counter":"aui:preload_fulfilled","value":1,"t":3412}},{"csmcount":{"counter":"aui:preload_fulfilled","value":2,"t":3422}},{"cel":{"k":"hrt","t":7533}},{"cel":{"k":"hrt","t":8534}},{"csm":{"k":"chk","f":2,"l":{"csmcount":68,"cel":68,"csm":3,"navigation":1,"jserr-rw":2},"s":"full"}}]}
+--Response 
+HTTP/1.1 204
+access-control-allow-origin: *
+date: Mon, 08 Jul 2019 13:24:43 GMT
+x-amzn-requestid: f06c5003-e079-4b30-b648-fc1862587ca6
+access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+status: 204
+----
+--Request 
+GET https://www.amazon.in/mn/search/uedata/259-1202557-5929705?at&v=0.202699.0&id=EH62JJ2C4MP7MD1QJXHQ&ctb=1&m=1&sc=EH62JJ2C4MP7MD1QJXHQ&pc=11798&at=11798&t=1562592286547&ec=1&ecf=0&pty=Landing&spty=undefined&pti=undefined&tid=FQHMBRA36T6KVA44S1T8&aftb=1
+Host: www.amazon.in
+Cookie: session-id=259-1202557-5929705; i18n-prefs=INR; ubid-acbin=258-0672242-6953331; x-wl-uid=1ecJvyxzwiGLpb/ivu3x3ngupYO7bY1+BPjlMC56V5J9AKfsIjsCkfc+Jr7a3C9XLJxX0u1syPM0=; visitCount=1; session-token=\"qbOQOkS0VEpBUocLOZRgf/vBjfAa/L1gvzuk4dHaABRLwBcXdkoWG+tgKYovU/GtpgviGH2ntZ17AVp7e48ZFY6MNw3iH/RJtLL2eZrJEHt3s9Cy0QE8n08HbD+hmqwfffrZuHf+ncTYp9ne7NmDLRaqAwIAVoD+O39gZOoyeiIbwRC9aZp+vc79loUdfIgRN7k1iETJ2x2I7SZjKc9arkykk2SqRFhbbijoObQQg4mvjy58UMqGvQ==\"; lc-acbin=en_IN; csm-hit=tb:s-EH62JJ2C4MP7MD1QJXHQ|1562592275221&t:1562592275907&adb:adblk_no; session-id-time=2082758401l
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://www.amazon.in/b?ie=UTF8&node=16182118031&s=review-rank&pf_rd_p=5257cbb4-a92e-49af-bb2e-3535232a9738&pf_rd_r=FQHMBRA36T6KVA44S1T8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:24:47 GMT
+x-amz-cf-pop: DEL51
+server: Server
+vary: Accept-Encoding,User-Agent,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment
+content-encoding: gzip
+x-frame-options: SAMEORIGIN
+x-amz-rid: KMXPEQB02APWVZJXKJ61
+strict-transport-security: max-age=47474747; includeSubDomains; preload
+via: 1.1 2cbe2d6bb9079c1d153e7e15e9eac3c8.cloudfront.net (CloudFront)
+set-cookie: i18n-prefs=INR; Domain=.amazon.in; Expires=Tue, 01-Jan-2036 08:00:01 GMT; Path=/
+x-content-type-options: nosniff
+x-xss-protection: 1;
+content-type: image/gif;charset=UTF-8
+x-cache: Miss from cloudfront
+cache-control: no-transform
+x-amz-cf-id: BV4HhMLJ5DmVp_EKJjWnry-8dDnZ65RDtljzHA36bY8DAlQ9pAd4Fg==
+status: 200
+----
+--Request 
+GET https://fls-eu.amazon.in/1/batch/1/OP/A21TJRUUN4KGV:259-1202557-5929705:EH62JJ2C4MP7MD1QJXHQ$uedata=s:%2Fmn%2Fsearch%2Fuedata%2F259-1202557-5929705%3Fat%26v%3D0.202699.0%26id%3DEH62JJ2C4MP7MD1QJXHQ%26ctb%3D1%26m%3D1%26sc%3DEH62JJ2C4MP7MD1QJXHQ%26pc%3D11798%26at%3D11798%26t%3D1562592286547%26ec%3D1%26ecf%3D0%26pty%3DLanding%26spty%3Dundefined%26pti%3Dundefined%26tid%3DFQHMBRA36T6KVA44S1T8%26aftb%3D1:11798
+Host: fls-eu.amazon.in
+Cookie: session-id=259-1202557-5929705; i18n-prefs=INR; ubid-acbin=258-0672242-6953331; x-wl-uid=1ecJvyxzwiGLpb/ivu3x3ngupYO7bY1+BPjlMC56V5J9AKfsIjsCkfc+Jr7a3C9XLJxX0u1syPM0=; visitCount=1; session-token=\"qbOQOkS0VEpBUocLOZRgf/vBjfAa/L1gvzuk4dHaABRLwBcXdkoWG+tgKYovU/GtpgviGH2ntZ17AVp7e48ZFY6MNw3iH/RJtLL2eZrJEHt3s9Cy0QE8n08HbD+hmqwfffrZuHf+ncTYp9ne7NmDLRaqAwIAVoD+O39gZOoyeiIbwRC9aZp+vc79loUdfIgRN7k1iETJ2x2I7SZjKc9arkykk2SqRFhbbijoObQQg4mvjy58UMqGvQ==\"; lc-acbin=en_IN; session-id-time=2082758401l
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://www.amazon.in/b?ie=UTF8&node=16182118031&s=review-rank&pf_rd_p=5257cbb4-a92e-49af-bb2e-3535232a9738&pf_rd_r=FQHMBRA36T6KVA44S1T8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:24:47 GMT
+content-length: 43
+content-type: image/gif
+x-amzn-requestid: 0d281118-678b-4e58-bcc1-475485cfaf38
+status: 200
+----
+--Request 
+GET https://www.amazon.in/mn/search/uedata/259-1202557-5929705?at&v=0.202699.0&id=EH62JJ2C4MP7MD1QJXHQ&ctb=1&m=1&sc=EH62JJ2C4MP7MD1QJXHQ&pc=15972&at=15972&t=1562592290721&csmtags=csm-feature-touch-enabled:false&pty=Landing&spty=undefined&pti=undefined&tid=FQHMBRA36T6KVA44S1T8&aftb=1
+Host: www.amazon.in
+Cookie: session-id=259-1202557-5929705; i18n-prefs=INR; ubid-acbin=258-0672242-6953331; x-wl-uid=1ecJvyxzwiGLpb/ivu3x3ngupYO7bY1+BPjlMC56V5J9AKfsIjsCkfc+Jr7a3C9XLJxX0u1syPM0=; visitCount=1; session-token=\"qbOQOkS0VEpBUocLOZRgf/vBjfAa/L1gvzuk4dHaABRLwBcXdkoWG+tgKYovU/GtpgviGH2ntZ17AVp7e48ZFY6MNw3iH/RJtLL2eZrJEHt3s9Cy0QE8n08HbD+hmqwfffrZuHf+ncTYp9ne7NmDLRaqAwIAVoD+O39gZOoyeiIbwRC9aZp+vc79loUdfIgRN7k1iETJ2x2I7SZjKc9arkykk2SqRFhbbijoObQQg4mvjy58UMqGvQ==\"; lc-acbin=en_IN; csm-hit=tb:s-EH62JJ2C4MP7MD1QJXHQ|1562592275221&t:1562592275907&adb:adblk_no; session-id-time=2082787201l
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://www.amazon.in/b?ie=UTF8&node=16182118031&s=review-rank&pf_rd_p=5257cbb4-a92e-49af-bb2e-3535232a9738&pf_rd_r=FQHMBRA36T6KVA44S1T8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:24:51 GMT
+x-amz-cf-pop: DEL51
+server: Server
+vary: Accept-Encoding,User-Agent,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment
+content-encoding: gzip
+x-frame-options: SAMEORIGIN
+x-amz-rid: 7FKRA1YMQY33SFDDWE4X
+strict-transport-security: max-age=47474747; includeSubDomains; preload
+via: 1.1 2cbe2d6bb9079c1d153e7e15e9eac3c8.cloudfront.net (CloudFront)
+x-content-type-options: nosniff
+x-xss-protection: 1;
+content-type: image/gif;charset=UTF-8
+x-cache: Miss from cloudfront
+cache-control: no-transform
+x-amz-cf-id: sJw2pXf1qg2YCDlTSuG1HSrMxwJU_3MQD15s4ChbkkxGwEdotPzwgg==
+status: 200
+----
+--Request 
+GET https://fls-eu.amazon.in/1/batch/1/OP/A21TJRUUN4KGV:259-1202557-5929705:EH62JJ2C4MP7MD1QJXHQ$uedata=s:%2Fmn%2Fsearch%2Fuedata%2F259-1202557-5929705%3Fat%26v%3D0.202699.0%26id%3DEH62JJ2C4MP7MD1QJXHQ%26ctb%3D1%26m%3D1%26sc%3DEH62JJ2C4MP7MD1QJXHQ%26pc%3D15972%26at%3D15972%26t%3D1562592290721%26csmtags%3Dcsm-feature-touch-enabled%3Afalse%26pty%3DLanding%26spty%3Dundefined%26pti%3Dundefined%26tid%3DFQHMBRA36T6KVA44S1T8%26aftb%3D1:15972
+Host: fls-eu.amazon.in
+Cookie: session-id=259-1202557-5929705; i18n-prefs=INR; ubid-acbin=258-0672242-6953331; x-wl-uid=1ecJvyxzwiGLpb/ivu3x3ngupYO7bY1+BPjlMC56V5J9AKfsIjsCkfc+Jr7a3C9XLJxX0u1syPM0=; visitCount=1; session-token=\"qbOQOkS0VEpBUocLOZRgf/vBjfAa/L1gvzuk4dHaABRLwBcXdkoWG+tgKYovU/GtpgviGH2ntZ17AVp7e48ZFY6MNw3iH/RJtLL2eZrJEHt3s9Cy0QE8n08HbD+hmqwfffrZuHf+ncTYp9ne7NmDLRaqAwIAVoD+O39gZOoyeiIbwRC9aZp+vc79loUdfIgRN7k1iETJ2x2I7SZjKc9arkykk2SqRFhbbijoObQQg4mvjy58UMqGvQ==\"; lc-acbin=en_IN; session-id-time=2082787201l
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://www.amazon.in/b?ie=UTF8&node=16182118031&s=review-rank&pf_rd_p=5257cbb4-a92e-49af-bb2e-3535232a9738&pf_rd_r=FQHMBRA36T6KVA44S1T8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:24:51 GMT
+content-length: 43
+content-type: image/gif
+x-amzn-requestid: 6b72bc3a-12de-4dea-a2ca-6c9d1f4f1dce
+status: 200
+----
+--Request 
+GET https://www.amazon.in/mn/search/uedata/259-1202557-5929705?at&v=0.202699.0&id=EH62JJ2C4MP7MD1QJXHQ&ctb=1&m=1&sc=EH62JJ2C4MP7MD1QJXHQ&pc=15997&at=15997&t=1562592290746&pty=Landing&spty=undefined&pti=undefined&tid=FQHMBRA36T6KVA44S1T8&aftb=1&ui=2
+Host: www.amazon.in
+Cookie: session-id=259-1202557-5929705; i18n-prefs=INR; ubid-acbin=258-0672242-6953331; x-wl-uid=1ecJvyxzwiGLpb/ivu3x3ngupYO7bY1+BPjlMC56V5J9AKfsIjsCkfc+Jr7a3C9XLJxX0u1syPM0=; visitCount=1; session-token=\"qbOQOkS0VEpBUocLOZRgf/vBjfAa/L1gvzuk4dHaABRLwBcXdkoWG+tgKYovU/GtpgviGH2ntZ17AVp7e48ZFY6MNw3iH/RJtLL2eZrJEHt3s9Cy0QE8n08HbD+hmqwfffrZuHf+ncTYp9ne7NmDLRaqAwIAVoD+O39gZOoyeiIbwRC9aZp+vc79loUdfIgRN7k1iETJ2x2I7SZjKc9arkykk2SqRFhbbijoObQQg4mvjy58UMqGvQ==\"; lc-acbin=en_IN; csm-hit=tb:s-EH62JJ2C4MP7MD1QJXHQ|1562592275221&t:1562592275907&adb:adblk_no; session-id-time=2082787201l
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://www.amazon.in/b?ie=UTF8&node=16182118031&s=review-rank&pf_rd_p=5257cbb4-a92e-49af-bb2e-3535232a9738&pf_rd_r=FQHMBRA36T6KVA44S1T8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:24:51 GMT
+x-amz-cf-pop: DEL51
+server: Server
+vary: Accept-Encoding,User-Agent,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment
+content-encoding: gzip
+x-frame-options: SAMEORIGIN
+x-amz-rid: MNGK6SQ33JQ3YAVSQCYR
+strict-transport-security: max-age=47474747; includeSubDomains; preload
+via: 1.1 2cbe2d6bb9079c1d153e7e15e9eac3c8.cloudfront.net (CloudFront)
+x-content-type-options: nosniff
+x-xss-protection: 1;
+content-type: image/gif;charset=UTF-8
+x-cache: Miss from cloudfront
+cache-control: no-transform
+x-amz-cf-id: OcWrCDDCNC5jQRoxTjhMPXEjUA--yBs1yw8ann2JExftgfPtXd5XfA==
+status: 200
+----
+--Request 
+GET https://fls-eu.amazon.in/1/batch/1/OP/A21TJRUUN4KGV:259-1202557-5929705:EH62JJ2C4MP7MD1QJXHQ$uedata=s:%2Fmn%2Fsearch%2Fuedata%2F259-1202557-5929705%3Fat%26v%3D0.202699.0%26id%3DEH62JJ2C4MP7MD1QJXHQ%26ctb%3D1%26m%3D1%26sc%3DEH62JJ2C4MP7MD1QJXHQ%26pc%3D15997%26at%3D15997%26t%3D1562592290746%26pty%3DLanding%26spty%3Dundefined%26pti%3Dundefined%26tid%3DFQHMBRA36T6KVA44S1T8%26aftb%3D1%26ui%3D2:15997
+Host: fls-eu.amazon.in
+Cookie: session-id=259-1202557-5929705; i18n-prefs=INR; ubid-acbin=258-0672242-6953331; x-wl-uid=1ecJvyxzwiGLpb/ivu3x3ngupYO7bY1+BPjlMC56V5J9AKfsIjsCkfc+Jr7a3C9XLJxX0u1syPM0=; visitCount=1; session-token=\"qbOQOkS0VEpBUocLOZRgf/vBjfAa/L1gvzuk4dHaABRLwBcXdkoWG+tgKYovU/GtpgviGH2ntZ17AVp7e48ZFY6MNw3iH/RJtLL2eZrJEHt3s9Cy0QE8n08HbD+hmqwfffrZuHf+ncTYp9ne7NmDLRaqAwIAVoD+O39gZOoyeiIbwRC9aZp+vc79loUdfIgRN7k1iETJ2x2I7SZjKc9arkykk2SqRFhbbijoObQQg4mvjy58UMqGvQ==\"; lc-acbin=en_IN; session-id-time=2082787201l
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://www.amazon.in/b?ie=UTF8&node=16182118031&s=review-rank&pf_rd_p=5257cbb4-a92e-49af-bb2e-3535232a9738&pf_rd_r=FQHMBRA36T6KVA44S1T8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:24:51 GMT
+content-length: 43
+content-type: image/gif
+x-amzn-requestid: 0adcf05f-ade1-4b86-8e8e-862fc1f7a913
+status: 200
+----
+--Request 
+GET https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+Host: www.amazon.in
+Cookie: session-id=259-1202557-5929705; i18n-prefs=INR; ubid-acbin=258-0672242-6953331; x-wl-uid=1ecJvyxzwiGLpb/ivu3x3ngupYO7bY1+BPjlMC56V5J9AKfsIjsCkfc+Jr7a3C9XLJxX0u1syPM0=; visitCount=1; session-token=\"qbOQOkS0VEpBUocLOZRgf/vBjfAa/L1gvzuk4dHaABRLwBcXdkoWG+tgKYovU/GtpgviGH2ntZ17AVp7e48ZFY6MNw3iH/RJtLL2eZrJEHt3s9Cy0QE8n08HbD+hmqwfffrZuHf+ncTYp9ne7NmDLRaqAwIAVoD+O39gZOoyeiIbwRC9aZp+vc79loUdfIgRN7k1iETJ2x2I7SZjKc9arkykk2SqRFhbbijoObQQg4mvjy58UMqGvQ==\"; lc-acbin=en_IN; session-id-time=2082787201l; csm-hit=tb:FQHMBRA36T6KVA44S1T8+s-EH62JJ2C4MP7MD1QJXHQ|1562592292917&t:1562592292917&adb:adblk_no
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+Referer: https://www.amazon.in/b?ie=UTF8&node=16182118031&s=review-rank&pf_rd_p=5257cbb4-a92e-49af-bb2e-3535232a9738&pf_rd_r=FQHMBRA36T6KVA44S1T8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:24:53 GMT
+x-amz-cf-pop: DEL51
+server: Server
+vary: Accept-Encoding,User-Agent,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment
+content-encoding: gzip
+x-frame-options: SAMEORIGIN
+x-amz-rid: XS1R1NSST0MSNB81W2M8
+strict-transport-security: max-age=47474747; includeSubDomains; preload
+via: 1.1 2cbe2d6bb9079c1d153e7e15e9eac3c8.cloudfront.net (CloudFront)
+x-content-type-options: nosniff
+x-xss-protection: 1;
+content-type: text/html;charset=UTF-8
+x-cache: Miss from cloudfront
+cache-control: no-cache, no-transform
+x-amz-cf-id: nY0_-stMeOMbajikMTQvKe6Xuyl315yHqjdqpQVXJjOqSpC8JI64Vw==
+status: 200
+----
+

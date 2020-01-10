@@ -1,0 +1,127 @@
+6/12 0:57:10|ChromeMainFrame|createBrowserWindowWithListener|constructor called.
+6/12 0:57:25|ChromeBrowserConfigurationSettings|EnableDisableBrowserOtions|method called.
+6/12 0:57:25|ChromeBrowserConfigurationSettings|EnableDisableBrowserOtions|Enabling JavaScript feature.
+6/12 0:57:25|ChromeBrowserConfigurationSettings|EnableDisableBrowserOtions|Enabling ImageDownload feature.
+6/12 0:57:25|ChromeBrowserConfigurationSettings|EnableDisableBrowserOtions|Enabling Plugins feature.
+6/12 0:57:26|ChromeBrowserConfigurationSettings|clearLocalStorage|Method called.
+6/12 0:57:26|ChromeBrowserConfigurationSettings|setSecurityCertificationErrors|Method called.
+6/12 0:57:26|ChromeMainFrame|addStatusAndTitleBrowser|Method called.
+6/12 0:57:26|ChromeMainFrame|addPageNavigationListeners|method called.
+6/12 0:57:26|ChromeBrowserNavigationListener|ChromeBrowserNavigationListener|Constructor Called.
+6/12 0:57:26|ChromeRecordingHttpListener||constructor called.
+6/12 0:57:26|ChromeMainFrame|createinitUI|constructor called.
+6/12 0:57:26|TabContent|createComponents|method called.
+6/12 0:57:26|TabContent|createBrowserContainer|method called.
+6/12 0:57:26|TabContent|createToolBar|method called.
+6/12 0:57:26|ProgressBar|initializeGUI|Method Called
+6/12 0:57:26|ToolBar|createToolBarComponents|method called.
+6/12 0:57:26|ToolBar|createAddressBar|method called.
+6/12 0:57:26|ToolBar|createActionsPane|method called.
+6/12 0:57:26|Utils|getURLTracker|urlString = https://r5---sn-ci5gup-qxa6.gvt1.com/edgedl/chrome/dict/en-us-8-0.bdic?cms_redirect=yes&mip=182.71.119.213&mm=28&mn=sn-ci5gup-qxa6&ms=nvh&mt=1560324178&mv=u&pl=24&shardbypass=yes, requestOrResponce = response
+6/12 0:57:26|Utils|getURLTracker|Response comes after the frame is loaded. urlString = https://r5---sn-ci5gup-qxa6.gvt1.com/edgedl/chrome/dict/en-us-8-0.bdic?cms_redirect=yes&mip=182.71.119.213&mm=28&mn=sn-ci5gup-qxa6&ms=nvh&mt=1560324178&mv=u&pl=24&shardbypass=yes
+6/12 0:57:26|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1560324446657
+6/12 0:57:26|Utils|convertToSecond method called|time = 15786.0
+6/12 0:57:26|Utils|isSplit|Method called.
+6/12 0:57:26|Utils|isSplit|Splitting for method GET = false
+6/12 0:57:26|Utils|isSplit|result = false
+6/12 0:57:26|Utils|isSplitForTimeDiff|Method called.
+6/12 0:57:26|Utils|isSplit|result = false
+6/12 0:57:26|Utils|isSplitForURLType|Method called.
+6/12 0:57:26|Utils|isSplitForURLType|value = false
+6/12 0:57:26|Utils|isSplitForURLType|value = false
+6/12 0:57:26|Utils|isSplit|isSplitForURLType = false
+6/12 0:57:26|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = https://r5---sn-ci5gup-qxa6.gvt1.com/edgedl/chrome/dict/en-us-8-0.bdic?cms_redirect=yes&mip=182.71.119.213&mm=28&mn=sn-ci5gup-qxa6&ms=nvh&mt=1560324178&mv=u&pl=24&shardbypass=yes
+6/12 0:57:26|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1560324446657
+6/12 0:57:26|Utils|convertToSecond method called|time = 15786.0
+6/12 0:57:26|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1560324446657
+6/12 0:57:26|Utils|convertToSecond method called|time = 15786.0
+6/12 0:57:26|ChromeRecordingHttpListener|onCompleted |No URL tracker created for request - https://r5---sn-ci5gup-qxa6.gvt1.com/edgedl/chrome/dict/en-us-8-0.bdic?cms_redirect=yes&mip=182.71.119.213&mm=28&mn=sn-ci5gup-qxa6&ms=nvh&mt=1560324178&mv=u&pl=24&shardbypass=yes_1
+6/12 0:57:26|ChromeBrowserNavigationListener|onStartLoadingFrame|Method Called for URL=http://10.10.30.2:81/tours/index.htm
+6/12 0:57:26|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+6/12 0:57:26|ChromeBrowserNavigationListener|onStartLoadingFrame|Begin Loading URL == http://10.10.30.2:81/tours/index.htm  ===== Begin = 1560324446962
+6/12 0:57:26|Utils|getURLTracker|urlString = http://10.10.30.2:81/tours/index.htm, requestOrResponce = snapShot
+6/12 0:57:26|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+6/12 0:57:26|Utils|getURLTracker|urlString = http://10.10.30.2:81/tours/index.htm, requestOrResponce = request
+6/12 0:57:26|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1560324446974
+6/12 0:57:26|Utils|convertToSecond method called|time = 16103.0
+6/12 0:57:26|Utils|isSplit|Method called.
+6/12 0:57:26|Utils|isSplit|Splitting for Ajax Header = false
+6/12 0:57:26|Utils|isSplit|Splitting for method GET = false
+6/12 0:57:26|Utils|isSplit|result = false
+6/12 0:57:26|Utils|isSplitForTimeDiff|Method called.
+6/12 0:57:26|ProgressBar|setVisible|Method Called. bool = true
+6/12 0:57:27|Utils|isSplit|Splitting for time 0.31700000000000195 = false
+6/12 0:57:27|Utils|isSplit|result = false
+6/12 0:57:27|Utils|isSplitForURLType|Method called.
+6/12 0:57:27|Utils|isSplitForURLType|value = false
+6/12 0:57:27|Utils|isSplitForURLType|value = false
+6/12 0:57:27|Utils|isSplit|isSplitForURLType = false
+6/12 0:57:28|Utils|getURLTracker|urlString = http://10.10.30.2:81/tours/index.htm, requestOrResponce = response
+6/12 0:57:28|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1560324448354
+6/12 0:57:28|Utils|convertToSecond method called|time = 17483.0
+6/12 0:57:28|Utils|isSplit|Method called.
+6/12 0:57:28|Utils|isSplit|Splitting for Ajax Header = false
+6/12 0:57:28|Utils|isSplit|Splitting for method GET = false
+6/12 0:57:28|Utils|isSplit|result = false
+6/12 0:57:28|Utils|isSplitForTimeDiff|Method called.
+6/12 0:57:28|Utils|isSplit|Splitting for time 0.31700000000000195 = false
+6/12 0:57:28|Utils|isSplit|result = false
+6/12 0:57:28|Utils|isSplitForURLType|Method called.
+6/12 0:57:28|Utils|isSplitForURLType|value = false
+6/12 0:57:28|Utils|isSplitForURLType|value = false
+6/12 0:57:28|Utils|isSplitForURLType|value = false
+6/12 0:57:28|Utils|isSplit|isSplitForURLType = false
+6/12 0:57:28|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://10.10.30.2:81/tours/index.htm
+6/12 0:57:28|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1560324448354
+6/12 0:57:28|Utils|convertToSecond method called|time = 17483.0
+6/12 0:57:28|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1560324448354
+6/12 0:57:28|Utils|convertToSecond method called|time = 17483.0
+6/12 0:57:28|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\sande\Desktop\recorder\scripts\default/default/sandeep\dump\flow\10.10.30.2_81/tours/
+6/12 0:57:28|ChromeBrowserNavigationListener|onFinishLoadingFrame|Method Called for URL=http://10.10.30.2:81/tours/index.htm
+6/12 0:57:28|Utils|getURLTracker|urlString = http://10.10.30.2:81/tours/index.htm, requestOrResponce = snapShot
+6/12 0:57:28|ChromeCClickListener|addAllHTMLElementsListeners|Method Called.
+6/12 0:57:28|WebCFormattor||constructor called.
+6/12 0:57:28|ProgressBar|setVisible|Method Called. bool = false
+6/12 0:57:28|ScriptHTMLStart|Recording|Thread state =2
+6/12 0:57:28|ScriptHTMLStart|run|Setting thread state.State of Thread - 2
+6/12 0:57:40|ChromeMainFrame|addBrowserDisposeListener|browser disposed called.
+6/12 0:57:40|WebCFormattor|generateScripts|method called.
+6/12 0:57:40|Utils|addLastPageLeftUrlsToInlineUrlsOfLastPage|Method called.
+6/12 0:57:40|Utils|modifyMapForSplit|Method called.
+6/12 0:57:40|Utils|modifyMapForSplit|Before Modify URL Map Size :1
+6/12 0:57:40|Utils|modifyMapForThinkTime|Method called.
+6/12 0:57:40|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 0
+6/12 0:57:40|Utils|modifyMapForThinkTime|Modifying url list for last page=index_htm, startThink=17.483, endThink=0.0
+6/12 0:57:40|Utils|modifyMapForSplit|After Modify URL Map Size :1
+6/12 0:57:40|Utils|generateEventDetail|method called.
+6/12 0:57:40|Utils|getTimeStampForPage|Method called.
+6/12 0:57:40|Utils|generateUrlInfoListDetail|method called
+6/12 0:57:40|Utils|getTimeStampForPage|Method called.
+6/12 0:57:40|Utils|generateUrlInfoListDetail|URL = https://r5---sn-ci5gup-qxa6.gvt1.com/edgedl/chrome/dict/en-us-8-0.bdic?cms_redirect=yes&mip=182.71.119.213&mm=28&mn=sn-ci5gup-qxa6&ms=nvh&mt=1560324178&mv=u&pl=24&shardbypass=yes
+6/12 0:57:40|Utils|generateUrlInfoListDetail|Setting url info object =https://r5---sn-ci5gup-qxa6.gvt1.com/edgedl/chrome/dict/en-us-8-0.bdic?cms_redirect=yes&mip=182.71.119.213&mm=28&mn=sn-ci5gup-qxa6&ms=nvh&mt=1560324178&mv=u&pl=24&shardbypass=yes
+6/12 0:57:40|Utils|filterPath|path = https://r5---sn-ci5gup-qxa6.gvt1.com/edgedl/chrome/dict/en-us-8-0.bdic?cms_redirect=yes&mip=182.71.119.213&mm=28&mn=sn-ci5gup-qxa6&ms=nvh&mt=1560324178&mv=u&pl=24&shardbypass=yes
+6/12 0:57:40|Utils|getFileName|path = https://r5---sn-ci5gup-qxa6.gvt1.com/edgedl/chrome/dict/en-us-8-0.bdic?cms_redirect=yes&mip=182.71.119.213&mm=28&mn=sn-ci5gup-qxa6&ms=nvh&mt=1560324178&mv=u&pl=24&shardbypass=yes
+6/12 0:57:40|Utils|getFileName|filename for dump = en-us-8-0.bdic_cms_redirect=yes_mip=182.71.119.213_mm=28_mn=sn-ci5gup-qxa6_ms=nvh_mt=1560324178_mv=u_pl=24_shardbypass=yes
+6/12 0:57:40|Utils|filterPath|path = https://r5---sn-ci5gup-qxa6.gvt1.com/edgedl/chrome/dict/en-us-8-0.bdic?cms_redirect=yes&mip=182.71.119.213&mm=28&mn=sn-ci5gup-qxa6&ms=nvh&mt=1560324178&mv=u&pl=24&shardbypass=yes
+6/12 0:57:40|Utils|generateUrlInfoListDetail|URL = http://10.10.30.2:81/tours/index.htm
+6/12 0:57:40|Utils|convertToSecond method called|time = 1.379999999999999
+6/12 0:57:40|Utils|generateUrlInfoListDetail|ScriptparsingData =http://10.10.30.2:81/tours/index.htm
+6/12 0:57:40|WebCFormattor|generateEventsForFlow|method called.
+6/12 0:57:40|WebCGenerator|generate|method called.
+6/12 0:57:40|WebCGenerator|generate|Putting header comments in Buffer.
+6/12 0:57:40|WebCGenerator|generate|Processing URLs with list size=1
+6/12 0:57:40|Utils|getTimeStampForPage|Method called.
+6/12 0:57:40|WebCGenerator|getValidURL|Since this URL is not in filtered list, returning the URL=https://r5---sn-ci5gup-qxa6.gvt1.com/edgedl/chrome/dict/en-us-8-0.bdic?cms_redirect=yes&mip=182.71.119.213&mm=28&mn=sn-ci5gup-qxa6&ms=nvh&mt=1560324178&mv=u&pl=24&shardbypass=yes
+6/12 0:57:40|Utils|getTimeStampForPage|Method called.
+6/12 0:57:40|WebCGenerator|getUrlReqAndResDetails|method called.
+6/12 0:57:40|WebCGenerator|appendRealBrowserData|method called. The isRealBrowser value = false
+6/12 0:57:40|WebCGenerator|generate|Adding Inline template to the page.
+6/12 0:57:40|WebCGenerator|appendHeadersAndEndline|method called.
+6/12 0:57:40|WebCGenerator|getUrlReqAndResDetails|method called.
+6/12 0:57:40|Utils|convertToSecond method called|time = 17.483
+6/12 0:57:41|ChromeMainFrame|addBrowserDisposeListener|browser disposed Exiting.
+6/12 0:57:43|ScriptHTMLStart|stopRecording|Method Called.
+6/12 0:57:43|ScriptHTMLStart|stopRecording|Going to stop recording
+6/12 0:57:43|NSChromeBrowser|stopRecord|Method called.
+6/12 0:57:43|ScriptHTMLStart|stopRecording|Going to upload script to server.
+6/12 0:57:45|ScriptRecordUtils|saveScriptToServer|method called.

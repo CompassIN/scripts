@@ -1,0 +1,741 @@
+--Request 
+POST https://unagi-eu.amazon.com/1/events/com.amazon.eel.SponsoredProductsEventTracking.prod
+Host: unagi-eu.amazon.com
+Origin: https://www.amazon.in
+Accept: application/json
+X-Requested-With: XMLHttpRequest
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Content-Type: application/json
+----
+ POSTDATA {"events":[{"data":{"qualifier":"1562592293","id":"8757144102294898","widgetName":"sp_detail2","adId":"20015538799206","adIndex":"6","eventType":"2"}}]}
+--Response 
+HTTP/1.1 200 OK
+Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+Server: Server
+Access-Control-Allow-Origin: https://www.amazon.in
+Connection: keep-alive
+Content-Encoding: gzip
+x-amzn-RequestId: e07ec34e-2a0c-4ff3-8c52-a2dca62671b1
+Vary: Origin,Accept-Encoding,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment,User-Agent
+x-amz-rid: EN361YJ0CY0JSPDPGKCR
+Content-Length: 23
+Date: Mon, 08 Jul 2019 13:24:58 GMT
+Content-Type: application/json
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img18/Wireless/CEEX/OnePlus6/IN_WLME_OnePlus7Pro_Miscellaneous_472x674.jpg
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 12:06:33 GMT
+x-amz-cf-pop: DEL51
+content-length: 18860
+server: Server
+expires: Sat, 01 Jun 2019 11:18:15 GMT
+x-amz-ir-id: 21aa1fbe-8928-47d9-abe8-93e670d3590f
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Wed, 15 May 2019 08:05:53 GMT
+content-type: image/jpeg
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from cloudfront
+cache-control: max-age=86400,public
+age: 7541
+x-amz-cf-id: OO2OTw0nEXjXb3phURKOwpMdTb6f8iDu1CVBCEmr4tHSxSPEwrUfsw==
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img18/Electronics/Megamenu/CEPC_Megasubnav_Mobiles_access.jpg
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Sat, 04 May 2019 21:32:59 GMT
+x-amz-cf-pop: DEL51
+content-length: 39458
+server: Server
+expires: Thu, 28 Mar 2019 17:30:06 GMT
+x-amz-ir-id: 67d78086-38d1-4d9d-a88d-5ab53671b1d2
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Tue, 13 Feb 2018 10:05:01 GMT
+content-type: image/jpeg
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from cloudfront
+cache-control: max-age=86400,public
+age: 84759
+x-amz-cf-id: WNUQQ-t-GRPScBc4aodH2FOIdmlHQy6v6jql-MZ0MfZR2WzR3W8Lng==
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img19/Laptops/Megamenu/D9130854_A-CEPC_PC_Laptop_Laptop_for_every_need_Slices_473x623.jpg
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 10:44:11 GMT
+x-amz-cf-pop: DEL51
+content-length: 55929
+server: Server
+expires: Tue, 02 Apr 2019 10:32:50 GMT
+x-amz-ir-id: 6eaaf4e2-0287-4dba-aa68-f295d94f6a9f
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Fri, 22 Feb 2019 06:23:30 GMT
+content-type: image/jpeg
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from cloudfront
+cache-control: max-age=86400,public
+age: 10002
+x-amz-cf-id: V6xtdEvG2_a0aFTAWPvgv02Hdw7tqeQNkgJ8tLMnJBM0TR-UqOdnGw==
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img18/Electronics/Megamenu/CEPC_Megasubnav_laptops_cards.jpg
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Sun, 07 Jul 2019 23:49:22 GMT
+x-amz-cf-pop: DEL51
+content-length: 41079
+server: Server
+expires: Tue, 03 Apr 2018 02:25:17 GMT
+x-amz-ir-id: 6fb6845c-2b2a-4c19-b8ce-9da01920db45
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Tue, 13 Feb 2018 10:05:00 GMT
+content-type: image/jpeg
+x-cache: Hit from cloudfront
+cache-control: max-age=86400,public
+age: 82924
+x-amz-cf-id: Iu-ikxNv4LE_DWcxirwOp3wQWZBuf4ynP1caRAmBhU6nTn9lp-RVXw==
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img18/Electronics/Megamenu/CEPC_Megasubnav_laptops_harddrives.jpg
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 03 Apr 2019 06:21:39 GMT
+x-amz-cf-pop: DEL51
+content-length: 23815
+server: Server
+expires: Thu, 15 Mar 2018 17:24:37 GMT
+x-amz-ir-id: 43650a15-884a-47c3-8771-d0d8983ab867
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Tue, 13 Feb 2018 10:05:00 GMT
+content-type: image/jpeg
+x-cache: Hit from cloudfront
+cache-control: max-age=86400,public
+age: 27173
+x-amz-cf-id: qEDMHTPSnywD6ni04YhUjCB_7FprGg4Z5xzBJ8zrj_Pxmt4J20H1zQ==
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img18/Electronics/Megamenu/CEPC_Megasubnav_tv_smart.jpg
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 11:36:28 GMT
+x-amz-cf-pop: DEL51
+content-length: 53613
+server: Server
+expires: Fri, 16 Mar 2018 09:56:20 GMT
+x-amz-ir-id: 36050e78-1757-4e92-b0aa-7e03b64133b8
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Tue, 13 Feb 2018 10:05:03 GMT
+content-type: image/jpeg
+x-cache: Hit from cloudfront
+cache-control: max-age=86400,public
+age: 14992
+x-amz-cf-id: o1fBty4mmXLcWUJEO2Dh_u69e8rtE3DBWG9mEkYPR0Dijy5PMDBv-Q==
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img18/Electronics/Megamenu/CEPC_Megasubnav_tv_buying_guide.jpg
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 12:06:33 GMT
+x-amz-cf-pop: DEL51
+content-length: 53540
+server: Server
+expires: Fri, 16 Mar 2018 09:56:20 GMT
+x-amz-ir-id: d3276f9e-881e-405e-a22c-0b3a9f549da2
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Tue, 13 Feb 2018 10:05:03 GMT
+content-type: image/jpeg
+x-cache: Hit from cloudfront
+cache-control: max-age=86400,public
+age: 4870
+x-amz-cf-id: 2PehLDqyv8Grh2PnhuF-1tOaF2hWa9yACSK_rp9nLiIxySAK1pXY8w==
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img18/Electronics/Megamenu/CEPC_Megasubnav_tv_hometheatre.jpg
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Sun, 05 May 2019 05:52:01 GMT
+x-amz-cf-pop: DEL51
+content-length: 34300
+server: Server
+expires: Sat, 31 Mar 2018 20:16:07 GMT
+x-amz-ir-id: 531a43b0-3e94-4945-ae94-a30cd28f5262
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Tue, 13 Feb 2018 10:05:03 GMT
+content-type: image/jpeg
+x-cache: Hit from cloudfront
+cache-control: max-age=86400,public
+age: 107900
+x-amz-cf-id: sioqPxHcj9vbZalUzQFSVk0bZd9NASiq7P7b9UFjG8fsRYqs4BZ3GQ==
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img19/Audio/Megamanu/megamenu_sony_473x623.jpg
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 10:44:11 GMT
+x-amz-cf-pop: DEL51
+content-length: 43324
+server: Server
+expires: Tue, 02 Apr 2019 10:08:19 GMT
+x-amz-ir-id: f7a6334f-51f8-4990-95b3-1ebe73d23ff6
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Tue, 26 Mar 2019 13:03:08 GMT
+content-type: image/jpeg
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from cloudfront
+cache-control: max-age=86400,public
+age: 9908
+x-amz-cf-id: WY_TZ-ABW0hDLA_2rhl_RUE6bKvs6a-XDUGLIW5M7yUpTVpQCSag2A==
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img19/Audio/Megamanu/megamenu_473x623.jpg
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 10:57:08 GMT
+x-amz-cf-pop: DEL51
+content-length: 21966
+server: Server
+expires: Tue, 02 Apr 2019 10:32:50 GMT
+x-amz-ir-id: e26898af-9593-40fa-b15d-bc531731f2d5
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Tue, 26 Mar 2019 13:03:08 GMT
+content-type: image/jpeg
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from cloudfront
+cache-control: max-age=86400,public
+age: 9970
+x-amz-cf-id: vvIInlsE3iT2m5xf9heMjhEmEU4ywpK_yrAF4AntDo8NVhR8nLTe2A==
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img18/Electronics/Megamenu/CEPC_Megasubnav_audio_speaker.jpg
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Sun, 05 May 2019 11:58:05 GMT
+x-amz-cf-pop: DEL51
+content-length: 84132
+server: Server
+expires: Fri, 16 Mar 2018 20:57:22 GMT
+x-amz-ir-id: 04d07b36-bea7-47b0-a401-813db4e74e6d
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Tue, 13 Feb 2018 10:04:59 GMT
+content-type: image/jpeg
+x-cache: Hit from cloudfront
+cache-control: max-age=86400,public
+age: 135545
+x-amz-cf-id: LLK_yPrMExU0IGrV-G3JH7xA3PD6qtBF4I1Vilmm6BmRW78RJ1o_Mw==
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img18/Electronics/Megamenu/CEPC_Megasubnav_cameras_dslr.jpg
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Thu, 27 Jun 2019 00:37:40 GMT
+x-amz-cf-pop: DEL51
+content-length: 43304
+server: Server
+expires: Fri, 16 Mar 2018 16:54:44 GMT
+x-amz-ir-id: 7359451a-9adf-4146-aee5-47468c021f0d
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Tue, 13 Feb 2018 10:05:00 GMT
+content-type: image/jpeg
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from cloudfront
+cache-control: max-age=86400,public
+age: 84952
+x-amz-cf-id: 4gwfsEl3l6g2QBtCO_wDPsksCQIeTMDw2V_XuD37ZV0-N8wfTPX-SQ==
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img18/Electronics/Megamenu/CEPC_Megasubnav_cameras_access.jpg
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Sun, 09 Jun 2019 02:00:30 GMT
+x-amz-cf-pop: DEL51
+content-length: 85957
+server: Server
+expires: Wed, 06 Mar 2019 18:28:09 GMT
+x-amz-ir-id: 90467720-528e-4dfb-b86c-5038270cc142
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Tue, 13 Feb 2018 10:04:59 GMT
+content-type: image/jpeg
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from cloudfront
+cache-control: max-age=86400,public
+age: 17429
+x-amz-cf-id: zv8wMr-c8X3dMHeJ3SNiL2pJy7htb4U9z2Y9pkYGKoKw4IPzKpqRdA==
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img18/Electronics/Megamenu/CEPC_Megasubnav_cameras_security.jpg
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Tue, 28 May 2019 21:27:41 GMT
+x-amz-cf-pop: DEL51
+content-length: 21651
+server: Server
+expires: Fri, 16 Mar 2018 20:58:36 GMT
+x-amz-ir-id: f864560c-b41d-4b9e-9d4d-73d5eea5653d
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Tue, 13 Feb 2018 10:05:00 GMT
+content-type: image/jpeg
+x-cache: Hit from cloudfront
+cache-control: max-age=86400,public
+age: 105649
+x-amz-cf-id: TxomEwc0EdHweIigg37DeMhS4WVxOw8RTsDjv3CTUz7SfByVwGzL8A==
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img18/Electronics/Megamenu/CEPC_Megasubnav_PCperipherals_gamezone.jpg
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 12:19:31 GMT
+x-amz-cf-pop: DEL51
+content-length: 63938
+server: Server
+expires: Sat, 06 Oct 2018 01:28:36 GMT
+x-amz-ir-id: 111bea24-1283-4ec5-b28e-b94aa3824458
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Tue, 13 Feb 2018 10:05:02 GMT
+content-type: image/jpeg
+x-cache: Hit from cloudfront
+cache-control: max-age=86400,public
+age: 4118
+x-amz-cf-id: E3u7-weWSKa4vEjG_A2mvdzd0nwvUp7peE0V4mKtY3czJH83TI1iOw==
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img18/Electronics/Megamenu/CEPC_Megasubnav_PCperipherals_routers.jpg
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Sun, 05 May 2019 05:48:13 GMT
+x-amz-cf-pop: DEL51
+content-length: 19755
+server: Server
+expires: Sun, 01 Apr 2018 20:33:57 GMT
+x-amz-ir-id: 5592d565-ffb3-4f6e-9d6d-7f2626ffefeb
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Tue, 13 Feb 2018 10:05:02 GMT
+content-type: image/jpeg
+x-cache: Hit from cloudfront
+cache-control: max-age=86400,public
+age: 110142
+x-amz-cf-id: RI72wGrwOBqGNgrMIREQSbxVcwRnCasuEYnV9jWtGkVvTJ6SrobfVw==
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img19/Printers/V101208515_IN_PC_Printers_Mega_menu_graphics_473x623.jpg
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Sun, 09 Jun 2019 00:50:28 GMT
+x-amz-cf-pop: DEL51
+content-length: 14602
+server: Server
+expires: Tue, 02 Apr 2019 10:32:50 GMT
+x-amz-ir-id: 88b27c4a-5633-4cb6-b855-3b55939f0edc
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Fri, 22 Feb 2019 06:15:02 GMT
+content-type: image/jpeg
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from cloudfront
+cache-control: max-age=86400,public
+age: 60674
+x-amz-cf-id: jX8VQHr28qBmgo8oBSiORp5RqDObORQNU0YAJq-qrfCmrSdaY8tnqA==
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img18/Electronics/Megamenu/CEPC_Megasubnav_smarthome_beginners.jpg
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Thu, 20 Jun 2019 07:18:04 GMT
+x-amz-cf-pop: DEL51
+content-length: 42587
+server: Server
+expires: Thu, 28 Mar 2019 07:13:46 GMT
+x-amz-ir-id: 896d2b97-f9b0-4988-8f03-7f5a83e2d2eb
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Tue, 13 Feb 2018 10:05:03 GMT
+content-type: image/jpeg
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from cloudfront
+cache-control: max-age=86400,public
+age: 23411
+x-amz-cf-id: cdoPKANMAVEXxcevUfq1OKym4jbCtNNwyqyI9zJsW2G2pLrWYnBfGg==
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img18/Wearables/Revamp_Dec26th_18/smart_watches_472x674.jpg
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Tue, 02 Apr 2019 10:25:19 GMT
+x-amz-cf-pop: DEL51
+content-length: 47492
+server: Server
+expires: Thu, 28 Mar 2019 09:01:59 GMT
+x-amz-ir-id: 27fd6969-733e-4d73-a052-99bf1e5ae0df
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Thu, 21 Feb 2019 12:25:14 GMT
+content-type: image/jpeg
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from cloudfront
+cache-control: max-age=86400,public
+age: 10329
+x-amz-cf-id: b4VA20c5FfLi6YhX3nDRomlUiZo-Wkovoy0E6-XgLkFpIiQbpQcVzw==
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img18/Wearables/Revamp_Dec26th_18/activity_trackers_472x674.jpg
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Thu, 20 Jun 2019 10:34:07 GMT
+x-amz-cf-pop: DEL51
+content-length: 46751
+server: Server
+expires: Thu, 28 Mar 2019 08:56:11 GMT
+x-amz-ir-id: dea10873-7835-433f-a33f-bbcdf1b7dd29
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Thu, 21 Feb 2019 12:25:14 GMT
+content-type: image/jpeg
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from cloudfront
+cache-control: max-age=86400,public
+age: 19189
+x-amz-cf-id: 8-cRgDDILyb4IcTBo5R1NHvJ-Stt5OZUywMG6sRqJRK2tvvm9r3Gog==
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img18/Electronics/Megamenu/CEPC_Megasubnav_MI_beginners.jpg
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 03 Apr 2019 07:53:33 GMT
+x-amz-cf-pop: DEL51
+content-length: 47536
+server: Server
+expires: Thu, 15 Mar 2018 06:19:21 GMT
+x-amz-ir-id: b8d1c654-9e00-4e58-8878-c399d25b9bea
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Tue, 13 Feb 2018 10:05:00 GMT
+content-type: image/jpeg
+x-cache: Hit from cloudfront
+cache-control: max-age=86400,public
+age: 19166
+x-amz-cf-id: l-Pd-sJ8Klz-N8AGRpBneJMlu8_OnFxXf8pt5GRWNeQU1Mgg4LdyBg==
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img18/Electronics/Megamenu/CEPC_Megasubnav_MI_soundrecording.jpg
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Sun, 05 May 2019 08:22:19 GMT
+x-amz-cf-pop: DEL51
+content-length: 44742
+server: Server
+expires: Wed, 26 Sep 2018 10:54:02 GMT
+x-amz-ir-id: 57f5390a-578f-4d3e-a03d-d9ad5b61302f
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Tue, 13 Feb 2018 10:05:01 GMT
+content-type: image/jpeg
+x-cache: Hit from cloudfront
+cache-control: max-age=86400,public
+age: 22364
+x-amz-cf-id: -MHD6bVX7S4uNnBiJ-flYJ2Ahm1wDSbhwlXq8bCKnbVu-ucjHIzJ-w==
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img18/Electronics/Megamenu/CEPC_Megasubnav_MI_buyingguide.jpg
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 04:19:16 GMT
+x-amz-cf-pop: DEL51
+content-length: 72786
+server: Server
+expires: Fri, 16 Mar 2018 20:45:31 GMT
+x-amz-ir-id: ec831413-4d93-4686-911a-745f113402ae
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Tue, 13 Feb 2018 10:05:01 GMT
+content-type: image/jpeg
+x-cache: Hit from cloudfront
+cache-control: max-age=86400,public
+age: 33073
+x-amz-cf-id: X0Eskjq-Sdj8nVvGvgGVxB6_woxkUIjWyguc8Y8MpXT65XEtA2ibwg==
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img18/Electronics/Megamenu/CEPC_Megasubnav_office_Artcraft.jpg
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 10:32:25 GMT
+x-amz-cf-pop: DEL51
+content-length: 58463
+server: Server
+expires: Wed, 11 Jul 2018 16:24:06 GMT
+x-amz-ir-id: 6a670e3e-0099-4125-8a2b-469ee8f28f47
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Tue, 13 Feb 2018 10:05:01 GMT
+content-type: image/jpeg
+x-cache: Hit from cloudfront
+cache-control: max-age=86400,public
+age: 10691
+x-amz-cf-id: 36lAcniFS4rnPRJcSB6g8gpiPxV7o2X93OzKHLmxlOeyi6GGbtMPmA==
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img18/Electronics/Megamenu/CEPC_Megasubnav_office_officesupplies.jpg
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Thu, 20 Jun 2019 14:36:05 GMT
+x-amz-cf-pop: DEL51
+content-length: 68324
+server: Server
+expires: Thu, 15 Mar 2018 17:24:37 GMT
+x-amz-ir-id: 6b8d051d-b548-4e14-be11-2ce6ebfe3787
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Tue, 13 Feb 2018 10:05:02 GMT
+content-type: image/jpeg
+x-cache: Hit from cloudfront
+cache-control: max-age=86400,public
+age: 9513
+x-amz-cf-id: aL4HH9SOUKhDMWoUqzotPvWqgkdu4s5dZ0MsKT6NjNCy1DDQXkyF9A==
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img18/Electronics/Megamenu/CEPC_Megasubnav_office_stationery.jpg
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 07:11:54 GMT
+x-amz-cf-pop: DEL51
+content-length: 54290
+server: Server
+expires: Sun, 07 Oct 2018 05:21:19 GMT
+x-amz-ir-id: 0bfee1fa-b055-488e-b8b5-2bd2af2ace0e
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Tue, 13 Feb 2018 10:05:02 GMT
+content-type: image/jpeg
+x-cache: Hit from cloudfront
+cache-control: max-age=86400,public
+age: 22410
+x-amz-cf-id: KQ_zi158KnWwLIYy7rONwE6hRox3Eg12Xl2aefjkuCk4TKxeCnGWmg==
+status: 200
+----
+

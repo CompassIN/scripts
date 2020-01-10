@@ -1,0 +1,54 @@
+
+
+--Request 
+GET https://d1lxz4vuik53pc.cloudfront.net/ih/1557836970682/inner-host.min.js
+Host: d1lxz4vuik53pc.cloudfront.net
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Accept: */*
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 12 Jun 2019 07:50:16 GMT
+x-amz-cf-pop: ORD50-C1
+server: AmazonS3
+vary: Accept-Encoding
+content-encoding: gzip
+via: 1.1 9c8cea76bc4ad668228c67b8ca429f82.cloudfront.net (CloudFront)
+last-modified: Fri, 31 May 2019 18:42:13 GMT
+content-type: application/javascript
+x-cache: Hit from cloudfront
+cache-control: max-age=31536000
+age: 3062101
+x-amz-cf-id: jh6pypQjBVsUVPI-CmGUeWvTDULW43YI8MdRXjF31Q7oY6bc8j9OGA==
+status: 200
+----
+--Request 
+GET https://m.media-amazon.com/images/I/41gCbfiTdaL._RC%7C516fcOUE-HL.css,01evdoiemkL.css,01K+Ps1DeEL.css,31pdJv9iSzL.css,01tgK36lpGL.css,11UGC+GXOPL.css,21LK7jaicML.css,11L58Qpo0GL.css,21kyTi1FabL.css,01Xl9KigtzL.css,01YhS3Cs-hL.css,21GwE3cR-yL.css,019SHZnt8RL.css,01wAWQRgXzL.css,21bWcRJYNIL.css,11WgRxUdJRL.css,01dU8+SPlFL.css,11ocrgKoE-L.css,01SHjPML6tL.css,111-D2qRjiL.css,01QrWuRrZ-L.css,310Imb6LqFL.css,11Z1a0FxSIL.css,01cbS3UK11L.css,21mOLw+nYYL.css,01L8Y-JFEhL.css_.css?AUIClients/AmazonUI#not-trident
+Host: m.media-amazon.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Accept: text/css,*/*;q=0.1
+----
+--Response 
+HTTP/1.1 200
+date: Tue, 04 Jun 2019 11:12:35 GMT
+x-amz-cf-pop: ORD50-C1
+server: Server
+expires: Mon, 23 May 2039 12:56:15 GMT
+x-amz-ir-id: 3676fcbf-9d6b-4040-8a0d-f936760f13f1
+content-encoding: gzip
+via: 1.1 4e6a6de7c4e0f9bc6de24674fb94d575.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Sun, 07 Apr 2019 23:12:38 GMT
+content-type: text/css; charset=utf-8
+timing-allow-origin: https://www.amazon.com
+x-cache: Hit from cloudfront
+cache-control: max-age=630720000,public
+age: 4339741
+x-amz-cf-id: Y8TYTvIwGkJxrA-BM1rG6xaNnoTrBFc1EEy98gXreUV-1FK1hEAv6w==
+status: 200
+----
+

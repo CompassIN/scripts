@@ -1,0 +1,7 @@
+5/24 9:38:59|ScriptPcapParser|closeStrem|Exception in closing the Stream|Following is the stack trace:
+java.lang.NullPointerException
+	at pacAction.ScriptWSDLParser.closeStream(ScriptWSDLParser.java:596)
+	at pacAction.ScriptWSDLParser.onSessionEnd(ScriptWSDLParser.java:409)
+	at pacAction.ScriptWSDLParser.createScript(ScriptWSDLParser.java:670)
+	at pacAction.ScriptWSDLParser.generateScript(ScriptWSDLParser.java:740)
+	at pacUi.ScriptCommonGUI$11.run(ScriptCommonGUI.java:2255)

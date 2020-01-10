@@ -1,0 +1,36 @@
+--Request 
+POST https://www.amazon.in/ah/ajax/record-impressions?c4i=ePm_fHprndDLCsIwFATQLxq4TdM0WbaCiroS0fXNS8XSikZE_XkrCEJ15XIGZjHnMRD24XxI3fEH9IRTuPJt6F1l67pamNWi2Izq8VB_3qUpRqslTv2Pbbu_Bw9uPS7tp_jnpXQUPRsPHa2DZCIwZTlEmbMIXivj3FBCWxVFlASlVAmp8whNRYDNhbOalciM-mi9IZC4abALpw6zL0BlyDEbg35PkBQc-mRRCB0zZllaF17ITzY2bw8&rId=FQHMBRA36T6KVA44S1T8&mkId=A21TJRUUN4KGV&exp=1562591920842&h=5fa8a91cac21346be80ad76342f917e4f02773f848330dbc4daa101a7992b7b1
+Host: www.amazon.in
+Cookie: session-id=259-1202557-5929705; i18n-prefs=INR; ubid-acbin=258-0672242-6953331; x-wl-uid=1ecJvyxzwiGLpb/ivu3x3ngupYO7bY1+BPjlMC56V5J9AKfsIjsCkfc+Jr7a3C9XLJxX0u1syPM0=; visitCount=1; csm-hit=tb:s-FQHMBRA36T6KVA44S1T8|1562591802960&t:1562591815077&adb:adblk_no; session-token=\"qbOQOkS0VEpBUocLOZRgf/vBjfAa/L1gvzuk4dHaABRLwBcXdkoWG+tgKYovU/GtpgviGH2ntZ17AVp7e48ZFY6MNw3iH/RJtLL2eZrJEHt3s9Cy0QE8n08HbD+hmqwfffrZuHf+ncTYp9ne7NmDLRaqAwIAVoD+O39gZOoyeiIbwRC9aZp+vc79loUdfIgRN7k1iETJ2x2I7SZjKc9arkykk2SqRFhbbijoObQQg4mvjy58UMqGvQ==\"; lc-acbin=en_IN; session-id-time=2082787201l
+Origin: https://www.amazon.in
+Accept: */*
+X-Requested-With: XMLHttpRequest
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+ POSTDATA 
+--Response 
+HTTP/1.1 202
+date: Mon, 08 Jul 2019 13:17:15 GMT
+x-amz-cf-pop: DEL51
+server: Server
+expires: Thu, 01 Jan 1970 00:00:00 GMT
+x-ua-compatible: IE=edge
+vary: Accept-Encoding,User-Agent,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment
+content-encoding: gzip
+x-frame-options: SAMEORIGIN
+x-amz-rid: WDMZSQDPY6X333TYQ7WG
+pragma: no-cache
+strict-transport-security: max-age=47474747; includeSubDomains; preload
+via: 1.1 b804a121dcbb7cb51fd709903749806e.cloudfront.net (CloudFront)
+x-content-type-options: nosniff
+x-xss-protection: 1;
+content-type: text/html;charset=UTF-8
+x-cache: Miss from cloudfront
+cache-control: no-cache, no-transform
+x-amz-cf-id: A7kocdn4s2ZYh8Do01GKwWHpQbrWcKjNyFIFLzv4O61Y5qz4ZzhgCQ==
+status: 202
+----
+

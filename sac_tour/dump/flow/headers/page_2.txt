@@ -1,0 +1,122 @@
+--Request 
+GET http://10.10.30.111:81/cgi-bin/login?userSession=75893.0884568651DQADHfApHDHfcDtccpfAttcf&username=a&password=a&login.x=0&login.y=0&login=Login&JSFormSubmit=off
+Host: 10.10.30.111:81
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+Referer: http://10.10.30.111:81/tours/index.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-type: text/html
+Content-length: 0000002664
+----
+--Request 
+GET http://10.10.30.111:81/tours/Merc10-dev/images/banner_animated.gif
+Host: 10.10.30.111:81
+Referer: http://10.10.30.111:81/cgi-bin/login?userSession=75893.0884568651DQADHfApHDHfcDtccpfAttcf&username=a&password=a&login.x=0&login.y=0&login=Login&JSFormSubmit=off
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-Length: 16522
+Content-Type: image/gif
+----
+--Request 
+GET http://10.10.30.111:81/tours/Merc10-dev/images/sun_swede.gif
+Host: 10.10.30.111:81
+Referer: http://10.10.30.111:81/cgi-bin/login?userSession=75893.0884568651DQADHfApHDHfcDtccpfAttcf&username=a&password=a&login.x=0&login.y=0&login=Login&JSFormSubmit=off
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-Length: 4125
+Content-Type: image/gif
+----
+--Request 
+GET http://10.10.30.111:81/tours/Merc10-dev/images/flights.gif
+Host: 10.10.30.111:81
+Referer: http://10.10.30.111:81/cgi-bin/login?userSession=75893.0884568651DQADHfApHDHfcDtccpfAttcf&username=a&password=a&login.x=0&login.y=0&login=Login&JSFormSubmit=off
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-Length: 1519
+Content-Type: image/gif
+----
+--Request 
+GET http://10.10.30.111:81/tours/Merc10-dev/images/home.gif
+Host: 10.10.30.111:81
+Referer: http://10.10.30.111:81/cgi-bin/login?userSession=75893.0884568651DQADHfApHDHfcDtccpfAttcf&username=a&password=a&login.x=0&login.y=0&login=Login&JSFormSubmit=off
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-Length: 1268
+Content-Type: image/gif
+----
+--Request 
+GET http://10.10.30.111:81/tours/Merc10-dev/images/signoff.gif
+Host: 10.10.30.111:81
+Referer: http://10.10.30.111:81/cgi-bin/login?userSession=75893.0884568651DQADHfApHDHfcDtccpfAttcf&username=a&password=a&login.x=0&login.y=0&login=Login&JSFormSubmit=off
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-Length: 1260
+Content-Type: image/gif
+----
+--Request 
+GET http://10.10.30.111:81/tours/images/banner_merctur.jpg
+Host: 10.10.30.111:81
+Referer: http://10.10.30.111:81/cgi-bin/login?userSession=75893.0884568651DQADHfApHDHfcDtccpfAttcf&username=a&password=a&login.x=0&login.y=0&login=Login&JSFormSubmit=off
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-Length: 22548
+Content-Type: image/jpeg
+----
+--Request 
+GET http://10.10.30.111:81/tours/vep/images/velocigen.gif
+Host: 10.10.30.111:81
+Referer: http://10.10.30.111:81/cgi-bin/login?userSession=75893.0884568651DQADHfApHDHfcDtccpfAttcf&username=a&password=a&login.x=0&login.y=0&login=Login&JSFormSubmit=off
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-Length: 2018
+Content-Type: image/gif
+----
+

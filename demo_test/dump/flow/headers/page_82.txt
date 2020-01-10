@@ -1,0 +1,29 @@
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/checkout/thank-you-page/assets/yellow-rounded-corner-sprite._CB166613107_.gif
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Tue, 28 May 2019 20:59:59 GMT
+x-amz-cf-pop: DEL51
+content-length: 137
+server: Server
+expires: Fri, 20 May 2039 16:19:06 GMT
+x-amz-ir-id: f1609018-24fe-43cd-8b20-0d8903299dd2
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Wed, 02 Jun 2010 19:38:39 GMT
+content-type: image/gif
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from cloudfront
+cache-control: max-age=630720000,public
+age: 3791154
+x-amz-cf-id: k93r41j0ebOw96j2l2Lg6_STjOHDb2PHqWfluVG6AvW-WUweFQ4KNw==
+status: 200
+----
+

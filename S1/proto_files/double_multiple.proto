@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message Double {
+  double double_field1 = 1;
+  double double_field2 = 2;
+  double double_field3 = 3;
+}

@@ -1,0 +1,154 @@
+<!-- Netstorm GUI4  -->
+<html>
+<head><title>Page Response Snapshots for recorded script</title></head>
+<!-- Title of the screen -->
+  <link rel="stylesheet" href="/netstorm/css/Netstorm.css" type="text/css" /link>
+  <script language="javascript">
+
+    function showRecordedPageOnFrame(url)
+    {
+      parent.Dump.location = url;
+    }
+    //These functions highlight the row when we pass/hover on current row
+    function over(row)
+    {
+      row.oldBackgroundColor = row.style.backgroundColor;
+      row.style.backgroundColor = 'FFFFCC';
+    }
+
+    function out(row)
+    {
+      row.style.backgroundColor = row.oldBackgroundColor;
+    }
+
+    function highLightRow(rowId)
+    {
+      var newElement = document.getElementById(rowId);
+      if(typeof(oldElement)!='undefined'){
+        oldElement.style.backgroundColor = oldElement.oldBackgroundColor;}
+      newElement.oldBackgroundColor = newElement.style.backgroundColor;
+      newElement.style.backgroundColor = "#FFCC00";
+      oldElement = newElement;  } 
+</script>
+</head>
+<body onLoad=showRecordedPageOnFrame('./Snapshots/webpage_1467459306961.png');highLightRow('0');>
+  <form id="form1" name="form1" method="post" action="">
+       <table border="0" bordercolor= red cellpadding=0 cellspacing=0 style = "width:100%;height:60px;background-color:#F2F2F2;background-repeat:repeat-x;" height=20><tr><td width=15% align=left valign=middle><table width = 100%><tr><td width = 100%><img src=/netstorm/images/logo.png></td></tr></table></td><td width = 85% align=center valign=middle><table border=0 bordercolor= green width=100% cellpadding=0 cellspacing=0><tr><td align=center class=screenTitle>Script Page Snapshots - JCPenney/Peak/Mobile_Rel6</td></tr></table></td></tr></table> 
+       <table border='0' bordercolor= blue cellpadding=0 cellspacing=0 id=text>
+       <tr><td align=center>
+       <br /><br /></table>
+       <table border=0 bordercolor= yellow cellpadding=0 cellspacing=0 class=table width=98% align=center max-width=1200px>
+       <tr><td colspan=2 align=center valign=top>
+       <table width =100% border=0 bordercolor= brown  align =center cellpadding =0 cellspacing =0 id=tableForNSBrowser style="width:100%; display;">
+       <tr align=center class=tableHeader>
+       <td height=20 width = 20%><b>Page Number</b></td>
+       <td align = left width = 20%><b>&nbsp;Page Name</b></td>
+       <td align = left width = 25%><b>&nbsp;SnapShotBeforAction</b></td>
+       <td align = left width = 25%><b>&nbsp;SnapShotAfterAction</b></td>
+ <tr align="center" class="tableRowOdd" id ='0'>
+     <td height="20" valign =" middle"><span onClick = highLightRow('0');><a href=javascript:showRecordedPageOnFrame('./headers/page_1.txt')>01</a></td>
+<td valign =" middle" align = left><span onClick = highLightRow('0');><a href=javascript:showRecordedPageOnFrame('./session.html')>session</a></span></td>
+<td valign =" middle" align = left><span onClick = highLightRow('0');>&nbsp;<a href=javascript:showRecordedPageOnFrame('./Snapshots/webpage_1467459306670.png')>webpage_1467459306670.png</a></span></td>
+<td valign =" middle" align = left><span onClick = highLightRow('0');>&nbsp;<a href=javascript:showRecordedPageOnFrame('./Snapshots/webpage_1467459306961.png')>webpage_1467459306961.png</a></span></td>
+ <tr align="center" class="tableRowEven" id ='1'>
+     <td height="20" valign =" middle"><span onClick = highLightRow('1');><a href=javascript:showRecordedPageOnFrame('./headers/page_2.txt')>02</a></td>
+<td valign =" middle" align = left><span onClick = highLightRow('1');><a href=javascript:showRecordedPageOnFrame('./resources/addresses')>RC2</a></span></td>
+<td valign =" middle" align = left><span onClick = highLightRow('1');>&nbsp; NA </span></td>
+<td valign =" middle" align = left><span onClick = highLightRow('1');>&nbsp;<a href=javascript:showRecordedPageOnFrame('./resources/addresses')>RC2</a></span></td>
+ <tr align="center" class="tableRowOdd" id ='2'>
+     <td height="20" valign =" middle"><span onClick = highLightRow('2');><a href=javascript:showRecordedPageOnFrame('./headers/page_3.txt')>03</a></td>
+<td valign =" middle" align = left><span onClick = highLightRow('2');><a href=javascript:showRecordedPageOnFrame('./checkout.html')>checkout</a></span></td>
+<td valign =" middle" align = left><span onClick = highLightRow('2');>&nbsp;<a href=javascript:showRecordedPageOnFrame('./Snapshots/webpage_1467459307504.png')>webpage_1467459307504.png</a></span></td>
+<td valign =" middle" align = left><span onClick = highLightRow('2');>&nbsp;<a href=javascript:showRecordedPageOnFrame('./Snapshots/webpage_1467459309580.png')>webpage_1467459309580.png</a></span></td>
+ <tr align="center" class="tableRowEven" id ='3'>
+     <td height="20" valign =" middle"><span onClick = highLightRow('3');><a href=javascript:showRecordedPageOnFrame('./headers/page_4.txt')>04</a></td>
+<td valign =" middle" align = left><span onClick = highLightRow('3');><a href=javascript:showRecordedPageOnFrame('./resources/customer')>RC4</a></span></td>
+<td valign =" middle" align = left><span onClick = highLightRow('3');>&nbsp; NA </span></td>
+<td valign =" middle" align = left><span onClick = highLightRow('3');>&nbsp;<a href=javascript:showRecordedPageOnFrame('./resources/customer')>RC4</a></span></td>
+ <tr align="center" class="tableRowOdd" id ='4'>
+     <td height="20" valign =" middle"><span onClick = highLightRow('4');><a href=javascript:showRecordedPageOnFrame('./headers/page_5.txt')>05</a></td>
+<td valign =" middle" align = left><span onClick = highLightRow('4');><a href=javascript:showRecordedPageOnFrame('./resources/promotions')>RC5</a></span></td>
+<td valign =" middle" align = left><span onClick = highLightRow('4');>&nbsp; NA </span></td>
+<td valign =" middle" align = left><span onClick = highLightRow('4');>&nbsp;<a href=javascript:showRecordedPageOnFrame('./resources/promotions')>RC5</a></span></td>
+ <tr align="center" class="tableRowEven" id ='5'>
+     <td height="20" valign =" middle"><span onClick = highLightRow('5');><a href=javascript:showRecordedPageOnFrame('./headers/page_6.txt')>06</a></td>
+<td valign =" middle" align = left><span onClick = highLightRow('5');><a href=javascript:showRecordedPageOnFrame('./resources/rewards-profile')>RC6</a></span></td>
+<td valign =" middle" align = left><span onClick = highLightRow('5');>&nbsp; NA </span></td>
+<td valign =" middle" align = left><span onClick = highLightRow('5');>&nbsp;<a href=javascript:showRecordedPageOnFrame('./resources/rewards-profile')>RC6</a></span></td>
+ <tr align="center" class="tableRowOdd" id ='6'>
+     <td height="20" valign =" middle"><span onClick = highLightRow('6');><a href=javascript:showRecordedPageOnFrame('./headers/page_7.txt')>07</a></td>
+<td valign =" middle" align = left><span onClick = highLightRow('6');><a href=javascript:showRecordedPageOnFrame('./resources/paymentMethods')>RC7</a></span></td>
+<td valign =" middle" align = left><span onClick = highLightRow('6');>&nbsp; NA </span></td>
+<td valign =" middle" align = left><span onClick = highLightRow('6');>&nbsp;<a href=javascript:showRecordedPageOnFrame('./resources/paymentMethods')>RC7</a></span></td>
+ <tr align="center" class="tableRowEven" id ='7'>
+     <td height="20" valign =" middle"><span onClick = highLightRow('7');><a href=javascript:showRecordedPageOnFrame('./headers/page_8.txt')>08</a></td>
+<td valign =" middle" align = left><span onClick = highLightRow('7');><a href=javascript:showRecordedPageOnFrame('./resources/cart')>RC8</a></span></td>
+<td valign =" middle" align = left><span onClick = highLightRow('7');>&nbsp; NA </span></td>
+<td valign =" middle" align = left><span onClick = highLightRow('7');>&nbsp;<a href=javascript:showRecordedPageOnFrame('./resources/cart')>RC8</a></span></td>
+ <tr align="center" class="tableRowOdd" id ='8'>
+     <td height="20" valign =" middle"><span onClick = highLightRow('8');><a href=javascript:showRecordedPageOnFrame('./headers/page_9.txt')>09</a></td>
+<td valign =" middle" align = left><span onClick = highLightRow('8');><a href=javascript:showRecordedPageOnFrame('./paymentMethods.html')>paymentMethods</a></span></td>
+<td valign =" middle" align = left><span onClick = highLightRow('8');>&nbsp;<a href=javascript:showRecordedPageOnFrame('./Snapshots/webpage_1467459338578.png')>webpage_1467459338578.png</a></span></td>
+<td valign =" middle" align = left><span onClick = highLightRow('8');>&nbsp;<a href=javascript:showRecordedPageOnFrame('./Snapshots/webpage_1467459342964.png')>webpage_1467459342964.png</a></span></td>
+ <tr align="center" class="tableRowEven" id ='9'>
+     <td height="20" valign =" middle"><span onClick = highLightRow('9');><a href=javascript:showRecordedPageOnFrame('./headers/page_10.txt')>10</a></td>
+<td valign =" middle" align = left><span onClick = highLightRow('9');><a href=javascript:showRecordedPageOnFrame('./resources/cart')>PC2</a></span></td>
+<td valign =" middle" align = left><span onClick = highLightRow('9');>&nbsp; NA </span></td>
+<td valign =" middle" align = left><span onClick = highLightRow('9');>&nbsp;<a href=javascript:showRecordedPageOnFrame('./resources/cart')>PC2</a></span></td>
+ <tr align="center" class="tableRowOdd" id ='10'>
+     <td height="20" valign =" middle"><span onClick = highLightRow('10');><a href=javascript:showRecordedPageOnFrame('./headers/page_11.txt')>11</a></td>
+<td valign =" middle" align = left><span onClick = highLightRow('10');><a href=javascript:showRecordedPageOnFrame('./resources/customer')>PC3</a></span></td>
+<td valign =" middle" align = left><span onClick = highLightRow('10');>&nbsp; NA </span></td>
+<td valign =" middle" align = left><span onClick = highLightRow('10');>&nbsp;<a href=javascript:showRecordedPageOnFrame('./resources/customer')>PC3</a></span></td>
+ <tr align="center" class="tableRowEven" id ='11'>
+     <td height="20" valign =" middle"><span onClick = highLightRow('11');><a href=javascript:showRecordedPageOnFrame('./headers/page_12.txt')>12</a></td>
+<td valign =" middle" align = left><span onClick = highLightRow('11');><a href=javascript:showRecordedPageOnFrame('./resources/financing')>PC4</a></span></td>
+<td valign =" middle" align = left><span onClick = highLightRow('11');>&nbsp; NA </span></td>
+<td valign =" middle" align = left><span onClick = highLightRow('11');>&nbsp;<a href=javascript:showRecordedPageOnFrame('./resources/financing')>PC4</a></span></td>
+ <tr align="center" class="tableRowOdd" id ='12'>
+     <td height="20" valign =" middle"><span onClick = highLightRow('12');><a href=javascript:showRecordedPageOnFrame('./headers/page_13.txt')>13</a></td>
+<td valign =" middle" align = left><span onClick = highLightRow('12');><a href=javascript:showRecordedPageOnFrame('./resources/paymentMethods')>PC5</a></span></td>
+<td valign =" middle" align = left><span onClick = highLightRow('12');>&nbsp; NA </span></td>
+<td valign =" middle" align = left><span onClick = highLightRow('12');>&nbsp;<a href=javascript:showRecordedPageOnFrame('./resources/paymentMethods')>PC5</a></span></td>
+ <tr align="center" class="tableRowEven" id ='13'>
+     <td height="20" valign =" middle"><span onClick = highLightRow('13');><a href=javascript:showRecordedPageOnFrame('./headers/page_14.txt')>14</a></td>
+<td valign =" middle" align = left><span onClick = highLightRow('13');><a href=javascript:showRecordedPageOnFrame('./orders.html')>orders</a></span></td>
+<td valign =" middle" align = left><span onClick = highLightRow('13');>&nbsp;<a href=javascript:showRecordedPageOnFrame('./Snapshots/webpage_1467459358343.png')>webpage_1467459358343.png</a></span></td>
+<td valign =" middle" align = left><span onClick = highLightRow('13');>&nbsp;<a href=javascript:showRecordedPageOnFrame('./Snapshots/webpage_1467459366209.png')>webpage_1467459366209.png</a></span></td>
+ <tr align="center" class="tableRowOdd" id ='14'>
+     <td height="20" valign =" middle"><span onClick = highLightRow('14');><a href=javascript:showRecordedPageOnFrame('./headers/page_15.txt')>15</a></td>
+<td valign =" middle" align = left><span onClick = highLightRow('14');><a href=javascript:showRecordedPageOnFrame('./resources/last')>SO2</a></span></td>
+<td valign =" middle" align = left><span onClick = highLightRow('14');>&nbsp; NA </span></td>
+<td valign =" middle" align = left><span onClick = highLightRow('14');>&nbsp;<a href=javascript:showRecordedPageOnFrame('./resources/last')>SO2</a></span></td>
+ <tr align="center" class="tableRowEven" id ='15'>
+     <td height="20" valign =" middle"><span onClick = highLightRow('15');><a href=javascript:showRecordedPageOnFrame('./headers/page_16.txt')>16</a></td>
+<td valign =" middle" align = left><span onClick = highLightRow('15');><a href=javascript:showRecordedPageOnFrame('./resources/1c41b57')>SO3</a></span></td>
+<td valign =" middle" align = left><span onClick = highLightRow('15');>&nbsp; NA </span></td>
+<td valign =" middle" align = left><span onClick = highLightRow('15');>&nbsp;<a href=javascript:showRecordedPageOnFrame('./resources/1c41b57')>SO3</a></span></td>
+ <tr align="center" class="tableRowOdd" id ='16'>
+     <td height="20" valign =" middle"><span onClick = highLightRow('16');><a href=javascript:showRecordedPageOnFrame('./headers/page_17.txt')>17</a></td>
+<td valign =" middle" align = left><span onClick = highLightRow('16');><a href=javascript:showRecordedPageOnFrame('./resources/paymentMethods')>SO4</a></span></td>
+<td valign =" middle" align = left><span onClick = highLightRow('16');>&nbsp; NA </span></td>
+<td valign =" middle" align = left><span onClick = highLightRow('16');>&nbsp;<a href=javascript:showRecordedPageOnFrame('./resources/paymentMethods')>SO4</a></span></td>
+ <tr align="center" class="tableRowEven" id ='17'>
+     <td height="20" valign =" middle"><span onClick = highLightRow('17');><a href=javascript:showRecordedPageOnFrame('./headers/page_18.txt')>18</a></td>
+<td valign =" middle" align = left><span onClick = highLightRow('17');><a href=javascript:showRecordedPageOnFrame('./test_rum_9.html')>test_rum_9</a></span></td>
+<td valign =" middle" align = left><span onClick = highLightRow('17');>&nbsp;<a href=javascript:showRecordedPageOnFrame('./Snapshots/webpage_1467459366209.png')>webpage_1467459366209.png</a></span></td>
+<td valign =" middle" align = left><span onClick = highLightRow('17');>&nbsp;<a href=javascript:showRecordedPageOnFrame('./Snapshots/webpage_1467459366234.png')>webpage_1467459366234.png</a></span></td>
+ <tr align="center" class="tableRowOdd" id ='18'>
+     <td height="20" valign =" middle"><span onClick = highLightRow('18');><a href=javascript:showRecordedPageOnFrame('./headers/page_19.txt')>19</a></td>
+<td valign =" middle" align = left><span onClick = highLightRow('18');><a href=javascript:showRecordedPageOnFrame('./test_rum_10.html')>test_rum_10</a></span></td>
+<td valign =" middle" align = left><span onClick = highLightRow('18');>&nbsp;<a href=javascript:showRecordedPageOnFrame('./Snapshots/webpage_1467459366234.png')>webpage_1467459366234.png</a></span></td>
+<td valign =" middle" align = left><span onClick = highLightRow('18');>&nbsp;<a href=javascript:showRecordedPageOnFrame('./Snapshots/webpage_1467459366820.png')>webpage_1467459366820.png</a></span></td>
+ </td></tr>
+ </table>
+ </table>
+ <table width="100%" border="0" cellspacing="0" cellpadding="0">
+ <br>
+<br>
+<tr>
+ </table>
+<br/>
+</form>
+</body>
+</html>

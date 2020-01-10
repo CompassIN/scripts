@@ -1,0 +1,141 @@
+/*-----------------------------------------------------------------------------
+    Name: Home
+    Recorded By: anjali
+    Date of recording: 06/27/2016 06:10:41
+    Flow details:
+    Build details: 4.1.4 (build# 43)
+    Modification History:
+-----------------------------------------------------------------------------*/
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "ns_string.h"
+void Home()
+{
+	ns_start_transaction("MOB_HomePage");
+    ns_web_url ("index",
+        "URL=http://m.jcpenney.com/",
+        "HEADER=Accept-Language:en-US,en;q=0.8",
+        "PreSnapshot=webpage_1467031191918.png",
+        "Snapshot=webpage_1467031197807.png",
+        INLINE_URLS,
+            "URL=http://m.jcpenney.com/b/assets/css/jcp.css?v=20160621140633", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=clientTestPool1;akaau;BNSOrigin;BNSPrevPercentage", END_INLINE,
+            "URL=http://d2zah9y47r7bi2.cloudfront.net/releases/current/tracker.js", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://service.maxymiser.net/cdn/jcpenny/js/mmcore.js", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://m.jcpenney.com/b/assets/img/spinner-inline.gif", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=clientTestPool1;akaau;BNSOrigin;BNSPrevPercentage", END_INLINE,
+            "URL=http://m.jcpenney.com/b/lib/lib.min.js?v=20160621140633", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=clientTestPool1;akaau;BNSOrigin;BNSPrevPercentage", END_INLINE,
+            "URL=http://m.jcpenney.com/b/assets/js/jcpredirectrules.js?v=20160621140633", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=clientTestPool1;akaau;BNSOrigin;BNSPrevPercentage", END_INLINE,
+            "URL=http://m.jcpenney.com/b/vendor.bundle.js?v=20160621140633", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=clientTestPool1;akaau;BNSOrigin;BNSPrevPercentage", END_INLINE,
+            "URL=http://m.jcpenney.com/b/jcp.min.20160621140613.js?v=20160621140633", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=clientTestPool1;akaau;BNSOrigin;BNSPrevPercentage", END_INLINE,
+            "URL=http://service.maxymiser.net/cdn/jcpenny/js/mmcore_old.js", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://service.maxymiser.net/cg/v5us/?fv=dmn%3Djcpenney.com%3Bref%3D%3Burl%3Dhttp%253A%252F%252Fm.jcpenney.com%252F%3Bscrw%3D1366%3Bscrh%3D768%3Bclrd%3D24%3Bcok%3D1&lver=1.4&jsncl=mmRequestCallbacks%5B1%5D&ri=1&jsver=5.13.1", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://service.maxymiser.net/platform/us/api/mmpackage-1.8.js", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=https://usage.trackjs.com/usage.gif?token=081f63e814534625a4cbb8a490dc4971&correlationId=0309cfe6-720c-4829-ad13-6be45ca47c4d&application=jcpprod&x=e5f8e923-a39f-4f12-b33a-b919216a117d&", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://nexus.ensighten.com/jcpenney/Bootstrap.js", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE
+    );
+    
+    ns_start_transaction("API_Home_settings_GET");
+    ns_web_url ("settings",
+        "URL=http://m.jcpenney.com/v2.1/settings",
+        "HEADER=Accept-Language:en-US,en;q=0.8",
+        "COOKIE=clientTestPool1;akaau;BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0",
+        "PreSnapshot=webpage_1467031197918.png",
+        "Snapshot=webpage_1467031198463.png",
+        INLINE_URLS,
+            "URL=http://m.jcpenney.com/b/assets/css/home.css?v=20160621140636", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=clientTestPool1;akaau;BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0", END_INLINE,
+            "URL=http://wurfl.io/wurfl.js", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://m.jcpenney.com/b/assets/vendor/eluminate.min.js", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=clientTestPool1;akaau;BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0", END_INLINE,
+            "URL=http://m.jcpenney.com/b/assets/img/loading-200.gif", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=akaau;BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1", END_INLINE
+    );
+    ns_end_transaction("API_Home_settings_GET", NS_AUTO_STATUS);
+    
+    ns_start_transaction("API_Home_content_GET");
+    ns_web_url ("tablet",
+        "URL=http://m.jcpenney.com/v2.1/content/pg00001/mobile",
+        "HEADER=Accept-Language:en-US,en;q=0.8",
+        "COOKIE=akaau;BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1",
+        "PreSnapshot=webpage_1467031198484.png",
+        "Snapshot=webpage_1467031198529.png"
+    );
+    ns_end_transaction("API_Home_content_GET", NS_AUTO_STATUS);
+    
+    ns_start_transaction("API_Home_content_site_GET");
+    ns_web_url ("menus",
+        "URL=http://m.jcpenney.com/v2.1/content/site/menus",
+        "HEADER=Accept-Language:en-US,en;q=0.8",
+        "COOKIE=akaau;BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1",
+        "PreSnapshot=webpage_1467031198529.png",
+        "Snapshot=webpage_1467031199010.png",
+        INLINE_URLS,
+            "URL=http://m.jcpenney.com/b/assets/img/spinner.gif?v=20160621140633", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=akaau;BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1", END_INLINE
+    );
+    ns_end_transaction("API_Home_content_site_GET", NS_AUTO_STATUS);
+    
+    ns_start_transaction("API_Home_categories_GET");
+    ns_web_url ("root",
+        "URL=http://m.jcpenney.com/v4/categories/root?version=20160621140636",
+        "HEADER=Accept-Language:en-US,en;q=0.8",
+        "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;akaau",
+        "PreSnapshot=webpage_1467031199481.png",
+        "Snapshot=webpage_1467031200277.png",
+        INLINE_URLS,
+            "URL=http://libs.coremetrics.com/configs/90024642.js", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://www88.jcpenney.com/cookie-id.js?fn=eluminate2316", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1", END_INLINE,
+            "URL=http://media.richrelevance.com/rrserver/js/1.0/p13n.js", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=https://www.googleapis.com/geolocation/v1/geolocate?key=dummytoken", "METHOD=POST", "HEADER=Accept-Language:en-US,en;q=0.8", "HEADER=Content-Type:application/json", "PreSnapshot=webpage_1467031200277.png", "Snapshot=webpage_1467031203361.png", 
+            BODY_BEGIN,
+                "{"wifiAccessPoints":[{"age":4,"macAddress":"08-5b-0e-a7-f4-1d","signalStrength":-46},{"age":4,"macAddress":"1a-5b-0e-a7-e3-73","signalStrength":-47},{"age":4,"macAddress":"1a-5b-0e-a7-f4-1d","signalStrength":-47},{"age":4,"macAddress":"2a-5b-0e-a7-ef-c1","signalStrength":-48},{"age":4,"macAddress":"4a-5b-0e-a7-e3-73","signalStrength":-48},{"age":4,"macAddress":"4a-5b-0e-a7-ef-c1","signalStrength":-48},{"age":4,"macAddress":"4a-5b-0e-a7-ef-c9","signalStrength":-49},{"age":4,"macAddress":"08-5b-0e-a7-ef-c9","signalStrength":-50},{"age":4,"macAddress":"1a-5b-0e-a7-ef-c9","signalStrength":-50},{"age":4,"macAddress":"2a-5b-0e-a7-ef-c9","signalStrength":-50},{"age":4,"macAddress":"2a-5b-0e-a7-f4-1d","signalStrength":-50},{"age":4,"macAddress":"3a-5b-0e-a7-ef-c9","signalStrength":-50},{"age":4,"macAddress":"3a-5b-0e-a7-f4-1d","signalStrength":-50},{"age":4,"macAddress":"08-5b-0e-a7-e3-73","signalStrength":-51},{"age":4,"macAddress":"4a-5b-0e-a7-f4-1d","signalStrength":-51},{"age":4,"macAddress":"3a-5b-0e-a7-e3-73","signalStrength":-53},{"age":4,"macAddress":"08-5b-0e-a7-ef-c1","signalStrength":-54},{"age":4,"macAddress":"08-5b-0e-a7-f4-25","signalStrength":-55},{"age":4,"macAddress":"1a-5b-0e-a7-ef-c1","signalStrength":-55},{"age":4,"macAddress":"1a-5b-0e-a7-f4-25","signalStrength":-55},{"age":4,"macAddress":"2a-5b-0e-a7-f4-25","signalStrength":-55},{"age":4,"macAddress":"3a-5b-0e-a7-f4-25","signalStrength":-55},{"age":4,"macAddress":"4a-5b-0e-a7-f4-25","signalStrength":-55},{"age":4,"macAddress":"2a-5b-0e-a7-e3-73","signalStrength":-56},{"age":4,"macAddress":"1a-5b-0e-a7-f2-fd","signalStrength":-57},{"age":4,"macAddress":"08-5b-0e-a7-e3-7b","signalStrength":-58},{"age":4,"macAddress":"08-5b-0e-a7-f3-05","signalStrength":-58},{"age":4,"macAddress":"2a-5b-0e-a7-e3-7b","signalStrength":-58},{"age":4,"macAddress":"2a-5b-0e-a7-f3-05","signalStrength":-58},{"age":4,"macAddress":"3a-5b-0e-a7-e3-7b","signalStrength":-58},{"age":4,"macAddress":"3a-5b-0e-a7-ef-c1","signalStrength":-58},{"age":4,"macAddress":"3a-5b-0e-a7-f3-05","signalStrength":-58},{"age":4,"macAddress":"4a-5b-0e-a7-e3-7b","signalStrength":-58},{"age":4,"macAddress":"4a-5b-0e-a7-f2-fd","signalStrength":-58},{"age":4,"macAddress":"4a-5b-0e-a7-f3-05","signalStrength":-58},{"age":4,"macAddress":"1a-5b-0e-a7-e3-7b","signalStrength":-59},{"age":4,"macAddress":"1a-5b-0e-a7-f3-05","signalStrength":-59},{"age":4,"macAddress":"2a-5b-0e-a7-f2-fd","signalStrength":-59},{"age":4,"macAddress":"3a-5b-0e-a7-f2-fd","signalStrength":-59},{"age":4,"macAddress":"08-5b-0e-a7-f2-fd","signalStrength":-60},{"age":4,"macAddress":"3a-5b-0e-a7-e3-97","signalStrength":-79},{"age":4,"macAddress":"3a-5b-0e-a7-f2-c7","signalStrength":-79},{"age":4,"macAddress":"1a-5b-0e-a7-f2-cf","signalStrength":-82},{"age":4,"macAddress":"3a-5b-0e-a7-f2-cf","signalStrength":-82},{"age":4,"macAddress":"1a-5b-0e-a7-f3-0f","signalStrength":-83},{"age":4,"macAddress":"2a-5b-0e-a7-f2-cf","signalStrength":-83},{"age":4,"macAddress":"08-5b-0e-a7-f2-cf","signalStrength":-84},{"age":4,"macAddress":"2a-5b-0e-a7-f3-0f","signalStrength":-84},{"age":4,"macAddress":"4a-5b-0e-a7-f2-cf","signalStrength":-84},{"age":4,"macAddress":"2a-5b-0e-a7-eb-37","signalStrength":-85},{"age":4,"macAddress":"3a-5b-0e-a7-eb-37","signalStrength":-85},{"age":4,"macAddress":"4a-5b-0e-a7-eb-37","signalStrength":-85},{"age":4,"macAddress":"08-5b-0e-a7-eb-37","signalStrength":-86},{"age":4,"macAddress":"1a-5b-0e-a7-eb-37","signalStrength":-86}]}",
+            BODY_END,
+            END_INLINE,
+            "URL=http://m.jcpenney.com/b/assets/img/logo.svg?v=20160621140636", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/mobile/images/track_order.png", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/mobile/images/rewards.png", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;akaau", END_INLINE,
+            "URL=http://www88.jcpenney.com/cm?ci=90024642&st=1467031200068&vn1=4.16.9&ec=utf-8&vn2=e4.0&pi=Welcome&ul=http%3A%2F%2Fm.jcpenney.com%2F&tid=6&cg=Mobile%7CWelcome&rnd=1467038196681&pc=Y&jv=1.8.5&np0=Chrome%20PDF%20Viewer&np1=ActiveTouch%20General%20Plugin%20Container&np2=Microsoft%20Office%202013&np3=Adobe%20Acrobat&np4=Google%20Update&np5=Java%20Deployment%20Toolkit%207.0.800.5&np6=Java(TM)%20Platform%20SE%207%20U80&np7=Microsoft%20Office%202013&je=y&sw=1366&sh=768&pd=24&tz=-5.5&pv_a23=Google%20Chrome&pv_a38=responsive", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1", END_INLINE,
+            "URL=http://m.jcpenney.com/mobile/images/coupon.png", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;akaau;cmTPSet", END_INLINE,
+            "URL=http://m.jcpenney.com/mobile/images/gift_card.png", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;akaau;cmTPSet", END_INLINE,
+            "URL=http://m.jcpenney.com/mobile/images/ads.png", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;cmTPSet;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/mobile/images/customer_service.png", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;cmTPSet;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/mobile/images/save_items.png", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;cmTPSet;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/mobile/images/find_store.png", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;cmTPSet;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/mobile/images/recommendations.png", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;cmTPSet;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/mobile/images/account.png", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;cmTPSet;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/mobile/images/eGift.png", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;cmTPSet;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/mobile/images/store_services.png", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;cmTPSet;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/tablet//images/53800013v2.jpg", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;cmTPSet;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/tablet//images/pg00001_m2600027_53800014.jpg", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;cmTPSet;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/tablet//images/pg00001_m2600027_51600009.gif", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;cmTPSet;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/b/assets/img/app_icon.png", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;cmTPSet;akaau", END_INLINE,
+            "URL=http://s7d9.scene7.com/is/image/JCPenney/DP1212201317371926M.tif?$department_main$", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://m.jcpenney.com/b/assets/img/x.svg", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;cmTPSet;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/tablet/images/7215320_pp_tablet.jpg", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;cmTPSet;akaau", END_INLINE,
+            "URL=http://recs.richrelevance.com/rrserver/p13n_generated.js?a=5387d7af823640a7&ts=1467031202155&pt=%7Chome_page.content1_tablet_json&channelId=6506489ec3a5e8a8&cts=http%3A%2F%2Fm.jcpenney.com&flv=0.0.0&l=1", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://s7d9.scene7.com/is/image/JCPenney/DP0402201317025914M.tif?$department_main$", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://m.jcpenney.com/tablet/images/womens%20all%20womens%20tablet%20category%20icon.jpg", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;cmTPSet;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/tablet/images/womens%20lingerie_set%20tablet%20category%20icon.jpg", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;cmTPSet;akaau", END_INLINE,
+            "URL=http://m.jcpenney.com/tablet/images/mens%20suits%20n%20sportcoats2%20tablet%20category%20icon.jpg", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;cmTPSet;akaau", END_INLINE,
+            "URL=http://nexus.ensighten.com/jcpenney/prod/serverComponent.php?r=17318.119877018034&ClientID=730&PageID=http%3A%2F%2Fm.jcpenney.com%2F", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://m.jcpenney.com/tablet/images/6621408_pp_tablet.jpg", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;cmTPSet;akaau", END_INLINE,
+            "URL=http://s7d9.scene7.com/is/image/JCPenney/DP1003201417030645M.tif?$department_main$", "HEADER=Accept-Language:en-US,en;q=0.8", END_INLINE,
+            "URL=http://m.jcpenney.com/v2.1/products/ens6004030003?fields=prices,images,rating,id,manufacturerAdvertisedPrice,marketingLabel,isNew,name,isPreOrder", "HEADER=Accept-Language:en-US,en;q=0.8", "COOKIE=BNSOrigin;BNSPrevPercentage;mmcore.tst;mmapi.store.p.0;mmapi.store.s.0;clientTestPool1;cmTPSet;akaau;rr_rcs", "PreSnapshot=webpage_1467031203361.png", "Snapshot=webpage_1467031203411.png", END_INLINE
+    );
+    ns_end_transaction("API_Home_categories_GET", NS_AUTO_STATUS);
+    ns_end_transaction("MOB_HomePage", NS_AUTO_STATUS);
+    ns_page_think_time(0);
+    
+    // Logic to set no of items in Cart ....
+     int CartType = ns_get_random_number_int(0, 99);
+     if(CartType <= 28){
+               ns_set_int_val("ProductLoop",6);}    //  28% of users would have 6 item in cart
+       else if (CartType <= 78){
+                ns_set_int_val("ProductLoop",5);}   // 50% of users would have 5 item in cart
+       else if (CartType <= 88){
+                ns_set_int_val("ProductLoop",3);}   // 10% of users would have 3 item in cart
+       else if (CartType <= 93){
+                ns_set_int_val("ProductLoop",9);}   // 5% of users would have 9 item in cart
+       else if (CartType <= 95){
+                ns_set_int_val("ProductLoop",10);}   // 2% of users would have 10 item in cart
+       else{
+                ns_set_int_val("ProductLoop",1);}   // 5% of users would have 1 item in cart
+
+
+}

@@ -1,0 +1,66 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "ns_string.h"
+
+void S1_flow()
+{
+  char ptr1[128];
+  char ptr2[128];
+  char ptr3[128];
+
+  ns_web_url ("index_html",
+      //"URL=http://127.0.0.1:81/tours/index.html?S1v1={S1v1}&S1v2={S1v2}&S1v3={S1v3}",
+      "URL=http://127.0.0.1:81/tours/index.html",
+      "HEADER=Accept-Language: en-US",
+      //"HEADER=File Param (S1v1_data_file): S1v1 = {S1v1}, S1v2 = {S1v2}, S1v3 = {S1v3}",
+      //"HEADER=File Param (S1v4_data_file): S1v4 = {S1v4}, S1v5 = {S1v5}"
+      //"Body = Body:(S1v1_data_file): S1v1 = {S1v1}"
+      "Body = Body:(S1v1_data_file): S1v1 = {S1v1}, S1v2 = {S1v2}, S1v3 = {S1v3}"
+  );
+
+  //ns_advance_param("S1v1");
+  //ns_advance_param("S1v4");
+
+  //S1v1_data_file
+  strcpy(ptr1, ns_eval_string("{S1v1}"));
+  strcpy(ptr2, ns_eval_string("{S1v2}"));
+  strcpy(ptr3, ns_eval_string("{S1v3}"));
+
+  printf("File param (S1v1) values: NVM = %d, Vuser Id = %d, Sess Ins = %d, "
+                                    "S1v1 = [%s], S1v2 = [%s], S1v3 = [%s]\n", 
+                                     ns_get_nvmid(), ns_get_userid(), ns_get_sessid(), ptr1, ptr2, ptr3); 
+    ns_page_think_time(5);
+  return 0;
+
+    ns_web_url ("login",
+        "URL=http://127.0.0.1:81/cgi-bin/login?userSession=75893.0884568651DQADHfApHDHfcDtccpfAttcf&username=netstorm&password=netstorm&JSFormSubmit=off&login.x=52&login.y=10",
+        "HEADER=Accept-Language: en-US",
+        "HEADER=Header: (S1v1_data_file): S1v1 = {S1v1}, S1v2 = {S1v2}, S1v3 = {S1v3}",
+        INLINE_URLS,
+            "URL=http://127.0.0.1:81/tours/Merc10-dev/images/banner_animated.gif", "HEADER=Accept-Language: en-US", END_INLINE,
+            "URL=http://127.0.0.1:81/tours/Merc10-dev/images/sun_swede.gif", "HEADER=Accept-Language: en-US", END_INLINE,
+            "URL=http://127.0.0.1:81/tours/Merc10-dev/images/flights.gif", "HEADER=Accept-Language: en-US", END_INLINE,
+            "URL=http://127.0.0.1:81/tours/Merc10-dev/images/home.gif", "HEADER=Accept-Language: en-US", END_INLINE,
+            "URL=http://127.0.0.1:81/tours/Merc10-dev/images/signoff.gif", "HEADER=Accept-Language: en-US", END_INLINE,
+            "URL=http://127.0.0.1:81/tours/images/banner_merctur.jpg", "HEADER=Accept-Language: en-US", END_INLINE,
+            "URL=http://127.0.0.1:81/tours/vep/images/velocigen.gif", "HEADER=Accept-Language: en-US", END_INLINE
+    );
+
+  //ns_advance_param("S1v1");
+  strcpy(ptr1, ns_eval_string("{S1v1}"));
+  strcpy(ptr2, ns_eval_string("{S1v2}"));
+  strcpy(ptr3, ns_eval_string("{S1v3}"));
+
+  printf("File param (S1v1) values: NVM = %d, Vuser Id = %d, Sess Ins = %d, "
+                                    "S1v1 = [%s], S1v2 = [%s], S1v3 = [%s]\n", 
+                                     ns_get_nvmid(), ns_get_userid(), ns_get_sessid(), ptr1, ptr2, ptr3); 
+  //ns_advance_param("S1v1");
+  strcpy(ptr1, ns_eval_string("{S1v1}"));
+  strcpy(ptr2, ns_eval_string("{S1v2}"));
+  strcpy(ptr3, ns_eval_string("{S1v3}"));
+
+  printf("File param (S1v1) values: NVM = %d, Vuser Id = %d, Sess Ins = %d, "
+                                    "S1v1 = [%s], S1v2 = [%s], S1v3 = [%s]\n", 
+                                     ns_get_nvmid(), ns_get_userid(), ns_get_sessid(), ptr1, ptr2, ptr3); 
+}

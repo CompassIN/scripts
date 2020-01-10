@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SFixed32 {
+  sfixed32 sfixed32_field1 = 1;
+  sfixed32 sfixed32_field2 = 2;
+  sfixed32 sfixed32_field3 = 3;
+}

@@ -1,0 +1,6 @@
+0:Block1
+1:Block1|Rebate
+2:Block1|Rebate|Rebate
+3:Block1|CouponSelection
+4:Block1|CouponSelection|(pct=100.0%)DirectCoupons
+5:Block1|CouponSelection|(pct=100.0%)DirectCoupons|Coupons

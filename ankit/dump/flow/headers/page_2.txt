@@ -1,0 +1,28 @@
+--Request 
+POST https://unagi-eu.amazon.com/1/events/com.amazon.csm.nexusclient.prod
+Host: unagi-eu.amazon.com
+Origin: https://www.amazon.in
+Accept: */*
+Cache-Control: max-age=0
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Content-Type: text/plain;charset=UTF-8
+----
+ POSTDATA {"cs":{"dct":{"#0":"requestId","#1":"QTX88JN8XW6309TZ412A","#2":"server","#3":"www.amazon.in","#4":"obfuscatedMarketplaceId","#5":"A21TJRUUN4KGV","#6":"producerId","#7":"csm","#8":"schemaId","#9":"csm.CSMBaselineEvent.4","#10":"timestamp","#11":"messageId","#12":"sessionId","#13":"260-6898445-8949221"}},"events":[{"data":{"#0":"#1","#2":"#3","#4":"#5","#6":"#7","#8":"#9","#10":"2019-07-17T18:23:35.403Z","#11":"QTX88JN8XW6309TZ412A-1563387815403-6807829499","#12":"#13"}}]}
+--Response 
+HTTP/1.1 200 OK
+Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+Server: Server
+Access-Control-Allow-Origin: https://www.amazon.in
+Connection: keep-alive
+Content-Encoding: gzip
+x-amzn-RequestId: 88ee6afe-72f7-4b40-901d-37386a1d7afd
+Vary: Origin,Accept-Encoding,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment,User-Agent
+x-amz-rid: E0BD9ZEXBZQZC77PWKN1
+Content-Length: 22
+Date: Wed, 17 Jul 2019 18:23:40 GMT
+Content-Type: application/json
+----
+

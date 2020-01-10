@@ -1,0 +1,31 @@
+--Request 
+GET https://www.amazon.in/gp/aq-feedback/lazyLoad/handler/af-link-handler.html?pl=%7B%22adPlacementMetaData%22%3A%7B%22pageUrl%22%3A%22aHR0cHM6Ly93d3cuYW1hem9uLmluL1dFQi1JTkYvdmlld3MvbWVkbGV5UkFXUGFnZVZpZXcuanNwP3JlZiU1Rj1iYnAlNUZiYiU1RmQzM2EzOCU1RnN0JTVGQ0NxaCU1RnclNUYwJnBzYz0xJnNtaWQ9QU5USlBMNDVBOVZDTg%3D%3D%22%2C%22adElementId%22%3A%22ape_Detail_customer-reviews-top_Glance_placement%22%2C%22pageType%22%3A%22Detail%22%2C%22slotName%22%3A%22customer-reviews-top%22%7D%2C%22adCreativeMetaData%22%3A%7B%22adNetwork%22%3A%22cs%22%2C%22adProgramId%22%3A1024%2C%22adImpressionId%22%3A%22https%3A%2F%2Faax-eu.amazon-adsystem.com%2Fe%2Fxsp%2Fimp%3Fb%3DQq9yOPqeUJhodw37gmP7sGIAAAFsAS3UZgMAAAH_AerdFRs%22%2C%22adCreativeId%22%3A-1924146692%2C%22adId%22%3A20020073183707%2C%22adCreativeDetails%22%3A%5B%7B%22asin%22%3A%22B00J58O0T0%22%2C%22title%22%3A%22Fastrack%20Aviator%20unisex%20Sunglasses%20(M062GR2Grey)%22%2C%22price%22%3A%22INR%22%2C%22merchantName%22%3A%22Cloudtail%20India%22%2C%22merchantCustomerID%22%3A%22AT95IG9ONZD7S%22%2C%22sku%22%3A%22B00J58O0T0%22%2C%22adId%22%3A%22A021170610LOUEAQ2ND76%22%2C%22campaignId%22%3A%22A036110434EAG7JAKVIEC%22%7D%5D%7D%7D
+Host: www.amazon.in
+Cookie: session-id=260-6898445-8949221; i18n-prefs=INR; ubid-acbin=262-8671103-6623656; x-wl-uid=1OfaMC7JpnskpcFBQZ0Uq5V8k/Li+eH9j/u3WVuWMZt5YlTHc5uQTLxZFK0jTKGcRFjeKmsxSpo8=; visitCount=1; session-token=\"FOD9ahBmF5GIKmPl1E0GHlNJV5EedVXMFVEZhlbBTx0kTXXMg1IYR5c5brnaRCYcCUYDFNILc5DnAHxrFPaxoptoxnDRXfbxQaDXulcLsGquoPty2zDMdmxnHPRVTtAnQDJ5n7OZtZxq8SQ36hwOyZ/OIwYQLZ84s7v4Fd3QqFQ7zkpZa9aeDQF9Ysr3lsS5MnV7pdgpl47Vgy7x4V7fxgY/Hg2HKg2CyscZ924Wm5C+krHuGrc01w==\"; lc-acbin=en_IN; csm-hit=tb:s-0ZFJYD08MQTRDRQYVHA4|1563387878215&t:1563387880574&adb:adblk_no; session-id-time=2082758401l
+Accept: */*
+Referer: https://www.amazon.in/Giant-Innovative-Stylish-Sunglasses-Aviator/dp/B07MPSZ7NK/ref=bbp_bb_d33a38_st_CCqh_w_0?psc=1&smid=ANTJPL45A9VCN
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+----
+ POSTDATA {"events":[{"data":{"qualifier":"1563387876","id":"260351114673563","widgetName":"sp_detail2","adId":"20022518384305","adIndex":"6","eventType":"2"}}]}
+--Response 
+HTTP/1.1 200
+date: Wed, 17 Jul 2019 18:24:45 GMT
+x-amz-cf-pop: ORD52-C1
+server: Server
+vary: Accept-Encoding,User-Agent,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment
+content-encoding: gzip
+x-frame-options: SAMEORIGIN
+x-amz-rid: KYPN150GF2AZWFS81G4S
+strict-transport-security: max-age=47474747; includeSubDomains; preload
+via: 1.1 1bc8b41b2ed9cf32d0eba23fa9af49b3.cloudfront.net (CloudFront)
+set-cookie: session-id=260-6898445-8949221; path=/; domain=.amazon.in; expires=Tue, 01-Jan-2036 00:00:01 GMT
+content-type: application/json
+x-amz-id-1: KYPN150GF2AZWFS81G4S
+x-cache: Miss from cloudfront
+cache-control: no-transform
+x-amz-cf-id: XFBMaYCZh4Ka9B92O5Mrnu2hcrZH6SihEtvaqNCP0PZ1_ltJfEbEDg==
+status: 200
+----
+

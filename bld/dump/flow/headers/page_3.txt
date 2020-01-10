@@ -1,0 +1,242 @@
+--Request 
+GET http://10.10.30.16/account/login
+Host: 10.10.30.16
+Cookie: session=eyJfcGVybWFuZW50Ijp0cnVlfQ.D4jBkg.2J5AWNQiaX53DckUdElJmtbqTgs
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+Referer: http://10.10.30.16/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+----
+--Response 
+HTTP/1.1 200 OK
+Keep-Alive: timeout=5, max=100
+Transfer-Encoding: chunked
+Server: Apache/2.4.18 (Ubuntu)
+Connection: Keep-Alive
+Content-Encoding: gzip
+Set-Cookie: session=eyJfcGVybWFuZW50Ijp0cnVlfQ.D4jBmw.PLipcbfd3MGRQ2VOLMKW1v892Ms; Expires=Fri, 05-Apr-2019 12:18:19 GMT; HttpOnly; Path=/
+Vary: Accept-Encoding
+Date: Fri, 05 Apr 2019 10:38:19 GMT
+Content-Type: text/html; charset=utf-8
+----
+--Request 
+GET http://10.10.30.16/static/css/bootstrap.min2.css
+Host: 10.10.30.16
+Cookie: session=eyJfcGVybWFuZW50Ijp0cnVlfQ.D4jBmw.PLipcbfd3MGRQ2VOLMKW1v892Ms
+Accept: text/css,*/*;q=0.1
+Referer: http://10.10.30.16/account/login
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+----
+--Response 
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Server: Apache/2.4.18 (Ubuntu)
+ETag: \"1d970-56efbbdcb84d3-gzip\"
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Last-Modified: Tue, 19 Jun 2018 09:59:43 GMT
+Content-Length: 19744
+Date: Fri, 05 Apr 2019 10:38:10 GMT
+Content-Type: text/css
+----
+--Request 
+GET http://10.10.30.16/static/css/rametto.css
+Host: 10.10.30.16
+Cookie: session=eyJfcGVybWFuZW50Ijp0cnVlfQ.D4jBmw.PLipcbfd3MGRQ2VOLMKW1v892Ms
+Accept: text/css,*/*;q=0.1
+Referer: http://10.10.30.16/account/login
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+----
+--Response 
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Server: Apache/2.4.18 (Ubuntu)
+ETag: \"343-56efbbdc9563b-gzip\"
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Last-Modified: Tue, 19 Jun 2018 09:59:43 GMT
+Content-Length: 365
+Date: Fri, 05 Apr 2019 10:38:10 GMT
+Content-Type: text/css
+----
+--Request 
+GET http://10.10.30.16/static/css/srikhand.css
+Host: 10.10.30.16
+Cookie: session=eyJfcGVybWFuZW50Ijp0cnVlfQ.D4jBmw.PLipcbfd3MGRQ2VOLMKW1v892Ms
+Accept: text/css,*/*;q=0.1
+Referer: http://10.10.30.16/account/login
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+----
+--Response 
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Server: Apache/2.4.18 (Ubuntu)
+ETag: \"480-56efbbdce306b-gzip\"
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Last-Modified: Tue, 19 Jun 2018 09:59:43 GMT
+Content-Length: 408
+Date: Fri, 05 Apr 2019 10:38:10 GMT
+Content-Type: text/css
+----
+--Request 
+GET http://10.10.30.16/static/css/style.css
+Host: 10.10.30.16
+Cookie: session=eyJfcGVybWFuZW50Ijp0cnVlfQ.D4jBmw.PLipcbfd3MGRQ2VOLMKW1v892Ms
+Accept: text/css,*/*;q=0.1
+Referer: http://10.10.30.16/account/login
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+----
+--Response 
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Server: Apache/2.4.18 (Ubuntu)
+ETag: \"d0a-56efbbdb3de25-gzip\"
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Last-Modified: Tue, 19 Jun 2018 09:59:42 GMT
+Content-Length: 1097
+Date: Fri, 05 Apr 2019 10:38:10 GMT
+Content-Type: text/css
+----
+--Request 
+GET http://10.10.30.16/static/css/radiocheck.css
+Host: 10.10.30.16
+Cookie: session=eyJfcGVybWFuZW50Ijp0cnVlfQ.D4jBmw.PLipcbfd3MGRQ2VOLMKW1v892Ms
+Accept: text/css,*/*;q=0.1
+Referer: http://10.10.30.16/account/login
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+----
+--Response 
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Server: Apache/2.4.18 (Ubuntu)
+ETag: \"283-56efbbdcd9813-gzip\"
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Last-Modified: Tue, 19 Jun 2018 09:59:43 GMT
+Content-Length: 339
+Date: Fri, 05 Apr 2019 10:38:10 GMT
+Content-Type: text/css
+----
+--Request 
+GET http://10.10.30.16/account/static/js/jquery.min.js
+Host: 10.10.30.16
+Cookie: session=eyJfcGVybWFuZW50Ijp0cnVlfQ.D4jBmw.PLipcbfd3MGRQ2VOLMKW1v892Ms
+Accept: */*
+Referer: http://10.10.30.16/account/login
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+----
+--Response 
+HTTP/1.1 200 OK
+Keep-Alive: timeout=5, max=99
+Transfer-Encoding: chunked
+Server: Apache/2.4.18 (Ubuntu)
+Connection: Keep-Alive
+Last-Modified: Tue, 19 Jun 2018 09:59:44 GMT
+Date: Fri, 05 Apr 2019 10:38:19 GMT
+Accept-Ranges: bytes
+Cache-Control: public, max-age=43200
+ETag: \"1529402384.08-85578-3427866322-gzip\"
+Content-Encoding: gzip
+Set-Cookie: session=eyJfcGVybWFuZW50Ijp0cnVlfQ.D4jBmw.PLipcbfd3MGRQ2VOLMKW1v892Ms; Expires=Fri, 05-Apr-2019 12:18:19 GMT; HttpOnly; Path=/
+Vary: Accept-Encoding
+Expires: Fri, 05 Apr 2019 22:38:19 GMT
+Content-Type: application/javascript
+----
+--Request 
+GET http://10.10.30.16/account/static/js/bootstrap.min.js
+Host: 10.10.30.16
+Cookie: session=eyJfcGVybWFuZW50Ijp0cnVlfQ.D4jBmw.PLipcbfd3MGRQ2VOLMKW1v892Ms
+Accept: */*
+Referer: http://10.10.30.16/account/login
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+----
+--Response 
+HTTP/1.1 200 OK
+Keep-Alive: timeout=5, max=100
+Transfer-Encoding: chunked
+Server: Apache/2.4.18 (Ubuntu)
+Connection: Keep-Alive
+Last-Modified: Tue, 19 Jun 2018 09:59:44 GMT
+Date: Fri, 05 Apr 2019 10:38:19 GMT
+Accept-Ranges: bytes
+Cache-Control: public, max-age=43200
+ETag: \"1529402384.28-37045-341973008-gzip\"
+Content-Encoding: gzip
+Set-Cookie: session=eyJfcGVybWFuZW50Ijp0cnVlfQ.D4jBmw.PLipcbfd3MGRQ2VOLMKW1v892Ms; Expires=Fri, 05-Apr-2019 12:18:19 GMT; HttpOnly; Path=/
+Vary: Accept-Encoding
+Expires: Fri, 05 Apr 2019 22:38:19 GMT
+Content-Type: application/javascript
+----
+--Request 
+GET http://10.10.30.16/account/static/js/notify.min.js
+Host: 10.10.30.16
+Cookie: session=eyJfcGVybWFuZW50Ijp0cnVlfQ.D4jBmw.PLipcbfd3MGRQ2VOLMKW1v892Ms
+Accept: */*
+Referer: http://10.10.30.16/account/login
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+----
+--Response 
+HTTP/1.1 200 OK
+Keep-Alive: timeout=5, max=100
+Transfer-Encoding: chunked
+Server: Apache/2.4.18 (Ubuntu)
+Connection: Keep-Alive
+Last-Modified: Tue, 19 Jun 2018 09:59:44 GMT
+Date: Fri, 05 Apr 2019 10:38:19 GMT
+Accept-Ranges: bytes
+Cache-Control: public, max-age=43200
+ETag: \"1529402384.25-13780-3424523979-gzip\"
+Content-Encoding: gzip
+Set-Cookie: session=eyJfcGVybWFuZW50Ijp0cnVlfQ.D4jBmw.PLipcbfd3MGRQ2VOLMKW1v892Ms; Expires=Fri, 05-Apr-2019 12:18:19 GMT; HttpOnly; Path=/
+Vary: Accept-Encoding
+Expires: Fri, 05 Apr 2019 22:38:19 GMT
+Content-Type: application/javascript
+----
+--Request 
+GET http://10.10.30.16/account/static/js/notify.js
+Host: 10.10.30.16
+Cookie: session=eyJfcGVybWFuZW50Ijp0cnVlfQ.D4jBmw.PLipcbfd3MGRQ2VOLMKW1v892Ms
+Accept: */*
+Referer: http://10.10.30.16/account/login
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+----
+--Response 
+HTTP/1.1 200 OK
+Keep-Alive: timeout=5, max=100
+Transfer-Encoding: chunked
+Server: Apache/2.4.18 (Ubuntu)
+Connection: Keep-Alive
+Last-Modified: Tue, 19 Jun 2018 09:59:43 GMT
+Date: Fri, 05 Apr 2019 10:38:19 GMT
+Accept-Ranges: bytes
+Cache-Control: public, max-age=43200
+ETag: \"1529402383.9-21509-1934693721-gzip\"
+Content-Encoding: gzip
+Set-Cookie: session=eyJfcGVybWFuZW50Ijp0cnVlfQ.D4jBmw.PLipcbfd3MGRQ2VOLMKW1v892Ms; Expires=Fri, 05-Apr-2019 12:18:19 GMT; HttpOnly; Path=/
+Vary: Accept-Encoding
+Expires: Fri, 05 Apr 2019 22:38:19 GMT
+Content-Type: application/javascript
+----
+

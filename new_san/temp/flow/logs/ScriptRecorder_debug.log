@@ -1,0 +1,89 @@
+6/12 0:59:8|ChromeMainFrame|createBrowserWindowWithListener|constructor called.
+6/12 0:59:8|ChromeBrowserConfigurationSettings|EnableDisableBrowserOtions|method called.
+6/12 0:59:8|ChromeBrowserConfigurationSettings|EnableDisableBrowserOtions|Enabling JavaScript feature.
+6/12 0:59:8|ChromeBrowserConfigurationSettings|EnableDisableBrowserOtions|Enabling ImageDownload feature.
+6/12 0:59:8|ChromeBrowserConfigurationSettings|EnableDisableBrowserOtions|Enabling Plugins feature.
+6/12 0:59:8|ChromeBrowserConfigurationSettings|clearLocalStorage|Method called.
+6/12 0:59:8|ChromeBrowserConfigurationSettings|setSecurityCertificationErrors|Method called.
+6/12 0:59:8|ChromeMainFrame|addStatusAndTitleBrowser|Method called.
+6/12 0:59:8|ChromeMainFrame|addPageNavigationListeners|method called.
+6/12 0:59:8|ChromeBrowserNavigationListener|ChromeBrowserNavigationListener|Constructor Called.
+6/12 0:59:8|ChromeRecordingHttpListener||constructor called.
+6/12 0:59:8|ChromeMainFrame|createinitUI|constructor called.
+6/12 0:59:8|TabContent|createComponents|method called.
+6/12 0:59:8|TabContent|createBrowserContainer|method called.
+6/12 0:59:8|TabContent|createToolBar|method called.
+6/12 0:59:8|ProgressBar|initializeGUI|Method Called
+6/12 0:59:8|ToolBar|createToolBarComponents|method called.
+6/12 0:59:8|ToolBar|createAddressBar|method called.
+6/12 0:59:8|ToolBar|createActionsPane|method called.
+6/12 0:59:9|ChromeBrowserNavigationListener|onStartLoadingFrame|Method Called for URL=http://10.10.30.111:81/tours/index.htm
+6/12 0:59:9|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+6/12 0:59:9|ChromeBrowserNavigationListener|onStartLoadingFrame|Begin Loading URL == http://10.10.30.111:81/tours/index.htm  ===== Begin = 1560324549126
+6/12 0:59:9|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+6/12 0:59:9|Utils|getURLTracker|urlString = http://10.10.30.111:81/tours/index.htm, requestOrResponce = snapShot
+6/12 0:59:9|Utils|getURLTracker|urlString = http://10.10.30.111:81/tours/index.htm, requestOrResponce = request
+6/12 0:59:9|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1560324549133
+6/12 0:59:9|Utils|convertToSecond method called|time = 601.0
+6/12 0:59:9|Utils|isSplit|Method called.
+6/12 0:59:9|Utils|isSplit|Splitting for Ajax Header = false
+6/12 0:59:9|Utils|isSplit|Splitting for method GET = false
+6/12 0:59:9|Utils|isSplit|result = false
+6/12 0:59:9|ProgressBar|setVisible|Method Called. bool = true
+6/12 0:59:9|Utils|isSplitForTimeDiff|Method called.
+6/12 0:59:9|Utils|isSplit|result = false
+6/12 0:59:9|Utils|isSplitForURLType|Method called.
+6/12 0:59:9|Utils|isSplitForURLType|value = false
+6/12 0:59:9|Utils|isSplitForURLType|value = false
+6/12 0:59:9|Utils|isSplit|isSplitForURLType = false
+6/12 0:59:30|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\sande\Desktop\recorder\scripts\default/default/new_san\dump\flow\10.10.30.111_81/tours/
+6/12 0:59:31|ChromeBrowserNavigationListener|onFailLoadingFrame|Method Called. Error in loading frame
+6/12 0:59:31|ChromeBrowserNavigationListener|onFinishLoadingFrame|Method Called for URL=chrome-error://chromewebdata/
+6/12 0:59:31|Utils|getURLTracker|urlString = http://chromewebdata/, requestOrResponce = snapShot
+6/12 0:59:31|WebCFormattor||constructor called.
+6/12 0:59:31|ProgressBar|setVisible|Method Called. bool = false6/12 0:59:31|ChromeCClickListener|addAllHTMLElementsListeners|Method Called.
+
+6/12 0:59:31|ScriptHTMLStart|Recording|Thread state =2
+6/12 0:59:31|ScriptHTMLStart|run|Setting thread state.State of Thread - 2
+6/12 0:59:43|ChromeMainFrame|addBrowserDisposeListener|browser disposed called.
+6/12 0:59:43|WebCFormattor|generateScripts|method called.
+6/12 0:59:43|Utils|addLastPageLeftUrlsToInlineUrlsOfLastPage|Method called.
+6/12 0:59:43|Utils|modifyMapForSplit|Method called.
+6/12 0:59:43|Utils|modifyMapForSplit|Before Modify URL Map Size :1
+6/12 0:59:43|Utils|modifyMapForThinkTime|Method called.
+6/12 0:59:43|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1560324463022
+6/12 0:59:43|Utils|convertToSecond method called|time = -85510.0
+6/12 0:59:43|Utils|modifyMapForThinkTime|Modifying url list for last page=index, startThink=0.0, endThink=-85.51
+6/12 0:59:43|Utils|modifyMapForSplit|After Modify URL Map Size :1
+6/12 0:59:43|Utils|generateEventDetail|method called.
+6/12 0:59:43|Utils|getTimeStampForPage|Method called.
+6/12 0:59:43|Utils|generateUrlInfoListDetail|method called
+6/12 0:59:43|Utils|getTimeStampForPage|Method called.
+6/12 0:59:43|Utils|generateUrlInfoListDetail|URL = http://10.10.30.111:81/tours/index.htm
+6/12 0:59:43|Utils|generateUrlInfoListDetail|ScriptparsingData =http://10.10.30.111:81/tours/index.htm
+6/12 0:59:43|Utils|generateUrlInfoListDetail|UrlTracker.scriptParsingData.getParsedPath()=10.10.30.111_81/tours/, Utils.getDumpPath() = C:\Users\sande\Desktop\recorder\scripts\default/default/new_san\dump\flow
+6/12 0:59:43|Utils|generateUrlInfoListDetail|URL = http://chromewebdata/
+6/12 0:59:43|Utils|generateUrlInfoListDetail|Setting url info object =http://chromewebdata/
+6/12 0:59:43|Utils|filterPath|path = http://chromewebdata/
+6/12 0:59:43|Utils|getFileName|path = http://chromewebdata/
+6/12 0:59:43|Utils|getFileName|filename for dump = index
+6/12 0:59:43|Utils|filterPath|path = http://chromewebdata/
+6/12 0:59:43|WebCFormattor|generateEventsForFlow|method called.
+6/12 0:59:43|WebCGenerator|generate|method called.
+6/12 0:59:43|WebCGenerator|generate|Putting header comments in Buffer.
+6/12 0:59:43|WebCGenerator|generate|Processing URLs with list size=1
+6/12 0:59:43|Utils|getTimeStampForPage|Method called.
+6/12 0:59:43|WebCGenerator|getValidURL|Since this URL is not in filtered list, returning the URL=http://10.10.30.111:81/tours/index.htm
+6/12 0:59:43|Utils|getTimeStampForPage|Method called.
+6/12 0:59:43|WebCGenerator|getUrlReqAndResDetails|method called.
+6/12 0:59:43|WebCGenerator|appendRealBrowserData|method called. The isRealBrowser value = false
+6/12 0:59:43|WebCGenerator|generate|Adding Inline template to the page.
+6/12 0:59:43|WebCGenerator|appendHeadersAndEndline|method called.
+6/12 0:59:43|WebCGenerator|getUrlReqAndResDetails|method called.
+6/12 0:59:43|Utils|convertToSecond method called|time = 85.51
+6/12 0:59:43|ChromeMainFrame|addBrowserDisposeListener|browser disposed Exiting.
+6/12 0:59:46|ScriptHTMLStart|stopRecording|Method Called.
+6/12 0:59:46|ScriptHTMLStart|stopRecording|Going to stop recording
+6/12 0:59:46|NSChromeBrowser|stopRecord|Method called.
+6/12 0:59:46|ScriptHTMLStart|stopRecording|Going to upload script to server.
+6/12 0:59:47|ScriptRecordUtils|saveScriptToServer|method called.

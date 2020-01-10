@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SFixed64 {
+  repeated sfixed64 sfixed64_field1 = 1;
+}

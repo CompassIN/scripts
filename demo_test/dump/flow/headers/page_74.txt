@@ -1,0 +1,75 @@
+--Request 
+GET https://www.amazon.in/gp/aq-feedback/lazyLoad/handler/af-link-handler.html?pl=%7B%22adPlacementMetaData%22%3A%7B%22pageUrl%22%3A%22aHR0cHM6Ly93d3cuYW1hem9uLmluL1dFQi1JTkYvdmlld3MvbWVkbGV5UkFXUGFnZVZpZXcuanNwP3JlZiU1Rj1scCU1RjE2MTgyMTE4MDMxJTVGMSU1RjEmcz1lbGVjdHJvbmljcyZxaWQ9MTU2MjU5MjI3NCZzcj0xLTE%3D%22%2C%22adElementId%22%3A%22ape_Detail_customer-reviews-top_Glance_placement%22%2C%22pageType%22%3A%22Detail%22%2C%22slotName%22%3A%22customer-reviews-top%22%7D%2C%22adCreativeMetaData%22%3A%7B%22adNetwork%22%3A%22cs%22%2C%22adProgramId%22%3A1024%2C%22adImpressionId%22%3A%22https%3A%2F%2Faax-eu.amazon-adsystem.com%2Fe%2Fxsp%2Fimp%3Fb%3DQm9ZjQIeOzOFuOzbqkmP7E0AAAFr0cI07AMAAAH_AW6uXtg%22%2C%22adCreativeId%22%3A-1924146692%2C%22adId%22%3A20022327974602%2C%22adCreativeDetails%22%3A%5B%7B%22asin%22%3A%22B07RB1T7SJ%22%2C%22title%22%3A%22WeCool%20Cannon%20Bluetooth%20Speaker%20with%20Mic%20%7C%20High%20Bass%20Stereo%20Sound%20Portable%20Bluetooth%20Speakers%20Wireless%2C%20Mini%20Speaker%20for%20Mobile%20(Black)%22%2C%22price%22%3A%22INR%22%2C%22merchantName%22%3A%22WeCool%20Technology%22%2C%22merchantCustomerID%22%3A%22ABWP8ROYPGB1Q%22%2C%22sku%22%3A%22Hoox%2001%22%2C%22adId%22%3A%22A05783493BYIF0CV2K0X2%22%2C%22campaignId%22%3A%22A0785691275B10Z8FZCHY%22%7D%5D%7D%7D
+Host: www.amazon.in
+Cookie: session-id=259-1202557-5929705; i18n-prefs=INR; ubid-acbin=258-0672242-6953331; x-wl-uid=1ecJvyxzwiGLpb/ivu3x3ngupYO7bY1+BPjlMC56V5J9AKfsIjsCkfc+Jr7a3C9XLJxX0u1syPM0=; visitCount=1; session-token=\"qbOQOkS0VEpBUocLOZRgf/vBjfAa/L1gvzuk4dHaABRLwBcXdkoWG+tgKYovU/GtpgviGH2ntZ17AVp7e48ZFY6MNw3iH/RJtLL2eZrJEHt3s9Cy0QE8n08HbD+hmqwfffrZuHf+ncTYp9ne7NmDLRaqAwIAVoD+O39gZOoyeiIbwRC9aZp+vc79loUdfIgRN7k1iETJ2x2I7SZjKc9arkykk2SqRFhbbijoObQQg4mvjy58UMqGvQ==\"; lc-acbin=en_IN; csm-hit=tb:s-XS1R1NSST0MSNB81W2M8|1562592294012&t:1562592295847&adb:adblk_no; session-id-time=2082787201l
+Accept: */*
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:24:59 GMT
+x-amz-cf-pop: DEL51
+server: Server
+vary: Accept-Encoding,User-Agent,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment
+content-encoding: gzip
+x-frame-options: SAMEORIGIN
+x-amz-rid: 2AGTK91Y5F83MAGWH04Y
+strict-transport-security: max-age=47474747; includeSubDomains; preload
+via: 1.1 2cbe2d6bb9079c1d153e7e15e9eac3c8.cloudfront.net (CloudFront)
+set-cookie: session-id=259-1202557-5929705; path=/; domain=.amazon.in; expires=Tue, 01-Jan-2036 00:00:01 GMT
+content-type: application/json
+x-amz-id-1: 2AGTK91Y5F83MAGWH04Y
+x-cache: Miss from cloudfront
+cache-control: no-transform
+x-amz-cf-id: Ua6frj7dsBkgt-UJZZ5vnciChS4xya52tz4RLhLdk-Wr_ZPA-hhIFQ==
+status: 200
+----
+--Request 
+GET https://cloudfront-labs.amazonaws.com/x.png
+Host: cloudfront-labs.amazonaws.com
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 302 Found
+Cache-Control: private
+Server: Server
+Access-Control-Allow-Origin: *
+Expires: Thu, 01 Jan 1970 00:00:00 UTC
+Content-Length: 0
+Date: Mon, 08 Jul 2019 13:24:59 GMT
+Location: https://afd668173c15dceacd316d037106fb5b5.profile.lhr61-c1.cloudfront.net/test.png
+----
+--Request 
+GET https://aax-eu.amazon-adsystem.com/s/iu3?d=amazon.in&slot=navFooter&a2=010167e39654ed462ded327d5bc14af764ce778e0ead47b9221cdb8bb4f01946cace&old_oo=0&ts=1562592293567&s=AbaH76zSnZ1ngHr1hqsClkrPkOAp7kFyvuR_kUAJJV2F&cb=1562592293567
+Host: aax-eu.amazon-adsystem.com
+Cookie: ad-id=A12g3-vssU7xrcsPDnR90f0; ad-privacy=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200 OK
+Server: Server
+Connection: keep-alive
+Pragma: no-cache
+p3p: policyref=\"https://www.amazon.com/w3c/p3p.xml\", CP=\"PSAo PSDo OUR SAM OTR DSP COR\"
+Date: Mon, 08 Jul 2019 13:24:59 GMT
+Cache-Control: max-age=0, no-cache, no-store, private, must-revalidate, s-maxage=0
+Content-Encoding: gzip
+Set-Cookie: ad-privacy=0; Domain=.amazon-adsystem.com; Expires=Wed, 01-Apr-2020 13:24:59 GMT; Path=/; HttpOnly
+Vary: Accept-Encoding,User-Agent
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Content-Length: 220
+Content-Type: text/html;charset=ISO-8859-1
+----
+

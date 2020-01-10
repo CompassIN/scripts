@@ -1,0 +1,23 @@
+--Request 
+POST https://fls-eu.amazon.in/1/batch/1/OE/
+Host: fls-eu.amazon.in
+Cookie: session-id=259-1202557-5929705; i18n-prefs=INR; ubid-acbin=258-0672242-6953331; x-wl-uid=1ecJvyxzwiGLpb/ivu3x3ngupYO7bY1+BPjlMC56V5J9AKfsIjsCkfc+Jr7a3C9XLJxX0u1syPM0=; visitCount=1; session-token=\"qbOQOkS0VEpBUocLOZRgf/vBjfAa/L1gvzuk4dHaABRLwBcXdkoWG+tgKYovU/GtpgviGH2ntZ17AVp7e48ZFY6MNw3iH/RJtLL2eZrJEHt3s9Cy0QE8n08HbD+hmqwfffrZuHf+ncTYp9ne7NmDLRaqAwIAVoD+O39gZOoyeiIbwRC9aZp+vc79loUdfIgRN7k1iETJ2x2I7SZjKc9arkykk2SqRFhbbijoObQQg4mvjy58UMqGvQ==\"; lc-acbin=en_IN; session-id-time=2082787201l
+Origin: https://www.amazon.in
+Accept: */*
+Cache-Control: max-age=0
+Referer: https://www.amazon.in/b?ie=UTF8&node=16182118031&s=review-rank&pf_rd_p=5257cbb4-a92e-49af-bb2e-3535232a9738&pf_rd_r=FQHMBRA36T6KVA44S1T8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Content-Type: text/plain;charset=UTF-8
+----
+ POSTDATA {"rid":"EH62JJ2C4MP7MD1QJXHQ","sid":"259-1202557-5929705","mid":"A21TJRUUN4KGV","sn":"www.amazon.in","reqs":[{"jserr-rw":{"m":"ISS AJAX call failed for iss-warmup with responseText: Invalid Request: mid [null] alias [undefined], pageType: Landing, status: error, error: Bad Request","csm":"v5 ueLogError callee","logLevel":"WARN","attribution":"iss-warmup","pageURL":"https://www.amazon.in/b?ie=UTF8&node=16182118031&s=review-rank&pf_rd_p=5257cbb4-a92e-49af-bb2e-3535232a9738&pf_rd_r=FQHMBRA36T6KVA44S1T8","s":["function (d,e,h){g&&g(\"cf\",c+\":failure\",{wb:1});l(\"ajax:error\",1);e&&l(\"ajax:error\"+e,1);f.ueLogError&&f.ueLogError({logLevel:\"WARN\",attribution:c,message:\"ISS AJAX call failed for \"+c+\" with responseText: \"+(d&&d.responseText)+\", pageType: \"+(a&&a.pageType)+\", status: \"+e+\", error: \"+h});\"function\"===typeof n&&n();g&&g(\"be\",c+\":failure\",{wb:1});r&&r(\"ld\",c+\":failure\",{wb:1})}","function (c,f){if(!e&&!b&&!d){f=f||[];d=1;try{for(;a[0];)a.shift().apply(c,f)}finally{b=[c,f],d=0}}return this}","function d(a,b,d,m){if(2!==z){z=2;w&&clearTimeout(w);y=p;D=m||\"\";t.readyState=0<a?4:0;var q,r,v;m=b;if(d){var x=e,C=t,u=x.contents,\nJ=x.dataTypes,M=x.responseFields,E,B,P,I;for(B in M)B in d&&(C[M[B]]=d[B]);for(;\"*\"===J[0];)J.shift(),E===p&&(E=x.mimeType||","function (d,h){var n,m,r,w,v;try{if(b&&(h||4===f.readyState))if(b=p,g&&(f.onreadystatechange=c.noop,wa&&delete N[g]),h)4!==f.readyState&&f.abort();else{n=f.status;r=f.getAllResponseHeaders();w={};(v=f.responseXML)&&v.documentElement&&(w.xml=v);w.text=f.res"],"t":3336}}]}
+--Response 
+HTTP/1.1 204
+access-control-allow-origin: *
+date: Mon, 08 Jul 2019 13:24:38 GMT
+x-amzn-requestid: 6ecd6658-7892-414e-adc5-e9df07cbbb1e
+access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+status: 204
+----
+

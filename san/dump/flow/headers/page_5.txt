@@ -1,0 +1,191 @@
+--Request 
+POST https://clients1.google.com/tbproxy/af/query?client=Chromium
+Host: clients1.google.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Content-Type: text/proto
+----
+ POSTDATA 
+6.1.1715.1442/en (GGLL)©¶[{ÿ#-khšn$#-Ož'ø$#-c“'‡$#-¢Y¸I$#-ø´þ $#-Wh,™$#-múfÉ$
+--Response 
+HTTP/1.1 200
+date: Wed, 12 Jun 2019 07:36:27 GMT
+content-length: 50
+server: AutoFill Server
+x-content-type-options: nosniff
+x-xss-protection: 0
+content-encoding: gzip
+x-frame-options: SAMEORIGIN
+content-type: text/proto
+alt-svc: quic=\":443\"; ma=2592000; v=\"46,44,43,39\"
+cache-control: private
+status: 200
+----
+--Request 
+GET http://10.10.30.2:81/tours/images/purchaseflight.gif
+Host: 10.10.30.2:81
+Referer: http://10.10.30.2:81/cgi-bin/findflight?hidden_outboundFlight_button0=000%7C0%7C06-13-2019&outboundFlight=button1&hidden_outboundFlight_button1=001%7C0%7C06-13-2019&hidden_outboundFlight_button2=002%7C0%7C06-13-2019&hidden_outboundFlight_button3=003%7C0%7C06-13-2019&numPassengers=1&advanceDiscount=&seatType=First&seatPref=Window&reserveFlights.x=104&reserveFlights.y=7
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-Length: 1541
+Content-Type: image/gif
+----
+--Request 
+GET http://10.10.30.2:81/tours/vep/images/velocigen.gif
+Host: 10.10.30.2:81
+Referer: http://10.10.30.2:81/cgi-bin/findflight?hidden_outboundFlight_button0=000%7C0%7C06-13-2019&outboundFlight=button1&hidden_outboundFlight_button1=001%7C0%7C06-13-2019&hidden_outboundFlight_button2=002%7C0%7C06-13-2019&hidden_outboundFlight_button3=003%7C0%7C06-13-2019&numPassengers=1&advanceDiscount=&seatType=First&seatPref=Window&reserveFlights.x=104&reserveFlights.y=7
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-Length: 2018
+Content-Type: image/gif
+----
+--Request 
+GET http://10.10.30.2:81/tours/images/startover.gif
+Host: 10.10.30.2:81
+Referer: http://10.10.30.2:81/cgi-bin/findflight?hidden_outboundFlight_button0=000%7C0%7C06-13-2019&outboundFlight=button1&hidden_outboundFlight_button1=001%7C0%7C06-13-2019&hidden_outboundFlight_button2=002%7C0%7C06-13-2019&hidden_outboundFlight_button3=003%7C0%7C06-13-2019&numPassengers=1&advanceDiscount=&seatType=First&seatPref=Window&reserveFlights.x=104&reserveFlights.y=7
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-Length: 1455
+Content-Type: image/gif
+----
+--Request 
+GET http://10.10.30.2:81/cgi-bin/findflight?firstName=Tiger&lastName=Scott&address1=4261+Stevenson+Blvd.&address2=Fremont%2C+CA+94538&pass1=Scott+Tiger&creditCard=dsds&expDate=&oldCCOption=&numPassengers=1&seatType=First&seatPref=Window&outboundFlight=001%7C0%7C06-13-2019&advanceDiscount=&buyFlights.x=34&buyFlights.y=12&.cgifields=saveCC
+Host: 10.10.30.2:81
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+Referer: http://10.10.30.2:81/cgi-bin/findflight?hidden_outboundFlight_button0=000%7C0%7C06-13-2019&outboundFlight=button1&hidden_outboundFlight_button1=001%7C0%7C06-13-2019&hidden_outboundFlight_button2=002%7C0%7C06-13-2019&hidden_outboundFlight_button3=003%7C0%7C06-13-2019&numPassengers=1&advanceDiscount=&seatType=First&seatPref=Window&reserveFlights.x=104&reserveFlights.y=7
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-type: text/html
+Content-length: 0000004073
+----
+--Request 
+GET http://10.10.30.2:81/tours/Merc10-dev/images/banner_animated.gif
+Host: 10.10.30.2:81
+Referer: http://10.10.30.2:81/cgi-bin/findflight?firstName=Tiger&lastName=Scott&address1=4261+Stevenson+Blvd.&address2=Fremont%2C+CA+94538&pass1=Scott+Tiger&creditCard=dsds&expDate=&oldCCOption=&numPassengers=1&seatType=First&seatPref=Window&outboundFlight=001%7C0%7C06-13-2019&advanceDiscount=&buyFlights.x=34&buyFlights.y=12&.cgifields=saveCC
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-Length: 16522
+Content-Type: image/gif
+----
+--Request 
+GET http://10.10.30.2:81/tours/Merc10-dev/images/sun_swede.gif
+Host: 10.10.30.2:81
+Referer: http://10.10.30.2:81/cgi-bin/findflight?firstName=Tiger&lastName=Scott&address1=4261+Stevenson+Blvd.&address2=Fremont%2C+CA+94538&pass1=Scott+Tiger&creditCard=dsds&expDate=&oldCCOption=&numPassengers=1&seatType=First&seatPref=Window&outboundFlight=001%7C0%7C06-13-2019&advanceDiscount=&buyFlights.x=34&buyFlights.y=12&.cgifields=saveCC
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-Length: 4125
+Content-Type: image/gif
+----
+--Request 
+GET http://10.10.30.2:81/tours/Merc10-dev/images/flights.gif
+Host: 10.10.30.2:81
+Referer: http://10.10.30.2:81/cgi-bin/findflight?firstName=Tiger&lastName=Scott&address1=4261+Stevenson+Blvd.&address2=Fremont%2C+CA+94538&pass1=Scott+Tiger&creditCard=dsds&expDate=&oldCCOption=&numPassengers=1&seatType=First&seatPref=Window&outboundFlight=001%7C0%7C06-13-2019&advanceDiscount=&buyFlights.x=34&buyFlights.y=12&.cgifields=saveCC
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+
+--Request 
+GET http://10.10.30.2:81/tours/Merc10-dev/images/home.gif
+Host: 10.10.30.2:81
+Referer: http://10.10.30.2:81/cgi-bin/findflight?firstName=Tiger&lastName=Scott&address1=4261+Stevenson+Blvd.&address2=Fremont%2C+CA+94538&pass1=Scott+Tiger&creditCard=dsds&expDate=&oldCCOption=&numPassengers=1&seatType=First&seatPref=Window&outboundFlight=001%7C0%7C06-13-2019&advanceDiscount=&buyFlights.x=34&buyFlights.y=12&.cgifields=saveCC
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-Length: 1268
+Content-Type: image/gif
+----
+--Request 
+GET http://10.10.30.2:81/tours/Merc10-dev/images/signoff.gif
+Host: 10.10.30.2:81
+Referer: http://10.10.30.2:81/cgi-bin/findflight?firstName=Tiger&lastName=Scott&address1=4261+Stevenson+Blvd.&address2=Fremont%2C+CA+94538&pass1=Scott+Tiger&creditCard=dsds&expDate=&oldCCOption=&numPassengers=1&seatType=First&seatPref=Window&outboundFlight=001%7C0%7C06-13-2019&advanceDiscount=&buyFlights.x=34&buyFlights.y=12&.cgifields=saveCC
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-Length: 1260
+Content-Type: image/gif
+----
+--Request 
+GET http://10.10.30.2:81/tours/images/splash_flightconfirm.gif
+Host: 10.10.30.2:81
+Referer: http://10.10.30.2:81/cgi-bin/findflight?firstName=Tiger&lastName=Scott&address1=4261+Stevenson+Blvd.&address2=Fremont%2C+CA+94538&pass1=Scott+Tiger&creditCard=dsds&expDate=&oldCCOption=&numPassengers=1&seatType=First&seatPref=Window&outboundFlight=001%7C0%7C06-13-2019&advanceDiscount=&buyFlights.x=34&buyFlights.y=12&.cgifields=saveCC
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-Length: 3013
+Content-Type: image/gif
+----
+--Request 
+GET http://10.10.30.2:81/tours/images/bookanother.gif
+Host: 10.10.30.2:81
+Referer: http://10.10.30.2:81/cgi-bin/findflight?firstName=Tiger&lastName=Scott&address1=4261+Stevenson+Blvd.&address2=Fremont%2C+CA+94538&pass1=Scott+Tiger&creditCard=dsds&expDate=&oldCCOption=&numPassengers=1&seatType=First&seatPref=Window&outboundFlight=001%7C0%7C06-13-2019&advanceDiscount=&buyFlights.x=34&buyFlights.y=12&.cgifields=saveCC
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+
+--Request 
+GET http://10.10.30.2:81/tours/vep/images/velocigen.gif
+Host: 10.10.30.2:81
+Referer: http://10.10.30.2:81/cgi-bin/findflight?firstName=Tiger&lastName=Scott&address1=4261+Stevenson+Blvd.&address2=Fremont%2C+CA+94538&pass1=Scott+Tiger&creditCard=dsds&expDate=&oldCCOption=&numPassengers=1&seatType=First&seatPref=Window&outboundFlight=001%7C0%7C06-13-2019&advanceDiscount=&buyFlights.x=34&buyFlights.y=12&.cgifields=saveCC
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+
+

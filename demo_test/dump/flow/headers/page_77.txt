@@ -1,0 +1,34 @@
+
+--Response 
+HTTP/1.1 200 OK
+Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+Server: Server
+Access-Control-Allow-Origin: https://www.amazon.in
+Connection: keep-alive
+Content-Encoding: gzip
+x-amzn-RequestId: 6a4dd1a3-5db5-4d38-8eda-a5363fd9b4a7
+Vary: Origin,Accept-Encoding,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment,User-Agent
+x-amz-rid: DDE80T2WKGKHPXS70498
+Content-Length: 23
+Date: Mon, 08 Jul 2019 13:24:58 GMT
+Content-Type: application/json
+----
+--Request 
+GET https://fls-eu.amazon.in/1/batch/1/OP/A21TJRUUN4KGV:259-1202557-5929705:XS1R1NSST0MSNB81W2M8$uedata=s:%2Fgp%2Fuedata%3Fld%26v%3D0.204437.0%26id%3DXS1R1NSST0MSNB81W2M8%26ctb%3D1%26sc0%3Diss-warmup%3Afailure%26bb0%3D3685%26cf0%3D5687%26be0%3D5688%26pc0%3D5688%26ld0%3D5688%26t0%3D1562592298994%26csmtags%3Daui%3Asw%3Abrowser%3Aregister%3Asupported%7Caui%7Caui%3Aajax%26pty%3DDetail%26spty%3DGlance%26pti%3DB07H6DJZ1P%26tid%3DFQHMBRA36T6KVA44S1T8%26aftb%3D1:5688
+Host: fls-eu.amazon.in
+Cookie: session-id=259-1202557-5929705; i18n-prefs=INR; ubid-acbin=258-0672242-6953331; x-wl-uid=1ecJvyxzwiGLpb/ivu3x3ngupYO7bY1+BPjlMC56V5J9AKfsIjsCkfc+Jr7a3C9XLJxX0u1syPM0=; visitCount=1; session-token=\"qbOQOkS0VEpBUocLOZRgf/vBjfAa/L1gvzuk4dHaABRLwBcXdkoWG+tgKYovU/GtpgviGH2ntZ17AVp7e48ZFY6MNw3iH/RJtLL2eZrJEHt3s9Cy0QE8n08HbD+hmqwfffrZuHf+ncTYp9ne7NmDLRaqAwIAVoD+O39gZOoyeiIbwRC9aZp+vc79loUdfIgRN7k1iETJ2x2I7SZjKc9arkykk2SqRFhbbijoObQQg4mvjy58UMqGvQ==\"; lc-acbin=en_IN; session-id-time=2082787201l
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:24:59 GMT
+content-length: 43
+content-type: image/gif
+x-amzn-requestid: 24d92339-fe68-4269-9a71-814045fe252f
+status: 200
+----
+

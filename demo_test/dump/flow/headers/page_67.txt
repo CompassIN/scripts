@@ -1,0 +1,103 @@
+--Request 
+GET https://completion.amazon.co.uk/api/2017/suggestions?session-id=259-1202557-5929705&customer-id=&request-id=XS1R1NSST0MSNB81W2M8&page-type=Detail&lop=en_IN&site-variant=desktop&client-info=amazon-search-ui&mid=A21TJRUUN4KGV&alias=electronics&searchTerm=a&suggestion-type=KEYWORD&suggestion-type=WIDGET&_=1562592296992
+Host: completion.amazon.co.uk
+Origin: https://www.amazon.in
+Accept: application/json, text/javascript, */*; q=0.01
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Server: Server
+Access-Control-Allow-Origin: *
+Date: Mon, 08 Jul 2019 13:24:58 GMT
+Content-Type: application/json
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/AmazonVideo/2019/SingleTitle/Venom/499x492-GNO_without-disclaimer._CB443211931_.png
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 01 Jul 2019 18:31:18 GMT
+x-amz-cf-pop: DEL51
+content-length: 49866
+server: Server
+expires: Sun, 26 Jun 2039 18:31:18 GMT
+x-amz-ir-id: e1f91527-8f8e-4e04-80d6-7e26e3ab3036
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Sun, 30 Jun 2019 13:15:35 GMT
+content-type: image/png
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from cloudfront
+cache-control: max-age=630720000,public
+age: 586419
+x-amz-cf-id: 4In4JSOB1PB-96-1S4uggSBATbOS4_EuI0DXp-SMj8YeAMZn74ACDA==
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img18/Fashion/Flyout/Women-fashion_Flyout_500x450._CB468888565_.jpg
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Sun, 19 May 2019 08:14:58 GMT
+x-amz-cf-pop: DEL51
+content-length: 14950
+server: Server
+expires: Wed, 02 Mar 2039 11:31:06 GMT
+x-amz-ir-id: d75a36fc-ef7d-4ac4-9109-1f5b9723c975
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Thu, 07 Mar 2019 11:20:57 GMT
+content-type: image/jpeg
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from cloudfront
+cache-control: max-age=630720000,public
+age: 4424529
+x-amz-cf-id: lkHCZMm15AQPxoWDasJczf3E2mo1Jbo3IzVFaY9vBUzJRBlBlR2BPA==
+status: 200
+----
+--Request 
+GET https://images-na.ssl-images-amazon.com/images/I/71z6g0zezZL._AC_UL320_SR220,320_.jpg
+Host: images-na.ssl-images-amazon.com
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Sun, 02 Jun 2019 23:50:22 GMT
+x-amz-cf-pop: DEL51
+content-length: 8885
+server: Server
+expires: Sat, 28 Aug 2038 06:34:12 GMT
+x-amz-ir-id: b69fa3a7-ce1d-4feb-992e-6dedb8d79111
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Wed, 08 Aug 2018 10:53:06 GMT
+content-type: image/jpeg
+timing-allow-origin: https://www.amazon.com
+x-cache: Hit from cloudfront
+cache-control: max-age=630720000,public
+age: 3571886
+x-amz-cf-id: mObXu6TgyVfX4ou-xdWa7cyCZ3YmSa6ghUADp2723B5xcNq8EoPrSA==
+status: 200
+----
+

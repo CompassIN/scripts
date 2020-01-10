@@ -1,0 +1,57 @@
+--Request 
+POST https://unagi-eu.amazon.com/1/events/com.amazon.csm.nexusclient.prod
+Host: unagi-eu.amazon.com
+Origin: https://www.amazon.in
+Accept: */*
+Cache-Control: max-age=0
+Referer: https://www.amazon.in/s/ref=mega_sv_s23_1_1_1_2?rh=i%3Aapparel%2Cn%3A1571271031%2Cn%3A%211597453031%2Cn%3A%211597455031%2Cn%3A16194128031%2Cn%3A1953602031&bbn=16194128031&sort=date-desc-rank&ie=UTF8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Content-Type: text/plain;charset=UTF-8
+----
+ POSTDATA {"cs":{"dct":{"#0":"requestId","#1":"RSS9BTGBT3PYWEC79TA5","#2":"server","#3":"www.amazon.in","#4":"obfuscatedMarketplaceId","#5":"A21TJRUUN4KGV","#6":"producerId","#7":"csm","#8":"schemaId","#9":"csm.CSMBaselineEvent.4","#10":"timestamp","#11":"messageId","#12":"sessionId","#13":"260-6898445-8949221"}},"events":[{"data":{"#0":"#1","#2":"#3","#4":"#5","#6":"#7","#8":"#9","#10":"2019-07-17T18:25:12.921Z","#11":"RSS9BTGBT3PYWEC79TA5-1563387912921-3320455490","#12":"#13"}}]}
+--Response 
+HTTP/1.1 200 OK
+Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+Server: Server
+Access-Control-Allow-Origin: https://www.amazon.in
+Connection: keep-alive
+Content-Encoding: gzip
+x-amzn-RequestId: f84f2e4c-efd7-40d3-a947-00299b4600d4
+Vary: Origin,Accept-Encoding,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment,User-Agent
+x-amz-rid: 7AB0SGWT0QH9DGD5ZWNG
+Content-Length: 22
+Date: Wed, 17 Jul 2019 18:25:14 GMT
+Content-Type: application/json
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/I/41YUeDE3zHL._RC%7C71aLqNGbWsL.js,61u3dpzHy+L.js,417SPNjYS3L.js,11vrNkbdcvL.js,21SHd9g2LAL.js,31xNSJua7KL.js,51YeRc8UK1L.js,31R1liuRRmL.js_.js?AUIClients/AmazonNavigationDesktopMetaAsset#desktop
+Host: images-eu.ssl-images-amazon.com
+Origin: https://www.amazon.in
+Accept: */*
+Referer: https://www.amazon.in/s/ref=mega_sv_s23_1_1_1_2?rh=i%3Aapparel%2Cn%3A1571271031%2Cn%3A%211597453031%2Cn%3A%211597455031%2Cn%3A16194128031%2Cn%3A1953602031&bbn=16194128031&sort=date-desc-rank&ie=UTF8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+----
+--Response 
+HTTP/1.1 200
+date: Tue, 18 Jun 2019 16:28:02 GMT
+x-amz-cf-pop: ORD50-C1
+server: Server
+expires: Wed, 08 Jun 2039 22:28:57 GMT
+x-amz-ir-id: 253f042a-c0f5-4141-aefc-7a87506c6f3d
+content-encoding: gzip
+via: 1.1 fc9898e8f62308e3f28fb29079b65ebb.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Thu, 13 Jun 2019 17:22:02 GMT
+content-type: application/x-javascript; charset=utf-8
+timing-allow-origin: https://www.amazon.com
+x-cache: Hit from cloudfront
+cache-control: max-age=630720000,public
+age: 2922878
+x-amz-cf-id: fwOw692Jcy-17hJm6PDydayWE9jxc5F1GrTUbvpK2MrgP2ZIKsAzww==
+status: 200
+----
+

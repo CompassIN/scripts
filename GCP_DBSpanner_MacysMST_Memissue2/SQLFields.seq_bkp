@@ -1,0 +1,3 @@
+NameJson
+Customer@{FORCE_INDEX=CustomerFirstName} AS FN
+FirstName

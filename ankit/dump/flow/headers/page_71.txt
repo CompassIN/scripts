@@ -1,0 +1,28 @@
+--Request 
+POST https://unagi-eu.amazon.com/1/events/com.amazon.eel.SponsoredProductsEventTracking.prod
+Host: unagi-eu.amazon.com
+Origin: https://www.amazon.in
+Accept: application/json
+X-Requested-With: XMLHttpRequest
+Referer: https://www.amazon.in/Giant-Innovative-Stylish-Sunglasses-Aviator/dp/B07MPSZ7NK/ref=bbp_bb_d33a38_st_CCqh_w_0?psc=1&smid=ANTJPL45A9VCN
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Content-Type: application/json
+----
+ POSTDATA {"events":[{"data":{"qualifier":"1563387876","id":"260351114673563","widgetName":"sp_detail2","adId":"20022518384305","adIndex":"6","eventType":"2"}}]}
+--Response 
+HTTP/1.1 200 OK
+Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+Server: Server
+Access-Control-Allow-Origin: https://www.amazon.in
+Connection: keep-alive
+Content-Encoding: gzip
+x-amzn-RequestId: 2efbf42c-ff3f-46f0-b784-62ae8151e677
+Vary: Origin,Accept-Encoding,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment,User-Agent
+x-amz-rid: BNGWM7K15JFNQFC2DKE2
+Content-Length: 23
+Date: Wed, 17 Jul 2019 18:24:45 GMT
+Content-Type: application/json
+----
+

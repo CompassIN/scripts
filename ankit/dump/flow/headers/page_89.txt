@@ -1,0 +1,81 @@
+--Request 
+POST https://fls-eu.amazon.in/1/batch/1/OE/
+Host: fls-eu.amazon.in
+Cookie: session-id=260-6898445-8949221; i18n-prefs=INR; ubid-acbin=262-8671103-6623656; x-wl-uid=1OfaMC7JpnskpcFBQZ0Uq5V8k/Li+eH9j/u3WVuWMZt5YlTHc5uQTLxZFK0jTKGcRFjeKmsxSpo8=; session-token=\"FOD9ahBmF5GIKmPl1E0GHlNJV5EedVXMFVEZhlbBTx0kTXXMg1IYR5c5brnaRCYcCUYDFNILc5DnAHxrFPaxoptoxnDRXfbxQaDXulcLsGquoPty2zDMdmxnHPRVTtAnQDJ5n7OZtZxq8SQ36hwOyZ/OIwYQLZ84s7v4Fd3QqFQ7zkpZa9aeDQF9Ysr3lsS5MnV7pdgpl47Vgy7x4V7fxgY/Hg2HKg2CyscZ924Wm5C+krHuGrc01w==\"; lc-acbin=en_IN; visitCount=2; session-id-time=2082758401l
+Origin: https://www.amazon.in
+Accept: */*
+Cache-Control: max-age=0
+Referer: https://www.amazon.in/s?i=apparel&bbn=16194128031&rh=n%3A1571271031%2Cn%3A%211597453031%2Cn%3A%211597455031%2Cn%3A16194128031%2Cn%3A1953602031&s=date-desc-rank&ref=mega_sv_s23_1_1_1_2
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Content-Type: text/plain;charset=UTF-8
+----
+ POSTDATA {"rid":"RSS9BTGBT3PYWEC79TA5","sid":"260-6898445-8949221","mid":"A21TJRUUN4KGV","sn":"www.amazon.in","reqs":[{"jserr-rw":{"m":"ISS AJAX call failed for iss-warmup with responseText: Invalid Request: mid [null] alias [undefined], pageType: Search, status: error, error: Bad Request","csm":"v5 ueLogError callee","logLevel":"WARN","attribution":"iss-warmup","pageURL":"https://www.amazon.in/s?i=apparel&bbn=16194128031&rh=n%3A1571271031%2Cn%3A%211597453031%2Cn%3A%211597455031%2Cn%3A16194128031%2Cn%3A1953602031&s=date-desc-rank&ref=mega_sv_s23_1_1_1_2","s":["function (){if(g.ue_err.erl){var b=g.ue_err.erl.length,l,a;for(l=0;l<b;l++)a=g.ue_err.erl[l],B(a.ex,a.info);ue_err.erl=[]}}","function (g,f){function y(b){if(b)return b.replace(/^\\s+|\\s+$/g,\"\")}function w(b,l){if(!b)return{};var a=\"INFO\"===l.logLevel;b.m&&b.m.message&&(b=b.m);var e=l.m||l.message||\"\",e=b.m&&b.m.message?e+b.m.message:b.m&&b.m.target&&b.m.target.tagName?e+(\"Error handler invoked by \"+b.m.target.tagName+\" tag\"):b.m?e+b.m:b.message?e+b.message:e+\"Unknown error\",e={m:e,name:b.name,type:b.type,csm:N+\" \"+(b.fromOnError?\"onerror\":\"ueLogError\")},k,f,h=0,q;e.logLevel=l.logLevel||A;l.adb&&(e.adb=l.adb);if(k=l.attribution)e.a"],"t":9634}},{"csmcount":{"counter":"foresterPayloadSize","t":0,"value":1296}}]}
+--Response 
+HTTP/1.1 204
+access-control-allow-origin: *
+date: Wed, 17 Jul 2019 18:25:18 GMT
+x-amzn-requestid: b1cb3d0d-0579-412e-b07c-9198ae8e82a1
+access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+status: 204
+----
+--Request 
+GET https://images-na.ssl-images-amazon.com/images/I/210UtsRqV6L._RC%7C71+WX4uo+uL.css,11zh5zoa5AL.css,31cuIVKhckL.css,213skwsyD4L.css,31wWWC6YAvL.css,11G4HxMtMSL.css,31OvHRW+XiL.css,01XHMOHpK1L.css_.css?AUIClients/AmazonNavigationDesktopMetaAsset#desktop.in
+Host: images-na.ssl-images-amazon.com
+Origin: https://www.amazon.in
+Accept: text/css,*/*;q=0.1
+Referer: https://www.amazon.in/s?i=apparel&bbn=16194128031&rh=n%3A1571271031%2Cn%3A%211597453031%2Cn%3A%211597455031%2Cn%3A16194128031%2Cn%3A1953602031&s=date-desc-rank&ref=mega_sv_s23_1_1_1_2
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 12 Jun 2019 20:40:30 GMT
+x-amz-cf-pop: ORD50-C1
+server: Server
+expires: Mon, 06 Jun 2039 03:37:30 GMT
+x-amz-ir-id: f989c26a-c837-419e-b837-06c19f65ffd4
+content-encoding: gzip
+via: 1.1 50fe1d71b205e020c992be911ed0d44c.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Fri, 31 May 2019 01:11:54 GMT
+content-type: text/css; charset=utf-8
+timing-allow-origin: https://www.amazon.com
+x-cache: Hit from cloudfront
+cache-control: max-age=630720000,public
+age: 3163597
+x-amz-cf-id: ZuDHFVaDlL3crCmWZMJ8zo4Du7SM6Br8N5Bco818xfcDZ7-G5Xzrow==
+status: 200
+----
+--Request 
+GET https://images-na.ssl-images-amazon.com/images/I/41fMrDoAFbL._RC%7C71GkUD1temL.js,61u3dpzHy+L.js,41W9ohA0e+L.js,11vrNkbdcvL.js,21SHd9g2LAL.js,311T8Q1zWKL.js,51+klsvwgqL.js,31IEOtBPX+L.js_.js?AUIClients/AmazonNavigationDesktopMetaAsset#desktop
+Host: images-na.ssl-images-amazon.com
+Origin: https://www.amazon.in
+Accept: */*
+Referer: https://www.amazon.in/s?i=apparel&bbn=16194128031&rh=n%3A1571271031%2Cn%3A%211597453031%2Cn%3A%211597455031%2Cn%3A16194128031%2Cn%3A1953602031&s=date-desc-rank&ref=mega_sv_s23_1_1_1_2
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+----
+--Response 
+HTTP/1.1 200
+date: Sat, 22 Jun 2019 05:37:05 GMT
+x-amz-cf-pop: ORD50-C1
+server: Server
+expires: Wed, 15 Jun 2039 05:38:39 GMT
+x-amz-ir-id: 1166da10-d890-476a-a64e-a677fb0e886a
+content-encoding: gzip
+via: 1.1 50fe1d71b205e020c992be911ed0d44c.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Thu, 13 Jun 2019 00:39:56 GMT
+content-type: application/x-javascript; charset=utf-8
+timing-allow-origin: https://www.amazon.com
+x-cache: Hit from cloudfront
+cache-control: max-age=630720000,public
+age: 2378738
+x-amz-cf-id: 2vKDctk4oMqttb9Ow_YaCcrgZBljMeqEiU5sxLp7nHxd8_fkJykbKg==
+status: 200
+----
+

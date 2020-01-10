@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+message Address {
+  optional string Recipient = 1;
+  optional string House = 2;
+  optional string Street = 3;
+  optional string Town = 4;
+  optional string County = 5;
+  optional string PostCode = 6;
+  optional string Country = 7;
+  int32 id = 8;
+}

@@ -1,0 +1,470 @@
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img18/Electronics/Megamenu/megamenumar18f.json?_=1562592304263
+Host: images-eu.ssl-images-amazon.com
+Origin: https://www.amazon.in
+Accept: application/json, text/javascript, */*; q=0.01
+Referer: https://www.amazon.in/b?ie=UTF8&node=16182118031&s=review-rank&pf_rd_p=5257cbb4-a92e-49af-bb2e-3535232a9738&pf_rd_r=FQHMBRA36T6KVA44S1T8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+date: Thu, 04 Jul 2019 04:39:26 GMT
+x-amz-cf-pop: DEL51
+server: Server
+expires: Fri, 05 Jul 2019 04:39:25 GMT
+x-amz-ir-id: f211a73b-f6b8-414e-b90a-e5cc12d69fa2
+content-encoding: gzip
+via: 1.1 6bf9df28058e9b2a0034a51c5f555669.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Wed, 03 Jul 2019 13:43:42 GMT
+content-type: application/json
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from cloudfront
+cache-control: max-age=86400,public
+age: 31550
+x-amz-cf-id: Voabl7oOQ2LVySI5rbsjOJKYXzL52coJYruMXjhmfQcJro9iAgYQ0w==
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img18/Electronics/Megamenu/CEPC_Megasubnav_Mobiles_access.jpg
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/b?ie=UTF8&node=16182118031&s=review-rank&pf_rd_p=5257cbb4-a92e-49af-bb2e-3535232a9738&pf_rd_r=FQHMBRA36T6KVA44S1T8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:25:04 GMT
+x-amz-cf-pop: DEL51
+content-length: 39458
+server: Server
+expires: Thu, 28 Mar 2019 17:30:06 GMT
+x-amz-ir-id: 67d78086-38d1-4d9d-a88d-5ab53671b1d2
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Tue, 13 Feb 2018 10:05:01 GMT
+content-type: image/jpeg
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from cloudfront
+cache-control: max-age=86400,public
+age: 84764
+x-amz-cf-id: KMV4qtRI1sj2xvtmKWz9WzdyudOqN61b1Zf2mYVQgzUTqLZ50UFALg==
+status: 304
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img18/Electronics/Megamenu/CEPC_Megasubnav_laptops_harddrives.jpg
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/b?ie=UTF8&node=16182118031&s=review-rank&pf_rd_p=5257cbb4-a92e-49af-bb2e-3535232a9738&pf_rd_r=FQHMBRA36T6KVA44S1T8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:25:04 GMT
+x-amz-cf-pop: DEL51
+content-length: 23815
+server: Server
+expires: Thu, 15 Mar 2018 17:24:37 GMT
+x-amz-ir-id: 43650a15-884a-47c3-8771-d0d8983ab867
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Tue, 13 Feb 2018 10:05:00 GMT
+content-type: image/jpeg
+x-cache: Hit from cloudfront
+cache-control: max-age=86400,public
+age: 27178
+x-amz-cf-id: Js3uB64wm3DJCu7weGZZrztf6aYXIl4x61v36Musd-LheE2RpwQhUA==
+status: 304
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img18/Electronics/Megamenu/CEPC_Megasubnav_tv_hometheatre.jpg
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/b?ie=UTF8&node=16182118031&s=review-rank&pf_rd_p=5257cbb4-a92e-49af-bb2e-3535232a9738&pf_rd_r=FQHMBRA36T6KVA44S1T8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:25:04 GMT
+x-amz-cf-pop: DEL51
+content-length: 34300
+server: Server
+expires: Sat, 31 Mar 2018 20:16:07 GMT
+x-amz-ir-id: 531a43b0-3e94-4945-ae94-a30cd28f5262
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Tue, 13 Feb 2018 10:05:03 GMT
+content-type: image/jpeg
+x-cache: Hit from cloudfront
+cache-control: max-age=86400,public
+age: 107905
+x-amz-cf-id: tqKnQnXd7i2YmjHEpauZAY8vxGfoY6-76cNWa3CEP8Ed8L8MZg5vgg==
+status: 304
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img18/Electronics/Megamenu/CEPC_Megasubnav_audio_speaker.jpg
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/b?ie=UTF8&node=16182118031&s=review-rank&pf_rd_p=5257cbb4-a92e-49af-bb2e-3535232a9738&pf_rd_r=FQHMBRA36T6KVA44S1T8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:25:04 GMT
+x-amz-cf-pop: DEL51
+content-length: 84132
+server: Server
+expires: Fri, 16 Mar 2018 20:57:22 GMT
+x-amz-ir-id: 04d07b36-bea7-47b0-a401-813db4e74e6d
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Tue, 13 Feb 2018 10:04:59 GMT
+content-type: image/jpeg
+x-cache: Hit from cloudfront
+cache-control: max-age=86400,public
+age: 135550
+x-amz-cf-id: dkjgMdLnOYagLiBiubVu1JmgwVdT-zafK__XI2p7GjFQw5vnkCsaKg==
+status: 304
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img18/Electronics/Megamenu/CEPC_Megasubnav_cameras_dslr.jpg
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/b?ie=UTF8&node=16182118031&s=review-rank&pf_rd_p=5257cbb4-a92e-49af-bb2e-3535232a9738&pf_rd_r=FQHMBRA36T6KVA44S1T8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:25:04 GMT
+x-amz-cf-pop: DEL51
+content-length: 43304
+server: Server
+expires: Fri, 16 Mar 2018 16:54:44 GMT
+x-amz-ir-id: 7359451a-9adf-4146-aee5-47468c021f0d
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Tue, 13 Feb 2018 10:05:00 GMT
+content-type: image/jpeg
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from cloudfront
+cache-control: max-age=86400,public
+age: 84957
+x-amz-cf-id: Ra94xXLedRSYICi4q5l17_HoYHWeTD5E_h4gT746n0E95N2av91X5w==
+status: 304
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img18/Electronics/Megamenu/CEPC_Megasubnav_cameras_access.jpg
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/b?ie=UTF8&node=16182118031&s=review-rank&pf_rd_p=5257cbb4-a92e-49af-bb2e-3535232a9738&pf_rd_r=FQHMBRA36T6KVA44S1T8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:25:04 GMT
+x-amz-cf-pop: DEL51
+content-length: 85957
+server: Server
+expires: Wed, 06 Mar 2019 18:28:09 GMT
+x-amz-ir-id: 90467720-528e-4dfb-b86c-5038270cc142
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Tue, 13 Feb 2018 10:04:59 GMT
+content-type: image/jpeg
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from cloudfront
+cache-control: max-age=86400,public
+age: 17434
+x-amz-cf-id: IJvjrrxGEw7hgV5-9anfnE5QKxPqiD22KqCho-swrORQg80qeEfA_Q==
+status: 304
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img18/Electronics/Megamenu/CEPC_Megasubnav_cameras_security.jpg
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/b?ie=UTF8&node=16182118031&s=review-rank&pf_rd_p=5257cbb4-a92e-49af-bb2e-3535232a9738&pf_rd_r=FQHMBRA36T6KVA44S1T8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:25:04 GMT
+x-amz-cf-pop: DEL51
+content-length: 21651
+server: Server
+expires: Fri, 16 Mar 2018 20:58:36 GMT
+x-amz-ir-id: f864560c-b41d-4b9e-9d4d-73d5eea5653d
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Tue, 13 Feb 2018 10:05:00 GMT
+content-type: image/jpeg
+x-cache: Hit from cloudfront
+cache-control: max-age=86400,public
+age: 105654
+x-amz-cf-id: qPUc1Z0ETSuA4Th_TqcTaVnCilsa4ZouUr3FBTtoN0S0n5OXqDMSQQ==
+status: 304
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img18/Electronics/Megamenu/CEPC_Megasubnav_PCperipherals_routers.jpg
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/b?ie=UTF8&node=16182118031&s=review-rank&pf_rd_p=5257cbb4-a92e-49af-bb2e-3535232a9738&pf_rd_r=FQHMBRA36T6KVA44S1T8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:25:04 GMT
+x-amz-cf-pop: DEL51
+content-length: 19755
+server: Server
+expires: Sun, 01 Apr 2018 20:33:57 GMT
+x-amz-ir-id: 5592d565-ffb3-4f6e-9d6d-7f2626ffefeb
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Tue, 13 Feb 2018 10:05:02 GMT
+content-type: image/jpeg
+x-cache: Hit from cloudfront
+cache-control: max-age=86400,public
+age: 110147
+x-amz-cf-id: xAtTo0dtJ4OgUIMRrBfXekdWdavySMONw-v7HpLUen2wiPvLzOcLyA==
+status: 304
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img19/Printers/V101208515_IN_PC_Printers_Mega_menu_graphics_473x623.jpg
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/b?ie=UTF8&node=16182118031&s=review-rank&pf_rd_p=5257cbb4-a92e-49af-bb2e-3535232a9738&pf_rd_r=FQHMBRA36T6KVA44S1T8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:25:04 GMT
+x-amz-cf-pop: DEL51
+content-length: 14602
+server: Server
+expires: Tue, 02 Apr 2019 10:32:50 GMT
+x-amz-ir-id: 88b27c4a-5633-4cb6-b855-3b55939f0edc
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Fri, 22 Feb 2019 06:15:02 GMT
+content-type: image/jpeg
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from cloudfront
+cache-control: max-age=86400,public
+age: 60679
+x-amz-cf-id: Pg9ON9bGwE37E5-yqt5ggJTW4Slu_bxGRUmuRNnS0dn4q8pzkXrB3A==
+status: 304
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img18/Electronics/Megamenu/CEPC_Megasubnav_smarthome_beginners.jpg
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/b?ie=UTF8&node=16182118031&s=review-rank&pf_rd_p=5257cbb4-a92e-49af-bb2e-3535232a9738&pf_rd_r=FQHMBRA36T6KVA44S1T8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:25:04 GMT
+x-amz-cf-pop: DEL51
+content-length: 42587
+server: Server
+expires: Thu, 28 Mar 2019 07:13:46 GMT
+x-amz-ir-id: 896d2b97-f9b0-4988-8f03-7f5a83e2d2eb
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Tue, 13 Feb 2018 10:05:03 GMT
+content-type: image/jpeg
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from cloudfront
+cache-control: max-age=86400,public
+age: 23416
+x-amz-cf-id: -4TZ1xT1Jy11n602DdEniIt3-w-BOIf-MKD5lTi3bzDTh24hNRNPTg==
+status: 304
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img18/Wearables/Revamp_Dec26th_18/smart_watches_472x674.jpg
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/b?ie=UTF8&node=16182118031&s=review-rank&pf_rd_p=5257cbb4-a92e-49af-bb2e-3535232a9738&pf_rd_r=FQHMBRA36T6KVA44S1T8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:25:04 GMT
+x-amz-cf-pop: DEL51
+content-length: 47492
+server: Server
+expires: Thu, 28 Mar 2019 09:01:59 GMT
+x-amz-ir-id: 27fd6969-733e-4d73-a052-99bf1e5ae0df
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Thu, 21 Feb 2019 12:25:14 GMT
+content-type: image/jpeg
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from cloudfront
+cache-control: max-age=86400,public
+age: 10334
+x-amz-cf-id: 9-nA3KmeibtmwqQ9sH79Zu8go0eX0exUq6S_pMrmiSWzYq99bNvfqA==
+status: 304
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img18/Wearables/Revamp_Dec26th_18/activity_trackers_472x674.jpg
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/b?ie=UTF8&node=16182118031&s=review-rank&pf_rd_p=5257cbb4-a92e-49af-bb2e-3535232a9738&pf_rd_r=FQHMBRA36T6KVA44S1T8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:25:04 GMT
+x-amz-cf-pop: DEL51
+content-length: 46751
+server: Server
+expires: Thu, 28 Mar 2019 08:56:11 GMT
+x-amz-ir-id: dea10873-7835-433f-a33f-bbcdf1b7dd29
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Thu, 21 Feb 2019 12:25:14 GMT
+content-type: image/jpeg
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from cloudfront
+cache-control: max-age=86400,public
+age: 19194
+x-amz-cf-id: Tb3LcfuSJZIC0k2cKoL8enPtaaGTGkoykm1R0jXhM1f5eTFWyYBmPg==
+status: 304
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img18/Electronics/Megamenu/CEPC_Megasubnav_MI_beginners.jpg
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/b?ie=UTF8&node=16182118031&s=review-rank&pf_rd_p=5257cbb4-a92e-49af-bb2e-3535232a9738&pf_rd_r=FQHMBRA36T6KVA44S1T8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:25:04 GMT
+x-amz-cf-pop: DEL51
+content-length: 47536
+server: Server
+expires: Thu, 15 Mar 2018 06:19:21 GMT
+x-amz-ir-id: b8d1c654-9e00-4e58-8878-c399d25b9bea
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Tue, 13 Feb 2018 10:05:00 GMT
+content-type: image/jpeg
+x-cache: Hit from cloudfront
+cache-control: max-age=86400,public
+age: 19171
+x-amz-cf-id: wZ9cliwiys9emqsot5SD-cU66Unjn9fUErubuEMZmyvkjSDR-1-J0A==
+status: 304
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img18/Electronics/Megamenu/CEPC_Megasubnav_MI_soundrecording.jpg
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/b?ie=UTF8&node=16182118031&s=review-rank&pf_rd_p=5257cbb4-a92e-49af-bb2e-3535232a9738&pf_rd_r=FQHMBRA36T6KVA44S1T8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:25:04 GMT
+x-amz-cf-pop: DEL51
+content-length: 44742
+server: Server
+expires: Wed, 26 Sep 2018 10:54:02 GMT
+x-amz-ir-id: 57f5390a-578f-4d3e-a03d-d9ad5b61302f
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Tue, 13 Feb 2018 10:05:01 GMT
+content-type: image/jpeg
+x-cache: Hit from cloudfront
+cache-control: max-age=86400,public
+age: 22369
+x-amz-cf-id: vBYouq9pNXePZB2caRKj8rmacdUM52po7DCxq3354GtkVCMVWBAuzg==
+status: 304
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img18/Electronics/Megamenu/CEPC_Megasubnav_office_officesupplies.jpg
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/b?ie=UTF8&node=16182118031&s=review-rank&pf_rd_p=5257cbb4-a92e-49af-bb2e-3535232a9738&pf_rd_r=FQHMBRA36T6KVA44S1T8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:25:04 GMT
+x-amz-cf-pop: DEL51
+content-length: 68324
+server: Server
+expires: Thu, 15 Mar 2018 17:24:37 GMT
+x-amz-ir-id: 6b8d051d-b548-4e14-be11-2ce6ebfe3787
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Tue, 13 Feb 2018 10:05:02 GMT
+content-type: image/jpeg
+x-cache: Hit from cloudfront
+cache-control: max-age=86400,public
+age: 9518
+x-amz-cf-id: 3jcKQ6j9MzdD-qFDZI4dxFV98uaD2lTN1aPPbsRgMUbcWLp-gDbYcg==
+status: 304
+----
+--Request 
+GET https://www.amazon.in/service-worker.js
+Host: www.amazon.in
+Cookie: session-id=259-1202557-5929705; i18n-prefs=INR; ubid-acbin=258-0672242-6953331; x-wl-uid=1ecJvyxzwiGLpb/ivu3x3ngupYO7bY1+BPjlMC56V5J9AKfsIjsCkfc+Jr7a3C9XLJxX0u1syPM0=; session-token=\"qbOQOkS0VEpBUocLOZRgf/vBjfAa/L1gvzuk4dHaABRLwBcXdkoWG+tgKYovU/GtpgviGH2ntZ17AVp7e48ZFY6MNw3iH/RJtLL2eZrJEHt3s9Cy0QE8n08HbD+hmqwfffrZuHf+ncTYp9ne7NmDLRaqAwIAVoD+O39gZOoyeiIbwRC9aZp+vc79loUdfIgRN7k1iETJ2x2I7SZjKc9arkykk2SqRFhbbijoObQQg4mvjy58UMqGvQ==\"; lc-acbin=en_IN; session-id-time=2082758401l; visitCount=2; csm-hit=tb:s-RNQ1C7RT53MRT72MT77A|1562592301719&t:1562592302675&adb:adblk_no
+Accept: */*
+Referer: https://www.amazon.in/service-worker.js
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Service-Worker: script
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:24:39 GMT
+x-amz-cf-pop: DEL51
+server: Server
+vary: Accept-Encoding,User-Agent,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment
+content-encoding: gzip
+x-frame-options: SAMEORIGIN
+x-amz-rid: 7P722JFN6JQXBEB7E3FB
+via: 1.1 2cbe2d6bb9079c1d153e7e15e9eac3c8.cloudfront.net (CloudFront)
+content-type: application/x-javascript
+x-amz-id-1: 7P722JFN6JQXBEB7E3FB
+x-cache: Miss from cloudfront
+cache-control: private, max-age=60, no-transform
+x-amz-cf-id: P0e3D7oSJOm_59hzoojNe0cMR3FU0laIAJ5zdbn2KJYJGC1Fgvp6HQ==
+status: 200
+----
+

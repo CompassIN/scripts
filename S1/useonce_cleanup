@@ -1,0 +1,9 @@
+#!/bin/sh
+
+echo "Clean UseOnce data"
+rm -f .*.control
+rm -f .*.last
+rm -f *.used
+rm -f *.unused
+
+echo "Done"

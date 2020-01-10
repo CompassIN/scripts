@@ -1,0 +1,23 @@
+--Request 
+POST https://fls-eu.amazon.in/1/batch/1/OE/
+Host: fls-eu.amazon.in
+Cookie: session-id=259-1202557-5929705; i18n-prefs=INR; ubid-acbin=258-0672242-6953331; x-wl-uid=1ecJvyxzwiGLpb/ivu3x3ngupYO7bY1+BPjlMC56V5J9AKfsIjsCkfc+Jr7a3C9XLJxX0u1syPM0=; visitCount=1; session-token=\"qbOQOkS0VEpBUocLOZRgf/vBjfAa/L1gvzuk4dHaABRLwBcXdkoWG+tgKYovU/GtpgviGH2ntZ17AVp7e48ZFY6MNw3iH/RJtLL2eZrJEHt3s9Cy0QE8n08HbD+hmqwfffrZuHf+ncTYp9ne7NmDLRaqAwIAVoD+O39gZOoyeiIbwRC9aZp+vc79loUdfIgRN7k1iETJ2x2I7SZjKc9arkykk2SqRFhbbijoObQQg4mvjy58UMqGvQ==\"; lc-acbin=en_IN; session-id-time=2082787201l
+Origin: https://www.amazon.in
+Accept: */*
+Cache-Control: max-age=0
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Content-Type: text/plain;charset=UTF-8
+----
+ POSTDATA {"rid":"FQHMBRA36T6KVA44S1T8","sid":"259-1202557-5929705","mid":"A21TJRUUN4KGV","sn":"www.amazon.in","reqs":[{"csmcount":{"counter":"gwAjaxCall","value":7,"t":34824}},{"cel":{"n":"gw-ftGr-desktop-tall-hero-I","w":1000,"h":600,"d":0,"x":-174.37559509277344,"y":99,"t":34838,"k":"ewi"}},{"cel":{"n":"gw-ftGr-desktop-tall-hero-J","w":1000,"h":600,"d":0,"x":825.6244506835938,"y":99,"t":34838,"k":"ewi"}},{"cel":{"n":"gw-ftGr-desktop-tall-hero-I","w":1000,"h":600,"d":0,"x":-541.6661987304688,"y":99,"t":34884,"k":"ewi"}},{"cel":{"n":"gw-ftGr-desktop-tall-hero-J","w":1000,"h":600,"d":0,"x":458.33380126953125,"y":99,"t":34884,"k":"ewi"}},{"cel":{"n":"gw-ftGr-desktop-tall-hero-I","w":1000,"h":600,"d":0,"x":-906.7191772460938,"y":99,"t":34953,"k":"ewi"}},{"cel":{"n":"gw-ftGr-desktop-tall-hero-J","w":1000,"h":600,"d":0,"x":93.2808609008789,"y":99,"t":34953,"k":"ewi"}},{"cel":{"n":"gw-ftGr-desktop-tall-hero-I","w":1000,"h":600,"d":1,"x":-1000,"y":99,"t":35050,"k":"ewi"}},{"cel":{"n":"gw-ftGr-desktop-tall-hero-J","w":1000,"h":600,"d":0,"x":0,"y":99,"t":35050,"k":"ewi"}},{"cel":{"k":"hrt","t":39572}},{"csm":{"k":"chk","f":6,"l":{"csmcount":338,"navigation":1,"cel":98,"csm":7},"s":"full"}},{"csmcount":{"counter":"foresterPayloadSize","t":0,"value":1257}}]}
+--Response 
+HTTP/1.1 204
+access-control-allow-origin: *
+date: Mon, 08 Jul 2019 13:17:20 GMT
+x-amzn-requestid: 224e075f-f341-4e1d-8180-3c294f6d4fd2
+access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+status: 204
+----
+

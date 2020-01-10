@@ -1,0 +1,34 @@
+--Request 
+POST https://www.amazon.in/gp/product/features/icon-farm/iconFarm-sv-loader.html
+Host: www.amazon.in
+Cookie: session-id=259-1202557-5929705; i18n-prefs=INR; ubid-acbin=258-0672242-6953331; x-wl-uid=1ecJvyxzwiGLpb/ivu3x3ngupYO7bY1+BPjlMC56V5J9AKfsIjsCkfc+Jr7a3C9XLJxX0u1syPM0=; visitCount=1; session-token=\"qbOQOkS0VEpBUocLOZRgf/vBjfAa/L1gvzuk4dHaABRLwBcXdkoWG+tgKYovU/GtpgviGH2ntZ17AVp7e48ZFY6MNw3iH/RJtLL2eZrJEHt3s9Cy0QE8n08HbD+hmqwfffrZuHf+ncTYp9ne7NmDLRaqAwIAVoD+O39gZOoyeiIbwRC9aZp+vc79loUdfIgRN7k1iETJ2x2I7SZjKc9arkykk2SqRFhbbijoObQQg4mvjy58UMqGvQ==\"; lc-acbin=en_IN; session-id-time=2082787201l; csm-hit=tb:s-XS1R1NSST0MSNB81W2M8|1562592294012&t:1562592295847&adb:adblk_no
+Origin: https://www.amazon.in
+Accept: text/html,*/*
+X-Requested-With: XMLHttpRequest
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Content-Type: application/x-www-form-urlencoded
+----
+ POSTDATA responseType=html&data=%7B%22returnPolicyFallbackUrlText%22%3A%22Returns+Policies%22%2C%22glLevelReturn%22%3Atrue%2C%22glLevelReturnPolicies%22%3A%5B%7B%22summary%22%3A%22%3Cp%3EReturnable+if+you%E2%80%99ve+received+the+product+in+a+condition+that+is+damaged%2C+defective+or+different+from+its+description+on+the+product+detail+page+on+Amazon.in.%3C%2Fp%3E%5Cn%3Cp%3EReturn+the+camera+in+the+original+condition+with+brand+box+and+all+the+accessories+Product+like+camera+bag+etc.+to+avoid+pickup+cancellation.+We+will+not+process+a+replacement+if+the+pickup+is+cancelled+owing+to+missing%2Fdamaged+contents.%3C%2Fp%3E%5Cn%3Cp%3EReturn+the+speakers+in+the+original+condition+in+brand+box+to+avoid+pickup+cancellation.+We+will+not+process+a+replacement+if+the+pickup+is+cancelled+owing+to+missing%2F+damaged+box.%3C%2Fp%3E+%22%2C%22subTitle%22%3A%2210+Days+Replacement%5Cn%22%2C%22title%22%3A%22Digital+Cameras%2C+camera+lenses%2C+Headsets%2C+Speakers%2C+Projectors%2C+Home+Entertainment+(new+and+certified+refurbished)%22%7D%2C%7B%22summary%22%3A%22Returnable+if+you%E2%80%99ve+received+the+product+in+a+condition+that+is+damaged%2C+defective+or+different+from+its+description+on+the+product+detail+page+on+Amazon.in.%22%2C%22subTitle%22%3A%2210+Days%2C+Replacement%22%2C%22title%22%3A%22Headsets%5Cn%22%7D%2C%7B%22summary%22%3A%22%3Cp%3EReturnable+if+you%E2%80%99ve+received+the+product+in+a+condition+that+is+damaged%2C+defective+or+different+from+its+description+on+the+product+detail+page+on+Amazon.in.%3C%2Fp%3E%22%2C%22subTitle%22%3A%2210+Days+Returnable%22%2C%22title%22%3A%22Speakers+(new+and+certified+refurbished)%22%7D%2C%7B%22summary%22%3A%22%3Cp%3EReturnable+if+you%E2%80%99ve+received+the+product+in+a+condition+that+is+damaged%2C+defective+or+different+from+its+description+on+the+product+detail+page+on+Amazon.in.%3C%2Fp%3E%5Cn%3Cp%3EIf+you+report+an+issue+with+your+Television%2C+we+may+schedule+a+technician+visit+to+your+location.+On+the+basis+of+the+technician's+evaluation+report%2C+we'll+provide+a+resolution.%3C%2Fp%3E%5Cn%3Cp%3EReturn+the+TV+in+the+original+condition+in+brand+box+and+all+the+accessories+Product+like+TV+remote+etc.+to+avoid+pickup+cancellation.+We+will+not+process+a+replacement+if+the+pickup+is+cancelled+owing+to+missing%2Fdamaged+contents.%3C%2Fp%3E%22%2C%22subTitle%22%3A%2210+Days+Replacement%22%2C%22title%22%3A%22Televisions%22%7D%5D%2C%22showPTDBasedReturnPolicy%22%3Afalse%2C%22returnTitleViewHeader%22%3A%22Return+Policy%22%2C%22returnPolicyGroups%22%3A%5B%5D%2C%22basicReturnInfoIds%22%3A%5B%7B%22summary%22%3A%22returnDescSellerFulfilled%22%2C%22title%22%3A%22returnTitleSellerFulfilled%22%7D%2C%7B%22summary%22%3A%22returnDescGlobalStore%22%2C%22title%22%3A%22returnTitleGlobalStore%22%7D%2C%7B%22summary%22%3A%22returnDescInspectAndBuy%22%2C%22title%22%3A%22returnTitleInspectAndBuy%22%7D%5D%2C%22returnPolicySecondaryViewName%22%3A%22return-policy-secondary-view%22%7D
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:24:57 GMT
+x-amz-cf-pop: DEL51
+server: Server
+vary: Accept-Encoding,User-Agent,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment
+content-encoding: gzip
+x-frame-options: SAMEORIGIN
+x-amz-rid: VCVA7RSKCZ05R523RJ8J
+strict-transport-security: max-age=47474747; includeSubDomains; preload
+via: 1.1 2cbe2d6bb9079c1d153e7e15e9eac3c8.cloudfront.net (CloudFront)
+set-cookie: session-id=259-1202557-5929705; path=/; domain=.amazon.in; expires=Tue, 01-Jan-2036 00:00:01 GMT
+content-type: text/html; charset=UTF-8
+x-amz-id-1: VCVA7RSKCZ05R523RJ8J
+x-cache: Miss from cloudfront
+cache-control: no-transform
+x-amz-cf-id: m7T5mBRl-ajN1e1fB3ND1He_OfDZYu5mvgt3kC_kAePny28BhTgeFA==
+status: 200
+----
+

@@ -1,0 +1,42 @@
+/*-----------------------------------------------------------------------------
+    Name: Sorting
+    Recorded By: abhishek
+    Date of recording: 02/18/2017 12:56:02
+    Flow details:
+    Build details: 4.1.6 (build# 53)
+    Modification History:
+-----------------------------------------------------------------------------*/
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "ns_string.h"
+#include "Util.c"
+void Sorting()
+{
+ 
+    // Sorting
+    ns_start_transaction("COM_Browse_Sorting");
+    //Page Auto splitted for Ajax Header = XMLHttpRequest
+    ns_web_url ("SortByFilterPage_1_2",
+        "URL=http://www.jcpenney.com/{SortByFilterUrlSP}&suppressHeaderFooter=true",
+        //"URL=http://www.jcpenney.com/g/dress-shirts-mens-shirts/N-bwo3yD1nohp5Z1z0pezw?sort=BS&suppressHeaderFooter=true",
+        "HEADER=X-Requested-With:XMLHttpRequest",
+        "HEADER=Accept-Language:en-us",
+        "COOKIE=DPJSESSIONID;DPSessionTimeOutInterval;pageTemplate;userLatLong;DPUserTracking;cmTPSet;AKJCP;certonaPromotions-bopis;TLTSID;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;CavSID;InternationalItemTotal;ItemTotal;ItemCount;DPOrder;shipToCurrencyCode;shipToCountry;DPUserSession;mbox;storeDetails;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;c17;v53;s_cc;_ga;DPInstance;DPLastAccessedTime;DPCluster;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;_br_uid_2;LPCKEY-58507821;LPVID;LPSID-58507821;CavSF;CavLTS;CavPI;pn;dimOrder;JSESSIONID;DPIdentifier;_4c_;fsr.s;s_sq",
+        "PreSnapshot=webpage_1487402406911.png",
+        "Snapshot=webpage_1487402407393.png"
+    );
+    
+	if(!((strcmp((ns_eval_string("{ProductCountSP}")),"0")))){           //Condition To check ProductCount if it is 0 then it will end transaction with different name and exit the session
+    ns_end_transaction_as("COM_Browse_Sorting", NS_AUTO_STATUS, "COM_Browse_Sorting_NoProductAvail");        
+    ns_page_think_time(0.105); 
+    ns_exit_session();
+    }
+
+    else{
+	 ns_end_transaction("COM_Browse_Sorting", NS_AUTO_STATUS);
+	 ns_page_think_time(0.105);
+    }
+   
+}

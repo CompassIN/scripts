@@ -1,0 +1,6 @@
+<Bytes>
+  <bytes_field1>{bytes_data}</bytes_field1>
+  <b>
+    <bytes_field2>{bytes_data}</bytes_field2>
+  </b>
+</Bytes>

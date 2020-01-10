@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message DataType {
+  uint32 uint32type = 5;
+}

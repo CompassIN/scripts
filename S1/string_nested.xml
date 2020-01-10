@@ -1,0 +1,6 @@
+<String>
+  <string_field1>{string_data}</string_field1>
+  <b>
+    <string_field2>{string_data}</string_field2>
+  </b>
+</String>

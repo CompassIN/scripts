@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message Fixed32 {
+  fixed32 fixed32_field1 = 1;
+  fixed32 fixed32_field2 = 2;
+  fixed32 fixed32_field3 = 3;
+}

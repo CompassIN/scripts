@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message Fixed64 {
+  fixed64 fixed64_field1 = 1;
+  fixed64 fixed64_field2 = 2;
+  fixed64 fixed64_field3 = 3;
+}

@@ -1,0 +1,152 @@
+--Request 
+GET http://10.10.30.15:9010/cgi-bin/findflight?depart=Acapulco&departDate=08-15-2019&arrive=Acapulco&returnDate=08-16-2019&numPassengers=1&seatPref=None&seatType=Coach&findFlights.x=47&findFlights.y=12&findFlights=Submit
+Host: 10.10.30.15:9010
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+Referer: http://10.10.30.15:9010/cgi-bin/reservation
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-type: text/html
+Content-length: 0000004269
+----
+--Request 
+GET http://10.10.30.15:9010/tours/Merc10-dev/images/banner_animated.gif
+Host: 10.10.30.15:9010
+Referer: http://10.10.30.15:9010/cgi-bin/findflight?depart=Acapulco&departDate=08-15-2019&arrive=Acapulco&returnDate=08-16-2019&numPassengers=1&seatPref=None&seatType=Coach&findFlights.x=47&findFlights.y=12&findFlights=Submit
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-Length: 16522
+Content-Type: image/gif
+----
+--Request 
+GET http://10.10.30.15:9010/tours/Merc10-dev/images/sun_swede.gif
+Host: 10.10.30.15:9010
+Referer: http://10.10.30.15:9010/cgi-bin/findflight?depart=Acapulco&departDate=08-15-2019&arrive=Acapulco&returnDate=08-16-2019&numPassengers=1&seatPref=None&seatType=Coach&findFlights.x=47&findFlights.y=12&findFlights=Submit
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-Length: 4125
+Content-Type: image/gif
+----
+--Request 
+GET http://10.10.30.15:9010/tours/Merc10-dev/images/flights.gif
+Host: 10.10.30.15:9010
+Referer: http://10.10.30.15:9010/cgi-bin/findflight?depart=Acapulco&departDate=08-15-2019&arrive=Acapulco&returnDate=08-16-2019&numPassengers=1&seatPref=None&seatType=Coach&findFlights.x=47&findFlights.y=12&findFlights=Submit
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-Length: 1519
+Content-Type: image/gif
+----
+--Request 
+GET http://10.10.30.15:9010/tours/Merc10-dev/images/home.gif
+Host: 10.10.30.15:9010
+Referer: http://10.10.30.15:9010/cgi-bin/findflight?depart=Acapulco&departDate=08-15-2019&arrive=Acapulco&returnDate=08-16-2019&numPassengers=1&seatPref=None&seatType=Coach&findFlights.x=47&findFlights.y=12&findFlights=Submit
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-Length: 1268
+Content-Type: image/gif
+----
+--Request 
+GET http://10.10.30.15:9010/tours/Merc10-dev/images/signoff.gif
+Host: 10.10.30.15:9010
+Referer: http://10.10.30.15:9010/cgi-bin/findflight?depart=Acapulco&departDate=08-15-2019&arrive=Acapulco&returnDate=08-16-2019&numPassengers=1&seatPref=None&seatType=Coach&findFlights.x=47&findFlights.y=12&findFlights=Submit
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-Length: 1260
+Content-Type: image/gif
+----
+--Request 
+GET http://10.10.30.15:9010/tours/images/splash_Searchresults.gif
+Host: 10.10.30.15:9010
+Referer: http://10.10.30.15:9010/cgi-bin/findflight?depart=Acapulco&departDate=08-15-2019&arrive=Acapulco&returnDate=08-16-2019&numPassengers=1&seatPref=None&seatType=Coach&findFlights.x=47&findFlights.y=12&findFlights=Submit
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-Length: 2599
+Content-Type: image/gif
+----
+--Request 
+GET http://10.10.30.15:9010/tours/images/continue.gif
+Host: 10.10.30.15:9010
+Referer: http://10.10.30.15:9010/cgi-bin/findflight?depart=Acapulco&departDate=08-15-2019&arrive=Acapulco&returnDate=08-16-2019&numPassengers=1&seatPref=None&seatType=Coach&findFlights.x=47&findFlights.y=12&findFlights=Submit
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-Length: 1432
+Content-Type: image/gif
+----
+--Request 
+GET http://10.10.30.15:9010/tours/images/startover.gif
+Host: 10.10.30.15:9010
+Referer: http://10.10.30.15:9010/cgi-bin/findflight?depart=Acapulco&departDate=08-15-2019&arrive=Acapulco&returnDate=08-16-2019&numPassengers=1&seatPref=None&seatType=Coach&findFlights.x=47&findFlights.y=12&findFlights=Submit
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-Length: 1455
+Content-Type: image/gif
+----
+--Request 
+GET http://10.10.30.15:9010/tours/vep/images/velocigen.gif
+Host: 10.10.30.15:9010
+Referer: http://10.10.30.15:9010/cgi-bin/findflight?depart=Acapulco&departDate=08-15-2019&arrive=Acapulco&returnDate=08-16-2019&numPassengers=1&seatPref=None&seatType=Coach&findFlights.x=47&findFlights.y=12&findFlights=Submit
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-Length: 2018
+Content-Type: image/gif
+----
+

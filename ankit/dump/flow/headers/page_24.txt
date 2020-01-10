@@ -1,0 +1,30 @@
+--Request 
+HEAD https://images-eu.ssl-images-amazon.com/images/I/91D-zq7R8NL._AC_SY200_.jpg
+Host: images-eu.ssl-images-amazon.com
+Origin: https://www.amazon.in
+Accept: */*
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 15 Jul 2019 16:57:32 GMT
+x-amz-cf-pop: ORD50-C1
+content-length: 12976
+server: Server
+expires: Sun, 21 Nov 2038 04:47:30 GMT
+x-amz-ir-id: bd225c6c-9e99-44c5-9202-3ec6bd173288
+via: 1.1 6ca6a5c7e4ef3511c3ea6d058e2252f9.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Wed, 24 May 2017 09:21:15 GMT
+content-type: image/jpeg
+timing-allow-origin: https://www.amazon.com
+x-cache: Hit from cloudfront
+cache-control: max-age=630720000,public
+age: 520381
+x-amz-cf-id: HKkIs-5I9GXMvni4Ex-4MdTqCi8XLaynevXP_DTzrneIY2srO7D48g==
+status: 200
+----
+

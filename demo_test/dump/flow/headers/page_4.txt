@@ -1,0 +1,178 @@
+--Request 
+POST https://www.amazon.in/gp/overlay/display.html
+Host: www.amazon.in
+Cookie: session-id=259-1202557-5929705; session-id-time=2082787201l; i18n-prefs=INR; csm-hit=tb:s-FQHMBRA36T6KVA44S1T8|1562591802960&t:1562591802961; ubid-acbin=258-0672242-6953331
+Origin: https://www.amazon.in
+Accept: text/html,*/*
+X-Requested-With: XMLHttpRequest
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Content-Type: application/x-www-form-urlencoded
+----
+ POSTDATA origSessionId=259-1202557-5929705&subPageType=null&pageType=Gateway&ASIN=null&path=%2F&isAUI=1&referrer=&queryString=
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:16:46 GMT
+x-amz-cf-pop: DEL51
+server: Server
+vary: Accept-Encoding,User-Agent,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment
+content-encoding: gzip
+x-frame-options: SAMEORIGIN
+x-amz-rid: 6XYTG1Y9XNDSB56W3B4K
+strict-transport-security: max-age=47474747; includeSubDomains; preload
+via: 1.1 b804a121dcbb7cb51fd709903749806e.cloudfront.net (CloudFront)
+set-cookie: session-id=259-1202557-5929705; path=/; domain=.amazon.in; expires=Tue, 01-Jan-2036 00:00:01 GMT
+content-type: text/html; charset=UTF-8
+x-amz-id-1: 6XYTG1Y9XNDSB56W3B4K
+x-cache: Miss from cloudfront
+cache-control: no-transform
+x-amz-cf-id: 9vMLthd4-hmljN9F7DVu_Zt210s5cVIfnss-9trvTfo0NozXwMnNLg==
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img19/Wireless/OnePlus/OnePlus7/ICICI_Citi/7/V124670824_IN_WLM_OnePlus7Series_DesktopTallHero_1500x600._CB443044458_.jpg
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:16:46 GMT
+content-length: 34453
+server: Server
+expires: Sun, 26 Jun 2039 18:30:09 GMT
+x-amz-ir-id: 37e91043-4d10-4864-894e-89cc7633d0b2
+access-control-allow-origin: *
+last-modified: Mon, 01 Jul 2019 13:13:44 GMT
+content-type: image/jpeg
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from akamai
+cache-control: public, max-age=630134003
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img19/Wireless/Samsung/M_series/D10897149IN_WLME_Samsung_M-Series_DesktopTallHero_1500x600._CB443266287_.jpg
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:16:46 GMT
+content-length: 40646
+server: Server
+expires: Thu, 30 Jun 2039 00:38:49 GMT
+x-amz-ir-id: 82e74248-0986-47f4-90d3-d0fb26fe1db3
+access-control-allow-origin: *
+last-modified: Mon, 01 Jul 2019 10:33:38 GMT
+content-type: image/jpeg
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from akamai
+cache-control: public, max-age=630415323
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/prime/Gateway/2019/May/1171883_1500x600_Tallhero._CB462550275_.jpg
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:16:46 GMT
+content-length: 45689
+server: Server
+expires: Mon, 16 May 2039 12:32:09 GMT
+x-amz-ir-id: ac7ed1d1-a6a9-458e-91a8-30b65699ce41
+access-control-allow-origin: *
+last-modified: Tue, 21 May 2019 06:53:35 GMT
+content-type: image/jpeg
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from akamai
+cache-control: public, max-age=626570123
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img19/PC_Accessories/Heros/pc_acc_GW_1500X600_revised._CB443044001_.jpg
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:16:46 GMT
+content-length: 85646
+server: Server
+expires: Tue, 28 Jun 2039 02:45:45 GMT
+x-amz-ir-id: 9919e559-806b-40f0-8245-c97ed947adee
+access-control-allow-origin: *
+last-modified: Mon, 01 Jul 2019 13:08:28 GMT
+content-type: image/jpeg
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from akamai
+cache-control: public, max-age=630250139
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img19/AmazonPay/HFC/June/GW/HFC_TallHero_1500x600_MainBunk_180._CB461663029_.jpg
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:16:46 GMT
+content-length: 41249
+server: Server
+expires: Sun, 03 Jul 2039 02:41:12 GMT
+x-amz-ir-id: a4f46f60-19a3-40ef-ac52-f8c238874f55
+access-control-allow-origin: *
+last-modified: Tue, 04 Jun 2019 09:48:09 GMT
+content-type: image/jpeg
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from akamai
+cache-control: public, max-age=630681866
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img19/Wireless/MobileAccessories/Headsets/BTH_Fest/D11017641_IN_WLA_BHT_heroes_QCs_DesktopTallHero_1500x600._CB443321733_.jpg
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:16:46 GMT
+content-length: 34636
+server: Server
+expires: Sun, 03 Jul 2039 00:52:18 GMT
+x-amz-ir-id: aadb6609-3ab6-4fd7-9349-069a1298238f
+access-control-allow-origin: *
+last-modified: Fri, 05 Jul 2019 04:58:16 GMT
+content-type: image/jpeg
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from akamai
+cache-control: public, max-age=630675332
+status: 200
+----
+

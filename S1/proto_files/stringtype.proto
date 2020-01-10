@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message DataType {
+  string stringtype = 14;
+}

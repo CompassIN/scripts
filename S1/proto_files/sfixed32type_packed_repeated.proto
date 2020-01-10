@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SFixed32 {
+  repeated sfixed32 sfixed32_field1 = 1 [packed=true];
+}

@@ -1,0 +1,5 @@
+#version=1.0
+#pageName|urlType|inlineUrlId|Url|dumpFileName|ContentType|redirectionDepth|redirectUrl|UrlHost|urlFilePath|rootPath|statusCode|time(Sec.)|bytesRecieved|bodySize|method|SnapShotBeforAction|SnapShotAfterAction|snapShotClickAction|clickAPIName|future1|future2|future3|future4|future5|future6|comments
+
+index|Main|0|http://127.0.0.1/|127.0.0.1/index|text/html|0|NA|127.0.0.1|/|./|200|0|0|10918|GET|webpage_1554874130862.png|webpage_1554874131105.png|NA|NA|10.848|10.909|NA|NA|NA|NA|NA
+index|Inline|1|http://127.0.0.1/icons/ubuntu-logo.png|127.0.0.1/icons/ubuntu-logo.png|image/png|0|NA|127.0.0.1|/icons/|./../|200|0|0|3338|GET|NA|NA|NA|NA|10.941|11.076|NA|NA|NA|NA|NA

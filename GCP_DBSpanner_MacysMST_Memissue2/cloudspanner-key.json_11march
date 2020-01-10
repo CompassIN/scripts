@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "mtech-wms-oms-poc",
+  "private_key_id": "157798280c38d63590883f5345ba602d2fd52e31",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCZ4yMSwtpu1nd/\nzqJS9UxSmODUHNJjpLSypNbVfNfrJLNpD7g1cHtK3Tv9bO6bUB5wSd0mf0BxKIES\n70/uKaCCEKEj345+Wx67Dfzc9av21/why/GRupITu/eSmwZKqXOD54VC8zwEsdrc\n3GEkUzNPj+Fz9LeLNO0hbQ4OZU6N8bdqkoP3QrZnc6zl1Gks2YY5LjSlaElQ+hYA\n6YuddzPUWB+wFd1qxMdxaW/zuqHmxaNMEnuWR/CP/wkz48GPnYVagLdOe/9vhrsy\nPhiLeH196sERFjzXNUkxGtulw8oyyFoK5fukyEZYvwPb77L8GhSyQFkLihSD3Myu\nWPWAZKgpAgMBAAECggEAAhRD9GGap4YM89AuPL3FCuLITDM8SlY6bGEUcTMMFR3p\nKMbmQuscZ994z5/iWwWEGRmf+/f4tblaxij8QK6VbttgQw0Eu3IuZD68iVjMIRGI\nqI3W23JlvYdRSe7/m24arVAYJk30V1+hZpV1Rs7mTaTBwITKDg/XROR62InhVW2c\nEgatCCkmr9b5joUxmWO7R0xbOPrOh5+WJpCuJ6f/wJZahIg0yDJ1SIk36blgH4cP\ncvNTBDzMKKpMvt2Xuci25RL+4bxRh9ZgUKfEi71TOZ2zUDxZDezmyK4aTlNUxLgW\noHix3qde+tL/+z+7LIYBGcxrMrL3D2dUVcmM5vQIWQKBgQDGgdjsIgdszn5KFa6o\nBTl5TK4A5EnGOf//WoIjfwTi9sq0oS11mRAPLYb0MRqvg6yms+AqKZl56v2I58B2\nGsawn82NnY+ZoYyNU2s9vAK+ZX4ATu49ounBulMw9BOQb9Vi0VBZb9Bxs5K7vrIT\n6ZZ+7B0KR4Nt5rAEB/nD+W4/RwKBgQDGdPrH7kYRORv+RUWZeVk8lI/RYMc54KrI\nWlbG46d9rpHg8/wIQbdMbXzRLk2wq7pCv97eyui2Ds3mp0i/PkgVKo960Rx8qEPq\nsM+7YbYc/0FFf8IWXrYGrdcvwUouGvorroFV6km8fvo0pwTLXjDaaJqsgCwS587D\nPRc3jKD1DwKBgQCXBpFITjeB87Snnslr8dWhUNKNwSHT26rF11FtuiS4nPTp6jqQ\n3uwV8BhdzsIzyKVhizbAPTgURtGwCEooUQTbuikEVly7kOpDV7Uemd0oiEUN7P9b\nC4h3KNBETV5ZJIyfiwprkSNwbiP0DQilF7G1TORnPrNiuQEvf/XpwOq83wKBgCv7\n7zzyfUsB6kdfmP5b28BGeN2B4oXcWl2PUB5ChHOhhiliSeCWmAZzWa+O4J8gYGa8\n2attM0huXYoaV1AzgIxYY3Zn9DVYobzZNSElldQ1aoT5vM1ybktqqf+mikdPqVSX\nF4kwJOmHBvM2dSSRmqg9eNJ0kdAa2kOBPa0NGPtXAoGAE2v+UpibMFoGzn5dsgBT\nNy0Wzl19mChvpG9+uDhZxy+POpiNDynF6Doa5JZeRZB4h0wmddg/1llizD9YQIVn\nlZ7O1q7Chkw23FUb7l8McTW5okXII/SZTcgVhvNiE7e+2O041TG0ULfHLMwO4Fk3\n5tKa0WMLsfewaGvS/eds8ZY=\n-----END PRIVATE KEY-----\n",
+  "client_email": "spanner-pubsub-qa@mtech-wms-oms-poc.iam.gserviceaccount.com",
+  "client_id": "113932914766440778450",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/spanner-pubsub-qa%40mtech-wms-oms-poc.iam.gserviceaccount.com"
+}

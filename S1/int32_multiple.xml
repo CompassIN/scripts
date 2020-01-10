@@ -1,0 +1,5 @@
+<Int32>
+  <int32_field1>{int32_data}</int32_field1>
+  <int32_field2>{int32_data}</int32_field2>
+  <int32_field3>{int32_data}</int32_field3>
+</Int32>

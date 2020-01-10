@@ -1,0 +1,44 @@
+--Request 
+POST https://fls-eu.amazon.in/1/batch/1/OE/
+Host: fls-eu.amazon.in
+Cookie: session-id=259-1202557-5929705; i18n-prefs=INR; ubid-acbin=258-0672242-6953331; x-wl-uid=1ecJvyxzwiGLpb/ivu3x3ngupYO7bY1+BPjlMC56V5J9AKfsIjsCkfc+Jr7a3C9XLJxX0u1syPM0=; visitCount=1; session-token=\"qbOQOkS0VEpBUocLOZRgf/vBjfAa/L1gvzuk4dHaABRLwBcXdkoWG+tgKYovU/GtpgviGH2ntZ17AVp7e48ZFY6MNw3iH/RJtLL2eZrJEHt3s9Cy0QE8n08HbD+hmqwfffrZuHf+ncTYp9ne7NmDLRaqAwIAVoD+O39gZOoyeiIbwRC9aZp+vc79loUdfIgRN7k1iETJ2x2I7SZjKc9arkykk2SqRFhbbijoObQQg4mvjy58UMqGvQ==\"; lc-acbin=en_IN; session-id-time=2082787201l
+Origin: https://www.amazon.in
+Accept: */*
+Cache-Control: max-age=0
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Content-Type: text/plain;charset=UTF-8
+----
+ POSTDATA {"rid":"FQHMBRA36T6KVA44S1T8","sid":"259-1202557-5929705","mid":"A21TJRUUN4KGV","sn":"www.amazon.in","reqs":[{"cel":{"n":"gw-ftGr-desktop-tall-hero-G","w":1000,"h":600,"d":0,"x":-906.8078002929688,"y":99,"t":24445,"k":"ewi"}},{"cel":{"n":"gw-ftGr-desktop-tall-hero-H","w":1000,"h":600,"d":0,"x":93.19219207763672,"y":99,"t":24445,"k":"ewi"}},{"cel":{"n":"gw-ftGr-desktop-tall-hero-G","w":1000,"h":600,"d":1,"x":-1000,"y":99,"t":24543,"k":"ewi"}},{"cel":{"n":"gw-ftGr-desktop-tall-hero-H","w":1000,"h":600,"d":0,"x":0,"y":99,"t":24543,"k":"ewi"}},{"cel":{"k":"hrt","t":25795}},{"csm":{"k":"chk","f":4,"l":{"csmcount":336,"navigation":1,"cel":82,"csm":5},"s":"full"}},{"csmcount":{"counter":"foresterPayloadSize","t":0,"value":731}}]}
+--Response 
+HTTP/1.1 204
+access-control-allow-origin: *
+date: Mon, 08 Jul 2019 13:17:06 GMT
+x-amzn-requestid: 1d5a8663-37b6-4799-88e8-092151e79c31
+access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+status: 204
+----
+--Request 
+GET https://s.amazon-adsystem.com/ecm3?id=I75Kf5ZphTJ5k3wBXs4amMWWwYjZzChgQG1x_JmYjWc&ex=rubiconproject.com&status=ok
+Host: s.amazon-adsystem.com
+Cookie: ad-id=A12g3-vssU7xrcsPDnR90f0; ad-privacy=0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200 OK
+Cache-Control: max-age=0, no-cache, no-store, private, must-revalidate, s-maxage=0
+Server: Server
+Connection: keep-alive
+Vary: User-Agent
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Pragma: no-cache
+Content-Length: 43
+Date: Mon, 08 Jul 2019 13:17:09 GMT
+Content-Type: image/gif
+----
+

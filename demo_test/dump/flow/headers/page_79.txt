@@ -1,0 +1,109 @@
+--Request 
+GET https://www.amazon.in/gp/product/ajax/dpx-metrics-handler.html/ref=iconfarm_rp_gv?pageAsin=B07H6DJZ1P&pageType=Detail&subPageType=IconFarm&merchantId=A3VM9N4M94Q18E
+Host: www.amazon.in
+Cookie: session-id=259-1202557-5929705; i18n-prefs=INR; ubid-acbin=258-0672242-6953331; x-wl-uid=1ecJvyxzwiGLpb/ivu3x3ngupYO7bY1+BPjlMC56V5J9AKfsIjsCkfc+Jr7a3C9XLJxX0u1syPM0=; visitCount=1; session-token=\"qbOQOkS0VEpBUocLOZRgf/vBjfAa/L1gvzuk4dHaABRLwBcXdkoWG+tgKYovU/GtpgviGH2ntZ17AVp7e48ZFY6MNw3iH/RJtLL2eZrJEHt3s9Cy0QE8n08HbD+hmqwfffrZuHf+ncTYp9ne7NmDLRaqAwIAVoD+O39gZOoyeiIbwRC9aZp+vc79loUdfIgRN7k1iETJ2x2I7SZjKc9arkykk2SqRFhbbijoObQQg4mvjy58UMqGvQ==\"; lc-acbin=en_IN; csm-hit=tb:s-XS1R1NSST0MSNB81W2M8|1562592294012&t:1562592295847&adb:adblk_no; session-id-time=2082787201l
+Accept: text/html,*/*
+X-Requested-With: XMLHttpRequest
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:24:59 GMT
+x-amz-cf-pop: DEL51
+server: Server
+vary: Accept-Encoding,User-Agent,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment
+content-encoding: gzip
+x-frame-options: SAMEORIGIN
+x-amz-rid: 3Q2DG319B5YY6RNDRQ1Z
+strict-transport-security: max-age=47474747; includeSubDomains; preload
+via: 1.1 2cbe2d6bb9079c1d153e7e15e9eac3c8.cloudfront.net (CloudFront)
+x-content-type-options: nosniff
+x-xss-protection: 1;
+content-type: text/html;charset=UTF-8
+x-cache: Miss from cloudfront
+cache-control: no-transform
+x-amz-cf-id: MGaG5e3RgU8OAVmKWyRIwbW7pZUMZYBZmRNx9l7rXXNYkR4EtMQG4A==
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/reviews-legacy/review-lightbox-combined._CB279607588_.css
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: text/css,*/*;q=0.1
+----
+--Response 
+HTTP/1.1 200
+date: Thu, 23 May 2019 16:22:47 GMT
+x-amz-cf-pop: DEL51
+server: Server
+expires: Wed, 18 May 2033 03:33:20 GMT
+x-amz-ir-id: f00374ca-4cbd-4299-ba98-d94eb6f4ed72
+content-encoding: gzip
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Tue, 13 Sep 2016 16:41:45 GMT
+content-type: text/css
+x-cache: Hit from cloudfront
+cache-control: max-age=630720000,public
+age: 4022227
+x-amz-cf-id: 1OZS_al6xd-Mws9AiABNdkmGHuoNY7nHfxWNOzgji2Vdj4SfgPsfpA==
+status: 200
+----
+--Request 
+GET https://googleads.g.doubleclick.net/pagead/viewthroughconversion/984527532/?value=0&label=r_58CJXm0gIQw9iz3gM&guid=ON&script=0&data=ecomm_pagetype%3DProductDetail%3Becomm_prodid%3DB07H6DJZ1P%3Becomm_price%3D%3Becomm_pcat%3DElectronics%3Becomm_pname%3D(Renewed)%20Philips%20BT40BK%2F94%20Portable%20Wireless%20Bluetooth%20Speaker%20(Black)%3Bsearchterm%3D%3BCURRENT_TIME%3D2019-07-08T13%3A24%3A59.512Z%3BSignedIn%3DN
+Host: googleads.g.doubleclick.net
+Cookie: IDE=AHWqTUkWFgjCx5oQ9qu0LM7--aAvsF1uaYMOl8VoML_Wm5mzbNJVJRxfIoD6EHjP
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 302
+date: Mon, 08 Jul 2019 13:25:00 GMT
+content-length: 42
+server: cafe
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+p3p: policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"
+pragma: no-cache
+x-content-type-options: nosniff
+x-xss-protection: 0
+content-type: image/gif
+location: https://www.google.com/pagead/1p-user-list/984527532/?value=0&label=r_58CJXm0gIQw9iz3gM&guid=ON&script=0&data=ecomm_pagetype%3DProductDetail%3Becomm_prodid%3DB07H6DJZ1P%3Becomm_price%3D%3Becomm_pcat%3DElectronics%3Becomm_pname%3D(Renewed)%20Philips%20BT40BK%2F94%20Portable%20Wireless%20Bluetooth%20Speaker%20(Black)%3Bsearchterm%3D%3BCURRENT_TIME%3D2019-07-08T13%3A24%3A59.512Z%3BSignedIn%3DN&cdct=2&is_vtc=1&random=3634564517
+timing-allow-origin: *
+alt-svc: quic=\"googleads.g.doubleclick.net:443\"; ma=2592000; v=\"46,43,39\",quic=\":443\"; ma=2592000; v=\"46,43,39\"
+cache-control: no-cache, must-revalidate
+status: 302
+----
+--Request 
+GET https://aax-eu.amazon-adsystem.com/s/v3/pr?exlist=twca_imdb&fv=1.0&ex-pl-twca=TxUMpLjCQra7Z9ymu-dsNQ&a=cm
+Host: aax-eu.amazon-adsystem.com
+Cookie: ad-id=A12g3-vssU7xrcsPDnR90f0; ad-privacy=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+Referer: https://aax-eu.amazon-adsystem.com/s/iu3?d=amazon.in&slot=navFooter&a2=010167e39654ed462ded327d5bc14af764ce778e0ead47b9221cdb8bb4f01946cace&old_oo=0&ts=1562592293567&s=AbaH76zSnZ1ngHr1hqsClkrPkOAp7kFyvuR_kUAJJV2F&cb=1562592293567
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200 OK
+Cache-Control: max-age=0, no-cache, no-store, private, must-revalidate, s-maxage=0
+Server: Server
+Connection: keep-alive
+Content-Encoding: gzip
+Vary: Accept-Encoding,User-Agent
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Pragma: no-cache
+Content-Length: 306
+Date: Mon, 08 Jul 2019 13:25:00 GMT
+Content-Type: text/html;charset=ISO-8859-1
+----
+

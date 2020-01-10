@@ -1,0 +1,252 @@
+--Request 
+GET https://completion.amazon.co.uk/api/2017/suggestions?session-id=260-6898445-8949221&customer-id=&request-id=0ZFJYD08MQTRDRQYVHA4&page-type=Detail&lop=en_IN&site-variant=desktop&client-info=amazon-search-ui&mid=A21TJRUUN4KGV&alias=apparel&searchTerm=a&suggestion-type=KEYWORD&suggestion-type=WIDGET&_=1563387883420
+Host: completion.amazon.co.uk
+Origin: https://www.amazon.in
+Accept: application/json, text/javascript, */*; q=0.01
+Referer: https://www.amazon.in/Giant-Innovative-Stylish-Sunglasses-Aviator/dp/B07MPSZ7NK/ref=bbp_bb_d33a38_st_CCqh_w_0?psc=1&smid=ANTJPL45A9VCN
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+----
+--Response 
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Server: Server
+Access-Control-Allow-Origin: *
+Date: Wed, 17 Jul 2019 18:24:42 GMT
+Content-Type: application/json
+----
+--Request 
+GET https://images-na.ssl-images-amazon.com/images/I/71X3u2rsesL._AC_UL320_SR284,320_.jpg
+Host: images-na.ssl-images-amazon.com
+Referer: https://www.amazon.in/Giant-Innovative-Stylish-Sunglasses-Aviator/dp/B07MPSZ7NK/ref=bbp_bb_d33a38_st_CCqh_w_0?psc=1&smid=ANTJPL45A9VCN
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Sun, 02 Jun 2019 15:46:49 GMT
+x-amz-cf-pop: ORD50-C1
+content-length: 9598
+server: Server
+expires: Wed, 11 Aug 2038 08:25:13 GMT
+x-amz-ir-id: e883c2c2-964f-422b-8a55-44a42cce87a1
+via: 1.1 6ca6a5c7e4ef3511c3ea6d058e2252f9.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Sun, 28 Feb 2016 18:00:02 GMT
+content-type: image/jpeg
+timing-allow-origin: https://www.amazon.com
+x-cache: Hit from cloudfront
+cache-control: max-age=630720000,public
+age: 4448890
+x-amz-cf-id: Inpy3qb36CtjrxoZgRJLyVawZZvg2JeH714sguEtVME91FMcE47x0Q==
+status: 200
+----
+--Request 
+GET https://aax-eu.amazon-adsystem.com/e/xsp/getAdj?src=511&slot=dp-ads-center-promo&rid=0101e7a8f8afc6cf58ae0369144f109d9b6e9fd91bf37a4d2450c1a5215495288972&callback=aax_xsp_render_ad
+Host: aax-eu.amazon-adsystem.com
+Cookie: ad-id=Aw2U5SPThEoFqF5QAjLktoM; ad-privacy=0
+Accept: */*
+Referer: https://images-eu.ssl-images-amazon.com/images/G/31/ape/sf/whitelisted/desktop/sf-1.50.d23453f._V461669522_.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+----
+--Response 
+HTTP/1.1 200 OK
+Server: Server
+Access-Control-Allow-Origin: https://www.amazon.com
+Access-Control-Allow-Credentials: true
+Connection: keep-alive
+Content-Encoding: gzip
+Vary: Accept-Encoding,User-Agent
+Content-Length: 159
+Date: Wed, 17 Jul 2019 18:24:43 GMT
+Content-Type: text/javascript;charset=UTF-8
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/AmazonVideo/2019/SingleTitle/Astarisborn/499x492-GNO_without-disclaimer._CB442309568_.png
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/Giant-Innovative-Stylish-Sunglasses-Aviator/dp/B07MPSZ7NK/ref=bbp_bb_d33a38_st_CCqh_w_0?psc=1&smid=ANTJPL45A9VCN
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 17 Jul 2019 16:39:00 GMT
+x-amz-cf-pop: ORD50-C1
+content-length: 79235
+server: Server
+expires: Tue, 12 Jul 2039 16:39:00 GMT
+x-amz-ir-id: f163ec70-aca1-4bdf-b94b-4d830a5000af
+via: 1.1 6ca6a5c7e4ef3511c3ea6d058e2252f9.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Wed, 17 Jul 2019 16:37:02 GMT
+content-type: image/png
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from cloudfront
+cache-control: max-age=630720000,public
+age: 6343
+x-amz-cf-id: tDx5KZxrpzpxcog6PsZ0xDRZJ9fMQhhxMhnTFPJZ0UgjCHN2CSOVpw==
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img19/AmazonBrands/Mamabear/Overall/Flyoutnew_500x450_1559280449._CB461564221_.png
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/Giant-Innovative-Stylish-Sunglasses-Aviator/dp/B07MPSZ7NK/ref=bbp_bb_d33a38_st_CCqh_w_0?psc=1&smid=ANTJPL45A9VCN
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Sat, 08 Jun 2019 00:00:26 GMT
+x-amz-cf-pop: ORD50-C1
+content-length: 132370
+server: Server
+expires: Sat, 28 May 2039 13:20:47 GMT
+x-amz-ir-id: 493b2c15-7cfc-46c5-9e29-83916bf3a084
+via: 1.1 6ca6a5c7e4ef3511c3ea6d058e2252f9.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Fri, 31 May 2019 05:29:34 GMT
+content-type: image/png
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from cloudfront
+cache-control: max-age=630720000,public
+age: 3906236
+x-amz-cf-id: lbVJFjq97F7duczJwnHtRL5MBmLZ-IaafTrYCivgPXFJE5jVnHLeLw==
+status: 200
+----
+--Request 
+GET https://aax-eu.amazon-adsystem.com/e/xsp/getAdj?src=511&slot=customer-reviews-top&rid=0101e7a8f8afc6cf58ae0369144f109d9b6e9fd91bf37a4d2450c1a5215495288972&callback=aax_xsp_render_ad
+Host: aax-eu.amazon-adsystem.com
+Cookie: ad-id=Aw2U5SPThEoFqF5QAjLktoM; ad-privacy=0
+Accept: */*
+Referer: https://images-eu.ssl-images-amazon.com/images/G/31/ape/sf/whitelisted/desktop/sf-1.50.d23453f._V461669522_.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+----
+--Response 
+HTTP/1.1 200 OK
+Server: Server
+Access-Control-Allow-Origin: https://www.amazon.com
+Access-Control-Allow-Credentials: true
+Connection: keep-alive
+Content-Encoding: gzip
+Vary: Accept-Encoding,User-Agent
+Content-Length: 1988
+Date: Wed, 17 Jul 2019 18:24:43 GMT
+Content-Type: text/javascript;charset=UTF-8
+----
+--Request 
+GET https://aax-eu.amazon-adsystem.com/x/px/QhQaUW2922WSyzC4cjippG8AAAFsAS3TdgMAAAH_AYKEmJM/nii/%7B%22ni%22:true%7D
+Host: aax-eu.amazon-adsystem.com
+Cookie: ad-id=Aw2U5SPThEoFqF5QAjLktoM; ad-privacy=0
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://images-eu.ssl-images-amazon.com/images/G/31/ape/sf/whitelisted/desktop/sf-1.50.d23453f._V461669522_.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+----
+--Response 
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+Server: Server
+Connection: keep-alive
+Vary: User-Agent
+Pragma: no-cache
+Content-Length: 43
+Date: Wed, 17 Jul 2019 18:24:43 GMT
+Content-Type: image/gif
+----
+--Request 
+GET https://images-na.ssl-images-amazon.com/images/G/01/vap/video/airy2/prod/2.0.1460.0/js/airy.skin._CB513066589_.js
+Host: images-na.ssl-images-amazon.com
+Referer: https://www.amazon.in/Giant-Innovative-Stylish-Sunglasses-Aviator/dp/B07MPSZ7NK/ref=bbp_bb_d33a38_st_CCqh_w_0?psc=1&smid=ANTJPL45A9VCN
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Accept: */*
+----
+--Response 
+HTTP/1.1 200
+date: Sun, 19 May 2019 23:07:05 GMT
+x-amz-cf-pop: ORD50-C1
+server: Server
+expires: Sat, 14 May 2039 05:31:34 GMT
+x-amz-ir-id: 88c4e4b4-ddb3-4f2b-afdc-7a5341214a49
+content-encoding: gzip
+via: 1.1 6ca6a5c7e4ef3511c3ea6d058e2252f9.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Tue, 17 Oct 2017 19:46:54 GMT
+content-type: application/javascript
+timing-allow-origin: https://www.amazon.com
+x-cache: Hit from cloudfront
+cache-control: max-age=630720000,public
+age: 5143989
+x-amz-cf-id: AJMFTdMfiAlzGmvzPgqy2rwTl1tyWOf_BMXDc9HuozsH8DdHxqOyFg==
+status: 200
+----
+--Request 
+GET https://images-na.ssl-images-amazon.com/images/G/01/vap/video/airy2/prod/2.0.1460.0/css/beacon._CB513066589_.css
+Host: images-na.ssl-images-amazon.com
+Referer: https://www.amazon.in/Giant-Innovative-Stylish-Sunglasses-Aviator/dp/B07MPSZ7NK/ref=bbp_bb_d33a38_st_CCqh_w_0?psc=1&smid=ANTJPL45A9VCN
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Accept: text/css,*/*;q=0.1
+----
+--Response 
+HTTP/1.1 200
+date: Sun, 03 Feb 2019 23:37:37 GMT
+x-amz-cf-pop: ORD50-C1
+server: Server
+expires: Sat, 29 Jan 2039 06:10:43 GMT
+x-amz-ir-id: 79f7a8db-c68d-4122-b8e7-6974c0a255f8
+content-encoding: gzip
+via: 1.1 6ca6a5c7e4ef3511c3ea6d058e2252f9.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Fri, 01 Sep 2017 23:44:07 GMT
+content-type: text/css
+timing-allow-origin: https://www.amazon.com
+x-cache: Hit from cloudfront
+cache-control: max-age=630720000,public
+age: 14213640
+x-amz-cf-id: XHt6I7f-l4-gjxRyWe6cqOYeEpQi-yJ9dWcRxxIiXrtM_tJe2dmPvA==
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img19/books/062019/AmishTripathi/FLY-OUT_PR_Less._CB443002928_.png
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/Giant-Innovative-Stylish-Sunglasses-Aviator/dp/B07MPSZ7NK/ref=bbp_bb_d33a38_st_CCqh_w_0?psc=1&smid=ANTJPL45A9VCN
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Tue, 16 Jul 2019 07:05:16 GMT
+x-amz-cf-pop: ORD50-C1
+content-length: 40681
+server: Server
+expires: Sat, 25 Jun 2039 18:32:22 GMT
+x-amz-ir-id: a9cf0af9-9ec1-4297-a12b-1fce3e1ed340
+via: 1.1 6ca6a5c7e4ef3511c3ea6d058e2252f9.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Fri, 28 Jun 2019 10:01:02 GMT
+content-type: image/png
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from cloudfront
+cache-control: max-age=630720000,public
+age: 731421
+x-amz-cf-id: p9nwmwSV_lFXc2_5cplvcrHEpCdBPY0jOr_tISUKGdKSoOrY3HFkBA==
+status: 200
+----
+

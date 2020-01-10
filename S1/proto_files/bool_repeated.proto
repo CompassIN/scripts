@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message Bool {
+  repeated bool bool_field1 = 1;
+}

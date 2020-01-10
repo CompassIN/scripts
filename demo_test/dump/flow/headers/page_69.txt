@@ -1,0 +1,30 @@
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img18/Electronics/Megamenu/megamenumar18f.json?_=1562592297086
+Host: images-eu.ssl-images-amazon.com
+Origin: https://www.amazon.in
+Accept: application/json, text/javascript, */*; q=0.01
+Referer: https://www.amazon.in/CERTIFIED-REFURBISHED-Philips-Portable-Bluetooth/dp/B07H6DJZ1P/ref=lp_16182118031_1_1?s=electronics&ie=UTF8&qid=1562592274&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+date: Thu, 04 Jul 2019 04:39:26 GMT
+x-amz-cf-pop: DEL51
+server: Server
+expires: Fri, 05 Jul 2019 04:39:25 GMT
+x-amz-ir-id: f211a73b-f6b8-414e-b90a-e5cc12d69fa2
+content-encoding: gzip
+via: 1.1 6bf9df28058e9b2a0034a51c5f555669.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Wed, 03 Jul 2019 13:43:42 GMT
+content-type: application/json
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from cloudfront
+cache-control: max-age=86400,public
+age: 31544
+x-amz-cf-id: IJsCk3ud8OT9kVkv9b-NDw0wcg-hRD5BLO88KpjJbd8UAu-8e0UQLA==
+status: 200
+----
+

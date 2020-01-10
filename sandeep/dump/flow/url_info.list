@@ -1,0 +1,5 @@
+#version=1.0
+#pageName|urlType|inlineUrlId|Url|dumpFileName|ContentType|redirectionDepth|redirectUrl|UrlHost|urlFilePath|rootPath|statusCode|time(Sec.)|bytesRecieved|bodySize|method|SnapShotBeforAction|SnapShotAfterAction|snapShotClickAction|clickAPIName|future1|future2|future3|future4|future5|future6|comments
+
+index_htm|Main|0|https://r5---sn-ci5gup-qxa6.gvt1.com/edgedl/chrome/dict/en-us-8-0.bdic?cms_redirect=yes&mip=182.71.119.213&mm=28&mn=sn-ci5gup-qxa6&ms=nvh&mt=1560324178&mv=u&pl=24&shardbypass=yes|r5---sn-ci5gup-qxa6.gvt1.com/edgedl/chrome/dict/en-us-8-0.bdic_cms_redirect=yes_mip=182.71.119.213_mm=28_mn=sn-ci5gup-qxa6_ms=nvh_mt=1560324178_mv=u_pl=24_shardbypass=yes|application/octet-stream|0|NA|r5---sn-ci5gup-qxa6.gvt1.com|/edgedl/chrome/dict/|./../../../|200|0|0|0|GET|NA|NA|NA|NA|0.0|15.786|NA|NA|NA|NA|NA
+index_htm|Inline|1|http://10.10.30.2:81/tours/index.htm|10.10.30.2_81/tours/index.htm|text/html;charset=ISO-8859-1|0|NA|10.10.30.2:81|/tours/|./../|404|0.001|0|35|GET|webpage_1560324446973.png|webpage_1560324448721.png|NA|NA|16.103|17.483|NA|NA|NA|NA|NA

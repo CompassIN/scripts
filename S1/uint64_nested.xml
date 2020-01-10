@@ -1,0 +1,6 @@
+<UInt64>
+  <uint64_field1>{uint64_data}</uint64_field1>
+  <b>
+    <uint64_field2>{uint64_data}</uint64_field2>
+  </b>
+</UInt64>

@@ -1,0 +1,39 @@
+//File Parameter Test Cases
+   //nsl_static_var(S1v1:2, S1v2:3, S1v3:4, File=S1v1_data_file_weight, Refresh=SESSION, Mode=WEIGHTED_RANDOM, FirstDataLine=1, EncodeMode=All);
+   //nsl_static_var(S1v4:2, S1v5:3, File=S1v4_data_file, Refresh=USE, Mode=WEIGHTED_RANDOM, FirstDataLine=1, EncodeMode=All);
+
+
+//Case [A]: Single API
+//Case 1: Mode = SEQUENTIAL  
+  //1.1: Refresh = SESSION
+    //nsl_static_var(S1v1:1, S1v2:2, S1v3:3, File=S1v1_data_file, Refresh=SESSION, Mode=SEQUENTIAL, FirstDataLine=1, EncodeMode=All);
+
+  //1.2: Refresh = USE
+    //nsl_static_var(S1v1:1, S1v2:2, S1v3:3, File=S1v1_data_file, Refresh=USE, Mode=SEQUENTIAL, FirstDataLine=1, EncodeMode=All);
+
+//Case 2: Mode = UNIQUE
+  //2.1: Refresh = SESSION
+  //nsl_static_var(S1v1:1, S1v2:2, S1v3:3, File=S1v1_data_file, Refresh=SESSION, Mode=UNIQUE, FirstDataLine=1, EncodeMode=All);
+
+  //2.2: Refresh = USE
+  //nsl_static_var(S1v1:1, S1v2:2, S1v3:3, File=S1v1_data_file, Refresh=USE, Mode=UNIQUE, FirstDataLine=1, EncodeMode=All);
+
+//Case 3: Mode = USE_ONCE
+  //3.1: Refresh = SESSION
+    nsl_static_var(S1v1:1, S1v2:2, S1v3:3, File=S1v1_data_file, Refresh=SESSION, Mode=USE_ONCE, FirstDataLine=1, EncodeMode=All);
+
+  //3.2: Refresh = USE
+  //nsl_static_var(S1v1:1, S1v2:2, S1v3:3, File=S1v1_data_file, Refresh=USE, Mode=UNIQUE, FirstDataLine=1, EncodeMode=All);
+
+
+
+//Case [B]: More than one API
+
+
+//Case [C]: With other API
+
+
+//Case [D]: With large data set
+
+
+//Case [E]: Load Test

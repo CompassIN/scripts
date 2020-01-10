@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message Bytes {
+  bytes bytes_field1 = 1;
+  bytes bytes_field2 = 2;
+  bytes bytes_field3 = 3;
+}

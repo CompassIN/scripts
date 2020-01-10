@@ -1,0 +1,100 @@
+--Request 
+GET https://www.amazon.in/gp/navigation/ajax/dynamic-menu.html/259-1202557-5929705?primeContent=prime&metricKey=primeMetric&rid=FQHMBRA36T6KVA44S1T8&isFullWidthPrime=0&isPrime=0&dynamicRequest=1&weblabs=&isFreshRegionAndCustomer=&primeMenuWidth=310&_=1562592266295
+Host: www.amazon.in
+Cookie: session-id=259-1202557-5929705; i18n-prefs=INR; ubid-acbin=258-0672242-6953331; x-wl-uid=1ecJvyxzwiGLpb/ivu3x3ngupYO7bY1+BPjlMC56V5J9AKfsIjsCkfc+Jr7a3C9XLJxX0u1syPM0=; visitCount=1; csm-hit=tb:s-FQHMBRA36T6KVA44S1T8|1562591802960&t:1562591815077&adb:adblk_no; session-token=\"qbOQOkS0VEpBUocLOZRgf/vBjfAa/L1gvzuk4dHaABRLwBcXdkoWG+tgKYovU/GtpgviGH2ntZ17AVp7e48ZFY6MNw3iH/RJtLL2eZrJEHt3s9Cy0QE8n08HbD+hmqwfffrZuHf+ncTYp9ne7NmDLRaqAwIAVoD+O39gZOoyeiIbwRC9aZp+vc79loUdfIgRN7k1iETJ2x2I7SZjKc9arkykk2SqRFhbbijoObQQg4mvjy58UMqGvQ==\"; lc-acbin=en_IN; session-id-time=2082758401l
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:24:26 GMT
+x-amz-cf-pop: DEL51
+server: Server
+vary: Accept-Encoding,User-Agent,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment
+content-encoding: gzip
+x-frame-options: SAMEORIGIN
+x-amz-rid: 0SF28FQWAMD7K8VF53F2
+strict-transport-security: max-age=47474747; includeSubDomains; preload
+via: 1.1 2cbe2d6bb9079c1d153e7e15e9eac3c8.cloudfront.net (CloudFront)
+set-cookie: session-id=259-1202557-5929705; path=/; domain=.amazon.in; expires=Tue, 01-Jan-2036 00:00:01 GMT
+content-type: application/json
+x-amz-id-1: 0SF28FQWAMD7K8VF53F2
+x-cache: Miss from cloudfront
+cache-control: no-transform
+x-amz-cf-id: dr79Izn-0p2YkRUWs76xg9UGOtGIEoixRXVrantvayKxc-IYVMl14g==
+status: 200
+----
+--Request 
+GET https://images-na.ssl-images-amazon.com/images/G/31/prime/NavFlyout/TryPrime/2018/Apr/IN-Prime-PIN-TryPrime-MultiBen-Apr18-400x400._CB498268868_.jpg
+Host: images-na.ssl-images-amazon.com
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Fri, 24 May 2019 17:10:02 GMT
+x-amz-cf-pop: DEL51
+content-length: 24043
+server: Server
+expires: Sat, 27 Mar 2038 10:20:37 GMT
+x-amz-ir-id: 88599c76-a270-478b-a3f6-8c6e33590a35
+via: 1.1 70b9d57dea4c7c3d88ad0a2bcfcf667e.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Sun, 01 Apr 2018 10:08:42 GMT
+content-type: image/jpeg
+x-cache: Hit from cloudfront
+cache-control: max-age=630720000,public
+age: 3925617
+x-amz-cf-id: VC5wGQrOutM1dzRk9HLHpC9S4cuAaFdRzWdwQvSfrzDhdIAGcrR6nA==
+status: 200
+----
+--Request 
+GET https://aax-eu.amazon-adsystem.com/x/px/QggLWre1drdbGflwsn-p3XkAAAFr0bqt_QMAAAH_AYpHywc/niv/%7B%22wh%22:726,%22ww%22:1536,%22sx%22:0,%22sy%22:122.4000015258789,%22ah%22:250,%22aw%22:300,%22top%22:666.5999984741211,%22left%22:676.6500244140625,%22v%22:%7B%22p%22:0,%22t%22:0,%22def%22:%22amzn%22%7D,%22ptv%22:467.67,%22ttv%22:465.31,%22niv%22:true%7D
+Host: aax-eu.amazon-adsystem.com
+Cookie: ad-id=A12g3-vssU7xrcsPDnR90f0; ad-privacy=0
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://images-eu.ssl-images-amazon.com/images/G/31/ape/sf/whitelisted/desktop/sf-1.50.d23453f._V461669522_.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+Server: Server
+Connection: keep-alive
+Vary: User-Agent
+Pragma: no-cache
+Content-Length: 43
+Date: Mon, 08 Jul 2019 13:24:29 GMT
+Content-Type: image/gif
+----
+--Request 
+GET https://aax-eu.amazon-adsystem.com/x/px/QggLWre1drdbGflwsn-p3XkAAAFr0bqt_QMAAAH_AYpHywc/niv/%7B%22wh%22:726,%22ww%22:1536,%22sx%22:0,%22sy%22:192.8000030517578,%22ah%22:250,%22aw%22:300,%22top%22:596.1999969482422,%22left%22:676.6500244140625,%22v%22:%7B%22p%22:50,%22t%22:1,%22def%22:%22iab%22%7D,%22ptv%22:468.699,%22ttv%22:466.339,%22niv%22:true%7D
+Host: aax-eu.amazon-adsystem.com
+Cookie: ad-id=A12g3-vssU7xrcsPDnR90f0; ad-privacy=0
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://images-eu.ssl-images-amazon.com/images/G/31/ape/sf/whitelisted/desktop/sf-1.50.d23453f._V461669522_.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+Server: Server
+Connection: keep-alive
+Vary: User-Agent
+Pragma: no-cache
+Content-Length: 43
+Date: Mon, 08 Jul 2019 13:24:29 GMT
+Content-Type: image/gif
+----
+

@@ -1,0 +1,3 @@
+SELECT FirstName from Customer where CustomerId=1;
+SELECT FirstName from Customer where CustomerId=2;
+SELECT FirstName from Customer where CustomerId=3;

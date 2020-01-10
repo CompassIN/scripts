@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message UInt64 {
+  uint64 uint64_field1 = 1;
+  Test2 b = 2;
+}
+
+message Test2 {
+  uint64 uint64_field2 = 1;
+}
+

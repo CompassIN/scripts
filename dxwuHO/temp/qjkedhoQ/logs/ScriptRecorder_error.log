@@ -1,0 +1,37 @@
+6/13 4:21:36|ChomeSnapShotUtil|run|Exception in getting snapshot for url = http://10.10.30.8/tours/inedx.html|Following is the stack trace:
+java.lang.IllegalArgumentException: image == null!
+	at javax.imageio.ImageTypeSpecifier.createFromRenderedImage(Unknown Source)
+	at javax.imageio.ImageIO.getWriter(Unknown Source)
+	at javax.imageio.ImageIO.write(Unknown Source)
+	at com.netstorm.chromium.util.ChromeSnapShotUtil.run(ChromeSnapShotUtil.java:127)
+	at java.lang.Thread.run(Unknown Source)
+6/13 4:21:49|Utils|getEndTime|Exception in getting end Time for url list for given index|Following is the stack trace:
+java.lang.ArrayIndexOutOfBoundsException: -1
+	at java.util.ArrayList.elementData(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at com.netstorm.browser.Utils.getEndTime(Utils.java:2973)
+	at com.netstorm.browser.Utils.getEndTime(Utils.java:2977)
+	at com.netstorm.browser.Utils.getEndTime(Utils.java:2977)
+	at com.netstorm.browser.Utils.modifyMapForThinkTime(Utils.java:2808)
+	at com.netstorm.browser.Utils.modifyMapForSplit(Utils.java:2644)
+	at com.netstorm.script.formatters.c.WebCFormattor.generateScripts(WebCFormattor.java:72)
+	at com.netstorm.chromium.browser.ChromeMainFrame$10.onDisposed(ChromeMainFrame.java:657)
+	at com.teamdev.jxbrowser.chromium.ak.run(SourceFile:1709)
+	at com.teamdev.jxbrowser.chromium.internal.s.run(SourceFile:79)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+6/13 4:21:49|Utils|getEndTime|Exception in getting end Time for url list for given index|Following is the stack trace:
+java.lang.ArrayIndexOutOfBoundsException
+6/13 4:22:5|NSChromeBrowser|stopRecord|Exception in method|Following is the stack trace:
+java.lang.IllegalStateException: Failed to send message. Channel is already closed. GetURLMessage{type=GetURL, uid=204, url=null
+	at com.teamdev.jxbrowser.chromium.internal.ipc.MemoryChannelWriter.write(SourceFile:54)
+	at com.teamdev.jxbrowser.chromium.internal.ipc.SocketChannel.post(SourceFile:204)
+	at com.teamdev.jxbrowser.chromium.Browser.b(SourceFile:627)
+	at com.teamdev.jxbrowser.chromium.Browser.getURL(SourceFile:2084)
+	at com.netstorm.chromium.browser.NSChromeBrowser.stopRecord(NSChromeBrowser.java:240)
+	at pacAction.ScriptHTMLStart.stopRecording(ScriptHTMLStart.java:298)
+	at pacUi.ScriptMain$4.run(ScriptMain.java:302)
+	at java.lang.Thread.run(Unknown Source)

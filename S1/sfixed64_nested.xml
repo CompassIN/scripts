@@ -1,0 +1,6 @@
+<SFixed64>
+  <sfixed64_field1>{sfixed64_data}</sfixed64_field1>
+  <b>
+    <sfixed64_field2>{sfixed64_data}</sfixed64_field2>
+  </b>
+</SFixed64>

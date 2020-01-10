@@ -1,0 +1,96 @@
+6/13 4:21:15|ChromeMainFrame|createBrowserWindowWithListener|constructor called.
+6/13 4:21:34|ChromeBrowserConfigurationSettings|EnableDisableBrowserOtions|method called.
+6/13 4:21:34|ChromeBrowserConfigurationSettings|EnableDisableBrowserOtions|Enabling JavaScript feature.
+6/13 4:21:34|ChromeBrowserConfigurationSettings|EnableDisableBrowserOtions|Enabling ImageDownload feature.
+6/13 4:21:34|ChromeBrowserConfigurationSettings|EnableDisableBrowserOtions|Enabling Plugins feature.
+6/13 4:21:34|ChromeBrowserConfigurationSettings|clearLocalStorage|Method called.
+6/13 4:21:34|ChromeBrowserConfigurationSettings|setSecurityCertificationErrors|Method called.
+6/13 4:21:34|ChromeMainFrame|addStatusAndTitleBrowser|Method called.
+6/13 4:21:34|ChromeMainFrame|addPageNavigationListeners|method called.
+6/13 4:21:34|ChromeBrowserNavigationListener|ChromeBrowserNavigationListener|Constructor Called.
+6/13 4:21:34|ChromeRecordingHttpListener||constructor called.
+6/13 4:21:34|ChromeMainFrame|createinitUI|constructor called.
+6/13 4:21:34|TabContent|createComponents|method called.
+6/13 4:21:34|TabContent|createBrowserContainer|method called.
+6/13 4:21:34|TabContent|createToolBar|method called.
+6/13 4:21:34|ProgressBar|initializeGUI|Method Called
+6/13 4:21:34|ToolBar|createToolBarComponents|method called.
+6/13 4:21:34|ToolBar|createAddressBar|method called.
+6/13 4:21:34|ToolBar|createActionsPane|method called.
+6/13 4:21:35|ChromeBrowserNavigationListener|onStartLoadingFrame|Method Called for URL=http://10.10.30.8/tours/inedx.html
+6/13 4:21:35|ChromeBrowserNavigationListener|onStartLoadingFrame|Begin Loading URL == http://10.10.30.8/tours/inedx.html  ===== Begin = 1560423095666
+6/13 4:21:35|Utils|getURLTracker|urlString = http://10.10.30.8/tours/inedx.html, requestOrResponce = snapShot
+6/13 4:21:35|ProgressBar|setVisible|Method Called. bool = true
+6/13 4:21:35|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+6/13 4:21:35|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+6/13 4:21:35|Utils|getURLTracker|urlString = http://10.10.30.8/tours/inedx.html, requestOrResponce = request
+6/13 4:21:35|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1560423095961
+6/13 4:21:35|Utils|convertToSecond method called|time = 20331.0
+6/13 4:21:36|Utils|isSplit|Method called.
+6/13 4:21:36|Utils|isSplit|Splitting for Ajax Header = false
+6/13 4:21:36|Utils|isSplit|Splitting for method GET = false
+6/13 4:21:36|Utils|isSplit|result = false
+6/13 4:21:36|Utils|isSplitForTimeDiff|Method called.
+6/13 4:21:36|Utils|isSplit|result = false
+6/13 4:21:36|Utils|isSplitForURLType|Method called.
+6/13 4:21:36|Utils|isSplitForURLType|value = false
+6/13 4:21:36|Utils|isSplitForURLType|value = false
+6/13 4:21:36|Utils|isSplit|isSplitForURLType = false
+6/13 4:21:37|ChromeRecordingHttpListener|onCompleted |Adding dump diretory with path=C:\Users\HP\Desktop\recorder\scripts\default/default/dxwuHO\dump\qjkedhoQ\10.10.30.8/tours/
+6/13 4:21:38|ChromeBrowserNavigationListener|onFailLoadingFrame|Method Called. Error in loading frame
+6/13 4:21:40|ChromeBrowserNavigationListener|onFinishLoadingFrame|Method Called for URL=chrome-error://chromewebdata/
+6/13 4:21:40|Utils|getURLTracker|urlString = http://chromewebdata/, requestOrResponce = snapShot
+6/13 4:21:40|WebCFormattor||constructor called.
+6/13 4:21:40|ProgressBar|setVisible|Method Called. bool = false
+6/13 4:21:40|ScriptHTMLStart|Recording|Thread state =2
+6/13 4:21:40|ScriptHTMLStart|run|Setting thread state.State of Thread - 2
+6/13 4:21:40|ChromeCClickListener|addAllHTMLElementsListeners|Method Called.
+6/13 4:21:43|ChromeCClickListener|handleEvent|Method Called.
+6/13 4:21:43|ChromeCClickListener|dumpEvent|Method Called. Event Type: com.teamdev.jxbrowser.chromium.dom.events.DOMEventType@5a5c588
+ Tag Name = DIV
+6/13 4:21:44|ChromeCClickListener|dumpEvent|Unhandled Tag-Child Node == DIV
+6/13 4:21:44|Utils|setRecordingComments|method called.
+6/13 4:21:49|ChromeMainFrame|addBrowserDisposeListener|browser disposed called.
+6/13 4:21:49|WebCFormattor|generateScripts|method called.
+6/13 4:21:49|Utils|addLastPageLeftUrlsToInlineUrlsOfLastPage|Method called.
+6/13 4:21:49|Utils|modifyMapForSplit|Method called.
+6/13 4:21:49|Utils|modifyMapForSplit|Before Modify URL Map Size :1
+6/13 4:21:49|Utils|modifyMapForThinkTime|Method called.
+6/13 4:21:49|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 0
+6/13 4:21:49|Utils|modifyMapForThinkTime|Modifying url list for last page=index, startThink=0.0, endThink=0.0
+6/13 4:21:49|Utils|modifyMapForSplit|After Modify URL Map Size :1
+6/13 4:21:49|Utils|generateEventDetail|method called.
+6/13 4:21:49|Utils|getTimeStampForPage|Method called.
+6/13 4:21:49|Utils|generateUrlInfoListDetail|method called
+6/13 4:21:49|Utils|getTimeStampForPage|Method called.
+6/13 4:21:49|Utils|generateUrlInfoListDetail|URL = http://10.10.30.8/tours/inedx.html
+6/13 4:21:49|Utils|generateUrlInfoListDetail|ScriptparsingData =http://10.10.30.8/tours/inedx.html
+6/13 4:21:49|Utils|generateUrlInfoListDetail|UrlTracker.scriptParsingData.getParsedPath()=10.10.30.8/tours/, Utils.getDumpPath() = C:\Users\HP\Desktop\recorder\scripts\default/default/dxwuHO\dump\qjkedhoQ
+6/13 4:21:49|Utils|generateUrlInfoListDetail|URL = http://chromewebdata/
+6/13 4:21:49|Utils|generateUrlInfoListDetail|Setting url info object =http://chromewebdata/
+6/13 4:21:49|Utils|filterPath|path = http://chromewebdata/
+6/13 4:21:49|Utils|getFileName|path = http://chromewebdata/
+6/13 4:21:49|Utils|getFileName|filename for dump = index
+6/13 4:21:49|Utils|filterPath|path = http://chromewebdata/
+6/13 4:21:49|WebCFormattor|generateEventsForFlow|method called.
+6/13 4:21:49|WebCGenerator|generate|method called.
+6/13 4:21:49|WebCGenerator|generate|Putting header comments in Buffer.
+6/13 4:21:49|WebCGenerator|generate|Processing URLs with list size=1
+6/13 4:21:49|Utils|getTimeStampForPage|Method called.
+6/13 4:21:49|WebCGenerator|getValidURL|Since this URL is not in filtered list, returning the URL=http://10.10.30.8/tours/inedx.html
+6/13 4:21:49|Utils|getTimeStampForPage|Method called.
+6/13 4:21:49|WebCGenerator|getUrlReqAndResDetails|method called.
+6/13 4:21:49|WebCGenerator|appendRealBrowserData|method called. The isRealBrowser value = false
+6/13 4:21:49|WebCGenerator|generate|Adding Inline template to the page.
+6/13 4:21:49|WebCGenerator|appendHeadersAndEndline|method called.
+6/13 4:21:49|WebCGenerator|getUrlReqAndResDetails|method called.
+6/13 4:21:49|Utils|convertToSecond method called|time = 0.0
+6/13 4:21:49|ChromeMainFrame|addBrowserDisposeListener|browser disposed Exiting.
+6/13 4:22:0|ScriptLeftPane|highlightOpenedTab |Method called.
+6/13 4:22:2|ScriptLeftPane|highlightOpenedTab |Method called.
+6/13 4:22:2|ScriptLeftPane|setFileToEditor|Method called.
+6/13 4:22:5|ScriptHTMLStart|stopRecording|Method Called.
+6/13 4:22:5|ScriptHTMLStart|stopRecording|Going to stop recording
+6/13 4:22:5|NSChromeBrowser|stopRecord|Method called.
+6/13 4:22:5|ScriptHTMLStart|stopRecording|Going to upload script to server.
+6/13 4:22:7|ScriptRecordUtils|saveScriptToServer|method called.

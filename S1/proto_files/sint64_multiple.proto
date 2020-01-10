@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SInt64 {
+  sint64 sint64_field1 = 1;
+  sint64 sint64_field2 = 2;
+  sint64 sint64_field3 = 3;
+}

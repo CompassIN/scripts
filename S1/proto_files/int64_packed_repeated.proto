@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message Int64 {
+  repeated int64 int64_field1 = 1 [packed=true];
+}

@@ -1,0 +1,156 @@
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/img16/wayfinding/json/subnavmay18.json?_=1563387941097
+Host: images-eu.ssl-images-amazon.com
+Origin: https://www.amazon.in
+Accept: application/json, text/javascript, */*; q=0.01
+Referer: https://www.amazon.in/Ateesa-Womens-Rayon-Pleated-7058_Navy_Xx-Large/dp/B07NFDRP67/ref=sr_1_1?qid=1563387908&s=apparel&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+----
+--Response 
+HTTP/1.1 200
+date: Tue, 16 Jul 2019 07:50:52 GMT
+x-amz-cf-pop: ORD50-C1
+server: Server
+expires: Tue, 16 Jul 2019 07:50:45 GMT
+x-amz-ir-id: 34352a5a-2515-45ad-baf8-879f49501811
+content-encoding: gzip
+via: 1.1 fc9898e8f62308e3f28fb29079b65ebb.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Wed, 20 Mar 2019 12:20:07 GMT
+content-type: application/json
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from cloudfront
+cache-control: max-age=86400,public
+age: 34664
+x-amz-cf-id: HEF6uZtuRzEcuben4ZHMdkSZFdb_7ENpZVxeQD9iMU2r40WJ1dQ8CA==
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/I/210LbiKyCML._RC%7C31j6BOPjmzL.css,01ekIXTj5kL.css,01KvCqKMBgL.css,21ckusqmu6L.css,01TCV-xmeZL.css,01ZGRKhIG-L.css,31q5EHoIcZL.css,41hIrT0+wbL.css,01FlII1u-ZL.css,219oCRGl-sL.css,212hS9k0-iL.css,31MkQHV3gaL.css,314gb2LkLML.css,31dTK1hHb6L.css,014Z+MbaRaL.css,01RRH0yFa4L.css,01bkkYjxP7L.css,31Wg0ai095L.css,01f31VNCowL.css,01NW8VTUeVL.css,019M+d36JfL.css,011uHgmxBfL.css,31Fo-RK+JML.css,01CslPlvtoL.css,01mju9O84EL.css,11Z7S+lK47L.css,21Wf53xZ5jL.css,01OhA16ND1L.css,11xmZPMxSJL.css,41Uz4bMH9yL.css,01TZ9fpDSSL.css,11ikU6MX1JL.css,01qwEWNuxuL.css,21qxDmhZV3L.css,11XXguyjjZL.css,31WlxajeYrL.css,01clde05tlL.css,01nX97hgmYL.css,61hZ-YG-XRL.css,01Jrt6rHBlL.css_.css?AUIClients/HardlinesDetailPageMetaAssetVariable_ACCESSORIES_AND_FAMILY_STRIPE#desktop.in.not-trident.122952-T1.113788-C.203659-T1.103061-T1.184424-T1.150150-T1.144201-T1.126331-C.181561-T1
+Host: images-eu.ssl-images-amazon.com
+Origin: https://www.amazon.in
+Accept: text/css,*/*;q=0.1
+Referer: https://www.amazon.in/Ateesa-Womens-Rayon-Pleated-7058_Navy_Xx-Large/dp/B07NFDRP67/ref=sr_1_1?qid=1563387908&s=apparel&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+----
+--Response 
+HTTP/1.1 200
+date: Fri, 21 Jun 2019 10:45:56 GMT
+x-amz-cf-pop: ORD50-C1
+server: Server
+expires: Thu, 16 Jun 2039 10:42:27 GMT
+x-amz-ir-id: 55e5de5e-2562-458f-a8a1-c835e100a2bc
+content-encoding: gzip
+via: 1.1 fc9898e8f62308e3f28fb29079b65ebb.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Thu, 13 Jun 2019 19:25:31 GMT
+content-type: text/css; charset=utf-8
+timing-allow-origin: https://www.amazon.com
+x-cache: Hit from cloudfront
+cache-control: max-age=630720000,public
+age: 2274143
+x-amz-cf-id: da_-ubGxwXdpcitLj8-htZuQ3-MxrKQ8JGfKuYvepCoHexikNilGWw==
+status: 200
+----
+--Request 
+GET https://images-na.ssl-images-amazon.com/images/I/210UtsRqV6L._RC%7C71+WX4uo+uL.css,11zh5zoa5AL.css,31cuIVKhckL.css,213skwsyD4L.css,31wWWC6YAvL.css,11G4HxMtMSL.css,31OvHRW+XiL.css,01XHMOHpK1L.css_.css?AUIClients/AmazonNavigationDesktopMetaAsset#desktop.in
+Host: images-na.ssl-images-amazon.com
+Origin: https://www.amazon.in
+Accept: text/css,*/*;q=0.1
+Referer: https://www.amazon.in/Ateesa-Womens-Rayon-Pleated-7058_Navy_Xx-Large/dp/B07NFDRP67/ref=sr_1_1?qid=1563387908&s=apparel&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+----
+
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/I/218rehcHYxL._RC%7C11qRTlQry4L.js,21E2aIDj6DL.js,31eEXkvrJzL.js,01g2etah0NL.js,31selSsN+1L.js,413u98XONQL.js,0185ITV0M6L.js,41Dds42UuNL.js,11FOFYUJH9L.js,21CoP20PxBL.js,71LEtO5Vv5L.js,41COmOfIQhL.js,11nOzlnr6+L.js,31BBQa2c9BL.js,31Gy8EGyyiL.js,31UjTApGOPL.js,31Ac-cQ+ZWL.js,21NDIsf0a1L.js,11AVRVWTouL.js,11MQqFPEK+L.js,01jqyAujTwL.js,31+0pACITzL.js,613fAh2h0OL.js,11jf5oS-4FL.js,01RQtSMdG+L.js,01OtvpwikQL.js,21J9Onr4hrL.js,21m9o6VHhOL.js,21bSviTzsOL.js,11mvqFXObSL.js,217rNh01UsL.js,31W9fAH+1aL.js,01lcH4zcTaL.js,01qPwv8D5hL.js,01YivelYW5L.js,01rg6Ce9FhL.js,016QFWAAdML.js,41Eko5EJ6TL.js,31apIfAEBaL.js,31NuG3-7xRL.js,11div+n5b+L.js,01IQoRXvpnL.js,011bX2ciJbL.js,21222B+rAzL.js,01gp3oqpb5L.js,31ItJPFyotL.js,11CIaAZhucL.js,01NGbPzAzBL.js,011kwg0OTQL.js,01jLpHmb92L.js,014kCoIHgIL.js,019W6kk1gjL.js,01hkseOXj6L.js,0189flJt-AL.js,01lPKWAwBBL.js_.js?AUIClients/HardlinesDetailPageMetaAssetVariable#desktop.language-en.in.167162-T1.203659-T1.183511-T1.103061-T1.184424-T1.186073-T2.150150-T1.200616-T1.173971-T1.144201-T1.186725-T1.186696-T1.173115-T1.184758-T1.184759-T1.185101-T1.184757-T1.126331-C.109378-T1.154031-T3.198898-C.213433-T1.181561-T1
+Host: images-eu.ssl-images-amazon.com
+Origin: https://www.amazon.in
+Accept: */*
+Referer: https://www.amazon.in/Ateesa-Womens-Rayon-Pleated-7058_Navy_Xx-Large/dp/B07NFDRP67/ref=sr_1_1?qid=1563387908&s=apparel&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+----
+--Response 
+HTTP/1.1 200
+date: Fri, 21 Jun 2019 10:46:15 GMT
+x-amz-cf-pop: ORD50-C1
+server: Server
+expires: Thu, 16 Jun 2039 10:44:59 GMT
+x-amz-ir-id: eac9c8df-34a2-43e6-bc36-7eff9663b525
+content-encoding: gzip
+via: 1.1 fc9898e8f62308e3f28fb29079b65ebb.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Sun, 05 May 2019 22:17:37 GMT
+content-type: application/x-javascript; charset=utf-8
+timing-allow-origin: https://www.amazon.com
+x-cache: Hit from cloudfront
+cache-control: max-age=630720000,public
+age: 2273994
+x-amz-cf-id: MCmCfAhU2MZ_nFDN9_9Wzn5wXZdQnMfWaxck9UFD65pTvHXqYBJPhw==
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/I/210LbiKyCML._RC%7C31j6BOPjmzL.css,01ekIXTj5kL.css,01KvCqKMBgL.css,21ckusqmu6L.css,01TCV-xmeZL.css,01ZGRKhIG-L.css,31q5EHoIcZL.css,41hIrT0+wbL.css,01FlII1u-ZL.css,219oCRGl-sL.css,212hS9k0-iL.css,31MkQHV3gaL.css,314gb2LkLML.css,31dTK1hHb6L.css,014Z+MbaRaL.css,01RRH0yFa4L.css,01bkkYjxP7L.css,31Wg0ai095L.css,01f31VNCowL.css,01NW8VTUeVL.css,019M+d36JfL.css,011uHgmxBfL.css,31Fo-RK+JML.css,01CslPlvtoL.css,01mju9O84EL.css,11Z7S+lK47L.css,21Wf53xZ5jL.css,01OhA16ND1L.css,11xmZPMxSJL.css,41Uz4bMH9yL.css,01TZ9fpDSSL.css,11ikU6MX1JL.css,01qwEWNuxuL.css,21qxDmhZV3L.css,11XXguyjjZL.css,31WlxajeYrL.css,01clde05tlL.css_.css?AUIClients/HardlinesDetailPageMetaAssetVariable#desktop.in.not-trident.122952-T1.113788-C.203659-T1.103061-T1.184424-T1.150150-T1.144201-T1.126331-C.181561-T1
+Host: images-eu.ssl-images-amazon.com
+Origin: https://www.amazon.in
+Accept: text/css,*/*;q=0.1
+Referer: https://www.amazon.in/Ateesa-Womens-Rayon-Pleated-7058_Navy_Xx-Large/dp/B07NFDRP67/ref=sr_1_1?qid=1563387908&s=apparel&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+----
+--Response 
+HTTP/1.1 200
+date: Fri, 21 Jun 2019 10:45:59 GMT
+x-amz-cf-pop: ORD50-C1
+server: Server
+expires: Thu, 16 Jun 2039 10:43:12 GMT
+x-amz-ir-id: cf7d137e-eb0f-4e79-9443-26daf79aad39
+content-encoding: gzip
+via: 1.1 fc9898e8f62308e3f28fb29079b65ebb.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Thu, 13 Jun 2019 19:25:31 GMT
+content-type: text/css; charset=utf-8
+timing-allow-origin: https://www.amazon.com
+x-cache: Hit from cloudfront
+cache-control: max-age=630720000,public
+age: 2274096
+x-amz-cf-id: s8aP5Ip_LHzCBZ_jbpiArBhZNnjT6BZtPPXlRs-811qWy-xWzLqF1g==
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/nav2/images/gui/searchSprite._CB272921266_.png
+Host: images-eu.ssl-images-amazon.com
+Origin: https://www.amazon.in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://www.amazon.in/Ateesa-Womens-Rayon-Pleated-7058_Navy_Xx-Large/dp/B07NFDRP67/ref=sr_1_1?qid=1563387908&s=apparel&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+----
+--Response 
+HTTP/1.1 200
+date: Thu, 04 Jul 2019 21:01:58 GMT
+x-amz-cf-pop: ORD50-C1
+content-length: 75922
+server: Server
+expires: Thu, 25 Mar 2038 03:56:17 GMT
+x-amz-ir-id: cb32f7e3-4065-4da1-a427-bd2b4930a68a
+via: 1.1 fc9898e8f62308e3f28fb29079b65ebb.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Fri, 13 May 2016 19:15:44 GMT
+content-type: image/png
+x-cache: Hit from cloudfront
+cache-control: max-age=630720000,public
+age: 1410647
+x-amz-cf-id: 1RnwMCH_LTbRskm7FG0Ahx6SxuF3AVMRFdYtDzfeQMxG-g-Cacs97A==
+status: 200
+----
+

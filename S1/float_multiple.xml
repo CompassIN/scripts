@@ -1,0 +1,5 @@
+<Float>
+  <float_field1>{float_data}</float_field1>
+  <float_field2>{float_data}</float_field2>
+  <float_field3>{float_data}</float_field3>
+</Float>

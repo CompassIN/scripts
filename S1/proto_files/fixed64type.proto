@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message DataType {
+  fixed64 fixed64type = 10;
+}

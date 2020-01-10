@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+message DataType {
+  repeated double doubletype = 1 [packed=true];
+  repeated float floattype = 2 [packed=true];
+  repeated int32 int32type = 3 [packed=true];
+  repeated int64 int64type = 4 [packed=true];
+  repeated uint32 uint32type = 5 [packed=true];
+  repeated uint64 uint64type = 6 [packed=true];
+  repeated sint32 sint32type = 7 [packed=true];
+  repeated sint64 sint64type = 8 [packed=true];
+  repeated fixed32 fixed32type = 9 [packed=true];
+  repeated fixed64 fixed64type = 10 [packed=true];
+  repeated sfixed32 sfixed32type = 11 [packed=true];
+  repeated sfixed64 sfixed64type = 12 [packed=true];
+  repeated bool booltype = 13 [packed=true];
+  repeated string stringtype = 14 [packed=true];
+  repeated bytes bytestype = 15 [packed=true];
+}

@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message DataType {
+  int32 int32type = 3;
+}

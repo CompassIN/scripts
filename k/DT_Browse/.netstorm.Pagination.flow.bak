@@ -1,0 +1,65 @@
+/*-----------------------------------------------------------------------------
+    Name: Pagination
+    Recorded By: abhishek
+    Date of recording: 02/18/2017 12:56:02
+    Flow details:
+    Build details: 4.1.6 (build# 53)
+    Modification History:
+-----------------------------------------------------------------------------*/
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "ns_string.h"
+#include "Util.c"
+void Pagination()
+{
+   
+    
+   // printf("\n\n++++++++++Pagination: +++++++++++++++++\n\n");
+    PageCount = ns_get_int_val("PaginationCount_count");
+      if(PageCount == 0){                                 // No Pagination available , hence skipping it.. loop tranferred to refinement
+    	goto Refinement;
+      }
+      else{
+      	printf("\n\n++++++++++Pagination: else +++++++++++++++++\n\n");
+           if (3 < PageCount){          // Case3: Pages available are 2,3,...
+               int tmp = ns_get_random_number_int(2,3);
+               snprintf(PageNumber,16,"%d", tmp);}
+           else if (PageCount <= 2){                        // Case2:  Pages available are 2,3 only 
+                 int tmp = 2;
+                 snprintf(PageNumber,16,"%d", tmp);}
+           else {
+                  int tmp = 2;                              // Case1:  Page available is 2 only 
+                  snprintf(PageNumber,16,"%d", tmp);}
+     }
+    ns_save_string(PageNumber, "PaginationDP"); 
+    if(!(strcmp(ns_eval_string("{PaginationDP}"), "2"))){
+    PaginationTransactionName = "COM_Browse_Pagination_Pageno2";
+    ns_set_int_val("PaginationNaoDP", 24);
+    ns_define_transaction("COM_Browse_Pagination_Pageno2");
+    }
+    else if(!(strcmp(ns_eval_string("{PaginationDP}"), "3"))){
+    PaginationTransactionName = "COM_Browse_Pagination_Pageno3";
+    ns_set_int_val("PaginationNaoDP", 48);
+    ns_define_transaction("COM_Browse_Pagination_Pageno3");
+    }	
+    else{
+    PaginationTransactionName = "COM_Browse_Pagination_Pageno4";
+    ns_set_int_val("PaginationNaoDP", 72);
+    ns_define_transaction("COM_Browse_Pagination_Pageno4");
+    }
+
+    ns_start_transaction(PaginationTransactionName);
+	ns_web_url ("BrowsePaginationPage_1_1",
+        "URL=http://www.jcpenney.com/{PaginationUrlSP}?page={PaginationDP}&merchSize=2&suppressHeaderFooter=true",
+        //"URL=http://www.jcpenney.com/g/mens-shirts/N-bwo3yD1nohp5?page=2&merchSize=2&suppressHeaderFooter=true",
+        "HEADER=X-Requested-With:XMLHttpRequest",
+        "HEADER=Accept-Language:en-us",
+        "COOKIE=AKJCP;mbox;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;c17;v53;pn;s_cc;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;DPJSESSIONID;shipToCountry;shipToCurrencyCode;DPUserTracking;DPInstance;userLatLong;pageTemplate;DPLastAccessedTime;DPCluster;DPSessionTimeOutInterval;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;DPIdentifier;cmTPSet;TLTSID;_br_uid_2;_ga;_gat;LPCKEY-58507821;LPVID;LPSID-58507821",
+        "PreSnapshot=webpage_1487407342343.png",
+        "Snapshot=webpage_1487407349698.png"
+    );
+    ns_end_transaction(PaginationTransactionName, NS_AUTO_STATUS);
+    ns_page_think_time(0.932);
+}

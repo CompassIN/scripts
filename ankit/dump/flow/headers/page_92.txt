@@ -1,0 +1,23 @@
+--Request 
+POST https://fls-eu.amazon.in/1/batch/1/OE/
+Host: fls-eu.amazon.in
+Cookie: session-id=260-6898445-8949221; i18n-prefs=INR; ubid-acbin=262-8671103-6623656; x-wl-uid=1OfaMC7JpnskpcFBQZ0Uq5V8k/Li+eH9j/u3WVuWMZt5YlTHc5uQTLxZFK0jTKGcRFjeKmsxSpo8=; session-token=\"FOD9ahBmF5GIKmPl1E0GHlNJV5EedVXMFVEZhlbBTx0kTXXMg1IYR5c5brnaRCYcCUYDFNILc5DnAHxrFPaxoptoxnDRXfbxQaDXulcLsGquoPty2zDMdmxnHPRVTtAnQDJ5n7OZtZxq8SQ36hwOyZ/OIwYQLZ84s7v4Fd3QqFQ7zkpZa9aeDQF9Ysr3lsS5MnV7pdgpl47Vgy7x4V7fxgY/Hg2HKg2CyscZ924Wm5C+krHuGrc01w==\"; lc-acbin=en_IN; visitCount=2; session-id-time=2082758401l
+Origin: https://www.amazon.in
+Accept: */*
+Cache-Control: max-age=0
+Referer: https://www.amazon.in/s?i=apparel&bbn=16194128031&rh=n%3A1571271031%2Cn%3A%211597453031%2Cn%3A%211597455031%2Cn%3A16194128031%2Cn%3A1953602031&s=date-desc-rank&ref=mega_sv_s23_1_1_1_2
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Content-Type: text/plain;charset=UTF-8
+----
+ POSTDATA {"rid":"RSS9BTGBT3PYWEC79TA5","sid":"260-6898445-8949221","mid":"A21TJRUUN4KGV","sn":"www.amazon.in","reqs":[{"csmcount":{"counter":"aui:preload_fulfilled","value":1,"t":10774}},{"csmcount":{"counter":"aui:preload_fulfilled","value":2,"t":11231}},{"csmcount":{"counter":"postbackImageSize","value":249,"t":11290}},{"csmcount":{"counter":"postbackImageSize","value":190,"t":11375}},{"cel":{"k":"mmm1","e":[{"x":75,"y":210,"t":11291},{"x":149,"y":176,"t":11373},{"x":273,"y":158,"t":11445},{"x":376,"y":177,"t":11546},{"x":381,"y":180,"t":11599},{"x":298,"y":226,"t":11796}],"min":125,"max":125,"avg":125}},{"cel":{"k":"mmm1","e":[{"x":296,"y":223,"t":13988},{"x":279,"y":196,"t":14020},{"x":211,"y":91,"t":14229},{"x":230,"y":77,"t":14295},{"x":240,"y":24,"t":14361}],"min":90,"max":125,"avg":107}},{"cel":{"k":"hrt","t":17388}},{"cel":{"k":"mcm","w":1000,"h":8862,"t":18132,"x":400,"y":315,"p":"//*[@id='search']/DIV/DIV[2]/DIV/SPAN[3]/DIV/DIV/DIV/DIV/DIV/DIV[2]/DIV/DIV/DIV/SPAN/A/DIV/IMG","n":"IMG","dt":66.58,"c":["s-image"]}},{"cel":{"k":"ebl","t":18480,"s":"default"}},{"cel":{"k":"hrt","t":18480}},{"csm":{"k":"chk","f":3,"l":{"csmcount":79,"cel":80,"navigation":1,"csm":4,"jserr-rw":1},"s":"full"}},{"csmcount":{"counter":"foresterPayloadSize","t":0,"value":1272}}]}
+--Response 
+HTTP/1.1 204
+access-control-allow-origin: *
+date: Wed, 17 Jul 2019 18:25:27 GMT
+x-amzn-requestid: 9c3f9b66-f569-430a-8257-dcfc41c277b6
+access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+status: 204
+----
+

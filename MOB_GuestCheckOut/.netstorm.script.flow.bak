@@ -1,0 +1,116 @@
+ /*-----------------------------------------------------------------------------
+    Name: SaveForLater
+    Recorded By: netstorm
+    Date of recording: 10/10/2017 01:37:38
+    Flow details:
+    Build details: 4.1.8 (build# 50)
+    Modification History:
+
+-----------------------------------------------------------------------------*/
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "ns_string.h"
+
+void SaveForLater()
+{
+
+
+    // Save For LAter
+    ns_add_cookie_val_ex("Refresh_Token", NULL, NULL, ns_eval_string("{RefreshtokenSP}"));
+    ns_start_transaction("COM_Yoda_SB_SaveForLater");
+    ns_start_transaction("DT_Yoda_API_SFL_bagitems_OPTIONS");
+    ns_web_url("BagItemsFetchPage",
+       // "URL=https://order-api.jcpenney.com/order-api/v1/accounts/Q79gbeTiThLEOgHYyTvG/draft-order/bag/items/ci81418071419",
+        "URL=https://order-api.jcpenney.com/order-api/v1/accounts/{CustomerIdSP}/draft-order/bag/items/{SaveForlaterItemIdSP}",
+        "METHOD=OPTIONS",
+        "HEADER=Origin:https://www.jcpenney.com",
+        "HEADER=Access-Control-Request-Method:DELETE",
+        "HEADER=Access-Control-Request-Headers:authorization, content-type",
+        "HEADER=Accept-Language:en-us"
+    );
+    ns_end_transaction("DT_Yoda_API_SFL_bagitems_OPTIONS", NS_AUTO_STATUS);
+    
+    ns_start_transaction("DT_Yoda_API_SFL_bagitems_DELETE");
+    ns_web_url ("BagItemsPage",
+        //"URL=https://order-api.jcpenney.com/order-api/v1/accounts/Q79gbeTiThLEOgHYyTvG/draft-order/bag/items/ci81418071419",
+        "URL=https://order-api.jcpenney.com/order-api/v1/accounts/{CustomerIdSP}/draft-order/bag/items/{SaveForlaterItemIdSP}",
+        "METHOD=DELETE",
+        "HEADER=authorization:Bearer {AccessTokenSP}",
+        "HEADER=Origin:https://www.jcpenney.com",
+        "HEADER=content-type:application/json;charset=utf-8",
+        "HEADER=Accept-Language:en-us",
+        "COOKIE=yoda-checkout-desktop;_userLoc;BNSPrevPercentage;BNSOrigin;userLatLong;marketing;TLTSID;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;__gads;AKJCP;_abck;bm_sz;ssl;akacd_order-api-cloud;DP_USER_STATE;DPJSESSIONID;DPSecureCookie;mp_jcpenney_mixpanel;_sckey;_scsess;DP-Cloud-Cluster;Aurora;DP-Cloud-Origin;Refresh_Token;ACCOUNT_ID;DPUserTracking;DP_ORDER_INFO;DPOrder;DPSessionTimeOutInterval;ItemCount;ak_bmsc;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;userStoreInfo;shipToCountry;shipToCurrencyCode;userPriceZone;SelectedCountry;wlcme;_ga;_gid;optimizelyEndUserId;optimizelySegments;optimizelyBuckets;_uetsid;LPVID;LPSID-58507821;DPInstance;DPLastAccessedTime;DPCluster;DP_USER_INFO;DP_SFL_PPIDS;DP_USER_FAVCOUNT;_4c_;optimizelyPendingLogEvents;DPIdentifier;bm_sv",
+        "PreSnapshot=webpage_1507617385352.png",
+        "Snapshot=webpage_1507617385584.png"
+    );
+
+    ns_end_transaction("DT_Yoda_API_SFL_bagitems_DELETE", NS_AUTO_STATUS);
+
+    ns_start_transaction("DT_Yoda_API_savedForLater_OPTIONS");
+    ns_web_url("SaveForLaterFetchPage",
+        //"URL=https://account-api.jcpenney.com/v5/accounts/Q79gbeTiThLEOgHYyTvG/saved-items/savedForLater?limit=11",
+        "URL=https://account-api.jcpenney.com/v5/accounts/{CustomerIdSP}/saved-items/savedForLater?limit=11",
+        "METHOD=OPTIONS",
+        "HEADER=Origin:https://www.jcpenney.com",
+        "HEADER=Access-Control-Request-Method:GET",
+        "HEADER=Access-Control-Request-Headers:accept-version, authorization, content-type, view-myfavorites",
+        "HEADER=Accept-Language:en-us",
+        INLINE_URLS,
+            "URL=https://jcpenney.d1.sc.omtrdc.net/b/ss/jcpenneyprod/1/JS-1.7.0/s42402459026164?AQB=1&ndh=1&pf=1&t=10%2F9%2F2017%201%3A36%3A25%202%20300&mid=78336365923674312680824865177198804394&aamlh=3&ce=UTF-8&ns=jcpenney&pageName=d%3Acheckout%3Acheckout%20shopping%20cart&g=https%3A%2F%2Fwww.jcpenney.com%2Fcart%3FpTmplType%3Dregular%26catId%3Dcat1003500018%26deptId%3Ddept20000013%26urlState%3D%2Fg%2FN-bwo3xDglghki%2FN-bwo3xDglghki%26badge%3Dundefined&cc=USD&ch=checkout&server=DTCOMEXPR1L2J3_06&events=event67&products=%3B%3B1%3B0.00%3B%3B&c1=shopping%20cart&v1=D%3Dc1&c6=checkout%3Acheckout%20shopping%20cart&c7=http%3A%2F%2Fwww.jcpenney.com%2Fcart%3FpTmplType%3Dregular%26catId%3Dcat1003500018%26deptId%3Ddept20000013%26urlState%3D%2Fg%2FN-bwo3xDglghki%2FN-bwo3xDglghki%26badge%3Dundefined&v7=1%3A36%20AM%7CTuesday&c10=2017%20yoda%20cart&c11=checkout&v11=D%3Dc11&v16=D%3DpageName&c17=d%3Apdp%3Appr5007255926%3Ablack%20label%20by%20evan-picone%20suit%20jacket&v17=D%3Dc17&c19=DU-2478764%2CMU-2478767%2CGT-2478563%2CABC-2478923%2CAET-2475188%2CAGV-2336264&c44=desktop&v44=D%3Dc44&v53=pdp&pe=lnk_o&pev2=saveProductInCart&s=0x0&j=1.6&v=N&k=Y&bw=1366&bh=607&AQE=1", "HEADER=yoda-desktop:true", "HEADER=Accept-Language:en-us", END_INLINE
+    );
+
+    ns_end_transaction("DT_Yoda_API_savedForLater_OPTIONS", NS_AUTO_STATUS);
+
+
+    ns_start_transaction("DT_Yoda_API_savedForLater_GET");
+    ns_web_url ("SavedForLaterPage",
+       // "URL=https://account-api.jcpenney.com/v5/accounts/Q79gbeTiThLEOgHYyTvG/saved-items/savedForLater?limit=11",
+        "URL=https://account-api.jcpenney.com/v5/accounts/{CustomerIdSP}/saved-items/savedForLater?limit=11",
+        "HEADER=Origin:https://www.jcpenney.com",
+        "HEADER=accept-version:5",
+        "HEADER=view-myfavorites:{SaveForlaterPrdIdSP}:{SaveForlaterSkuIdSP}",
+        "HEADER=authorization:Bearer {AccessTokenSP}",
+        "HEADER=content-type:application/json;charset=utf-8",
+        "HEADER=Accept-Language:en-us",
+        "COOKIE=yoda-checkout-desktop;_userLoc;BNSPrevPercentage;BNSOrigin;userLatLong;marketing;TLTSID;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;__gads;AKJCP;_abck;bm_sz;ssl;DP-Cloud-Cluster;akacd_account-api-cloud;DP_USER_STATE;DPJSESSIONID;DPSecureCookie;mp_jcpenney_mixpanel;_sckey;_scsess;Aurora;DP-Cloud-Origin;Refresh_Token;ACCOUNT_ID;DPUserTracking;DP_ORDER_INFO;DPOrder;DPSessionTimeOutInterval;ItemCount;ak_bmsc;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;userStoreInfo;shipToCountry;shipToCurrencyCode;userPriceZone;SelectedCountry;wlcme;_ga;_gid;optimizelyEndUserId;optimizelySegments;optimizelyBuckets;_uetsid;LPVID;LPSID-58507821;DPInstance;DPLastAccessedTime;DPCluster;DP_USER_INFO;DP_SFL_PPIDS;DP_USER_FAVCOUNT;_4c_;optimizelyPendingLogEvents;DPIdentifier;bm_sv",
+        "PreSnapshot=webpage_1507617385584.png",
+        "Snapshot=webpage_1507617386076.png"
+    );
+
+    ns_end_transaction("DT_Yoda_API_savedForLater_GET", NS_AUTO_STATUS);
+
+    ns_start_transaction("DT_Yoda_API_SFL_draftorder_OPTIONS");
+    ns_web_url("DraftOrderFetchPage",
+        //"URL=https://order-api.jcpenney.com/order-api/v1/accounts/Q79gbeTiThLEOgHYyTvG/draft-order?expand=status",
+        "URL=https://order-api.jcpenney.com/order-api/v1/accounts/{CustomerIdSP}/draft-order?expand=status",
+        "METHOD=OPTIONS",
+        "HEADER=Origin:https://www.jcpenney.com",
+        "HEADER=Access-Control-Request-Method:GET",
+        "HEADER=Access-Control-Request-Headers:authorization, content-type",
+        "HEADER=Accept-Language:en-us",
+        INLINE_URLS,
+            "URL=https://jcpenney.d1.sc.omtrdc.net/b/ss/jcpenneyprod/1/JS-1.7.0/s42234170175397?AQB=1&ndh=1&pf=1&t=10%2F9%2F2017%201%3A36%3A25%202%20300&mid=78336365923674312680824865177198804394&aamlh=3&ce=UTF-8&ns=jcpenney&pageName=d%3Acheckout%3Acheckout%20shopping%20cart&g=https%3A%2F%2Fwww.jcpenney.com%2Fcart%3FpTmplType%3Dregular%26catId%3Dcat1003500018%26deptId%3Ddept20000013%26urlState%3D%2Fg%2FN-bwo3xDglghki%2FN-bwo3xDglghki%26badge%3Dundefined&cc=USD&ch=checkout&server=DTCOMEXPR1L2J3_06&events=event57%2CscRemove&products=%3Bppr5007255926%3B1%3B49.99%3Bevent57%3D49.99%3Bevar6%3D2281010%7Cevar4%3Dblack%20label%20by%20evan-picone%20suit%20jacket%7Cevar64%3Dno%7Cevar71%3Din%20stock%7Cevar20%3Dsale%7Cevar32%3Dno%20rating%3Ano%20reviews%7Cevar34%3D22810100216%7Cevar41%3Dship%20to%20home%20or%20store&c1=shopping%20cart&v1=D%3Dc1&c6=checkout%3Acheckout%20shopping%20cart&c7=http%3A%2F%2Fwww.jcpenney.com%2Fcart%3FpTmplType%3Dregular%26catId%3Dcat1003500018%26deptId%3Ddept20000013%26urlState%3D%2Fg%2FN-bwo3xDglghki%2FN-bwo3xDglghki%26badge%3Dundefined&v7=1%3A36%20AM%7CTuesday&c10=2017%20yoda%20cart&c11=checkout&v11=D%3Dc11&v16=D%3DpageName&c17=d%3Apdp%3Appr5007255926%3Ablack%20label%20by%20evan-picone%20suit%20jacket&v17=D%3Dc17&c19=DU-2478764%2CMU-2478767%2CGT-2478563%2CABC-2478923%2CAET-2475188%2CAGV-2336264&c44=desktop&v44=D%3Dc44&v53=pdp&pe=lnk_o&pev2=cartUpdate&s=0x0&j=1.6&v=N&k=Y&bw=1366&bh=607&AQE=1", "HEADER=yoda-desktop:true", "HEADER=Accept-Language:en-us", END_INLINE
+    );
+
+    ns_end_transaction("DT_Yoda_API_SFL_draftorder_OPTIONS", NS_AUTO_STATUS);
+
+    ns_start_transaction("DT_Yoda_API_SFL_draftorder_GET");
+    ns_web_url ("draftorderPage",
+        //"URL=https://order-api.jcpenney.com/order-api/v1/accounts/Q79gbeTiThLEOgHYyTvG/draft-order?expand=status",
+        "URL=https://order-api.jcpenney.com/order-api/v1/accounts/{CustomerIdSP}/draft-order?expand=status",
+        "HEADER=authorization:Bearer {AccessTokenSP}",
+        "HEADER=Origin:https://www.jcpenney.com",
+        "HEADER=content-type:application/json;charset=utf-8",
+        "HEADER=Accept-Language:en-us",
+        "COOKIE=yoda-checkout-desktop;_userLoc;BNSPrevPercentage;BNSOrigin;userLatLong;marketing;TLTSID;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;__gads;AKJCP;_abck;bm_sz;ssl;akacd_order-api-cloud;DP_USER_STATE;DPJSESSIONID;DPSecureCookie;mp_jcpenney_mixpanel;_sckey;_scsess;Refresh_Token;ACCOUNT_ID;ItemCount;ak_bmsc;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;userStoreInfo;shipToCountry;shipToCurrencyCode;userPriceZone;SelectedCountry;wlcme;_ga;_gid;optimizelyEndUserId;optimizelySegments;optimizelyBuckets;_uetsid;LPVID;LPSID-58507821;DP_SFL_PPIDS;_4c_;optimizelyPendingLogEvents;DPUserTracking;DPInstance;DP_USER_INFO;DP_USER_FAVCOUNT;DP_ORDER_INFO;DPOrder;DPLastAccessedTime;DPCluster;DPIdentifier;DPSessionTimeOutInterval;Aurora;DP-Cloud-Cluster;DP-Cloud-Origin;bm_sv",
+        "PreSnapshot=webpage_1507617386076.png",
+        "Snapshot=webpage_1507617394402.png"
+    );
+
+    ns_end_transaction("DT_Yoda_API_SFL_draftorder_GET", NS_AUTO_STATUS);
+    ns_end_transaction("COM_Yoda_SB_SaveForLater", NS_AUTO_STATUS);
+    ns_page_think_time(7.875);
+
+}

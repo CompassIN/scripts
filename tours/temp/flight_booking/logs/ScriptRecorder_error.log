@@ -1,0 +1,81 @@
+6/12 11:30:27|ChomeSnapShotUtil|run|Exception in getting snapshot for url = http://192.158.1.36:81/tours/index.html|Following is the stack trace:
+java.lang.IllegalArgumentException: image == null!
+	at javax.imageio.ImageTypeSpecifier.createFromRenderedImage(Unknown Source)
+	at javax.imageio.ImageIO.getWriter(Unknown Source)
+	at javax.imageio.ImageIO.write(Unknown Source)
+	at com.netstorm.chromium.util.ChromeSnapShotUtil.run(ChromeSnapShotUtil.java:127)
+	at java.lang.Thread.run(Unknown Source)
+6/12 11:31:44|Utils|getEndTime|Exception in getting end Time for url list for given index|Following is the stack trace:
+java.lang.ArrayIndexOutOfBoundsException: -1
+	at java.util.ArrayList.elementData(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at com.netstorm.browser.Utils.getEndTime(Utils.java:2973)
+	at com.netstorm.browser.Utils.getEndTime(Utils.java:2977)
+	at com.netstorm.browser.Utils.getEndTime(Utils.java:2977)
+	at com.netstorm.browser.Utils.modifyMapForThinkTime(Utils.java:2790)
+	at com.netstorm.browser.Utils.modifyMapForSplit(Utils.java:2644)
+	at com.netstorm.script.formatters.c.WebCFormattor.generateScripts(WebCFormattor.java:72)
+	at com.netstorm.chromium.browser.ChromeMainFrame$10.onDisposed(ChromeMainFrame.java:657)
+	at com.teamdev.jxbrowser.chromium.ak.run(SourceFile:1709)
+	at com.teamdev.jxbrowser.chromium.internal.s.run(SourceFile:79)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+6/12 11:31:44|Utils|getEndTime|Exception in getting end Time for url list for given index|Following is the stack trace:
+java.lang.ArrayIndexOutOfBoundsException
+6/12 11:31:45|Utils|getEndTime|Exception in getting end Time for url list for given index|Following is the stack trace:
+java.lang.ArrayIndexOutOfBoundsException
+6/12 11:31:45|Utils|getEndTime|Exception in getting end Time for url list for given index|Following is the stack trace:
+java.lang.ArrayIndexOutOfBoundsException
+6/12 11:44:15|NSChromeBrowser|stopRecord|Exception in method|Following is the stack trace:
+java.lang.IllegalStateException: Failed to send message. Channel is already closed. GetURLMessage{type=GetURL, uid=445, url=null
+	at com.teamdev.jxbrowser.chromium.internal.ipc.MemoryChannelWriter.write(SourceFile:54)
+	at com.teamdev.jxbrowser.chromium.internal.ipc.SocketChannel.post(SourceFile:204)
+	at com.teamdev.jxbrowser.chromium.Browser.b(SourceFile:627)
+	at com.teamdev.jxbrowser.chromium.Browser.getURL(SourceFile:2084)
+	at com.netstorm.chromium.browser.NSChromeBrowser.stopRecord(NSChromeBrowser.java:240)
+	at pacAction.ScriptHTMLStart.stopRecording(ScriptHTMLStart.java:298)
+	at pacUi.ScriptMain$4.run(ScriptMain.java:302)
+	at java.lang.Thread.run(Unknown Source)
+6/12 11:44:15|ScriptDefaultExceptionHandler|uncaughtException|Caught an unhandled exception - EDT Exception in AWT-EventQueue-2|Following is the stack trace:
+java.lang.Exception: java.lang.NullPointerException
+	at pacAction.ScriptDefaultExceptionHandler.uncaughtException(ScriptDefaultExceptionHandler.java:20)
+	at java.lang.ThreadGroup.uncaughtException(Unknown Source)
+	at java.lang.ThreadGroup.uncaughtException(Unknown Source)
+	at java.awt.EventDispatchThread.processException(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at javax.swing.text.PlainView.updateMetrics(Unknown Source)
+	at javax.swing.text.PlainView.setSize(Unknown Source)
+	at javax.swing.plaf.basic.BasicTextUI$RootView.setSize(Unknown Source)
+	at javax.swing.plaf.basic.BasicTextUI.getPreferredSize(Unknown Source)
+	at javax.swing.plaf.basic.BasicTextAreaUI.getPreferredSize(Unknown Source)
+	at javax.swing.JComponent.getPreferredSize(Unknown Source)
+	at javax.swing.JTextArea.getPreferredSize(Unknown Source)
+	at javax.swing.ScrollPaneLayout.layoutContainer(Unknown Source)
+	at java.awt.Container.layout(Unknown Source)
+	at java.awt.Container.doLayout(Unknown Source)
+	at java.awt.Container.validateTree(Unknown Source)
+	at java.awt.Container.validate(Unknown Source)
+	at javax.swing.RepaintManager$3.run(Unknown Source)
+	at javax.swing.RepaintManager$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at javax.swing.RepaintManager.validateInvalidComponents(Unknown Source)
+	at javax.swing.RepaintManager$ProcessingRunnable.run(Unknown Source)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	... 6 more

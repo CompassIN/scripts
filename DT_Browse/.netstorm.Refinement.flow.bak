@@ -1,0 +1,58 @@
+/*-----------------------------------------------------------------------------
+    Name: Refinement
+    Recorded By: abhishek
+    Date of recording: 02/18/2017 12:56:02
+    Flow details:
+    Build details: 4.1.6 (build# 53)
+    Modification History:
+-----------------------------------------------------------------------------*/
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "ns_string.h"
+#include "Util.c"
+void Refinement()
+{
+    // Refinement
+    ns_start_transaction("COM_Browse_Refinement");
+    //Page Auto splitted for Ajax Header = XMLHttpRequest
+    ns_web_url ("BR_RefinementPage_1",
+        "URL=http://www.jcpenney.com/g/{RefinementUrlSP}?suppressHeaderFooter=true",
+        //"URL=http://www.jcpenney.com/g/dress-shirts-mens-shirts/N-bwo3yD1nohp5Z1z0pezw?suppressHeaderFooter=true",
+        "HEADER=X-Requested-With:XMLHttpRequest",
+        "HEADER=Accept-Language:en-us",
+        "COOKIE=DPJSESSIONID;DPSessionTimeOutInterval;pageTemplate;userLatLong;DPUserTracking;cmTPSet;AKJCP;certonaPromotions-bopis;TLTSID;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;CavSID;InternationalItemTotal;ItemTotal;ItemCount;DPOrder;shipToCurrencyCode;shipToCountry;DPUserSession;dimOrder;JSESSIONID;mbox;storeDetails;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;c17;v53;s_cc;_ga;DPInstance;DPLastAccessedTime;DPCluster;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;_br_uid_2;LPCKEY-58507821;LPVID;LPSID-58507821;CavSF;CavLTS;CavPI;_4c_;DPIdentifier;fsr.s;pn;s_sq",
+        "PreSnapshot=webpage_1487402331401.png",
+        "Snapshot=webpage_1487402336800.png",
+        INLINE_URLS,
+            "URL=http://www.jcpenney.com/dotcom/images//cat100250013_mt00014_42200031.jpg", "HEADER=Accept-Language:en-us", "COOKIE=DPJSESSIONID;DPSessionTimeOutInterval;pageTemplate;userLatLong;DPUserTracking;cmTPSet;AKJCP;certonaPromotions-bopis;TLTSID;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;CavSID;InternationalItemTotal;ItemTotal;ItemCount;DPOrder;shipToCurrencyCode;shipToCountry;DPUserSession;mbox;storeDetails;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;c17;v53;s_cc;_ga;DPInstance;DPLastAccessedTime;DPCluster;DPRRSESSIONID;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;_br_uid_2;LPCKEY-58507821;LPVID;LPSID-58507821;CavSF;CavLTS;CavPI;_4c_;fsr.s;pn;dimOrder;LegacyIdentifier;DPIdentifier;JSESSIONID;s_sq", END_INLINE,
+            "URL=http://s7d1.scene7.com/is/image/JCPenney/DP0506201417090669M.TIF?wid=178&hei=178&op_usm=.4,.8,0,0&resmode=sharp2", "HEADER=Accept-Language:en-us", END_INLINE,
+            "URL=http://s7d1.scene7.com/is/image/JCPenney/DP0425201401305967S.jpg?wid=25&hei=25&op_usm=.4,.8,0,0&resmode=sharp2", "HEADER=Accept-Language:en-us", END_INLINE,
+            "URL=http://s7d2.scene7.com/is/image/JCPenney/DP0425201401305867S.jpg?wid=25&hei=25&op_usm=.4,.8,0,0&resmode=sharp2", "HEADER=Accept-Language:en-us", END_INLINE,
+            "URL=http://s7d3.scene7.com/is/image/JCPenney/DP0707201417102478S.jpg?wid=25&hei=25&op_usm=.4,.8,0,0&resmode=sharp2", "HEADER=Accept-Language:en-us", END_INLINE,
+            "URL=http://s7d4.scene7.com/is/image/JCPenney/DP0507201417060029S.jpg?wid=25&hei=25&op_usm=.4,.8,0,0&resmode=sharp2", "HEADER=Accept-Language:en-us", END_INLINE,
+            "URL=http://s7d5.scene7.com/is/image/JCPenney/0900631B81E47F38S.jpg?wid=25&hei=25&op_usm=.4,.8,0,0&resmode=sharp2", "HEADER=Accept-Language:en-us", END_INLINE,
+            "URL=http://s7d6.scene7.com/is/image/JCPenney/0900631B8154E370S.jpg?wid=25&hei=25&op_usm=.4,.8,0,0&resmode=sharp2", "HEADER=Accept-Language:en-us", END_INLINE,
+            "URL=http://s7d1.scene7.com/is/image/JCPenney/DP0206201317014857M.TIF?wid=178&hei=178&op_usm=.4,.8,0,0&resmode=sharp2", "HEADER=Accept-Language:en-us", END_INLINE,
+            "URL=http://s7d1.scene7.com/is/image/JCPenney/0900631B81CF057ES.jpg?wid=25&hei=25&op_usm=.4,.8,0,0&resmode=sharp2", "HEADER=Accept-Language:en-us", END_INLINE,
+            "URL=http://s7d6.scene7.com/is/image/JCPenney/0900631B81E47F38S.jpg?wid=25&hei=25&op_usm=.4,.8,0,0&resmode=sharp2", "HEADER=Accept-Language:en-us", END_INLINE,
+            "URL=http://s7d1.scene7.com/is/image/JCPenney/DP0410201520391929C.TIF?wid=178&hei=178&op_usm=.4,.8,0,0&resmode=sharp2", "HEADER=Accept-Language:en-us", END_INLINE,
+            "URL=http://s7d3.scene7.com/is/image/JCPenney/DP1027201617311372M.TIF?wid=178&hei=178&op_usm=.4,.8,0,0&resmode=sharp2", "HEADER=Accept-Language:en-us", END_INLINE,
+            "URL=http://s7d4.scene7.com/is/image/JCPenney/0900631B81474AF7S.jpg?wid=25&hei=25&op_usm=.4,.8,0,0&resmode=sharp2", "HEADER=Accept-Language:en-us", END_INLINE,
+            "URL=http://s7d5.scene7.com/is/image/JCPenney/0900631B8156D4C7S.jpg?wid=25&hei=25&op_usm=.4,.8,0,0&resmode=sharp2", "HEADER=Accept-Language:en-us", END_INLINE
+    );
+    
+    
+    if(!((strcmp((ns_eval_string("{ProductCountSP}")),"0")))){       //Condition to check ProductCount if it is 0 then it will end transaction with different name and exit the session
+    ns_end_transaction_as("COM_Browse_Refinement", NS_AUTO_STATUS, "COM_Browse_Refinement_NoProductAvail");        
+    ns_page_think_time(0.105); 
+    ns_exit_session();
+    }
+
+    else{
+	 ns_end_transaction("COM_Browse_Refinement", NS_AUTO_STATUS);
+	 ns_page_think_time(0.105);
+    }
+     
+}

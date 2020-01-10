@@ -1,0 +1,36 @@
+--Request 
+POST https://www.amazon.in/ah/ajax/record-impressions?c4i=ePm_fHprndBNS8NAFIXhX3Qgk_m49y6TgrXYlZS6vpOZscWQlBgR9c-3QqGQunJ7Fgfe52chnPL72zye_oBe65w_9Wvp3Zh922xlt_Uvq_Zhqf80zo9Y7Z4xXTpeh-N3TtAh4WO4Df-pDJUXFueQSghwTAWRmNA5HylqMh2npUQqJlCQDJtiBRfZQYwoJETLIkrc-ZvWFQKz9j0OeRqxuQOkzFKVwNCaDFzIlzOyFupNMeK72hb-RT4D149tsg&rId=FQHMBRA36T6KVA44S1T8&mkId=A21TJRUUN4KGV&exp=1562591920842&h=6813079e5e20c64200e830d945476b6c433775dfdecc318bad01a5dd3a6a1c6a
+Host: www.amazon.in
+Cookie: session-id=259-1202557-5929705; i18n-prefs=INR; ubid-acbin=258-0672242-6953331; x-wl-uid=1ecJvyxzwiGLpb/ivu3x3ngupYO7bY1+BPjlMC56V5J9AKfsIjsCkfc+Jr7a3C9XLJxX0u1syPM0=; visitCount=1; csm-hit=tb:s-FQHMBRA36T6KVA44S1T8|1562591802960&t:1562591815077&adb:adblk_no; session-token=\"qbOQOkS0VEpBUocLOZRgf/vBjfAa/L1gvzuk4dHaABRLwBcXdkoWG+tgKYovU/GtpgviGH2ntZ17AVp7e48ZFY6MNw3iH/RJtLL2eZrJEHt3s9Cy0QE8n08HbD+hmqwfffrZuHf+ncTYp9ne7NmDLRaqAwIAVoD+O39gZOoyeiIbwRC9aZp+vc79loUdfIgRN7k1iETJ2x2I7SZjKc9arkykk2SqRFhbbijoObQQg4mvjy58UMqGvQ==\"; lc-acbin=en_IN; session-id-time=2082787201l
+Origin: https://www.amazon.in
+Accept: */*
+X-Requested-With: XMLHttpRequest
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+ POSTDATA 
+--Response 
+HTTP/1.1 202
+date: Mon, 08 Jul 2019 13:17:10 GMT
+x-amz-cf-pop: DEL51
+server: Server
+expires: Thu, 01 Jan 1970 00:00:00 GMT
+x-ua-compatible: IE=edge
+vary: Accept-Encoding,User-Agent,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment
+content-encoding: gzip
+x-frame-options: SAMEORIGIN
+x-amz-rid: 4ZMFRP7DR2S69YR5CPGA
+pragma: no-cache
+strict-transport-security: max-age=47474747; includeSubDomains; preload
+via: 1.1 b804a121dcbb7cb51fd709903749806e.cloudfront.net (CloudFront)
+x-content-type-options: nosniff
+x-xss-protection: 1;
+content-type: text/html;charset=UTF-8
+x-cache: Miss from cloudfront
+cache-control: no-cache, no-transform
+x-amz-cf-id: lSiBpesrIn3EIBgF3exfE289m3YwEiu9y_ylara5sg1oi5KSsf1QOw==
+status: 202
+----
+

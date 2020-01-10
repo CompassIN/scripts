@@ -1,0 +1,81 @@
+--Request 
+POST https://fls-eu.amazon.in/1/batch/1/OE/
+Host: fls-eu.amazon.in
+Cookie: session-id=260-6898445-8949221; i18n-prefs=INR; ubid-acbin=262-8671103-6623656; x-wl-uid=1OfaMC7JpnskpcFBQZ0Uq5V8k/Li+eH9j/u3WVuWMZt5YlTHc5uQTLxZFK0jTKGcRFjeKmsxSpo8=; visitCount=1; session-token=\"FOD9ahBmF5GIKmPl1E0GHlNJV5EedVXMFVEZhlbBTx0kTXXMg1IYR5c5brnaRCYcCUYDFNILc5DnAHxrFPaxoptoxnDRXfbxQaDXulcLsGquoPty2zDMdmxnHPRVTtAnQDJ5n7OZtZxq8SQ36hwOyZ/OIwYQLZ84s7v4Fd3QqFQ7zkpZa9aeDQF9Ysr3lsS5MnV7pdgpl47Vgy7x4V7fxgY/Hg2HKg2CyscZ924Wm5C+krHuGrc01w==\"; lc-acbin=en_IN; session-id-time=2082758401l
+Origin: https://www.amazon.in
+Accept: */*
+Cache-Control: max-age=0
+Referer: https://www.amazon.in/Low-Price-With-Free-Shipping/bbp?category=/mens&pf_rd_p=b139ea56-b471-44e1-96c4-9419c155d0ed&pf_rd_r=QTX88JN8XW6309TZ412A
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Content-Type: text/plain;charset=UTF-8
+----
+ POSTDATA {"rid":"CEBK9MEJXP1JY36NH606","sid":"260-6898445-8949221","mid":"A21TJRUUN4KGV","sn":"www.amazon.in","reqs":[{"csmcount":{"counter":"baselineCounter2","value":1,"t":4}},{"csmcount":{"counter":"nexusBaselineCounter","value":1,"t":4}},{"csmcount":{"counter":"aui:hiResDesktop","value":0,"t":91}},{"csmcount":{"counter":"aui:pagejs:pkgExecTime","value":7.445000000000164,"t":94}},{"csmcount":{"counter":"aui:resource_count","value":1,"t":311}},{"csmcount":{"counter":"aui:resource_count","value":2,"t":312}},{"csmcount":{"counter":"csm.cookieSize","value":590,"t":327}},{"csmcount":{"counter":"aui:resource_count","value":3,"t":500}},{"csmcount":{"counter":"totalImages","value":2,"t":521}},{"cel":{"k":"mrg","n":"page module","t":523}},{"cel":{"k":"pmd","o":"https://www.amazon.in","p":"/Low-Price-With-Free-Shipping/bbp","t":524}},{"cel":{"w":1360,"aw":1360,"h":768,"ah":738,"cd":0,"pd":0,"t":525,"k":"sci"}},{"cel":{"w":1000,"h":1080,"t":569,"k":"doi"}},{"cel":{"k":"mso","n":"page module","t":569}},{"cel":{"k":"mrg","n":"viewport module","t":569}},{"cel":{"w":784,"h":463,"x":0,"y":0,"t":570,"k":"vpi"}},{"cel":{"k":"mso","n":"viewport module","t":570}},{"cel":{"k":"mrg","n":"features module","t":571}},{"cel":{"k":"mso","n":"features module","t":571}},{"cel":{"k":"mrg","n":"mouse click module","t":571}},{"cel":{"k":"mso","n":"mouse click module","t":572}},{"cel":{"k":"mrg","n":"mouse move module","t":572}},{"cel":{"k":"mso","n":"mouse move module","t":572}},{"csmcount":{"counter":"aui:resource_count","value":4,"t":579}},{"csmcount":{"counter":"aui:preload_asks","value":1,"t":1538}},{"csmcount":{"counter":"aui:preload_asks","value":2,"t":1538}},{"csmcount":{"counter":"wl-storage-set","value":1,"t":1591}},{"csmcount":{"counter":"bb:stream:initial-item-count","value":5,"t":1594}},{"csmcount":{"counter":"postbackImageSize","value":284,"t":1608}},{"cel":{"w":1000,"h":1055,"t":1878,"k":"doi"}},{"csmcount":{"counter":"p13n:rhf:invalidPage","value":1,"t":2407}},{"navigation":{"quirks":0}},{"csmcount":{"counter":"nav-flyout-prime-attach-latency","value":1979,"t":2475}},{"csmcount":{"counter":"nav-flyout-primeTooltip-attach-latency","value":1986,"t":2482}},{"csmcount":{"counter":"nav-flyout-accountList-attach-latency","value":1988,"t":2484}},{"csmcount":{"counter":"nav-flyout-shopAll-attach-latency","value":1994,"t":2490}},{"csmcount":{"counter":"nav-flyout-transientFlyout-attach-latency","value":1996,"t":2492}},{"csmcount":{"counter":"iss-warmup:init","value":1,"t":2536}},{"csmcount":{"counter":"iss-warmup:ajax:init","value":1,"t":2539}},{"csmcount":{"counter":"iss-api-v2:init","value":1,"t":2549}},{"cel":{"k":"hrt","t":3525}},{"csmcount":{"counter":"bb-fetch-items-success","value":1,"t":4004}},{"csmcount":{"counter":"iss-warmup:ajax:success","value":1,"t":4487}},{"cel":{"w":1000,"h":1677,"t":4574,"k":"doi"}},{"csmcount":{"counter":"postbackImageSize","value":554,"t":5104}},{"csmcount":{"counter":"aui:aui-supported-rupee","value":1,"t":5268}},{"csmcount":{"counter":"NavJS:TimeUpTo:ATF:desktop","value":237,"t":5271}},{"csmcount":{"counter":"NavJS:TimeUpTo:CF:desktop","value":240,"t":5273}},{"csmcount":{"counter":"NavJS:TimeUpTo:PageLoaded:desktop","value":242,"t":5276}},{"csmcount":{"counter":"NavJS:TotalCallCount:PageLoaded:desktop","value":1116,"t":5276}},{"csmcount":{"counter":"Nav:CSM:Latency:network:D:desktop","value":1187,"t":5276}},{"csmcount":{"counter":"Nav:CSM:Latency:navFirstPaint:D:desktop","value":2330,"t":5276}},{"csmcount":{"counter":"Nav:CSM:Latency:NavStart:C:desktop","value":335,"t":5276}},{"csmcount":{"counter":"Nav:CSM:Latency:PreNav:D:desktop","value":3,"t":5276}},{"csmcount":{"counter":"Nav:CSM:Latency:PreNav:C:desktop","value":338,"t":5276}},{"csmcount":{"counter":"Nav:CSM:Latency:UpNav:D:desktop","value":0,"t":5276}},{"csmcount":{"counter":"Nav:CSM:Latency:UpNav:C:desktop","value":338,"t":5276}},{"csmcount":{"counter":"Nav:CSM:Latency:HamburgerMenuIcon:D:desktop","value":0,"t":5276}},{"csmcount":{"counter":"Nav:CSM:Latency:HamburgerMenuIcon:C:desktop","value":338,"t":5276}},{"csmcount":{"counter":"Nav:CSM:Latency:Logo:D:desktop","value":0,"t":5276}},{"csmcount":{"counter":"Nav:CSM:Latency:Logo:C:desktop","value":339,"t":5276}},{"csmcount":{"counter":"Nav:CSM:Latency:SWM:D:desktop","value":0,"t":5276}},{"csmcount":{"counter":"Nav:CSM:Latency:SWM:C:desktop","value":339,"t":5276}},{"csmcount":{"counter":"Nav:CSM:Latency:Search:D:desktop","value":28,"t":5276}},{"csmcount":{"counter":"Nav:CSM:Latency:Search:C:desktop","value":367,"t":5276}},{"csmcount":{"counter":"Nav:CSM:Latency:Tools:D:desktop","value":113,"t":5276}},{"csmcount":{"counter":"Nav:CSM:Latency:Tools:C:desktop","value":480,"t":5276}},{"csmcount":{"counter":"Nav:CSM:Latency:CrossShop:D:desktop","value":0,"t":5276}},{"csmcount":{"counter":"Nav:CSM:Latency:CrossShop:C:desktop","value":481,"t":5276}},{"csmcount":{"counter":"Nav:CSM:Latency:NavBar:D:desktop","value":143,"t":5276}},{"csmcount":{"counter":"Nav:CSM:Latency:NavBar:C:desktop","value":481,"t":5276}},{"csmcount":{"counter":"Nav:CSM:Latency:PostNav:D:desktop","value":14,"t":5276}},{"csmcount":{"counter":"Nav:CSM:Latency:PostNav:C:desktop","value":496,"t":5276}},{"csmcount":{"counter":"aui:sw:browser:register:success","value":1,"t":5281}},{"csmcount":{"counter":"bb-fetch-items-success","value":2,"t":5288}},{"cel":{"k":"efo","t":5346,"s":"default"}},{"cel":{"n":"Navigation-desktop-navbar","w":1000,"h":99,"d":0,"x":0,"y":0,"t":5373,"k":"ewi","cl":"nav-sprite-v1 celwidget nav-bluebeacon nav-packard-glow nav-a11y-t1"}},{"cel":{"n":"bb-stream-widget","w":1000,"h":2453,"d":0,"x":0,"y":135,"t":5373,"k":"ewi","cl":"a-section bb-stream-widget celwidget bb-p-bb"}},{"cel":{"n":"nav_sitewide_msg","w":400,"h":39,"d":0,"x":600,"y":9,"t":5373,"k":"ewi","cl":""}},{"cel":{"n":"nav_sitewide_msg","w":0,"h":0,"d":1,"x":0,"y":0,"t":5373,"k":"ewi","cl":""}},{"cel":{"w":1000,"h":2610,"t":5705,"k":"doi"}},{"csmcount":{"counter":"bb-fetch-items-success","value":3,"t":6048}},{"cel":{"n":"bb-stream-widget","w":1000,"h":2764,"d":0,"x":0,"y":135,"t":6114,"k":"ewi"}},{"cel":{"w":1000,"h":2921,"t":6218,"k":"doi"}},{"cel":{"k":"hrt","t":6526}},{"csm":{"k":"chk","f":1,"l":{"csmcount":58,"cel":26,"navigation":1,"jserr-rw":2,"csm":1},"s":"full"}},{"csmcount":{"counter":"foresterPayloadSize","t":0,"value":6306}}]}
+--Response 
+HTTP/1.1 204
+access-control-allow-origin: *
+date: Wed, 17 Jul 2019 18:24:17 GMT
+x-amzn-requestid: e3d782d4-2bc9-4a83-baf3-30b93e74626b
+access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+status: 204
+----
+--Request 
+GET https://images-na.ssl-images-amazon.com/images/I/210UtsRqV6L._RC%7C71+WX4uo+uL.css,11zh5zoa5AL.css,31cuIVKhckL.css,213skwsyD4L.css,31wWWC6YAvL.css,11G4HxMtMSL.css,31OvHRW+XiL.css,01XHMOHpK1L.css_.css?AUIClients/AmazonNavigationDesktopMetaAsset#desktop.in
+Host: images-na.ssl-images-amazon.com
+Origin: https://www.amazon.in
+Accept: text/css,*/*;q=0.1
+Referer: https://www.amazon.in/Low-Price-With-Free-Shipping/bbp?category=/mens&pf_rd_p=b139ea56-b471-44e1-96c4-9419c155d0ed&pf_rd_r=QTX88JN8XW6309TZ412A
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 12 Jun 2019 20:40:30 GMT
+x-amz-cf-pop: ORD50-C1
+server: Server
+expires: Mon, 06 Jun 2039 03:37:30 GMT
+x-amz-ir-id: f989c26a-c837-419e-b837-06c19f65ffd4
+content-encoding: gzip
+via: 1.1 50fe1d71b205e020c992be911ed0d44c.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Fri, 31 May 2019 01:11:54 GMT
+content-type: text/css; charset=utf-8
+timing-allow-origin: https://www.amazon.com
+x-cache: Hit from cloudfront
+cache-control: max-age=630720000,public
+age: 3163597
+x-amz-cf-id: ZuDHFVaDlL3crCmWZMJ8zo4Du7SM6Br8N5Bco818xfcDZ7-G5Xzrow==
+status: 200
+----
+--Request 
+GET https://images-na.ssl-images-amazon.com/images/I/41fMrDoAFbL._RC%7C71GkUD1temL.js,61u3dpzHy+L.js,41W9ohA0e+L.js,11vrNkbdcvL.js,21SHd9g2LAL.js,311T8Q1zWKL.js,51+klsvwgqL.js,31IEOtBPX+L.js_.js?AUIClients/AmazonNavigationDesktopMetaAsset#desktop
+Host: images-na.ssl-images-amazon.com
+Origin: https://www.amazon.in
+Accept: */*
+Referer: https://www.amazon.in/Low-Price-With-Free-Shipping/bbp?category=/mens&pf_rd_p=b139ea56-b471-44e1-96c4-9419c155d0ed&pf_rd_r=QTX88JN8XW6309TZ412A
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+----
+--Response 
+HTTP/1.1 200
+date: Sat, 22 Jun 2019 05:37:05 GMT
+x-amz-cf-pop: ORD50-C1
+server: Server
+expires: Wed, 15 Jun 2039 05:38:39 GMT
+x-amz-ir-id: 1166da10-d890-476a-a64e-a677fb0e886a
+content-encoding: gzip
+via: 1.1 50fe1d71b205e020c992be911ed0d44c.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Thu, 13 Jun 2019 00:39:56 GMT
+content-type: application/x-javascript; charset=utf-8
+timing-allow-origin: https://www.amazon.com
+x-cache: Hit from cloudfront
+cache-control: max-age=630720000,public
+age: 2378738
+x-amz-cf-id: 2vKDctk4oMqttb9Ow_YaCcrgZBljMeqEiU5sxLp7nHxd8_fkJykbKg==
+status: 200
+----
+

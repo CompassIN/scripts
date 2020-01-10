@@ -1,0 +1,6 @@
+<Int64>
+  <int64_field1>{int64_data}</int64_field1>
+  <b>
+    <int64_field2>{int64_data}</int64_field2>
+  </b>
+</Int64>

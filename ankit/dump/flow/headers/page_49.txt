@@ -1,0 +1,117 @@
+--Request 
+POST https://fls-eu.amazon.in/1/batch/1/OE/
+Host: fls-eu.amazon.in
+Cookie: session-id=260-6898445-8949221; i18n-prefs=INR; ubid-acbin=262-8671103-6623656; x-wl-uid=1OfaMC7JpnskpcFBQZ0Uq5V8k/Li+eH9j/u3WVuWMZt5YlTHc5uQTLxZFK0jTKGcRFjeKmsxSpo8=; visitCount=1; session-token=\"FOD9ahBmF5GIKmPl1E0GHlNJV5EedVXMFVEZhlbBTx0kTXXMg1IYR5c5brnaRCYcCUYDFNILc5DnAHxrFPaxoptoxnDRXfbxQaDXulcLsGquoPty2zDMdmxnHPRVTtAnQDJ5n7OZtZxq8SQ36hwOyZ/OIwYQLZ84s7v4Fd3QqFQ7zkpZa9aeDQF9Ysr3lsS5MnV7pdgpl47Vgy7x4V7fxgY/Hg2HKg2CyscZ924Wm5C+krHuGrc01w==\"; lc-acbin=en_IN; session-id-time=2082787201l
+Origin: https://www.amazon.in
+Accept: */*
+Cache-Control: max-age=0
+Referer: https://www.amazon.in/Low-Price-With-Free-Shipping/bbp?category=/mens&pf_rd_p=b139ea56-b471-44e1-96c4-9419c155d0ed&pf_rd_r=QTX88JN8XW6309TZ412A
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Content-Type: text/plain;charset=UTF-8
+----
+ POSTDATA {"rid":"CEBK9MEJXP1JY36NH606","sid":"260-6898445-8949221","mid":"A21TJRUUN4KGV","sn":"www.amazon.in","reqs":[{"csmcount":{"counter":"bb-fetch-items-success","value":4,"t":6747}},{"cel":{"n":"bb-stream-widget","w":1000,"h":3075,"d":0,"x":0,"y":135,"t":6847,"k":"ewi"}},{"csmcount":{"counter":"aui:preload_fulfilled","value":1,"t":6982}},{"cel":{"w":1000,"h":3232,"t":7275,"k":"doi"}},{"csmcount":{"counter":"bb-fetch-items-success","value":5,"t":7499}},{"cel":{"w":1000,"h":3854,"t":7833,"k":"doi"}},{"cel":{"n":"bb-stream-widget","w":1000,"h":3697,"d":0,"x":0,"y":135,"t":7832,"k":"ewi"}},{"csmcount":{"counter":"aui:preload_fulfilled","value":2,"t":8153}},{"csmcount":{"counter":"bb-fetch-items-success","value":6,"t":8821}},{"cel":{"w":1000,"h":4165,"t":8908,"k":"doi"}},{"cel":{"n":"bb-stream-widget","w":1000,"h":4008,"d":0,"x":0,"y":135,"t":8908,"k":"ewi"}},{"cel":{"w":1000,"h":4476,"t":9418,"k":"doi"}},{"csmcount":{"counter":"bb-fetch-items-success","value":7,"t":9424}},{"cel":{"n":"bb-stream-widget","w":1000,"h":4319,"d":0,"x":0,"y":135,"t":9478,"k":"ewi"}},{"csmcount":{"counter":"bb-fetch-items-success","value":8,"t":9974}},{"cel":{"k":"hrt","t":13279}},{"cel":{"k":"hrt","t":14280}},{"csm":{"k":"chk","f":2,"l":{"csmcount":65,"cel":36,"navigation":1,"jserr-rw":2,"csm":2},"s":"full"}},{"csmcount":{"counter":"foresterPayloadSize","t":0,"value":1366}}]}
+--Response 
+HTTP/1.1 204
+access-control-allow-origin: *
+date: Wed, 17 Jul 2019 18:24:24 GMT
+x-amzn-requestid: 1bd1d5bb-3081-4e61-ba19-74ada96eecbf
+access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+status: 204
+----
+--Request 
+GET https://www.amazon.in/gp/uedata?at&v=0.204437.0&id=CEBK9MEJXP1JY36NH606&ctb=1&m=1&sc=CEBK9MEJXP1JY36NH606&pc=15079&at=15079&t=1563387865750&csmtags=aui:sw:browser:register:supported|aui|aui:ajax|csm-feature-touch-enabled:false&pty=BrightBuy&spty=LandingPage&pti=bb:mens&tid=QTX88JN8XW6309TZ412A&aftb=1
+Host: www.amazon.in
+Cookie: session-id=260-6898445-8949221; i18n-prefs=INR; ubid-acbin=262-8671103-6623656; x-wl-uid=1OfaMC7JpnskpcFBQZ0Uq5V8k/Li+eH9j/u3WVuWMZt5YlTHc5uQTLxZFK0jTKGcRFjeKmsxSpo8=; visitCount=1; session-token=\"FOD9ahBmF5GIKmPl1E0GHlNJV5EedVXMFVEZhlbBTx0kTXXMg1IYR5c5brnaRCYcCUYDFNILc5DnAHxrFPaxoptoxnDRXfbxQaDXulcLsGquoPty2zDMdmxnHPRVTtAnQDJ5n7OZtZxq8SQ36hwOyZ/OIwYQLZ84s7v4Fd3QqFQ7zkpZa9aeDQF9Ysr3lsS5MnV7pdgpl47Vgy7x4V7fxgY/Hg2HKg2CyscZ924Wm5C+krHuGrc01w==\"; lc-acbin=en_IN; csm-hit=tb:s-CEBK9MEJXP1JY36NH606|1563387850999&t:1563387851193&adb:adblk_no; session-id-time=2082787201l
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://www.amazon.in/Low-Price-With-Free-Shipping/bbp?category=/mens&pf_rd_p=b139ea56-b471-44e1-96c4-9419c155d0ed&pf_rd_r=QTX88JN8XW6309TZ412A
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 17 Jul 2019 18:24:26 GMT
+x-amz-cf-pop: ORD52-C1
+server: Server
+vary: Accept-Encoding,User-Agent,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment
+content-encoding: gzip
+x-frame-options: SAMEORIGIN
+x-amz-rid: XP6EVX7MWY77EC31K07C
+strict-transport-security: max-age=47474747; includeSubDomains; preload
+via: 1.1 1bc8b41b2ed9cf32d0eba23fa9af49b3.cloudfront.net (CloudFront)
+set-cookie: session-id=260-6898445-8949221; path=/; domain=.amazon.in; expires=Tue, 01-Jan-2036 00:00:01 GMT
+content-type: image/gif
+x-amz-id-1: XP6EVX7MWY77EC31K07C
+x-cache: Miss from cloudfront
+cache-control: no-transform
+x-amz-cf-id: t-w757wmewuVoQmuHvf8C4oe1mFUnmTBvJC-UkYLLZL47fPT1yoF2w==
+status: 200
+----
+--Request 
+GET https://fls-eu.amazon.in/1/batch/1/OP/A21TJRUUN4KGV:260-6898445-8949221:CEBK9MEJXP1JY36NH606$uedata=s:%2Fgp%2Fuedata%3Fat%26v%3D0.204437.0%26id%3DCEBK9MEJXP1JY36NH606%26ctb%3D1%26m%3D1%26sc%3DCEBK9MEJXP1JY36NH606%26pc%3D15079%26at%3D15079%26t%3D1563387865750%26csmtags%3Daui%3Asw%3Abrowser%3Aregister%3Asupported%7Caui%7Caui%3Aajax%7Ccsm-feature-touch-enabled%3Afalse%26pty%3DBrightBuy%26spty%3DLandingPage%26pti%3Dbb%3Amens%26tid%3DQTX88JN8XW6309TZ412A%26aftb%3D1:15080
+Host: fls-eu.amazon.in
+Cookie: session-id=260-6898445-8949221; i18n-prefs=INR; ubid-acbin=262-8671103-6623656; x-wl-uid=1OfaMC7JpnskpcFBQZ0Uq5V8k/Li+eH9j/u3WVuWMZt5YlTHc5uQTLxZFK0jTKGcRFjeKmsxSpo8=; visitCount=1; session-token=\"FOD9ahBmF5GIKmPl1E0GHlNJV5EedVXMFVEZhlbBTx0kTXXMg1IYR5c5brnaRCYcCUYDFNILc5DnAHxrFPaxoptoxnDRXfbxQaDXulcLsGquoPty2zDMdmxnHPRVTtAnQDJ5n7OZtZxq8SQ36hwOyZ/OIwYQLZ84s7v4Fd3QqFQ7zkpZa9aeDQF9Ysr3lsS5MnV7pdgpl47Vgy7x4V7fxgY/Hg2HKg2CyscZ924Wm5C+krHuGrc01w==\"; lc-acbin=en_IN; session-id-time=2082787201l
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://www.amazon.in/Low-Price-With-Free-Shipping/bbp?category=/mens&pf_rd_p=b139ea56-b471-44e1-96c4-9419c155d0ed&pf_rd_r=QTX88JN8XW6309TZ412A
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 17 Jul 2019 18:24:25 GMT
+content-length: 43
+content-type: image/gif
+x-amzn-requestid: 6081cdee-4bd7-4ca3-a297-0d279e427a36
+status: 200
+----
+--Request 
+GET https://www.amazon.in/gp/uedata?at&v=0.204437.0&id=CEBK9MEJXP1JY36NH606&ctb=1&m=1&sc=CEBK9MEJXP1JY36NH606&pc=15092&at=15092&t=1563387865763&pty=BrightBuy&spty=LandingPage&pti=bb:mens&tid=QTX88JN8XW6309TZ412A&aftb=1&ui=2
+Host: www.amazon.in
+Cookie: session-id=260-6898445-8949221; i18n-prefs=INR; ubid-acbin=262-8671103-6623656; x-wl-uid=1OfaMC7JpnskpcFBQZ0Uq5V8k/Li+eH9j/u3WVuWMZt5YlTHc5uQTLxZFK0jTKGcRFjeKmsxSpo8=; visitCount=1; session-token=\"FOD9ahBmF5GIKmPl1E0GHlNJV5EedVXMFVEZhlbBTx0kTXXMg1IYR5c5brnaRCYcCUYDFNILc5DnAHxrFPaxoptoxnDRXfbxQaDXulcLsGquoPty2zDMdmxnHPRVTtAnQDJ5n7OZtZxq8SQ36hwOyZ/OIwYQLZ84s7v4Fd3QqFQ7zkpZa9aeDQF9Ysr3lsS5MnV7pdgpl47Vgy7x4V7fxgY/Hg2HKg2CyscZ924Wm5C+krHuGrc01w==\"; lc-acbin=en_IN; csm-hit=tb:s-CEBK9MEJXP1JY36NH606|1563387850999&t:1563387851193&adb:adblk_no; session-id-time=2082787201l
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://www.amazon.in/Low-Price-With-Free-Shipping/bbp?category=/mens&pf_rd_p=b139ea56-b471-44e1-96c4-9419c155d0ed&pf_rd_r=QTX88JN8XW6309TZ412A
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 17 Jul 2019 18:24:26 GMT
+x-amz-cf-pop: ORD52-C1
+server: Server
+vary: Accept-Encoding,User-Agent,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment
+content-encoding: gzip
+x-frame-options: SAMEORIGIN
+x-amz-rid: D39WCKQY69DZ44SH7H8B
+strict-transport-security: max-age=47474747; includeSubDomains; preload
+via: 1.1 1bc8b41b2ed9cf32d0eba23fa9af49b3.cloudfront.net (CloudFront)
+set-cookie: session-id=260-6898445-8949221; path=/; domain=.amazon.in; expires=Tue, 01-Jan-2036 00:00:01 GMT
+content-type: image/gif
+x-amz-id-1: D39WCKQY69DZ44SH7H8B
+x-cache: Miss from cloudfront
+cache-control: no-transform
+x-amz-cf-id: HQBsGb87TOEqcBMWuS4ISTh9PUAHv0fLDt9Qx1_8jL-pLIaRRCm8Eg==
+status: 200
+----
+--Request 
+GET https://fls-eu.amazon.in/1/batch/1/OP/A21TJRUUN4KGV:260-6898445-8949221:CEBK9MEJXP1JY36NH606$uedata=s:%2Fgp%2Fuedata%3Fat%26v%3D0.204437.0%26id%3DCEBK9MEJXP1JY36NH606%26ctb%3D1%26m%3D1%26sc%3DCEBK9MEJXP1JY36NH606%26pc%3D15092%26at%3D15092%26t%3D1563387865763%26pty%3DBrightBuy%26spty%3DLandingPage%26pti%3Dbb%3Amens%26tid%3DQTX88JN8XW6309TZ412A%26aftb%3D1%26ui%3D2:15093
+Host: fls-eu.amazon.in
+Cookie: session-id=260-6898445-8949221; i18n-prefs=INR; ubid-acbin=262-8671103-6623656; x-wl-uid=1OfaMC7JpnskpcFBQZ0Uq5V8k/Li+eH9j/u3WVuWMZt5YlTHc5uQTLxZFK0jTKGcRFjeKmsxSpo8=; visitCount=1; session-token=\"FOD9ahBmF5GIKmPl1E0GHlNJV5EedVXMFVEZhlbBTx0kTXXMg1IYR5c5brnaRCYcCUYDFNILc5DnAHxrFPaxoptoxnDRXfbxQaDXulcLsGquoPty2zDMdmxnHPRVTtAnQDJ5n7OZtZxq8SQ36hwOyZ/OIwYQLZ84s7v4Fd3QqFQ7zkpZa9aeDQF9Ysr3lsS5MnV7pdgpl47Vgy7x4V7fxgY/Hg2HKg2CyscZ924Wm5C+krHuGrc01w==\"; lc-acbin=en_IN; session-id-time=2082787201l
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://www.amazon.in/Low-Price-With-Free-Shipping/bbp?category=/mens&pf_rd_p=b139ea56-b471-44e1-96c4-9419c155d0ed&pf_rd_r=QTX88JN8XW6309TZ412A
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 17 Jul 2019 18:24:25 GMT
+content-length: 43
+content-type: image/gif
+x-amzn-requestid: 04036c37-9d85-4ba1-bd6f-5cf81cc08e6a
+status: 200
+----
+

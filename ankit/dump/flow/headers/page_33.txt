@@ -1,0 +1,28 @@
+--Request 
+POST https://unagi-eu.amazon.com/1/events/com.amazon.csm.nexusclient.prod
+Host: unagi-eu.amazon.com
+Origin: https://www.amazon.in
+Accept: */*
+Cache-Control: max-age=0
+Referer: https://www.amazon.in/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Content-Type: text/plain;charset=UTF-8
+----
+ POSTDATA {"cs":{"dct":{"#0":"violationType","#1":"unresponsive-clicks","#2":"violationCount","#3":"totalScanned","#4":"producerId","#5":"csm","#6":"schemaId","#7":"csm.ArmoredCXGuardrailsViolation.3","#8":"timestamp","#9":"messageId","#10":"sessionId","#11":"260-6898445-8949221","#12":"requestId","#13":"QTX88JN8XW6309TZ412A","#14":"obfuscatedMarketplaceId","#15":"A21TJRUUN4KGV"}},"events":[{"data":{"#0":"#1","#2":0,"#3":0,"#4":"#5","#6":"#7","#8":"2019-07-17T18:24:07.484Z","#9":"QTX88JN8XW6309TZ412A-1563387847484-2418550643","#10":"#11","#12":"#13","#14":"#15"}}]}
+--Response 
+HTTP/1.1 200 OK
+Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+Server: Server
+Access-Control-Allow-Origin: https://www.amazon.in
+Connection: keep-alive
+Content-Encoding: gzip
+x-amzn-RequestId: fb201c81-3b32-45cd-8624-54f7790a121a
+Vary: Origin,Accept-Encoding,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment,User-Agent
+x-amz-rid: 8BEBQZJ79Z4BV5W6V05R
+Content-Length: 22
+Date: Wed, 17 Jul 2019 18:24:09 GMT
+Content-Type: application/json
+----
+

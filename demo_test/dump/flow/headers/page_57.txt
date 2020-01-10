@@ -1,0 +1,133 @@
+--Request 
+POST https://fls-eu.amazon.in/1/batch/1/OE/
+Host: fls-eu.amazon.in
+Cookie: session-id=259-1202557-5929705; i18n-prefs=INR; ubid-acbin=258-0672242-6953331; x-wl-uid=1ecJvyxzwiGLpb/ivu3x3ngupYO7bY1+BPjlMC56V5J9AKfsIjsCkfc+Jr7a3C9XLJxX0u1syPM0=; visitCount=1; session-token=\"qbOQOkS0VEpBUocLOZRgf/vBjfAa/L1gvzuk4dHaABRLwBcXdkoWG+tgKYovU/GtpgviGH2ntZ17AVp7e48ZFY6MNw3iH/RJtLL2eZrJEHt3s9Cy0QE8n08HbD+hmqwfffrZuHf+ncTYp9ne7NmDLRaqAwIAVoD+O39gZOoyeiIbwRC9aZp+vc79loUdfIgRN7k1iETJ2x2I7SZjKc9arkykk2SqRFhbbijoObQQg4mvjy58UMqGvQ==\"; lc-acbin=en_IN; session-id-time=2082787201l
+Origin: https://www.amazon.in
+Accept: */*
+Cache-Control: max-age=0
+Referer: https://www.amazon.in/b?ie=UTF8&node=16182118031&s=review-rank&pf_rd_p=5257cbb4-a92e-49af-bb2e-3535232a9738&pf_rd_r=FQHMBRA36T6KVA44S1T8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Content-Type: text/plain;charset=UTF-8
+----
+ POSTDATA {"rid":"EH62JJ2C4MP7MD1QJXHQ","sid":"259-1202557-5929705","mid":"A21TJRUUN4KGV","sn":"www.amazon.in","reqs":[{"csmcount":{"counter":"baselineCounter2","value":1,"t":3}},{"csmcount":{"counter":"aui:hiResDesktop","value":0,"t":336}},{"csmcount":{"counter":"aui:pagejs:pkgExecTime","value":5.569999999999936,"t":338}},{"csmcount":{"counter":"aui:resource_count","value":1,"t":339}},{"csmcount":{"counter":"aui:resource_count","value":2,"t":340}},{"csmcount":{"counter":"csm.cookieSize","value":590,"t":471}},{"csmcount":{"counter":"sx.cf.bounds-support","value":1,"t":500}},{"csmcount":{"counter":"aui:resource_count","value":3,"t":501}},{"csmcount":{"counter":"aui:resource_count","value":4,"t":501}},{"csmcount":{"counter":"aui:preload_asks","value":1,"t":1153}},{"csmcount":{"counter":"aui:preload_asks","value":2,"t":1153}},{"csmcount":{"counter":"aui:resource_count","value":5,"t":1153}},{"csmcount":{"counter":"totalImages","value":31,"t":1157}},{"cel":{"k":"mrg","n":"page module","t":1159}},{"cel":{"k":"pmd","o":"https://www.amazon.in","p":"/b","t":1159}},{"cel":{"w":1536,"aw":1536,"h":864,"ah":832,"cd":0,"pd":0,"t":1159,"k":"sci"}},{"cel":{"w":1519,"h":3779,"t":1204,"k":"doi"}},{"cel":{"k":"mso","n":"page module","t":1204}},{"cel":{"k":"mrg","n":"viewport module","t":1204}},{"cel":{"w":1536,"h":726,"x":0,"y":0,"t":1204,"k":"vpi"}},{"cel":{"k":"mso","n":"viewport module","t":1204}},{"cel":{"k":"mrg","n":"features module","t":1205}},{"cel":{"k":"mso","n":"features module","t":1205}},{"cel":{"k":"mrg","n":"mouse click module","t":1205}},{"cel":{"k":"mso","n":"mouse click module","t":1205}},{"cel":{"k":"mrg","n":"mouse move module","t":1205}},{"cel":{"k":"mso","n":"mouse move module","t":1205}},{"csmcount":{"counter":"cfImageCount","value":0,"t":1219}},{"csmcount":{"counter":"sx.cf.image-thousand-pixels","value":0,"t":1219}},{"csmcount":{"counter":"NavJS:CSM:Latency:BeginNav:desktop","value":474,"t":1842}},{"csmcount":{"counter":"NavJS:CSM:Latency:InlineCSS:desktop","value":474,"t":1842}},{"csmcount":{"counter":"aui:aui-supported-rupee","value":1,"t":1854}},{"csm":{"k":"rtiming","value":"fhu_Spw_ahu_z81_ilink*fhu_Sqk_ahu_z8p_ilink*fpn_dpn_Dpn_cpn_Cpn_qq5_sqk_Sr7_e17_E17_apn_z1j_iimg*fmp_Srr_amp_z52_ilink*fmt_Sud_amt_z7j_ilink*fmu_dmu_Dmu_cmu_Cmu_qpn_stc_Suq_t954_e8sx_E8sx_amu_z7w_iimg*fpo_Sv1_apo_z5d_iimg*fs5_Svp_as5_z3k_iimg*fw6_dw6_Dw6_cw6_Cw6_qwn_sxe_Syz_e3gd_E3gd_aw6_z2t_icss*fw5_Syz_aw5_z2t_icss*fwo_Szx_awo_z38_icss*fs2_S11w_as2_z9t_iscript*fs3_S13j_as3_zbg_iscript*fwk_S13t_awk_z78_iscript*fwk_S14u_awk_z89_iscript*f16t_S1ff_a16t_z8m_iimg*f16t_S1gn_a16t_z9u_iimg*f18g_S1gs_a18g_z8c_icss*f1d8_d1d8_D1d8_c1d8_C1d8_q1ei_s1g1_S1hp_e6u9_E6u9_a1d8_z4h_iimg*f16t_S1ic_a16t_zbi_iimg*f16t_S1ig_a16t_zbm_iimg*f16t_S1il_a16t_zbs_iimg*f16t_S1ip_a16t_zbv_iimg*f16w_S1j8_a16w_zcc_iimg*f16v_S1l9_a16v_zee_iimg*f16v_S1ld_a16v_zei_iimg*f16w_S1li_a16w_zem_iimg*f16w_S1mi_a16w_zfl_iimg*f16x_S1ml_a16x_zfo_iimg*f16x_S1ml_a16x_zfn_iimg*f16x_S1ml_a16x_zfn_iimg*f16w_S1mx_a16w_zg1_iimg*f18f_S1om_a18f_zg7_icss*f16x_S1qx_a16x_zk0_iimg*f16x_S1r2_a16x_zk5_iimg*f16y_S1r7_a16y_zk8_iimg*f16x_S1rb_a16x_zkd_iimg*f16y_S1rf_a16y_zkh_iimg*f16y_S1sx_a16y_zlz_iimg*f16y_S1t3_a16y_zm4_iimg*f1d1_d1d1_D1d1_c1d1_C1d1_q1ev_s1rq_S1t8_tpc_edi_Edi_a1d1_zg7_iimg*f1d0_S1tc_a1d0_zgc_iimg*f1d0_S1tq_a1d0_zgq_iimg*f18g_S1v0_a18g_zmk_icss*f1ep_S1vb_a1ep_zgm_iscript~pm"}},{"navigation":{"quirks":0}},{"csmcount":{"counter":"NavJS:TimeUpTo:ATF:desktop","value":19,"t":1880}},{"csmcount":{"counter":"NavJS:TimeUpTo:CF:desktop","value":23,"t":1880}},{"csmcount":{"counter":"NavJS:TimeUpTo:PageLoaded:desktop","value":23,"t":1881}},{"csmcount":{"counter":"NavJS:TotalCallCount:PageLoaded:desktop","value":264,"t":1881}},{"csmcount":{"counter":"Nav:CSM:Latency:network:D:desktop","value":607,"t":1882}},{"csmcount":{"counter":"Nav:CSM:Latency:navFirstPaint:D:desktop","value":539,"t":1882}},{"csmcount":{"counter":"Nav:CSM:Latency:NavStart:C:desktop","value":475,"t":1882}},{"csmcount":{"counter":"Nav:CSM:Latency:PreNav:D:desktop","value":1,"t":1882}},{"csmcount":{"counter":"Nav:CSM:Latency:PreNav:C:desktop","value":476,"t":1882}},{"csmcount":{"counter":"Nav:CSM:Latency:UpNav:D:desktop","value":0,"t":1882}},{"csmcount":{"counter":"Nav:CSM:Latency:UpNav:C:desktop","value":476,"t":1882}},{"csmcount":{"counter":"Nav:CSM:Latency:HamburgerMenuIcon:D:desktop","value":0,"t":1882}},{"csmcount":{"counter":"Nav:CSM:Latency:HamburgerMenuIcon:C:desktop","value":476,"t":1882}},{"csmcount":{"counter":"Nav:CSM:Latency:Logo:D:desktop","value":0,"t":1882}},{"csmcount":{"counter":"Nav:CSM:Latency:Logo:C:desktop","value":477,"t":1882}},{"csmcount":{"counter":"Nav:CSM:Latency:SWM:D:desktop","value":0,"t":1882}},{"csmcount":{"counter":"Nav:CSM:Latency:SWM:C:desktop","value":477,"t":1882}},{"csmcount":{"counter":"Nav:CSM:Latency:Search:D:desktop","value":16,"t":1882}},{"csmcount":{"counter":"Nav:CSM:Latency:Search:C:desktop","value":493,"t":1882}},{"csmcount":{"counter":"Nav:CSM:Latency:Tools:D:desktop","value":0,"t":1882}},{"csmcount":{"counter":"Nav:CSM:Latency:Tools:C:desktop","value":493,"t":1882}},{"csmcount":{"counter":"Nav:CSM:Latency:CrossShop:D:desktop","value":1,"t":1882}},{"csmcount":{"counter":"Nav:CSM:Latency:CrossShop:C:desktop","value":494,"t":1882}},{"csmcount":{"counter":"Nav:CSM:Latency:Subnav:D:desktop","value":0,"t":1882}},{"csmcount":{"counter":"Nav:CSM:Latency:Subnav:C:desktop","value":494,"t":1882}},{"csmcount":{"counter":"Nav:CSM:Latency:NavBar:D:desktop","value":18,"t":1882}},{"csmcount":{"counter":"Nav:CSM:Latency:NavBar:C:desktop","value":494,"t":1882}},{"csmcount":{"counter":"Nav:CSM:Latency:PostNav:D:desktop","value":3,"t":1882}},{"csmcount":{"counter":"Nav:CSM:Latency:PostNav:C:desktop","value":497,"t":1882}},{"csmcount":{"counter":"nav-flyout-prime-attach-latency","value":1399,"t":1896}},{"csmcount":{"counter":"nav-flyout-primeTooltip-attach-latency","value":1402,"t":1899}},{"csmcount":{"counter":"nav-flyout-accountList-attach-latency","value":1404,"t":1901}},{"csmcount":{"counter":"nav-flyout-shopAll-attach-latency","value":1406,"t":1903}},{"csmcount":{"counter":"nav-flyout-transientFlyout-attach-latency","value":1407,"t":1904}},{"csmcount":{"counter":"nav-flyout-megamenumar18f.json:subnav-sl-megamenu-1:0-attach-latency","value":1412,"t":1909}},{"csmcount":{"counter":"nav-flyout-megamenumar18f.json:subnav-sl-megamenu-2:0-attach-latency","value":1417,"t":1914}},{"csmcount":{"counter":"nav-flyout-megamenumar18f.json:subnav-sl-megamenu-3:0-attach-latency","value":1418,"t":1915}},{"csmcount":{"counter":"nav-flyout-megamenumar18f.json:subnav-sl-megamenu-4:0-attach-latency","value":1419,"t":1916}},{"csmcount":{"counter":"nav-flyout-megamenumar18f.json:subnav-sl-megamenu-5:0-attach-latency","value":1420,"t":1917}},{"csmcount":{"counter":"nav-flyout-megamenumar18f.json:subnav-sl-megamenu-6:0-attach-latency","value":1422,"t":1919}},{"csmcount":{"counter":"nav-flyout-megamenumar18f.json:subnav-sl-megamenu-7:0-attach-latency","value":1424,"t":1921}},{"csmcount":{"counter":"nav-flyout-megamenumar18f.json:subnav-sl-megamenu-8:0-attach-latency","value":1426,"t":1923}},{"csmcount":{"counter":"nav-flyout-megamenumar18f.json:subnav-sl-megamenu-9:0-attach-latency","value":1429,"t":1926}},{"csmcount":{"counter":"iss-warmup:init","value":1,"t":1959}},{"csmcount":{"counter":"iss-warmup:ajax:init","value":1,"t":1963}},{"csmcount":{"counter":"iss-api-v2:init","value":1,"t":1971}},{"cel":{"n":"Navigation-desktop-navbar","w":1519.2000732421875,"h":149,"d":0,"x":0,"y":0,"t":1928,"k":"ewi","cl":"nav-sprite-v1 celwidget nav-bluebeacon nav-packard-glow nav-a11y-t1"}},{"cel":{"n":"result_0","w":321.3000183105469,"h":387.6000061035156,"d":0,"x":224,"y":253.8000030517578,"t":1928,"k":"ewi","cl":"s-result-item  celwidget  "}},{"cel":{"n":"result_1","w":321.3000183105469,"h":417.20001220703125,"d":0,"x":545.2999877929688,"y":253.8000030517578,"t":1928,"k":"ewi","cl":"s-result-item  celwidget  "}},{"cel":{"n":"result_2","w":321.3000183105469,"h":417.20001220703125,"d":0,"x":866.6000366210938,"y":253.8000030517578,"t":1928,"k":"ewi","cl":"s-result-item  celwidget  "}},{"cel":{"n":"result_3","w":321.3000183105469,"h":417.20001220703125,"d":0,"x":1187.9000244140625,"y":253.8000030517578,"t":1928,"k":"ewi","cl":"s-result-item  celwidget  "}},{"cel":{"n":"result_4","w":321.3000183105469,"h":418.20001220703125,"d":0,"x":224,"y":671.4000244140625,"t":1928,"k":"ewi","cl":"s-result-item  celwidget  "}},{"cel":{"n":"result_5","w":321.3000183105469,"h":418.20001220703125,"d":0,"x":545.2999877929688,"y":671.4000244140625,"t":1928,"k":"ewi","cl":"s-result-item  celwidget  "}},{"cel":{"n":"result_6","w":321.3000183105469,"h":372.6000061035156,"d":0,"x":866.6000366210938,"y":671.4000244140625,"t":1928,"k":"ewi","cl":"s-result-item  celwidget  "}},{"cel":{"n":"result_7","w":321.3000183105469,"h":388.6000061035156,"d":0,"x":1187.9000244140625,"y":671.4000244140625,"t":1928,"k":"ewi","cl":"s-result-item  celwidget  "}},{"cel":{"n":"result_8","w":321.3000183105469,"h":383.8000183105469,"d":0,"x":224,"y":1089.800048828125,"t":1928,"k":"ewi","cl":"s-result-item  celwidget  "}},{"cel":{"n":"result_9","w":321.3000183105469,"h":418.20001220703125,"d":0,"x":545.2999877929688,"y":1089.800048828125,"t":1928,"k":"ewi","cl":"s-result-item  celwidget  "}},{"cel":{"n":"result_10","w":321.3000183105469,"h":372.6000061035156,"d":0,"x":866.6000366210938,"y":1089.800048828125,"t":1928,"k":"ewi","cl":"s-result-item  celwidget  "}},{"cel":{"n":"result_11","w":321.3000183105469,"h":418.20001220703125,"d":0,"x":1187.9000244140625,"y":1089.800048828125,"t":1928,"k":"ewi","cl":"s-result-item  celwidget  "}},{"cel":{"n":"result_12","w":321.3000183105469,"h":388.6000061035156,"d":0,"x":224,"y":1508.2000732421875,"t":1928,"k":"ewi","cl":"s-result-item  celwidget  "}},{"cel":{"n":"result_13","w":321.3000183105469,"h":388.6000061035156,"d":0,"x":545.2999877929688,"y":1508.2000732421875,"t":1928,"k":"ewi","cl":"s-result-item  celwidget  "}},{"cel":{"n":"result_14","w":321.3000183105469,"h":436.6000061035156,"d":0,"x":866.6000366210938,"y":1508.2000732421875,"t":1928,"k":"ewi","cl":"s-result-item  celwidget  "}},{"cel":{"n":"result_15","w":321.3000183105469,"h":388.6000061035156,"d":0,"x":1187.9000244140625,"y":1508.2000732421875,"t":1928,"k":"ewi","cl":"s-result-item  celwidget  "}},{"cel":{"n":"result_16","w":321.3000183105469,"h":388.6000061035156,"d":0,"x":224,"y":1945,"t":1928,"k":"ewi","cl":"s-result-item  celwidget  "}},{"cel":{"n":"result_17","w":321.3000183105469,"h":388.6000061035156,"d":0,"x":545.2999877929688,"y":1945,"t":1928,"k":"ewi","cl":"s-result-item  celwidget  "}},{"cel":{"n":"result_18","w":321.3000183105469,"h":436.6000061035156,"d":0,"x":866.6000366210938,"y":1945,"t":1928,"k":"ewi","cl":"s-result-item  celwidget  "}},{"cel":{"n":"result_19","w":321.3000183105469,"h":436.6000061035156,"d":0,"x":1187.9000244140625,"y":1945,"t":1928,"k":"ewi","cl":"s-result-item  celwidget  "}},{"cel":{"n":"result_20","w":321.3000183105469,"h":388.6000061035156,"d":0,"x":224,"y":2381.800048828125,"t":1928,"k":"ewi","cl":"s-result-item  celwidget  "}},{"cel":{"n":"result_21","w":321.3000183105469,"h":436.6000061035156,"d":0,"x":545.2999877929688,"y":2381.800048828125,"t":1928,"k":"ewi","cl":"s-result-item  celwidget  "}},{"cel":{"n":"result_22","w":321.3000183105469,"h":418.20001220703125,"d":0,"x":866.6000366210938,"y":2381.800048828125,"t":1928,"k":"ewi","cl":"s-result-item  celwidget  "}},{"cel":{"n":"result_23","w":321.3000183105469,"h":436.6000061035156,"d":0,"x":1187.9000244140625,"y":2381.800048828125,"t":1928,"k":"ewi","cl":"s-result-item  celwidget  "}},{"cel":{"k":"efo","t":2303,"s":"default"}},{"cel":{"n":"result_0","w":428.38751220703125,"h":418,"d":0,"x":224,"y":253.8000030517578,"t":2893,"k":"ewi"}},{"cel":{"n":"result_1","w":428.38751220703125,"h":418,"d":0,"x":652.3875122070312,"y":253.8000030517578,"t":2893,"k":"ewi"}},{"cel":{"n":"result_2","w":428.38751220703125,"h":418,"d":0,"x":1080.7750244140625,"y":253.8000030517578,"t":2893,"k":"ewi"}},{"cel":{"n":"result_3","w":428.38751220703125,"h":418,"d":0,"x":224,"y":672.2000122070312,"t":2893,"k":"ewi"}},{"cel":{"n":"result_4","w":428.38751220703125,"h":418,"d":0,"x":652.3875122070312,"y":672.2000122070312,"t":2893,"k":"ewi"}},{"cel":{"n":"result_5","w":428.38751220703125,"h":418,"d":0,"x":1080.7750244140625,"y":672.2000122070312,"t":2893,"k":"ewi"}},{"cel":{"n":"result_6","w":428.38751220703125,"h":384,"d":0,"x":224,"y":1090.5999755859375,"t":2893,"k":"ewi"}},{"cel":{"n":"result_7","w":428.38751220703125,"h":384,"d":0,"x":652.3875122070312,"y":1090.5999755859375,"t":2893,"k":"ewi"}},{"cel":{"n":"result_8","w":428.38751220703125,"h":384,"d":0,"x":1080.7750244140625,"y":1090.5999755859375,"t":2893,"k":"ewi"}},{"cel":{"n":"result_9","w":428.38751220703125,"h":418,"d":0,"x":224,"y":1474.5999755859375,"t":2893,"k":"ewi"}},{"cel":{"n":"result_10","w":428.38751220703125,"h":418,"d":0,"x":652.3875122070312,"y":1474.5999755859375,"t":2893,"k":"ewi"}},{"cel":{"n":"result_11","w":428.38751220703125,"h":418,"d":0,"x":1080.7750244140625,"y":1474.5999755859375,"t":2893,"k":"ewi"}},{"cel":{"n":"result_12","w":428.38751220703125,"h":418,"d":0,"x":224,"y":1893,"t":2893,"k":"ewi"}},{"cel":{"n":"result_13","w":428.38751220703125,"h":418,"d":0,"x":652.3875122070312,"y":1893,"t":2893,"k":"ewi"}},{"cel":{"n":"result_14","w":428.38751220703125,"h":418,"d":0,"x":1080.7750244140625,"y":1893,"t":2893,"k":"ewi"}},{"cel":{"n":"result_15","w":428.38751220703125,"h":389,"d":0,"x":224,"y":2311.400146484375,"t":2893,"k":"ewi"}},{"cel":{"n":"result_16","w":428.38751220703125,"h":389,"d":0,"x":652.3875122070312,"y":2311.400146484375,"t":2893,"k":"ewi"}},{"cel":{"n":"result_17","w":428.38751220703125,"h":389,"d":0,"x":1080.7750244140625,"y":2311.400146484375,"t":2893,"k":"ewi"}},{"cel":{"n":"result_18","w":428.38751220703125,"h":418,"d":0,"x":224,"y":2700.199951171875,"t":2893,"k":"ewi"}},{"cel":{"n":"result_19","w":428.38751220703125,"h":418,"d":0,"x":652.3875122070312,"y":2700.199951171875,"t":2893,"k":"ewi"}},{"cel":{"n":"result_20","w":428.38751220703125,"h":418,"d":0,"x":1080.7750244140625,"y":2700.199951171875,"t":2893,"k":"ewi"}},{"cel":{"n":"result_21","w":428.38751220703125,"h":418,"d":0,"x":224,"y":3118.60009765625,"t":2893,"k":"ewi"}},{"cel":{"n":"result_22","w":428.38751220703125,"h":418,"d":0,"x":652.3875122070312,"y":3118.60009765625,"t":2893,"k":"ewi"}},{"cel":{"n":"result_23","w":428.38751220703125,"h":418,"d":0,"x":1080.7750244140625,"y":3118.60009765625,"t":2893,"k":"ewi"}},{"cel":{"k":"hrt","t":3032}},{"csm":{"k":"chk","f":1,"l":{"csmcount":64,"cel":65,"csm":2,"navigation":1},"s":"full"}}]}
+--Response 
+HTTP/1.1 204
+access-control-allow-origin: *
+date: Mon, 08 Jul 2019 13:24:38 GMT
+x-amzn-requestid: 9fdb045a-c5be-4d52-bbb8-7b781657ef13
+access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+status: 204
+----
+--Request 
+GET https://usermatch.krxd.net/um/v2?partner=amzn
+Host: usermatch.krxd.net
+Cookie: _kuid_=MyrckDma
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 302 Found
+X-Cache: MISS
+X-Served-By: usermatch-a012.krxd.net
+X-Age: 0
+Connection: keep-alive
+Content-Length: 0
+X-Cache-Hits: 0
+Date: Mon, 08 Jul 2019 13:24:39 GMT
+Location: //s.amazon-adsystem.com/ecm3?ex=krux.com&id=MyrckDma
+----
+--Request 
+GET https://analytics.twitter.com/i/adsct?p_id=985&p_user_id=TxUMpLjCQra7Z9ymu-dsNQ&twitter_redir=https%3A%2F%2Faax-eu.amazon-adsystem.com%2Fs%2Fecm3%3Fex%3Dtwca%26id%3DTxUMpLjCQra7Z9ymu-dsNQ%26
+Host: analytics.twitter.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+
+--Request 
+GET https://www.imdb.com/ads/idsync?cid=79bc437ba&ex=imdb.com
+Host: www.imdb.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+
+--Request 
+GET https://images-na.ssl-images-amazon.com/images/I/210UtsRqV6L._RC%7C71+WX4uo+uL.css,11zh5zoa5AL.css,31cuIVKhckL.css,213skwsyD4L.css,31wWWC6YAvL.css,11G4HxMtMSL.css,31OvHRW+XiL.css,01XHMOHpK1L.css_.css?AUIClients/AmazonNavigationDesktopMetaAsset#desktop.in
+Host: images-na.ssl-images-amazon.com
+Origin: https://www.amazon.in
+Accept: text/css,*/*;q=0.1
+Referer: https://www.amazon.in/b?ie=UTF8&node=16182118031&s=review-rank&pf_rd_p=5257cbb4-a92e-49af-bb2e-3535232a9738&pf_rd_r=FQHMBRA36T6KVA44S1T8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:17:01 GMT
+content-length: 34733
+server: Server
+expires: Wed, 08 Jun 2039 03:11:51 GMT
+x-amz-ir-id: ac43f400-4114-4019-ab18-ba95fe184941
+vary: Accept-Encoding
+content-encoding: gzip
+access-control-allow-origin: *
+last-modified: Fri, 31 May 2019 01:11:54 GMT
+content-type: text/css; charset=utf-8
+timing-allow-origin: https://www.amazon.com
+x-cache: Hit from akamai
+cache-control: public, max-age=628523690
+status: 200
+----
+--Request 
+GET https://images-na.ssl-images-amazon.com/images/I/41fMrDoAFbL._RC%7C71GkUD1temL.js,61u3dpzHy+L.js,41W9ohA0e+L.js,11vrNkbdcvL.js,21SHd9g2LAL.js,311T8Q1zWKL.js,51+klsvwgqL.js,31IEOtBPX+L.js_.js?AUIClients/AmazonNavigationDesktopMetaAsset#desktop
+Host: images-na.ssl-images-amazon.com
+Origin: https://www.amazon.in
+Accept: */*
+Referer: https://www.amazon.in/b?ie=UTF8&node=16182118031&s=review-rank&pf_rd_p=5257cbb4-a92e-49af-bb2e-3535232a9738&pf_rd_r=FQHMBRA36T6KVA44S1T8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:16:56 GMT
+content-length: 104033
+server: Server
+expires: Fri, 17 Jun 2039 05:49:50 GMT
+x-amz-ir-id: b31e3ff2-f0b0-4555-aa98-3e4ba6683635
+vary: Accept-Encoding
+content-encoding: gzip
+access-control-allow-origin: *
+last-modified: Thu, 13 Jun 2019 00:39:56 GMT
+content-type: application/x-javascript; charset=utf-8
+timing-allow-origin: https://www.amazon.com
+x-cache: Hit from akamai
+cache-control: public, max-age=629310774
+status: 200
+----
+--Request 
+GET https://fls-eu.amazon.in/1/batch/1/OP/A21TJRUUN4KGV:259-1202557-5929705:EH62JJ2C4MP7MD1QJXHQ$uedata=s:%2Fmn%2Fsearch%2Fuedata%2F259-1202557-5929705%3Fld%26v%3D0.202699.0%26id%3DEH62JJ2C4MP7MD1QJXHQ%26ctb%3D1%26sc0%3Diss-warmup%3Afailure%26bb0%3D1963%26cf0%3D3336%26be0%3D3341%26pc0%3D3341%26ld0%3D3341%26t0%3D1562592278090%26csmtags%3Diss-on-time%26pty%3DLanding%26spty%3Dundefined%26pti%3Dundefined%26tid%3DFQHMBRA36T6KVA44S1T8%26aftb%3D1:3341
+Host: fls-eu.amazon.in
+Cookie: session-id=259-1202557-5929705; i18n-prefs=INR; ubid-acbin=258-0672242-6953331; x-wl-uid=1ecJvyxzwiGLpb/ivu3x3ngupYO7bY1+BPjlMC56V5J9AKfsIjsCkfc+Jr7a3C9XLJxX0u1syPM0=; visitCount=1; session-token=\"qbOQOkS0VEpBUocLOZRgf/vBjfAa/L1gvzuk4dHaABRLwBcXdkoWG+tgKYovU/GtpgviGH2ntZ17AVp7e48ZFY6MNw3iH/RJtLL2eZrJEHt3s9Cy0QE8n08HbD+hmqwfffrZuHf+ncTYp9ne7NmDLRaqAwIAVoD+O39gZOoyeiIbwRC9aZp+vc79loUdfIgRN7k1iETJ2x2I7SZjKc9arkykk2SqRFhbbijoObQQg4mvjy58UMqGvQ==\"; lc-acbin=en_IN; session-id-time=2082787201l
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://www.amazon.in/b?ie=UTF8&node=16182118031&s=review-rank&pf_rd_p=5257cbb4-a92e-49af-bb2e-3535232a9738&pf_rd_r=FQHMBRA36T6KVA44S1T8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-in
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 08 Jul 2019 13:24:38 GMT
+content-length: 43
+content-type: image/gif
+x-amzn-requestid: 9ac02b9f-0d11-4bc5-936e-dfba3d160f93
+status: 200
+----
+

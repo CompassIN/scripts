@@ -1,0 +1,384 @@
+--Request 
+POST https://fls-eu.amazon.in/1/batch/1/OE/
+Host: fls-eu.amazon.in
+Cookie: session-id=260-6898445-8949221; i18n-prefs=INR; ubid-acbin=262-8671103-6623656; x-wl-uid=1OfaMC7JpnskpcFBQZ0Uq5V8k/Li+eH9j/u3WVuWMZt5YlTHc5uQTLxZFK0jTKGcRFjeKmsxSpo8=; session-token=\"FOD9ahBmF5GIKmPl1E0GHlNJV5EedVXMFVEZhlbBTx0kTXXMg1IYR5c5brnaRCYcCUYDFNILc5DnAHxrFPaxoptoxnDRXfbxQaDXulcLsGquoPty2zDMdmxnHPRVTtAnQDJ5n7OZtZxq8SQ36hwOyZ/OIwYQLZ84s7v4Fd3QqFQ7zkpZa9aeDQF9Ysr3lsS5MnV7pdgpl47Vgy7x4V7fxgY/Hg2HKg2CyscZ924Wm5C+krHuGrc01w==\"; lc-acbin=en_IN; visitCount=2; session-id-time=2082758401l
+Origin: https://www.amazon.in
+Accept: */*
+Cache-Control: max-age=0
+Referer: https://www.amazon.in/Ateesa-Womens-Rayon-Pleated-7058_Navy_Xx-Large/dp/B07NFDRP67/ref=sr_1_1?qid=1563387908&s=apparel&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Content-Type: text/plain;charset=UTF-8
+----
+ POSTDATA {"rid":"Q3A6HVWZDTVCTAEBMX6F","sid":"260-6898445-8949221","mid":"A21TJRUUN4KGV","sn":"www.amazon.in","reqs":[{"csmcount":{"counter":"baselineCounter2","value":1,"t":39}},{"csmcount":{"counter":"nexusBaselineCounter","value":1,"t":39}},{"csmcount":{"counter":"aui:hiResDesktop","value":0,"t":481}},{"csmcount":{"counter":"aui:pagejs:pkgExecTime","value":10.215000000000146,"t":487}},{"csmcount":{"counter":"csm.cookieSize","value":590,"t":547}},{"csmcount":{"counter":"adplacements:htmlviewed:Detail:ams-detail-right-v2:desktop","value":1,"t":678}},{"csmcount":{"counter":"aui:resource_count","value":1,"t":685}},{"csmcount":{"counter":"aui:resource_count","value":2,"t":686}},{"csmcount":{"counter":"aui:resource_count","value":3,"t":687}},{"csmcount":{"counter":"aui:resource_count","value":4,"t":803}},{"csmcount":{"counter":"aui:resource_count","value":5,"t":804}},{"csmcount":{"counter":"aui:resource_count","value":6,"t":804}},{"csmcount":{"counter":"aui:resource_count","value":7,"t":804}},{"csmcount":{"counter":"adplacements:sfversion:1.50.d23453f","value":1,"t":2280}},{"csmcount":{"counter":"adplacements:abpstatus:notenabled:Detail:ams-detail-right-v2:desktop","value":1,"t":4144}},{"csmcount":{"counter":"adplacements:abpstatus:enabled:Detail:ams-detail-right-v2:desktop","value":0,"t":4144}},{"csmcount":{"counter":"adplacements:abpstatus:unknown:Detail:ams-detail-right-v2:desktop","value":0,"t":4144}},{"csmcount":{"counter":"adplacements:adload:start:Detail:ams-detail-right-v2:desktop","value":1,"t":4144}},{"csmcount":{"counter":"d16g_postMessageSupported","value":1,"t":4144}},{"csmcount":{"counter":"adplacements:adload:delayloadcallback:Detail:ams-detail-right-v2:desktop","value":1,"t":4145}},{"csmcount":{"counter":"adplacements:adload:iframecreated:Detail:ams-detail-right-v2:desktop","value":1,"t":4933}},{"csmcount":{"counter":"aui:resource_count","value":8,"t":4999}},{"csmcount":{"counter":"aui:resource_count","value":9,"t":5000}},{"csmcount":{"counter":"aui:resource_count","value":10,"t":5002}},{"csmcount":{"counter":"adplacements:abpstatus:notenabled:Detail:customer-reviews-top:Glance","value":1,"t":5313}},{"csmcount":{"counter":"adplacements:abpstatus:notenabled:c9a09184-bad8-4206-80a7-f9db64ba2bb1","value":1,"t":5313}},{"csmcount":{"counter":"adplacements:abpstatus:enabled:Detail:customer-reviews-top:Glance","value":0,"t":5313}},{"csmcount":{"counter":"adplacements:abpstatus:enabled:c9a09184-bad8-4206-80a7-f9db64ba2bb1","value":0,"t":5313}},{"csmcount":{"counter":"adplacements:abpstatus:unknown:Detail:customer-reviews-top:Glance","value":0,"t":5313}},{"csmcount":{"counter":"adplacements:abpstatus:unknown:c9a09184-bad8-4206-80a7-f9db64ba2bb1","value":0,"t":5313}},{"csmcount":{"counter":"adplacements:adload:start:Detail:customer-reviews-top:Glance","value":1,"t":5313}},{"csmcount":{"counter":"adplacements:adload:start:c9a09184-bad8-4206-80a7-f9db64ba2bb1","value":1,"t":5313}},{"csmcount":{"counter":"d16g_postMessageSupported","value":1,"t":5313}},{"csmcount":{"counter":"aui:resource_count","value":11,"t":5314}},{"csmcount":{"counter":"SoftlinesDetailPageMetaAsset.duration","value":459.33000000000015,"t":5319}},{"csmcount":{"counter":"SoftlinesDetailPageMetaAsset.startTime","value":723.9300000000001,"t":5319}},{"csmcount":{"counter":"aui.duration","value":413.3750000000002,"t":5320}},{"csmcount":{"counter":"aui.startTime","value":723.04,"t":5320}},{"csmcount":{"counter":"dp:widget:dpxSize:dpxBTFSize","value":28,"t":5359}},{"csmcount":{"counter":"dp:widget:dpxSize:dpxATFSize","value":139,"t":5359}},{"csmcount":{"counter":"adplacements:adload:delayloadcallback:Detail:customer-reviews-top:Glance","value":1,"t":5360}},{"csmcount":{"counter":"adplacements:adload:delayloadcallback:c9a09184-bad8-4206-80a7-f9db64ba2bb1","value":1,"t":5360}},{"csmcount":{"counter":"adplacements:adload:iframecreated:Detail:customer-reviews-top:Glance","value":1,"t":5363}},{"csmcount":{"counter":"adplacements:adload:iframecreated:c9a09184-bad8-4206-80a7-f9db64ba2bb1","value":1,"t":5363}},{"csmcount":{"counter":"aui:preload_asks","value":1,"t":5366}},{"csmcount":{"counter":"aui:preload_asks","value":2,"t":5436}},{"csmcount":{"counter":"aui:preload_asks","value":3,"t":5436}},{"csmcount":{"counter":"aui:preload_asks","value":4,"t":5436}},{"csmcount":{"counter":"aui:preload_asks","value":5,"t":5436}},{"csmcount":{"counter":"aui:preload_asks","value":6,"t":5436}},{"csmcount":{"counter":"aui:preload_asks","value":7,"t":5436}},{"csmcount":{"counter":"aui:preload_asks","value":8,"t":5436}},{"csmcount":{"counter":"aui:preload_asks","value":9,"t":5436}},{"csmcount":{"counter":"aui:preload_asks","value":10,"t":5436}},{"csmcount":{"counter":"aui:preload_asks","value":11,"t":5436}},{"csmcount":{"counter":"aui:preload_asks","value":12,"t":5436}},{"csmcount":{"counter":"aui:preload_asks","value":13,"t":5436}},{"csmcount":{"counter":"aui:preload_asks","value":14,"t":5436}},{"csmcount":{"counter":"aui:preload_asks","value":15,"t":5436}},{"csmcount":{"counter":"aui:preload_asks","value":16,"t":5437}},{"csmcount":{"counter":"aui:preload_asks","value":17,"t":5437}},{"csmcount":{"counter":"aui:resource_count","value":12,"t":5454}},{"csmcount":{"counter":"aui:resource_count","value":13,"t":5486}},{"csmcount":{"counter":"totalImages","value":12,"t":6263}},{"cel":{"k":"mrg","n":"page module","t":6265}},{"cel":{"k":"pmd","o":"https://www.amazon.in","p":"/Ateesa-Womens-Rayon-Pleated-7058_Navy_Xx-Large/dp/B07NFDRP67/ref=sr_1_1","t":6266}},{"cel":{"w":1360,"aw":1360,"h":768,"ah":738,"cd":0,"pd":0,"t":6267,"k":"sci"}},{"cel":{"w":1055,"h":2956,"t":6267,"k":"doi"}},{"cel":{"k":"mso","n":"page module","t":6267}},{"cel":{"k":"mrg","n":"viewport module","t":6267}},{"cel":{"w":1072,"h":498,"x":0,"y":0,"t":6268,"k":"vpi"}},{"cel":{"k":"mso","n":"viewport module","t":6268}},{"cel":{"k":"mrg","n":"features module","t":6268}},{"cel":{"k":"mso","n":"features module","t":6268}},{"cel":{"k":"mrg","n":"mouse click module","t":6269}},{"cel":{"k":"mso","n":"mouse click module","t":6269}},{"cel":{"k":"mrg","n":"mouse move module","t":6269}},{"cel":{"k":"mso","n":"mouse move module","t":6269}},{"csmcount":{"counter":"adplacements:adload:iframeinitialized:Detail:ams-detail-right-v2:desktop","value":1,"t":7019}},{"csmcount":{"counter":"adplacements:adfetch:request:Detail:ams-detail-right-v2:desktop","value":1,"t":7019}},{"csmcount":{"counter":"adplacements:adload:iframeinitialized:Detail:customer-reviews-top:Glance","value":1,"t":7098}},{"csmcount":{"counter":"adplacements:adload:iframeinitialized:c9a09184-bad8-4206-80a7-f9db64ba2bb1","value":1,"t":7098}},{"csmcount":{"counter":"adplacements:adfetch:request:Detail:customer-reviews-top:Glance","value":1,"t":7099}},{"csmcount":{"counter":"adplacements:adfetch:request:c9a09184-bad8-4206-80a7-f9db64ba2bb1","value":1,"t":7099}},{"csmcount":{"counter":"adplacements:adfetch:punt:Detail:ams-detail-right-v2:desktop","value":1,"t":7129}},{"csmcount":{"counter":"adplacements:adload:unservedimpressionfired:Detail:ams-detail-right-v2:desktop","value":1,"t":7129}},{"csmcount":{"counter":"aui:resource_count","value":14,"t":7171}},{"csmcount":{"counter":"aui:resource_count","value":15,"t":7171}},{"navigation":{"quirks":0}},{"csmcount":{"counter":"nav-flyout-prime-attach-latency","value":6631,"t":7229}},{"csmcount":{"counter":"nav-flyout-primeTooltip-attach-latency","value":6635,"t":7233}},{"csmcount":{"counter":"nav-flyout-accountList-attach-latency","value":6637,"t":7235}},{"csmcount":{"counter":"nav-flyout-shopAll-attach-latency","value":6639,"t":7237}},{"csmcount":{"counter":"nav-flyout-transientFlyout-attach-latency","value":6641,"t":7239}},{"csmcount":{"counter":"nav-flyout-subnavmay18.json:subnav-sl-megamenu-1:0-attach-latency","value":6645,"t":7243}},{"csmcount":{"counter":"nav-flyout-subnavmay18.json:subnav-sl-megamenu-2:0-attach-latency","value":6647,"t":7245}},{"csmcount":{"counter":"nav-flyout-subnavmay18.json:subnav-sl-megamenu-3:0-attach-latency","value":6648,"t":7246}},{"csmcount":{"counter":"nav-flyout-subnavmay18.json:subnav-sl-megamenu-4:0-attach-latency","value":6649,"t":7247}},{"csmcount":{"counter":"nav-flyout-subnavmay18.json:subnav-sl-megamenu-5:0-attach-latency","value":6650,"t":7248}},{"csmcount":{"counter":"nav-flyout-subnavmay18.json:subnav-sl-megamenu-7:0-attach-latency","value":6651,"t":7249}},{"csmcount":{"counter":"iss-warmup:init","value":1,"t":7641}},{"csmcount":{"counter":"iss-warmup:ajax:init","value":1,"t":7644}},{"csmcount":{"counter":"iss-api-v2:init","value":1,"t":7652}},{"csmcount":{"counter":"dpTwister:numberOfChildAsins","value":6,"t":7733}},{"csmcount":{"counter":"adplacements:adload:unservedviewabilityfired_amzn:Detail:ams-detail-right-v2:desktop","value":1,"t":7808}},{"cel":{"w":1055,"h":2877,"t":7824,"k":"doi"}},{"csmcount":{"counter":":HistoryAPISupported","value":1,"t":7842}},{"csmcount":{"counter":"adplacements:adfetch:punt:Detail:customer-reviews-top:Glance","value":1,"t":7843}},{"csmcount":{"counter":"adplacements:adfetch:punt:c9a09184-bad8-4206-80a7-f9db64ba2bb1","value":1,"t":7843}},{"csmcount":{"counter":"adplacements:adload:unservedimpressionfired:Detail:customer-reviews-top:Glance","value":1,"t":7843}},{"csmcount":{"counter":"adplacements:adload:unservedimpressionfired:c9a09184-bad8-4206-80a7-f9db64ba2bb1","value":1,"t":7843}},{"csmcount":{"counter":"adplacements:adload:unservedimpressionloaded:Detail:ams-detail-right-v2:desktop","value":1,"t":7931}},{"csmcount":{"counter":"DPCFimageblockTTI","value":8668,"t":7979}},{"csmcount":{"counter":"DPCFtwisterTTI","value":1338,"t":7979}},{"csmcount":{"counter":"DPCFatcTTI","value":1342,"t":7979}},{"csmcount":{"counter":"adplacements:cache:sflibrary:cached:Detail:ams-detail-right-v2:desktop","value":1,"t":8279}},{"csmcount":{"counter":"adplacements:cache:sfhtml:cached:Detail:ams-detail-right-v2:desktop","value":1,"t":8279}},{"csmcount":{"counter":"adplacements:adload:unservedviewabilityloaded_amzn:Detail:ams-detail-right-v2:desktop","value":1,"t":8280}},{"cel":{"w":1055,"h":2399,"t":8325,"k":"doi"}},{"csmcount":{"counter":"adplacements:cache:sflibrary:cached:Detail:customer-reviews-top:Glance","value":1,"t":8608}},{"csmcount":{"counter":"adplacements:cache:sflibrary:cached:c9a09184-bad8-4206-80a7-f9db64ba2bb1","value":1,"t":8608}},{"csmcount":{"counter":"adplacements:cache:sfhtml:cached:Detail:customer-reviews-top:Glance","value":1,"t":8609}},{"csmcount":{"counter":"adplacements:cache:sfhtml:cached:c9a09184-bad8-4206-80a7-f9db64ba2bb1","value":1,"t":8609}},{"csmcount":{"counter":"adplacements:adload:unservedimpressionloaded:Detail:customer-reviews-top:Glance","value":1,"t":8610}},{"csmcount":{"counter":"adplacements:adload:unservedimpressionloaded:c9a09184-bad8-4206-80a7-f9db64ba2bb1","value":1,"t":8610}},{"csmcount":{"counter":"postbackImageSize","value":1178,"t":8872}},{"csm":{"k":"rtiming","value":"fk3_Svk_ak3_zbh_ilink*fw8_dw8_Dw8_cw8_Cw8_qw8_sw8_Sw8_e8sx_E8sx_aw8_iimg*fk3_Sw9_ak3_zc5_ilink*fk3_Swv_ak3_zcr_ilink*fyh_dyh_Dyh_cyh_Cyh_qyh_syh_Syh_e17_E17_ayh_iimg*fyi_dyi_Dyi_cyi_Cyi_qyi_syi_Syi_e3dg_E3dg_ayi_iimg*fyj_Syj_ayj_iimg*fz6_Sz6_az6_icss*fz7_Sz7_az7_icss*fz7_Sz7_az7_icss*fzz_dzz_Dzz_czz_Czz_qzz_szz_Szz_e3xk_E3xk_azz_icss*f11l_S11l_a11l_icss*f15a_d15a_D15a_c15a_C15a_q15a_s15a_S15a_e5qp_E5qp_a15a_iimg*fyl_S1d4_ayl_zej_iimg*f11z_d11z_D11z_c11z_C11z_q16t_s1c3_S299_e8ng_Eqan_a11z_z17a_iscript*f15a_S299_a15a_z13z_ilink*f127_S29a_a127_z172_iscript*fyl_S29a_ayl_z1ap_iimg*fyl_S29a_ayl_z1ap_iimg*fyl_S29a_ayl_z1ap_iimg*fyl_S29a_ayl_z1ap_iimg*f1d8_S29b_a1d8_zw2_ilink*f159_S3g5_a159_z2aw_ilink*f128_S3q1_a128_z2ns_iscript*f15g_S3ug_a15g_z2oz_iscript*f127_S4a0_a127_z37s_iscript*f15h_S4a1_a15h_z34k_iscript*f15i_S4c4_a15i_z36m_iscript*f15h_S4h2_a15h_z3bk_iscript*f4c6_d4c6_D4c6_c4c6_C4c6_q4dj_s4hy_S4mp_e5gw_Ef9r_a4c6_zai_iiframe*f4o4_d4o4_D4o4_c4o4_C4o4_q4og_s4oh_S4or_e5gw_Ef9r_a4o4_zm_iiframe*f4ce_d4ce_D4ce_c4ce_C4ce_q4jp_s4td_S53j_t769_e6u9_E6u9_a4ce_zr4_iimg*f4e0_S5ad_a4e0_zwc_iscript*f4e2_S5ad_a4e2_zwb_iscript*f4e3_S5ae_a4e3_zwa_iscript*f4ms_S5iu_a4ms_zw1_iscript*f4ot_S5j8_a4ot_zuf_iimg*f4rj_S5ms_a4rj_zv9_iscript*f4qo_S5vo_a4qo_z150_iscript*f62c_S6ev_a62c_zci_iscript*f62d_S6ev_a62d_zci_ilink*f6jv_d6jv_D6jv_c6jv_C6jv_q6jv_s6jv_S6jv_e1yq4_E1yq4_a6jv_iimg*f6jx_d6jx_D6jx_c6jx_C6jx_q6jx_s6jx_S6jx_e2kn7_E2kn7_a6jx_iimg*f6l3_d6l3_D6l3_c6l3_C6l3_q6l3_s6l3_S6l3_e2423_E2423_a6l3_iimg*f6l5_d6l5_D6l5_c6l5_C6l5_q6l5_s6l5_S6l5_e113h_E113h_a6l5_iimg*f6la_d6la_D6la_c6la_C6la_q6la_s6la_S6la_e2esh_E2esh_a6la_iimg*f6ln_d6ln_D6ln_c6ln_C6ln_q6ln_s6ln_S6ln_ea9p_Ea9p_a6ln_iimg*f6lr_d6lr_D6lr_c6lr_C6lr_q6lr_s6lr_S6lr_ebja_Ebja_a6lr_iimg*f6lt_d6lt_D6lt_c6lt_C6lt_q6lt_s6lt_S6lt_e144i_E144i_a6lt_iimg*f6lx_S6lx_a6lx_iimg*f6m1_d6m1_D6m1_c6m1_C6m1_q6m1_s6m1_S6m1_e2u4y_E2u4y_a6m1_iimg*f6m6_d6m6_D6m6_c6m6_C6m6_q6m6_s6m6_S6m6_e11l8_E11l8_a6m6_iimg*f6ma_d6ma_D6ma_c6ma_C6ma_q6ma_s6ma_S6ma_e2cqe_E2cqe_a6ma_iimg*f6o7_d6o7_D6o7_c6o7_C6o7_q6o7_s6o7_S6o7_e10u_E10u_a6o7_iimg*f6og_S6og_a6og_icss*f6i0_S6rz_a6i0_z9z_ibeacon*f636_d636_D636_c636_C636_q691_s6tv_S6x2_t29l_e1np_E6l9_a636_ztw_ixmlhttprequest*f64z_d64z_D64z_c64z_C64z_q691_s6zo_S735_t29d_e1np_E6l9_a64z_zy5_ixmlhttprequest*f6mc_d6mc_D6mc_c6mc_C6mc_q6rz_s74d_S767_tjmm_ej9v_Ej9v_a6mc_zjv_iimg*f6ou_S7dd_a6ou_zoi_iimg~pm"}},{"csmcount":{"counter":"aui:aui-supported-rupee","value":1,"t":9029}},{"csmcount":{"counter":"NavJS:TimeUpTo:ATF:desktop","value":95,"t":9031}},{"csmcount":{"counter":"NavJS:TimeUpTo:CF:desktop","value":97,"t":9033}},{"csmcount":{"counter":"NavJS:TimeUpTo:PageLoaded:desktop","value":100,"t":9036}},{"csmcount":{"counter":"NavJS:TotalCallCount:PageLoaded:desktop","value":1132,"t":9036}},{"csmcount":{"counter":"Nav:CSM:Latency:network:D:desktop","value":587,"t":9036}},{"csmcount":{"counter":"Nav:CSM:Latency:navFirstPaint:D:desktop","value":687,"t":9036}},{"csmcount":{"counter":"Nav:CSM:Latency:NavStart:C:desktop","value":585,"t":9036}},{"csmcount":{"counter":"Nav:CSM:Latency:PreNav:D:desktop","value":2,"t":9036}},{"csmcount":{"counter":"Nav:CSM:Latency:PreNav:C:desktop","value":587,"t":9036}},{"csmcount":{"counter":"Nav:CSM:Latency:UpNav:D:desktop","value":0,"t":9036}},{"csmcount":{"counter":"Nav:CSM:Latency:UpNav:C:desktop","value":587,"t":9036}},{"csmcount":{"counter":"Nav:CSM:Latency:HamburgerMenuIcon:D:desktop","value":1,"t":9037}},{"csmcount":{"counter":"Nav:CSM:Latency:HamburgerMenuIcon:C:desktop","value":588,"t":9037}},{"csmcount":{"counter":"Nav:CSM:Latency:Logo:D:desktop","value":0,"t":9037}},{"csmcount":{"counter":"Nav:CSM:Latency:Logo:C:desktop","value":588,"t":9037}},{"csmcount":{"counter":"Nav:CSM:Latency:SWM:D:desktop","value":1,"t":9037}},{"csmcount":{"counter":"Nav:CSM:Latency:SWM:C:desktop","value":589,"t":9037}},{"csmcount":{"counter":"Nav:CSM:Latency:Search:D:desktop","value":2,"t":9037}},{"csmcount":{"counter":"Nav:CSM:Latency:Search:C:desktop","value":591,"t":9037}},{"csmcount":{"counter":"Nav:CSM:Latency:Tools:D:desktop","value":1,"t":9037}},{"csmcount":{"counter":"Nav:CSM:Latency:Tools:C:desktop","value":592,"t":9037}},{"csmcount":{"counter":"Nav:CSM:Latency:CrossShop:D:desktop","value":0,"t":9037}},{"csmcount":{"counter":"Nav:CSM:Latency:CrossShop:C:desktop","value":592,"t":9037}},{"csmcount":{"counter":"Nav:CSM:Latency:Subnav:D:desktop","value":1,"t":9037}},{"csmcount":{"counter":"Nav:CSM:Latency:Subnav:C:desktop","value":593,"t":9037}},{"csmcount":{"counter":"Nav:CSM:Latency:NavBar:D:desktop","value":6,"t":9037}},{"csmcount":{"counter":"Nav:CSM:Latency:NavBar:C:desktop","value":593,"t":9037}},{"csmcount":{"counter":"Nav:CSM:Latency:PostNav:D:desktop","value":5,"t":9037}},{"csmcount":{"counter":"Nav:CSM:Latency:PostNav:C:desktop","value":598,"t":9037}},{"csmcount":{"counter":"aui:sw:browser:register:success","value":1,"t":9042}},{"csmcount":{"counter":"iss-warmup:ajax:success","value":1,"t":9050}},{"cel":{"k":"hrt","t":9267}},{"cel":{"k":"mmm1","e":[{"x":107,"y":77,"t":7028},{"x":115,"y":62,"t":7142},{"x":116,"y":58,"t":7260},{"x":132,"y":11,"t":7673},{"x":134,"y":9,"t":7824},{"x":136,"y":7,"t":7937},{"x":145,"y":0,"t":8119}],"min":60,"max":60,"avg":60}},{"csmcount":{"counter":"postbackImageSize","value":185,"t":9469}},{"cel":{"n":"Navigation-desktop-navbar","w":1055,"h":149,"d":0,"x":0,"y":0,"t":9052,"k":"ewi","cl":"nav-sprite-v1 celwidget nav-bluebeacon nav-packard-glow nav-a11y-t1"}},{"cel":{"n":"adplacements:Detail:ams-detail-right-v2:desktop","w":0,"h":0,"d":1,"x":0,"y":0,"t":9052,"k":"ewi","cl":"copilot-secure-display celwidget  text/x-dacx-safeframe"}},{"cel":{"n":"ask-swdp-desktop","w":1039,"h":135,"d":0,"x":8,"y":605,"t":9052,"k":"ewi","cl":"celwidget"}},{"cel":{"n":"cf-ask-cel","w":1039,"h":260,"d":0,"x":8,"y":1098.5,"t":9052,"k":"ewi","cl":"celwidget"}},{"cel":{"n":"ask-btf-desktop","w":1039,"h":260,"d":0,"x":8,"y":1098.5,"t":9052,"k":"ewi","cl":"celwidget"}},{"cel":{"n":"adplacements:Detail:customer-reviews-top:Glance","w":0,"h":0,"d":1,"x":0,"y":0,"t":9052,"k":"ewi","cl":"copilot-secure-display celwidget  text/x-dacx-safeframe"}},{"cel":{"n":"nav_sitewide_msg","w":400,"h":39,"d":0,"x":655,"y":9,"t":9052,"k":"ewi","cl":""}},{"cel":{"n":"nav_sitewide_msg","w":0,"h":0,"d":1,"x":0,"y":0,"t":9052,"k":"ewi","cl":""}},{"cel":{"n":"wayfinding-breadcrumbs_feature_div","w":1023,"h":14,"d":0,"x":16,"y":157,"t":9052,"k":"ewi","cl":"a-subheader a-breadcrumb feature"}},{"cel":{"n":"companyCompliancePolicies_feature_div","w":1039,"h":0,"d":0,"x":8,"y":181,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"instantOrderUpdate_feature_div","w":1039,"h":0,"d":0,"x":8,"y":181,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"cerberus_feature_div","w":1039,"h":0,"d":0,"x":8,"y":181,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"prsubswidget_feature_div","w":1039,"h":0,"d":0,"x":8,"y":181,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"imageBlock_feature_div","w":331.9375,"h":410,"d":0,"x":8,"y":181,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"titleBlock","w":412.515625,"h":65,"d":0,"x":361.8125,"y":181,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"bylineInfo_feature_div","w":412.515625,"h":19,"d":0,"x":361.8125,"y":181,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"title_feature_div","w":412.515625,"h":27,"d":0,"x":361.8125,"y":200,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"qpeTitleTag_feature_div","w":412.515625,"h":0,"d":0,"x":361.8125,"y":227,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"cmrsSummary_feature_div","w":0,"h":0,"d":1,"x":361.8125,"y":241,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"averageCustomerReviews_feature_div","w":177.875,"h":19,"d":0,"x":364.8125,"y":227,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"ask_feature_div","w":0,"h":0,"d":1,"x":545.6875,"y":241,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"primeExclusiveBadge_feature_div","w":412.515625,"h":0,"d":0,"x":361.8125,"y":246,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"acBadge_feature_div","w":412.515625,"h":0,"d":0,"x":361.8125,"y":246,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"zeitgeistBadge_feature_div","w":412.515625,"h":0,"d":0,"x":361.8125,"y":246,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"desktop_unifiedPrice","w":412.515625,"h":40,"d":0,"x":361.8125,"y":261,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"unifiedPrice_feature_div","w":412.515625,"h":40,"d":0,"x":361.8125,"y":261,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"easyShipMessaging_feature_div","w":412.515625,"h":0,"d":0,"x":361.8125,"y":311,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"estimatedExtraTax_feature_div","w":412.515625,"h":0,"d":0,"x":361.8125,"y":311,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"promiseBasedBadge_feature_div","w":412.515625,"h":0,"d":0,"x":361.8125,"y":311,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"discriminatedPrimePricing_feature_div","w":412.515625,"h":0,"d":0,"x":361.8125,"y":311,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"pmpux_feature_div","w":412.515625,"h":0,"d":0,"x":361.8125,"y":311,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"cashOnDelivery_feature_div","w":412.515625,"h":0,"d":0,"x":361.8125,"y":311,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"applicablePromotionList_feature_div","w":412.515625,"h":0,"d":0,"x":361.8125,"y":311,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"inemi_feature_div","w":412.515625,"h":0,"d":0,"x":361.8125,"y":311,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"soppATF_feature_div","w":412.515625,"h":0,"d":0,"x":361.8125,"y":311,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"iconfarmv2_feature_div","w":412.515625,"h":0,"d":0,"x":361.8125,"y":311,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"alternativeOfferEligibilityMessaging_feature_div","w":412.515625,"h":0,"d":0,"x":361.8125,"y":311,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"availability_feature_div","w":412.515625,"h":0,"d":0,"x":361.8125,"y":311,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"globalStoreBadgePopover_feature_div","w":412.515625,"h":0,"d":0,"x":361.8125,"y":311,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"customConditionInline_feature_div","w":412.515625,"h":0,"d":0,"x":361.8125,"y":311,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"outOfCountry_feature_div","w":412.515625,"h":0,"d":0,"x":361.8125,"y":311,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"holidayDeliveryMessage_feature_div","w":412.515625,"h":0,"d":0,"x":361.8125,"y":311,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"dynamicDeliveryMessage_feature_div","w":412.515625,"h":0,"d":0,"x":361.8125,"y":311,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"shipsFromSoldBy_feature_div","w":412.515625,"h":0,"d":0,"x":361.8125,"y":311,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"productSupportAndReturnPolicy_feature_div","w":412.515625,"h":0,"d":0,"x":361.8125,"y":311,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"twister_feature_div","w":412.515625,"h":54,"d":0,"x":361.8125,"y":311,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"clickToContact_feature_div","w":412.515625,"h":0,"d":0,"x":361.8125,"y":379,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"valuePick_feature_div","w":412.515625,"h":0,"d":0,"x":361.8125,"y":379,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"featurebullets_feature_div","w":412.515625,"h":133,"d":0,"x":361.8125,"y":379,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"andonCord_feature_div","w":412.515625,"h":0,"d":0,"x":361.8125,"y":530,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"edpIngress_feature_div","w":412.515625,"h":0,"d":0,"x":361.8125,"y":530,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"heroQuickPromo_feature_div","w":412.515625,"h":0,"d":0,"x":361.8125,"y":530,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"recommendations_feature_div","w":412.515625,"h":0,"d":0,"x":361.8125,"y":530,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"newerVersion_feature_div","w":412.515625,"h":0,"d":0,"x":361.8125,"y":530,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"productAlert_feature_div","w":412.515625,"h":0,"d":0,"x":361.8125,"y":530,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"vendorPoweredCoupon_feature_div","w":412.515625,"h":0,"d":0,"x":361.8125,"y":530,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"tellAFriendBox_feature_div","w":244,"h":24,"d":0,"x":803,"y":181,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"trustMessage_feature_div","w":244,"h":0,"d":0,"x":803,"y":215,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"desktop_buybox","w":244,"h":195,"d":0,"x":803,"y":215,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"partialStateBuyBox_feature_div","w":244,"h":195,"d":0,"x":803,"y":215,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"moreBuyingChoices_feature_div","w":244,"h":0,"d":0,"x":803,"y":410,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"skyCitySoftMerge_feature_div","w":244,"h":0,"d":0,"x":803,"y":410,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"amsDetailRight_feature_div","w":244,"h":0,"d":0,"x":803,"y":410,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"servicesInterstitial_feature_div","w":244,"h":0,"d":0,"x":803,"y":410,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"twisterJsInitializer_feature_div","w":1039,"h":0,"d":0,"x":8,"y":605,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"legal_feature_div","w":1039,"h":0,"d":0,"x":8,"y":766,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"dp_productDescription_container_div","w":1039,"h":93.5,"d":0,"x":8,"y":766,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"productDescription_feature_div","w":1039,"h":93.5,"d":0,"x":8,"y":766,"t":9052,"k":"ewi","cl":"a-row feature"}},{"cel":{"n":"importantInformation_feature_div","w":1039,"h":0,"d":0,"x":8,"y":885.5,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"sponsoredProducts2_feature_div","w":1039,"h":0,"d":0,"x":8,"y":1098.5,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"imageBlockVariations_feature_div","w":1039,"h":0,"d":0,"x":8,"y":1742.5,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"ajaxBlockComponents_feature_div","w":1039,"h":0,"d":0,"x":8,"y":1742.5,"t":9052,"k":"ewi","cl":"feature"}},{"cel":{"n":"detail-ilm_div","w":1055,"h":0,"d":0,"x":0,"y":157,"t":9052,"k":"ewi","cl":""}},{"csmcount":{"counter":"aui:resource_count","value":16,"t":9746}},{"cel":{"k":"hrt","t":10484}},{"csm":{"k":"chk","f":1,"l":{"csmcount":143,"cel":92,"navigation":1,"csm":2},"s":"full"}},{"csmcount":{"counter":"foresterPayloadSize","t":0,"value":25313}}]}
+--Response 
+HTTP/1.1 204
+access-control-allow-origin: *
+date: Wed, 17 Jul 2019 18:25:38 GMT
+x-amzn-requestid: dcbfd6b5-ebde-479d-ac10-d33f08432359
+cneonction: close
+access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+status: 204
+----
+--Request 
+GET https://images-na.ssl-images-amazon.com/images/I/41fMrDoAFbL._RC%7C71GkUD1temL.js,61u3dpzHy+L.js,41W9ohA0e+L.js,11vrNkbdcvL.js,21SHd9g2LAL.js,311T8Q1zWKL.js,51+klsvwgqL.js,31IEOtBPX+L.js_.js?AUIClients/AmazonNavigationDesktopMetaAsset#desktop
+Host: images-na.ssl-images-amazon.com
+Origin: https://www.amazon.in
+Accept: */*
+Referer: https://www.amazon.in/Ateesa-Womens-Rayon-Pleated-7058_Navy_Xx-Large/dp/B07NFDRP67/ref=sr_1_1?qid=1563387908&s=apparel&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+----
+--Response 
+HTTP/1.1 200
+date: Sat, 22 Jun 2019 05:37:05 GMT
+x-amz-cf-pop: ORD50-C1
+server: Server
+expires: Wed, 15 Jun 2039 05:38:39 GMT
+x-amz-ir-id: 1166da10-d890-476a-a64e-a677fb0e886a
+content-encoding: gzip
+via: 1.1 50fe1d71b205e020c992be911ed0d44c.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Thu, 13 Jun 2019 00:39:56 GMT
+content-type: application/x-javascript; charset=utf-8
+timing-allow-origin: https://www.amazon.com
+x-cache: Hit from cloudfront
+cache-control: max-age=630720000,public
+age: 2378738
+x-amz-cf-id: 2vKDctk4oMqttb9Ow_YaCcrgZBljMeqEiU5sxLp7nHxd8_fkJykbKg==
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/I/61ET%2BPmLUUL._RC%7C417qBNXt1HL.css,31j6BOPjmzL.css,01ekIXTj5kL.css,11UGK4+GCNL.css,01KvCqKMBgL.css,21ckusqmu6L.css,21LLdt69ldL.css,21jNhNxHFBL.css,31JMnREMjZL.css,01TCV-xmeZL.css,01ZGRKhIG-L.css,31MkQHV3gaL.css,01uHoBLsGfL.css,314gb2LkLML.css,01FtAuFRr3L.css,01RRH0yFa4L.css,01bkkYjxP7L.css,01NW8VTUeVL.css,019M+d36JfL.css,011uHgmxBfL.css,01FlII1u-ZL.css,219oCRGl-sL.css,212hS9k0-iL.css,312UeeukJML.css,21cgGInnQ9L.css,01mju9O84EL.css,210LbiKyCML.css,31SN3jkqdEL.css,21Wf53xZ5jL.css_.css?AUIClients/MediaDetailPageMetaAsset#desktop.in.122952-T1.113788-C.103061-T1.131900-C.94145-T1.215632-C.109378-T1
+Host: images-eu.ssl-images-amazon.com
+Origin: https://www.amazon.in
+Accept: text/css,*/*;q=0.1
+Referer: https://www.amazon.in/Ateesa-Womens-Rayon-Pleated-7058_Navy_Xx-Large/dp/B07NFDRP67/ref=sr_1_1?qid=1563387908&s=apparel&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+----
+--Response 
+HTTP/1.1 200
+date: Thu, 20 Jun 2019 21:30:02 GMT
+x-amz-cf-pop: ORD50-C1
+server: Server
+expires: Wed, 15 Jun 2039 21:28:46 GMT
+x-amz-ir-id: 4aa34532-049e-4116-bad1-33a57f7b782c
+content-encoding: gzip
+via: 1.1 fc9898e8f62308e3f28fb29079b65ebb.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Thu, 11 Apr 2019 00:41:01 GMT
+content-type: text/css; charset=utf-8
+timing-allow-origin: https://www.amazon.com
+x-cache: Hit from cloudfront
+cache-control: max-age=630720000,public
+age: 2321764
+x-amz-cf-id: Sd7uSHSvtr0RYx72lTtU8XnvHQwxqnGdUw2R0d9QUmIqV1zSZm_ulQ==
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/I/31SN3jkqdEL.css?AUIClients/DetailPageSnSAssets#215632-C.109378-T1
+Host: images-eu.ssl-images-amazon.com
+Origin: https://www.amazon.in
+Accept: text/css,*/*;q=0.1
+Referer: https://www.amazon.in/Ateesa-Womens-Rayon-Pleated-7058_Navy_Xx-Large/dp/B07NFDRP67/ref=sr_1_1?qid=1563387908&s=apparel&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+----
+--Response 
+HTTP/1.1 200
+date: Thu, 20 Jun 2019 01:56:36 GMT
+x-amz-cf-pop: ORD50-C1
+server: Server
+expires: Tue, 14 Jun 2039 01:22:58 GMT
+x-amz-ir-id: 7f26dc01-d8bc-41f1-9929-568ff5938e07
+content-encoding: gzip
+via: 1.1 fc9898e8f62308e3f28fb29079b65ebb.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Mon, 17 Jun 2019 19:14:33 GMT
+content-type: text/css; charset=utf-8
+timing-allow-origin: https://www.amazon.com
+x-cache: Hit from cloudfront
+cache-control: max-age=630720000,public
+age: 2480467
+x-amz-cf-id: fdxSDC80lfQbHQhPWKMuKt_a3z--nCHHPCjFmrQZMcmldg69OD_z2Q==
+status: 200
+----
+--Request 
+GET https://googleads.g.doubleclick.net/pagead/viewthroughconversion/984527532/?value=0&label=r_58CJXm0gIQw9iz3gM&guid=ON&script=0&data=ecomm_pagetype%3DProductDetail%3Becomm_prodid%3DB07PY95354%3Becomm_price%3D%3Becomm_pcat%3DClothing%20%26%20Accessories%3Becomm_pname%3DAteesa%20by%20FBB%20Women%27s%20Rayon%20Pleated%20Kurta%3Bsearchterm%3D%3BCURRENT_TIME%3D2019-07-17T18%3A25%3A38.978Z%3BSignedIn%3DN
+Host: googleads.g.doubleclick.net
+Cookie: IDE=AHWqTUl-gv4M0HI9kF8VBa-Wqs2pLxSdlrQ5B2lEJR0ZEGPDFunjUaflpjwFZH-U
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://www.amazon.in/Ateesa-Womens-Rayon-Pleated-7058_Navy_Xx-Large/dp/B07NFDRP67/ref=sr_1_1?qid=1563387908&s=apparel&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+----
+--Response 
+HTTP/1.1 302
+date: Wed, 17 Jul 2019 18:25:39 GMT
+content-length: 42
+server: cafe
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+p3p: policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"
+pragma: no-cache
+x-content-type-options: nosniff
+x-xss-protection: 0
+content-type: image/gif
+location: https://www.google.com/pagead/1p-user-list/984527532/?value=0&label=r_58CJXm0gIQw9iz3gM&guid=ON&script=0&data=ecomm_pagetype%3DProductDetail%3Becomm_prodid%3DB07PY95354%3Becomm_price%3D%3Becomm_pcat%3DClothing%20%26%20Accessories%3Becomm_pname%3DAteesa%20by%20FBB%20Women%27s%20Rayon%20Pleated%20Kurta%3Bsearchterm%3D%3BCURRENT_TIME%3D2019-07-17T18%3A25%3A38.978Z%3BSignedIn%3DN&cdct=2&is_vtc=1&random=1983521803
+timing-allow-origin: *
+alt-svc: quic=\"googleads.g.doubleclick.net:443\"; ma=2592000; v=\"46,43,39\",quic=\":443\"; ma=2592000; v=\"46,43,39\"
+cache-control: no-cache, must-revalidate
+status: 302
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/x-locale/common/buy-buttons/review-1-click-order._CB138348768_.gif
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/Ateesa-Womens-Rayon-Pleated-7058_Navy_Xx-Large/dp/B07NFDRP67/ref=sr_1_1?qid=1563387908&s=apparel&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Tue, 25 Jun 2019 10:48:50 GMT
+x-amz-cf-pop: ORD50-C1
+content-length: 2502
+server: Server
+expires: Thu, 16 Jun 2039 05:20:05 GMT
+x-amz-ir-id: b5442157-bbbd-4050-b874-08c8cb1cd120
+via: 1.1 6ca6a5c7e4ef3511c3ea6d058e2252f9.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Wed, 02 Jun 2010 21:58:48 GMT
+content-type: image/gif
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from cloudfront
+cache-control: max-age=630720000,public
+age: 2293483
+x-amz-cf-id: UUxhPpXzTekQH8cJiKsD68YZbrSizmxDuBXYhAlG2DFP3xc5g2aWhg==
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/x-locale/common/buttons/continue-shopping._CB138360611_.gif
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/Ateesa-Womens-Rayon-Pleated-7058_Navy_Xx-Large/dp/B07NFDRP67/ref=sr_1_1?qid=1563387908&s=apparel&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Sat, 29 Jun 2019 07:07:16 GMT
+x-amz-cf-pop: ORD50-C1
+content-length: 1817
+server: Server
+expires: Thu, 23 Jun 2039 06:18:47 GMT
+x-amz-ir-id: e0c80f29-6916-4053-a80b-2c59c63a6fbe
+via: 1.1 6ca6a5c7e4ef3511c3ea6d058e2252f9.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Wed, 02 Jun 2010 20:15:59 GMT
+content-type: image/gif
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from cloudfront
+cache-control: max-age=630720000,public
+age: 1685161
+x-amz-cf-id: 5AqLAoZcfpjQSh2nlfqLORoYuHQ4FouPzuDxBX_E34g5ntwlK-54Og==
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/x-locale/common/buy-buttons/thank-you-elbow._CB138348794_.gif
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/Ateesa-Womens-Rayon-Pleated-7058_Navy_Xx-Large/dp/B07NFDRP67/ref=sr_1_1?qid=1563387908&s=apparel&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 12 Jun 2019 07:30:05 GMT
+x-amz-cf-pop: ORD50-C1
+content-length: 92
+server: Server
+expires: Tue, 07 Jun 2039 01:57:19 GMT
+x-amz-ir-id: c1a9b778-89c4-4af0-b903-f84947f075c8
+via: 1.1 6ca6a5c7e4ef3511c3ea6d058e2252f9.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Wed, 02 Jun 2010 23:02:07 GMT
+content-type: image/gif
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from cloudfront
+cache-control: max-age=630720000,public
+age: 3083249
+x-amz-cf-id: ApP4Gd7bKFHbWpll3JczmPx4yf62xVa_kl-t6oIibYOP51BKfhwxMg==
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/x-locale/communities/social/snwicons_v2._CB402380004_.png
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/Ateesa-Womens-Rayon-Pleated-7058_Navy_Xx-Large/dp/B07NFDRP67/ref=sr_1_1?qid=1563387908&s=apparel&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Sun, 02 Jun 2019 07:08:36 GMT
+x-amz-cf-pop: ORD50-C1
+content-length: 3564
+server: Server
+expires: Tue, 24 May 2039 01:52:16 GMT
+x-amz-ir-id: 0c2daf98-7837-48a1-8f6e-ce50f007fc4b
+via: 1.1 fc9898e8f62308e3f28fb29079b65ebb.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Wed, 12 Sep 2012 12:00:28 GMT
+content-type: image/png
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from cloudfront
+cache-control: max-age=630720000,public
+age: 4293104
+x-amz-cf-id: VvgSahXv5twBw6tAzSwsxr1ozySsX9tbmJ5HMoZ0YgCy9zV_CJv8lw==
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/checkout/assets/carrot._CB138350193_.gif
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/Ateesa-Womens-Rayon-Pleated-7058_Navy_Xx-Large/dp/B07NFDRP67/ref=sr_1_1?qid=1563387908&s=apparel&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Tue, 20 Nov 2018 18:44:31 GMT
+x-amz-cf-pop: ORD50-C1
+content-length: 76
+server: Server
+expires: Sun, 14 Nov 2038 02:08:45 GMT
+x-amz-ir-id: 948153a6-fc95-4b17-b529-3d26c442d41d
+via: 1.1 6ca6a5c7e4ef3511c3ea6d058e2252f9.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Wed, 26 May 2010 00:33:08 GMT
+content-type: image/gif
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from cloudfront
+cache-control: max-age=630720000,public
+age: 20794563
+x-amz-cf-id: z7KmA5HLuQN42EUkmYSzMel8cuFmXIPdj69uGzakn8XpcEMt3deF4Q==
+status: 200
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/G/31/checkout/thank-you-page/assets/yellow-rounded-corner-sprite._CB166613107_.gif
+Host: images-eu.ssl-images-amazon.com
+Referer: https://www.amazon.in/Ateesa-Womens-Rayon-Pleated-7058_Navy_Xx-Large/dp/B07NFDRP67/ref=sr_1_1?qid=1563387908&s=apparel&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 24 Jun 2019 18:21:35 GMT
+x-amz-cf-pop: ORD50-C1
+content-length: 137
+server: Server
+expires: Mon, 13 Jun 2039 19:07:01 GMT
+x-amz-ir-id: 8ba845f8-de4d-422d-b94e-8faaa1ba6828
+via: 1.1 6ca6a5c7e4ef3511c3ea6d058e2252f9.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Wed, 02 Jun 2010 19:38:39 GMT
+content-type: image/gif
+timing-allow-origin: https://www.amazon.in
+x-cache: Hit from cloudfront
+cache-control: max-age=630720000,public
+age: 2503067
+x-amz-cf-id: DHhkxHuQ-tr1SAexu1QntOD8TNj3D9UENbv9crR5DEv0ysJFGBlTwQ==
+status: 200
+----
+--Request 
+GET https://a1d2db8c469a7b5521ec3c1c33ce01bdb.profile.sfo9.cloudfront.net/test.png
+Host: a1d2db8c469a7b5521ec3c1c33ce01bdb.profile.sfo9.cloudfront.net
+Referer: https://www.amazon.in/Ateesa-Womens-Rayon-Pleated-7058_Navy_Xx-Large/dp/B07NFDRP67/ref=sr_1_1?qid=1563387908&s=apparel&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 200 OK
+X-Cache: RoutingProfileExp from cloudfront
+Cache-Control: max-age=0
+Server: CloudFront
+Connection: keep-alive
+X-Amz-Cf-Id: CfjcnG38dsNMGOtV2FS7dUESb0QkxULOcNOJaQ5rqyolg6Ct1zAhGw==
+Expires: Wed, 17 Jul 2019 18:25:42 GMT
+Content-Length: 58
+Date: Wed, 17 Jul 2019 18:25:42 GMT
+Content-Type: text/plain
+Via: 1.1 8008015354a3ca72f56c382a1d1cfe9f.cloudfront.net (CloudFront)
+----
+--Request 
+GET https://www.google.com/pagead/1p-user-list/984527532/?value=0&label=r_58CJXm0gIQw9iz3gM&guid=ON&script=0&data=ecomm_pagetype%3DProductDetail%3Becomm_prodid%3DB07PY95354%3Becomm_price%3D%3Becomm_pcat%3DClothing%20%26%20Accessories%3Becomm_pname%3DAteesa%20by%20FBB%20Women%27s%20Rayon%20Pleated%20Kurta%3Bsearchterm%3D%3BCURRENT_TIME%3D2019-07-17T18%3A25%3A38.978Z%3BSignedIn%3DN&cdct=2&is_vtc=1&random=1983521803
+Host: www.google.com
+Referer: https://www.amazon.in/Ateesa-Womens-Rayon-Pleated-7058_Navy_Xx-Large/dp/B07NFDRP67/ref=sr_1_1?qid=1563387908&s=apparel&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+----
+--Response 
+HTTP/1.1 302
+date: Wed, 17 Jul 2019 18:25:40 GMT
+content-length: 42
+server: cafe
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+p3p: policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"
+pragma: no-cache
+content-security-policy: script-src 'none'; object-src 'none'
+x-content-type-options: nosniff
+x-xss-protection: 0
+content-type: image/gif
+location: https://www.google.co.in/pagead/1p-user-list/984527532/?value=0&label=r_58CJXm0gIQw9iz3gM&guid=ON&script=0&data=ecomm_pagetype%3DProductDetail%3Becomm_prodid%3DB07PY95354%3Becomm_price%3D%3Becomm_pcat%3DClothing%20%26%20Accessories%3Becomm_pname%3DAteesa%20by%20FBB%20Women%27s%20Rayon%20Pleated%20Kurta%3Bsearchterm%3D%3BCURRENT_TIME%3D2019-07-17T18%3A25%3A38.978Z%3BSignedIn%3DN&cdct=2&is_vtc=1&random=1983521803&ipr=y
+timing-allow-origin: *
+alt-svc: quic=\":443\"; ma=2592000; v=\"46,43,39\"
+cache-control: no-cache, no-store, must-revalidate
+status: 302
+----
+--Request 
+GET https://images-eu.ssl-images-amazon.com/images/I/61ET%2BPmLUUL._RC%7C119njhJT7LL.css,41j52RQ1GmL.css,210LbiKyCML.css,31j6BOPjmzL.css,01ekIXTj5kL.css,11UGK4+GCNL.css,01KvCqKMBgL.css,21ckusqmu6L.css,01N8OOpUZPL.css,41M1QoNbYzL.css,21ByukFKG4L.css,01f0Gtj6a9L.css,31q5EHoIcZL.css,31JMnREMjZL.css,01TCV-xmeZL.css,01ZGRKhIG-L.css,31MkQHV3gaL.css,01uHoBLsGfL.css,314gb2LkLML.css,01FtAuFRr3L.css,01QLwk8mu6L.css,014Z+MbaRaL.css,01RRH0yFa4L.css,01bkkYjxP7L.css,018mGORJ7tL.css,01NW8VTUeVL.css,019M+d36JfL.css,011uHgmxBfL.css,01mju9O84EL.css,01wL78bNyyL.css,01MLzcotflL.css,31SN3jkqdEL.css,21Wf53xZ5jL.css,01OhA16ND1L.css,01gtuC0zSuL.css,01qwEWNuxuL.css,21qxDmhZV3L.css,11XXguyjjZL.css,31WlxajeYrL.css,01clde05tlL.css,11Z7S+lK47L.css,01AT3O0C6cL.css_.css?AUIClients/SoftlinesDetailPageMetaAsset#desktop.in.113788-C.162525-T1.166419-T1.203659-T1.103061-T1.184424-T1.131900-C.94145-T1.144201-T1.126331-C.202285-C.215632-C.109378-T1.181561-T1
+Host: images-eu.ssl-images-amazon.com
+Origin: https://www.amazon.in
+Accept: text/css,*/*;q=0.1
+Referer: https://www.amazon.in/Ateesa-Womens-Rayon-Pleated-7058_Navy_Xx-Large/dp/B07NFDRP67/ref=sr_1_1?qid=1563387908&s=apparel&sr=1-1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.24 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+----
+--Response 
+HTTP/1.1 200
+date: Thu, 20 Jun 2019 21:30:00 GMT
+x-amz-cf-pop: ORD50-C1
+server: Server
+expires: Wed, 15 Jun 2039 21:29:35 GMT
+x-amz-ir-id: 75da700e-b0c8-4052-8348-09c6bf35fdce
+content-encoding: gzip
+via: 1.1 6ca6a5c7e4ef3511c3ea6d058e2252f9.cloudfront.net (CloudFront)
+access-control-allow-origin: *
+last-modified: Thu, 11 Apr 2019 00:41:01 GMT
+content-type: text/css; charset=utf-8
+timing-allow-origin: https://www.amazon.com
+x-cache: Hit from cloudfront
+cache-control: max-age=630720000,public
+age: 2321701
+x-amz-cf-id: uAPZt0MaXLFFfjHIis3g1fORpbvMdVUSGcKv3N0f0fP0ZdAiV1qmqQ==
+status: 200
+----
+

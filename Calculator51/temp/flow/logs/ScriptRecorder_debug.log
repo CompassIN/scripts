@@ -1,0 +1,13 @@
+5/24 9:56:7|ScriptPcapParser|generateScript|Method Called
+5/24 9:56:7|ScriptPcapParser|stopRecording|Method Called.
+5/24 9:56:7|ScriptPcapParser|onSessionStart|Method called. Script Name = Calculator51
+5/24 9:56:7|ScriptPcapParser|onSessionStart|Work Path = C:\Users\rajdeep.soren\Desktop\recorder\
+5/24 9:56:7|ScriptPcapParser|onSessionStart|Setting the wdir = C:\Users\rajdeep.soren\Desktop\recorder\scripts/default/default/Calculator51
+5/24 9:56:7|ScriptPcapParser|onSessionStart|Creating the directory for the script = C:\Users\rajdeep.soren\Desktop\recorder\scripts/default/default/Calculator51
+5/24 9:56:7|ScriptPcapParser|onSessionStart|Creating the file
+5/24 9:56:7|ScriptPcapParser|onSessionStart|Creating FileOutputStream for all files
+5/24 9:56:7|ScriptPcapParser|onSessionStart|Creating PrintStream for all files
+5/24 9:56:7|ScriptPcapParser|putHeaders|Method Started
+5/24 9:56:7|ScriptPcapParser|onSessionStart|Setting the wdir = C:\Users\rajdeep.soren\Desktop\recorder\scripts/default/default/Calculator51/dump/flow
+5/24 9:56:11|ScriptPcapParser|onSessionEnd|Method called.
+5/24 9:56:11|ScriptPcapParser|closeStrem|Method called.

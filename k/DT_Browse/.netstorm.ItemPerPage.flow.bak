@@ -1,0 +1,32 @@
+/*-----------------------------------------------------------------------------
+    Name: ItemPerPage
+    Recorded By: abhishek
+    Date of recording: 02/18/2017 12:56:02
+    Flow details:
+    Build details: 4.1.6 (build# 53)
+    Modification History:
+-----------------------------------------------------------------------------*/
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "ns_string.h"
+#include "Util.c"
+void ItemPerPage()
+{
+    if(ProdCount >= 25){                               //Condition to Check 72ItemsPerPage is available or not
+    ns_start_transaction("COM_Browse_72ItemsPerPage");
+	ns_web_url ("BrowseItemsperPage_1_2_1",
+        "URL=http://www.jcpenney.com/{ItemsPerPageUrlSP}&suppressHeaderFooter=true",
+        //"URL=http://www.jcpenney.com/g/mens-shirts/N-bwo3yD1nohp5?productGridView=large&suppressHeaderFooter=true",
+        "HEADER=X-Requested-With:XMLHttpRequest",
+        "HEADER=Accept-Language:en-us",
+        "COOKIE=AKJCP;mbox;RES_TRACKINGID;ResonanceSegment;RES_SESSIONID;AMCVS_CEEB350F5746CDE97F000101%40AdobeOrg;AMCV_CEEB350F5746CDE97F000101%40AdobeOrg;c17;v53;DPJSESSIONID;shipToCountry;shipToCurrencyCode;DPUserTracking;DPInstance;userLatLong;pageTemplate;DPLastAccessedTime;DPCluster;DPSessionTimeOutInterval;DP_USER_AUTH_STATUS;DP_SFL_PPIDS;DP_USER_FAVCOUNT;pn;s_cc;cmTPSet;TLTSID;DPIdentifier;_br_uid_2;fsr.s;LPCKEY-58507821;CavSID;CavLTS;CavPI;CavSF;LPVID;LPSID-58507821",
+        "PreSnapshot=webpage_1487407658382.png",
+        "Snapshot=webpage_1487407662281.png"
+    );
+    ns_end_transaction("COM_Browse_72ItemsPerPage", NS_AUTO_STATUS);
+    ns_page_think_time(0.932);
+   }
+    
+}
